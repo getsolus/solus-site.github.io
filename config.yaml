@@ -1,0 +1,11 @@
+baseurl: "https://solus-project.com/"
+config: "config.yaml"
+languageCode: "en-us"
+title: "Solus"
+
+# Blackfriday Markdown Tweaks
+blackfriday:
+    hrefTargetBlank: true
+
+# Theming
+themesDir: "themes"
