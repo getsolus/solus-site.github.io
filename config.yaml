@@ -1,11 +1,18 @@
+---
+# Config
 baseurl: "https://solus-project.com/"
 config: "config.yaml"
-languageCode: "en-us"
 title: "Solus"
-
+# Content
+archetypedir: "themes/solus/archetypes"
+languageCode: "en-us"
+metaDataFormat: "yaml"
+paginate: 5
+layoutsdir:   "themes/solus/layouts"
 # Blackfriday Markdown Tweaks
 blackfriday:
-    hrefTargetBlank: true
-
+    hrefTargetBlank: true # Opens external URLs in a new tab / window (target _blank)
 # Theming
 themesDir: "themes"
+theme: "solus"
+---
