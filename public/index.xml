@@ -6,7 +6,38 @@
     <description>Recent content on Solus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jul 2016 11:08:13 +0300</lastBuildDate>
     <atom:link href="https://solus-project.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>press centre</title>
+      <link>https://solus-project.com/press-centre/</link>
+      <pubDate>Thu, 28 Jul 2016 11:08:13 +0300</pubDate>
+      
+      <guid>https://solus-project.com/press-centre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://solus-project.com/blog/</link>
+      <pubDate>Thu, 28 Jul 2016 11:08:07 +0300</pubDate>
+      
+      <guid>https://solus-project.com/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome to the new site!</title>
+      <link>https://solus-project.com/blog/welcome-to-the-new-site/</link>
+      <pubDate>Wed, 27 Jul 2016 00:10:11 +0300</pubDate>
+      
+      <guid>https://solus-project.com/blog/welcome-to-the-new-site/</guid>
+      <description>&lt;p&gt;Everything here until MORE will be in the summary.&lt;/p&gt;
+
+&lt;p&gt;Anything after isn&amp;rsquo;t in summary!&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

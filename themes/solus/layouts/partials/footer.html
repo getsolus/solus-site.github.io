@@ -2,10 +2,10 @@
 <footer>
     <!-- Beginning of Copyright & Menus -->
     <div data-solus-component="footer-menus">
-        {{ .range .Site.Menus.footer }}
+        {{ range .Site.Menus.footer }}
             <div data-solus-component="full-width-row">
                 <b>{{ humanize .Name }}</b>
-                {{ .range .Menu }}
+                {{ range .Menu }}
                     {{ if .hasPrefix .URL "irc://" }}
                         <a href="{{ safeURL .URL }}">{{ .Name }}</a>
                     {{ else }}
@@ -16,7 +16,7 @@
         {{ end }}
     </span>
     <p>
-        Copyright © 2015-2016 Solus Project.The Solus logo is Copyright © 2016 Solus Project.<br />
+        Copyright © {{ .Site.Params.copyrightYears }} Solus Project. The Solus logo is Copyright © 2016 Solus Project.<br />
         All rights reserved.
     </p>
     <!-- End of Copyright & Menus -->

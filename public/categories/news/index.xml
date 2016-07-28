@@ -6,16 +6,19 @@
     <description>Recent content in News on Solus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Jul 2016 23:38:47 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jul 2016 00:10:11 +0300</lastBuildDate>
     <atom:link href="https://solus-project.com/categories/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>welcome to the new site</title>
+      <title>Welcome to the new site!</title>
       <link>https://solus-project.com/blog/welcome-to-the-new-site/</link>
-      <pubDate>Tue, 26 Jul 2016 23:38:47 +0300</pubDate>
+      <pubDate>Wed, 27 Jul 2016 00:10:11 +0300</pubDate>
       
       <guid>https://solus-project.com/blog/welcome-to-the-new-site/</guid>
-      <description></description>
+      <description>&lt;p&gt;Everything here until MORE will be in the summary.&lt;/p&gt;
+
+&lt;p&gt;Anything after isn&amp;rsquo;t in summary!&lt;/p&gt;
+</description>
     </item>
     
   </channel>
