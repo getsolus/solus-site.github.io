@@ -12,6 +12,62 @@ layoutsdir:   "themes/solus/layouts"
 # Blackfriday Markdown Tweaks
 blackfriday:
     hrefTargetBlank: true # Opens external URLs in a new tab / window (target _blank)
+# Menu
+menu:
+    main:
+        - Name: "Home"
+          Identifier: "home"
+          URL: "/"
+        - Name: "Blog"
+          Identifier: "blog"
+          URL: "/blog"
+        - Name: "Download"
+          Identifier: "download"
+          URL: "/download"
+        - Name: "Support Us"
+          Identifier: "support-us"
+          URL: "/support-us"
+        - Name: "Solus"
+          Identifier: "solus"
+          URL: "/solus"
+        - Name: "Budgie"
+          Identifier: "budgie"
+          URL: "/budgie"
+        - Name: "Press"
+          Identifier: "press"
+          URL: "/press"
+    footer: ["solus", "community", "support"]
+    solus:
+        - Name: "Overview"
+          URL: "/solus"
+        - Name: "Download"
+          URL: "/download"
+        - Name: "Technical Specifications"
+          URL: "/solus/technical-specifications"
+    community:
+        - Name: "Facebook"
+          URL: "https://facebook.com/get.solus"
+        - Name: "Google+"
+          URL: "https://plus.google.com/u/0/+Solus-Project"
+        - Name: "Reddit"
+          URL: "https://reddit.com/SolusProject"
+        - Name: "Twitter"
+          URL: "https://twitter.com/SolusProject"
+    support:
+        - Name: "Bug Tracker"
+          URL: "https://bugs.solus-project.com"
+        - Name: "Documentation"
+          URL: "https://wiki.solus-project.com"
+        - Name: "Forums"
+          URL: "https://solus-project.com/forums"
+        - Name: "Google+ Community"
+          URL: "https://plus.google.com/communities/104830131595272878110"
+        - Name: "IRC"
+          URL: "irc://irc.freenode.net/#Solus"
+# Special Params
+params:
+    imgdir: {{ "/imgs/" | absURL }}
+    jsdir: {{ "/js/" | absURL }}"
 # Theming
 themesDir: "themes"
 theme: "solus"

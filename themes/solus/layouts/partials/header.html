@@ -1,0 +1,19 @@
+<!-- Beginning of Solus Site Header -->
+<div data-solus-component="header">
+    <!-- Logo -->
+    <a href={{ printf "%s" .Site.BaseURL }}><img src="{{ .Site.Params.imgdir }}logo.png" /></a>
+    <!-- Menu -->
+    {{ range .Site.Menus.main }}
+        <a
+            href="{{ .URL | absURL }}"
+            {{ $absoluteMenuURL := .URL | absURL }}
+            {{ $currentPage := absURL }}
+            {{ if or (.IsMenuCurrent) (hasPrefix $currentPage $absoluteMenuURL) }}
+                active
+            {{ end }}
+        >
+            {{ .Name }}
+        </a>
+    {{ end }}
+</div>
+<!-- End of Solus Site Header -->
