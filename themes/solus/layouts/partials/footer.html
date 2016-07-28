@@ -6,7 +6,11 @@
             <div data-solus-component="full-width-row">
                 <b>{{ humanize .Name }}</b>
                 {{ .range .Menu }}
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    {{ if .hasPrefix .URL "irc://" }}
+                        <a href="{{ safeURL .URL }}">{{ .Name }}</a>
+                    {{ else }}
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    {{ end }}
                 {{ end }}
             </div>
         {{ end }}
