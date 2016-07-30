@@ -1,14 +1,13 @@
 <!-- Beginning of Solus Site Header -->
 <header>
     <!-- Logo -->
-    <a href={{ printf "%s" .Site.BaseURL }}><img src="{{ .Site.Params.imgdir }}logo.png" /></a>
+    <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.BaseURL }}/imgs/logo.png" /></a>
     <!-- Menu -->
+    {{ $pagePermalink := .Permalink }}
     {{ range .Site.Menus.main }}
-        <a
-            href="{{ .URL | absURL }}"
-            {{ $absoluteMenuURL := .URL | absURL }}
-            {{ $currentPage := absURL }}
-            {{ if or (.IsMenuCurrent) (hasPrefix $currentPage $absoluteMenuURL) }}
+        {{ $absoluteMenuURL := (.URL | absURL) }}
+        <a href="{{ $absoluteMenuURL }}"
+            {{ if hasPrefix "$pagePermalink" "$absoluteMenuURL" }}
                 active
             {{ end }}
         >

@@ -2,27 +2,31 @@
 <footer>
     <!-- Beginning of Copyright & Menus -->
     <div data-solus-component="footer-menus">
-        {{ range .Site.Menus.footer }}
-            <div data-solus-component="full-width-row">
-                <b>{{ humanize .Name }}</b>
-                {{ range .Menu }}
-                    {{ if .hasPrefix .URL "irc://" }}
-                        <a href="{{ safeURL .URL }}">{{ .Name }}</a>
-                    {{ else }}
-                        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ $siteMenus := .Site.Menus }}
+        {{ range .Site.Params.footermenu }}
+            {{ $menuName := . }}
+            {{ with (index $siteMenus .) }}
+                <div data-solus-component="full-width-row">
+                    <b>{{ humanize $menuName }}</b>
+                    {{ range . }}
+                        {{ if hasPrefix .URL "irc://" }}
+                            <a href="{{ safeURL .URL }}">{{ .Name }}</a>
+                        {{ else }}
+                            <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+                        {{ end }}
                     {{ end }}
-                {{ end }}
-            </div>
+                </div>
+            {{ end }}
         {{ end }}
     </span>
     <p>
-        Copyright © {{ .Site.Params.copyrightYears }} Solus Project. The Solus logo is Copyright © 2016 Solus Project.<br />
+        Copyright © {{ .Site.Params.copyright }} Solus Project. The Solus logo is Copyright © 2016 Solus Project.<br />
         All rights reserved.
     </p>
     <!-- End of Copyright & Menus -->
     <!-- Friends -->
     <div data-solus-component="footer-friends">
-        <a href="https://dediserve.com"><img src="{{ .Site.Params.imgdir }}friends/dediserve.png" /></a>
-        <a href="https://gnome.org"><img src="{{ .Site.Params.imgdir }}friends/gnome.png" /></a>
+        <a href="https://dediserve.com"><img src="{{ .Site.BaseURL }}/imgs/friends/dediserve.png" /></a>
+        <a href="https://gnome.org"><img src="{{ .Site.BaseURL }}/imgs/friends/gnome.png" /></a>
     </div>
 </footer>

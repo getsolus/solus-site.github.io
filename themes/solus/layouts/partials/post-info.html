@@ -1,0 +1,17 @@
+<!-- Beginning of Post Info -->
+<div data-solus-component="post-info">
+    <h1>{{ .title }}</h1>
+    <span>{{ .author.name }} / {{ .author.role }}</span>
+    <b>{{ .Date.Format "Thursday, Jan 1, 1970" }} in
+        {{ range .categories }}
+            <a href={{ printf "/categories/%s" . | absURL }}>
+                {{ if eq . "twis"}}
+                    TWIS
+                {{ else }}
+                    {{ humanize . }}
+                {{ end }}
+            </a>
+        {{ end }}
+    </b>
+</div>
+<!-- End of Post Info -->
