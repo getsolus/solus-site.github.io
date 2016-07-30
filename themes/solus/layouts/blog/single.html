@@ -7,10 +7,12 @@
     </head>
     <body>
         {{ partial "header.html" . }}
-
         <div data-solus-component="content">
             {{ partial "post-info.html" $postInfo }}
-            {{ partial "blog-sidepane.html" }}
+            {{ .Content }}
+        </div>
+        <div data-solus-component="blog-sidepane">
+            {{ partial "blog-sidepane.html" . }}
         </div>
 
         {{ partial "footer.html" . }}
