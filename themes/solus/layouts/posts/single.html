@@ -1,3 +1,5 @@
+{{ $author := index .Site.Data.users .Params.author }}
+{{ $postInfo := (dict "author" $author "categories" .Params.categories "blog" . ) }}
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,10 +8,11 @@
     <body>
         {{ partial "header.html" . }}
         <div data-solus-component="content">
-
+            {{ partial "post-info.html" $postInfo }}
+            {{ .Content }}
         </div>
         <div data-solus-component="blog-sidepane">
-
+            {{ partial "blog-sidepane.html" . }}
         </div>
 
         {{ partial "footer.html" . }}

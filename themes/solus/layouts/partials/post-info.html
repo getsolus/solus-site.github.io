@@ -1,8 +1,8 @@
 <!-- Beginning of Post Info -->
 <div data-solus-component="post-info">
     <h1>{{ .blog.Title }}</h1>
-    <span>{{ .author.name }} / {{ .author.role }}</span>
-    <b>{{ dateFormat "January 1, 1970" .blog.Date }} in
+    <span>{{ .author.Name }} / {{ .author.Role }}</span>
+    <b>{{ dateFormat "January 1, 2016" .blog.Date }} in
         {{ range .categories }}
             <a href={{ printf "/categories/%s" . | absURL }}>
                 {{ if eq . "twis"}}

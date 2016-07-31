@@ -84,17 +84,7 @@ params:
     categories: ["budgie", "news", "packages", "plans", "releases", "security", "twis"]
     # Because I can't for the life of me get Hugo
     footermenu: ["solus", "community", "support"]
-    copyright: "2015-2016"
-    users:
-        ikey:
-          name: "Ikey Doherty"
-          role: "Solus Project Founder and Lead Developer"
-        justin:
-          name: "Justin Zobel"
-          role: "Solus Project Community Manager"
-        joshua:
-          name: "Joshua Strobl"
-          role: "Solus Project Communications Managers"
+    copyright: "2016"
 # Theming
 themesDir: "themes"
 theme: "solus"

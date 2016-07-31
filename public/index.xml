@@ -24,7 +24,8 @@
       <pubDate>Thu, 28 Jul 2016 11:08:07 +0300</pubDate>
       
       <guid>https://solus-project.com/blog/</guid>
-      <description></description>
+      <description>&lt;p&gt;{{ partial &amp;ldquo;header.html&amp;rdquo; . }}&lt;/p&gt;
+</description>
     </item>
     
     <item>
