@@ -26,7 +26,13 @@ To develop the Solus site, you will need Go and Hugo. You can install Go by foll
 
 ### Local Server
 
-You can start up a local server by calling `hugo server` in the `solus-site` directory.
+You can start up a local server by calling `hugo server` in the `solus-site` directory. It is recommended you modify your base URL with the following command, to enable you to do navigation throughout your local site:
+
+``` bash
+hugo server --baseURL "http://127.0.0.1:1313"
+```
+
+**Note:** You will not need to restart the server when doing changes. Hugo does file watching across all the things.
 
 ### Compile
 
@@ -34,4 +40,4 @@ You can "compile" the latest version of the Solus site by simply typing `hugo` i
 
 ### Styling
 
-I use 4-char wide tabs, not spaces. #dealwithit
+I use 4-char wide tabs, not spaces, in everything **except** the YAML files.
