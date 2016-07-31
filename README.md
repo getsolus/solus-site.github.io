@@ -21,8 +21,8 @@ configuration in the `content/posts/` directory.
 
 To develop the Solus site, you will need Go and Hugo. You can install Go by following the instructions [here](http://golang.org) and use the following command(s) to set up Hugo:
 
-1. You will need to go get Hugo: `go get -u -v github.com/spf13/hugo
-2. You will need to add the path to the bin folder of your Go workspace to your existing `PATH` in your appropriate terminal rc file (*ex. `.zshrc`).
+1. You will need to go get Hugo: `go get -u -v github.com/spf13/hugo`
+2. You will need to add the path to the bin folder of your Go workspace to your existing `PATH` in your appropriate terminal rc file (*ex. `.zshrc`*).
 
 ### Local Server
 
