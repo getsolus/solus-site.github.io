@@ -2,22 +2,20 @@
 {{ $postInfo := (dict "author" $author "categories" .Params.categories "blog" . ) }}
 <!DOCTYPE html>
 <html>
-    <head>
-
-    </head>
+    {{ partial "metadata.html" . }}
     <body>
         {{ partial "header.html" . }}
-        <div data-solus-component="content">
-            {{ partial "post-info.html" $postInfo }}
-            {{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
-                <img src="{{ .Site.BaseURL }}/imgs/posts/{{ .Params.featuredimage }}" class="featured-image" />
-            {{ end }}
-            {{ .Content }}
-        </div>
-        <div data-solus-component="blog-sidepane">
+        <div data-solus-component="main">
+            <div data-solus-component="content">
+                {{ partial "post-info.html" $postInfo }}
+                {{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
+                    <img src="{{ .Site.BaseURL }}/imgs/posts/{{ .Params.featuredimage }}" class="featured-image" />
+                {{ end }}
+                {{ .Content }}
+            </div>
+
             {{ partial "blog-sidepane.html" . }}
         </div>
-
         {{ partial "footer.html" . }}
     </body>
 </html>

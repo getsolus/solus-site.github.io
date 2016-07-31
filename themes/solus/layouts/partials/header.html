@@ -6,13 +6,7 @@
     {{ $pagePermalink := .Permalink }}
     {{ range .Site.Menus.main }}
         {{ $absoluteMenuURL := (.URL | absURL) }}
-        <a href="{{ $absoluteMenuURL }}"
-            {{ if hasPrefix "$pagePermalink" "$absoluteMenuURL" }}
-                active
-            {{ end }}
-        >
-            {{ .Name }}
-        </a>
+        <a href="{{ $absoluteMenuURL }}"{{ if hasPrefix "$pagePermalink" "$absoluteMenuURL" }}active{{ end }}>{{ .Name }}</a>
     {{ end }}
 </header>
 <!-- End of Solus Site Header -->
