@@ -1,5 +1,3 @@
-{{ $author := index .Site.Data.users .Params.author }}
-{{ $postInfo := (dict "author" $author "categories" .Params.categories "blog" . ) }}
 <!DOCTYPE html>
 <html>
     {{ partial "metadata.html" . }}
@@ -7,14 +5,14 @@
         {{ partial "header.html" . }}
         <div data-solus-component="main">
             <div data-solus-component="content">
-                {{ partial "post-info.html" $postInfo }}
+                {{ partial "blog/info.html" (dict "blog" . "site" .Site) }}
                 {{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
                     <img src="{{ .Site.BaseURL }}/imgs/posts/{{ .Params.featuredimage }}" class="featured-image" />
                 {{ end }}
                 {{ .Content }}
             </div>
 
-            {{ partial "blog-sidepane.html" . }}
+            {{ partial "blog/sidepane.html" . }}
         </div>
         {{ partial "footer.html" . }}
     </body>

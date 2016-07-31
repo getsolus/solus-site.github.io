@@ -1,5 +1,6 @@
 ---
 author: "your_username"
-featuredimage: ""
 categories: [ "news" ]
+featuredimage: ""
+internaltype: "post"
 ---
