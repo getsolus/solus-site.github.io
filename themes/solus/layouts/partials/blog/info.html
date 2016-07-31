@@ -7,7 +7,7 @@
     <h1>{{ $blog.Title }}</h1>
     <span>{{ $author.Name }} / {{ $author.Role }}</span>
     <b>{{ dateFormat "January 2, 2006" $blog.Date }} in
-        {{ range $site.Params.categories }}
+        {{ range $blog.Params.categories }}
             <a href="{{ $site.BaseURL }}/categories/{{ . }}">
                 {{ if eq . "twis"}}
                     TWIS
