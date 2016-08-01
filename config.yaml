@@ -8,7 +8,7 @@ archetypedir: "themes/solus/archetypes"
 buildDrafts: true
 languageCode: "en-us"
 metaDataFormat: "yaml"
-paginate: 5
+paginate: 2
 layoutsdir:   "themes/solus/layouts"
 # Blackfriday Markdown Tweaks
 blackfriday:
@@ -81,10 +81,11 @@ menu:
         URL: "irc://irc.freenode.net/#Solus"
 # Special Params
 params:
-    categories: ["budgie", "news", "packages", "plans", "releases", "security", "twis"]
-    # Because I can't for the life of me get Hugo
+    # Because I can't for the life of me get Hugo nested lists to work
     footermenu: ["solus", "community", "support"]
     copyright: "2016"
+# Taxonomies
+    category: ["budgie", "news", "packages", "plans", "releases", "security", "twis"]
 # Theming
 themesDir: "themes"
 theme: "solus"

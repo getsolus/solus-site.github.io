@@ -5,7 +5,7 @@ categories:
 - plans
 date: 2016-07-31T17:19:31+03:00
 featuredimage: "replacement-of-release-schedule.png"
-internaltype: post
+internaltype: "post"
 title: "Replacement of Release Schedule"
 ---
 
