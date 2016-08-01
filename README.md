@@ -12,8 +12,8 @@ Static, [Hugo-based](https://gohugo.io) home of Solus and its projects. This web
 
 ### New Post
 
-To create a new post, call `hugo new PATH`. For instance, `hugo new posts/welcome-to-the-new-site.md` would create `welcome-to-the-new-site.md` with our default
-configuration in the `content/posts/` directory.
+To create a new post, call `hugo new PATH`. For instance, `hugo new blog/welcome-to-the-new-site.md` would create `welcome-to-the-new-site.md` with our default
+configuration in the `content/blog/` directory.
 
 ## Development
 
