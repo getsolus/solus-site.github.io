@@ -19,66 +19,85 @@ menu:
       - Name: "Home"
         Identifier: "home"
         URL: "/"
+        Weight: 1
       - Name: "Blog"
         Identifier: "blog"
         URL: "/blog"
+        Weight: 2
       - Name: "Download"
         Identifier: "download"
         URL: "/download"
+        Weight: 3
       - Name: "Support Us"
         Identifier: "support-us"
         URL: "/support-us"
+        Weight: 4
       - Name: "Solus"
         Identifier: "solus-page"
         URL: "/solus"
+        Weight: 5
       - Name: "Budgie"
         Identifier: "budgie"
         URL: "/budgie"
+        Weight: 6
       - Name: "Press"
         Identifier: "press"
         URL: "/press"
+        Weight: 7
   solus:
       - Identifier: "solus"
       - Name: "Overview"
         Identifier: "overview"
         URL: "/solus"
+        Weight: 1
       - Name: "Download"
         Identifier: "download"
         URL: "/download"
+        Weight: 2
       - Name: "Technical Specifications"
         Identifier: "technical-specifications"
         URL: "/solus/technical-specifications"
+        Weight: 3
   community:
       - Identifier: "community"
       - Name: "Facebook"
         Identifier: "facebook"
         URL: "https://facebook.com/get.solus"
+        Weight: 1
       - Name: "Google+"
         Identifier: "google_plus"
         URL: "https://plus.google.com/u/0/+Solus-Project"
+        Weight: 2
       - Name: "Reddit"
         Identifier: "reddit"
         URL: "https://reddit.com/SolusProject"
+        Weight: 3
       - Name: "Twitter"
         Identifier: "twitter"
         URL: "https://twitter.com/SolusProject"
+        Weight: 4
   support:
       - Identifier: "support"
       - Name: "Bug Tracker"
         Identifier: "bug_tracker"
         URL: "https://bugs.solus-project.com"
+        Weight: 1
       - Name: "Documentation"
         Identifier: "documentation"
         URL: "https://wiki.solus-project.com"
+        Weight: 2
       - Name: "Forums"
         Identifier: "forums"
         URL: "https://solus-project.com/forums"
+        Weight: 3
       - Name: "Google+ Community"
         Identifier: "google_plus_community"
         URL: "https://plus.google.com/communities/104830131595272878110"
+        Weight: 4
       - Name: "IRC"
         Identifier: "irc"
         URL: "irc://irc.freenode.net/#Solus"
+        Weight: 5
 # Special Params
 params:
     # Because I can't for the life of me get Hugo nested lists to work
