@@ -6,6 +6,7 @@ title: "Solus"
 # Content
 archetypedir: "themes/solus/archetypes"
 buildDrafts: true
+googleAnalytics: "UA-Not-Yet"
 languageCode: "en-us"
 metaDataFormat: "yaml"
 paginate: 2

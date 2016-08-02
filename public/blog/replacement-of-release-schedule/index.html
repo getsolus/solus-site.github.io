@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
-	
+
 <head>
 
-<title>News | Solus</title>
-<meta property="og:title" content="News | Solus" />
+<title>Replacement of Release Schedule | Solus</title>
+<meta property="og:title" content="Replacement of Release Schedule | Solus" />
+
+
+	
+	<meta name="author" content="Ikey Doherty" />
+	
+	<meta property="profile:first_name" content="Ikey"/>
+	<meta property="profile:gender" content="male" />
+	<meta property="profile:last_name" content="Doherty"/>
+	<meta property="profile:username" content="ikey"/>
 
 
 
 
+	<meta property="og:image" content="https://solus-project.com//imgs/posts/replacement-of-release-schedule.png" />
 
 
-<meta property="og:link" content="https://solus-project.com/categories/news/" />
+<meta property="og:link" content="https://solus-project.com/blog/replacement-of-release-schedule/" />
 
 
 
@@ -61,13 +71,8 @@
 
 
 		<div data-solus-component="main">
-			
-			
-			
+			<div data-solus-component="content">
 				
-				<div data-solus-component="featured-blog-post">
-					<div data-solus-minor-component="featured-blog-info">
-						
 
 
 
@@ -85,39 +90,55 @@
 	
 
 
-						<p>In the not so distant past, Solus followed a static point release model. Our most current release at this time is 1.2, with a 1.2.1 planned to drop in the near future.
+				
+					<img src="https://solus-project.com//imgs/posts/replacement-of-release-schedule.png" class="featured-image" />
+				
+				
+
+<p>In the not so distant past, Solus followed a static point release model. Our most current release at this time is 1.2, with a 1.2.1 planned to drop in the near future.
 However, we also recently <a href="https://solus-project.com/posts/this-week-in-solus-31" target="_blank">announced</a> our move to a rolling release model.</p>
 
-						<a href="https://solus-project.com/blog/replacement-of-release-schedule/">Read More</a>
-					</div>
-					<img src="https://solus-project.com//imgs/posts/replacement-of-release-schedule.png" />
-				</div>
-				
-				
-				<div data-solus-component="content">
-					
-						
+<p>As such, these two schools of thought are in contradiction of one another. Going forward, the old release schedule is <strong>officially</strong>, entirely dropped, and the branching
+pattern of a point-release-system is also shed.</p>
 
+<h2 id="important-points">Important Points</h2>
 
+<ul>
+<li>There is no longer a concept of separate major releases. You will always run on the current “distribution version”.</li>
+<li>Support, therefore, does not end for the current, and only, series. Note however you are still expected to update your system. We’ll introduce some changes to make this
+simpler to manage, of course.</li>
+<li>There is no longer a concept of “1.3”, “2.0”, etc. Future ISOs will follow the internal versioning system</li>
+<li>Future ISOs will land both features and package refreshes. Whilst you can always configure your installed Solus to match that of the ISO, through package selection, installer
+features are only ever available in reinstalls (This is the only time you ever see the installer)</li>
+<li>The internal versioning system at present is based on the concept of major releases, so it will therefore be dropped. For example, the 1.2 release is internally referred to
+as: <strong>1.201629.7.0</strong>. At minimum, we’ll drop the major version, and use this scheme in future ISO updates.</li>
+</ul>
 
-	
+<h2 id="1-2-1-update">1.2.1 - Update</h2>
 
-	
-	<div data-solus-component="post-info">
-		<h1>Welcome to the new site!</h1>
-		<span>Joshua Strobl / Solus Project Communications Managers</span>
-		<b>July 27, 2016 in
-			<a href="https://solus-project.com/categories/news">News</a>
-			</b>
-	</div>
-	
+<p>We can only apologise in announcing that yes, 1.2.1 has been delayed. This has primarily come about due to a mixture of circumstances (work schedules), a wish to ensure consistency
+and longevity in the installations (GNOME 3.20 updates), and the migration to a rolling release model. As soon as it is appropriate, 1.2.1 will be released. However, the release
+schedule is now <strong>officially withdrawn</strong>, leaving us some extra time to get 1.2.1 polished to the level we require.</p>
 
+<h2 id="coming-items">Coming Items</h2>
 
-						<hr />
-					
-				</div>
-				
-			
+<p>Our upcoming update list involves, but is not limited to:
+- Update to GCC 6.1.0 (ongoing right now, handling libmpx incorporation)
+- Move to GNOME 3.20.x
+- Update to X.Org Server 1.18.4
+- Ongoing rebuilds to utilise newly available CPU features on the build server to improve Solus packages
+- Budgie 10.2.7 – whilst we initially envisaged going directly to 10.3, which has outstanding goals, we’ve opted to provide a maintenance release of Budgie to accommodate all Budgie
+downstreams in the near future, due to the already extensive diff since 10.2.6. You can see the latest git build in the featured image for this post.</p>
+
+<h2 id="advantages">Advantages</h2>
+
+<p>The core advantage to the withdrawal of this static release schedule is that it in fact enables us to land features with a higher velocity, and <strong>maintain</strong> that velocity over time. With
+the move to a rolling release, one of our primary goals is in increasing the project cadence. As such, this frees us up to land future updates and refreshed ISOs, as and when new
+features, fixes and changes are available, as opposed to being tied to a rigid schedule. In the long run, this will result in <strong>more</strong> ISO releases and updates, enabling incremental testing
+of technology in Solus.</p>
+
+			</div>
+
 			
 
 <div data-solus-component="blog-sidepane">
@@ -149,21 +170,6 @@ However, we also recently <a href="https://solus-project.com/posts/this-week-in-
 	</div>
 	
 </div>
-
-
-			
-
-	<div data-solus-component="paginate">
-		
-
-		<a href="/categories/news/page/1" active>1</a>
-
-		
-			
-			<a href="/categories/news/page/2">2</a>
-		
-	</div>
-
 
 
 		</div>

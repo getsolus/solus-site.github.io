@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
-	
+
 <head>
 
-<title>News | Solus</title>
-<meta property="og:title" content="News | Solus" />
+<title>This Week in Solus #31 | Solus</title>
+<meta property="og:title" content="This Week in Solus #31 | Solus" />
+
+
+	
+	<meta name="author" content="Joshua Strobl" />
+	
+	<meta property="profile:first_name" content="Joshua"/>
+	<meta property="profile:gender" content="male" />
+	<meta property="profile:last_name" content="Strobl"/>
+	<meta property="profile:username" content="joshua"/>
 
 
 
 
 
-
-<meta property="og:link" content="https://solus-project.com/categories/news/" />
+<meta property="og:link" content="https://solus-project.com/blog/this-week-in-solus-install-31/" />
 
 
 
@@ -61,13 +69,8 @@
 
 
 		<div data-solus-component="main">
-			
-			
-			
+			<div data-solus-component="content">
 				
-				<div data-solus-component="featured-blog-post">
-					<div data-solus-minor-component="featured-blog-info">
-						
 
 
 
@@ -75,49 +78,55 @@
 
 	
 	<div data-solus-component="post-info">
-		<h1>Replacement of Release Schedule</h1>
-		<span>Ikey Doherty / Solus Project Founder and Lead Developer</span>
-		<b>July 31, 2016 in
+		<h1>This Week in Solus #31</h1>
+		<span>Joshua Strobl / Solus Project Communications Managers</span>
+		<b>July 10, 2016 in
 			<a href="https://solus-project.com/categories/news">News</a>
 			<a href="https://solus-project.com/categories/plans">Plans</a>
+			<a href="https://solus-project.com/categories/twis">TWIS</a>
 			</b>
 	</div>
 	
 
 
-						<p>In the not so distant past, Solus followed a static point release model. Our most current release at this time is 1.2, with a 1.2.1 planned to drop in the near future.
-However, we also recently <a href="https://solus-project.com/posts/this-week-in-solus-31" target="_blank">announced</a> our move to a rolling release model.</p>
-
-						<a href="https://solus-project.com/blog/replacement-of-release-schedule/">Read More</a>
-					</div>
-					<img src="https://solus-project.com//imgs/posts/replacement-of-release-schedule.png" />
-				</div>
 				
 				
-				<div data-solus-component="content">
-					
-						
 
+<p>Welcome to the 31st installation of This Week in Solus.</p>
 
+<h2 id="operation-go-moar-faster">Operation Go Moar Faster</h2>
 
-	
+<p>Solus has always held the philosophy of a “stable core, updated apps”. To achieve the level of stability we desire, we have been utilizing the LTS branch of the Linux kernel, prioritizing stability in our graphics stack, and sticking to a specific GNOME release series for each major release of Solus.</p>
 
-	
-	<div data-solus-component="post-info">
-		<h1>Welcome to the new site!</h1>
-		<span>Joshua Strobl / Solus Project Communications Managers</span>
-		<b>July 27, 2016 in
-			<a href="https://solus-project.com/categories/news">News</a>
-			</b>
-	</div>
-	
+<p>To be more precise, Solus 1.0 shipped with GNOME 3.18.x and the plan of using GNOME 3.22.x in Solus 2.0.</p>
 
+<p>On the “updated apps” portion of that philosophy, this has meant we have had the liberty of quickly delivering updates of applications outside of the GNOME stack to our users, e.g. Atom, Firefox, LibreOffice, Thunderbird, and so-forth without concern of a shift in the “core” of Solus and issues with stability.</p>
 
-						<hr />
-					
-				</div>
-				
-			
+<p>But we are far from conservative even with the “core” of Solus. Before Mesa 12 was even released, we were using Mesa 12 RC4. We have shifted from gcc 4.8 to 5.3.0 in the lifetime of Solus. We ship the latest glibc (2.23). We even have plans on shifting to the latest Pulseaudio. The reality is a conservative operating system just doesn’t do these things. We’ve dealt head-on with a variety of changes to Solus, whether they be renames of the entire operating system (remember EvolveOS?), repo location changes, to shifting users from Solus 1.0 to 1.1 across a Python UCS4 migration. If there is one truth, one thing we have learned over the course of all this it is the following:</p>
+
+<p>We’re really <strong>good</strong> at keeping things <strong>stable</strong> and really <strong>bad</strong> at <strong>not</strong> being a rolling release. So effective immediately, <strong>Solus now follows a rolling release model</strong>.</p>
+
+<p><img src="/imgs/autobots-rollout.gif" alt="Autobots, roll out." /></p>
+
+<p>What does this mean for you? We’re taking it up a notch from just updated apps.</p>
+
+<ul>
+<li>We’ll be updating to Pulseaudio 9 to resolve issues regarding sound playback over HDMI, likely making that into Solus 1.2.1.</li>
+<li>Next week after Solus 1.2.1, we’re rolling out GNOME 3.20. Thanks to work done by horst3180, Budgie is already compatible with GNOME 3.20, so that will not be a blocker for updating the GNOME stack.</li>
+<li>So long as you keep your system updated, your Solus 1.x installation will be supported indefinitely. Releases are primarily for us to focus on milestones and provide a snapshot for installation.</li>
+</ul>
+
+<p><img src="/imgs/magic.gif" alt="Magic." /></p>
+
+<h2 id="ypkg-improvements">YPKG Improvements</h2>
+
+<p>Ikey has landed a multitude of improvements to ypkg recently, including:
+- Support for using git as a source!
+- Automatic dependencies when using a git source or for emul32 builds. No more needing to add glibc-32bit-devel, libgcc-32bit, and libstdc++-32bit as builddeps when you have emul32 enabled.
+- Enabling + and . (period) within package names.</p>
+
+			</div>
+
 			
 
 <div data-solus-component="blog-sidepane">
@@ -149,21 +158,6 @@ However, we also recently <a href="https://solus-project.com/posts/this-week-in-
 	</div>
 	
 </div>
-
-
-			
-
-	<div data-solus-component="paginate">
-		
-
-		<a href="/categories/news/page/1" active>1</a>
-
-		
-			
-			<a href="/categories/news/page/2">2</a>
-		
-	</div>
-
 
 
 		</div>

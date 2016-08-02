@@ -1,49 +1,49 @@
 <!-- Begnning of Metadata -->
 <head>
-    <!-- Page Info -->
-    <title>{{ .Title }} | Solus</title>
-    <meta property="og:title" content="{{ .Title }} | Solus" />
-    <!-- Beginning of Author Info -->
-    {{ if isset .Params "author" }}
-        {{ $author := index .Site.Data.users .Params.author }}
-        <meta name="author" content="{{ $author.Name }}" />
-        {{ $splitName := (split $author.Name " ") }}
-        <meta property="profile:first_name" content="{{ index $splitName 0 }}"/>
-        <meta property="profile:gender" content="{{ $author.Gender }}" />
-        <meta property="profile:last_name" content="{{ index $splitName 1 }}"/>
-        <meta property="profile:username" content="{{ .Params.author }}"/>
-    {{ end }}
-    <!-- End of Author Info -->
-    <!-- Beginning of Featured Image -->
-    {{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
-        <meta property="og:image" content="{{ .Site.BaseURL }}/imgs/posts/{{ .Params.featuredimage }}" />
-    {{ end }}
-    <!-- End of Featured Image -->
-    <meta property="og:link" content="{{ .Permalink }}" />
-    <!-- End of Page Info -->
+<!-- Page Info -->
+<title>{{ .Title }} | Solus</title>
+<meta property="og:title" content="{{ .Title }} | Solus" />
+<!-- Beginning of Author Info -->
+{{ if isset .Params "author" }}
+	{{ $author := index .Site.Data.users .Params.author }}
+	<meta name="author" content="{{ $author.Name }}" />
+	{{ $splitName := (split $author.Name " ") }}
+	<meta property="profile:first_name" content="{{ index $splitName 0 }}"/>
+	<meta property="profile:gender" content="{{ $author.Gender }}" />
+	<meta property="profile:last_name" content="{{ index $splitName 1 }}"/>
+	<meta property="profile:username" content="{{ .Params.author }}"/>
+{{ end }}
+<!-- End of Author Info -->
+<!-- Beginning of Featured Image -->
+{{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
+	<meta property="og:image" content="{{ .Site.BaseURL }}/imgs/posts/{{ .Params.featuredimage }}" />
+{{ end }}
+<!-- End of Featured Image -->
+<meta property="og:link" content="{{ .Permalink }}" />
+<!-- End of Page Info -->
 
-    <!-- Beginning of Blog Post Specific Content (Requires Summary) -->
-    {{ if isset . "Summary" }}
-        <!-- Beginning of Article Metadata -->
-        <meta name="article:modified_time" content="{{ .Lastmod }}" />
-        <meta name="article:published_time" content="{{ .PublishedDate }}" />
-        <!-- End of Article Metadata -->
+<!-- Beginning of Blog Post Specific Content (Requires Summary) -->
+{{ if isset . "Summary" }}
+	<!-- Beginning of Article Metadata -->
+	<meta name="article:modified_time" content="{{ .Lastmod }}" />
+	<meta name="article:published_time" content="{{ .PublishedDate }}" />
+	<!-- End of Article Metadata -->
 
-        <!-- Beginning of Description -->
-        {{ $plainSummary := substr (.page.Summary | plainify) 0 140 }}
-        <meta name="description" content="{{ $plainSummary }}" />
-        <meta property="og:description" content="{{ $plainSummary }}" />
-        <!-- End of Description -->
-    {{ end }}
-    <!-- End of Blog Post Specific Content -->
+	<!-- Beginning of Description -->
+	{{ $plainSummary := substr (.page.Summary | plainify) 0 140 }}
+	<meta name="description" content="{{ $plainSummary }}" />
+	<meta property="og:description" content="{{ $plainSummary }}" />
+	<!-- End of Description -->
+{{ end }}
+<!-- End of Blog Post Specific Content -->
 
-    <!-- Site Info -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1,user-scalable=no" />
-    <meta property="og:site_name" content="Solus" />
-    <meta property="og:locale" content="{{ .Site.LanguageCode }}" />
-    {{ .Hugo.Generator }}
-    <!-- End of Site Info -->
+<!-- Site Info -->
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1,user-scalable=no" />
+<meta property="og:site_name" content="Solus" />
+<meta property="og:locale" content="{{ .Site.LanguageCode }}" />
+{{ .Hugo.Generator }}
+<!-- End of Site Info -->
 </head>
 <!-- End of Metadata -->

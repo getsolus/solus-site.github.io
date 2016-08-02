@@ -1,17 +1,17 @@
 <!-- Beginning of Pagination -->
 {{ if ne .paginator.TotalPages 0 }}
-    <div data-solus-component="paginate">
-        {{ if .paginator.HasPrev }}
-            {{ $previousPage := (sub .paginator.PageNumber 1) }}
-            <a href="{{ .paginator.URL }}page/{{ $previousPage }}">{{ $previousPage }}</a>
-        {{ end }}
+	<div data-solus-component="paginate">
+		{{ if .paginator.HasPrev }}
+			{{ $previousPage := (sub .paginator.PageNumber 1) }}
+			<a href="{{ .paginator.URL }}page/{{ $previousPage }}">{{ $previousPage }}</a>
+		{{ end }}
 
-        <a href="{{ .paginator.URL }}page/{{ .paginator.PageNumber }}" active>{{ .paginator.PageNumber }}</a>
+		<a href="{{ .paginator.URL }}page/{{ .paginator.PageNumber }}" active>{{ .paginator.PageNumber }}</a>
 
-        {{ if .paginator.HasNext }}
-            {{ $nextPage := (add .paginator.PageNumber 1) }}
-            <a href="{{ .paginator.URL }}page/{{ $nextPage }}">{{ $nextPage }}</a>
-        {{ end }}
-    </div>
+		{{ if .paginator.HasNext }}
+			{{ $nextPage := (add .paginator.PageNumber 1) }}
+			<a href="{{ .paginator.URL }}page/{{ $nextPage }}">{{ $nextPage }}</a>
+		{{ end }}
+	</div>
 {{ end }}
 <!-- End of Pagination -->

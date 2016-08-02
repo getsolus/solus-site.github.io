@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html>
-    {{ partial "metadata.html" . }}
-    <body>
-        {{ partial "header.html" . }}
-        <div data-solus-component="main">
-            {{ $blogPosts := .Paginator.Pages }}
-            {{ $firstBlog := (index $blogPosts 0) }}
-            {{ if and (isset $firstBlog.Params "featuredimage") (ne $firstBlog.Params.featuredimage "") }}
-                <!-- Beginning of Featured Blog Post -->
-                <div data-solus-component="featured-blog-post">
-                    <div data-solus-minor-component="featured-blog-info">
-                        {{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
-                        {{ $firstBlog.Summary }}
-                        <a href="{{ $firstBlog.Permalink }}">Read More</a>
-                    </div>
-                    <img src="{{ .Site.BaseURL }}/imgs/posts/{{ $firstBlog.Params.featuredimage }}" />
-                </div>
-                <!-- End of Featured Blog Post -->
-
-                <!-- All Other Blog Posts -->
-                <div data-solus-component="content">
-                    {{ range $blog := (after 1 $blogPosts) }}
-                        {{ partial "blog/info.html" (dict "blog" $blog "site" .Site) }}
-                        <hr />
-                    {{ end }}
-                </div>
-                <!-- End of Other Blog Posts -->
-            {{ else }}
-                <!-- Beginning of Generic Blog List -->
-                <div data-solus-component="content">
-                    {{ range $blog := $blogPosts }}
-                        {{ partial "blog/info.html" (dict "blog" $blog "site" .Site) }}
-                        <hr />
-                    {{ end }}
-                </div>
-                <!-- End of Generic Blog List -->
-            {{ end }}
-            {{ partial "blog/sidepane.html" . }}
-            {{ partial "blog/paginator.html" (dict "paginator" .Paginator "site" .Site) }}
-        </div>
-        {{ partial "footer.html" . }}
-    </body>
+	{{ partial "metadata.html" . }}
+	<body>
+		{{ partial "header.html" . }}
+		<div data-solus-component="main">
+			{{ $blogPosts := .Paginator.Pages }}
+			{{ $firstBlog := (index $blogPosts 0) }}
+			{{ if and (isset $firstBlog.Params "featuredimage") (ne $firstBlog.Params.featuredimage "") }}
+				<!-- Beginning of Featured Blog Post -->
+				<div data-solus-component="featured-blog-post">
+					<div data-solus-minor-component="featured-blog-info">
+						{{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
+						{{ $firstBlog.Summary }}
+						<a href="{{ $firstBlog.Permalink }}">Read More</a>
+					</div>
+					<img src="{{ .Site.BaseURL }}/imgs/posts/{{ $firstBlog.Params.featuredimage }}" />
+				</div>
+				<!-- End of Featured Blog Post -->
+				<!-- All Other Blog Posts -->
+				<div data-solus-component="content">
+					{{ range $blog := (after 1 $blogPosts) }}
+						{{ partial "blog/info.html" (dict "blog" $blog "site" .Site) }}
+						<hr />
+					{{ end }}
+				</div>
+				<!-- End of Other Blog Posts -->
+			{{ else }}
+				<!-- Beginning of Generic Blog List -->
+				<div data-solus-component="content">
+					{{ range $blog := $blogPosts }}
+						{{ partial "blog/info.html" (dict "blog" $blog "site" .Site) }}
+						<hr />
+						{{ end }}
+				</div>
+				<!-- End of Generic Blog List -->
+			{{ end }}
+			{{ partial "blog/sidepane.html" . }}
+			{{ partial "blog/paginator.html" (dict "paginator" .Paginator "site" .Site) }}
+		</div>
+		{{ partial "footer.html" . }}
+	</body>
 </html>

@@ -1,90 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Solus</title>
-    <link>https://solus-project.com/blog/</link>
-    <description>Recent content in Blogs on Solus</description>
+    <title>Twis on Solus</title>
+    <link>https://solus-project.com/categories/twis/</link>
+    <description>Recent content in Twis on Solus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jul 2016 17:19:31 +0300</lastBuildDate>
-    <atom:link href="https://solus-project.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Replacement of Release Schedule</title>
-      <link>https://solus-project.com/blog/replacement-of-release-schedule/</link>
-      <pubDate>Sun, 31 Jul 2016 17:19:31 +0300</pubDate>
-      
-      <guid>https://solus-project.com/blog/replacement-of-release-schedule/</guid>
-      <description>
-
-&lt;p&gt;In the not so distant past, Solus followed a static point release model. Our most current release at this time is 1.2, with a 1.2.1 planned to drop in the near future.
-However, we also recently &lt;a href=&#34;https://solus-project.com/posts/this-week-in-solus-31&#34; target=&#34;_blank&#34;&gt;announced&lt;/a&gt; our move to a rolling release model.&lt;/p&gt;
-
-&lt;p&gt;As such, these two schools of thought are in contradiction of one another. Going forward, the old release schedule is &lt;strong&gt;officially&lt;/strong&gt;, entirely dropped, and the branching
-pattern of a point-release-system is also shed.&lt;/p&gt;
-
-&lt;h2 id=&#34;important-points&#34;&gt;Important Points&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;There is no longer a concept of separate major releases. You will always run on the current “distribution version”.&lt;/li&gt;
-&lt;li&gt;Support, therefore, does not end for the current, and only, series. Note however you are still expected to update your system. We’ll introduce some changes to make this
-simpler to manage, of course.&lt;/li&gt;
-&lt;li&gt;There is no longer a concept of “1.3”, “2.0”, etc. Future ISOs will follow the internal versioning system&lt;/li&gt;
-&lt;li&gt;Future ISOs will land both features and package refreshes. Whilst you can always configure your installed Solus to match that of the ISO, through package selection, installer
-features are only ever available in reinstalls (This is the only time you ever see the installer)&lt;/li&gt;
-&lt;li&gt;The internal versioning system at present is based on the concept of major releases, so it will therefore be dropped. For example, the 1.2 release is internally referred to
-as: &lt;strong&gt;1.201629.7.0&lt;/strong&gt;. At minimum, we’ll drop the major version, and use this scheme in future ISO updates.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;1-2-1-update&#34;&gt;1.2.1 - Update&lt;/h2&gt;
-
-&lt;p&gt;We can only apologise in announcing that yes, 1.2.1 has been delayed. This has primarily come about due to a mixture of circumstances (work schedules), a wish to ensure consistency
-and longevity in the installations (GNOME 3.20 updates), and the migration to a rolling release model. As soon as it is appropriate, 1.2.1 will be released. However, the release
-schedule is now &lt;strong&gt;officially withdrawn&lt;/strong&gt;, leaving us some extra time to get 1.2.1 polished to the level we require.&lt;/p&gt;
-
-&lt;h2 id=&#34;coming-items&#34;&gt;Coming Items&lt;/h2&gt;
-
-&lt;p&gt;Our upcoming update list involves, but is not limited to:
-- Update to GCC 6.1.0 (ongoing right now, handling libmpx incorporation)
-- Move to GNOME 3.20.x
-- Update to X.Org Server 1.18.4
-- Ongoing rebuilds to utilise newly available CPU features on the build server to improve Solus packages
-- Budgie 10.2.7 – whilst we initially envisaged going directly to 10.3, which has outstanding goals, we’ve opted to provide a maintenance release of Budgie to accommodate all Budgie
-downstreams in the near future, due to the already extensive diff since 10.2.6. You can see the latest git build in the featured image for this post.&lt;/p&gt;
-
-&lt;h2 id=&#34;advantages&#34;&gt;Advantages&lt;/h2&gt;
-
-&lt;p&gt;The core advantage to the withdrawal of this static release schedule is that it in fact enables us to land features with a higher velocity, and &lt;strong&gt;maintain&lt;/strong&gt; that velocity over time. With
-the move to a rolling release, one of our primary goals is in increasing the project cadence. As such, this frees us up to land future updates and refreshed ISOs, as and when new
-features, fixes and changes are available, as opposed to being tied to a rigid schedule. In the long run, this will result in &lt;strong&gt;more&lt;/strong&gt; ISO releases and updates, enabling incremental testing
-of technology in Solus.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome to the new site!</title>
-      <link>https://solus-project.com/blog/welcome-to-the-new-site/</link>
-      <pubDate>Wed, 27 Jul 2016 00:10:11 +0300</pubDate>
-      
-      <guid>https://solus-project.com/blog/welcome-to-the-new-site/</guid>
-      <description>&lt;p&gt;Everything here until MORE will be in the summary.&lt;/p&gt;
-
-&lt;p&gt;Anything after isn&amp;rsquo;t in summary!&lt;/p&gt;
-
-&lt;div data-solus-component=&#34;video-player&#34;&gt;
-	&lt;noscript&gt;
-		We&#39;d love to be able to show you an awesome video.&lt;br /&gt;
-		Mind enabling JavaScript please?
-	&lt;/noscript&gt;
-	&lt;iframe src=&#34;https://www.youtube.com/embed/gmSk36BDCpc?rel=0&#34;
-		width=&#34;700&#34; height=&#34;395&#34;
-		frameborder=&#34;0&#34;
-		allowfullscreen=&#34;allowfullscreen&#34;
-	&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
+    <lastBuildDate>Sun, 17 Jul 2016 10:28:31 +0300</lastBuildDate>
+    <atom:link href="https://solus-project.com/categories/twis/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>This Week in Solus #32</title>

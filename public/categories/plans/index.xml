@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Solus</title>
-    <link>https://solus-project.com/blog/</link>
-    <description>Recent content in Blogs on Solus</description>
+    <title>Plans on Solus</title>
+    <link>https://solus-project.com/categories/plans/</link>
+    <description>Recent content in Plans on Solus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Jul 2016 17:19:31 +0300</lastBuildDate>
-    <atom:link href="https://solus-project.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://solus-project.com/categories/plans/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Replacement of Release Schedule</title>
@@ -58,31 +58,6 @@ downstreams in the near future, due to the already extensive diff since 10.2.6. 
 the move to a rolling release, one of our primary goals is in increasing the project cadence. As such, this frees us up to land future updates and refreshed ISOs, as and when new
 features, fixes and changes are available, as opposed to being tied to a rigid schedule. In the long run, this will result in &lt;strong&gt;more&lt;/strong&gt; ISO releases and updates, enabling incremental testing
 of technology in Solus.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome to the new site!</title>
-      <link>https://solus-project.com/blog/welcome-to-the-new-site/</link>
-      <pubDate>Wed, 27 Jul 2016 00:10:11 +0300</pubDate>
-      
-      <guid>https://solus-project.com/blog/welcome-to-the-new-site/</guid>
-      <description>&lt;p&gt;Everything here until MORE will be in the summary.&lt;/p&gt;
-
-&lt;p&gt;Anything after isn&amp;rsquo;t in summary!&lt;/p&gt;
-
-&lt;div data-solus-component=&#34;video-player&#34;&gt;
-	&lt;noscript&gt;
-		We&#39;d love to be able to show you an awesome video.&lt;br /&gt;
-		Mind enabling JavaScript please?
-	&lt;/noscript&gt;
-	&lt;iframe src=&#34;https://www.youtube.com/embed/gmSk36BDCpc?rel=0&#34;
-		width=&#34;700&#34; height=&#34;395&#34;
-		frameborder=&#34;0&#34;
-		allowfullscreen=&#34;allowfullscreen&#34;
-	&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
 </description>
     </item>
     

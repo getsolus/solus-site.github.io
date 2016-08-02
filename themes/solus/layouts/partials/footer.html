@@ -1,32 +1,33 @@
 <!-- Beginning of Solus Site Footer -->
 <footer>
-    <!-- Beginning of Copyright & Menus -->
-    <div data-solus-component="footer-menus">
-        {{ $siteMenus := .Site.Menus }}
-        {{ range .Site.Params.footermenu }}
-            {{ $menuName := . }}
-            {{ with (index $siteMenus .) }}
-                <div data-solus-component="full-width-row">
-                    <b>{{ humanize $menuName }}</b>
-                    {{ range . }}
-                        {{ if hasPrefix .URL "irc://" }}
-                            <a href="{{ safeURL .URL }}">{{ .Name }}</a>
-                        {{ else }}
-                            <a href="{{ .URL | absURL }}">{{ .Name }}</a>
-                        {{ end }}
-                    {{ end }}
-                </div>
-            {{ end }}
-        {{ end }}
-    </span>
-    <p>
-        Copyright © 2015-{{ .Site.Params.copyright }} Solus Project. The Solus logo is Copyright © 2016 Solus Project.<br />
-        All rights reserved.
-    </p>
-    <!-- End of Copyright & Menus -->
-    <!-- Friends -->
-    <div data-solus-component="footer-friends">
-        <a href="https://dediserve.com"><img src="{{ .Site.BaseURL }}/imgs/friends/dediserve.gif" /></a>
-        <a href="https://gnome.org"><img src="{{ .Site.BaseURL }}/imgs/friends/gnome.png" /></a>
-    </div>
+<!-- Beginning of Copyright & Menus -->
+<div data-solus-component="footer-menus">
+	{{ $siteMenus := .Site.Menus }}
+	{{ range .Site.Params.footermenu }}
+		{{ $menuName := . }}
+		{{ with (index $siteMenus .) }}
+			<div data-solus-component="full-width-row">
+				<b>{{ humanize $menuName }}</b>
+				{{ range . }}
+					{{ if hasPrefix .URL "irc://" }}
+						<a href="{{ safeURL .URL }}">{{ .Name }}</a>
+					{{ else }}
+						<a href="{{ .URL | absURL }}">{{ .Name }}</a>
+					{{ end }}
+				{{ end }}
+			</div>
+		{{ end }}
+	{{ end }}
+	</span>
+	<p>
+	Copyright © 2015-{{ .Site.Params.copyright }} Solus Project. The Solus logo is Copyright © 2016 Solus Project.<br />
+	All rights reserved.
+	</p>
+	<!-- End of Copyright & Menus -->
+	<!-- Friends -->
+	<div data-solus-component="footer-friends">
+		<a href="https://dediserve.com"><img src="{{ .Site.BaseURL }}/imgs/friends/dediserve.gif" /></a>
+		<a href="https://gnome.org"><img src="{{ .Site.BaseURL }}/imgs/friends/gnome.png" /></a>
+	</div>
 </footer>
+{{ template "_internal/google_analytics_async.html" . }}
