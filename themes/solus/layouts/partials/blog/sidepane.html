@@ -1,14 +1,15 @@
+{{ $site := .Site }}
 <!-- Beginning of Blog Sidepane -->
 <div data-solus-component="blog-sidepane">
     <!-- Beginning of Categories -->
     <div data-solus-component="full-width-box">
         <h3>Categories</h3>
-        {{ range .Site.Params.categories }}
-            <a href={{ (printf "/categories/%s" .) | absURL }}>
-                {{ if eq . "twis"}}
+        {{ range $category := .Site.Params.category }}
+            <a href="{{ $site.BaseURL }}categories/{{ $category }}">
+                {{ if eq $category "twis"}}
                     TWIS
                 {{ else }}
-                    {{ humanize . }}
+                    {{ humanize $category }}
                 {{ end }}
             </a>
         {{ end }}
