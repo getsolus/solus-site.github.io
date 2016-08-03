@@ -36,7 +36,7 @@ hugo server --baseURL "http://127.0.0.1:1313"
 
 ### Compile
 
-You can "compile" the latest version of the Solus site by simply typing `hugo` in the `solus-site` directory. This will put said content into the `public/` folder.
+You can "compile" the latest version of the Solus site by typing `./build.sh`. This will run `hugo` as well as use an HTML minifier to minify the finalized site, which resides in `public/`.
 
 ### Styling
 
