@@ -19,7 +19,7 @@ menu:
   main:
       - Name: "Home"
         Identifier: "home"
-        URL: "/"
+        URL: "/home"
         Weight: 1
       - Name: "Blog"
         Identifier: "blog"

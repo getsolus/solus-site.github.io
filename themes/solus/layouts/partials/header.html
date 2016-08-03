@@ -1,6 +1,6 @@
 <!-- Beginning of Solus Site Header -->
 <header>
-	<a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}/imgs/logo.png" /></a>
+	<a href="{{ .Site.BaseURL }}home"><img src="{{ .Site.BaseURL }}/imgs/logo.png" /></a>
 	{{- $pagePermalink := .Permalink -}}
 	{{- range .Site.Menus.main }}
 		{{- $absoluteMenuURL := (.URL | absURL) -}}

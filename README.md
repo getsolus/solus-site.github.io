@@ -41,3 +41,7 @@ You can "compile" the latest version of the Solus site by typing `./build.sh`. T
 ### Styling
 
 I use 4-char wide tabs, not spaces, in everything **except** the YAML files.
+
+## Licensing
+
+TBD.
