@@ -5,15 +5,17 @@
 {{ $secondaryButton := .Get "secondary-button" }}
 
 <div data-solus-component="banner" {{ with .Get "subclass" }}data-solus-minor-component="{{ . }}"{{ end }}>
-    <section>
-        {{ with .Get "centerimage" }}<img src="{{- . -}}" />{{ end }}
-        {{ with .Get "header" }}<h1>{{- . -}}</h1>{{end}}
-        <p>{{ $descriptionText -}}</p>
-        {{ if or (isset .Params "primary-button") (isset .Params "secondary-button") }}
-            {{ range $button := (slice $primaryButton $secondaryButton) }}
-                {{ $buttonInfo := (split $button "|") }}
-                <a href="{{ index $buttonInfo 0 }}">{{ index $buttonInfo 1 }}</a>
-            {{ end }}
-        {{ end }}
-    </section>
+	<section>
+		{{ with .Get "centerimage" }}<img src="{{- . -}}" />{{ end }}
+		{{ with .Get "header" }}<h1>{{- safeHTML . -}}</h1>{{end}}
+		<p>{{- $descriptionText -}}</p>
+		{{ if or (isset .Params "primary-button") (isset .Params "secondary-button") }}
+			{{ range $button := (slice $primaryButton $secondaryButton) }}
+				{{ if (ne $button "") }}
+					{{ $buttonInfo := (split $button "|") }}
+					<a href="{{ index $buttonInfo 0 }}">{{ index $buttonInfo 1 }}</a>
+				{{ end }}
+			{{ end }}
+		{{ end }}
+	</section>
 </div>
