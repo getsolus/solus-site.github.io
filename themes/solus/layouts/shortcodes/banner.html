@@ -8,7 +8,7 @@
 	<section>
 		{{ with .Get "centerimage" }}<img src="{{- . -}}" />{{ end }}
 		{{ with .Get "header" }}<h1>{{- safeHTML . -}}</h1>{{end}}
-		<p>{{- $descriptionText -}}</p>
+		<p>{{- $descriptionText | safeHTML -}}</p>
 		{{ if or (isset .Params "primary-button") (isset .Params "secondary-button") }}
 			{{ range $button := (slice $primaryButton $secondaryButton) }}
 				{{ if (ne $button "") }}
