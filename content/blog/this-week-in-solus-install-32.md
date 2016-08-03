@@ -29,4 +29,4 @@ On Saturday, we decided to have an impromptu hackfest to work on items for Solus
 
 If you just want a summary of the impromptu Hackfest or want to hear what is coming up next week, check out our short Sundays with Solus!
 
-{{<youtube mePcwcdO66s >}}
+{{< youtube mePcwcdO66s >}}

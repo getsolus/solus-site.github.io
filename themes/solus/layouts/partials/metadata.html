@@ -8,10 +8,10 @@
 	{{ $author := index .Site.Data.users .Params.author }}
 	<meta name="author" content="{{ $author.Name }}" />
 	{{ $splitName := (split $author.Name " ") }}
-	<meta property="profile:first_name" content="{{ index $splitName 0 }}"/>
-	<meta property="profile:gender" content="{{ $author.Gender }}" />
-	<meta property="profile:last_name" content="{{ index $splitName 1 }}"/>
-	<meta property="profile:username" content="{{ .Params.author }}"/>
+	<meta property="og:profile:first_name" content="{{ index $splitName 0 }}"/>
+	<meta property="og:profile:gender" content="{{ $author.Gender }}" />
+	<meta property="og:profile:last_name" content="{{ index $splitName 1 }}"/>
+	<meta property="og:profile:username" content="{{ .Params.author }}"/>
 {{ end }}
 <!-- End of Author Info -->
 <!-- Beginning of Featured Image -->
