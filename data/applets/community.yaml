@@ -1,0 +1,8 @@
+haste:
+    Icon: "haste"
+    Name: "Haste"
+    Description: "Post text to Hastebin directly from your desktop."
+screenshot:
+    Icon: "screenshot"
+    Name: "Screenshot"
+    Description: "Take a screenshot of your desktop, a window or region. Save to disk or upload."
