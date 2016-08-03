@@ -101,9 +101,10 @@ menu:
         Weight: 5
 # Special Params
 params:
+    copyright: "2016"
     # Because I can't for the life of me get Hugo nested lists to work
     footermenu: ["solus", "community", "support"]
-    copyright: "2016"
+    userguide: "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
 # Taxonomies
     category: ["budgie", "news", "packages", "plans", "releases", "security", "twis"]
 # Theming

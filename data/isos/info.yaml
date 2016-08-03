@@ -1,0 +1,12 @@
+stable:
+    mediasize: "847MB"
+    torrent: "https://example.com"
+    version: "1.201629.7.0"
+devel:
+    mediasize: "847MB"
+    torrent: "https://example.com"
+    version: "1.201629.7.0"
+oem:
+    mediasize: "847MB"
+    torrent: "https://example.com"
+    version: "1.201629.7.0"
