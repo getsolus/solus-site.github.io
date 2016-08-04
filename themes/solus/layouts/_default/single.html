@@ -1,3 +1,4 @@
+{{ $site := .Site }}
 <!DOCTYPE html>
 <html>
 {{ partial "metadata.html" . }}
@@ -7,6 +8,9 @@
 			<div data-solus-component="content">
 				{{ .Content }}
 			</div>
+			{{ if hasPrefix .RelPermalink "/press-centre" }}
+				{{ partial "press-centre/sidepane.html" . }}
+			{{ end }}
 		</div>
 		{{ partial "footer.html" . }}
 	</body>
