@@ -8,14 +8,22 @@
 	<section>
 		{{ with .Get "centerimage" }}<img src="{{- . -}}" />{{ end }}
 		{{ with .Get "header" }}<h1>{{- safeHTML . -}}</h1>{{end}}
-		<p>{{- $descriptionText | safeHTML -}}</p>
+		<p>{{ $descriptionText | safeHTML }}</p>
 		{{ if or (isset .Params "primary-button") (isset .Params "secondary-button") }}
-			{{ range $button := (slice $primaryButton $secondaryButton) }}
-				{{ if (ne $button "") }}
-					{{ $buttonInfo := (split $button "|") }}
-					<a href="{{ index $buttonInfo 0 }}">{{ index $buttonInfo 1 }}</a>
+			<span data-solus-button-count="
+				{{- if and (isset .Params "primary-button") (isset .Params "secondary-button") -}}
+					2
+				{{- else -}}
+					1
+				{{- end -}}
+			">
+				{{ range $button := (slice $primaryButton $secondaryButton) }}
+					{{ if (ne $button "") }}
+						{{ $buttonInfo := (split $button "|") }}
+						<a data-solus-component="button" href="{{ index $buttonInfo 0 }}">{{ index $buttonInfo 1 }}</a>
+					{{ end }}
 				{{ end }}
-			{{ end }}
+			</span>
 		{{ end }}
 	</section>
 </div>

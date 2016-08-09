@@ -2,9 +2,11 @@
 <header>
 	<a href="{{ .Site.BaseURL }}home"><img src="{{ .Site.BaseURL }}/imgs/logo.png" /></a>
 	{{- $pagePermalink := .Permalink -}}
-	{{- range .Site.Menus.main }}
-		{{- $absoluteMenuURL := (.URL | absURL) -}}
-		<a href="{{ $absoluteMenuURL }}"{{- if hasPrefix "$pagePermalink" "$absoluteMenuURL" -}}active{{- end -}}>{{ .Name }}</a>
-	{{ end -}}
+	<section>
+		{{- range .Site.Menus.main }}
+			{{- $absoluteMenuURL := (.URL | absURL) -}}
+			<a href="{{ $absoluteMenuURL }}"{{- if hasPrefix "$pagePermalink" "$absoluteMenuURL" -}}active{{- end -}}>{{ .Name }}</a>
+		{{ end -}}
+	</section>
 </header>
 <!-- End of Solus Site Header -->
