@@ -6,7 +6,7 @@
 
 	<!-- Beginning of Post Info -->
 	<div data-solus-component="post-info">
-		<h1>{{ $blog.Title }}</h1>
+		<h1><a href="{{ $blog.Permalink }}">{{ $blog.Title }}</a></h1>
 		<span>{{ $author.Name }} / {{ $author.Role }}</span>
 		<b>{{ dateFormat "January 2, 2006" $blog.Date }} in
 			{{ range $blog.Params.categories -}}

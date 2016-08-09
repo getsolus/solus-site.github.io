@@ -5,11 +5,13 @@
 	<body>
 		{{ partial "header.html" . }}
 		<div data-solus-component="main">
-			<div data-solus-component="content">
-				{{ .Content }}
-			</div>
 			{{ if hasPrefix .RelPermalink "/press-centre" }}
+				<div data-solus-component="content">
+					{{ .Content }}
+				</div>
 				{{ partial "press-centre/sidepane.html" . }}
+			{{ else }}
+				{{ .Content }}
 			{{ end }}
 		</div>
 		{{ partial "footer.html" . }}
