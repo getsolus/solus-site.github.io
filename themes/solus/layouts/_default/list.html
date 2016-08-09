@@ -12,7 +12,7 @@
 					<div data-solus-minor-component="featured-blog-info">
 						{{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
 						{{ $firstBlog.Summary }}
-						<a href="{{ $firstBlog.Permalink }}">Read More</a>
+						<a data-solus-component="button" href="{{ $firstBlog.Permalink }}">Read More</a>
 					</div>
 					<img src="{{ .Site.BaseURL }}/imgs/posts/{{ $firstBlog.Params.featuredimage }}" />
 				</div>
@@ -31,7 +31,7 @@
 					{{ range $blog := $blogPosts }}
 						{{ partial "blog/info.html" (dict "blog" $blog "site" .Site) }}
 						<hr />
-						{{ end }}
+					{{ end }}
 				</div>
 				<!-- End of Generic Blog List -->
 			{{ end }}
