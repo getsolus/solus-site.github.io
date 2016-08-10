@@ -2,17 +2,23 @@
 <html>
 {{ partial "metadata.html" . }}
 	<body>
-		{{ partial "header.html" . }}
-		<div data-solus-component="main">
-			<div data-solus-component="content">
-				{{ partial "blog/info.html" (dict "blog" . "site" .Site) }}
-				{{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
-					<img src="{{ .Site.BaseURL }}/imgs/posts/{{ .Params.featuredimage }}" class="featured-image" />
-				{{ end }}
-				{{ .Content }}
-			</div>
+		<div data-solus-component="content-wrapper">
+			{{ partial "header.html" . }}
+			<div data-solus-component="main">
+				<div data-solus-component="content">
+					{{ partial "blog/info.html" (dict "blog" . "site" .Site) }}
+					<div data-solus-component="blog-content">
+						<hr />
 
-			{{ partial "blog/sidepane.html" . }}
+						{{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
+							<img src="{{ .Site.BaseURL }}/imgs/posts/{{ .Params.featuredimage }}" class="featured-image" />
+						{{ end }}
+						{{ .Content }}
+					</div>
+				</div>
+
+				{{ partial "blog/sidepane.html" . }}
+			</div>
 		</div>
 		{{ partial "footer.html" . }}
 	</body>

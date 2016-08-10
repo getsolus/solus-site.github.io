@@ -1,4 +1,3 @@
-{{ $site := .Site }}
 <!DOCTYPE html>
 <html>
 {{ partial "metadata.html" . }}
@@ -6,7 +5,13 @@
 		<div data-solus-component="content-wrapper">
 			{{ partial "header.html" . }}
 			<div data-solus-component="main">
-				{{ .Content }}
+				<div data-solus-component="content">
+					<div data-solus-component="blog-content">
+						{{ .Content }}
+					</div>
+				</div>
+
+				{{ partial "press-centre/sidepane.html" . }}
 			</div>
 		</div>
 		{{ partial "footer.html" . }}

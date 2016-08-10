@@ -43,7 +43,7 @@ menu:
         Weight: 6
       - Name: "Press"
         Identifier: "press"
-        URL: "/press"
+        URL: "/press-centre"
         Weight: 7
   solus:
       - Identifier: "solus"

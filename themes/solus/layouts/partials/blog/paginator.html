@@ -6,7 +6,7 @@
 			<a href="{{ .paginator.URL }}page/{{ $previousPage }}">{{ $previousPage }}</a>
 		{{ end }}
 
-		<a href="{{ .paginator.URL }}page/{{ .paginator.PageNumber }}" active>{{ .paginator.PageNumber }}</a>
+		<a data-solus-component="button" data-solus-size="small" href="{{ .paginator.URL }}page/{{ .paginator.PageNumber }}" active>{{ .paginator.PageNumber }}</a>
 
 		{{ if .paginator.HasNext }}
 			{{ $nextPage := (add .paginator.PageNumber 1) }}
