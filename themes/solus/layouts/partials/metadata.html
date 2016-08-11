@@ -1,8 +1,9 @@
 <!-- Begnning of Metadata -->
 <head>
 <!-- Page Info -->
-<title>{{ .Title }} | Solus</title>
-<meta property="og:title" content="{{ .Title }} | Solus" />
+{{ $titledPageName := title .Title }}
+<title>{{ $titledPageName }} | Solus</title>
+<meta property="og:title" content="{{ $titledPageName }} | Solus" />
 <!-- Beginning of Author Info -->
 {{ if isset .Params "author" }}
 	{{ $author := index .Site.Data.users .Params.author }}

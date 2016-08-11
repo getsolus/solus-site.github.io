@@ -1,9 +1,9 @@
 keyboard:
-    Icon: "keyboard-layout"
+    Icon: "keyboard-layout-indicator"
     Name: "Keyboard Layout Applet"
     Description: "Indicates the current keyboard layout and enables the user to switch layouts."
 notifications:
-    Icon: "notification-bell"
+    Icon: "notifications"
     Name: "Notifications"
     Description: "Indicates new notifications and gives a one-click access to view them."
 raven:
