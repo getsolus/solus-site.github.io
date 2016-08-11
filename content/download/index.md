@@ -4,8 +4,6 @@ internaltype: page
 title: Download
 ---
 
-{{< download >}}
-
 ### Need assistance?
 
 We provide assistance via our [Forums](https://solus-project.com/forums), [Google+ Community](https://plus.google.com/communities/104830131595272878110), and live via our IRC (Internet Relay Chat) channel. Communication via IRC can be done through software such as [Hexchat](https://hexchat.github.io/), which is pre-installed on Solus and with the details below:
