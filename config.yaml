@@ -31,7 +31,7 @@ menu:
         Weight: 3
       - Name: "Support Us"
         Identifier: "support-us"
-        URL: "/support-us"
+        URL: "/support"
         Weight: 4
       - Name: "Solus"
         Identifier: "solus-page"
