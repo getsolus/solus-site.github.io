@@ -18,18 +18,18 @@ title: "Support Us"
 {{< banner
 	subclass="what-is-our-plan"
 	header="What is our plan?"
-	description="2016 is dedicated to building upon the work we did for Solus 1, in addition to building towards Solus 2. We have a lot of great things on our <a href=\"\">Roadmap</a>, such as an integrated Recovery System, Migration Tools, and Backup Management."
+	description="2016 is dedicated to building upon the work we did for Solus 1. We have a lot of great things on our <a href=\"\">Roadmap</a>, such as an integrated Recovery System, Migration Tools, and Backup Management."
 >}}
 
 {{< banner
-	subclass="support-donate"
+	subclass="support-via-paypal"
 	header="Supporting via PayPal"
 	description="PayPal allows you to quickly make one off donations, as a quick way of saying “thank you”. All of the processing is handled by PayPal's infrastructure."
 	primary-button="http://example.com|Donate"
 >}}
 
 {{< banner
-	subclass="support-donate"
+	subclass="support-via-patreon"
 	header="Supporting via Patreon"
 	description="You can support Solus through Patreon, which will allow you to make a monthly contribution to the project automatically. Visit our Patreon page for more details!"
 	primary-button="https://patreon.com/solus|Become A Patron"
