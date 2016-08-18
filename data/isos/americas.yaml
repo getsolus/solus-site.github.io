@@ -1,4 +1,3 @@
 Name: "Americas"
 Locations:
-    atlanta: "http://solus-us.tk/iso/Solus-1.2.iso"
-    san_francisco: "http://solussf1iso.stroblindustries.com"
+    san_francisco: "http://solussf1iso.stroblindustries.com/Solus-1.2.iso"
