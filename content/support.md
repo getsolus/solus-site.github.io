@@ -5,18 +5,21 @@ title: "Support Us"
 ---
 {{< banner
 	subclass="support-us"
+	height="short"
 	header="Support Us"
 	description="Solus is free, in its entirety, for end users. This will always be the case, and we love providing you with something we all share a passion in: an awesome computing experience! It is also true that it is not free to create and provide Solus, or any of it’s projects."
 >}}
 
 {{< banner
 	subclass="what-do-we-need"
+	height="short"
 	header="What do we need?"
 	description="In order to develop Solus, we have to operating a small network of servers, obtain and replace hardware, pay for general hardware-related utilities such as network connectivity, and maintain infrastructure like domains, SSL certificates, and domains."
 >}}
 
 {{< banner
 	subclass="what-is-our-plan"
+	height="short"
 	header="What is our plan?"
 	description="2016 is dedicated to building upon the work we did for Solus 1. We have a lot of great things on our <a href=\"\">Roadmap</a>, such as an integrated Recovery System, Migration Tools, and Backup Management."
 >}}

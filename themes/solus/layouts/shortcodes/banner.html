@@ -1,10 +1,13 @@
+{{ $bannerHeight := .Get "height" }}
 {{ $centerImage := .Get "centerimage" }}
 {{ $headerText := .Get "header" }}
 {{ $descriptionText := .Get "description" }}
 {{ $primaryButton := .Get "primary-button" }}
 {{ $secondaryButton := .Get "secondary-button" }}
 
-<div data-solus-component="banner" {{ with .Get "subclass" }}data-solus-minor-component="{{ . }}"{{ end }}>
+<div data-solus-component="banner"
+{{ with .Get "height" }}data-banner-height="{{ . }}"{{ end }}
+{{ with .Get "subclass" }} data-solus-minor-component="{{ . }}"{{ end }}>
 	<section>
 		{{ with .Get "centerimage" }}<img src="{{- . -}}" />{{ end }}
 		{{ with .Get "header" }}<h1>{{- safeHTML . -}}</h1>{{end}}

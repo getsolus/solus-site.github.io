@@ -1,1 +1,28 @@
-{{ partial "budgie/applets.html" (dict "site" .Site) }}
+{{ $site := .Site }}
+<!-- Beginning of Budgie applets partial -->
+<div data-solus-component="banner"
+data-banner-height="tall"
+data-solus-minor-component="budgie-applets-view">
+	<section>
+		<h1>Customizable. Extensible.</h1>
+		<p>Customizing your desktop has never been simpler. Right from Raven, you are able to customize and extend Budgie to meet your needs!
+			We also have a wide range of applets that you can add directly to Budgie, listed below!
+		</p>
+		{{ range $appletsVia := (slice "official" "community") }}
+			<div data-solus-minor-component="budgie-applet-list">
+				<h2>{{ $appletsVia | title}}</h2>
+				{{ $applets := (index $site.Data.applets $appletsVia) }}
+				{{ range $applets }}
+					<div data-solus-minor-component="budgie-applet">
+						<span>
+							<img src="{{ $site.BaseURL }}imgs/applet-icons/{{ .Icon }}.png" />
+							<b>{{ .Name }}</b>
+						</span>
+						<span>{{ .Description }}</span>
+					</div>
+				{{ end }}
+			</div>
+		{{ end }}
+	</section>
+</div>
+<!-- End of Budgie applets partial -->
