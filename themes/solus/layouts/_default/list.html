@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	{{ partial "metadata.html" . }}
 	<body>
 		<div data-solus-component="content-wrapper">
@@ -15,7 +15,7 @@
 							{{ $firstBlog.Summary }}
 							<a data-solus-component="button" href="{{ $firstBlog.Permalink }}">Read More</a>
 						</div>
-						<img src="{{ .Site.BaseURL }}/imgs/posts/{{ $firstBlog.Params.featuredimage }}" />
+						{{ partial "altimg.html" (dict "image" $firstBlog.Params.featuredimage "dir" "/imgs/posts/" )}}
 					</div>
 					<!-- End of Featured Blog Post -->
 					<!-- All Other Blog Posts -->

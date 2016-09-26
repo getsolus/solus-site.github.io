@@ -1,6 +1,6 @@
 <!-- Beginning of Solus Site Header -->
 <header>
-	<a href="{{ .Site.BaseURL }}home"><img src="{{ .Site.BaseURL }}/imgs/logo.png" /></a>
+	<a href="{{ .Site.BaseURL }}home">{{ partial "altimg.html" (dict "image" "logo.png" "dir" "/imgs/" ) }}</a>
 	{{- $pagePermalink := .Permalink -}}
 	<section>
 		{{- range .Site.Menus.main }}

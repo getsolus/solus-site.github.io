@@ -1,12 +1,8 @@
 stable:
-    mediasize: "847MB"
-    torrent: "https://example.com"
-    version: "1.201629.7.0"
-devel:
-    mediasize: "847MB"
-    torrent: "https://example.com"
-    version: "1.201629.7.0"
+    mediasize: "992MB"
+    torrent: "http://linuxtracker.org/index.php?page=downloadcheck&id=0afb72b9839d4b00d03d9de86a1a1889e7178119"
+    version: "1.2.0.5"
 oem:
     mediasize: "847MB"
     torrent: "https://example.com"
-    version: "1.201629.7.0"
+    version: "1.2.0.5"

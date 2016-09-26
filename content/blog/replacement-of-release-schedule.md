@@ -50,3 +50,5 @@ The core advantage to the withdrawal of this static release schedule is that it 
 the move to a rolling release, one of our primary goals is in increasing the project cadence. As such, this frees us up to land future updates and refreshed ISOs, as and when new
 features, fixes and changes are available, as opposed to being tied to a rigid schedule. In the long run, this will result in **more** ISO releases and updates, enabling incremental testing
 of technology in Solus.
+
+{{< altimg "replacement-of-release-schedule.png" >}}

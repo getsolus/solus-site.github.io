@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 {{ partial "metadata.html" . }}
 	<body>
 		<div data-solus-component="content-wrapper">
@@ -11,7 +11,7 @@
 						<hr />
 
 						{{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
-							<img src="{{ .Site.BaseURL }}/imgs/posts/{{ .Params.featuredimage }}" class="featured-image" />
+							{{ partial "altimg.html" (dict "image" .Params.featuredimage "class" "featured-image" "dir" "/imgs/posts/")}}
 						{{ end }}
 						{{ .Content }}
 					</div>

@@ -1,5 +1,4 @@
 {{ $bannerHeight := .Get "height" }}
-{{ $centerImage := .Get "centerimage" }}
 {{ $headerText := .Get "header" }}
 {{ $descriptionText := .Get "description" }}
 {{ $primaryButton := .Get "primary-button" }}
@@ -9,7 +8,10 @@
 {{ with .Get "height" }}data-banner-height="{{ . }}"{{ end }}
 {{ with .Get "subclass" }} data-solus-minor-component="{{ . }}"{{ end }}>
 	<section>
-		{{ with .Get "centerimage" }}<img src="{{- . -}}" />{{ end }}
+		{{ if isset .Params "centerimage" }}
+			{{ $centerimage := .Get "centerimage"}}
+			{{ partial "altimg.html" (dict "image" $centerimage "dir" "/imgs/") }}
+		{{ end }}
 		{{ with .Get "header" }}<h1>{{- safeHTML . -}}</h1>{{end}}
 		<p>{{ $descriptionText | safeHTML }}</p>
 		{{ if or (isset .Params "primary-button") (isset .Params "secondary-button") }}

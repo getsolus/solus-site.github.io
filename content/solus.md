@@ -5,7 +5,8 @@ title: Solus
 ---
 
 {{< banner
-	centerimage="/imgs/solus-circle.png"
+	alt="Solus Logo"
+	centerimage="solus-circle.png"
 	height="tall"
 	subclass="solus-hero"
 	description="Solus is an operating system that is designed for modern personal computing devices, every tweak enabling us to deliver a singular, cohesive desktop experience."

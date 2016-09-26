@@ -1,16 +1,16 @@
 keyboard:
-    Icon: "keyboard-layout-indicator"
+    Icon: "keyboard-layout-indicator.png"
     Name: "Keyboard Layout Applet"
     Description: "Indicates the current keyboard layout and enables the user to switch layouts."
 notifications:
-    Icon: "notifications"
+    Icon: "notifications.png"
     Name: "Notifications"
     Description: "Indicates new notifications and gives a one-click access to view them."
 raven:
-    Icon: "raven-sidebar-control"
+    Icon: "raven-sidebar-control.png"
     Name: "Raven Sidebar Control"
     Description: "One-click access to view your favorite Raven applets."
 userindicator:
-    Icon: "user-indicator"
+    Icon: "user-indicator.png"
     Name: "User Indicator"
     Description: "Enables the user to quickly lock, logout, suspend, restart, and shut down."
