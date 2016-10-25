@@ -1,21 +1,23 @@
 {{ $site := .site }}
-<span data-solus-component="download-header">Install today. Updates forever.</span>
+<h1 data-solus-component="download-header">Install today. Updates forever.</h1>
 {{ range $edition := (slice "Budgie" "Mate") }}
 	{{ $editionInfo := (index $site.Data.isos.info $edition )}}
 	<!-- For each edition -->
 	<div data-solus-component="solus-edition-section">
 		<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/Solus-{{ $edition }}.jpg" />
-		<h1>Solus{{ if eq $edition "Mate" }} Mate{{ end }}</h1>
+		<h2>Solus{{ if eq $edition "Mate" }} Mate{{ end }}</h2>
 		<p>{{ $editionInfo.description }}</p>
 		<section data-solus-component="solus-media">
-			<div data-solus-minor-component="solus-media-locations">
+			<div data-solus-minor-component="solus-media-regions">
 				{{ range $locationKey := (slice "americas" "europe") }}
 					{{ $locationInfo := (index $site.Data.isos $locationKey) }}
 					<span>
 						<b>{{ $locationInfo.Name }}</b>
 						{{ range $location, $url := $locationInfo.Locations }}
 							{{ $locationName := (replace $location "_" " ") }}
-							<a href="{{ $url }}/Solus-{{ $site.Data.info.version }}-{{ $edition }}.iso">{{- $locationName -}}</a>
+							<div>
+								<a href="{{ $url }}/Solus-{{ $site.Data.info.Version }}-{{ $edition }}.iso">{{- $locationName -}}</a>
+							</div>
 						{{ end }}
 					</span>
 				{{ end }}
