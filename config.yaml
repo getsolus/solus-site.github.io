@@ -9,7 +9,7 @@ buildDrafts: true
 googleAnalytics: "UA-Not-Yet"
 languageCode: "en-us"
 metaDataFormat: "yaml"
-paginate: 2
+paginate: 5
 layoutsdir:   "themes/solus/layouts"
 # Blackfriday Markdown Tweaks
 blackfriday:
@@ -59,8 +59,8 @@ menu:
         Identifier: "technical-specifications"
         URL: "/solus/technical-specifications"
         Weight: 3
-  community:
-      - Identifier: "community"
+  social:
+      - Identifier: "social"
       - Name: "Facebook"
         Identifier: "facebook"
         URL: "https://facebook.com/get.solus"
@@ -79,9 +79,9 @@ menu:
         Weight: 4
   support:
       - Identifier: "support"
-      - Name: "Bug Tracker"
-        Identifier: "bug_tracker"
-        URL: "https://bugs.solus-project.com"
+      - Name: "Dev Tracker"
+        Identifier: "dev_tracker"
+        URL: "https://dev.solus-project.com"
         Weight: 1
       - Name: "Documentation"
         Identifier: "documentation"
@@ -103,7 +103,7 @@ menu:
 params:
     copyright: "2016"
     # Because I can't for the life of me get Hugo nested lists to work
-    footermenu: ["solus", "community", "support"]
+    footermenu: ["solus", "social", "support"]
     userguide: "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
 # Taxonomies
     category: ["budgie", "news", "packages", "plans", "releases", "security", "twis"]
