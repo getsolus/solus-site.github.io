@@ -1,5 +1,5 @@
 {{ $site := .site }}
-<h1 data-solus-component="download-header">Install today. Updates forever.</h1>
+<h1>Install today. Updates forever.</h1>
 {{ range $edition := (slice "Budgie" "Mate") }}
 	{{ $editionInfo := (index $site.Data.isos.info $edition )}}
 	<!-- For each edition -->
@@ -15,8 +15,9 @@
 						<b>{{ $locationInfo.Name }}</b>
 						{{ range $location, $url := $locationInfo.Locations }}
 							{{ $locationName := (replace $location "_" " ") }}
+							{{ $fullurl := printf "%sSolus-%s-%s.iso" $url $site.Data.isos.info.Version $edition | safeURL }}
 							<div>
-								<a href="{{ $url }}/Solus-{{ $site.Data.info.Version }}-{{ $edition }}.iso">{{- $locationName -}}</a>
+								<a href="{{ replace $fullurl "-Budgie" "" }}">{{- $locationName -}}</a>
 							</div>
 						{{ end }}
 					</span>
