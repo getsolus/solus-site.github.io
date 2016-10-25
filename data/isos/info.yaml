@@ -1,8 +1,9 @@
-stable:
-    mediasize: "992MB"
-    torrent: "http://linuxtracker.org/index.php?page=downloadcheck&id=0afb72b9839d4b00d03d9de86a1a1889e7178119"
-    version: "1.2.0.5"
-oem:
-    mediasize: "847MB"
-    torrent: "https://example.com"
-    version: "1.2.0.5"
+Budgie:
+    description: "A modern, luxurious desktop using the most modern technologies."
+    mediasize: "1.1GB"
+    torrent: "http://linuxtracker.org/index.php?page=torrent-details&id=337fca8d4cf7b4d3feb6fb3a7131bde3dc1b0e06"
+Mate:
+    description: "A traditional desktop for advanced users and older hardware."
+    mediasize: "1GB"
+    torrent: "http://linuxtracker.org/index.php?page=torrent-details&id=691b7d8a6492c99626130dba5c223d947e4dcfd1"
+Version: "1.2.1"

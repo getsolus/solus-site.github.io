@@ -1,5 +1,5 @@
 Name: "Europe"
 Locations:
-    amsterdam: "http://stroblindustries.com/isos/Solus-1.2.0.5.iso"
-    ireland: "http://ikeydoherty.com/Solus-1.2.0.5.iso"
-    london: "http://soluslond1iso.stroblindustries.com/Solus-1.2.0.5.iso"
+    Amsterdam: "http://stroblindustries.com/isos/"
+    Ireland: "http://ikeydoherty.com/"
+    London: "http://soluslond1iso.stroblindustries.com/"

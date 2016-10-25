@@ -1,45 +1,29 @@
 {{ $site := .site }}
-<!-- Beginning of Download Info Partial -->
-<div data-solus-component="download-banner">
-	<section data-solus-component="solus-info">
-		<h1>Download Solus</h1>
-		<p>Download Solus {{ $site.Data.isos.info.stable.version }}, the latest stable release of Solus for modern, 64-bit computers. Your Solus installation
-			will receive updates indefinitely!</p>
-		<span>
-			<b>
-				<img alt="Green Checkmark" src="{{ $site.BaseURL}}/imgs/icons/green-checkbox.png" />
-				Recommended System Requirements
-			</b>
-			<ul>
-				<li>15GB of free disk space</li>
-				<li>2GB of memory</li>
-				<li>A DVD drive or USB port for use with the Installation media</li>
-			</ul>
-		</span>
-	</section>
-	<section data-solus-component="solus-media">
-		<h2>Download Live Media (.iso)</h2>
-		<div data-solus-minor-component="solus-media-locations">
-			{{ range $locationKey := (slice "americas" "asia" "europe")}}
-				{{ $locationInfo := (index $site.Data.isos $locationKey) }}
-				{{ if ne $locationInfo "" }}
+<span data-solus-component="download-header">Install today. Updates forever.</span>
+{{ range $edition := (slice "Budgie" "Mate") }}
+	{{ $editionInfo := (index $site.Data.isos.info $edition )}}
+	<!-- For each edition -->
+	<div data-solus-component="solus-edition-section">
+		<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/Solus-{{ $edition }}.jpg" />
+		<h1>Solus{{ if eq $edition "Mate" }} Mate{{ end }}</h1>
+		<p>{{ $editionInfo.description }}</p>
+		<section data-solus-component="solus-media">
+			<div data-solus-minor-component="solus-media-locations">
+				{{ range $locationKey := (slice "americas" "europe") }}
+					{{ $locationInfo := (index $site.Data.isos $locationKey) }}
 					<span>
 						<b>{{ $locationInfo.Name }}</b>
-						{{ range $location, $url := $locationInfo.Locations}}
-							{{ $locationName := (replace $location "_" " ") | title }}
-							<a href="{{ $url }}">{{- $locationName -}}</a>
+						{{ range $location, $url := $locationInfo.Locations }}
+							{{ $locationName := (replace $location "_" " ") }}
+							<a href="{{ $url }}/Solus-{{ $site.Data.info.version }}-{{ $edition }}.iso">{{- $locationName -}}</a>
 						{{ end }}
 					</span>
 				{{ end }}
-			{{ end }}
-		</div>
-		<div data-solus-minor-component="solus-extra-info">
-			<span>
-				Media Size: {{ $site.Data.isos.info.stable.mediasize }}<br />
-				Alternative Download: <a href="{{ $site.Data.isos.info.stable.torrent }}">Torrent</a>
-			</span>
-			<a data-solus-component="button" href="{{ $site.Params.userguide }}">Installation Instructions</a>
-		</div>
-	</section>
-</div>
-<!-- End of Download Info Partial -->
+			</div>
+			<div data-solus-minor-component="solus-extra-info">
+				Media Size: {{ $editionInfo.mediasize }}<br />
+				Alternative Download: <a href="{{ $editionInfo.torrent }}">Torrent</a>
+			</div>
+		</section>	
+	</div>
+{{ end }}
