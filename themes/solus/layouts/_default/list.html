@@ -12,7 +12,7 @@
 					<div data-solus-component="featured-blog-post">
 						<div data-solus-minor-component="featured-blog-info">
 							{{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
-							{{ $firstBlog.Summary }}
+							{{- $firstBlog.Summary -}}
 							<a data-solus-component="button" href="{{ $firstBlog.Permalink }}">Read More</a>
 						</div>
 						{{ partial "altimg.html" (dict "image" $firstBlog.Params.featuredimage "dir" "/imgs/posts/" )}}
