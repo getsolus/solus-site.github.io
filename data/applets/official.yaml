@@ -6,6 +6,10 @@ notifications:
     Icon: "notifications.png"
     Name: "Notifications"
     Description: "Indicates new notifications and gives a one-click access to view them."
+places:
+    Icon: "places.png"
+    Name: "Places"
+    Description: "Enables access to a User’s Documents, Music, Pictures, removable media and more."
 raven:
     Icon: "raven-sidebar-control.png"
     Name: "Raven Sidebar Control"
