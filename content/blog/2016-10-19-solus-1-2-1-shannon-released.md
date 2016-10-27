@@ -116,7 +116,7 @@ than Mutter.
 
 Integration into Solus is key when we're delivering software and MATE is no exception. Out-of-the-box, the MATE Control Center properly integrates with our hardware tool, DoFlicky, as well as our Software Center.
 
-{{ altimg "2016/10/MATE-Notification-Theme.png" >}}
+{{< altimg "2016/10/MATE-Notification-Theme.png" >}}
 
 Our MATE experience ships with a custom, distro-agnostic notification theme, aptly named [mate-notification-theme-solus](https://github.com/solus-project/mate-notification-theme-solus/), that is designed to be clean, modern, familiar to our 
 existing users; identical to the Arc-styled Budgie Desktop notifications.
