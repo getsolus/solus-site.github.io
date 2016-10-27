@@ -40,5 +40,4 @@ title: Solus
 	height="normal"
 	header="The Most Performant Experience"
 	description="Solus is optimized for the modern personal computing devices. Whether you're editing videos, coding, gaming, or simply working on office documents, we enable the fastest experience."
-	primary-button="http://example.com|Learn More"
 >}}

@@ -47,6 +47,10 @@
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/website.css" />
 <script type="text/javascript" src="{{ .Site.BaseURL}}/js/site.min.js"></script>
 {{ .Hugo.Generator }}
+{{ if .RSSlink }}
+<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+<link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
 <!-- End of Site Info -->
 </head>
 <!-- End of Metadata -->

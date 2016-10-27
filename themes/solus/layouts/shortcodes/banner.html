@@ -25,7 +25,22 @@
 				{{ range $button := (slice $primaryButton $secondaryButton) }}
 					{{ if (ne $button "") }}
 						{{ $buttonInfo := (split $button "|") }}
-						<a data-solus-component="button" href="{{ index $buttonInfo 0 }}">{{ index $buttonInfo 1 }}</a>
+						{{ $buttonURL := index $buttonInfo 0 }}
+						{{ $buttonName := index $buttonInfo 1 }}
+
+						{{ if eq $buttonURL "paypal" }}
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+									<input type="hidden" name="cmd" value="_donations">
+									<input type="hidden" name="bn" value="TipsandTricks_SP">
+									<input type="hidden" name="business" value="root@solus-project.com">
+									<input type="hidden" name="item_name" value="Support Solus Project (And Budgie Desktop)">
+									<input type="hidden" name="rm" value="0">
+									<input type="hidden" name="currency_code" value="EUR">
+									<button data-solus-component="button" name="submit" type="submit">Donate</button>
+							</form>
+						{{ else }}
+							<a data-solus-component="button" href="{{ $buttonURL }}">{{ index $buttonName }}</a>
+						{{ end }}
 					{{ end }}
 				{{ end }}
 			</span>

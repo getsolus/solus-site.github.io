@@ -21,14 +21,14 @@ title: "Support Us"
 	subclass="what-is-our-plan"
 	height="short"
 	header="What is our plan?"
-	description="2016 is dedicated to building upon the work we did for Solus 1. We have a lot of great things on our <a href=\"\">Roadmap</a>, such as an integrated Recovery System, Migration Tools, and Backup Management."
+	description="2016 is dedicated to building upon the work we did for Solus. We have a lot of great things on our Roadmap, such as an integrated Recovery System, Migration Tools, and Backup Management."
 >}}
 
 {{< banner
 	subclass="support-via-paypal"
 	header="Supporting via PayPal"
 	description="PayPal allows you to quickly make one off donations, as a quick way of saying “thank you”. All of the processing is handled by PayPal's infrastructure."
-	primary-button="http://example.com|Donate"
+	primary-button="paypal|Donate"
 >}}
 
 {{< banner

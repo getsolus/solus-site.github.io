@@ -1,6 +1,6 @@
 SHELL = /bin/bash
 
-deploy:
+deploy: minifier
 	hugo --destination public-deployed/
 
 local:

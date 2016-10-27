@@ -37,7 +37,7 @@
 					</div>
 					<!-- End of Generic Blog List -->
 				{{ end }}
-				{{ partial "blog/sidepane.html" . }}
+				{{ partial "blog/panel.html" . }}
 				{{ partial "blog/paginator.html" (dict "paginator" .Paginator "site" .Site) }}
 			</div>
 		</div>
