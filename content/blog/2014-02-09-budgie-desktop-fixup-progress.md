@@ -21,7 +21,7 @@ Just a quick status update on the fixes to Budgie Desktop. Currently I'm rewriti
 
 And some screenshots of current progress:
 
-{{ altimg "2014/02/Screenshot-from-2014-02-08-150632.png" }}
-{{ altimg "2014/02/Screenshot-from-2014-02-09-153742.png" }}
+{{< altimg "2014/02/Screenshot-from-2014-02-08-150632.png" >}}
+{{< altimg "2014/02/Screenshot-from-2014-02-09-153742.png" >}}
 
 That's all for now, as and when the desktop is fully usable again I'll post an update!

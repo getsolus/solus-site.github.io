@@ -73,8 +73,8 @@ If it sounds a lot like we've somehow decided to compete with other projects, we
 
 Apart from the wallpaper, this is the default appearance of the latest daily ISOs, using the amazing [Arc GTK theme.](https://github.com/horst3180/Arc-theme) (And you just know we have the latest version.)
 
-{{ altimg "2015/08/Firefox.png" }}
+{{< altimg "2015/08/Firefox.png" >}}
 
-{{ altimg "2015/08/LibreOffice.png" }}
+{{< altimg "2015/08/LibreOffice.png" >}}
 
-{{ altimg "2015/08/Kernel.png" }}
+{{< altimg "2015/08/Kernel.png" >}}

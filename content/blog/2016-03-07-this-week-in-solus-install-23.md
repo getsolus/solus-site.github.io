@@ -41,4 +41,4 @@ We had our first Sundays with Solus yesterday (March 6th, 2016) and it went surp
 -  There was some questions. Please, don't make me write them all down here too ;_; Good questions, just watch the video.
 -  Ikey has single-handedly caused the fleeing of countless citizens and hamsters from their respective countries after turning his webcam on at the end of the video. In all fairness, he warned.
 
-{{ altimg "http://i.giphy.com/itDBteCsTFSVO.gif" }}
+{{< altimg "http://i.giphy.com/itDBteCsTFSVO.gif" >}}

@@ -24,4 +24,4 @@ To get involved with development, jump over to the [GitHub repository!](https://
 
 Feel free to leave comments below, or on G+ as usual.
 
-{{ altimg "2014/02/Screenshot-from-2014-02-17-220242.png" }}
+{{< altimg "2014/02/Screenshot-from-2014-02-17-220242.png" >}}

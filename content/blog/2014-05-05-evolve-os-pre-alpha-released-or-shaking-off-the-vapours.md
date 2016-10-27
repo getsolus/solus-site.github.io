@@ -13,7 +13,7 @@ Hello all,
 As a follow up from yesterday's status update, well, it boots! So today I'm happy to release a **pre-alpha validation ISO**. Note this ISO is only available as a 64-bit system, 
 and is not persistent! The desktop and installer are deliberately absent from this ISO, but you can use it to validate the system base, compiler, etc.<!--more-->
 
-{{ altimg "2014/05/Screenshot-from-2014-05-05-152458.png" }}
+{{< altimg "2014/05/Screenshot-from-2014-05-05-152458.png" >}}
 
 ### What's in the system?
 

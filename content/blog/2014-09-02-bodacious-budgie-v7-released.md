@@ -13,7 +13,7 @@ Well, its that time again. We're pleased to announce v7 of Budgie Desktop, aka B
 
 This release represents 54 commits, with 53 files changed, 4524 insertions and 157 deletions. We call it v7.
 
-{{ altimg "https://solus-project.com/release_images/7notification.png" }}
+{{< altimg "https://solus-project.com/release_images/7notification.png" >}}
 
 ### So what's new?
 
@@ -41,6 +41,6 @@ Budgie is currently known not to start on GDM3.12 on certain distributions. Also
 
 ### Obligatory excess screenshot section
 
-{{ altimg "https://solus-project.com/release_images/7sound-menu.png" }}
+{{< altimg "https://solus-project.com/release_images/7sound-menu.png" >}}
 
-{{ altimg "https://solus-project.com/release_images/7gnome-panel-mode.png" }}
+{{< altimg "https://solus-project.com/release_images/7gnome-panel-mode.png" >}}

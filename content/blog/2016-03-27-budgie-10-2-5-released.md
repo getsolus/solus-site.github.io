@@ -23,11 +23,11 @@ consistent, whether or not the application is running.
 
 When you launch Raven, you are greeted by more accurate sound device names. This should help demystify what devices are available to you and enable easier selection of input/output devices. You can see this in the image below.
 
-{{ altimg "2016/03/Raven_SoundDevices.jpg" }}
+{{< altimg "2016/03/Raven_SoundDevices.jpg" >}}
 
 We have introduced a new applet for managing your Bluetooth devices, including setting Bluetooth to "Airplane mode".
 
-{{ altimg "2016/03/Screenshot-from-2016-03-20-17-17-48.png" }}
+{{< altimg "2016/03/Screenshot-from-2016-03-20-17-17-48.png" >}}
 
 We also improved the tile preview animation, so it originates at the window being tiled.
 
@@ -39,11 +39,11 @@ Budgie is just as much about enabling you to tailor your experience than it is p
 -  Select different cursor themes
 -  Select different fonts for things like Window Titles, Interface, etc.
 
-{{ altimg "2016/03/Raven_General.jpg"}}
+{{< altimg "2016/03/Raven_General.jpg" >}}
 
 You now have the option to disable the region theming for the panel as well, as shown in the image below.
 
-{{ altimg "2016/03/Raven_Panel.jpg" }}
+{{< altimg "2016/03/Raven_Panel.jpg" >}}
 
 #### Other Improvements
 

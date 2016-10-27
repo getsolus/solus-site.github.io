@@ -20,7 +20,7 @@ people to help me in cleaning/validating the base system before we progress any 
 
 Networking has been introduced in this ISO and is enabled by default, enabling further testing. Many developer friendly changes have been made to PiSi, such as supporting pkgconfig style dependencies and automatically expanding binary and devel dependencies for packaging. Also note it's now possible to easily boot via Qemu using the '-cdrom' option as the legacy IDE subsystem was disabled in the kernel.
 
-{{ altimg "2014/06/Screenshot-from-2014-06-03-200805.png" }}
+{{< altimg "2014/06/Screenshot-from-2014-06-03-200805.png" >}}
 
 Every package has been rebuilt and is synced with the Evolve OS package repository (enabled by default in the ISO) and packages have far superior dependencies 
 to before, making packaging much simpler and ensuring users do not have broken packages.
@@ -31,7 +31,7 @@ You'll see how much they've improved by issuing:
 pisi info glibc
 ```
 
-{{ altimg "2014/06/Screenshot-from-2014-06-03-200423.png" }}
+{{< altimg "2014/06/Screenshot-from-2014-06-03-200423.png" >}}
 
 And you'll be able to clearly see the reverse dependencies of glibc (automatic). For developers, try:
 
@@ -39,7 +39,7 @@ And you'll be able to clearly see the reverse dependencies of glibc (automatic).
 pisi info systemd-devel
 ```
 
-{{ altimg "2014/06/Screenshot-from-2014-06-03-200613.png" }}
+{{< altimg "2014/06/Screenshot-from-2014-06-03-200613.png" >}}
 
 You'll see automatic exports of pkgconfig names in the output.
 

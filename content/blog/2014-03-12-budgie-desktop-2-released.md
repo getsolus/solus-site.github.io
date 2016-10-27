@@ -23,6 +23,6 @@ been updated and v2 is on its way, so please enjoy! 🙂
 
 [http://software.opensuse.org/download.html?project=home%3Aikeydoherty%3Aevolve&package=budgie-desktop](http://software.opensuse.org/download.html?project=home%3Aikeydoherty%3Aevolve&package=budgie-desktop)
 
-{{ altimg "2014/03/Screenshot-from-2014-03-12-212937.png" }}
+{{< altimg "2014/03/Screenshot-from-2014-03-12-212937.png" >}}
 
-{{ altimg "2014/03/Screenshot-from-2014-03-12-200211.png" }}
+{{< altimg "2014/03/Screenshot-from-2014-03-12-200211.png" >}}

@@ -22,4 +22,4 @@ The core components are as follows:
 
 If you're interested in checking out the code (which is written in C), please [check out the GitHub page](https://github.com/solus-project/budgie-desktop)
 
-{{< altimg "2013/12/Screenshot-from-2013-12-14-131850.png" }}
+{{< altimg "2013/12/Screenshot-from-2013-12-14-131850.png" >}}

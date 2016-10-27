@@ -26,7 +26,7 @@ I'm happy to say that Ikey's goal for a native Steam runtime were accomplished, 
 The implications of a native Steam runtime are pretty serious too. Rather than having non-optimized Ubuntu libraries from Steam's runtime, we are able to provide optimized libraries for a **more performant** gaming experience than **any** other 
 "tier one" operating system. There is still work to be done on the optimization front, but we're confident in this first step.
 
-{{ altimg "2016/05/Screenshot-from-2016-05-23-00-46-16.png" }}
+{{< altimg "2016/05/Screenshot-from-2016-05-23-00-46-16.png" >}}
 
 In addition to the native Steam runtime, some bug squashing happened as well:
 

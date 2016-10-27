@@ -13,7 +13,7 @@
 						{{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
 							{{ partial "altimg.html" (dict "image" .Params.featuredimage "class" "featured-image" "dir" "/imgs/posts/")}}
 						{{ end }}
-						{{ safeHTML .Content }}
+						{{ .Content }}
 					</div>
 				</div>
 

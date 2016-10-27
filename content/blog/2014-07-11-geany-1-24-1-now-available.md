@@ -18,4 +18,4 @@ sudo pisi ur && sudo pisi it geany
 
 <!--more-->
 
-{{ altimg "https://solus-project.com/pkg_screens/geany.png" }}
+{{< altimg "https://solus-project.com/pkg_screens/geany.png" >}}

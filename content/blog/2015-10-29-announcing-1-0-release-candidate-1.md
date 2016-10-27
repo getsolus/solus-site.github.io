@@ -31,7 +31,7 @@ Due to the [quality of the proprietary AMD drivers](https://plus.google.com/u/0/
 
 ### Firefox Theming
 
-{{ altimg "2015/10/Screenshot-from-2015-10-27-01-20-35.png" }}
+{{< altimg "2015/10/Screenshot-from-2015-10-27-01-20-35.png" >}}
 
 The default theme for Firefox has been changed to [Arc Firefox Darker theme](https://github.com/horst3180/arc-firefox-theme) to provide a consistent user experience and design throughout Solus. This is a stunning theme that compliments the 
 usage of the default GTK theme, [Arc Darker](https://github.com/horst3180/Arc-theme. The other Arc Firefox theme variants are available from the Appearance section of Firefox.

@@ -35,13 +35,13 @@ different desktop experience.
 If you would like to help contribute to this undertaking, feel free to drop a comment [via IRC](https://wiki.solus-project.com/Getting_Involved#IRC) or let Ikey know [here](https://plus.google.com/u/0/+Solus-Project/posts/QjACFNNdMXo).. 
 Otherwise we're going to need to go with some design that Ikey has created, and I assure you, you don't want that. He's a coder, not a designer. Example follows:
 
-{{ altimg "2016/05/Screenshot-from-2016-05-08-19-45-35.png" }}
+{{< altimg "2016/05/Screenshot-from-2016-05-08-19-45-35.png" >}}
 
 #### Budgie
 
 It wouldn't be a **real** This Week in Solus without talking about our cute little birdy, umm I mean our desktop environment.
 
-{{ altimg "2016/05/Screenshot-from-2016-05-05-21-34-49.png" }}
+{{< altimg "2016/05/Screenshot-from-2016-05-05-21-34-49.png" >}}
 
 Ikey has worked on improving out-of-tree Budgie desktop extension development, as well as providing examples across C, Python, and Vala for those wanting to get into development! These examples are available on the 
 [budgie-desktop-examples](https://github.com/solus-project/budgie-desktop-examples) repository!
@@ -62,20 +62,20 @@ Let's get started with a general walk-through of the different parts of the new 
 
 ###### Home
 
-{{ altimg "2016/05/Screenshot-from-2016-05-09-17-14-24.png" }}
+{{< altimg "2016/05/Screenshot-from-2016-05-09-17-14-24.png" >}}
 
 This is the Home section of the Software Center. This section will provide categories of applications available for installation and in the future, enable us to provide rich imagery and details on featured applications.
 
 ###### Updates
 
-{{ altimg "2016/05/Screenshot-from-2016-05-09-17-24-58.png" }}
+{{< altimg "2016/05/Screenshot-from-2016-05-09-17-24-58.png" >}}
 
 This is the Updates section of the Software Center. Here, you can see a list of updates for your system across a range of categories, such as Required, Security, and "Other". We provide immediate information on how large the total updates selected will be, 
 and enable you to get package details as well. **We'll get into package details later.**
 
 ###### Installed
 
-{{ altimg "2016/05/Screenshot-from-2016-05-09-17-35-45.png" }}
+{{< altimg "2016/05/Screenshot-from-2016-05-09-17-35-45.png" >}}
 
 This is the Installed section of the Software Center. I think it is pretty self-explanatory.
 
@@ -104,7 +104,7 @@ The Settings section of the Software Center will enable a wide range of configur
 
 ###### Package Details
 
-{{ altimg "2016/05/package_updates.jpg" }}
+{{< altimg "2016/05/package_updates.jpg" >}}
 
 Transparency about package changes is important to us. We want you to be just as informed about changes to your system as we are! Each package update will provide:
 

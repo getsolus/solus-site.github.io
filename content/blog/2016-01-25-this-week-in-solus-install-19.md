@@ -36,7 +36,7 @@ Here is a highlight of bugs we've smashed. Naturally some have been resolved by 
 - [VLC fails to play file properly](https://bugs.solus-project.com/show_bug.cgi?id=243)
 - [VLC is missing upnp functionality](https://bugs.solus-project.com/show_bug.cgi?id=529)
 
-{{ altimg "http://i.giphy.com/nryJthsS2EKf6.gif" }}
+{{< altimg "http://i.giphy.com/nryJthsS2EKf6.gif" >}}
 
 #### Package Updates
 
@@ -69,7 +69,7 @@ This time, I'm giving you both highlights and the fire hose of updates (**not in
 
  ##### Fire hose
 
-{{ altimg "http://i.giphy.com/FLndjoNsb2Gkw.gif" }}
+{{< altimg "http://i.giphy.com/FLndjoNsb2Gkw.gif" >}}
 
 New: 
 - [apr 1.5.2](https://git.solus-project.com/packages/apr/commit/?id=1d825183833990860e6e5dabfab2eecdab9cfd29)            

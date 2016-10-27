@@ -15,4 +15,4 @@ emulator (i.e. GNOME Terminal)
 sudo eopkg up
 ```
 
-{{ altimg "2014/12/Screenshot-from-2014-12-13-170351.png" }}
+{{< altimg "2014/12/Screenshot-from-2014-12-13-170351.png" >}}

@@ -3,12 +3,7 @@ author: Joshua Strobl
 categories:
 - News
 - TWIS
-codeus_gallery_images:
-- null
 date: 2015-12-06T21:25:18Z
-
-
-
 id: 895
 title: 'This Week In Solus -- Install #13'
 url: /2015/12/06/this-week-in-solus-install-13/
@@ -19,11 +14,12 @@ Wait, isn't this supposed to be an unlucky number?
 
 #### Daily Images
 
-Let's kick off TWIS with talk about Daily Images. As you might have known, we released [Daily Image 0.201549.3.0](https://solus-project.com/2015/12/02/daily-iso-0-201549-3-0-released/)last Wednesday, but what you might not have known is we also released 0.2015.49.5.0.
+Let's kick off TWIS with talk about Daily Images. As you might have known, we released [Daily Image 0.201549.3.0](https://solus-project.com/2015/12/02/daily-iso-0-201549-3-0-released/)last Wednesday, but what you might not have known is we also released 
+0.2015.49.5.0.
 
 That's right, **two** images this week.
 
-{{ altimg "http://i.giphy.com/XMvrleT9jksXm.gif" }
+{{< altimg "http://i.giphy.com/XMvrleT9jksXm.gif" >}}
 
 Here are some of the highlights of the image, which is available for download from the [Daily ISO](https://solus-project.com/daily-iso/) page.
 
@@ -35,7 +31,7 @@ Here are some of the highlights of the image, which is available for download fr
 
 #### New Hardware
 
-{{ altimg "2015/12/2015-12-03.jpg" }}
+{{< altimg "2015/12/2015-12-03.jpg" >}}
 
 Thanks to the continued support from the Solus community, Community Manager Justin was able to obtain an AMD HD 5450 Silent to enable us to better test AMD proprietary driver support when it lands.
 
@@ -61,4 +57,4 @@ Here is a **highlight** (seriously, an emphasis on highlight, there was a lot) o
 - youtube-dl: [Updated to 2015.12.06](https://git.solus-project.com/packages/youtube-dl/commit/?id=5a3e5397f5f42215ea515e77cd4f8827fafa0d7e)        
 - zsh: [Updated to 5.2](https://git.solus-project.com/packages/zsh/commit/?id=d8322c47495a4a7961a763c06bf411455b5fbc35)
 
-{{ altimg "http://i.giphy.com/VfkGlZD0hW4a4.gif" }}
+{{< altimg "http://i.giphy.com/VfkGlZD0hW4a4.gif" >}}

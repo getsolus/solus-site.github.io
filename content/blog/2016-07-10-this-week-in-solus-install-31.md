@@ -25,7 +25,7 @@ to shifting users from Solus 1.0 to 1.1 across a Python UCS4 migration. If there
 
 We're really **good** at keeping things **stable** and really **bad** at **not** being a rolling release. So effective immediately, **Solus now follows a rolling release model**.
 
-{{ altimg "http://cdn.gifstache.com/2013/5/20/2124091543_659776696.gif" }}
+{{< altimg "http://cdn.gifstache.com/2013/5/20/2124091543_659776696.gif" >}}
 
 What does this mean for you? We're taking it up a notch from just updated apps.
 
@@ -33,7 +33,7 @@ What does this mean for you? We're taking it up a notch from just updated apps.
 2. Next week after Solus 1.2.1, we're rolling out **GNOME 3.20**. Thanks to work done by horst3180, Budgie is already compatible with GNOME 3.20, so that will not be a blocker for updating the GNOME stack.
 3. So long as you keep your system updated, your Solus 1.x installation will be supported **indefinitely**. Releases are primarily for us to focus on milestones and provide a snapshot for installation.
 
-{{ altimg "http://i.imgur.com/YsbKHg1.gif" }}
+{{< altimg "http://i.imgur.com/YsbKHg1.gif" >}}
 
 #### ypkg Improvements
 

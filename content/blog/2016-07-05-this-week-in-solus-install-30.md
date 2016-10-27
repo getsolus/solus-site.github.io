@@ -49,7 +49,7 @@ where possible sol will pick up the bits it needs to.
 
 #### C No Evil
 
-{{ altimg "2016/07/Screenshot-from-2016-07-05-23-51-45.png" }}
+{{< altimg "2016/07/Screenshot-from-2016-07-05-23-51-45.png" >}}
 
 Budgie at its core has long been written in Vala, with parts of the environment (**such as the Applet plugin API**) being written in C. But as we look towards improving performance, ensuring a firmer control on memory management and security, 
 and better defining an ABI, we have come to one, simple conclusion: **In order to address our concerns and fit our needs, we need to (re-)write the core in C**.

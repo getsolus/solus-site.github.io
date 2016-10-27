@@ -14,7 +14,7 @@ In order to make it easier to get involved with the project and report bugs, I'v
 [The Bug Genie](http://www.thebuggenie.com/) for our bug needs. This is open source software under the 
 [Mozilla Public License](http://www.mozilla.org/MPL/1.1/) version 1.1 (MPL-1.1). A demo screenshot is provided below.<!--more-->
 
-{{ altimg "https://solus-project.com/wp-content/uploads/2014/06/bts.png" }}
+{{< altimg "https://solus-project.com/wp-content/uploads/2014/06/bts.png" >}}
 
 You can get signed up by visiting [https://solus-project.com/project/](https://solus-project.com/project/) -- we'll also have some bits of documentation 
 there on the built-in wiki soon enough. Note that this facilitates proper project management and releases, and this is exactly how we'll use it.
