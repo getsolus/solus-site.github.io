@@ -14,9 +14,9 @@
 				in
 				{{ range $index, $category := $blog.Params.categories -}}
 					{{ if lt $index (sub $categoriesLength 1) }}
-						<a href="{{ $site.BaseURL }}categories/{{ $category }}">{{ if eq $category "twis"}}TWIS{{ else }}{{ humanize $category }}{{ end }}</a>,
+						<a href="{{ $site.BaseURL }}categories/{{ $category }}">{{ if eq (lower $category) "twis"}}TWIS{{ else }}{{ humanize $category }}{{ end }}</a>,
 					{{ else }}
-					 and <a href="{{ $site.BaseURL }}categories/{{ $category }}">{{ if eq $category "twis"}}TWIS{{ else }}{{ humanize $category }}{{ end }}</a>
+					 and <a href="{{ $site.BaseURL }}categories/{{ $category }}">{{ if eq (lower $category) "twis"}}TWIS{{ else }}{{ humanize $category }}{{ end }}</a>
 					{{end}}
 				{{ end -}}
 			{{ end -}}
