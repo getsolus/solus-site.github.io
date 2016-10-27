@@ -1,5 +1,5 @@
 ---
-author: Ikey Doherty
+author: ikey
 categories:
 - News
 date: 2014-05-05T14:48:52Z

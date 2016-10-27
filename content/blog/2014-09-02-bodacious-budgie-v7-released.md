@@ -1,5 +1,5 @@
 ---
-author: Ikey Doherty
+author: ikey
 categories:
 - Budgie
 date: 2014-09-02T00:31:27Z

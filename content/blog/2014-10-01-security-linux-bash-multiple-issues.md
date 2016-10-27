@@ -1,5 +1,5 @@
 ---
-author: Ikey Doherty
+author: ikey
 categories:
 - Security
 date: 2014-10-01T21:45:16Z

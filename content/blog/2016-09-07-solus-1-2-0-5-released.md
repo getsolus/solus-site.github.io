@@ -1,5 +1,5 @@
 ---
-author: Joshua Strobl
+author: joshua
 categories:
 - News
 - Releases

@@ -1,5 +1,5 @@
 ---
-author: Joshua Strobl
+author: joshua
 categories:
 - Releases
 date: 2016-03-02T08:16:22Z

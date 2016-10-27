@@ -1,5 +1,5 @@
 ---
-author: Ikey Doherty
+author: ikey
 categories:
 - Packages
 date: 2014-12-13T17:09:40Z
