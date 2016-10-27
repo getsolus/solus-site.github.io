@@ -6,7 +6,7 @@ title: "Solus"
 # Content
 archetypedir: "themes/solus/archetypes"
 buildDrafts: true
-googleAnalytics: "UA-Not-Yet"
+googleanalytics: "UA-Not-Yet"
 languageCode: "en-us"
 metaDataFormat: "yaml"
 paginate: 5
@@ -55,10 +55,6 @@ menu:
         Identifier: "download"
         URL: "/download"
         Weight: 2
-      - Name: "Technical Specifications"
-        Identifier: "technical-specifications"
-        URL: "/solus/technical-specifications"
-        Weight: 3
   social:
       - Identifier: "social"
       - Name: "Facebook"
@@ -99,11 +95,21 @@ menu:
         Identifier: "irc"
         URL: "irc://irc.freenode.net/#Solus"
         Weight: 5
+presslist:
+    - Identifier: "presslist"
+    - Name: "Press Centre"
+      Identifier: "pressfooteritem"
+      URL: "press-centre"
+      Weight: 1
+    - Name: "Branding Guidelines"
+      Identifier: "brandingguidelines"
+      URL: "branding-guidelines"
+      Weight: 2
 # Special Params
 params:
     copyright: "2016"
     # Because I can't for the life of me get Hugo nested lists to work
-    footermenu: ["solus", "social", "support"]
+    footermenu: ["solus", "social", "support", "presslist"]
     userguide: "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
 # Taxonomies
     category: ["budgie", "news", "packages", "plans", "releases", "security", "twis"]
