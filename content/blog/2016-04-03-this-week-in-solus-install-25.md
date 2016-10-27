@@ -7,7 +7,7 @@ categories:
 - TWIS
 date: 2016-04-03T23:15:02Z
 id: 1248
-title: 'This Week in Solus -- Install#25'
+title: 'This Week in Solus -- Install #25'
 url: /2016/04/03/this-week-in-solus-install-25/
 ---
 

@@ -6,7 +6,7 @@ categories:
 - TWIS
 date: 2016-07-10T19:46:20Z
 id: 1512
-title: 'This Week in Solus -- Install#31'
+title: 'This Week in Solus -- Install #31'
 url: /2016/07/10/this-week-in-solus-install-31/
 --- 
 Welcome to the 31st installation of This Week in Solus. 
