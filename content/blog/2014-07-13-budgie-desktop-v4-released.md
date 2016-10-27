@@ -30,7 +30,7 @@ Notable differences include:
 - Implement suspend support in the session dialog
 - Introduce a new run dialog (preview, linked to panel-run-dialog keybinding) -- written in Vala.
 
-{{< altimg="https://solus-project.com/pkg_screens/budgie-run-dialog.png" >}}
+{{< altimg "https://solus-project.com/pkg_screens/budgie-run-dialog.png" >}}
 
 Note that I have made the decision to rewrite Budgie in Vala. Given the evolving complex relationship between the components, now seems a very sensible time to 
 rewrite in a truly object orientated language. Once this is complete, a proper applet API will be introduced. The main benefit of the change will be lowering the entry 
