@@ -1,0 +1,9 @@
+<div data-solus-component="content-overlay"></div>
+<div data-solus-component="sidepane">
+	<div data-solus-component="full-width-box">
+		{{- range .Site.Menus.main }}
+			{{- $absoluteMenuURL := (.URL | absURL) -}}
+			<a href="{{ $absoluteMenuURL }}"{{- if hasPrefix "$pagePermalink" "$absoluteMenuURL" -}}active{{- end -}}>{{ .Name }}</a>
+		{{ end -}}
+	</div>
+</div>
