@@ -1,11 +1,12 @@
 {{ $site := .site }}
 <h1>Install today. Updates forever.</h1>
 {{ range $edition := (slice "Budgie" "Mate") }}
+	{{ $editionName := replace $edition "Mate" "MATE" }}
 	{{ $editionInfo := (index $site.Data.isos.info $edition )}}
 	<!-- For each edition -->
 	<div data-solus-component="solus-edition-section">
 		<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/Solus-{{ $edition }}.jpg" />
-		<h2>Solus{{ if eq $edition "Mate" }} Mate{{ end }}</h2>
+		<h2>Solus{{ if eq $editionName "MATE" }} MATE{{ end }}</h2>
 		<p>{{ $editionInfo.description }}</p>
 		<section data-solus-component="solus-media">
 			<div data-solus-minor-component="solus-media-regions">
@@ -15,7 +16,7 @@
 						<b>{{ $locationInfo.Name }}</b>
 						{{ range $location, $url := $locationInfo.Locations }}
 							{{ $locationName := (replace $location "_" " ") }}
-							{{ $fullurl := printf "%sSolus-%s-%s.iso" $url $site.Data.isos.info.Version $edition | safeURL }}
+							{{ $fullurl := printf "%sSolus-%s-%s.iso" $url $site.Data.isos.info.Version $editionName | safeURL }}
 							<div>
 								<a href="{{ replace $fullurl "-Budgie" "" }}">{{- $locationName -}}</a>
 							</div>
