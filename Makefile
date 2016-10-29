@@ -2,6 +2,7 @@ SHELL = /bin/bash
 
 deploy:
 	hugo --destination public-deployed/
+	rm -v public-deployed/index.html
 
 local:
 	hugo server --baseURL "http://127.0.0.1:1313"
