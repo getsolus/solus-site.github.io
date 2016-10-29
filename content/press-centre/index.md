@@ -10,7 +10,6 @@ For information on our products, consult the information below:
 - Budgie is the flagship desktop environment of Solus and a Solus project.
   - [Home](/budgie)
 - Solus is an operating system that is designed for modern PCs
-  - [Home](/solus)
   - [Download](/download)
 
 # Branding Guidelines
@@ -26,9 +25,10 @@ Reach out to the following individuals for inquiring on information in regards t
 # Press Announcements
 
 - **Current Release**
+ - Solus 1.2.1: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PSXU2eFlsR0NvY1E) or [Media Pack (ZIP)](https://drive.google.com/open?id=0B5Ymf8oYXx-PalphUDlzRVhMMXc)
+- **Previous Releases**
  - Solus 1.2: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PdWxRODNKd0RXVW8)
  or [Media Pack (ZIP)](https://drive.google.com/open?id=0B5Ymf8oYXx-PQVlxZzBWQk1KZzQ)
-- **Previous Releases**
  - Solus 1.1: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PMUZWcXVkYVI4Um8)
  or [Media Pack (ZIP)](https://drive.google.com/open?id=0B5Ymf8oYXx-PQko0RzBsN1J1WDg)
  - Solus 1.0: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PSURwa2h5T0t6Ulk)
