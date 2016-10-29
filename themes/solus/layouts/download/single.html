@@ -8,7 +8,10 @@
 			<div data-solus-component="main">
 				<div data-solus-component="download-content">
 					{{ partial "download/info.html" (dict "site" .Site) }}
-					{{ .Content }}
+					<div data-solus-component="solus-download-info">
+							{{ .Content }}
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

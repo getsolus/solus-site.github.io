@@ -4,31 +4,33 @@
 	{{ $editionName := replace $edition "Mate" "MATE" }}
 	{{ $editionInfo := (index $site.Data.isos.info $edition )}}
 	<!-- For each edition -->
-	<div data-solus-component="solus-edition-section">
-		<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/Solus-{{ $edition }}.jpg" />
-		<h2>Solus{{ if eq $editionName "MATE" }} MATE{{ end }}</h2>
-		<p>{{ $editionInfo.description }}</p>
-		<section data-solus-component="solus-media">
-			<div data-solus-minor-component="solus-media-regions">
-				{{ range $locationKey := (slice "americas" "europe") }}
-					{{ $locationInfo := (index $site.Data.isos $locationKey) }}
-					<span>
-						<b>{{ $locationInfo.Name }}</b>
-						{{ range $location, $url := $locationInfo.Locations }}
-							{{ $locationName := (replace $location "_" " ") }}
-							{{ $fullurl := printf "%sSolus-%s-%s.iso" $url $site.Data.isos.info.Version $editionName | safeURL }}
-							<div>
-								<a href="{{ replace $fullurl "-Budgie" "" }}">{{- $locationName -}}</a>
-							</div>
-						{{ end }}
-					</span>
-				{{ end }}
-			</div>
-			<div data-solus-minor-component="solus-extra-info">
-				Media Size: {{ $editionInfo.mediasize }}<br />
-				Alternative Download: <a href="{{ $editionInfo.torrent }}">Torrent</a><br />
-				SHA256 Checksum: {{ $editionInfo.shasum }}
-			</div>
-		</section>	
+	<div data-solus-component="solus-edition-section-full">
+		<div data-solus-component="solus-edition-section">
+			<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/Solus-{{ $edition }}.jpg" />
+			<h2>Solus{{ if eq $editionName "MATE" }} MATE{{ end }}</h2>
+			<p>{{ $editionInfo.description }}</p>
+			<section data-solus-component="solus-media">
+				<div data-solus-minor-component="solus-media-regions">
+					{{ range $locationKey := (slice "americas" "europe") }}
+						{{ $locationInfo := (index $site.Data.isos $locationKey) }}
+						<span>
+							<b>{{ $locationInfo.Name }}</b>
+							{{ range $location, $url := $locationInfo.Locations }}
+								{{ $locationName := (replace $location "_" " ") }}
+								{{ $fullurl := printf "%sSolus-%s-%s.iso" $url $site.Data.isos.info.Version $editionName | safeURL }}
+								<div>
+									<a href="{{ replace $fullurl "-Budgie" "" }}">{{- $locationName -}}</a>
+								</div>
+							{{ end }}
+						</span>
+					{{ end }}
+				</div>
+				<div data-solus-minor-component="solus-extra-info">
+					Media Size: {{ $editionInfo.mediasize }}<br />
+					Alternative Download: <a href="{{ $editionInfo.torrent }}">Torrent</a><br />
+					SHA256 Checksum: {{ $editionInfo.shasum }}
+				</div>
+			</section>	
+		</div>
 	</div>
 {{ end }}
