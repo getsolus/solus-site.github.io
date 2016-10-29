@@ -7,14 +7,14 @@ title: "Support Us"
 	subclass="support-us"
 	height="short"
 	header="Support Us"
-	description="Solus is free, in its entirety, for end users. This will always be the case, and we love providing you with something we all share a passion in: an awesome computing experience! It is also true that it is not free to create and provide Solus, or any of it’s projects."
+	description="Solus is free, in its entirety, for end users. This will always be the case, and we love providing you with something we all share a passion in: an awesome computing experience! It is also true that it is not free to create and provide Solus, or any of its projects."
 >}}
 
 {{< banner
 	subclass="what-do-we-need"
 	height="short"
 	header="What do we need?"
-	description="In order to develop Solus, we have to operating a small network of servers, obtain and replace hardware, pay for general hardware-related utilities such as network connectivity, and maintain infrastructure like domains, SSL certificates, and domains."
+	description="In order to develop Solus, we have to operate a small network of servers, obtain and replace hardware, pay for general hardware-related utilities such as network connectivity, and maintain infrastructure like domains, SSL certificates, and domains."
 >}}
 
 {{< banner
