@@ -59,7 +59,7 @@ menu:
         Weight: 2
       - Name: "Reddit"
         Identifier: "reddit"
-        URL: "https://reddit.com/SolusProject"
+        URL: "https://reddit.com/r/SolusProject"
         Weight: 3
       - Name: "Twitter"
         Identifier: "twitter"

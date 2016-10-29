@@ -13,7 +13,11 @@
 					<div data-solus-component="featured-blog-post">
 						<div data-solus-minor-component="featured-blog-info">
 							{{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
-							<p>{{- $firstBlog.Summary -}}</p>
+							{{ if ge (len $firstBlog.Summary) 347 }}
+								<p>{{- substr $firstBlog.Summary 0 347 -}}...</p>
+							{{ else }}
+								<p>{{- $firstBlog.Summary -}}
+							{{ end }}
 							<a data-solus-component="button" href="{{ $firstBlog.Permalink }}">Read More</a>
 						</div>
 						{{ partial "altimg.html" (dict "image" $firstBlog.Params.featuredimage "dir" "/imgs/posts/" )}}
