@@ -33,28 +33,20 @@ menu:
         Identifier: "support-us"
         URL: "/support"
         Weight: 4
-      - Name: "Solus"
-        Identifier: "solus-page"
-        URL: "/solus"
-        Weight: 5
       - Name: "Budgie"
         Identifier: "budgie"
         URL: "/budgie"
-        Weight: 6
+        Weight: 5
       - Name: "Press"
         Identifier: "press"
         URL: "/press-centre"
-        Weight: 7
+        Weight: 6
   solus:
       - Identifier: "solus"
-      - Name: "Overview"
-        Identifier: "overview"
-        URL: "/solus"
-        Weight: 1
       - Name: "Download"
         Identifier: "download"
         URL: "/download"
-        Weight: 2
+        Weight: 1
   social:
       - Identifier: "social"
       - Name: "Facebook"
