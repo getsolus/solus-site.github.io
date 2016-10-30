@@ -14,7 +14,7 @@ title: "Support Us"
 	subclass="what-do-we-need"
 	height="short"
 	header="What do we need?"
-	description="In order to develop Solus, we have to operate a small network of servers, obtain and replace hardware, pay for general hardware-related utilities such as network connectivity, and maintain infrastructure like domains, SSL certificates, and domains."
+	description="In order to develop Solus, we have to operate a small network of servers, obtain and replace hardware, pay for general hardware-related utilities such as network connectivity, and maintain infrastructure like domains and SSL certificates."
 >}}
 
 {{< banner
