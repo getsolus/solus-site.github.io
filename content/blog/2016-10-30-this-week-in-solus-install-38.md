@@ -57,7 +57,7 @@ launch behind us, it's time to focus on the road ahead and lay it out for those 
 
 First off, I want to flesh out the content more extensively, and re-introduce the Solus page, originally shown off during earlier streams, with some differentiators from the homepage. I also understand that some may 
 view the new site to be less information dense and more reliant on imagery, which is a polar opposite of the previous Wordpress-based website, and this is something I plan on gradually addressing. I'm of the opinion that 
-starting with less, highly discoverable content, then working towards improving what content we do provide, is a far better path than starting with too much information that affects discoverability, that we'd gradually need to 
+starting with less but highly discoverable content, then working towards improving what content we do provide, is a far better path than starting with too much information that affects discoverability, that we'd gradually need to 
 remove or shift elsewhere.
 
 Once I'm happier with the content we do provide, I'll be working on adding more features and functionality, such as providing an integrated Help Center. This will enable a high-quality method for discovering and querying 
@@ -76,7 +76,7 @@ the present day. We don't have more concrete details to talk about at this momen
 ### Mail
 
 Whether it is signing up for the forums or getting emails about patches on our Phabricator, email is heavily used for and with Solus on a daily basis. As any of you, whom might've attempted to sign up for the forums noticed, 
-the mail doesn't exactly always get delivered, as a result of being blacklisted by some companies due to bad actors on the I.P. block.  We've investigated resolving this issue however the best course of action appears to be 
+the mail doesn't exactly always get delivered, as a result of being blacklisted by some companies due to bad actors on the same I.P. block.  We've investigated resolving this issue however the best course of action appears to be 
 moving to a commercial mail provider, so we'll be working towards resolving that issue.
 
 ---
