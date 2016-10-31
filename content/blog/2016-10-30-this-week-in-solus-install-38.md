@@ -158,7 +158,7 @@ Here is a highlight of new and updated packages.
 - [telegram 0.10.19](https://git.solus-project.com/packages/telegram/commit/?id=e4ddb2297915d1d9d60e949989e3fc80cf43a6f1)
 - [transmission - Change to network.download component and use new tarball location](https://git.solus-project.com/packages/transmission/commit/?id=32cbc3b9b1fb003dd7ce33cce72a1d5f183fccb7)
 - [tzdata 2016h](https://git.solus-project.com/packages/tzdata/commit/?id=b7d63d85e17573b10c510bbd180a05e73616052c)
-- [vim 8.0.0054]()https://git.solus-project.com/packages/vim/commit/?id=1129414047045eaf7c64c9adf712a3b2575610b1
+- [vim 8.0.0054](https://git.solus-project.com/packages/vim/commit/?id=1129414047045eaf7c64c9adf712a3b2575610b1)
 - [vsftpd - Added pam service name and seccomp sandbox setting.](https://git.solus-project.com/packages/vsftpd/commit/?id=bdd2e64696a9ba256e7e25ddefcdfe61911daa9a)
 - [youtube-dl 2016.10.26](https://git.solus-project.com/packages/youtube-dl/commit/?id=824d8ea090e8f687e1fe17b7396f53225986da2c)
 - ypkg:
