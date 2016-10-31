@@ -3,11 +3,11 @@ author: "joshua"
 categories:
 - news
 - twis
-date: 2016-10-30T18:27:41+02:00
+date: 2016-10-31T09:34:41+02:00
 featuredimage: ""
 internaltype: post
 title: "This Week in Solus - install #38"
-url: /2016/10/30/this-week-in-solus-install-38/
+url: /2016/10/31/this-week-in-solus-install-38/
 ---
 
 Welcome to This Week in Solus, installation #38. Lots have happened since the last one, so let's get started.
