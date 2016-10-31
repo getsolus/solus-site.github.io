@@ -3,7 +3,7 @@ author: "joshua"
 categories:
 - news
 - twis
-date: 2016-10-31T09:34:41+02:00
+date: 2016-10-31T10:05:41+02:00
 featuredimage: ""
 internaltype: post
 title: "This Week in Solus - install #38"
@@ -15,7 +15,7 @@ Welcome to This Week in Solus, installation #38. Lots have happened since the la
 ## Budgie
 
 Last week, Ikey migrated Budgie Desktop to be its own GitHub organization, viewable [here](https://github.com/budgie-desktop). This is a reflection of the direction we want to take Budgie, which is moving from a monolithic 
-model to breaking up Budgie into individually components. This will empower us to independently develop, iterate and release components of Budgie without the concern of the state of stability in some monolithic codebase. 
+architecture to a modular one, breaking up Budgie into individually components, empowering us to independently develop, iterate and release components of Budgie.
 
 Ikey has already began work on creating a `budgie-core`, the component that all other Budgie components will depend on. This core contains gsettings schemas (*stored traditionally in the panel*) and theming used 
 throughout the Budgie Desktop. We plan on extending the core in the future to provide an animation framework, as well as accented colors and applications.
@@ -33,7 +33,10 @@ This re-architecting of Budgie will first appear in Budgie 11.0.0. Yes, proper [
 
 ## Hackfest
 
-During Saturday, Bryan and I had ourselves a hackfest / "build-o-rama" (*name is inspired by building and packaging of software*). You can watch it below!
+During Saturday, Bryan and I had ourselves a hackfest / "build-o-rama" (*name is inspired by building and packaging of software*). During this Hackfest, Bryan worked on packaging, for example landing gzdoom, lbreakout2, 
+and tools such as shellcheck. He also triaged and fixed issues, such as resolving dependencies for Gnome Builder, further putting a dent in our backlog.
+
+During the Hackfest, I worked on the site and landed community patches.
 
 {{< youtube "peXzufAT_Lc" >}}
 
