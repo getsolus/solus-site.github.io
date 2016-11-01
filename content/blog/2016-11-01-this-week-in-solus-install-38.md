@@ -3,7 +3,7 @@ author: "joshua"
 categories:
 - news
 - twis
-date: 2016-10-31T10:05:41+02:00
+date: 2016-11-01T08:27:41+02:00
 featuredimage: ""
 internaltype: post
 title: "This Week in Solus - install #38"
@@ -18,7 +18,7 @@ Last week, Ikey migrated Budgie Desktop to be its own GitHub organization, viewa
 architecture to a modular one, breaking up Budgie into individually components, empowering us to independently develop, iterate and release components of Budgie.
 
 Ikey has already began work on creating a `budgie-core`, the component that all other Budgie components will depend on. This core contains gsettings schemas (*stored traditionally in the panel*) and theming used 
-throughout the Budgie Desktop. We plan on extending the core in the future to provide an animation framework, as well as accented colors and applications.
+throughout the Budgie Desktop. We plan on extending the core in the future to provide an animation framework, as well as accented colors.
 
 We also have the following components:
 
@@ -48,7 +48,7 @@ During the Hackfest, I worked on the site and landed community patches.
 
 ### Website
 
-As you might have noticed, our website has changed quite significantly in the last day or so. Previously, we were using Wordpress to deliver information about the Solus project and Budgie, however it simply didn't fit 
+As you might have noticed, our website has changed quite significantly on Saturday. Previously, we were using Wordpress to deliver information about the Solus project and Budgie, however it simply didn't fit 
 our needs and was quite frankly a royal pain to work with. So it has been completely tossed out and replaced with this new Hugo-based website, which not only gives us the opportunity to tell the Solus story in a more 
 tailored fashion, but opens the door to a lot of possibilities in the future.
 
