@@ -7,7 +7,7 @@ date: 2016-11-01T08:27:41+02:00
 featuredimage: ""
 internaltype: post
 title: "This Week in Solus - install #38"
-url: /2016/10/31/this-week-in-solus-install-38/
+url: /2016/11/01/this-week-in-solus-install-38/
 ---
 
 Welcome to This Week in Solus, installation #38. Lots have happened since the last one, so let's get started.
