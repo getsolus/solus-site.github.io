@@ -1,3 +1,6 @@
 [submodule "solus-styling"]
 	path = solus-styling
 	url = git@gitlab.com:solus-project/solus-styling
+[submodule "solus-webplatform-js"]
+	path = solus-webplatform-js
+	url = git@gitlab.com:solus-project/solus-webplatform-js
