@@ -1,2 +1,4 @@
 Makefile
 public/
+public-deployed/
+themes/solus/static/{css,js}
