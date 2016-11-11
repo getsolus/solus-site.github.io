@@ -17,26 +17,23 @@ configuration in the `content/blog/` directory.
 
 ## Development
 
-### Dependencies
+### Setup
 
-To develop the Solus site, you will need Go and Hugo. You can install Go by following the instructions [here](http://golang.org) and use the following command(s) to set up Hugo:
+To set up your Solus system for the website development, you first need to ensure you have the necessary dependencies installed. Run `make setup` to install the necessary dependencies as well as 
+init git submodules.
 
-1. You will need to go get Hugo: `go get -u -v github.com/spf13/hugo`
-2. You will need to add the path to the bin folder of your Go workspace to your existing `PATH` in your appropriate terminal rc file (*ex. `.zshrc`*).
+Next, run `make sync` to sync the latest CSS and JS and ensure they are copied over the appropriate directories.
 
 ### Local Server
 
-You can start up a local server by calling `hugo server` in the `solus-site` directory. It is recommended you modify your base URL with the following command, to enable you to do navigation throughout your local site:
-
-``` bash
-hugo server --baseURL "http://127.0.0.1:1313"
-```
+You can start up a local server by calling `make local` in the `solus-site` directory. This will expose the site on `http://127.0.0.1:1313/home`.
 
 **Note:** You will not need to restart the server when doing changes. Hugo does file watching across all the things.
 
-### Compile
+### Deployment
 
-You can "compile" the latest version of the Solus site by typing `./build.sh`. This will run `hugo` as well as use an HTML minifier to minify the finalized site, which resides in `public/`.
+To compile the website in preparation for deployment, run `make deploy`. This will create a `public-deployed` folder which can be uploaded to the server. Make sure you run a `make sync` prior to deployment, 
+to ensure you have the latest CSS and JS.
 
 ### Styling
 
@@ -44,4 +41,4 @@ I use 4-char wide tabs, not spaces, in everything **except** the YAML files.
 
 ## Licensing
 
-TBD.
+Apache 2.0

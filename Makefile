@@ -16,9 +16,9 @@ pull:
 
 setup:
 	git submodule init
-	sudo eopkg install nodejs
+	sudo eopkg install hugo nodejs
 	sudo npm install -g html-minifier
-	mkdir -p themes/solus/static/js
+	mkdir -p themes/solus/static/{css,js}
 
 sync:
 	git submodule update --remote --rebase
