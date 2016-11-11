@@ -37,10 +37,14 @@ menu:
         Identifier: "budgie"
         URL: "/budgie"
         Weight: 5
+      - Name: "Store"
+        Identifier: "store"
+        URL: "http://example.com"
+        Weight: 6
       - Name: "Press"
         Identifier: "press"
         URL: "/press-centre"
-        Weight: 6
+        Weight: 7
   solus:
       - Identifier: "solus"
       - Name: "Download"

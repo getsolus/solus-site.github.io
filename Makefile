@@ -1,10 +1,10 @@
 SHELL = /bin/bash
 
-deploy: sync
+deploy:
 	hugo --destination public-deployed/
 	rm -v public-deployed/index.html
 
-local: sync
+local:
 	hugo server --baseURL "http://127.0.0.1:1313"
 
 minifier:
@@ -22,7 +22,7 @@ setup:
 
 sync:
 	git submodule update --remote --rebase
-	cp -R solus-styling/build themes/solus/static/css
+	cp -R solus-styling/build/* themes/solus/static/css/
 	cp solus-webplatform-js/build/site.min.js themes/solus/static/js/
 
 help:
