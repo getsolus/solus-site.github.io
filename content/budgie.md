@@ -20,5 +20,5 @@ title: budgie
 >}}
 
 {{< ravenview >}}
-{{< appletview >}}
+{{< widgetview >}}
 {{< budgieforeveryone >}}

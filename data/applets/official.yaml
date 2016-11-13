@@ -1,6 +1,6 @@
 keyboard:
     Icon: "keyboard-layout-indicator.png"
-    Name: "Keyboard Layout Applet"
+    Name: "Keyboard Layout Widget"
     Description: "Indicates the current keyboard layout and enables the user to switch layouts."
 notifications:
     Icon: "notifications.png"
@@ -13,7 +13,7 @@ places:
 raven:
     Icon: "raven-sidebar-control.png"
     Name: "Raven Sidebar Control"
-    Description: "One-click access to view your favorite Raven applets."
+    Description: "One-click toggle for Raven."
 userindicator:
     Icon: "user-indicator.png"
     Name: "User Indicator"

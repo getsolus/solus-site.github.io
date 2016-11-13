@@ -23,8 +23,8 @@ employing underlying technologies to offer an alternative desktop experience.
 ##### Terminology
 
 - "Budgie" - Name of the desktop environment
-- "Raven" - Name of our applet / notification center.
-- "Applet" - An applet is a modular component that is used in either Budgie's panel or in the Raven Applet view.
+- "Raven" - Name of our widget / notification center.
+- "Widget" - A widget is a modular component that is used in either Budgie's panel or in the Raven Widget view.
 
 #### Assets
 - [Budgie Logo](https://solus-project.com/imgs/posts/2016/02/budgie.png)
