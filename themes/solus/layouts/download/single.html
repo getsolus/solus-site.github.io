@@ -3,14 +3,12 @@
 {{ partial "metadata.html" . }}
 	<body>
 		{{ partial "sidepane.html" . }}
-		<div data-solus-component="content-wrapper">
+		<div data-solus-component="main">
 			{{ partial "header.html" . }}
-			<div data-solus-component="main">
-				<div data-solus-component="download-content">
-					{{ partial "download/info.html" (dict "site" .Site) }}
-					<div data-solus-component="solus-download-info">
-							{{ .Content }}
-						</div>
+			<div data-solus-component="download-content">
+				{{ partial "download/info.html" (dict "site" .Site) }}
+				<div data-solus-component="solus-download-info">
+						{{ .Content }}
 					</div>
 				</div>
 			</div>

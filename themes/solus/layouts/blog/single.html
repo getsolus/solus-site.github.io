@@ -3,23 +3,21 @@
 {{ partial "metadata.html" . }}
 	<body>
 		{{ partial "sidepane.html" . }}
-		<div data-solus-component="content-wrapper">
+		<div data-solus-component="main">
 			{{ partial "header.html" . }}
-			<div data-solus-component="main">
-				<div data-solus-component="content">
-					{{ partial "blog/info.html" (dict "blog" . "site" .Site) }}
-					<div data-solus-component="blog-content">
-						<hr />
+			<div data-solus-component="content">
+				{{ partial "blog/info.html" (dict "blog" . "site" .Site) }}
+				<div data-solus-component="blog-content">
+					<hr />
 
-						{{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
-							{{ partial "altimg.html" (dict "image" .Params.featuredimage "class" "featured-image" "dir" "/imgs/posts/")}}
-						{{ end }}
-						{{ .Content }}
-					</div>
+					{{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
+						{{ partial "altimg.html" (dict "image" .Params.featuredimage "class" "featured-image" "dir" "/imgs/posts/")}}
+					{{ end }}
+					{{ .Content }}
 				</div>
-
-				{{ partial "blog/panel.html" . }}
 			</div>
+
+			{{ partial "blog/panel.html" . }}
 		</div>
 		{{ partial "footer.html" . }}
 	</body>
