@@ -25,8 +25,11 @@ We know many of you have been curious to hear our plans for the future, now that
 
 ### First ISO Snapshot
 
-With the [latest xorg-server released](https://lists.x.org/archives/xorg-announce/2016-November/002737.html), we will be putting out our first ISO snapshot. In addition to an updated xorg-server, it will also 
-feature Kernel 4.8.8, an upgraded libinput, associated xorg-driver-input-libinput package, and ensure our proprietary drivers reflect the latest versions released by the appropriate vendors, such as NVIDIA.
+With the [latest xorg-server released](https://lists.x.org/archives/xorg-announce/2016-November/002737.html), we will be putting out our first ISO snapshot soon. This ISO snapshot will feature:
+
+- Kernel 4.8.8 and enabling support for sound on some Bay Trail laptops by enabling `CONFIG_SND_SOC`, `CONFIG_SND_SOC_INTEL_BYT_MAX98090_MAC` (*rolls right off the tongue, doesn't it*), and more.
+- An upgraded xorg-server, libinput and associated xorg-driver-input-libinput package
+- Our proprietary drivers will reflect the latest versions released by the appropriate vendors, such as NVIDIA.
 
 ### Linux Driver Management
 
@@ -69,7 +72,6 @@ A multitude of fixes, upgrades and improvements have been made to other software
 
 - Firefox 50
 - Fixes to Asunder, Meld and git-cola.
-- Landed Kernel 4.8.8, as well as enabling support for sound on some Bay Trail laptops by enabling `CONFIG_SND_SOC`, `CONFIG_SND_SOC_INTEL_BYT_MAX98090_MAC` (*rolls right off the tongue, doesn't it*) and more.
 - Our protobuf and libboost have seen upgrades to the latest of their respective versions.
 - Resolved issues for some i3 users and their backlight controls not functioning. We now use [light](https://github.com/haikarainen/light/) for backlight controlling.
 
