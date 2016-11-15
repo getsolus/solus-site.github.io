@@ -24,6 +24,7 @@ submoduleupdate:
 	git submodule update --remote --rebase
 
 assetcopy:
+	mkdir -p themes/solus/static/{css,js}
 	cp -R solus-styling/build/* themes/solus/static/css/
 	cp solus-webplatform-js/build/site.min.js themes/solus/static/js/
 

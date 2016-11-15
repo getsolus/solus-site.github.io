@@ -35,8 +35,8 @@ and configuration of drivers. This work will enable Optimus support as well as o
 
 ### Budgie 11
 
-Once we are confident in the quality and initial functionality of Linux Driver Management, we will turn our attention to completing the re-architecting of Budgie, as well as executing our plans for the Budgie C rewrite. We 
-have already expressed interest in numerous new features, functionality, and changes for Budgie 11, such as (*but not limited to*):
+Once we are confident in the quality and initial functionality of Linux Driver Management, we will set our sights on Budgie 11 development and enhancing its architecture. 
+[We have already expressed interest in numerous new features, functionality, and changes for Budgie 11](https://github.com/budgie-desktop/info), such as (*but not limited to*):
 
 - Improving accessiblity and ensure all components are reusable, ATK registered, and don't break a11y.
 - Budgie Panel and Raven will use separate, versioned trees, and individual plugins will be appropriately namespaced.
@@ -167,5 +167,6 @@ Here is a highlight of new inclusions and updates to software in our repository.
 - [vim 8.0.0085](https://git.solus-project.com/packages/vim/commit/?id=5068b23b38a4c86560f3eab4978af2a00ae817d2)
 - [vsftpd - Drop quotes around login](https://git.solus-project.com/packages/vsftpd/commit/?id=569d484bb4c6a88dab75f0777c82578f93160a71)
 - [wine 1.9.23 - Drop staging patches](https://git.solus-project.com/packages/wine/commit/?id=ccf5c3e8c31785be18a5629351a35930bce449d7)
+- [yarn 0.17.0](https://git.solus-project.com/packages/yarn/commit/?id=88edeeeaaf7f1d784266f75960d284bd6f2c0ceb)
 - [youtube-dl 2016.11.14.1](https://git.solus-project.com/packages/youtube-dl/commit/?id=7dac884af139b6183e69798aa8de2ff2a1ee8a66)
 - [yubioath-desktop: Require CCID and fix desktop file](https://git.solus-project.com/packages/yubioath-desktop/commit/?id=7227221f549cb1bca714b1802ddf06d2951bfc0e)
