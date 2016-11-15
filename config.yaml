@@ -39,7 +39,7 @@ menu:
         Weight: 5
       - Name: "Store"
         Identifier: "store"
-        URL: "http://example.com"
+        URL: "http://www.unixstickers.com/stickers/software_stickers/solus-linux-shaped-sticker"
         Weight: 6
       - Name: "Press"
         Identifier: "press"
