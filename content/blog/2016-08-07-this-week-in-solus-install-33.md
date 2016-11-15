@@ -1,4 +1,5 @@
----author: joshua
+---
+author: joshua
 categories:
 - News
 - TWIS
@@ -6,7 +7,9 @@ date: 2016-08-07T22:01:38Z
 id: 1570
 title: 'This Week in Solus -- Install #33'
 url: /2016/08/07/this-week-in-solus-install-33/
----Welcome to the 33rd installation of This Week in Solus. 
+---
+
+Welcome to the 33rd installation of This Week in Solus. 
 
 #### Infrastructure Change
 
