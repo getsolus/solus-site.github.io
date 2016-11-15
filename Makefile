@@ -20,10 +20,14 @@ setup:
 	sudo npm install -g html-minifier
 	mkdir -p themes/solus/static/{css,js}
 
-sync:
+submoduleupdate:
 	git submodule update --remote --rebase
+
+assetcopy:
 	cp -R solus-styling/build/* themes/solus/static/css/
 	cp solus-webplatform-js/build/site.min.js themes/solus/static/js/
+
+sync: submoduleupdate assetcopy
 
 help:
 	@echo "minifier  - Minify the public/ HTML."
