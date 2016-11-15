@@ -3,7 +3,7 @@ author: "joshua"
 categories:
 - news
 date: 2016-11-15T05:06:40+02:00
-featuredimage: ""
+featuredimage: "2016/11/laptop-solus-sticker.jpg"
 internaltype: post
 title: "Solus Announces Partnership with Unixstickers"
 url: "2016/11/15/solus-announces-partnership-with-unixstickers"
