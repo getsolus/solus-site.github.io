@@ -7,7 +7,7 @@
 			{{ $menuName := . }}
 			{{ with (index $siteMenus .) }}
 				<div data-solus-component="full-width-row">
-					<b>{{ humanize $menuName }}:</b>
+					<b>{{ replace (humanize $menuName) "menu" "" }}:</b>
 					{{ range after 1 . }}
 						{{ if hasPrefix .URL "irc://" }}
 							<a href="{{ safeURL .URL }}">{{ .Name }}</a>

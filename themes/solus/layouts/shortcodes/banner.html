@@ -36,10 +36,10 @@
 									<input type="hidden" name="item_name" value="Support Solus Project (And Budgie Desktop)">
 									<input type="hidden" name="rm" value="0">
 									<input type="hidden" name="currency_code" value="EUR">
-									<button data-solus-component="button" name="submit" type="submit">Donate</button>
+									<button data-solus-component="button" name="submit" type="submit" data-solus-size="large" data-solus-enfsize>Donate</button>
 							</form>
 						{{ else }}
-							<a data-solus-component="button" href="{{ $buttonURL }}">{{ index $buttonName }}</a>
+							<a data-solus-component="button" href="{{ $buttonURL }}" data-solus-size="large" data-solus-enfsize>{{ index $buttonName }}</a>
 						{{ end }}
 					{{ end }}
 				{{ end }}

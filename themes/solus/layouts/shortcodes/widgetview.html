@@ -9,8 +9,8 @@ data-solus-minor-component="budgie-applets-view">
 			We also have a wide range of applets that you can add directly to Budgie, listed below!
 		</p>
 		{{ range $appletsVia := (slice "official" "community") }}
+			<h2>{{ $appletsVia | title}}</h2>
 			<div data-solus-minor-component="budgie-applet-list">
-				<h2>{{ $appletsVia | title}}</h2>
 				{{ $applets := (index $site.Data.applets $appletsVia) }}
 				{{ range $applets }}
 					<div data-solus-minor-component="budgie-applet">
