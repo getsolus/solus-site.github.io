@@ -1,17 +1,13 @@
 <!-- Beginning of Press Centre Sidepane -->
-<div data-solus-component="blog-sidepane">
-	{{ partial "blog/panel/categories.html" . }}
-	<!-- Beginning of Recent Blog Posts -->
-	<div data-solus-component="full-width-box">
-		<h3>Recent Blog Posts</h3>
-		{{ $blogPosts := first 5 (sort .Site.Pages .Data "desc") }}
-		{{ range $blogPost := $blogPosts }}
-			<span>
-				<a href="{{ $blogPost.Permalink }}">{{ $blogPost.Title }}</a>
-				{{ dateFormat "January 2, 2006" $blogPost.Date }}
-			</span>
-		{{ end }}
-	</div>
-	<!-- End of Recent Blog Posts -->
+{{ partial "blog/panel/categories.html" . }}
+<div data-solus-component="full-width-box">
+	<h3>Recent Blog Posts</h3>
+	{{ $blogPosts := first 5 (sort .Site.Pages .Data "desc") }}
+	{{ range $blogPost := $blogPosts }}
+		<span>
+			<a href="{{ $blogPost.Permalink }}">{{ $blogPost.Title }}</a>
+			{{ dateFormat "January 2, 2006" $blogPost.Date }}
+		</span>
+	{{ end }}
 </div>
 <!-- End of Press Centre Sidepane -->
