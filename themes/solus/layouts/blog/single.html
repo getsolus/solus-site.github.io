@@ -6,18 +6,21 @@
 		<div data-solus-component="main">
 			{{ partial "header.html" . }}
 			<div data-solus-component="content">
-				{{ partial "blog/info.html" (dict "blog" . "site" .Site) }}
-				<div data-solus-component="blog-content">
-					<hr />
-
-					{{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
-						{{ partial "altimg.html" (dict "image" .Params.featuredimage "class" "featured-image" "dir" "/imgs/posts/")}}
-					{{ end }}
-					{{ .Content }}
+				<div data-solus-component="view-container">
+					<div data-solus-component="view-primary">
+						{{ partial "blog/info.html" (dict "blog" . "site" .Site) }}
+						<div data-solus-component="blog-content">
+							{{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
+								{{ partial "altimg.html" (dict "image" .Params.featuredimage "class" "featured-image" "dir" "/imgs/posts/")}}
+							{{ end }}
+							{{ .Content }}
+						</div>
+					</div>
+					<div data-solus-component="view-secondary">
+						{{ partial "blog/panel.html" . }}
+					</div>
 				</div>
 			</div>
-
-			{{ partial "blog/panel.html" . }}
 		</div>
 		{{ partial "footer.html" . }}
 	</body>
