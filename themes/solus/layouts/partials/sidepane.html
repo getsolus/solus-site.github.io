@@ -3,7 +3,7 @@
 	<div data-solus-component="full-width-box">
 		{{- range .Site.Menus.main }}
 			{{- $absoluteMenuURL := (.URL | absURL) -}}
-			<a href="{{ $absoluteMenuURL }}"{{- if hasPrefix "$pagePermalink" "$absoluteMenuURL" -}}active{{- end -}}>{{ .Name }}</a>
+			<span><a href="{{ $absoluteMenuURL }}"{{- if hasPrefix "$pagePermalink" "$absoluteMenuURL" -}}active{{- end -}}>{{ .Name }}</a></span>
 		{{ end -}}
 	</div>
 </div>

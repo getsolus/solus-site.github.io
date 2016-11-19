@@ -1,7 +1,3 @@
 {{ $content := . }}
-<!-- Beginning of Blog Sidepane -->
-<div data-solus-component="blog-sidepane">
-	{{ partial "blog/panel/categories.html" . }}
-	{{ partial "blog/panel/press-centre.html" }}
-</div>
-<!-- End of Blog Sidepane -->
+{{ partial "blog/panel/categories.html" . }}
+{{ partial "blog/panel/press-centre.html" }}
