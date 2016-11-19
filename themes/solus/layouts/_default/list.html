@@ -18,7 +18,7 @@
 							{{ else }}
 								<p>{{- $firstBlog.Summary -}}
 							{{ end }}
-							<a data-solus-component="button" href="{{ $firstBlog.Permalink }}">Read More</a>
+							<a data-solus-component="button" href="{{ $firstBlog.Permalink }}" data-solus-size="large" data-solus-enfsize>Read More</a>
 						</div>
 						{{ partial "altimg.html" (dict "image" $firstBlog.Params.featuredimage "dir" "/imgs/posts/" )}}
 					</div>
