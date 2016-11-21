@@ -15,11 +15,14 @@
 						{{ $locationInfo := (index $site.Data.isos $locationKey) }}
 						<span>
 							<b>{{ $locationInfo.Name }}</b>
-							{{ range $location, $url := $locationInfo.Locations }}
+							{{ range $location, $info := $locationInfo.Locations }}
+								{{ $typeURLArr := split $info "|"}}
+								{{ $type := index $typeURLArr 0 }}
+								{{ $url := index $typeURLArr 1 }}
 								{{ $locationName := (replace $location "_" " ") }}
 								{{ $fullurl := printf "%sSolus-%s-%s.iso" $url $site.Data.isos.info.Version $editionName | safeURL }}
 								<div>
-									<a href="{{ replace $fullurl "-Budgie" "" }}">{{- $locationName -}}</a>
+									<a href="{{ replace $fullurl "-Budgie" "" }}" data-solus-icon="{{ $type }}" title="{{ humanize $type }}">{{- $locationName -}}</a>
 								</div>
 							{{ end }}
 						</span>
@@ -28,6 +31,7 @@
 				<div data-solus-minor-component="solus-extra-info">
 					Media Size: {{ $editionInfo.mediasize }}<br />
 					Alternative Download: <a href="{{ $editionInfo.torrent }}">Torrent</a><br />
+					Legend: <span data-solus-icon="official">Official</span><span data-solus-icon="community"> Community</span><br />
 					SHA256 Checksum: {{ $editionInfo.shasum }}
 				</div>
 			</section>	

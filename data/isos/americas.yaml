@@ -1,4 +1,3 @@
 Name: "Americas"
 Locations:
-    Atlanta: "http://solus-us.online/iso/"
-    San_Francisco: "http://solussf1iso.stroblindustries.com/"
+    San_Francisco: "official|http://solussf1iso.stroblindustries.com/"

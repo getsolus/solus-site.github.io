@@ -1,5 +1,6 @@
 Name: "Europe"
 Locations:
-    Amsterdam: "http://stroblindustries.com/isos/"
-    Ireland: "http://ikeydoherty.com/"
-    London: "http://soluslond1iso.stroblindustries.com/"
+    Amsterdam: "official|http://stroblindustries.com/isos/"
+    Germany: "community|http://solus.veatnet.de/iso/"
+    Ireland: "official|http://ikeydoherty.com/"
+    London: "official|http://soluslond1iso.stroblindustries.com/"
