@@ -11,7 +11,7 @@
 			<p>{{ $editionInfo.description }}</p>
 			<section data-solus-component="solus-media">
 				<div data-solus-minor-component="solus-media-regions">
-					{{ range $locationKey := (slice "americas" "europe") }}
+					{{ range $locationKey := (slice "americas" "asia" "europe") }}
 						{{ $locationInfo := (index $site.Data.isos $locationKey) }}
 						<span>
 							<b>{{ $locationInfo.Name }}</b>
