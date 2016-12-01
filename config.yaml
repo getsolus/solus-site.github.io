@@ -108,7 +108,7 @@ params:
     footermenu: ["solus", "social", "support", "pressmenu"]
     userguide: "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
 # Taxonomies
-    category: ["budgie", "news", "packages", "plans", "releases", "security", "twis"]
+    category: ["budgie", "news", "packages", "partners", "plans", "releases", "security", "twis"]
 # Theming
 themesDir: "themes"
 theme: "solus"

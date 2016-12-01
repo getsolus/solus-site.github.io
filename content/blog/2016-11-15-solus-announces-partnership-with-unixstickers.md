@@ -2,6 +2,7 @@
 author: "joshua"
 categories:
 - news
+- partners
 date: 2016-11-15T05:06:40+02:00
 featuredimage: "2016/11/laptop-solus-sticker.jpg"
 internaltype: post
