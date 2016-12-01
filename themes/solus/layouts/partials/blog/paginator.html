@@ -1,5 +1,5 @@
 <!-- Beginning of Pagination -->
-{{ if ne .paginator.TotalPages 0 }}
+{{ if gt .paginator.TotalPages 1 }}
 	<div data-solus-component="paginate">
 		{{ if .paginator.HasPrev }}
 			{{ $previousPage := (sub .paginator.PageNumber 1) }}
