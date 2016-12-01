@@ -14,9 +14,9 @@
 						<div data-solus-minor-component="featured-blog-info">
 							{{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
 							{{ if ge (len $firstBlog.Summary) 347 }}
-								<p>{{- substr $firstBlog.Summary 0 347 -}}...</p>
+								<p>{{- safeHTML (substr $firstBlog.Summary 0 347) -}}...</p>
 							{{ else }}
-								<p>{{- $firstBlog.Summary -}}
+								<p>{{- safeHTML $firstBlog.Summary -}}
 							{{ end }}
 							<a data-solus-component="button" href="{{ $firstBlog.Permalink }}" data-solus-size="large" data-solus-enfsize>Read More</a>
 						</div>

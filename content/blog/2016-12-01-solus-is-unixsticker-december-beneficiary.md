@@ -4,7 +4,7 @@ categories:
 - news
 - partners
 date: 2016-12-01T07:47:55+02:00
-featuredimage: ""
+featuredimage: "2016/12/unixsticker-beneficiary.png"
 internaltype: post
 title: "Solus To Be Unixsticker's December Beneficiary"
 url: "2016/12/01/solus-is-unixsticker-december-beneficiary"
