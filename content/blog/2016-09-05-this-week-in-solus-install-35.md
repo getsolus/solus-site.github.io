@@ -32,6 +32,7 @@ keyboard-driven menu applet, as well as fleshing out the selection of software i
 - Ikey is currently working on an improved notification style with [mate-notification-theme-solus](https://github.com/solus-project/mate-notification-theme-solus).
 
 Naturally, this opened the door for inquiries into the support of other desktop environments, such as Pantheon, XFCE, and so-forth. To summarize the talking points raised in our latest Sundays with Solus:
+
 - Cinnamon has typically been slow to integrate upstream changes and is extensively targeted toward / tied to the Linux Mint project
 - Pantheon as an upstream project have been slow to integrate changes from downstream contributors, in addition to being heavily tied to the Launchpad infrastructure. We don't feel confident in being able to provide a properly integrated Pantheon 
 experience given prior experiences with trivial items such as Pantheon Terminal. However, the Plank and Pantheon Terminal applications will still be provided and supported within Solus due to their popularity with our users.
