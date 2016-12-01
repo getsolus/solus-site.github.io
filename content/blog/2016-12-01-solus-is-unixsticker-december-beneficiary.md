@@ -10,9 +10,11 @@ title: "Solus To Be Unixsticker's December Beneficiary"
 url: "2016/12/01/solus-to-be-unixsticker-december-beneficiary"
 ---
 
-Every time you purchase merchandise from [Unixstickers](https://unixstickers.com), including [merchandise for Solus](http://www.unixstickers.com/stickers/software_stickers/solus-linux-shaped-sticker), 
+Every time you purchase merchandise from Unixstickers, including [merchandise for Solus](http://www.unixstickers.com/stickers/software_stickers/solus-linux-shaped-sticker), 
 a portion of the proceeds goes to the respective project.
 
-Each month, Unixstickers chooses a different project to which they donate an **additional portion** of their total revenue towards and we're grateful that Unixstickers has **chosen Solus** to be December's beneficiary. 
-Whenever you support Solus, whether by purchasing Solus goodies or [donating directly](https://solus-project.com/support), we apply that money towards maintaining a small network of servers, obtaining and 
-replacing hardware, general hardware-related utilities such as connectivity, as well as domains and SSL certificates.
+Additionally, each month Unixstickers chooses a different project to which they donate an **additional portion** of their total revenue towards. We're grateful that Unixstickers has **chosen Solus** to be December's beneficiary. 
+We intend on utilitizing the donations provided by [Unixstickers](https://unixstickers.com)' donation program towards the cost of a **new package server in the United States**, meaning the opportunity for faster 
+update speeds and software downloading!
+
+For more details, we'd recommend subscribing to Unixstickers' newsletter!
