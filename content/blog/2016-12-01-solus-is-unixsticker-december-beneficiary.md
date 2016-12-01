@@ -7,6 +7,7 @@ date: 2016-12-01T07:47:55+02:00
 featuredimage: ""
 internaltype: post
 title: "Solus To Be Unixsticker's December Beneficiary"
+url: "2016/12/01/solus-is-unixsticker-december-beneficiary"
 ---
 
 Every time you purchase merchandise from [Unixstickers](https://unixstickers.com), including [merchandise for Solus](http://www.unixstickers.com/stickers/software_stickers/solus-linux-shaped-sticker), 
