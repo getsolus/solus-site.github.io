@@ -38,6 +38,24 @@ To quote Martin Wimpress:
 "*Ubuntu MATE have been looking to replace MATE Menu (forked from mintMenu) for sometime. It is clear the Brisk Menu, despite being in the very early stages of development, is the project that can achieve that given the quality of work coming 
 out of the Solus project.*"
 
+## Linux Steam Integration
+
+This week we released **v0.3** of Linux Steam Integration, our tool for enabling better Steam integration on Linux. This release features:
+
+- Using the latest `libnica`, using it now as a submodule to simplify maintenance.
+- Support the latest runtime requirements by preloading `libxcb` on native runtime.
+- Support a new `--disable-replace-steam` option. By default, LSI will replace `/usr/bin/steam` with its own shim. This was to enable easier integration into distributions as a root level, as seen in Solus. However, this made it inaccessible
+to users who currently do not have LSI available.
+
+To address this, and to stave off the latest croppings of butcherscripts that make actual alterations to the Steam runtime, vs the passive LSI override approach, this new option will instead generate the following files:
+
+- `/usr/bin/lsi-steam`
+- `/usr/share/applications/lsi-steam.desktop`
+
+This will ensure there is no path-conflict with existing Steam, and in turn lsi-steam will invoke `/usr/bin/steam`.
+
+Users can then use the `LSI Steam` option in their menu to launch Steam via the LSI Shim. Those building LSI should also pass `--enable-frontend` if providing a package, so that users can access the LSI Settings UI - to enable control of the runtime aspects.
+
 ## Solbuild
 
 {{< altimg "2016/12/solbuild-building.gif" >}}
