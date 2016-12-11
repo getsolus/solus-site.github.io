@@ -20,7 +20,7 @@ we have landed an upgraded libinput and xorg libinput driver, thus those will se
 Speaking of Xorg, we will likely be introducing Xorg 1.19 for the ISO snapshot. We are currently considering deprecation of the NVIDIA 304 and 340 drivers, due to lack of updates from NVIDIA (*which have been a blocker for 1.19*) and growing bugginess of 
 said drivers over time. Deprecation of the drivers would not only unblock Xorg 1.19, but continued development of Linux Driver Management (our switchable graphics solution) as well. Existing 304 and 340 users would be migrated to the Nouveau driver.
 
-### Brisk Menu
+## Brisk Menu
 
 {{< altimg "2016/12/brisk-menu-twis.jpg" >}}
 *Screenshot is under Budgie, for development purposes. Plan is to make it a MATE applet.*
