@@ -28,7 +28,7 @@ said drivers over time. Deprecation of the drivers would not only unblock Xorg 1
 Meet Brisk! This is a new menu we're developing for the MATE desktop, to provide a slightly traditional, but very fast and usable menu system. It started out inspired by the Budgie Menu but has drifted towards honouring Cardapio. And with it being written in C, 
 it's lightning quick.
 
-Brisk Menu will be featured in our ISO snapshot for our Solus MATE Edition.
+Brisk Menu will be featured in our ISO snapshot for our Solus MATE Edition and the work done on Brisk will be ported back to Budgie 11. So really it pays off twice!
 
 ## Solbuild
 
