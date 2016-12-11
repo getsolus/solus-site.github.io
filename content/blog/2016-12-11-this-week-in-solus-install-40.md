@@ -44,7 +44,7 @@ This week we released **v0.3** of Linux Steam Integration, our tool for enabling
 
 - Using the latest `libnica`, using it now as a submodule to simplify maintenance.
 - Support the latest runtime requirements by preloading `libxcb` on native runtime.
-- Support a new `--disable-replace-steam` option. By default, LSI will replace `/usr/bin/steam` with its own shim. This was to enable easier integration into distributions as a root level, as seen in Solus. However, this made it inaccessible
+- Support a new `--disable-replace-steam` option. By default, LSI will replace `/usr/bin/steam` with its own shim. This was to enable easier integration into distributions at a root level, as seen in Solus. However, this made it inaccessible
 to users who currently do not have LSI available.
 
 To address this, and to stave off the latest croppings of butcherscripts that make actual alterations to the Steam runtime, vs the passive LSI override approach, this new option will instead generate the following files:
