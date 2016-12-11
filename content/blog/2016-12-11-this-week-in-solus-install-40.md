@@ -14,7 +14,7 @@ Welcome to This Week in Solus, install #40.
 
 ## ISO Snapshot
 
-On the last This Week in Solus, I highlighted our roadmap, which includes our upcoming ISO snapshot. This ISO snapshot will feature the latest kernel, which at the time of this writing, is looking like `4.8.14`. Additionally, since the writing of TWIS #39, 
+On the last This Week in Solus, I highlighted our roadmap, which includes our upcoming ISO snapshot. This ISO snapshot will feature the latest kernel, which at the time of this writing, is looking like `4.9`. Additionally, since the writing of TWIS #39, 
 we have landed an upgraded libinput and xorg libinput driver, thus those will see inclusion in the ISO as well.
 
 Speaking of Xorg, we will likely be introducing Xorg 1.19 for the ISO snapshot. We are currently considering deprecation of the NVIDIA 304 and 340 drivers, due to lack of updates from NVIDIA (*which have been a blocker for 1.19*) and growing bugginess of 
