@@ -10,7 +10,7 @@ title: "Budgie 10.2.9 Released"
 url: "2016/12/12/budgie-10-2-9-released"
 ---
 
-We're happy to announce the release of Budgie 10.2.9. This is solely a bug fix release, tackling some niggling issues before our focus shifts to Budgie 11.
+We're happy to announce the release of Budgie 10.2.9. This is solely a bug fix release, tackling some niggling issues before our focus shifts to development of Budgie 11.
 
 ## Widgets
 
@@ -20,7 +20,7 @@ Numerous fixes has been made to our various panel widgets.
 
 Thanks to investigative work that occurred during our development of [Brisk Menu](https://solus-project.com/2016/12/11/this-week-in-solus-install-40/), an issue with the spinning wheel 
 that would persist for 30 seconds during the launching of an application has been resolved. Some previous hacks have been eliminated and we now use per-button GdkAppLaunchContext and 
-correctly "turn off" the notify via Gdk, to stop the spinning wheel!
+correctly "turn off" the notify via Gdk to stop the spinning wheel.
 
 ### Keyboard Layout
 
@@ -31,9 +31,9 @@ for the libpinyin IBUS engine, i.e. "(null) (libpinyin)". Now, when we fail to g
 
 Multiple fixes have landed for the Places widget.
 
-- Duplicate checking of directories with accented characters in their name has been resolved.
 - MTP mounts have been fixed.
-- Root directory bookmark detection has now been fixed.
+- Root directory bookmark detection has been fixed.
+- The duplicate checking of directories with accented characters in their name has been resolved.
 
 ## Panel & Raven
 
