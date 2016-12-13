@@ -14,7 +14,7 @@ We're happy to announce the release of Budgie 10.2.9. This is solely a bug fix r
 
 ## Widgets
 
-Numerous fixes has been made to our various panel widgets.
+Numerous fixes have been made to our various panel widgets.
 
 ### Icon Tasklist
 
