@@ -3,11 +3,11 @@ author: "joshua"
 categories:
 - budgie
 - news
-date: 2016-12-12T17:18:07+02:00
+date: 2016-12-16T17:18:07+02:00
 featuredimage: "2016/12/budgie-10-2-9.jpg"
 internaltype: post
 title: "Budgie 10.2.9 Released"
-url: "2016/12/12/budgie-10-2-9-released"
+url: "2016/12/16/budgie-10-2-9-released"
 ---
 
 We're happy to announce the release of Budgie 10.2.9. This is solely a bug fix release, tackling some niggling issues before our focus shifts to development of Budgie 11.
