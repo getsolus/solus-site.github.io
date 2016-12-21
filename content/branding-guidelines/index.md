@@ -55,6 +55,7 @@ Solus is an operating system that is designed for modern PCs. Every tweak, confi
 #### Assets
 
 You can [download](https://drive.google.com/open?id=0B5Ymf8oYXx-PX3hlTHR1T291enc) our Solus logo asset pack containing the following:
+
 - Colored versions of the Solus "Boat" logo, in addition to the Solus "Boat" logo next to "Solus" name.
 - "Solus" name only
 
