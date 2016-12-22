@@ -1,11 +1,11 @@
 SHELL = /bin/bash
 
 deploy:
-	hugo --destination public-deployed/
+	hugo --quiet --destination public-deployed/
 	rm -v public-deployed/index.html
 
 local:
-	hugo server --baseURL "http://127.0.0.1:1313"
+	hugo server --baseURL "http://127.0.0.1:1313" --quiet
 
 minifier:
 	find public-deployed -name "*.html" -type f -exec \
