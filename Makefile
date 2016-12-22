@@ -1,5 +1,8 @@
 SHELL = /bin/bash
 
+benchmark:
+	hugo benchmark --quiet
+
 deploy:
 	hugo --quiet --destination public-deployed/
 	rm -v public-deployed/index.html

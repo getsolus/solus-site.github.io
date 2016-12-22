@@ -35,6 +35,16 @@ You can start up a local server by calling `make local` in the `solus-site` dire
 To compile the website in preparation for deployment, run `make deploy`. This will create a `public-deployed` folder which can be uploaded to the server. Make sure you run a `make sync` prior to deployment, 
 to ensure you have the latest CSS and JS.
 
+### Benchmarking
+
+You can easily benchmark Hugo compilation by running `make benchmark`. You will get an output similar to:
+
+```
+Average time per operation: 170ms
+Average memory allocated per operation: 114037kB
+Average allocations per operation: 1299640
+```
+
 ### Styling
 
 I use 4-char wide tabs, not spaces, in everything **except** the YAML files.
