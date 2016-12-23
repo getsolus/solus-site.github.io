@@ -5,7 +5,6 @@ categories:
 - twis
 date: 2016-11-15T20:41:02+02:00
 featuredimage: "2016/11/firefox-50.jpg"
-internaltype: post
 title: "This Week in Solus - Install #39"
 url: "/2016/11/15/this-week-in-solus-install-39/"
 ---

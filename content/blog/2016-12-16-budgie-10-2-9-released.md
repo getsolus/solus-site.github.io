@@ -5,7 +5,6 @@ categories:
 - news
 date: 2016-12-16T17:18:07+02:00
 featuredimage: "2016/12/budgie-10-2-9.jpg"
-internaltype: post
 title: "Budgie 10.2.9 Released"
 url: "2016/12/16/budgie-10-2-9-released"
 ---

@@ -5,7 +5,6 @@ categories:
 date: 2013-12-14T13:23:03Z
 id: 52
 title: "Desktop: Code-name Budgie"
-internaltype: "post"
 ---
 
 Some people may now be wondering what we intend to use as the desktop environment in Evolve OS. If you've followed my recent Google+ posts, you may already know about the Budgie Desktop.

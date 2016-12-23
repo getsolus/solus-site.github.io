@@ -1,9 +1,7 @@
 ---
-id: 1375
 title: 'Branding Guidelines'
 date: 2016-05-31T01:51:48+00:00
 author: joshua
-internaltype: page
 ---
 
 We enforce branding guidelines to ensure consistency of imaging and messaging for Solus and its software. If you have any questions, please consult our [Press Centre](https://solus-project.com/press-centre/).

@@ -4,7 +4,6 @@ categories:
 - news
 date: 2016-12-22T21:08:58+02:00
 featuredimage: ""
-internaltype: post
 title: "Solus Announces First Release of Brisk Menu"
 url: "2016/12/13/solus-announces-first-release-of-brisk-menu"
 ---

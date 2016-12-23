@@ -5,7 +5,6 @@ categories:
 - partners
 date: 2016-12-01T07:47:55+02:00
 featuredimage: "2016/12/unixsticker-beneficiary.png"
-internaltype: post
 title: "Solus To Be Unixstickers' December Beneficiary"
 url: "2016/12/01/solus-to-be-unixstickers-december-beneficiary"
 ---

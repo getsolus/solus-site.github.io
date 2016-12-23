@@ -5,7 +5,6 @@ categories:
 - twis
 date: 2016-11-01T08:27:41+02:00
 featuredimage: ""
-internaltype: post
 title: "This Week in Solus - install #38"
 url: /2016/11/01/this-week-in-solus-install-38/
 ---

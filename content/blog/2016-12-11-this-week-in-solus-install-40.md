@@ -5,7 +5,6 @@ categories:
 - twis
 date: 2016-12-11T19:42:10+02:00
 featuredimage: "2016/12/brisk-development.jpg"
-internaltype: post
 title: "This Week in Solus - Install #40"
 url: "/2016/12/11/this-week-in-solus-install-40/"
 ---
