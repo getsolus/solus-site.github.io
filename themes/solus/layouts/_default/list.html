@@ -5,6 +5,11 @@
 		{{ partial "sidepane.html" . }}
 		<div data-solus-component="main">
 			{{ partial "header.html" . }}
+						<p>{{ .Title }}</p>
+						<p>{{ .Kind }}</p>
+						{{ if eq .Title "Download" }}
+							HELLOOOO
+						{{ end }}
 			<div data-solus-component="content">
 				{{ $blogPosts := .Paginator.Pages }}
 				{{ $firstBlog := (index $blogPosts 0) }}
