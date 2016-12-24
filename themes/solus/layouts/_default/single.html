@@ -3,6 +3,7 @@
 <html lang="en">
 {{ partial "metadata.html" . }}
 	<body>
+		{{ partial "sidepane.html" . }}
 		<div data-solus-component="main">
 			{{ partial "header.html" . }}
 			{{ if eq .Title "Download"}}
