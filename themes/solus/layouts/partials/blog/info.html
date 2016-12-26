@@ -9,7 +9,7 @@
 		<div data-solus-component="post-info">
 			<h1><a href="{{ $blog.Permalink }}">{{ replace (title $blog.Title) "'S" "'s" }}</a></h1>
 			<span>{{ $author.Name }} / {{ $author.Role }}</span>
-			<b>{{ dateFormat "January 2, 2006" $blog.Date }}
+			<span>{{ dateFormat "January 2, 2006" $blog.Date }}
 				{{ $categoriesLength := len $blog.Params.categories }}
 				{{- if ne $categoriesLength 0 }}
 					in
@@ -29,7 +29,7 @@
 						and <a href="{{ $site.BaseURL }}categories/{{ $lastCategory }}">{{ if eq (lower $lastCategory) "twis"}}TWIS{{ else }}{{ humanize $lastCategory }}{{ end }}</a>
 					{{ end -}}
 				{{ end -}}
-			</b>
+			</span>
 		</div>
 		<!-- End of Post Info -->
 	{{ end }}

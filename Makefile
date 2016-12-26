@@ -8,7 +8,7 @@ deploy:
 	rm -v public-deployed/index.html
 
 local:
-	hugo server --baseURL "http://127.0.0.1:1313" --watch --quiet
+	hugo server --baseURL "http://127.0.0.1:1313" --watch --quiet --ignoreCache
 
 minifier:
 	find public-deployed -name "*.html" -type f -exec \
