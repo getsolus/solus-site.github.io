@@ -5,7 +5,6 @@ categories:
 - Packages
 - TWIS
 date: 2016-01-25T07:35:20Z
-id: 1074
 title: 'This Week in Solus -- Install #19'
 url: /2016/01/25/this-week-in-solus-install-19/
 --- 
@@ -67,11 +66,10 @@ This time, I'm giving you both highlights and the fire hose of updates (**not in
 - [trelby 2.2](https://git.solus-project.com/packages/trelby/commit/?id=4c934f79dc7d5ad0fe6ad8f272caecef2bfa3bc9)        
 - [youtube-dl 2016.01.23](https://git.solus-project.com/packages/youtube-dl/commit/?id=2160d85d0e5111bbfcfa3acf4349db77291dcc0e)
 
- ##### Fire hose
-
-{{< altimg "http://i.giphy.com/FLndjoNsb2Gkw.gif" >}}
+##### Fire hose
 
 New: 
+
 - [apr 1.5.2](https://git.solus-project.com/packages/apr/commit/?id=1d825183833990860e6e5dabfab2eecdab9cfd29)            
 - [apr-util 1.5.4](https://git.solus-project.com/packages/apr-util/commit/?id=4d220b30eb327cba9b85838697ae27a50a381c70)            
 - [cutegram 2.7.1](https://git.solus-project.com/packages/cutegram/commit/?id=edc66fa3188946208378a7c9e31d52a832acfbdb)            
@@ -95,6 +93,7 @@ New:
 - [zeal 0.2.1](https://git.solus-project.com/packages/zeal/commit/?id=f4e60d38e1f49288e324d779a97fd41a886e8189)
 
 Updated: 
+
 - [brackets 1.6 ](https://git.solus-project.com/packages/brackets/commit/?id=5e862cc2b3ddb701936cca59f498ff02d5ab4c9e)            
 - [elixir 1.2.1](https://git.solus-project.com/packages/elixir/commit/?id=d8f4bfe4a5a5c28a0376960c21eedfd389f6cebd)            
 - [enabling xft for font configuration issues](https://git.solus-project.com/packages/emacs/commit/?id=eb1c10c9c2e5ea44f73b463c5e7e1ad04879f0e2"emacs 24.5</a> and <a href="https://git.solus-project.com/packages/emacs/commit/)            

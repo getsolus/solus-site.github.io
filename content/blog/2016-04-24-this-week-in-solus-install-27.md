@@ -5,7 +5,6 @@ categories:
 - Plans
 - TWIS
 date: 2016-04-24T19:03:35Z
-id: 1282
 title: 'This Week In Solus -- Install #27'
 url: /2016/04/24/this-week-in-solus-install-27/
 --- 
@@ -18,10 +17,13 @@ We will be seeding our first testing ISO to our Patrons tonight and we want **hi
 **If you're not a Patron, don't mind the "accidental" screenshots on Google+.**
 
 #### Learn Solus Packaging
+
 Yesterday afternoon I hosted an event where people could learn the basics to packaging on Solus. Condensed down to an hour, people were walked through everything from setting up their Solus install to packaging basics, in this session the example was 
 Gnome Weather.
 
 An edited version of the Hangouts On Air session is available to watch below and I plan on releasing both new and updated videos on the Packaging Series throughout the week, featuring all the new goodies of ypkg 2.0!
+
+{{< youtube "kIaY1Bro3ag" >}}
 
 #### Multilib
 

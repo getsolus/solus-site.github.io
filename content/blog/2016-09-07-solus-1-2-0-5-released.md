@@ -4,10 +4,10 @@ categories:
 - News
 - Releases
 date: 2016-09-07T01:51:05Z
-id: 1634
 title: Solus 1.2.0.5 Released
-url: /2016/09/07/solus-1-2-0-5-released/
---- 
+url: "/2016/09/07/solus-1-2-0-5-released/"
+---
+
 Today we are providing a minor update to Solus 1.2 in the form of Solus 1.2.0.5. This release enables us to address a multitude of issues that have since been resolved after the release of Solus 1.2, such as:
 
 - Budgie: 

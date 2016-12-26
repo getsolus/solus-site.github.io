@@ -25,8 +25,6 @@ to shifting users from Solus 1.0 to 1.1 across a Python UCS4 migration. If there
 
 We're really **good** at keeping things **stable** and really **bad** at **not** being a rolling release. So effective immediately, **Solus now follows a rolling release model**.
 
-{{< altimg "http://cdn.gifstache.com/2013/5/20/2124091543_659776696.gif" >}}
-
 What does this mean for you? We're taking it up a notch from just updated apps.
 
 1. We'll be updating to **Pulseaudio 9** to resolve issues regarding sound playback over HDMI, likely making that into Solus 1.2.1.

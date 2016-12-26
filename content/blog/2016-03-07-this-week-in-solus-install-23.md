@@ -7,7 +7,6 @@ categories:
 - Security
 - TWIS
 date: 2016-03-07T10:08:34Z
-id: 1186
 title: 'This Week in Solus -- Install #23'
 url: /2016/03/07/this-week-in-solus-install-23/
 --- 
@@ -20,6 +19,8 @@ is a must-read. We proceeded to have our first public Hangout session, named by 
 #### Sundays with Solus
 
 We had our first Sundays with Solus yesterday (March 6th, 2016) and it went surprisingly well. We discussed a multitude of topics, primarily surrounding 1.2 as well as some open Q&A. Below is the video and a summary of the items discussed!
+
+{{< youtube "t8h4U0mNgpg" >}}
 
 **Summary of the video:**
 

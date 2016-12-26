@@ -4,7 +4,6 @@ categories:
 - News
 - TWIS
 date: 2015-11-15T18:24:25Z
-id: 836
 title: 'This Week in Solus -- Install #10'
 url: /2015/11/15/this-week-in-solus-install-10/
 --- 
@@ -21,10 +20,10 @@ Ikey has been working hard to improve the rewrite and you can track the git comm
 
 Please note in both the repository provided above, the name "Arc Desktop" is being **temporarily** used. This is **not** the new name of Budgie, it is being developed under a different name than Budgie and Budgie Next to facilitate development 
 without the side-effect of library collisions / conflicts. "Arc Desktop" code will be merged back into Budgie when ready.
-      
+
 Developers can expect to be able to write Budgie Next extensions for both the panel as well as Raven (our Notification Center), in Python3. Our options are currently limited to what is offered by 
 [libpeas](https://wiki.gnome.org/Projects/Libpeas) and is open to being changed in the future.
-      
+
 ### Package Updates
 
 Below is a highlight of packages that have been since updated after the GNOME 3.18 Stack upgrade:

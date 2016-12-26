@@ -5,7 +5,6 @@ categories:
 - Packages
 - TWIS
 date: 2016-01-17T22:23:51Z
-id: 1062
 title: 'This Week in Solus -- Install #18'
 url: /2016/01/17/this-week-in-solus-install-18/
 --- 
@@ -24,8 +23,7 @@ Server Information:
 - 32GB RAM
 - 2TB disk space (RAID1)
 
-####
-User Guide
+#### User Guide
 
 As stated in the 17th installation of This Week in Solus, the comprehensive User Guide [has been released](https://drive.google.com/file/d/0B5Ymf8oYXx-PWTVJR0pmM3daZUE/view?usp=sharing). 
 I have since converted the entirety to Markdown, which is all available on [our GitHub repo](https://github.com/solus-project/user-guide).

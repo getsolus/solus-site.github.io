@@ -4,7 +4,6 @@ categories:
 - News
 - Plans
 date: 2016-07-24T22:52:52Z
-id: 1549
 title: Replacement of Release Schedule
 url: /2016/07/24/replacement-of-release-schedule/
 --- 
@@ -14,7 +13,7 @@ In the not so distant past, Solus followed a static point release model. Our mos
 
 Going forward, the old release schedule is **officially**, entirely dropped, and the branching pattern of a point-release-system is also shed.
 
- #### Important Points
+#### Important Points
 
 - There is no longer a concept of** separate major releases**. You will always run on the current "distribution version".
 - Support, therefore, does not end for the current, and only, series. Note however you are still expected to update your system. We'll introduce some changes to make this simper to manage, of course.
@@ -24,14 +23,15 @@ installer)
 - The internal versioning system at present is based on the concept of major releases, so it will therefore be dropped. For example, the 1.2 release is internally referred to as: **1.201629.7.0**. At minimum, we'll drop the major version, and use this scheme 
 in future ISO updates.
 
- #### 1.2.1 -- Update
+#### 1.2.1 -- Update
 
 We can only apologise in announcing that yes, 1.2.1 has been delayed. This has primarily come about due to a mixture of circumstances (work schedules), a wish to ensure consistency and longevity in the installations (GNOME 3.20 updates), and the 
 migration to a rolling release model. As soon as it is appropriate, 1.2.1 will be released. However, the release schedule is now **officially withdrawn**, leaving us some extra time to get 1.2.1 polished to the level we require.
 
- #### Coming Items
+#### Coming Items
 
 Our upcoming update list involves, but is not limited to:
+
 - Update to GCC 6.1.0 (ongoing right now, handling libmpx incorporation)
 - Move to GNOME 3.20.x
 - Update to X.Org Server 1.18.4
@@ -39,7 +39,7 @@ Our upcoming update list involves, but is not limited to:
 - Budgie 10.2.7 -- whilst we initially envisaged going directly to 10.3, which has outstanding goals, we've opted to provide a maintenance release of Budgie to accommodate all Budgie downstreams in the near future, due to the already extensive 
 [diff since 10.2.6](https://github.com/solus-project/budgie-desktop/compare/v10.2.6...master). You can see the latest git build in the featured image for this post.
 
- #### Advantages
+#### Advantages
 
 The core advantage to the withdrawal of this static release schedule is that it in fact enables us to land features with a higher velocity, and **maintain** that velocity over time. With the move to a rolling release, one of our primary goals is in increasing the 
 project cadence. As such, this frees us up to land future updates and refreshed ISOs, as and when new features, fixes and changes are available, as opposed to being tied to a rigid schedule. In the long run, this will result in **more** ISO releases and 

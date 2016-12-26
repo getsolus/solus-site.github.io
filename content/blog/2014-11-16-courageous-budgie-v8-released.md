@@ -51,4 +51,4 @@ whether its buying the developer a cup of tea, sending a patch to add a new feat
 
 **Edit**: A [fundraiser was launched](https://solus-project.com/2014/11/16/evolve-osbudgie-fund-raiser/) after this post was first published
 
-{{< altimg "https://solus-project.com/wp-content/uploads/2014/11/8Prefs.png" >}}
+{{< altimg "2014/11/8Prefs.png" >}}

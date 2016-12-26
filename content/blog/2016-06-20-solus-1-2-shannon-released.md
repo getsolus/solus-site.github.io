@@ -5,7 +5,6 @@ categories:
 - News
 - Releases
 date: 2016-06-20T02:53:43Z
-id: 1404
 title: Solus 1.2 Shannon Released
 url: /2016/06/20/solus-1-2-shannon-released/
 ---
@@ -72,9 +71,9 @@ In Solus 1.2, we aimed at getting you the most performant gaming experience. We 
 In addition to runtime replacement, we've developed an open source tool called [Linux Steam Integration](https://github.com/solus-project/linux-steam-integration) to enable you to easily switch between native and pre-packaged runtime, as well 
 as forcing 32-bit mode for Steam. This will help ensure that you not only get the most performant gaming experience, but ensure that the widest variety of Linux games are available to be enjoyed!
 
-As stated by[Softpedia](http://news.softpedia.com/news/solus-project-announces-new-tool-for-enabling-better-steam-integration-on-linux-504567.shtml) on the announcement of Linux Steam Integration:
+As stated by [Softpedia](http://news.softpedia.com/news/solus-project-announces-new-tool-for-enabling-better-steam-integration-on-linux-504567.shtml) on the announcement of Linux Steam Integration:
 
-"thanks to this little open-source project, which any OS vendor can integrate into its GNU/Linux operating system, things should run more smoothly for gamers."
+> "thanks to this little open-source project, which any OS vendor can integrate into its GNU/Linux operating system, things should run more smoothly for gamers."
 
 We have also landed support for a multitude of gaming devices, such as the Steam Controller, DualShock controllers, and more.
 

@@ -98,7 +98,7 @@ Here is a **highlight** of package updates over the past week.
 - [scribus 1.4.5 has been added to the repo](https://git.solus-project.com/packages/scribus/commit/?id=eb6c19c4248cc7d493148ed0d76d071f53ebaebf)
 - [weechat 1.3 has been added to the repo](https://git.solus-project.com/packages/weechat/commit/?id=feba65505a5b0523f3484d03c6ed276367e2cc2d)
 
- ##### Updated
+##### Updated
 
 - [audacious has been updated to 3.7.1](https://git.solus-project.com/packages/audacious/commit/?id=38a06fdd1c53711c50257c3316b688a79dc60d59)
 - [elixir has been updated to 1.2.0](https://git.solus-project.com/packages/elixir/commit/?id=1b6de2058280d9667dbf9ba4e98811123af0f5f2)

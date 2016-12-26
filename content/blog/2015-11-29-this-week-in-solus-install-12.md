@@ -7,7 +7,6 @@ categories:
 - Releases
 - TWIS
 date: 2015-11-29T23:18:50Z
-id: 858
 title: 'This Week in Solus -- Install #12'
 url: /2015/11/29/this-week-in-solus-install-12/
 --- 
@@ -37,7 +36,7 @@ on our new daily image (as also stated in the New Daily section below) and accor
 
 > One of the nasty problems we hit in the past with gummiboot was actually **case sensitivity**. The EFI System Partition is FAT32, which is case insensitive, but sadly, preserves case. We've encountered multiple instances now whereby various standardised directories used the wrong case, which caused installation to fail.
 
-{{< altimg "2012/08/JPL-Celebration-at-Mars-Landing.gif" >}}
+{{< altimg "2015/08/JPL-Celebration-at-Mars-Landing.gif" >}}
 
 **This issue is now resolved.**
 
@@ -110,7 +109,7 @@ There has also been other updates since RC1, as well as changes to the default I
 - primary image: [Drop deprecated package from default ISO](https://git.solus-project.com/images/primary/commit/?id=dcc8fe7f56d9c66b358f3fb3ae80b6eadfd24629)        
 - thunderbird: [Update to 38.4.0](https://git.solus-project.com/packages/thunderbird/commit/?id=68d2be1)
 
- #### Package Updates
+#### Package Updates
 
 Here is a highlight of package updates that have occurred this week:
 
@@ -128,9 +127,9 @@ Here is a highlight of package updates that have occurred this week:
 
 ---
 
- #### Full Changelog of ISO
+#### Full Changelog of ISO
 
- ##### Packages added to this release:
+##### Packages added to this release:
 
 - aalib
 - atkmm
@@ -140,7 +139,7 @@ Here is a highlight of package updates that have occurred this week:
 - networkmanager-openvpn
 - vino
 
- ##### Packages removed from this release:
+##### Packages removed from this release:
 
 - cheese
 - clutter-gst-2.0
@@ -151,7 +150,7 @@ Here is a highlight of package updates that have occurred this week:
 - libcairomm
 - libglu
 
- ##### Changes in this release:
+##### Changes in this release:
 
 **colord**
 

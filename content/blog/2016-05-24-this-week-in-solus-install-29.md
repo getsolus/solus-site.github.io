@@ -5,7 +5,6 @@ categories:
 - Packages
 - TWIS
 date: 2016-05-24T03:29:14Z
-id: 1325
 title: 'This Week in Solus -- Install #29'
 url: /2016/05/24/this-week-in-solus-install-29/
 --- 
@@ -20,6 +19,10 @@ On the 21st and 22nd of this month, Ikey and myself had the first Solus hackfest
  [information on Solus](https://solus-project.com/solus/).
 
 The Hackfest went on for roughly 11 hours across both days, with the recordings below! **Note: Not intended for younger audiences. Certainly PG13 at times.**
+
+{{< youtube "wA5GilQ6Hm0">}}
+
+{{< youtube "_6VJ50ST82E">}}
 
 I'm happy to say that Ikey's goal for a native Steam runtime were accomplished, which let's be honest, that was the major thing we were all hoping for in the Hackfest, right?
 
@@ -53,7 +56,7 @@ Google Chrome, Veracrypt, Transmission, etc. [Bug #734](https://bugs.solus-proje
 - [Bug #801 -- [Patch] fping3](https://bugs.solus-project.com/show_bug.cgi?id=801)
 - [Bug #819 -- [Request] HomeBank](https://bugs.solus-project.com/show_bug.cgi?id=819)
 
- #### Package Updates
+#### Package Updates
 
 To say there was a lot of package updates this week would frankly be an understatement. Here are some highlights (**not including all the multilib enablement**):
 

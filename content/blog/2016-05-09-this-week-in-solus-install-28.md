@@ -5,14 +5,13 @@ categories:
 - News
 - TWIS
 date: 2016-05-09T16:28:47Z
-id: 1300
 title: 'This Week in Solus -- Install #28'
 url: /2016/05/09/this-week-in-solus-install-28/
 --- 
 
 Welcome to the 28th installation of This Week in Solus. **I'm all about that Software Center.** 
 
-#### Branding
+### Branding
 
 We're currently reaching out to the community to help us establish a consistent brand that reflects the ethos, power and mind of Solus. Message from our benevolent dictator, Ikey, follows:
 
@@ -37,7 +36,7 @@ Otherwise we're going to need to go with some design that Ikey has created, and 
 
 {{< altimg "2016/05/Screenshot-from-2016-05-08-19-45-35.png" >}}
 
-#### Budgie
+### Budgie
 
 It wouldn't be a **real** This Week in Solus without talking about our cute little birdy, umm I mean our desktop environment.
 
@@ -48,7 +47,7 @@ Ikey has worked on improving out-of-tree Budgie desktop extension development, a
 
 Go forth my minions, spread the good word of Budgie and make some pretty applets.
 
-#### Software Center
+### Software Center
 
 There is no getting around the fact that the Software Center in Solus 1.1 sucks. Software discoverability and ease-of-use for installation of software is incredibly important to us and we want to tackle it with **urgency**. So we're doing something about it 
 now, this cycle, and it is going to be amazing.
@@ -56,43 +55,43 @@ now, this cycle, and it is going to be amazing.
 And sometimes the best way to make something better than its predecessor is to completely start from scratch. So that is what Ikey has done, started writing the new Software Center from scratch. Why **not** GNOME Software? We talk about that 
 [here](https://github.com/solus-project/solus-sc/blob/master/README.rst).
 
-##### Walk-through
+#### Walk-through
 
 Let's get started with a general walk-through of the different parts of the new Software Center. Note that all of this is a work-in-progress and subject to change before release.
 
-###### Home
+##### Home
 
 {{< altimg "2016/05/Screenshot-from-2016-05-09-17-14-24.png" >}}
 
 This is the Home section of the Software Center. This section will provide categories of applications available for installation and in the future, enable us to provide rich imagery and details on featured applications.
 
-###### Updates
+##### Updates
 
 {{< altimg "2016/05/Screenshot-from-2016-05-09-17-24-58.png" >}}
 
 This is the Updates section of the Software Center. Here, you can see a list of updates for your system across a range of categories, such as Required, Security, and "Other". We provide immediate information on how large the total updates selected will be, 
 and enable you to get package details as well. **We'll get into package details later.**
 
-###### Installed
+##### Installed
 
 {{< altimg "2016/05/Screenshot-from-2016-05-09-17-35-45.png" >}}
 
 This is the Installed section of the Software Center. I think it is pretty self-explanatory.
 
-###### Third Party
+##### Third Party
 
 **No screenshot because it isn't implemented yet.**
 
 You shouldn't have to drop down to a Terminal in order to install third-party applications like Chrome. In this section, you'll be able to discover third-party applications available for installation, and the Software Center will handle updating them. For users, 
 this means simply typing "Google Chrome" and installing. **(Chrome is an example, this also applies to applications like Skype in the future). **No wiki workarounds, no need for the Terminal.**
 
-###### Basket
+##### Basket
 
 **No screenshot because it isn't implemented yet.**
 
 Basket is a section of the Software Center for pending / outgoing operations. Currently other sections are being focused on, so this will be elaborated on in the future.
 
-###### Settings
+##### Settings
 
 **No screenshot because it isn't implemented yet.**
 
@@ -102,7 +101,7 @@ The Settings section of the Software Center will enable a wide range of configur
 - Repo selection
 - Update frequency
 
-###### Package Details
+##### Package Details
 
 {{< altimg "2016/05/package_updates.jpg" >}}
 

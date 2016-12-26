@@ -4,7 +4,6 @@ categories:
 - News
 - TWIS
 date: 2015-12-06T21:25:18Z
-id: 895
 title: 'This Week In Solus -- Install #13'
 url: /2015/12/06/this-week-in-solus-install-13/
 --- 
@@ -23,11 +22,11 @@ That's right, **two** images this week.
 
 Here are some of the highlights of the image, which is available for download from the [Daily ISO](https://solus-project.com/daily-iso/) page.
 
-- Budgie Desktop: [>Disable mediakeys for now](https://git.solus-project.com/packages/budgie-desktop/commit/?id=a24fee6)        
-- Kernel: [>Enable IOMMU, extra hardware support, kill ifiniband, enable huge pages](https://git.solus-project.com/packages/kernel/commit/?id=1f752c2)        
-- Kernel: [>Fix LZ4 decompression of initramfs on x86_64](https://git.solus-project.com/packages/kernel/commit/?id=45bcb8a)        
-- openssl: [>Update to 1.0.2e to address multiple CVEs](https://git.solus-project.com/packages/openssl/commit/?id=57be764)        
-- upower: [>Enable USB and imobiledevice](https://git.solus-project.com/packages/upower/commit/?id=73f633b)
+- Budgie Desktop: [Disable mediakeys for now](https://git.solus-project.com/packages/budgie-desktop/commit/?id=a24fee6)        
+- Kernel: [Enable IOMMU, extra hardware support, kill ifiniband, enable huge pages](https://git.solus-project.com/packages/kernel/commit/?id=1f752c2)        
+- Kernel: [Fix LZ4 decompression of initramfs on x86_64](https://git.solus-project.com/packages/kernel/commit/?id=45bcb8a)        
+- openssl: [Update to 1.0.2e to address multiple CVEs](https://git.solus-project.com/packages/openssl/commit/?id=57be764)        
+- upower: [enable USB and imobiledevice](https://git.solus-project.com/packages/upower/commit/?id=73f633b)
 
 #### New Hardware
 
@@ -56,5 +55,3 @@ Here is a **highlight** (seriously, an emphasis on highlight, there was a lot) o
 - udisks: [Enabled gudev and cryptsetup](https://git.solus-project.com/packages/udisks/commit/?id=25272eaa0b24bee190e62338ed14e5241dce2818)        
 - youtube-dl: [Updated to 2015.12.06](https://git.solus-project.com/packages/youtube-dl/commit/?id=5a3e5397f5f42215ea515e77cd4f8827fafa0d7e)        
 - zsh: [Updated to 5.2](https://git.solus-project.com/packages/zsh/commit/?id=d8322c47495a4a7961a763c06bf411455b5fbc35)
-
-{{< altimg "http://i.giphy.com/VfkGlZD0hW4a4.gif" >}}

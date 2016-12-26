@@ -6,7 +6,6 @@ categories:
 - Security
 - TWIS
 date: 2016-02-22T03:58:08Z
-id: 1098
 title: 'This Week in Solus -- Install #21'
 url: /2016/02/22/this-week-in-solus-install-21/
 --- 

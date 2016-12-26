@@ -6,7 +6,6 @@ categories:
 - Plans
 - TWIS
 date: 2016-04-12T17:52:22Z
-id: 1259
 title: 'This Week in Solus -- Install #26'
 url: /2016/04/12/this-week-in-solus-install-26/
 ---
@@ -34,7 +33,7 @@ We have begun shrinking the size of our system.base component to give us more fl
 
 #### Locales
 
-{{  altimg "2016/04/Screenshot-from-2016-04-12-02-31-07.png" >}}
+{{<  altimg "2016/04/Screenshot-from-2016-04-12-02-31-07.png" >}}
 
 We now ship locales for Firefox and Thunderbird. This makes it easier to switch to the language you desire / need without having to jump through the hoop of installing addons.
 

@@ -7,7 +7,6 @@ categories:
 - Plans
 - TWIS
 date: 2016-01-10T22:31:33Z
-id: 1046
 title: 'This Week in Solus -- Install #17'
 url: /2016/01/10/this-week-in-solus-install-17/
 --- 
@@ -78,6 +77,7 @@ We have been continuously grateful for all the support from our community. [As a
 Here is a highlight of package updates that have occurred this week:
 
 New: 
+
 - [codeblocks 13.12](https://git.solus-project.com/packages/codeblocks/commit/?id=17fa91b3477867899ae1b13bf90035930082e849)            
 - [easystroke 0.6.0](https://git.solus-project.com/packages/easystroke/commit/?id=c598f7765676698c8aa66aa362cf07b9d6f4ef77)            
 - [exfat 1.2.3](https://git.solus-project.com/packages/exfat/commit/?id=7d16fba9e440566968ca9941ed5545110fc1948a)            
@@ -86,6 +86,7 @@ New:
 - [python-mpd 0.3.0](https://git.solus-project.com/packages/python-mpd/commit/?id=3bfb015dbcb336d0dfdf1b3c9bf4ccb2348a605e)
 
 Updated:
+
 - [atom 1.3.3](https://git.solus-project.com/packages/atom/commit/?id=02d596b1490828d6a968f01cb8db2e03b9ccdd2d)            
 - [emacs 24.5](https://git.solus-project.com/packages/emacs/commit/?id=eb1c10c9c2e5ea44f73b463c5e7e1ad04879f0e2)            
 - [feedreader 1.4.3](https://git.solus-project.com/packages/feedreader/commit/?id=92268adcde3902881418aae456ac9faa85fe317b)            

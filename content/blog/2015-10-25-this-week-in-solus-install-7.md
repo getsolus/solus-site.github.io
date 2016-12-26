@@ -20,7 +20,7 @@ We have some project announcements to make this week. Roles and titles have been
 
 - Ikey Doherty has been provided the obvious role of Project Manager. He will do what he currently does, which is develop and oversee the Solus Project and the work being done on the Solus operating system.
 - Justin Zobel has been provided the role of Community & Social Media Manager. He will oversee social media accounts and community issues that are not under the scope of the Communications Manager.
-- I, **Joshua Strobl**, have been provided the role of Communications Manager. I will help faciliate the communication between the media and the Solus Project, inform our community on information pertaining to the Solus Project, and work 
+- I, Joshua Strobl, have been provided the role of Communications Manager. I will help faciliate the communication between the media and the Solus Project, inform our community on information pertaining to the Solus Project, and work 
 with Justin on ensuring issues brought up by the community are addressed.
 
 These roles will accompany the coding and package development that is existing currently.
@@ -71,14 +71,15 @@ The following package updates are broken down based on contributor and within ea
 - [xorg-server has been updated to fix modesetting driver](https://git.solus-project.com/packages/xorg-server/commit/?id=f245e21d592c405fb41fc165ce454644a5ca2d03)
 - [ypkg now force-purges .la](https://git.solus-project.com/packages/ypkg/commit/?id=60472e3986d15fcd6b5c9ae203c7a0b80e1e9768)
 
-###### New
+##### New
 
-- https://git.solus-project.com/packages/libcdio-paranoia/commit/?id=19ff5ca5b2a8acc5928708cf3b2a64a6533efe85"libcdio-paranoia 10.2.0.93.1 has been added
-- https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=1b2ee1e928299055e58af78095520fc3342d9b22"nvidia-304-glx-driver 304.128 has been added
+- [libcdio-paranoia 10.2.0.93.1 has been added](https://git.solus-project.com/packages/libcdio-paranoia/commit/?id=19ff5ca5b2a8acc5928708cf3b2a64a6533efe85)
+- [nvidia-304-glx-driver 304.128 has been added](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=1b2ee1e928299055e58af78095520fc3342d9b22)
 
 #### Justin Zobel
 
 ##### Updated
+
 - [flash-player-nonfree has been updated to 11.2.202.540](https://git.solus-project.com/packages/flash-player-nonfree/commit/?id=3e9e84f4b149fff0a321ae476f430733a772cd68)
 
 ##### New

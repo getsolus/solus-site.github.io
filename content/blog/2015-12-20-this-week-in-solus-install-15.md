@@ -21,13 +21,9 @@ We **will** be releasing Solus 1.0 on the 25th. Happy holidays everyone!
 We anticipate the final ISO will have:
 
 - Skylake enabled, with the latest 4.3 kernel
-        
 - AMDGPU driver support
-        
 - libinput xorg driver replacing syntaptics and evdev input drivers
-        
 - Intel + nouveau packages will be synced with latest git snapshots.
-        
 - Budgie Rewrite to replace Budgie
 
 nvidia 304 will be also declared sufficiently flaky at this point.
@@ -57,7 +53,7 @@ There is still some work we want to do before landing it in stable, namely ensur
 
 Printing support is almost finished, which is great for the five (**drastic underestimation**) people left in the world that still use printers.  Printer support will be done before 1.0.
 
-{{< altimg "Screenshot-from-2015-12-15-14-31-12.png" >}}
+{{< altimg "2015/12/Screenshot-from-2015-12-15-14-31-12.png" >}}
 
 Spoiler: It fails to add the printer.
 
@@ -71,7 +67,7 @@ We are happy to report that for the six (**once again, underestimate**) people t
 
 {{< altimg "2015/12/Screenshot-from-2015-12-18-16-12-05.png" >}}
 
- #### Packaging Updates
+#### Packaging Updates
 
 Below is a highlight of package updates and additions from this week:
 

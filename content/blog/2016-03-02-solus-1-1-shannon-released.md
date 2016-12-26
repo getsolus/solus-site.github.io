@@ -3,7 +3,6 @@ author: joshua
 categories:
 - Releases
 date: 2016-03-02T08:16:22Z
-id: 1130
 title: Solus 1.1 Shannon Released
 url: /2016/03/02/solus-1-1-shannon-released/
 --- 
@@ -46,16 +45,17 @@ used throughout our display / graphic stack.
 
 {{< altimg "2016/02/2WCcF57H2z6O.png" >}}
 
-Let's be honest, printing isn't sexy. Printing isn't even what the cool kids do anymore. Nowadays they send their ol' vintage filtered pictures on the Snapchats and sign documents on their fancy iPotatos. But that doesn't matter. Solus 1.1 ships with printing 
-support out of the box. Now when those cool kids grow up and get jobs, their need for printing on old fashion paper will work. Got an HP printer? Install the hplip package!
+Let's be honest, printing isn't sexy. Printing isn't even what the cool kids do anymore. Nowadays they send their ol' vintage filtered pictures on the Snapchats and sign documents on their fancy iPotatos. But that doesn't matter. 
+Solus 1.1 ships with printing support out of the box. Now when those cool kids grow up and get jobs, their need for printing on old fashion paper will work. Got an HP printer? Install the hplip package!
 
-We've refined our selection of beautiful wallpapers, generously provided by <a href="http://www.twistedpixelsphotography.com/"Twisted Pixels</a>.
+We've refined our selection of beautiful wallpapers, generously provided by [Twisted Pixels](http://www.twistedpixelsphotography.com/).
 
 We also improved mail support in Solus 1.1 by resolving issues relating to Thunderbird and mime association.
 
 ##### Initial Installation Experience
 
-Solus 1.1 builds on our aim to provide a seamless, effortless Linux desktop experience. This experience extends to the installation of Solus, and we have taken the time to evaluate and implement improvements to be made to the installer.
+Solus 1.1 builds on our aim to provide a seamless, effortless Linux desktop experience. This experience extends to the installation of Solus, and we have taken the time to evaluate and implement improvements to be made to the 
+installer.
 
 1. We've improved timezone configuration.
 2. We've ensured that Windows 8 and above are properly detected.
@@ -75,22 +75,22 @@ Solus 1.1 ships out-of-the-box with numerous applications to enhance the desktop
 -  thunderbird 38.6.0
 -  vlc 2.2.2
 
- #####  Firefox, GTK, and Icon Themes
+#####  Firefox, GTK, and Icon Themes
 
 We enhance the out-of-the-box desktop and Firefox experiences by defaulting to the [Arc GTK Theme](https://github.com/horst3180/Arc-theme) as well as [Arc Firefox Theme](https://github.com/horst3180/arc-firefox-theme), and 
 utilize the [Moka Icon Theme](https://github.com/moka-project/moka-icon-theme) to spruce up application iconography.
 
- #####  System
+#####  System
 
 Solus 1.1 ships with gstreamer media libraries, a multitude of system utilized fonts such as Clear Sans, Symbola, and Dejavu and leverages the most updated GTK 3.18 stack.
 
 Solus 1.1 is UEFI enabled via goofiboot, a distribution-agnostic fork of gummiboot, to ensure a wider variety of modern hardware is capable of using Solus, and further hardware enablement with the shipping of Linux kernel 4.4.3.
 
- ####  Download
+####  Download
 
 Solus 1.1 ISOs can be downloaded across official and community-supported mirrors internationally, as well as via BitTorrent, via [our Download page](https://solus-project.com/download/).
 
- ####  Resources
+####  Resources
 
 SOLUS PROJECT CONTACT: joshua@stroblindustries.com
 
@@ -100,9 +100,9 @@ MEDIA ASSETS: [https://solus-project.com/1-1-media](https://solus-project.com/1-
 
 ---
 
- ####  Full Changelog
+####  Full Changelog
 
- #####  Packages added to this release:
+#####  Packages added to this release:
 
 -  exfat-utils
 -  foomatic-db
@@ -122,7 +122,7 @@ MEDIA ASSETS: [https://solus-project.com/1-1-media](https://solus-project.com/1-
 -  rhythmbox-alternative-toolbar
 -  solus-hardware-config
 
- #####  Packages removed from this release:
+#####  Packages removed from this release:
 
 -  caribou
 -  dash
@@ -136,7 +136,7 @@ MEDIA ASSETS: [https://solus-project.com/1-1-media](https://solus-project.com/1-
 -  polkit-gnome
 -  telepathy-logger
 
- #####  Changes in this release:
+#####  Changes in this release:
 
 **python-urlgrabber**
 

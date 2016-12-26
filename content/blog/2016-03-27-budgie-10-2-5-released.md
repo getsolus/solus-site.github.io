@@ -4,7 +4,6 @@ categories:
 - Budgie
 - News
 date: 2016-03-27T20:53:21Z
-id: 1233
 title: Budgie 10.2.5 Released
 url: /2016/03/27/budgie-10-2-5-released/
 ---
@@ -19,7 +18,7 @@ show up in their correct order.
 Alongside those panel improvements, we've increased the spacing between panel applets. When applications are launched or closed, we now provide stylish animations for revealing or hiding icons, and you should now notice that application icons remain 
 consistent, whether or not the application is running.
 
-<video src="https://solus-project.com/wp-content/uploads/2016/03/Animation-2016-03-27_23.28.16.mp4" autoplay="autoplay" loop="loop" width="394" height="36"></video>
+<video src="/imgs/posts/2016/03/Animation-2016-03-27_23.28.16.mp4" autoplay="autoplay" loop="loop" width="394" height="36"></video>
 
 When you launch Raven, you are greeted by more accurate sound device names. This should help demystify what devices are available to you and enable easier selection of input/output devices. You can see this in the image below.
 

@@ -18,9 +18,14 @@ Last weekend, Ikey and I worked with the community on addressing items for Solus
 
 ##### Videos
 
+{{< youtube "t_ND3qDXD7M" >}}
+
+{{< youtube "MAKaSZUftKg" >}}
+
 ##### Summary
 
 A lot was accomplished over the course of those two days, such as:
+
 -  You can now pin Visual Studio Code (both the proprietary and OSS versions) in Budgie.
 -  Fixes landed to ensure the Color calibration and profiling section in Gnome Control Center showed the appropriate devices and resolved crashes for some users.
 -  You can now set a custom background for the Lock Screen via Gnome Control Center.

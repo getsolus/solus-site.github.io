@@ -7,7 +7,6 @@ categories:
 - Plans
 - TWIS
 date: 2016-03-20T23:57:09Z
-id: 1199
 title: 'This Week in Solus -- Install #24'
 url: /2016/03/20/this-week-in-solus-install-24/
 --- 
@@ -20,6 +19,8 @@ Welcome to the 24th installation of This Week in Solus.
 
 This Sunday we had our second Sundays with Solus session, our Hangout session that happens on the first and third Sunday of every month. As well as the video below, there are sections throughout this blog post that highlight and expand upon 
 information provided in this session.
+
+{{< youtube "1h4t22IOh1U" >}}
 
 #### Branding
 
