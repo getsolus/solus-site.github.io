@@ -8,13 +8,15 @@
 			{{ with (index $siteMenus .) }}
 				<div data-solus-component="full-width-row">
 					<b>{{ replace (humanize $menuName) "menu" "" }}:</b>
-					{{ range after 1 . }}
-						{{ if hasPrefix .URL "irc://" }}
-							<a href="{{ safeURL .URL }}">{{ .Name }}</a>
-						{{ else }}
-							<a href="{{ .URL | absURL }}">{{ .Name }}</a>
+					<span>
+						{{ range after 1 . }}
+							{{ if hasPrefix .URL "irc://" }}
+								<a href="{{ safeURL .URL }}">{{ .Name }}</a>
+							{{ else }}
+								<a href="{{ .URL | absURL }}">{{ .Name }}</a>
+							{{ end }}
 						{{ end }}
-					{{ end }}
+					</span>
 				</div>
 			{{ end }}
 		{{ end }}

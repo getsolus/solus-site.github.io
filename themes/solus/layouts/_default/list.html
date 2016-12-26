@@ -5,11 +5,6 @@
 		{{ partial "sidepane.html" . }}
 		<div data-solus-component="main">
 			{{ partial "header.html" . }}
-						<p>{{ .Title }}</p>
-						<p>{{ .Kind }}</p>
-						{{ if eq .Title "Download" }}
-							HELLOOOO
-						{{ end }}
 			<div data-solus-component="content">
 				{{ $blogPosts := .Paginator.Pages }}
 				{{ $firstBlog := (index $blogPosts 0) }}
@@ -18,8 +13,8 @@
 					<div data-solus-component="featured-blog-post">
 						<div data-solus-minor-component="featured-blog-info">
 							{{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
-							{{ if ge (len $firstBlog.Summary) 347 }}
-								<p>{{- safeHTML (substr $firstBlog.Summary 0 347) -}}...</p>
+							{{ if ge (len $firstBlog.Summary) 397 }}
+								<p>{{- safeHTML (substr $firstBlog.Summary 0 397) -}}...</p>
 							{{ else }}
 								<p>{{- safeHTML $firstBlog.Summary -}}
 							{{ end }}
