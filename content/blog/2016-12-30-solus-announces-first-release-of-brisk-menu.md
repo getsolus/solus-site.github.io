@@ -3,7 +3,7 @@ author: "joshua"
 categories:
 - news
 date: 2016-12-30T21:08:58+02:00
-featuredimage: ""
+featuredimage: "2016/12/Brisk_Menu_0.1.0.jpg"
 title: "Solus Announces First Release of Brisk Menu"
 url: "2016/12/30/solus-announces-first-release-of-brisk-menu"
 ---
