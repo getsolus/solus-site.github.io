@@ -138,6 +138,9 @@ This release ships with the MATE 1.16 series and is the first operating system t
 implementation of a clean, efficient, and modern menu for the MATE Desktop. Brisk Menu enables quick access to installed applications, the Control Center, Software Center, as well as session controls 
 for logging out, locking your system, etc.
 
+We have also renamed our MATE Notification theme from Solus to Slate to reflect our mission of distro agnostic software and such name is used in the Solus MATE Edition. Alongside being available in the 
+Solus repositories, v4 of Slate is also available via [its GitHub Page](https://github.com/solus-project/mate-notification-theme-slate/releases/tag/v4).
+
 ---
 
 ## Full Changelog
