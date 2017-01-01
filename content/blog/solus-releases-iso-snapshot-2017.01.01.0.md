@@ -4,7 +4,7 @@ categories:
 - news
 - releases
 date: 2017-01-01T21:47:26+02:00
-featuredimage: ""
+featuredimage: "2017/01/20170101-featured.jpg"
 title: "Solus Releases ISO Snapshot 2017.01.01.0"
 url: "2017/01/01/solus-releases-iso-snapshot-2017.01.01.0"
 ---
@@ -114,6 +114,8 @@ translators, we're always amazed by your hard work and dedication towards making
 
 ## Budgie
 
+{{< altimg "2017/01/20170101-Budgie.jpg" >}}
+
 Solus 2017.01.01.0 ships with the latest of our Budgie releases, 10.2.9. This release features a large set of bug fixes and improvements before our 
 focus on Budgie 11 development, such as:
 
@@ -132,11 +134,15 @@ Prior to Budgie 10.2.9, it was easy to accidentally remove a panel. Now, we show
 
 ## MATE
 
+{{< altimg "2017/01/20170101-MATE.jpg" >}}
+
 Solus 2017.01.01.0 MATE Edition is a continuation of the goal we established with Solus 1.2.1, to deliver a Solus edition that has more traditional desktop experience and optimized for older hardware. 
 
 This release ships with the MATE 1.16 series and is the first operating system to ship with [the Brisk Menu](/2016/12/30/solus-announces-first-release-of-brisk-menu), our distribution agnostic 
 implementation of a clean, efficient, and modern menu for the MATE Desktop. Brisk Menu enables quick access to installed applications, the Control Center, Software Center, as well as session controls 
 for logging out, locking your system, etc.
+
+{{< altimg "2017/01/20170101-MATE-Brisk-Open-Closeup.jpg" >}}
 
 We have also renamed our MATE Notification theme from Solus to Slate to reflect our mission of distro agnostic software and such name is used in the Solus MATE Edition. Alongside being available in the 
 Solus repositories, v4 of Slate is also available via [its GitHub Page](https://github.com/solus-project/mate-notification-theme-slate/releases/tag/v4).

@@ -6,7 +6,7 @@ title: Download
 ###  System Requirements
 
 - An available DVD drive or USB port
- - Minimum USB drive of 2GB.
+ - Minimum USB drive size of 2GB.
 - Minimum of 10GB of disk space available.
 - 2GB of RAM for an optimal experience.
 - Utilizes a 64-bit (x86_64) processor.
