@@ -26,8 +26,9 @@ Reach out to the following individuals for inquiring on information in regards t
 # Press Announcements
 
 - **Current Release**
- - Solus 1.2.1: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PSXU2eFlsR0NvY1E) or [Media Pack (ZIP)](https://drive.google.com/open?id=0B5Ymf8oYXx-PalphUDlzRVhMMXc)
+ - Solus 2017.01.01.0: Click [here for blog post](/2017/01/01/solus-releases-iso-snapshot-2017.01.01.0)
 - **Previous Releases**
+ - Solus 1.2.1: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PSXU2eFlsR0NvY1E) or [Media Pack (ZIP)](https://drive.google.com/open?id=0B5Ymf8oYXx-PalphUDlzRVhMMXc)
  - Solus 1.2: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PdWxRODNKd0RXVW8)
  or [Media Pack (ZIP)](https://drive.google.com/open?id=0B5Ymf8oYXx-PQVlxZzBWQk1KZzQ)
  - Solus 1.1: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PMUZWcXVkYVI4Um8)

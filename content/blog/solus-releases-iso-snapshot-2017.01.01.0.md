@@ -9,38 +9,42 @@ title: "Solus Releases ISO Snapshot 2017.01.01.0"
 url: "2017/01/01/solus-releases-iso-snapshot-2017.01.01.0"
 ---
 
-We're proud to announce the release of our first snapshot, 2017.01.01.0, across our Budgie and MATE editions.
+We're happy to be kicking off the new year with the release of our **first ISO snapshot**, 2017.01.01.0, across our Budgie and MATE editions.
 
 ## General
 
-### Out-Of-The-Box Experience Improvements
+### Improvements To The Out-Of-The-Box Experience
 
-The out-of-the-box experience for using shipped applications in Solus has improved, as we've worked towards enabling a larger set of features for them.
+The out-of-the-box experience for shipped applications in Solus has improved, as we've worked towards enabling a larger set of features for them.
 
 - A larger set of devices are now supported for MTP mounting, thanks to an upgraded libmtp.
 - Evince can now handle PS and XPS files.
 - Our package manager, eopkg, has received performance improvements as well as a fix to statelessness that'd cause the Software Center to hang.
 - Instances where a corrupted cursor would appear while using Firefox have been resolved.
-- VLC now can play content from SMB shares and SFTP locations. We've also done work on enabling subtitles for certain content played via MKV files.
+- VLC can now play content from SMB shares and SFTP locations. We've also done work on enabling subtitles for certain content played via MKV files.
 
-Alongside those targeted improvements, we're also benefitting from the continuous improvements to Firefox. Solus ships with Firefox 50.1.0, which brings 
-security fixes on top of the various improvements to the Firefox 50 series, such as built-in emojis (*that's all the rage these days, right? 🎉*).
+Alongside those targeted improvements, Solus ships with Firefox 50.1.0 and Thunderbird 45.6.0. Firefox 50.1.0 brings security fixes on top of the various 
+improvements to the Firefox 50 series, such as built-in emojis (*those are all the rage these days, right? 🎉*) and Thunderbird 45.6.0 delivers various bug and 
+security fixes.
 
 ### Graphics and Kernel
 
-Solus 2017.01.01.0 ships the latest stable branch of the Linux Kernel, 4.8.15, as well as 13.0.2 of the OpenGL compatible 3D graphics library, Mesa. 
-Via DoFlicky, our Hardware Drivers utility, we also provide the latest of the NVIDIA proprietary drivers:
+Solus 2017.01.01.0 ships with the latest stable branch of the Linux Kernel, 4.8.15, as well as 13.0.2 of the OpenGL compatible 3D graphics library, Mesa. 
+Via DoFlicky, our Hardware Drivers utility, we provide the latest of the NVIDIA proprietary drivers:
 
 - `nvidia-glx-driver` - 370.28
 - `nvidia-340-glx-driver` (340.xx series) - 340.101
 - `nvidia-304-glx-driver` (304.xx series) - 304.134
 
+### Installer
 
-### Software Center
+Due to a subtle bug in the Installer, swap partitions were ignored when using custom mount points. This issue has since been resolved.
+
+## Software Center
 
 This release of Solus ships with the latest version of our Software Center, v15, which features numerous improvements and bug fixes.
 
-#### Expanded Categories
+### Expanded Categories
 
 {{< altimg "2017/01/solus-sc-v15-new-categories.jpg" >}}
 
@@ -53,7 +57,7 @@ We have expanded our list of dedicated software categories to include:
  - Haskell libraries
  - General programming libraries.
 
-#### Third Party
+### Third Party
 
 {{< altimg "2017/01/solus-sc-v15-third-party.jpg" >}}
 
@@ -68,13 +72,13 @@ We also have an expanded list of 3rd-Party applications that can be installed vi
 - Mendeley Desktop
 - Moneydance
 
-#### Software Viewing
+### Software Viewing
 
 {{< altimg "2017/01/solus-sc-v15-software-view.jpg" >}}
 
-When looking at software information, we also now show software licenses.
+When looking at software information, we now show software licenses.
 
-#### Translations
+### Translations
 
 This release also features a huge set of translations by our community. Our Software Center is now fully translated into:
 
