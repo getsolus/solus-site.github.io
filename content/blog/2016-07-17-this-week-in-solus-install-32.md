@@ -28,6 +28,8 @@ This downtime for the Bugzilla will also open the window for additional infrast
 
 On Saturday, we decided to have an impromptu hackfest to work on items for Solus 1.2.1. If you have the time to watch, we'd recommend it!
 
+{{< youtube "hZexPAobsSo" >}}
+
 If you just want a summary of the impromptu Hackfest or want to hear what is coming up next week, check out our short Sundays with Solus!
 
 #### Package Highlights

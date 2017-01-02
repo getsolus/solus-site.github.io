@@ -4,7 +4,6 @@ categories:
 - News
 - TWIS
 date: 2016-08-07T22:01:38Z
-id: 1570
 title: 'This Week in Solus -- Install #33'
 url: /2016/08/07/this-week-in-solus-install-33/
 ---
@@ -49,15 +48,15 @@ We're currently in the process of enabling further hardware support by way of Li
 
 #### Solus Platform Enhancements
 
-{{ altimg "2016/08/Screenshot-from-2016-08-04-23-03-03.png" >}}
+{{< altimg "2016/08/Screenshot-from-2016-08-04-23-03-03.png" >}}
 
 This week there were numerous enhancements to the Solus platform. The first example of a long-standing issue resolved was around our packaged Golang. Due to an issue with Golang having special static libraries and the method in which we strip them, 
 it would cause our Golang to not work as intended. With this now being resolved, we now have a **natively compiled Go 1.6.3**.
 
 {{< altimg "2016/08/Screenshot-from-2016-08-05-00-08-55-1.png" >}}
 
-With an optimized, natively compiled Go, we have also been enabled to **deliver Docker in our repository**. This is now available for developers and we're happy to say that our Docker is compliant with OCI (Open Container Initiative). In the immediate 
-screenshot above, you can see [Clear Linux* Project for Intel Architecture](https://clearlinux.org) running via Docker 1.12.0.
+With an optimized, natively compiled Go, we have also been enabled to **deliver Docker in our repository**. This is now available for developers and we're happy to say that our Docker is compliant with OCI (Open Container Initiative). In 
+the immediate screenshot above, you can see [Clear Linux* Project for Intel Architecture](https://clearlinux.org) running via Docker 1.12.0.
 
 {{< altimg "2016/08/Screenshot-from-2016-08-05-01-51-29-1.png" >}}
 
@@ -70,8 +69,8 @@ We also have Libreoffice 5.2.0.4 available for use!
 We are also happy to announce that TLP will be available in **future shipped ISOs and enabled out-of-the-box**. For those unaware, TLP is a power management tool that aims to optimize battery life on laptops when 
 they’re unplugged. This can range from power management for PCI-e devices to USB autosuspend, and more. By us enabling TLP out-of-the-box by default, **you can expect to see improved battery life**!
 
-We are also now shipping thermald in the repos and will also be **enabled out-of-the-box in shipped ISOs**. Thermald monitors and controls the temperature for Intel Sandy Bridge and newer CPUs and ensures that appropriate measures are taken to 
-ensure the CPU remains within appropriate operating temperature thresholds.
+We are also now shipping thermald in the repos and will also be **enabled out-of-the-box in shipped ISOs**. Thermald monitors and controls the temperature for Intel Sandy Bridge and newer CPUs and ensures that appropriate measures 
+are taken to ensure the CPU remains within appropriate operating temperature thresholds.
 
 #### Sundays with Solus
 
@@ -83,7 +82,8 @@ There has been a multitude of community events that have happened over the past 
 
 Secondly, there was a short community gaming event where we had some fun in a relaxed environment, playing some Xonotic, and took a break from all the hard work of Solus.
 
-Thirdly, DataDrake from the community hosted a 10 hour livestream, breaking the record for the longest livestream in our community yet, where he worked on packaging a bunch of games to breathe a bit more life into our gaming options. He packaged up:
+Thirdly, DataDrake from the community hosted a 10 hour livestream, breaking the record for the longest livestream in our community yet, where he worked on packaging a bunch of games to breathe a bit more life into our gaming 
+options. He packaged up:
 
 - Neverball and Neverputt.
 - An open source pacman clone.
