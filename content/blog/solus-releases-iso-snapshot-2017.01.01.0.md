@@ -32,7 +32,7 @@ security fixes.
 Solus 2017.01.01.0 ships with the latest stable branch of the Linux Kernel, 4.8.15, as well as 13.0.2 of the OpenGL compatible 3D graphics library, Mesa. 
 Via DoFlicky, our Hardware Drivers utility, we provide the latest of the NVIDIA proprietary drivers:
 
-- `nvidia-glx-driver` - 375.28
+- `nvidia-glx-driver` - 375.26
 - `nvidia-340-glx-driver` (340.xx series) - 340.101
 - `nvidia-304-glx-driver` (304.xx series) - 304.134
 
