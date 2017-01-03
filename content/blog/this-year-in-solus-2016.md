@@ -3,13 +3,11 @@ author: "joshua"
 categories:
 - news
 - twis
-date: 2017-01-02T20:41:46+02:00
+date: 2017-01-03T20:41:46+02:00
 featuredimage: "2017/01/new-year.jpg"
 title: "This Year in Solus (2016 Edition)"
-url: "/2017/01/02/this-year-in-solus-2016-edition"
+url: "/2017/01/03/this-year-in-solus-2016-edition"
 ---
-
-## 2016
 
 2016 was an incredible year for Solus. We went from having our first release in December of 2015, to completely switching to a rolling release model. We had multiple Solus releases, multiple Budgie releases, several rewrites of different 
 components of Solus, ranging from the Installer to the Software Center. We introduced our native Steam runtime and improved both our state of statelessness as well as optimizations.
@@ -25,6 +23,8 @@ I feel it's understating things to say we've been busy. While on occassion it fe
 - Q4 is October - December.
 
 Let's get started!
+
+## 2016
 
 ### Q1 - We started the fire.
 
