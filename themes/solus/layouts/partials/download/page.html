@@ -36,7 +36,7 @@
 						Legend: <span data-solus-icon="official">Official</span><span data-solus-icon="community"> Community</span><br />
 						SHA256 Checksum: {{ $editionInfo.shasum }}<br />
 						{{ $sha256url := printf "http://ikeydoherty.com/Solus-%s-%s.sha256sum" $site.Data.isos.info.Version $editionName | safeURL }}
-						SHA256SUMS: <a href="{{ $sha256url }}" target="_blank">File</a> | <a href="{{ $sha256url }}.sign" target="_blank">GPG Signature</a>
+						SHA256SUMS: <a href="{{ $sha256url }}" target="_blank">File</a> | <a href="{{ $sha256url }}.sign" target="_blank">GPG Signed File</a> | <a href="https://archive.solus-project.com/solus.gpg" target="_blank">GPG Public Key</a>
 					</div>
 				</section>	
 			</div>
