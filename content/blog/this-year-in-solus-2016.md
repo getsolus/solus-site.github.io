@@ -15,7 +15,7 @@ components of Solus, ranging from the Installer to the Software Center. We intro
 When I first started talking about Solus at the beginning of 2016, I used the analogy that what we were building was the engine for our vehicle, one to deliver us to our goals for Solus. While we’re still building that engine, we’re in a drastically 
 better shape than we were in 2016, and we’re more confident, and bolder, than ever.
 
-I feel it's understating things to say we've been busy. While on occassion it felt there was quiet moments, looking at the big picture shows that we were anything but quiet. So This Year in Solus is going to be broken up into 4 quarters, where:
+I feel it's understating things to say we've been busy. While on occasion it felt there was quiet moments, looking at the big picture shows that we were anything but quiet. So This Year in Solus is going to be broken up into 4 quarters, where:
 
 - Q1 is January - March.
 - Q2 is April - June.
@@ -101,14 +101,14 @@ In June, [we released Solus 1.2](/2016/06/20/solus-1-2-shannon-released/). This 
 There was huge improvements for JPEG library decoding and as a result of our native Steam runtime, we also began providing one of the most performant gaming experiences available on Linux. This release also featured our new Software Center, 
 which we still have to this day, albeit with a lot of improvements, as well as a new installer with our new “disk strategy” system to make installation a breeze. This also enabled support for a dedicated `/home` partition.
 
-### Q3 - Just Keep rolling
+### Q3 - Just Keep Rolling
 
 {{< altimg "2017/01/autobots-rollout.gif" >}}
 
 We started off our Q3 in July by continuing to emphasize that nothing is sacred in Solus, including our package manager. [We announced the intent to replace eopkg with sol.](/2016/07/05/this-week-in-solus-install-30/)
 
 But more important, this month is when we admitted to ourselves that we'd be [best served being a rolling release](/2016/07/24/replacement-of-release-schedule/). We were always bad at being a traditional release, updating large components of 
-our stack where other operating systems would have been more hesitant, some primary examples being the adoption and shipping of Mesa 12 before it was even release as "stable", doing upgrades of our GCC and glibc, and updating our 
+our stack where other operating systems would have been more hesitant, some primary examples being the adoption and shipping of Mesa 12 before it was even released as "stable", doing upgrades of our GCC and glibc, and updating our 
 Pulseaudio to Pulseaudio 9 and GNOME Stack to 3.20.
 
 At the end of July, we also made the big switch from Bugzilla to Phabricator, which has served us well so far! Phabricator offers a better permission system, the concept of “projects” with can be anything from groups like Triage Team to tags like Package Requests, 
@@ -232,7 +232,7 @@ rounded off the year with a pleasant GameFest!
 We kicked off the New Year on a high note with the release of our **first** ISO snapshot, [Solus 2017.01.01.0](/2017/01/01/solus-releases-iso-snapshot-20170101-0).
 
 This snapshot featured some out-of-the-box experience for shipped applications, such as improved MTP support, performance improvements for eopkg, and so forth. We also delivered upgrade NVIDIA proprietary drivers, an updated Firefox and 
-Thunderbird, as well as improvements to both our Installer as well as Software Center.
+Thunderbird, as well as improvements to both our Installer and Software Center.
 
 The primary edition featured the latest Budgie and our MATE edition featured Brisk Menu.
 
