@@ -160,7 +160,7 @@ On September 10th, [we released Budgie 10.2.7](/2016/09/10/budgie-10-2-7-release
 
 - Our panel widgets introduced consistent left-click actions, rather than mixing left and right click.
 - We introduced more popovers to expose quick access to settings, such as power settings.
-- Our Icon Tasklist improved by enforcing a 1:1.1 aspect ration, which helped to alleviate the feeling of icons being compressed. It also resulted in automatic icon scaling.
+- Our Icon Tasklist improved by enforcing a 1:1.1 aspect ratio, which helped to alleviate the feeling of icons being compressed. It also resulted in automatic icon scaling.
 - Keyboard Layout Indicator landed, enabling a mouse-driven method for switching between layouts.
 - We added a dedicated Raven Sidebar Control for enabling mouse-driven access to the Applets view of Raven.
 - The User Indicator was introduced to enable quick access to logout, lock, suspend, restart, and shutdown.
