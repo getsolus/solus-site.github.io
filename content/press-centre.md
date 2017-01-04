@@ -21,7 +21,7 @@ For branding information, including guidelines and licensing, please consult our
 
 Reach out to the following individuals for inquiring on information in regards to our products (remove NOSPAM and use @):
 
-- [Joshua Strobl, Communications Manager](joshuaATstroblindustries.comNOSPAM)
+- [Joshua Strobl, Communications Manager](joshuaATsolus-project.comNOSPAM)
 
 # Press Announcements
 
