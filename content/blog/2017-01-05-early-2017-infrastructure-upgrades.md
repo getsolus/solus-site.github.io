@@ -1,5 +1,6 @@
 ---
 author: "joshua"
+draft: true
 categories:
 - infrastructure
 - news

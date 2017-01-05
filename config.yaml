@@ -5,7 +5,7 @@ config: "config.yaml"
 title: "Solus"
 # Content
 archetypedir: "themes/solus/archetypes"
-buildDrafts: true
+buildDrafts: false
 googleanalytics: "UA-Not-Yet"
 languageCode: "en-us"
 metaDataFormat: "yaml"
@@ -103,7 +103,7 @@ menu:
         Weight: 2
 # Special Params
 params:
-    copyright: "2016"
+    copyright: "2017"
     # Because I can't for the life of me get Hugo nested lists to work
     footermenu: ["solus", "social", "support", "pressmenu"]
     userguide: "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
