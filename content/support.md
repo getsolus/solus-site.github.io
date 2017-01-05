@@ -20,7 +20,7 @@ title: "Support Us"
 	subclass="what-is-our-plan"
 	height="short"
 	header="What is our plan?"
-	description="2016 is dedicated to building upon the work we did for Solus. We have a lot of great things on our Roadmap, such as an dynamic switchable graphics, integrated Recovery System, Migration Tools, and Backup Management."
+	description="2017 is dedicated to building upon the work we did for Solus. We have a lot of great things on our Roadmap, such as dynamic switchable graphics, integrated Recovery System, Migration Tools, and Backup Management."
 %}}
 
 {{% banner

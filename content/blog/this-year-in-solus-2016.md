@@ -2,6 +2,7 @@
 author: "joshua"
 categories:
 - news
+- plans
 - twis
 date: 2017-01-03T20:41:46+02:00
 featuredimage: "2017/01/new-year.jpg"
