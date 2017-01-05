@@ -18,8 +18,8 @@ Prior to this infrastructure upgrade, we were running our git and web properties
 - 4GB of RAM
 - 20GB of disk storage
 
-While this worked well for us for the better part of 2016 and we're grateful for the support from Dediserve that we've had, due to an increased demand on our infrastructure, we decided to invest in a more capable server. This server, hosted by OVH 
-(same provider as our package repository), has:
+This worked well for us for the better part of 2016 and we're grateful for the support from Dediserve that we've had, enabling us a corner of the web to call our own and grow. As we've grown, so has the demand on our infrastructure, both by us and 
+our community. To meet our requirements,  we have invested in a server hosted by OVH (same provider as our package repository), which has:
 
 - Intel Xeon D-1520
 - 32GB of RAM
