@@ -26,10 +26,12 @@
 					<!-- All Other Blog Posts -->
 					<div data-solus-component="view-container">
 						<div data-solus-component="view-primary">
-							{{ range $blog := (after 1 $blogPosts) }}
-								{{ partial "blog/info.html" (dict "blog" $blog "site" .Site) }}
+							{{ if gt (len $blogPosts) 1 }}
+								{{ range $blog := (after 1 $blogPosts) }}
+									{{ partial "blog/info.html" (dict "blog" $blog "site" .Site) }}
+								{{ end }}
+								{{ partial "blog/paginator.html" (dict "paginator" .Paginator "site" .Site) }}
 							{{ end }}
-							{{ partial "blog/paginator.html" (dict "paginator" .Paginator "site" .Site) }}
 						</div>
 						<div data-solus-component="view-secondary">
 							{{ partial "blog/panel.html" . }}
