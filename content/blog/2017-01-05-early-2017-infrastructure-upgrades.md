@@ -6,6 +6,7 @@ categories:
 - plans
 date: 2017-01-05T06:20:27+02:00
 featuredimage: "/2017/01/what-do-we-need.jpg"
+url: "/2017/01/05/early-2017-infrastructure-upgrades"
 title: "Early 2017 Infrastructure Upgrades!"
 ---
 
