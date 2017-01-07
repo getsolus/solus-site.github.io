@@ -8,8 +8,10 @@
 			{{ partial "header.html" . }}
 			{{ if eq .Title "Download"}}
 				{{ partial "download/page.html" (dict "site" .Site "content" .Content) }}
-			{{ else if or (eq .Title "Branding Guidelines") (eq .Title "Press Centre") }}
-				{{ partial "press-centre/page.html" (dict "page" . "content" .Content )}}
+			{{ else if  eq .Title "Branding"}}
+				{{ partial "branding/page.html" (dict "site" .Site "content" .Content) }}
+			{{ else if eq .Title "Press Centre" }}
+				{{ partial "press-centre/page.html" (dict "page" . "content" .Content) }}
 			{{ else }}
 				{{ .Content }}
 			{{ end }}

@@ -15,7 +15,7 @@ For information on our products, consult the information below:
 
 # Branding Guidelines
 
-For branding information, including guidelines and licensing, please consult our [Branding Guidelines](/branding-guidelines) page.
+For branding information, including guidelines and licensing, please consult our [Branding page](/branding).
 
 # Contact
 

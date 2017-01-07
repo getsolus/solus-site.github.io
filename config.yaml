@@ -97,9 +97,9 @@ menu:
         Identifier: "pressfooteritem"
         URL: "/press-centre"
         Weight: 1
-      - Name: "Branding Guidelines"
-        Identifier: "brandingguidelines"
-        URL: "/branding-guidelines"
+      - Name: "Branding"
+        Identifier: "brandingpage"
+        URL: "/branding"
         Weight: 2
 # Special Params
 params:
