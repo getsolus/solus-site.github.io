@@ -37,3 +37,4 @@ help:
 	@echo "minifier  - Minify the public/ HTML."
 	@echo "pull      - Pull / rebase latest changes"
 	@echo "setup     - Install necessary tooling for minification."
+	@echo "sync      - Update git submodules and update assets."
