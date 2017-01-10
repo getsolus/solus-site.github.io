@@ -41,9 +41,9 @@ Solus is an operating system that is designed for modern home computing. Solus i
 ### Copyright
 
 - Budgie Logo: CC-BY-SA-4.0. Original work by Yuri Henrique, modified by Solus.
-- "Budgie Desktop" Name: Copyright © 2014-2016 Solus Project, Ikey Doherty. All Rights Reserved.
-- Solus Logo: Copyright © 2016 Solus Project, Ikey Doherty.
-- “Solus” Name: Copyright © 2011-2016 Solus Project, Ikey Doherty.
+- "Budgie Desktop" Name: Copyright © 2014-2017 Solus Project, Ikey Doherty. All Rights Reserved.
+- Solus Logo: Copyright © 2016-2017 Solus Project, Ikey Doherty.
+- “Solus” Name: Copyright © 2011-2017 Solus Project, Ikey Doherty.
 
 
 ### Licensing
