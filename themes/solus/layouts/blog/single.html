@@ -3,11 +3,11 @@
 {{ partial "metadata.html" . }}
 	<body>
 		{{ partial "sidepane.html" . }}
-		<div data-solus-component="main">
+		<div data-solbit="main">
 			{{ partial "header.html" . }}
-			<div data-solus-component="content">
-				<div data-solus-component="view-container">
-					<div data-solus-component="view-primary">
+			<div data-solbit="content">
+				<div data-solbit="view-container">
+					<div data-solbit="view-primary">
 						{{ partial "blog/info.html" (dict "blog" . "site" .Site) }}
 						<div data-solus-component="blog-content">
 							{{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
@@ -16,7 +16,7 @@
 							{{ .Content }}
 						</div>
 					</div>
-					<div data-solus-component="view-secondary">
+					<div data-solbit="view-secondary">
 						{{ partial "blog/panel.html" . }}
 					</div>
 				</div>

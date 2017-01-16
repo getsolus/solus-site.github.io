@@ -1,13 +1,13 @@
 {{ $page := .page}}
 {{ $content := .content }}
-<div data-solus-component="content">
-	<div data-solus-component="view-container">
-		<div data-solus-component="view-primary">
+<div data-solbit="content">
+	<div data-solbit="view-container">
+		<div data-solbit="view-primary">
 			<div data-solus-component="blog-content">
 				{{ $content }}
 			</div>
 		</div>
-		<div data-solus-component="view-secondary">
+		<div data-solbit="view-secondary">
 			{{ partial "press-centre/sidepane.html" $page }}
 		</div>
 	</div>

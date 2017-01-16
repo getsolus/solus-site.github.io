@@ -1,12 +1,12 @@
 <!-- Beginning of Solus Site Footer -->
 <footer>
 	<!-- Beginning of Copyright & Menus -->
-	<div data-solus-component="footer-menus">
+	<div data-solbit="footer-menus">
 		{{ $siteMenus := .Site.Menus }}
 		{{ range .Site.Params.footermenu }}
 			{{ $menuName := . }}
 			{{ with (index $siteMenus .) }}
-				<div data-solus-component="full-width-row">
+				<div data-solbit="full-width-row">
 					<b>{{ replace (humanize $menuName) "menu" "" }}:</b>
 					<span>
 						{{ range after 1 . }}

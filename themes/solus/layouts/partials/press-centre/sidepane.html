@@ -1,6 +1,6 @@
 <!-- Beginning of Press Centre Sidepane -->
 {{ partial "blog/panel/categories.html" . }}
-<div data-solus-component="full-width-box">
+<div data-solbit="full-width-box">
 	<h3>Recent Blog Posts</h3>
 	{{ $blogPosts := first 5 (sort .Site.Pages .Data "desc") }}
 	{{ range $blogPost := $blogPosts }}

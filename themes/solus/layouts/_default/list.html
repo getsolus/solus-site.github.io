@@ -3,9 +3,9 @@
 	{{ partial "metadata.html" . }}
 	<body>
 		{{ partial "sidepane.html" . }}
-		<div data-solus-component="main">
+		<div data-solbit="main">
 			{{ partial "header.html" . }}
-			<div data-solus-component="content">
+			<div data-solbit="content">
 				{{ $blogPosts := .Paginator.Pages }}
 				{{ $firstBlog := (index $blogPosts 0) }}
 				{{ if and (isset $firstBlog.Params "featuredimage") (ne $firstBlog.Params.featuredimage "") }}
@@ -18,14 +18,14 @@
 							{{ else }}
 								<p>{{- safeHTML $firstBlog.Summary -}}
 							{{ end }}
-							<a data-solus-component="button" href="{{ $firstBlog.Permalink }}" data-solus-size="large" data-solus-enfsize>Read More</a>
+							<a data-solbit="button" href="{{ $firstBlog.Permalink }}" data-solbit-size="large" data-solbit-enfsize>Read More</a>
 						</div>
 						{{ partial "altimg.html" (dict "image" $firstBlog.Params.featuredimage "dir" "/imgs/posts/" )}}
 					</div>
 					<!-- End of Featured Blog Post -->
 					<!-- All Other Blog Posts -->
-					<div data-solus-component="view-container">
-						<div data-solus-component="view-primary">
+					<div data-solbit="view-container">
+						<div data-solbit="view-primary">
 							{{ if gt (len $blogPosts) 1 }}
 								{{ range $blog := (after 1 $blogPosts) }}
 									{{ partial "blog/info.html" (dict "blog" $blog "site" .Site) }}
@@ -33,21 +33,21 @@
 								{{ partial "blog/paginator.html" (dict "paginator" .Paginator "site" .Site) }}
 							{{ end }}
 						</div>
-						<div data-solus-component="view-secondary">
+						<div data-solbit="view-secondary">
 							{{ partial "blog/panel.html" . }}
 						</div>
 					</div>
 					<!-- End of Other Blog Posts -->
 				{{ else }}
 					<!-- Beginning of Generic Blog List -->
-					<div data-solus-component="view-container">
-						<div data-solus-component="view-primary">
+					<div data-solbit="view-container">
+						<div data-solbit="view-primary">
 							{{ range $blog := $blogPosts }}
 								{{ partial "blog/info.html" (dict "blog" $blog "site" .Site) }}
 							{{ end }}
 							{{ partial "blog/paginator.html" (dict "paginator" .Paginator "site" .Site) }}
 						</div>
-						<div data-solus-component="view-secondary">
+						<div data-solbit="view-secondary">
 							{{ partial "blog/panel.html" . }}
 						</div>
 					</div>

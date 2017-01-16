@@ -1,18 +1,18 @@
 {{ $site := .site }}
 {{ $content := .content }}
-<div data-solus-component="banner" data-solus-minor-component="branding" data-solus-size="small">
+<div data-solus-component="banner" data-solus-minor-component="branding" data-solbit-size="small">
 	<h1>Branding</h1>
 	<div data-solus-component="brands">
 		{{ range $brand := (slice "solus" "budgie") }}
 			<div data-solus-component="brand-item">
 				{{ partial "altimg.html" (dict "dir" "/imgs/" "image" (printf "%s.png" $brand)) }}
-				<a data-solus-component="button" data-solus-custom data-solus-size="large" href="{{ printf "%sassets/%s.zip" $site.BaseURL $brand }}" target="_blank">Download</a>
+				<a data-solbit="button" data-solus-custom data-solbit-size="large" href="{{ printf "%sassets/%s.zip" $site.BaseURL $brand }}" target="_blank">Download</a>
 			</div>
 		{{ end }}
 	</div>
 </div>
-<div data-solus-component="content">
-	<div data-solus-component="view-container">
-		<div data-solus-component="view-centered" data-solus-minor-component="brand-info">{{ $content }}</div>
+<div data-solbit="content">
+	<div data-solbit="view-container">
+		<div data-solbit="view-centered" data-solus-minor-component="brand-info">{{ $content }}</div>
 	</div>
 </div>
