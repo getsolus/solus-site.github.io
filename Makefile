@@ -29,6 +29,8 @@ submoduleupdate:
 assetcopy:
 	mkdir -p themes/solus/static/{css,js}
 	cp -R solus-styling/build/* themes/solus/static/css/
+	cp -R solbit/build/fonts themes/solus/static/css/
+	cp solbit/build/solbit.min.js themes/solus/static/js/
 	cp solus-webplatform-js/build/site.min.js themes/solus/static/js/
 
 sync: submoduleupdate assetcopy
