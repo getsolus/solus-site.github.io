@@ -10,30 +10,19 @@ deploy:
 local:
 	hugo server --baseURL "http://127.0.0.1:1313" --watch --quiet --ignoreCache
 
-minifier:
-	find public-deployed -name "*.html" -type f -exec \
-		sh -c 'html-minifier "{}" --collapse-boolean-attributes --collapse-inline-tag-whitespace --collapse-whitespace --html5 --keep-closing-slash --output "{}" --remove-comments --remove-redundant-attributes --remote-tag-whitespace' \;
-
-pull:
-	git pull --rebase
-
 setup:
 	git submodule init
 	sudo eopkg install hugo nodejs
 	sudo npm install -g html-minifier
 	mkdir -p themes/solus/static/{css,js}
 
-submoduleupdate:
+sync:
 	git submodule update --remote --rebase
-
-assetcopy:
 	mkdir -p themes/solus/static/{css,js}
 	cp -R solus-styling/build/* themes/solus/static/css/
 	cp -R solbit/build/fonts themes/solus/static/css/
 	cp solbit/build/solbit.min.js themes/solus/static/js/
 	cp solus-webplatform-js/build/site.min.js themes/solus/static/js/
-
-sync: submoduleupdate assetcopy
 
 help:
 	@echo "minifier  - Minify the public/ HTML."
