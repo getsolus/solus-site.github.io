@@ -24,7 +24,7 @@ install the application and manage it through the native package management syst
 _However..._ This is not without weakness. It's long known that the system is far
 from robust, and while it is indeed integrated into the Software Center, it's not
 exactly reliable. Or quick. Additionally, there isn't even a way to automatically
-upgrade these .. source.. packages, as they have no native origin.
+upgrade these ..source.. packages, as they have no native origin.
 
 Clearly, a better approach is needed here.
 
