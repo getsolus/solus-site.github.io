@@ -3,7 +3,7 @@ author: "ikey"
 categories:
 - news
 date: 2017-01-18T21:59:12+02:00
-featuredimage: ""
+featuredimage: "2017/01/flatpak-gnome-books.png"
 title: "Adopting Flatpak to Reassemble Third Party Applications"
 url: "/2017/01/18/adopting-flatpak-to-reassemble-third-party-applications"
 ---
@@ -33,7 +33,7 @@ Clearly, a better approach is needed here.
 ### Flatpak, or Snap?
 
 You read that right. The best approach forward for Solus, for something as desirable
-yet minor as the Third Party selection, is to use a *non-native* application management
+yet minor as the Third Party selection, is to use a **non-native** application management
 system. Let's first think about our basic requirements here:
 
  - Enable us to distribute Google Chrome. This is basically the #1 issue.
@@ -69,7 +69,7 @@ Additionally, AppArmor (not used by Solus) is also required.
 On the other hand, integrating Flatpak into Solus was as trivial as packaging `ostree` and `flatpak`,
 barring some minor changes which we're [already upstreaming](https://github.com/flatpak/flatpak/pull/496).
 
-You may rightly argue that I'm being lazy. To counter those points, we must look to the *future*
+You may rightly argue that I'm being lazy. To counter those points, we must look to the **future**
 uses of Flatpak within Solus.
 
 ### The ABI problem (We've been here before.)
@@ -78,25 +78,25 @@ In a nutshell, a Snap makes use of Ubuntu libraries to provide elements of the r
 recent rise of traditional modes for Snap builds, we're looking at relocating Ubuntu/Debian files
 to Solus and expecting them to work. Even with "full" isolation, this still remains an issue.
 As the creator of [Linux Steam Integration](https://github.com/solus-project/linux-steam-integration), we are
-*painfully* aware of the shortcomings of this approach.
+**painfully** aware of the shortcomings of this approach.
 
 On the other hand, Flatpak does use full runtimes (though this can be disabled, which may be useful
 for the Chrome problem), and does seek to resolve the ABI problems, not just the relocatable package
 problem. After speaking with [Alexander Larsson](https://plus.google.com/+AlexanderLarsson/posts), I'm
-confident that we can utilize Flatpak to further *improve* our Steam runtime in future. Essentially,
-Solus would host a `solus-gaming` runtime, built *specifically* for Steam compatibility, without
+confident that we can utilize Flatpak to further **improve** our Steam runtime in future. Essentially,
+Solus would host a `solus-gaming` runtime, built **specifically** for Steam compatibility, without
 risking host mangling or having to compromise. This is an area where we can readily put the
 Solus machinery to work to providing the best possible experience.
 
 ### Upstream engagement
 
 As previously stated, I've put this matter to the Internet a number of times over a fair period of
-time. However, the only times I've been engaged on a *technical level* from either camp, has always
+time. However, the only times I've been engaged on a **technical level** from either camp, have always
 come from Flatpak. I'd like to personally thank [Alexander Larsson](https://plus.google.com/+AlexanderLarsson/posts) of
 Red Hat, the chief developer of Flatpak, for the enthusiasm, honesty, and technical discussions we've
 had on these issues.
 
-While I do not *expect* developers from either camp to step forward and have these discussions, it
+While I do not **expect** developers from either camp to step forward and have these discussions, it
 certainly does wonders for confidence. This is an upstream I certainly feel comfortable working with,
 and is clearly passionate about their software.
 
