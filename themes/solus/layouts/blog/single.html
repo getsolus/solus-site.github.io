@@ -9,7 +9,7 @@
 				<div data-solbit="view-container">
 					<div data-solbit="view-primary">
 						{{ partial "blog/info.html" (dict "blog" . "site" .Site) }}
-						<div data-solus-component="blog-content">
+						<div data-solbit="blog-content">
 							{{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
 								{{ partial "altimg.html" (dict "image" .Params.featuredimage "class" "featured-image" "dir" "/imgs/posts/")}}
 							{{ end }}
