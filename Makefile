@@ -12,8 +12,7 @@ local:
 
 setup:
 	git submodule init
-	sudo eopkg install hugo nodejs
-	sudo npm install -g html-minifier
+	sudo eopkg install hugo
 	mkdir -p themes/solus/static/{css,js}
 
 sync:

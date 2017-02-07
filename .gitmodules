@@ -7,3 +7,6 @@
 [submodule "solbit"]
 	path = solbit
 	url = https://github.com/solus-project/solbit.git
+[submodule "help-center-docs"]
+	path = help-center-docs
+	url = git@github.com:solus-project/help-center-docs
