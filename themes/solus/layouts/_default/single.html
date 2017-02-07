@@ -10,6 +10,8 @@
 				{{ partial "download/page.html" (dict "site" .Site "content" .Content) }}
 			{{ else if  eq .Title "Branding"}}
 				{{ partial "branding/page.html" (dict "site" .Site "content" .Content) }}
+			{{ else if eq .Title "Help Center" }}
+				{{ partial "helpcenter/page.html" . }}
 			{{ else if eq .Title "Press Centre" }}
 				{{ partial "press-centre/page.html" (dict "page" . "content" .Content) }}
 			{{ else }}
