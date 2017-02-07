@@ -1,0 +1,18 @@
+{{ $category := .Category }}
+{{ $site := .Site }}
+{{ $dirpath := printf "content/articles/%s" $category }}
+{{ $files := readDir  $dirpath }}
+<h1>{{ humanize $category }}</h1>
+<div data-solbit="list">
+	{{ range $article, $articleInfo := $files }}
+		<div data-solbit="list-item">
+			{{ $filepath := printf "content/articles/%s/%s/en.md" $category $articleInfo.Name }}
+			{{ $file := readFile $filepath }}
+			{{ $fileLines := split $file "\n" }}
+			{{ $articleHeader := slicestr (index $fileLines 0) 2 }}
+			{{ $articleDescription := index $fileLines 2}}
+			<a href="{{ $articleInfo.Name }}/en">{{ $articleHeader }}</a>
+			<section>{{ $articleDescription | markdownify }}</section>
+		</div>
+	{{ end }}
+</div>

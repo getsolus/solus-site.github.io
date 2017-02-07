@@ -4,3 +4,4 @@ internaltype: page
 title: Configuration
 ---
 
+{{% helpcenter-categoryview "configuration" %}}

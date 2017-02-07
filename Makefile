@@ -18,7 +18,7 @@ setup:
 sync:
 	git submodule update --remote --rebase
 	mkdir -p themes/solus/static/{css,js}
-	find help-center-docs/* -maxdepth 1 -type d -exec cp -R {} content/articles/ \;
+	find help-center-docs/* -maxdepth 0 -type d -exec cp -R {} content/articles/ \;
 	cp -R solus-styling/build/* themes/solus/static/css/
 	cp -R solbit/build/fonts themes/solus/static/css/
 	cp solbit/build/solbit.min.js themes/solus/static/js/

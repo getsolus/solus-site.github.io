@@ -33,18 +33,22 @@ menu:
         Identifier: "support-us"
         URL: "/support"
         Weight: 4
+      - Name: "Help"
+        Identifier: "help"
+        URL: "/helpcenter/home"
+        Weight: 5
       - Name: "Budgie"
         Identifier: "budgie"
         URL: "/budgie"
-        Weight: 5
+        Weight: 6
       - Name: "Store"
         Identifier: "store"
         URL: "http://www.unixstickers.com/stickers/software_stickers/solus-linux-shaped-sticker"
-        Weight: 6
+        Weight: 7
       - Name: "Press"
         Identifier: "presslink"
         URL: "/press-centre"
-        Weight: 7
+        Weight: 8
   solus:
       - Identifier: "solus"
       - Name: "Download"

@@ -1,0 +1,18 @@
+budgie:
+    Title: Budgie Tips & Tricks
+    Description: Our flagship desktop experience
+common_tasks:
+    Title: Common Tasks
+    Description: Browse the web, check email, and more.
+configuration:
+    Title: Configuration
+    Description: Configure and personalize your system.
+contributing:
+    Title: Contributing
+    Description: Help make Solus better for everyone.
+gaming:
+    Title: Gaming
+    Description: Time to get your game face on.
+installing:
+    Title: Installing
+    Description: Some bits to make installing simpler.

@@ -4,3 +4,4 @@ internaltype: page
 title: Hardware
 ---
 
+{{% helpcenter-categoryview "hardware" %}}

@@ -1,19 +1,13 @@
 <div data-solus-component="helpcenter-banner">
 	<div data-solus-component="helpcenter-banner-welcome">
-		<div data-solbit="view-container">
-			<div data-solbit="view-centered">
-				<h1>Help Center</h1>
-				<h2>Get answers to common questions</h2>
-				<input type="text" placeholder="What can we help you with?" />
-			</div>
-		</div>
-		</div>
-		<div data-solus-component="helpcenter-banner-nav">
-			<div data-solbit="view-container">
-				<div data-solbit="view-centered">
-					<a href="{{ .BaseURL}}helpcenter/categories">Categories</a>
-					<a href="{{ .BaseURL}}helpcenter/contact">Contact Us</a>
-				</div>
-		</div>
+		<h1>Help Center</h1>
+		<h2>Get answers to common questions</h2>
+		<input type="text" placeholder="What can we help you with?" />
+	</div>
+	<div data-solus-component="helpcenter-banner-nav">
+		<section>
+				<a href="{{ .BaseURL}}helpcenter/categories">Categories</a>
+				<a href="{{ .BaseURL}}helpcenter/contact">Contact Us</a>
+		</section>
 	</div>
 </div>

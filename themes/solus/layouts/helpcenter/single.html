@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "metadata.html" . }}
+	<body>
+		{{ partial "sidepane.html" . }}
+		<div data-solbit="main">
+			{{ partial "header.html" . }}
+			{{ partial "helpcenter/banner.html" .Site }}
+			<div data-solbit="content">
+				<div data-solbit="view-container">
+					<div data-solbit="view-centered">
+						{{ if eq .Title "Help Center" }}
+							{{ partial "helpcenter/categories.html" (dict "Categories" .Site.Data.helpcenter.popular "Site" .Site)}}
+						{{ else if eq .Title "Categories" }}
+							{{ partial "helpcenter/categories.html" (dict "Categories" .Site.Data.helpcenter.categories "Site" .Site)}}
+						{{ else if eq .Title "Contact Us" }}
+							<div data-solbit="blog-content">
+								{{ .Content }}
+							</div>
+						{{ end }}
+					</div>
+				</div>
+			</div>
+		</div>
+		{{ partial "footer.html" . }}
+	</body>
+</html>

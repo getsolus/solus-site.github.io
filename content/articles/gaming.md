@@ -4,3 +4,4 @@ internaltype: page
 title: Gaming
 ---
 
+{{% helpcenter-categoryview "gaming" %}}
