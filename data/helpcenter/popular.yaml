@@ -13,6 +13,6 @@ contributing:
 gaming:
     Title: Gaming
     Description: Time to get your game face on.
-installing:
-    Title: Installing
-    Description: Some bits to make installing simpler.
+installation:
+    Title: Installation
+    Description: Some bits to make installation simpler.

@@ -16,9 +16,9 @@ gaming:
 hardware:
     Title: Hardware
     Description: Articles on device compatibility and usage.
-installing:
-    Title: Installing
-    Description: Some bits to make installing simpler.
+installation:
+    Title: Installation
+    Description: Some bits to make installation simpler.
 package_management:
     Title: Package Management
     Description: Advanced management of software.
