@@ -5,14 +5,14 @@
 		{{ partial "sidepane.html" . }}
 		<div data-solbit="main">
 			{{ partial "header.html" . }}
-			{{ partial "helpcenter/banner.html" .Site }}
+			{{ partial "help-center/banner.html" .Site }}
 			<div data-solbit="content">
 				<div data-solbit="view-container">
-					<div data-solbit="view-centered">
+					<div data-solbit="view-centered" data-solus-styling="helpcenter">
 						{{ if eq .Title "Help Center" }}
-							{{ partial "helpcenter/categories.html" (dict "Categories" .Site.Data.helpcenter.popular "Site" .Site)}}
+							{{ partial "help-center/categories.html" (dict "Categories" .Site.Data.helpcenter.popular "Site" .Site)}}
 						{{ else if eq .Title "Categories" }}
-							{{ partial "helpcenter/categories.html" (dict "Categories" .Site.Data.helpcenter.categories "Site" .Site)}}
+							{{ partial "help-center/categories.html" (dict "Categories" .Site.Data.helpcenter.categories "Site" .Site)}}
 						{{ else if eq .Title "Contact Us" }}
 							<div data-solbit="blog-content">
 								{{ .Content }}

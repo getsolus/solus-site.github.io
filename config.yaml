@@ -35,7 +35,7 @@ menu:
         Weight: 4
       - Name: "Help"
         Identifier: "help"
-        URL: "/helpcenter/home"
+        URL: "/help-center/home"
         Weight: 5
       - Name: "Budgie"
         Identifier: "budgie"
