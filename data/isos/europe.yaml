@@ -1,5 +1,5 @@
-Name: "Europe"
+Name: Europe
 Locations:
-    Amsterdam: "official|http://stroblindustries.com/isos/"
-    Germany: "community|http://solus.veatnet.de/iso/"
-    London: "official|http://soluslond1iso.stroblindustries.com/"
+    Amsterdam: official|http://stroblindustries.com/isos/
+    Germany: community|http://solus.veatnet.de/iso/
+    London: official|http://soluslond1iso.stroblindustries.com/

@@ -1,8 +1,8 @@
 haste:
-    Icon: "haste.png"
-    Name: "Haste"
-    Description: "Post text to Hastebin directly from your desktop."
+    Icon: haste.png
+    Name: Haste
+    Description: Post text to Hastebin directly from your desktop.
 screenshot:
-    Icon: "screenshot.png"
-    Name: "Screenshot"
-    Description: "Take a screenshot of your desktop, a window or region. Save to disk or upload."
+    Icon: screenshot.png
+    Name: Screenshot
+    Description: Take a screenshot of your desktop, a window or region. Save to disk or upload.

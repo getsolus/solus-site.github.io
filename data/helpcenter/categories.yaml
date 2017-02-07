@@ -1,0 +1,30 @@
+budgie:
+    Title: Budgie Tips & Tricks
+    Description: Our flagship desktop experience
+common_tasks:
+    Title: Common Tasks
+    Description: Browse the web, check email, and more.
+configuration:
+    Title: Configuration
+    Description: Configure and personalize your system.
+contributing:
+    Title: Contributing
+    Description: Help make Solus better for everyone.
+gaming:
+    Title: Gaming
+    Description: Time to get your game face on.
+hardware:
+    Title: Hardware
+    Description: Articles on device compatibility and usage.
+installing:
+    Title: Installing
+    Description: Some bits to make installing simpler.
+package_management:
+    Title: Package Management
+    Description: Advanced management of software.
+packaging:
+    Title: Packaging
+    Description: Distributing software to users on Solus.
+software:
+    Title: Software
+    Description: Kickstart use of select software like Java.
