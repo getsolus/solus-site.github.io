@@ -6,7 +6,7 @@ aliases:
     - /branding-guidelines
 ---
 
-We enforce branding guidelines to ensure consistency of imaging and messaging for Solus and its software. If you have any questions, please consult our [Press Centre](https://solus-project.com/press-centre/).
+We enforce branding guidelines to ensure consistency of imaging and messaging for Solus and its software. If you have any questions, please consult our [Press Center](https://solus-project.com/press-center/).
 
 ## Assets
 

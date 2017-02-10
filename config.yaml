@@ -47,7 +47,7 @@ menu:
         Weight: 7
       - Name: "Press"
         Identifier: "presslink"
-        URL: "/press-centre"
+        URL: "/press-center"
         Weight: 8
   solus:
       - Identifier: "solus"
@@ -79,10 +79,6 @@ menu:
         Identifier: "dev_tracker"
         URL: "https://dev.solus-project.com"
         Weight: 1
-      - Name: "Documentation"
-        Identifier: "documentation"
-        URL: "https://wiki.solus-project.com"
-        Weight: 2
       - Name: "Forums"
         Identifier: "forums"
         URL: "https://solus-project.com/forums"
@@ -91,15 +87,19 @@ menu:
         Identifier: "google_plus_community"
         URL: "https://plus.google.com/communities/104830131595272878110"
         Weight: 4
+      - Name: "Help Center"
+        Identifier: "documentation"
+        URL: "/help-center/home"
+        Weight: 2
       - Name: "IRC"
         Identifier: "irc"
         URL: "irc://irc.freenode.net/#Solus"
         Weight: 5
   pressmenu:
       - Identifier: "pressmenu"
-      - Name: "Press Centre"
+      - Name: "Press Center"
         Identifier: "pressfooteritem"
-        URL: "/press-centre"
+        URL: "/press-center"
         Weight: 1
       - Name: "Branding"
         Identifier: "brandingpage"

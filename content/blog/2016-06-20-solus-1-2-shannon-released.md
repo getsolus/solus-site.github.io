@@ -170,6 +170,6 @@ Solus 1.2 ISOs can be downloaded across official and community-supported mirrors
 
 #### Press
 
-If you are a member of the press, we recommend visiting our [Press Centre](https://solus-project.com/press-centre/) for more information and branding information.
+If you are a member of the press, we recommend visiting our [Press Center](https://solus-project.com/press-center/) for more information and branding information.
 
   
