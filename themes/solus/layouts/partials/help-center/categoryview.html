@@ -9,8 +9,8 @@
 			{{ $filepath := printf "content/articles/%s/%s/en.md" $category $articleInfo.Name }}
 			{{ $file := readFile $filepath }}
 			{{ $fileLines := split $file "\n" }}
-			{{ $articleHeader := slicestr (index $fileLines 0) 2 }}
-			{{ $articleDescription := index $fileLines 2}}
+			{{ $articleHeader := replace (index $fileLines 3) "# " "" }}
+			{{ $articleDescription := index $fileLines 5}}
 			<a href="{{ $articleInfo.Name }}/en">{{ $articleHeader }}</a>
 			<section>{{ $articleDescription | markdownify }}</section>
 		</div>
