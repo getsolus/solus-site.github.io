@@ -14,11 +14,14 @@ setup:
 	git submodule init
 	sudo eopkg install hugo
 	mkdir -p themes/solus/static/{css,js}
+	mkdir -p themes/solus/static/imgs/help-center
 
 sync:
 	git submodule update --remote --rebase
 	mkdir -p themes/solus/static/{css,js}
-	find help-center-docs/* -maxdepth 0 -type d -exec cp -R {} content/articles/ \;
+	mkdir -p themes/solus/static/imgs/help-center
+	find help-center-docs/* -maxdepth 0 ! -name "imgs" -type d -exec cp -Ru {} content/articles/ \;
+	cp -R help-center-docs/imgs/* themes/solus/static/imgs/help-center/
 	cp -R solus-styling/build/* themes/solus/static/css/
 	cp -R solbit/build/fonts themes/solus/static/css/
 	cp solbit/build/solbit.min.js themes/solus/static/js/
