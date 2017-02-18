@@ -25,7 +25,7 @@ Reach out to the following individuals for inquiring on information in regards t
 
 - [Joshua Strobl, Communications Manager](mailto:joshuaATsolus-project.comNOSPAM)
 
-**Note:** This is not a support address and support inquiries will not be replied to. For support, please refer to our [Getting Involved](https://wiki.solus-project.com/Getting_Involved) page.
+**Note:** This is not a support address and support inquiries will not be replied to. For support, please refer to our [Getting Involved](/articles/contributing/getting-involved/en/) page.
 
 # Press Announcements
 

@@ -13,11 +13,11 @@ title: Download
 
 ### Need assistance?
 
-First off, check our [Installation](https://wiki.solus-project.com/Installation) guide for determining what software to use to burn or write the Solus ISO to a DVD or USB drive. If your system is UEFI-enabled, we also recommend following our 
-[UEFI](https://wiki.solus-project.com/UEFI) guide.
+First off, check our [Installation](/articles/installation/preparing-to-install/en/) guide for determining what software to use to burn or write the Solus ISO to a DVD or USB drive. If your system is UEFI-enabled, we 
+also recommend following our [UEFI](/articles/installation/disks/en/) guide.
 
-If you still have questions, we provide assistance via our [Forums](https://solus-project.com/forums), [Google+ Community](https://plus.google.com/communities/104830131595272878110), and live via our IRC (Internet Relay Chat) channel. Communication via 
-IRC can be done through software such as [Hexchat](https://hexchat.github.io/), which is pre-installed on Solus and with the details below:
+If you still have questions, we provide assistance via our [Forums](https://solus-project.com/forums), [Google+ Community](https://plus.google.com/communities/104830131595272878110), and live via our 
+IRC (Internet Relay Chat) channel. Communication via IRC can be done through software such as [Hexchat](https://hexchat.github.io/), which is pre-installed on Solus and with the details below:
 
 Channel: [#Solus](irc://chat.freenode.net/#Solus)
 
