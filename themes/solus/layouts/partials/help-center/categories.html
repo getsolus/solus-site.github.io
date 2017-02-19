@@ -4,7 +4,7 @@
 	{{ range $categoryName, $categoryInfo := $categories }}
 		{{ $categoryURL := replace $categoryName "_" "-" }}
 		<a data-solus-component="helpcenter-category" href="{{ $site.BaseURL }}articles/{{ $categoryURL }}">
-			<img src="{{ $site.BaseURL }}imgs/help-center/categories/{{ $categoryURL }}.png" /><!-- Placeholder until I add the icons into Solbit font -->
+			<img alt="{{ $categoryName }}" src="{{ $site.BaseURL }}imgs/help-center/categories/{{ $categoryURL }}.png" /><!-- Placeholder until I add the icons into Solbit font -->
 			<h1>{{ $categoryInfo.Title }}</h1>
 			<h2>{{ $categoryInfo.Description }}</h2>
 		</a>
