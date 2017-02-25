@@ -13,6 +13,7 @@ paginate: 5
 layoutsdir:   "themes/solus/layouts"
 # Blackfriday Markdown Tweaks
 blackfriday:
+    extensions: ["fencedCodeBlocks"]
     hrefTargetBlank: true # Opens external URLs in a new tab / window (target _blank)
 # Menu
 menu:

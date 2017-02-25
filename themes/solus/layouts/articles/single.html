@@ -1,3 +1,4 @@
+{{ $title := .Title }}
 <!DOCTYPE html>
 <html lang="en">
 	{{ partial "metadata.html" . }}
@@ -8,11 +9,29 @@
 			{{ partial "help-center/banner.html" .Site }}
 			<div data-solbit="content"  data-solus-styling="helpcenter">
 				<div data-solbit="view-container">
-					<div data-solbit="view-centered">
-						<div data-solbit="blog-content">
-							{{ .Content }}
+					{{ $headerInstances := findRE "##.+" .RawContent }}
+					{{ if ge (len $headerInstances) 3 }}
+						{{ $pageId := lower $title | replaceRE "[^a-z]" "-"  }}
+						{{ $toc := replace .TableOfContents (printf "<ul>\n<li><a href=\"#%s\">%s</a>\n" $pageId $title) "" }}
+						{{ $toc := replace $toc "</ul>\n</li>\n</nav>" "</nav>" }}
+						
+						<div data-solbit="view-primary">
+							<div data-solbit="blog-content">
+								{{ .Content }}
+							</div>
 						</div>
-					</div>
+						<div data-solbit="view-secondary">
+							<div data-solbit="full-width-box">
+								{{ safeHTML $toc }}
+							</div>
+						</div>
+					{{ else }}
+						<div data-solbit="view-centered">
+							<div data-solbit="blog-content">
+								{{ .Content }}
+							</div>
+						</div>
+					{{ end }}
 				</div>
 			</div>
 		</div>
