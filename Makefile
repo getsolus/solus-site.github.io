@@ -9,6 +9,7 @@ deploy:
 
 local:
 	hugo server --baseURL "http://127.0.0.1:1313" --i18n-warnings --watch --quiet --ignoreCache
+
 setup:
 	git submodule init
 	sudo eopkg install hugo
