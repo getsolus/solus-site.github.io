@@ -1,12 +1,12 @@
----
-author: ikey
-categories:
-- Uncategorized
-date: 2014-01-24T08:18:31Z
-id: 78
-title: Weekend Experimentation
-url: /2014/01/24/weekend-experimentation/
----
++++
+author = "ikey"
+categories = [
+"Uncategorized"
+]
+date =  "2014-01-24T08:18:31Z"
+title = "Weekend Experimentation"
+url = "/2014/01/24/weekend-experimentation/"
++++
 
 Hello all!
 

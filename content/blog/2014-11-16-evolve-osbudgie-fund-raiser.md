@@ -1,13 +1,14 @@
----
-author: ikey
-categories:
-- Budgie
-- News
-date: 2014-11-16T23:09:47Z
-id: 409
-title: Evolve OS/Budgie Fund Raiser
-url: /2014/11/16/evolve-osbudgie-fund-raiser/
----
++++
+author = "ikey"
+categories = [
+"Budgie",
+"News"
+]
+date =  "2014-11-16T23:09:47Z"
+
+title = "Evolve OS/Budgie Fund Raiser"
+url = "/2014/11/16/evolve-osbudgie-fund-raiser/"
++++
 
 Hello all! I hope you're all enjoying the new release of Courageous Budgie! I wanted to take a few minutes to announce a new fundraiser/donations drive initiative 
 for the Evolve OS Projects (Distro/Desktop/etc). To cut a short story long, I haven't been able to put as much time as I would have liked into developing Evolve OS and its 

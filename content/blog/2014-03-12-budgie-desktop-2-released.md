@@ -1,13 +1,13 @@
----
-author: ikey
-categories:
-- Budgie
-- News
-date: 2014-03-12T21:52:00Z
-id: 106
-title: Budgie Desktop 2 Released
-url: /2014/03/12/budgie-desktop-2-released/
----
++++
+author = "ikey"
+categories = [
+"Budgie",
+"News"
+]
+date =  "2014-03-12T21:52:00Z"
+title = "Budgie Desktop 2 Released"
+url = "/2014/03/12/budgie-desktop-2-released/"
++++
 
 Hi all,
 

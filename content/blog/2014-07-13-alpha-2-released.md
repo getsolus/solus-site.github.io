@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- News
-date: 2014-07-13T20:15:55Z
-id: 232
-title: Alpha 2 Released
-url: /2014/07/13/alpha-2-released/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-07-13T20:15:55Z"
+
+title = "Alpha 2 Released"
+url = "/2014/07/13/alpha-2-released/"
++++
 
 That's right, one week has passed and you have a new alpha to play with. This is the second alpha of Evolve OS, and comes as a 64-bit ISO. This image now also 
 comes with Budgie Desktop v4, GIMP 2.8.10 and GNOME Maps 3.10.0.

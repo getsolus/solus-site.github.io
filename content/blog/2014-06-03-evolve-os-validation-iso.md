@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- News
-date: 2014-06-03T19:19:48Z
-id: 163
-title: Evolve OS Validation ISO
-url: /2014/06/03/evolve-os-validation-iso/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-06-03T19:19:48Z"
+
+title = "Evolve OS Validation ISO"
+url = "/2014/06/03/evolve-os-validation-iso/"
++++
 
 Hello all.
 

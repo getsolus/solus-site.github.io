@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- Budgie
-date: 2014-07-20T11:20:34Z
-id: 247
-title: Budgie Desktop v5.1 Released
-url: /2014/07/20/budgie-desktop-v5-1-released/
----
++++
+author = "ikey"
+categories = [
+"Budgie"
+]
+date =  "2014-07-20T11:20:34Z"
+
+title = "Budgie Desktop v5.1 Released"
+url = "/2014/07/20/budgie-desktop-v5-1-released/"
++++
 
 Hello all!
 

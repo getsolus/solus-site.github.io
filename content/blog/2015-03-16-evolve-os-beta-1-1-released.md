@@ -1,13 +1,14 @@
----
-author: ikey
-categories:
-- News
-- Releases
-date: 2015-03-16T02:56:51Z
-id: 499
-title: Solus Beta 1.1 Released
-url: /2015/03/16/evolve-os-beta-1-1-released/
----
++++
+author = "ikey"
+categories = [
+"News",
+"Releases"
+]
+date =  "2015-03-16T02:56:51Z"
+
+title = "Solus Beta 1.1 Released"
+url = "/2015/03/16/evolve-os-beta-1-1-released/"
++++
 
 The Solus Project team is pleased to announce the immediate availability of Solus Operating System Beta 1.1. This release focused on stability and bringing the core 
 systems up to scratch. Please note that as this is an update to Solus Operating System Beta 1 (Quality Cycle), changes that are intended for beta2 will not be present 

@@ -1,10 +1,9 @@
----
-date: 2016-07-28T11:08:13+03:00
-title: "Press Center"
-type: "press-center"
-aliases:
-  - /press-centre
----
++++
+date = "2016-07-28T11:08:13+03:00"
+title = "Press Center"
+type = "press-center"
+aliases = ["press-centre"]
++++
 
 # Product Information
 

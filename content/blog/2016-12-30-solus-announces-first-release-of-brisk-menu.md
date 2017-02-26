@@ -1,12 +1,13 @@
----
-author: "joshua"
-categories:
-- news
-date: 2016-12-30T21:08:58+02:00
-featuredimage: "2016/12/Brisk_Menu_0.1.0.jpg"
-title: "Solus Announces First Release of Brisk Menu"
-url: "2016/12/30/solus-announces-first-release-of-brisk-menu"
----
++++
+author = "joshua"
+categories = [
+"News"
+]
+date =  "2016-12-30T21:08:58+02:00"
+featuredimage = "2016/12/Brisk_Menu_0.1.0.jpg"
+title = "Solus Announces First Release of Brisk Menu"
+url = "2016/12/30/solus-announces-first-release-of-brisk-menu"
++++
 
 We are happy to announce the first release of Brisk Menu, our implementation of a clean, efficient, and modern menu for the MATE Desktop. Brisk Menu 0.1.0 enables quick launching of applications, 
 as well as access to session controls (such as logout, suspend, hibernate) and the system's Control Center.

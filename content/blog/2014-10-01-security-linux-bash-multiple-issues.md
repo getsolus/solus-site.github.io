@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- Security
-date: 2014-10-01T21:45:16Z
-id: 383
-title: 'Security: linux, bash, multiple issues'
-url: /2014/10/01/security-linux-bash-multiple-issues/
----
++++
+author = "ikey"
+categories = [
+"Security"
+]
+date =  "2014-10-01T21:45:16Z"
+
+title = "'Security: linux, bash, multiple issues'"
+url = "/2014/10/01/security-linux-bash-multiple-issues/"
++++
 
 Evolve OS users are advised to update their installations as soon as possible to address a number of recent security issues.
   

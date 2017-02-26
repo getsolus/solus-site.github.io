@@ -1,13 +1,13 @@
----
-author: "joshua"
-categories:
-- news
-- twis
-date: 2016-11-01T08:27:41+02:00
-featuredimage: ""
-title: "This Week in Solus - install #38"
-url: /2016/11/01/this-week-in-solus-install-38/
----
++++
+author = "joshua"
+categories = [
+"News",
+"TWIS"
+]
+date =  "2016-11-01T08:27:41+02:00"
+title = "This Week in Solus - install #38"
+url = "/2016/11/01/this-week-in-solus-install-38/"
++++
 
 Welcome to This Week in Solus, installation #38. Lots have happened since the last one, so let's get started.
 

@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- News
-date: 2014-08-03T18:55:28Z
-id: 282
-title: Alpha 3 Released
-url: /2014/08/03/alpha-3-released/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-08-03T18:55:28Z"
+
+title = "Alpha 3 Released"
+url = "/2014/08/03/alpha-3-released/"
++++
 
 I am pleased to announce the release of Evolve OS Alpha 3. This image is only suitable for 64-bit machines, and is not yet EFI capable. This release incorporates all recent 
 updates, including X.Org 1.16.0, MesaLib 10.2.4, Linux Kernel 3.15.6, Firefox 31.0 and the GNOME 3.12 stack.

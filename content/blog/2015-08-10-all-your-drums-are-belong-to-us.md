@@ -1,12 +1,12 @@
----
-author: ikey
-categories:
-- News
-- Releases
-id: 657
-title: All your drums are belong to us
-url: /2015/08/10/all-your-drums-are-belong-to-us/
----
++++
+author = "ikey"
+categories = [
+"News",
+"Releases"
+]
+title = "All your drums are belong to us"
+url = "/2015/08/10/all-your-drums-are-belong-to-us/"
++++
 
 It's been a while since we've spoken here, the Solus team have been incredibly busy bringing you all kinds of awesome! But.. nobody told you about it. Well, time for some first hand news then! Remember, you can grab the latest daily ISO 
 over on our [download page](https://solus-project.com/download/).

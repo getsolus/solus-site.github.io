@@ -1,15 +1,15 @@
----
-author: joshua
-categories:
-- Budgie
-- News
-- Releases
-date: 2016-10-19T05:08:18Z
-featuredimage: '2016/10/Solus-Family.png'
-id: 1731
-title: Solus 1.2.1 Shannon Released
-url: /2016/10/19/solus-1-2-1-shannon-released/
---- 
++++
+author = "joshua"
+categories = [
+"Budgie",
+"News",
+"Releases"
+]
+date =  "2016-10-19T05:08:18Z"
+featuredimage = "2016/10/Solus-Family.png"
+title = "Solus 1.2.1 Shannon Released"
+url = "/2016/10/19/solus-1-2-1-shannon-released/"
++++ 
 
 The Solus project is proud to announce the availability of Solus 1.2.1, delivered in the form of our main edition, which provides an unrivaled Budgie experience, as well as a new and welcomed addition to the Solus family, **Solus 1.2.1 MATE edition**.
 <!-- more -->

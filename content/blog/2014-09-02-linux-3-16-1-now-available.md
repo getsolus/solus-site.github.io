@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- Packages
-date: 2014-09-02T22:17:25Z
-id: 323
-title: Linux 3.16.1 Now Available
-url: /2014/09/02/linux-3-16-1-now-available/
----
++++
+author = "ikey"
+categories = [
+"Packages"
+]
+date =  "2014-09-02T22:17:25Z"
+
+title = "Linux 3.16.1 Now Available"
+url = "/2014/09/02/linux-3-16-1-now-available/"
++++
 
 The latest upstream stable kernel version is now available for Evolve OS. Users who have previously installed the NVIDIA binary drivers manually 
 should note they now also need to add 'nomodeset' to their boot line to stop nouveau loading, and they should rebuild the module to sync with the new kernel version.

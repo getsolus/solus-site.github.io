@@ -1,0 +1,38 @@
+- id: blog
+  translation: Блог
+- id:  "branding"
+  translation: Брендинг
+- id: budgie
+  translation: Баџи
+- id:  "dev_tracker" 
+  translation: Дев трагач 
+- id: download
+  translation: Преузми
+- id: facebook
+  translation: Фејсбук
+- id:  "forums"
+  translation: Форум
+- id: google_plus
+  translation: Гугл+
+- id: google_plus_community
+  translation: Гугл+ заједница
+- id: help
+  translation: Помоћ
+- id:  "help_center"
+  translation: Центар за помоћ
+- id: home
+  translation: Почетак
+- id: irc
+  translation: ИРЦ
+- id: press
+  translation: Штампа
+- id: press_center
+  translation: Центар за штампу
+- id: reddit
+  translation: Редит
+- id: store
+  translation: Продавница
+- id: support_us
+  translation: Подржите нас
+- id: twitter
+  translation: Твитер

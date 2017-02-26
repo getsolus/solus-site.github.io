@@ -1,7 +1,7 @@
----
-date: 2016-08-03T20:34:58+03:00
-title: Budgie
----
++++
+date = "2016-08-03T20:34:58+03:00"
+title = "Budgie"
++++
 
 {{% banner
 	alt="Budgie Logo"

@@ -1,15 +1,15 @@
----
-author: joshua
-categories:
-- News
-- Packages
-- Security
-- TWIS
-date: 2016-10-09T19:45:00Z
-id: 1718
-title: 'This Week in Solus -- Install #37'
-url: /2016/10/09/this-week-in-solus-install-37/
---- 
++++
+author = "joshua"
+categories = [
+"News",
+"Packages",
+"Security",
+"TWIS"
+]
+date =  "2016-10-09T19:45:00Z"
+title = "'This Week in Solus -- Install #37'"
+url = "/2016/10/09/this-week-in-solus-install-37/"
++++ 
 
 Welcome to the 37th installation of This Week in Solus. 
 

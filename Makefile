@@ -4,12 +4,11 @@ benchmark:
 	hugo benchmark --quiet
 
 deploy:
-	hugo --quiet --destination public-deployed/
+	hugo --i18n-warnings --quiet --destination public-deployed/
 	rm -v public-deployed/index.html
 
 local:
-	hugo server --baseURL "http://127.0.0.1:1313" --watch --quiet --ignoreCache
-
+	hugo server --baseURL "http://127.0.0.1:1313" --i18n-warnings --watch --quiet --ignoreCache
 setup:
 	git submodule init
 	sudo eopkg install hugo

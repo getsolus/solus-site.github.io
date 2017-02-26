@@ -1,13 +1,14 @@
----
-author: "joshua"
-categories:
-- news
-- releases
-date: 2017-01-01T21:47:26+02:00
-featuredimage: "2017/01/20170101-featured.jpg"
-title: "Solus Releases ISO Snapshot 2017.01.01.0"
-url: "2017/01/01/solus-releases-iso-snapshot-20170101-0"
----
++++
+author = "joshua"
+categories = [
+"News",
+"Releases"
+]
+date =  "2017-01-01T21:47:26+02:00"
+featuredimage = "2017/01/20170101-featured.jpg"
+title = "Solus Releases ISO Snapshot 2017.01.01.0"
+url = "2017/01/01/solus-releases-iso-snapshot-20170101-0"
++++
 
 We're happy to be kicking off the new year with the release of our **first ISO snapshot**, 2017.01.01.0, across our Budgie and MATE editions.
 

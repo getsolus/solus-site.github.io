@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- News
-date: 2014-05-05T14:48:52Z
-id: 146
-title: Evolve OS Pre-Alpha Released (Or shaking off the vapours)
-url: /2014/05/05/evolve-os-pre-alpha-released-or-shaking-off-the-vapours/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-05-05T14:48:52Z"
+
+title = "Evolve OS Pre-Alpha Released (Or shaking off the vapours)"
+url = "/2014/05/05/evolve-os-pre-alpha-released-or-shaking-off-the-vapours/"
++++
 
 Hello all,
 

@@ -1,13 +1,14 @@
----
-author: ikey
-categories:
-- News
-- Security
-date: 2014-06-07T19:04:11Z
-id: 191
-title: Security Status of Validation ISO, Mini Update
-url: /2014/06/07/security-status-of-validation-iso-mini-update/
----
++++
+author = "ikey"
+categories = [
+"News",
+"Security"
+]
+date =  "2014-06-07T19:04:11Z"
+
+title = "Security Status of Validation ISO, Mini Update"
+url = "/2014/06/07/security-status-of-validation-iso-mini-update/"
++++
 
 Hello all,
 

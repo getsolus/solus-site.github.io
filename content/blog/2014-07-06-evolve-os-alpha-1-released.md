@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- News
-date: 2014-07-06T19:10:45Z
-id: 197
-title: Evolve OS Alpha 1 Released
-url: /2014/07/06/evolve-os-alpha-1-released/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-07-06T19:10:45Z"
+
+title = "Evolve OS Alpha 1 Released"
+url = "/2014/07/06/evolve-os-alpha-1-released/"
++++
 
 I am pleased to announce the release of Evolve OS Alpha 1. This version marks the beginning of our public availablity as a desktop Linux distribution. 
 This image is a 64-bit ISO, and comes with the Budgie Desktop as standard. Please help by download and testing the image so we can ensure our future 

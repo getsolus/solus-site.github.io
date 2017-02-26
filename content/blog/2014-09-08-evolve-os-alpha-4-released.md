@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- News
-date: 2014-09-08T17:37:19Z
-id: 332
-title: Evolve OS Alpha 4 Released
-url: /2014/09/08/evolve-os-alpha-4-released/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-09-08T17:37:19Z"
+
+title = "Evolve OS Alpha 4 Released"
+url = "/2014/09/08/evolve-os-alpha-4-released/"
++++
 
 Hello all. Contrary to the last post we have decided to release an updated Evolve OS ISO. This is in essence, a refreshed version of Evolve OS Alpha 3, with some 
 minor differences. Note this ISO can be booted on EFI machines, however it cannot (and should not) be installed under EFI environments.

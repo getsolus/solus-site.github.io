@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- News
-date: 2014-12-15T14:48:45Z
-id: 434
-title: Networking Breakage in Evolve OS
-url: /2014/12/15/networking-breakage-in-evolve-os/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-12-15T14:48:45Z"
+
+title = "Networking Breakage in Evolve OS"
+url = "/2014/12/15/networking-breakage-in-evolve-os/"
++++
 
 Hello all,
 

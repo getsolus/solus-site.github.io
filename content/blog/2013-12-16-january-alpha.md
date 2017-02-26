@@ -1,12 +1,12 @@
----
-author: ikey
-categories:
-- Uncategorized
-date: 2013-12-16T22:36:14Z
-id: 66
-title: January alpha
-url: /2013/12/16/january-alpha/
----
++++
+author = "ikey"
+categories = [
+"Uncategorized"
+]
+date =  "2013-12-16T22:36:14Z"
+title = "January alpha"
+url = "/2013/12/16/january-alpha/"
++++
 
 Hello all, a quick update to any who may be following the blog.
 

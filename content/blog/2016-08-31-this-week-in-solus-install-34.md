@@ -1,14 +1,14 @@
----
-author: joshua
-categories:
-- News
-- Packages
-- TWIS
-date: 2016-08-31T09:15:47Z
-id: 1593
-title: 'This Week in Solus -- Install #34'
-url: /2016/08/31/this-week-in-solus-install-34/
----
++++
+author = "joshua"
+categories = [
+"News",
+"Packages",
+"TWIS"
+]
+date =  "2016-08-31T09:15:47Z"
+title = "'This Week in Solus -- Install #34'"
+url = "/2016/08/31/this-week-in-solus-install-34/"
++++
 Welcome to the 34th installation of This Week in Solus. 
 
 {{< altimg "https://i.giphy.com/OCu7zWojqFA1W.gif" >}}

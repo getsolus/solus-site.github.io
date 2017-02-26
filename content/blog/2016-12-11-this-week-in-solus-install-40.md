@@ -1,13 +1,14 @@
----
-author: "joshua"
-categories:
-- news
-- twis
-date: 2016-12-11T19:42:10+02:00
-featuredimage: "2016/12/brisk-development.jpg"
-title: "This Week in Solus - Install #40"
-url: "/2016/12/11/this-week-in-solus-install-40/"
----
++++
+author = "joshua"
+categories = [
+"News",
+"TWIS"
+]
+date =  "2016-12-11T19:42:10+02:00"
+featuredimage = "2016/12/brisk-development.jpg"
+title = "This Week in Solus - Install #40"
+url = "/2016/12/11/this-week-in-solus-install-40/"
++++
 
 Welcome to This Week in Solus, install #40.
 

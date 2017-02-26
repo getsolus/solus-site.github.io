@@ -1,7 +1,7 @@
----
-date: 2016-08-03T19:15:42+03:00
-title: "Support Us"
----
++++
+date = "2016-08-03T19:15:42+03:00"
+title = "Support Us"
++++
 {{% banner
 	subclass="support-us"
 	height="short"

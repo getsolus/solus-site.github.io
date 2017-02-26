@@ -1,12 +1,12 @@
----
-author: ikey
-categories:
-- News
-date: 2014-02-09T15:59:30Z
-id: 89
-title: Budgie Desktop "Fixup" Progress
-url: /2014/02/09/budgie-desktop-fixup-progress/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-02-09T15:59:30Z"
+title = "Budgie Desktop \"Fixup\" Progress"
+url = "/2014/02/09/budgie-desktop-fixup-progress/"
++++
 
 Hello all,
 

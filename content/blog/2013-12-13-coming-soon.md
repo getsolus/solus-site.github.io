@@ -1,12 +1,12 @@
----
-author: ikey
-categories:
-- News
-date: 2013-12-13T19:02:40Z
-id: 9
-title: Coming soon
-url: "/2013/12/13/coming-soon"
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2013-12-13T19:02:40Z"
+title = "Coming soon"
+url = "/2013/12/13/coming-soon"
++++
 
 Please note that this website is currently under construction, and as such only limited information is available right now. Also note that there is no downloadable media right now.
 

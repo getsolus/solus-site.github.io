@@ -1,12 +1,12 @@
----
-author: ikey
-categories:
-- News
-date: 2014-02-22T15:24:15Z
-id: 101
-title: Budgie Desktop v1.19
-url: /2014/02/22/budgie-desktop-v1-19/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-02-22T15:24:15Z"
+title = "Budgie Desktop v1.19"
+url = "/2014/02/22/budgie-desktop-v1-19/"
++++
 
 Hello all, today I've released a fairly small update to budgie-desktop, v1.19
 

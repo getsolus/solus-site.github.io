@@ -1,0 +1,177 @@
+###### Config
+
+baseurl = "https://solus-project.com/"
+title = "Solus"
+
+###### Content
+archetypedir = "themes/solus/archetypes"
+buildDrafts = false
+enableMissingTranslationPlaceholders = true
+googleanalytics = "UA-Not-Yet"
+metaDataFormat = "toml"
+paginate = 5
+layoutsdir =   "themes/solus/layouts"
+theme = "solus"
+
+###### Special Params
+
+[params]
+	copyright = "2017"
+	footermenu = ["solus", "social", "support", "pressmenu"] # Because I can't for the life of me get Hugo nested lists to work
+	userguide = "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
+
+###### Taxonomies
+
+category = ["budgie", "infrastructure", "news", "packages", "partners", "plans", "releases", "security", "twis"]
+
+###### Blackfriday Markdown Tweaks
+
+[blackfriday]
+	extensions = ["fencedCodeBlocks"]
+	hrefTargetBlank = true # Opens external URLs in a new tab / window (target _blank)
+
+###### Languages
+
+[languages.en]
+Title = "English"
+Weight = 1
+
+[languages.fi]
+Title = "Finnish"
+Weight = 2
+
+[languages.sr]
+Title = "Serbian"
+Weight = 3
+
+###### Menus
+
+##### English
+
+#### Main
+
+[[languages.en.menu.main]]
+Name = "home"
+Identifier = "home"
+URL = "/home"
+Weight = 1
+
+[[languages.en.menu.main]]
+Name = "blog"
+Identifier = "blog"
+URL = "/blog"
+Weight = 2
+
+[[languages.en.menu.main]]
+Name = "download"
+Identifier = "download"
+URL = "/download"
+Weight = 3
+
+[[languages.en.menu.main]]
+Name = "support_us"
+Identifier = "support_us"
+URL = "/support"
+Weight = 4
+
+[[languages.en.menu.main]]
+Name = "help"
+Identifier = "help"
+URL = "/help-center/home"
+Weight = 5
+
+[[languages.en.menu.main]]
+Name = "budgie"
+Identifier = "budgie"
+URL = "/budgie"
+Weight = 6
+
+[[languages.en.menu.main]]
+Name = "store"
+Identifier = "store"
+URL = "http://www.unixstickers.com/stickers/software_stickers/solus-linux-shaped-sticker"
+Weight = 7
+
+[[languages.en.menu.main]]
+Name = "press"
+Identifier = "press"
+URL = "/press-center"
+Weight = 8
+
+#### Solus
+
+[[languages.en.menu.solus]]
+Name = "download"
+Identifier = "download"
+URL = "/download"
+Weight = 1
+
+#### Social
+
+[[languages.en.menu.social]]
+Name = "facebook"
+Identifier = "facebook"
+URL = "https://facebook.com/get.solus"
+Weight = 1
+
+[[languages.en.menu.social]]
+Name = "google_plus"
+Identifier = "google_plus"
+URL = "https://plus.google.com/u/0/+Solus-Project"
+Weight = 2
+
+[[languages.en.menu.social]]
+Name = "reddit"
+Identifier = "reddit"
+URL = "https://reddit.com/r/SolusProject"
+Weight = 3
+
+[[languages.en.menu.social]]
+Name = "twitter"
+Identifier = "twitter"
+URL = "https://twitter.com/SolusProject"
+Weight = 4
+
+#### Support
+
+[[languages.en.menu.support]]
+Name = "dev_tracker"
+Identifier = "dev_tracker"
+URL = "https://dev.solus-project.com"
+Weight = 1
+
+[[languages.en.menu.support]]
+Name = "forums"
+Identifier = "forums"
+URL = "https://solus-project.com/forums"
+Weight = 2
+
+[[languages.en.menu.support]]
+Name = "google_plus_community"
+Identifier = "google_plus_community"
+URL = "https://plus.google.com/communities/104830131595272878110"
+Weight = 3
+
+[[languages.en.menu.support]]
+Name = "help_center"
+Identifier = "help_center"
+URL = "/help-center/home"
+Weight = 4
+
+[[languages.en.menu.support]]
+Name = "irc"
+Identifier = "irc"
+URL = "irc://irc.freenode.net/#Solus"
+Weight = 5
+
+[[languages.en.menu.pressmenu]]
+Name = "press_center"
+Identifier = "press_center"
+URL = "/press-center"
+Weight = 1
+
+[[languages.en.menu.pressmenu]]
+Name = "branding"
+Identifier = "branding"
+URL = "/branding"
+Weight = 2

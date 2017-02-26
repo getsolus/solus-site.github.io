@@ -1,12 +1,12 @@
----
-author: ikey
-categories:
-- Uncategorized
-date: 2013-12-20T11:57:31Z
-id: 71
-title: Clarification
-url: /2013/12/20/clarification/
----
++++
+author = "ikey"
+categories = [
+"Uncategorized"
+]
+date =  "2013-12-20T11:57:31Z"
+title = "Clarification"
+url = "/2013/12/20/clarification/"
++++
 
 It has come to my attention that there is a lot of confusion surrounding EvolveOS right now. I noticed this today after reading a post on Reddit.
 

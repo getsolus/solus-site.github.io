@@ -1,13 +1,14 @@
----
-author: joshua
-categories:
-- News
-- Plans
-- TWIS
-date: 2016-02-08T01:50:23Z
-title: 'This Week in Solus -- Install #20'
-url: /2016/02/08/this-week-in-solus-install-20/
----
++++
+author = "joshua"
+categories = [
+"News",
+"Plans",
+"TWIS"
+]
+date =  "2016-02-08T01:50:23Z"
+title = "'This Week in Solus -- Install #20'"
+url = "/2016/02/08/this-week-in-solus-install-20/"
++++
 
 Welcome to the 20th installation of This Week in Solus. 
 

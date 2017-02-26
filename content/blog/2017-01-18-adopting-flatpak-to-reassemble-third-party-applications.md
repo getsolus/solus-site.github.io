@@ -1,12 +1,13 @@
----
-author: "ikey"
-categories:
-- news
-date: 2017-01-18T21:59:12+02:00
-featuredimage: "2017/01/flatpak-gnome-books.png"
-title: "Adopting Flatpak to Reassemble Third Party Applications"
-url: "/2017/01/18/adopting-flatpak-to-reassemble-third-party-applications"
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2017-01-18T21:59:12+02:00"
+featuredimage = "2017/01/flatpak-gnome-books.png"
+title = "Adopting Flatpak to Reassemble Third Party Applications"
+url = "/2017/01/18/adopting-flatpak-to-reassemble-third-party-applications"
++++
 
 Solus, like most other Linux based systems, distributes the bulk of its software through
 binary repositories. To ignore most of the technical details, this is effectively a set

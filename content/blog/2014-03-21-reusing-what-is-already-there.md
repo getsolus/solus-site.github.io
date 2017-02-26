@@ -1,12 +1,12 @@
----
-author: ikey
-categories:
-- News
-date: 2014-03-21T18:47:27Z
-id: 114
-title: Reusing What Is Already There
-url: /2014/03/21/reusing-what-is-already-there/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-03-21T18:47:27Z"
+title = "Reusing What Is Already There"
+url = "/2014/03/21/reusing-what-is-already-there/"
++++
 
 As many of you know, with Evolve OS I'm setting out to create an experimental distribution. Hopefully, throughout the course of Evolve OS, I'll be able to influence and 
 help other projects accomplish common goals and improve current technologies.

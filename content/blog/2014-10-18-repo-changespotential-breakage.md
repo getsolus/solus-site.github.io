@@ -1,13 +1,14 @@
----
-author: ikey
-categories:
-- News
-- Security
-date: 2014-10-18T18:43:26Z
-id: 396
-title: Repo Changes/Potential Breakage
-url: /2014/10/18/repo-changespotential-breakage/
----
++++
+author = "ikey"
+categories = [
+"News",
+"Security"
+]
+date =  "2014-10-18T18:43:26Z"
+
+title = "Repo Changes/Potential Breakage"
+url = "/2014/10/18/repo-changespotential-breakage/"
++++
 
 ### EDIT: We'll give people one week to get gnupg installed and then we'll introduce signing.
   

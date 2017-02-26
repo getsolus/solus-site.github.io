@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- Budgie
-date: 2014-11-16T22:03:43Z
-id: 402
-title: Courageous Budgie (v8) Released!
-url: /2014/11/16/courageous-budgie-v8-released/
----
++++
+author = "ikey"
+categories = [
+"Budgie"
+]
+date =  "2014-11-16T22:03:43Z"
+
+title = "Courageous Budgie (v8) Released!"
+url = "/2014/11/16/courageous-budgie-v8-released/"
++++
 
 Hello all! I am pleased to announce version 8 of the Budgie Desktop! We've changed many things, with a vastly simplified main menu, cleaner animations and on the whole 
 a much more responsive desktop.

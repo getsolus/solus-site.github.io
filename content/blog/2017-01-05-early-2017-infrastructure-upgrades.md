@@ -1,14 +1,15 @@
----
-author: "joshua"
-categories:
-- infrastructure
-- news
-- plans
-date: 2017-01-05T06:20:27+02:00
-featuredimage: "/2017/01/what-do-we-need.jpg"
-url: "/2017/01/05/early-2017-infrastructure-upgrades"
-title: "Early 2017 Infrastructure Upgrades!"
----
++++
+author = "joshua"
+categories = [
+"Infrastructure",
+"News",
+"Plans"
+]
+date =  "2017-01-05T06:20:27+02:00"
+featuredimage = "/2017/01/what-do-we-need.jpg"
+url = "/2017/01/05/early-2017-infrastructure-upgrades"
+title = "Early 2017 Infrastructure Upgrades!"
++++
 
 In the [38th installation of This Week in Solus](/2016/11/01/this-week-in-solus-install-38/), I discussed plans for improving our web infrastructure, and I'm happy to announce that the first big upgrade for 2017 is now complete. This is part of a larger 
 goal to scale out our infrastructure, speed up our platform, and tackle some long-standing issues with email.

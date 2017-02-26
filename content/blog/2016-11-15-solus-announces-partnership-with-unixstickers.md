@@ -1,13 +1,14 @@
----
-author: "joshua"
-categories:
-- news
-- partners
-date: 2016-11-15T05:06:40+02:00
-featuredimage: "2016/11/laptop-solus-sticker.jpg"
-title: "Solus Announces Partnership with Unixstickers"
-url: "2016/11/15/solus-announces-partnership-with-unixstickers"
----
++++
+author = "joshua"
+categories = [
+"News",
+"Partners"
+]
+date =  "2016-11-15T05:06:40+02:00"
+featuredimage = "2016/11/laptop-solus-sticker.jpg"
+title = "Solus Announces Partnership with Unixstickers"
+url = "2016/11/15/solus-announces-partnership-with-unixstickers"
++++
 
 The Solus project is happy to announce a partnership with [Unixstickers](https://unixstickers.com), providers of high quality apparel and accessories for operating systems, programming languages, and software. 
 This quality craftsmanship and their continuous support of the open source community made it the obvious choice for us while determining the best provider for Solus-related merchandise.

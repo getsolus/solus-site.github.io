@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- News
-- Releases
-date: 2015-06-29T07:48:19Z
-title: First Unstable Daily ISO
-url: /2015/06/29/first-unstable-daily-iso/
----
++++
+author = "ikey"
+categories = [
+"News",
+"Releases"
+]
+date =  "2015-06-29T07:48:19Z"
+title = "First Unstable Daily ISO"
+url = "/2015/06/29/first-unstable-daily-iso/"
++++
 
 We're enormously happy to be shipping our very first daily ISO today! In a nut-shell, its built directly from our latest unstable development material, meaning its brand 
 spanking new, and all yours for the humble price of $0.00! This ISO is configured to continue using our unstable software sources, and as such is not meant for production 

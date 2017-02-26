@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- Packages
-date: 2014-07-26T12:07:03Z
-id: 267
-title: Adobe Flash Player 11.2.202.394 in repos
-url: /2014/07/26/adobe-flash-player-11-2-202-394-in-repos/
----
++++
+author = "ikey"
+categories = [
+"Packages"
+]
+date =  "2014-07-26T12:07:03Z"
+
+title = "Adobe Flash Player 11.2.202.394 in repos"
+url = "/2014/07/26/adobe-flash-player-11-2-202-394-in-repos/"
++++
 
 You may now install the x86_64 version of Flash For Linux on Evolve OS by issuing the following command:
 

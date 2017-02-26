@@ -1,13 +1,14 @@
----
-author: joshua
-categories:
-- Budgie
-- News
-- Releases
-date: 2016-06-20T02:53:43Z
-title: Solus 1.2 Shannon Released
-url: /2016/06/20/solus-1-2-shannon-released/
----
++++
+author = "joshua"
+categories = [
+"Budgie",
+"News",
+"Releases"
+]
+date =  "2016-06-20T02:53:43Z"
+title = "Solus 1.2 Shannon Released"
+url = "/2016/06/20/solus-1-2-shannon-released/"
++++
 
 #### Overview
 

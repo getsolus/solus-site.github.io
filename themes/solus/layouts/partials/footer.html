@@ -5,20 +5,19 @@
 		{{ $siteMenus := .Site.Menus }}
 		{{ range .Site.Params.footermenu }}
 			{{ $menuName := . }}
-			{{ with (index $siteMenus .) }}
-				<div data-solbit="full-width-row">
-					<b>{{ replace (humanize $menuName) "menu" "" }}:</b>
-					<span>
-						{{ range after 1 . }}
-							{{ if hasPrefix .URL "irc://" }}
-								<a href="{{ safeURL .URL }}">{{ .Name }}</a>
+			{{ $menu := (index $siteMenus $menuName) }}
+			<div data-solbit="full-width-row">
+				<b>{{ replace (humanize $menuName) "menu" "" }}:</b>
+				<span>
+					{{ range $menuItem := $menu }}
+							{{ if hasPrefix $menuItem.URL "irc://" }}
+								<a href="{{ safeURL $menuItem.URL }}">{{ i18n $menuItem.Name }}</a>
 							{{ else }}
-								<a href="{{ .URL | absURL }}">{{ .Name }}</a>
+								<a href="{{ $menuItem.URL | absLangURL }}">{{ i18n $menuItem.Name }}</a>
 							{{ end }}
-						{{ end }}
-					</span>
-				</div>
-			{{ end }}
+					{{ end }}
+				</span>
+			</div>
 		{{ end }}
 		</span>
 		<p>

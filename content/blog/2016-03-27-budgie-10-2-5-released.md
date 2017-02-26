@@ -1,12 +1,13 @@
----
-author: joshua
-categories:
-- Budgie
-- News
-date: 2016-03-27T20:53:21Z
-title: Budgie 10.2.5 Released
-url: /2016/03/27/budgie-10-2-5-released/
----
++++
+author = "joshua"
+categories = [
+"Budgie",
+"News"
+]
+date =  "2016-03-27T20:53:21Z"
+title = "Budgie 10.2.5 Released"
+url = "/2016/03/27/budgie-10-2-5-released/"
++++
 
 We are happy to announce the release of Budgie 10.2.5. This release builds upon our vision of a desktop environment focused on simplicity and elegance, by introducing further refinements to the user experience while expanding options for enabling a 
 more tailored desktop experience. 

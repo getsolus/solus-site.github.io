@@ -1,0 +1,38 @@
+- id: blog
+  translation: Blog
+- id:  "branding"
+  translation: Branding
+- id: budgie
+  translation: Budgie
+- id:  "dev_tracker" 
+  translation: Dev Tracker 
+- id: download
+  translation: Download
+- id: facebook
+  translation: Facebook
+- id:  "forums"
+  translation: Forums
+- id: google_plus
+  translation: Google+
+- id: google_plus_community
+  translation: Google+ Community
+- id: help
+  translation: Help
+- id:  "help_center"
+  translation: Help Center
+- id: home
+  translation: Home
+- id: irc
+  translation: IRC
+- id: press
+  translation: Press
+- id: press_center
+  translation: Press Center
+- id: reddit
+  translation: Reddit
+- id: store
+  translation: Store
+- id: support_us
+  translation: Support Us
+- id: twitter
+  translation: Twitter

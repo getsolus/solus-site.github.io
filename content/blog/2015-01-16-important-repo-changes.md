@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- News
-date: 2015-01-16T02:04:23Z
-id: 438
-title: 'Important: Repo Changes'
-url: /2015/01/16/important-repo-changes/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2015-01-16T02:04:23Z"
+
+title = "'Important: Repo Changes'"
+url = "/2015/01/16/important-repo-changes/"
++++
 
 Hello all!
 

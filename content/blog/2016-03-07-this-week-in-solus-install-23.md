@@ -1,15 +1,16 @@
----
-author: joshua
-categories:
-- Budgie
-- News
-- Plans
-- Security
-- TWIS
-date: 2016-03-07T10:08:34Z
-title: 'This Week in Solus -- Install #23'
-url: /2016/03/07/this-week-in-solus-install-23/
---- 
++++
+author = "joshua"
+categories = [
+"Budgie",
+"News",
+"Plans",
+"Security",
+"TWIS"
+]
+date =  "2016-03-07T10:08:34Z"
+title = "'This Week in Solus -- Install #23'"
+url = "/2016/03/07/this-week-in-solus-install-23/"
++++ 
 
 Welcome to the 23rd installation of This Week in Solus. 
 

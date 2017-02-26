@@ -1,12 +1,12 @@
----
-author: ikey
-categories:
-- Uncategorized
-date: 2014-01-17T08:51:10Z
-id: 74
-title: Call for people!
-url: /2014/01/17/call-for-people/
----
++++
+author = "ikey"
+categories = [
+"Uncategorized"
+]
+date =  "2014-01-17T08:51:10Z"
+title = "Call for people!"
+url = "/2014/01/17/call-for-people/"
++++
 
 Hello all, I hope you all had a fantastic Christmas and New Year!
 

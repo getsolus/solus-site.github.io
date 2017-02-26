@@ -1,14 +1,15 @@
----
-author: joshua
-categories:
-- Budgie
-- News
-- Packages
-- TWIS
-date: 2015-12-13T20:54:41Z
-title: 'This Week in Solus  -- Install #14'
-url: /2015/12/13/this-week-in-solus-install-14/
----
++++
+author = "joshua"
+categories = [
+"Budgie",
+"News",
+"Packages",
+"TWIS"
+]
+date =  "2015-12-13T20:54:41Z"
+title = "'This Week in Solus  -- Install #14'"
+url = "/2015/12/13/this-week-in-solus-install-14/"
++++
 
 Welcome to the 14th installation of This Week in Solus. 
 

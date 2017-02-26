@@ -1,13 +1,14 @@
----
-author: ikey
-categories:
-- News
-- Security
-date: 2014-10-08T15:57:14Z
-id: 393
-title: 'Important: Please do not use current images/installations'
-url: /2014/10/08/important-please-do-not-use-current-imagesinstallations/
----
++++
+author = "ikey"
+categories = [
+"News",
+"Security"
+]
+date =  "2014-10-08T15:57:14Z"
+
+title = "'Important: Please do not use current images/installations'"
+url = "/2014/10/08/important-please-do-not-use-current-imagesinstallations/"
++++
 
 Please note that we must currently ask you to not use your Evolve OS installations, until we have completed a thorough security audit of the repositories. 
 There is no reason to panic here, however before we can get to beta 1, and thus closer to production quality, we must ensure the system is secure throughout. 

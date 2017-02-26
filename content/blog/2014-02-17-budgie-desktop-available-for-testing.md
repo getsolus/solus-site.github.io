@@ -1,12 +1,12 @@
----
-author: ikey
-categories:
-- News
-date: 2014-02-17T22:35:59Z
-id: 96
-title: Budgie Desktop Available For Testing
-url: /2014/02/17/budgie-desktop-available-for-testing/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-02-17T22:35:59Z"
+title = "Budgie Desktop Available For Testing"
+url = "/2014/02/17/budgie-desktop-available-for-testing/"
++++
 
 To further facilitate the development of Evolve OS, I reach out across the interwebz and ask you, the curious, to give Budgie Desktop a spin.
 

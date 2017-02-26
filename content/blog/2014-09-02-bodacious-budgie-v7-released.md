@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- Budgie
-date: 2014-09-02T00:31:27Z
-id: 309
-title: Bodacious Budgie (v7) Released!
-url: /2014/09/02/bodacious-budgie-v7-released/
----
++++
+author = "ikey"
+categories = [
+"Budgie"
+]
+date =  "2014-09-02T00:31:27Z"
+
+title = "Bodacious Budgie (v7) Released!"
+url = "/2014/09/02/bodacious-budgie-v7-released/"
++++
 
 Well, its that time again. We're pleased to announce v7 of Budgie Desktop, aka Bodacious Budgie! The name was chosen entirely at random in an even more random <a href="https://plus.google.com/+IkeyDoherty/posts/MdmCnY7dCqs"Google+ post</a>. Long story short we made it more sexy, a bit more stable, whacked in a tray and a notifications applet, as well as a working sound menu.
 <!--more-->

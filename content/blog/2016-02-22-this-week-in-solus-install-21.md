@@ -1,14 +1,15 @@
----
-author: joshua
-categories:
-- News
-- Packages
-- Security
-- TWIS
-date: 2016-02-22T03:58:08Z
-title: 'This Week in Solus -- Install #21'
-url: /2016/02/22/this-week-in-solus-install-21/
---- 
++++
+author = "joshua"
+categories = [
+"News",
+"Packages",
+"Security",
+"TWIS"
+]
+date =  "2016-02-22T03:58:08Z"
+title = "'This Week in Solus -- Install #21'"
+url = "/2016/02/22/this-week-in-solus-install-21/"
++++ 
 Welcome to the 21st installation of This Week in Solus. Apologies for the lack of one last week, basically entire team was running unstable on our robotic bodies and we all got knocked out by a bad build and we only got the new bodies after 
 TWIS's normal time. I mean we were all ill or feeling "blergh" in general.
       

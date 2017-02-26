@@ -1,12 +1,13 @@
----
-author: ikey
-categories:
-- News
-date: 2014-06-06T17:10:55Z
-id: 184
-title: New Bug Tracker + HTTPS
-url: /2014/06/06/new-bug-tracker-https/
----
++++
+author = "ikey"
+categories = [
+"News"
+]
+date =  "2014-06-06T17:10:55Z"
+
+title = "New Bug Tracker + HTTPS"
+url = "/2014/06/06/new-bug-tracker-https/"
++++
 
 Hello all!
 
