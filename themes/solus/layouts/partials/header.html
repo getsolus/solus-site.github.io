@@ -4,7 +4,7 @@
 	{{- $pagePermalink := .Permalink -}}
 	<section>
 		{{- range .Site.Menus.main }}
-			{{- $absoluteMenuURL := (.URL | absURL) -}}
+			{{- $absoluteMenuURL := (.URL | absLangURL) -}}
 			<a href="{{ $absoluteMenuURL }}"{{- if hasPrefix "$pagePermalink" "$absoluteMenuURL" -}}active{{- end -}}>{{ i18n .Name }}</a>
 		{{ end -}}
 	</section>

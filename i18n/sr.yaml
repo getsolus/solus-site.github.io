@@ -4,6 +4,8 @@
   translation: Брендинг
 - id: budgie
   translation: Баџи
+- id: categories
+  translation: Категорије
 - id:  "dev_tracker" 
   translation: Дев трагач 
 - id: download
@@ -18,20 +20,38 @@
   translation: Гугл+ заједница
 - id: help
   translation: Помоћ
-- id:  "help_center"
+- id:  help_center
   translation: Центар за помоћ
 - id: home
   translation: Почетак
+- id: infrastructure
+  translation: Инфраструктура
 - id: irc
   translation: ИРЦ
+- id: news
+  translation: Новости
+- id: packages
+  translation: Пакети
+- id: partners
+  translation: Партнери
+- id: plans
+  translation: Plans
 - id: press
   translation: Штампа
 - id: press_center
   translation: Центар за штампу
 - id: reddit
   translation: Редит
+- id: releases
+  translation: Издања
+- id: security
+  translation: Безбедност
+- id: solus
+  translation: Solus
 - id: store
   translation: Продавница
+- id: support
+  translation: Support
 - id: support_us
   translation: Подржите нас
 - id: twitter

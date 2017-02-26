@@ -11,10 +11,11 @@
 			<span>{{ $author.Name }} / {{ $author.Role }}</span>
 			<span>{{ dateFormat "January 2, 2006" $blog.Date }}
 				{{ $categoriesLength := len $blog.Params.categories }}
+				{{ $categoriesURL := "categories/" | absLangURL }}
 				{{- if ne $categoriesLength 0 }}
 					in
 					{{ $firstCategory := index (first 1 $blog.Params.categories) 0 }}
-					<a href="{{ $site.BaseURL }}categories/{{ $firstCategory }}">{{- if eq (lower $firstCategory) "twis"}}TWIS{{ else }}{{ humanize $firstCategory }}{{ end -}}</a>
+					<a href="{{ $categoriesURL }}{{ lower $firstCategory }}">{{- if eq (lower $firstCategory) "twis"}}TWIS{{ else }}{{ i18n (lower $firstCategory) }}{{ end -}}</a>
 					{{- if gt $categoriesLength 2 }},{{end -}}
 					{{ if gt $categoriesLength 1 }}
 						{{ $followupCategories := first (sub $categoriesLength 1) (after 1 $blog.Params.categories) }}
@@ -22,11 +23,11 @@
 
 						{{- if ne (index $followupCategories 0) $lastCategory }}
 							{{ range $category := $followupCategories }}
-								<a href="{{ $site.BaseURL }}categories/{{ $category }}">{{ if eq (lower $category) "twis"}}TWIS{{ else }}{{ humanize $category }}{{ end }}</a>,
+								<a href="{{ $categoriesURL }}{{ lower $category }}">{{ if eq (lower $category) "twis"}}TWIS{{ else }}{{ i18n (lower $category) }}{{ end }}</a>,
 							{{ end }}
 						{{ end }}
 
-						and <a href="{{ $site.BaseURL }}categories/{{ $lastCategory }}">{{ if eq (lower $lastCategory) "twis"}}TWIS{{ else }}{{ humanize $lastCategory }}{{ end }}</a>
+						and <a href="{{ $categoriesURL }}{{ lower $lastCategory }}">{{ if eq (lower $lastCategory) "twis"}}TWIS{{ else }}{{ i18n (lower $lastCategory) }}{{ end }}</a>
 					{{ end -}}
 				{{ end -}}
 			</span>

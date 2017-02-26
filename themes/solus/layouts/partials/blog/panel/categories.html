@@ -1,11 +1,12 @@
 {{ $site := .Site }}
 <!-- Beginning of Categories -->
 <div data-solbit="full-width-box">
-    <h3>Categories</h3>
+    <h3>{{ i18n "categories" }}</h3>
     {{ range $category := $site.Params.category }}
+		{{ $categoryURL := (printf "categories/%s" $category) | absLangURL }}
         <span>
-            <a href="{{ $site.BaseURL }}categories/{{ $category }}">{{ if eq $category "twis"}}TWIS{{ else }}{{ humanize $category }}{{ end }}</a>
-            <a href="{{ $site.BaseURL }}categories/{{ $category}}/index.xml" data-solus-icon="rss"></a>
+            <a href="{{ $categoryURL }}">{{ if eq $category "twis"}}TWIS{{ else }}{{ i18n $category }}{{ end }}</a>
+            <a href="{{ $categoryURL}}/index.xml" data-solus-icon="rss"></a>
         </span>
     {{ end }}
 </div>

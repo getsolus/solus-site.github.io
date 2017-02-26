@@ -7,7 +7,7 @@
 			{{ $menuName := . }}
 			{{ $menu := (index $siteMenus $menuName) }}
 			<div data-solbit="full-width-row">
-				<b>{{ replace (humanize $menuName) "menu" "" }}:</b>
+				<b>{{ i18n (replace $menuName "menu" "") }}:</b>
 				<span>
 					{{ range $menuItem := $menu }}
 							{{ if hasPrefix $menuItem.URL "irc://" }}

@@ -30,6 +30,8 @@
   translation: Press Center
 - id: reddit
   translation: Reddit
+- id: solus
+  translation: Solus
 - id: store
   translation: Kauppa
 - id: support_us

@@ -4,6 +4,8 @@
   translation: Branding
 - id: budgie
   translation: Budgie
+- id: categories
+  translation: Categories
 - id:  "dev_tracker" 
   translation: Dev Tracker 
 - id: download
@@ -18,20 +20,40 @@
   translation: Google+ Community
 - id: help
   translation: Help
-- id:  "help_center"
+- id:  help_center
   translation: Help Center
 - id: home
   translation: Home
+- id: infrastructure
+  translation: Infrastructure
 - id: irc
   translation: IRC
+- id: news
+  translation: News
+- id: packages
+  translation: Packages
+- id: partners
+  translation: Partners
+- id: plans
+  translation: Plans
 - id: press
   translation: Press
 - id: press_center
   translation: Press Center
 - id: reddit
   translation: Reddit
+- id: releases
+  translation: Releases
+- id: security
+  translation: Security
+- id: social
+  translation: Social
+- id: solus
+  translation: Solus
 - id: store
   translation: Store
+- id: support
+  translation: Support
 - id: support_us
   translation: Support Us
 - id: twitter

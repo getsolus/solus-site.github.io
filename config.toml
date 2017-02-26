@@ -6,7 +6,7 @@ title = "Solus"
 ###### Content
 archetypedir = "themes/solus/archetypes"
 buildDrafts = false
-enableMissingTranslationPlaceholders = true
+defaultContentLanguageInSubdir = false
 googleanalytics = "UA-Not-Yet"
 metaDataFormat = "toml"
 paginate = 5
@@ -50,49 +50,49 @@ Weight = 3
 
 #### Main
 
-[[languages.en.menu.main]]
+[[menu.main]]
 Name = "home"
 Identifier = "home"
 URL = "/home"
 Weight = 1
 
-[[languages.en.menu.main]]
+[[menu.main]]
 Name = "blog"
 Identifier = "blog"
 URL = "/blog"
 Weight = 2
 
-[[languages.en.menu.main]]
+[[menu.main]]
 Name = "download"
 Identifier = "download"
 URL = "/download"
 Weight = 3
 
-[[languages.en.menu.main]]
+[[menu.main]]
 Name = "support_us"
 Identifier = "support_us"
 URL = "/support"
 Weight = 4
 
-[[languages.en.menu.main]]
+[[menu.main]]
 Name = "help"
 Identifier = "help"
 URL = "/help-center/home"
 Weight = 5
 
-[[languages.en.menu.main]]
+[[menu.main]]
 Name = "budgie"
 Identifier = "budgie"
 URL = "/budgie"
 Weight = 6
 
-[[languages.en.menu.main]]
+[[menu.main]]
 Name = "store"
 Identifier = "store"
 URL = "http://www.unixstickers.com/stickers/software_stickers/solus-linux-shaped-sticker"
 Weight = 7
 
-[[languages.en.menu.main]]
+[[menu.main]]
 Name = "press"
 Identifier = "press"
 URL = "/press-center"
@@ -100,7 +100,7 @@ Weight = 8
 
 #### Solus
 
-[[languages.en.menu.solus]]
+[[menu.solus]]
 Name = "download"
 Identifier = "download"
 URL = "/download"
@@ -108,25 +108,25 @@ Weight = 1
 
 #### Social
 
-[[languages.en.menu.social]]
+[[menu.social]]
 Name = "facebook"
 Identifier = "facebook"
 URL = "https://facebook.com/get.solus"
 Weight = 1
 
-[[languages.en.menu.social]]
+[[menu.social]]
 Name = "google_plus"
 Identifier = "google_plus"
 URL = "https://plus.google.com/u/0/+Solus-Project"
 Weight = 2
 
-[[languages.en.menu.social]]
+[[menu.social]]
 Name = "reddit"
 Identifier = "reddit"
 URL = "https://reddit.com/r/SolusProject"
 Weight = 3
 
-[[languages.en.menu.social]]
+[[menu.social]]
 Name = "twitter"
 Identifier = "twitter"
 URL = "https://twitter.com/SolusProject"
@@ -134,43 +134,43 @@ Weight = 4
 
 #### Support
 
-[[languages.en.menu.support]]
+[[menu.support]]
 Name = "dev_tracker"
 Identifier = "dev_tracker"
 URL = "https://dev.solus-project.com"
 Weight = 1
 
-[[languages.en.menu.support]]
+[[menu.support]]
 Name = "forums"
 Identifier = "forums"
 URL = "https://solus-project.com/forums"
 Weight = 2
 
-[[languages.en.menu.support]]
+[[menu.support]]
 Name = "google_plus_community"
 Identifier = "google_plus_community"
 URL = "https://plus.google.com/communities/104830131595272878110"
 Weight = 3
 
-[[languages.en.menu.support]]
+[[menu.support]]
 Name = "help_center"
 Identifier = "help_center"
 URL = "/help-center/home"
 Weight = 4
 
-[[languages.en.menu.support]]
+[[menu.support]]
 Name = "irc"
 Identifier = "irc"
 URL = "irc://irc.freenode.net/#Solus"
 Weight = 5
 
-[[languages.en.menu.pressmenu]]
+[[menu.pressmenu]]
 Name = "press_center"
 Identifier = "press_center"
 URL = "/press-center"
 Weight = 1
 
-[[languages.en.menu.pressmenu]]
+[[menu.pressmenu]]
 Name = "branding"
 Identifier = "branding"
 URL = "/branding"
