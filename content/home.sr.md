@@ -9,7 +9,7 @@ title = "home"
 	height="tall"
 	subclass="solus-hero"
 	description="Solus is an operating system that is designed for modern personal computing devices, every tweak enabling us to deliver a singular, cohesive desktop experience."
-	primary-button="/download|download"
+	primary-button="/download|Download"
 %}}
 
 {{% banner

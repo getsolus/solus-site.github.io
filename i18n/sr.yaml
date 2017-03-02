@@ -46,13 +46,17 @@
   translation: Издања
 - id: security
   translation: Безбедност
+- id: social
+  translation: Социјалне мреже
 - id: solus
   translation: Solus
 - id: store
   translation: Продавница
 - id: support
-  translation: Support
+  translation: Подршка
 - id: support_us
-  translation: Подржите нас
+  translation: Подржи нас
+- id: twis
+  translation: TWIS
 - id: twitter
   translation: Твитер

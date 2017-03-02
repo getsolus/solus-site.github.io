@@ -1,20 +1,21 @@
+{{ $site := .Site }}
 <!-- Beginning of Solus Site Footer -->
 <footer>
 	<!-- Beginning of Copyright & Menus -->
 	<div data-solbit="footer-menus">
-		{{ $siteMenus := .Site.Menus }}
-		{{ range .Site.Params.footermenu }}
-			{{ $menuName := . }}
-			{{ $menu := (index $siteMenus $menuName) }}
+		{{ range $submenuName := index $site.Params.menus "footer" }}
 			<div data-solbit="full-width-row">
-				<b>{{ i18n (replace $menuName "menu" "") }}:</b>
+				<b>{{ i18n $submenuName  }}:</b>
 				<span>
-					{{ range $menuItem := $menu }}
-							{{ if hasPrefix $menuItem.URL "irc://" }}
-								<a href="{{ safeURL $menuItem.URL }}">{{ i18n $menuItem.Name }}</a>
-							{{ else }}
-								<a href="{{ $menuItem.URL | absLangURL }}">{{ i18n $menuItem.Name }}</a>
-							{{ end }}
+					{{ range $menuItem := index $site.Params.menus $submenuName }}
+						{{ $name := i18n $menuItem}}
+						{{ $url := index $site.Params.menuurls $menuItem }}
+
+						{{ if or (hasPrefix $url "http") (hasPrefix $url "irc") }}
+							<a href="{{ $url }}">{{ $name }}</a>
+						{{ else }}
+							<a href="{{ $url | absLangURL }}">{{ $name }}</a>
+						{{ end }}
 					{{ end }}
 				</span>
 			</div>
@@ -28,7 +29,8 @@
 	<!-- End of Copyright & Menus -->
 	<!-- Friends -->
 	<div data-solus-component="solus-rss">
-		<a href="{{ .Site.BaseURL }}blog/index.xml" data-solbit-icon="rss"></a>
+		{{ $blogIndexURL := "blog/index.html" | absLangURL }}
+		<a href="{{ $blogIndexURL }}" data-solbit-icon="rss"></a>
 	</div>
 	<script type="text/javascript">
 		site.Init();

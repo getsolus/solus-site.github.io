@@ -1,16 +1,16 @@
 {{ $site := .Site }}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.Language.Lang }}">
 {{ partial "metadata.html" . }}
 	<body>
 		{{ partial "sidepane.html" . }}
 		<div data-solbit="main">
 			{{ partial "header.html" . }}
-			{{ if eq .Title "Download"}}
+			{{ if eq .Title "download"}}
 				{{ partial "download/page.html" (dict "site" .Site "content" .Content) }}
-			{{ else if  eq .Title "Branding"}}
+			{{ else if  eq .Title "branding"}}
 				{{ partial "branding/page.html" (dict "site" .Site "content" .Content) }}
-			{{ else if eq .Title "Press Center" }}
+			{{ else if eq .Title "press_center" }}
 				{{ partial "press-center/page.html" (dict "page" . "content" .Content) }}
 			{{ else }}
 				{{ .Content }}

@@ -1,8 +1,7 @@
----
-date: 2017-02-07T04:16:43+02:00
-internaltype: page
-title: Contact Us
----
++++
+date = "2017-02-07T04:16:43+02:00"
+title = "contact_us"
++++
 
 We provide a multitude of ways of reaching out or [Getting Involved](/articles/contributing/getting-involved/en).
 

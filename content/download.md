@@ -1,6 +1,6 @@
 +++
 date = "2016-08-03T18:22:33+03:00"
-title = "Download"
+title = "download"
 +++
 
 ###  System Requirements

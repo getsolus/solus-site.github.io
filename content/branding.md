@@ -1,5 +1,5 @@
 +++
-title = "Branding"
+title = "branding"
 date = "2017-01-07T02:44:48+00:00"
 aliases = ["/branding-guidelines"]
 +++

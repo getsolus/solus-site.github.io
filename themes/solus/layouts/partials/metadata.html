@@ -1,9 +1,9 @@
 <!-- Begnning of Metadata -->
 <head>
 <!-- Page Info -->
-{{ $titledPageName := title .Title }}
-<title>{{ $titledPageName }} | Solus</title>
-<meta property="og:title" content="{{ $titledPageName }} | Solus" />
+{{ $pageTitle := i18n (lower .Title) | default (title .Title) }}
+<title>{{ $pageTitle }} | Solus</title>
+<meta property="og:title" content="{{ $pageTitle }} | Solus" />
 <!-- Beginning of Author Info -->
 {{ if isset .Params "author" }}
 	{{ $author := index .Site.Data.users .Params.author }}
@@ -43,11 +43,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1,user-scalable=no" />
 <meta property="og:site_name" content="Solus" />
-<meta property="og:locale" content="{{ .Site.LanguageCode }}" />
+<meta property="og:locale" content="{{ .Site.Language.Lang }}" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/website.css" />
 <link rel="icon" href="{{ .Site.BaseURL}}/imgs/favicon.ico" />
 <script type="text/javascript" src="{{ .Site.BaseURL}}/js/highlight.min.js"></script>
-<script type="text/javascript" src="{{ .Site.BaseURL}}/js/solbit.min.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL}}/js/solbit.js"></script>
 <script type="text/javascript" src="{{ .Site.BaseURL}}/js/site.min.js"></script>
 {{ .Hugo.Generator }}
 {{ if .RSSLink }}

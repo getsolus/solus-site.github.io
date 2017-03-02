@@ -27,6 +27,7 @@
 						{{ $buttonInfo := (split $button "|") }}
 						{{ $buttonURL := index $buttonInfo 0 }}
 						{{ $buttonName := index $buttonInfo 1 }}
+						{{ $buttonName := i18n (lower $buttonName) | default $buttonName }}
 
 						{{ if eq $buttonURL "paypal" }}
 							<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -39,6 +40,7 @@
 									<button data-solbit="button" name="submit" type="submit" data-solbit-size="large" data-solbit-enfsize>Donate</button>
 							</form>
 						{{ else }}
+							{{ $buttonURL := $buttonURL | absLangURL }}
 							<a data-solbit="button" href="{{ $buttonURL }}" data-solbit-size="large" data-solbit-enfsize>{{ index $buttonName }}</a>
 						{{ end }}
 					{{ end }}

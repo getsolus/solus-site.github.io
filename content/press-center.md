@@ -1,7 +1,6 @@
 +++
 date = "2016-07-28T11:08:13+03:00"
-title = "Press Center"
-type = "press-center"
+title = "press_center"
 aliases = ["press-centre"]
 +++
 
