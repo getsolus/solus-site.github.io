@@ -1,9 +1,18 @@
+{{ $site := .Site }}
 <div data-solbit="content-overlay"></div>
 <div data-solbit="sidepane">
 	<div data-solbit="full-width-box">
-		{{- range .Site.Menus.main }}
-			{{- $absoluteMenuURL := (.URL | absLangURL) -}}
-			<span><a href="{{ $absoluteMenuURL }}"{{- if hasPrefix "$pagePermalink" "$absoluteMenuURL" -}}active{{- end -}}>{{ .Name }}</a></span>
-		{{ end -}}
+		{{ $menus := index $site.Params.menus "main" }}
+		{{ range $id := $menus}}
+			{{ $name := i18n $id }}
+			{{ $url := index $site.Params.menuurls $id }}
+			<span>
+				{{ if hasPrefix $url "http" }}
+					<a href="{{ safeURL $url }}">{{ $name }}</a>
+				{{ else }}
+					<a href="{{ $url | absLangURL }}">{{ $name }}</a>
+				{{ end }}
+			</span>
+		{{ end }}
 	</div>
 </div>
