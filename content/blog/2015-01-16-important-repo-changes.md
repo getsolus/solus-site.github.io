@@ -5,7 +5,7 @@ categories = [
 ]
 date =  "2015-01-16T02:04:23Z"
 
-title = "'Important: Repo Changes'"
+title = "Important: Repo Changes"
 url = "/2015/01/16/important-repo-changes/"
 +++
 

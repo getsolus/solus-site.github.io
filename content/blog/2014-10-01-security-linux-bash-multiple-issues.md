@@ -5,7 +5,7 @@ categories = [
 ]
 date =  "2014-10-01T21:45:16Z"
 
-title = "'Security: linux, bash, multiple issues'"
+title = "Security: linux, bash, multiple issues"
 url = "/2014/10/01/security-linux-bash-multiple-issues/"
 +++
 

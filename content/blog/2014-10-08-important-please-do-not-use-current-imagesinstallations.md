@@ -6,7 +6,7 @@ categories = [
 ]
 date =  "2014-10-08T15:57:14Z"
 
-title = "'Important: Please do not use current images/installations'"
+title = "Important: Please do not use current images/installations"
 url = "/2014/10/08/important-please-do-not-use-current-imagesinstallations/"
 +++
 

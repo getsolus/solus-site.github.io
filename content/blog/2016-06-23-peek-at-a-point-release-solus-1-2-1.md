@@ -5,7 +5,7 @@ categories = [
 "Plans"
 ]
 date =  "2016-06-23T17:44:22Z"
-title = "'Peek at a Point Release: Solus 1.2.1'"
+title = "Peek at a Point Release: Solus 1.2.1"
 url = "/2016/06/23/peek-at-a-point-release-solus-1-2-1/"
 +++
 

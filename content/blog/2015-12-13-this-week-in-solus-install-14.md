@@ -7,7 +7,7 @@ categories = [
 "TWIS"
 ]
 date =  "2015-12-13T20:54:41Z"
-title = "'This Week in Solus  -- Install #14'"
+title = "This Week in Solus  -- Install #14"
 url = "/2015/12/13/this-week-in-solus-install-14/"
 +++
 

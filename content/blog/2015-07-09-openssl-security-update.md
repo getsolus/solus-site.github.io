@@ -4,7 +4,7 @@ categories = [
 "Security"
 ]
 date =  "2015-07-09T15:10:40Z"
-title = "'openssl: Security update'"
+title = "openssl: Security update"
 url = "/2015/07/09/openssl-security-update/"
 +++
 
