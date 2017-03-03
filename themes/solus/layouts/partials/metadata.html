@@ -2,8 +2,13 @@
 <head>
 <!-- Page Info -->
 {{ $pageTitle := i18n (lower .Title) | default (title .Title) }}
-<title>{{ $pageTitle }} | Solus</title>
-<meta property="og:title" content="{{ $pageTitle }} | Solus" />
+{{ if ne .Section "articles"}}
+	<title>{{ $pageTitle }} | Solus</title>
+	<meta property="og:title" content="{{ $pageTitle }} | Solus" />
+{{ else }}
+	<title>{{ $pageTitle }} | Solus Help Center</title>
+	<meta property="og:title" content="{{ $pageTitle }} | Solus Help Center" />
+{{ end }}
 <!-- Beginning of Author Info -->
 {{ if isset .Params "author" }}
 	{{ $author := index .Site.Data.users .Params.author }}
@@ -41,9 +46,13 @@
 	<meta name="article:published_time" content="{{ .PublishedDate }}" />
 {{ end }}
 
-{{ $generalHelpCenterTags := "ask solus, help center, solus, linux" }}
-{{ if eq .Section "articles"}}
-	<meta name="keywords" content="{{$generalHelpCenterTags}}, {{ $pageTitle }}" />
+{{ $generalMetaTags := "solus, linux, operating system, budgie, mate" }}
+{{ $metaCompliantPageTitle :=  delimit (split (lower $pageTitle) " ") ", " }}
+
+{{ if or (eq .Section "articles") (eq .Section "help-center") }}
+	<meta name="keywords" content="ask solus, help center, {{ $generalMetaTags }}, {{ $metaCompliantPageTitle }}" />
+{{ else }}
+	<meta name="keywords" content="{{ $generalMetaTags }}, {{ $metaCompliantPageTitle }}" />
 {{ end }}
 
 <!-- Site Info -->
