@@ -51,7 +51,7 @@ All this being said, we are **on track** for our Q1 goals. After we land Optimus
 
 This will be followed by an ISO snapshot and starting the development of Budgie 11, our [major rewrite to Qt5 and C++](https://budgie-desktop.org/2017/01/25/kicking-off-budgie-11/).
 
-I'll be working on Ikey on continuing to improve our web infrastructure with Solhub, which will feature our web-based repo search utility and an improved build dashboard, as well as landing our new site redesign. Bryan has been hard at work on Haskell support in Solus, which should see finalizing this month, alongside his start on ypkg-tools. I anticipate Peter will continue his long and tireless campaign on optimizing every bit of Solus, a lot of those optimizations being exposed to new users in our upcoming ISO snapshot.
+I'll be working with Ikey on continuing to improve our web infrastructure with Solhub, which will feature our web-based repo search utility and an improved build dashboard, as well as landing our new site redesign. Bryan has been hard at work on Haskell support in Solus, which should see finalizing this month, alongside his start on ypkg-tools. I anticipate Peter will continue his long and tireless campaign on optimizing every bit of Solus, a lot of those optimizations being exposed to new users in our upcoming ISO snapshot.
 
 ---
 
