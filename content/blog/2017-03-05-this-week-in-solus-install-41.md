@@ -14,13 +14,13 @@ Welcome to This Week in Solus, Installation #41.
 
 ## Linux Driver Management
 
-Ikey has spent considerable amount of time this week dedicated to shaping up our Linux Driver Management tool, which will be responsible for our switchable graphics solution, initially targetting Optimus. 
+Ikey has spent considerable amount of time this week dedicated to shaping up our Linux Driver Management tool, which will be responsible for our switchable graphics solution. The initial version of LDM will enable always-on Optimus, as that is the highest priority item, before moving on to switchable graphics itself.
 
 We're able to detect multiple system configurations, across:
 
-- AMD APU or CPU + AMD GPU
-- Intel CPU + AMD GPU
-- Intel CPU + NVIDIA GPU
+- AMD Integrated Graphics + AMD GPU
+- Intel Integrated Graphics + AMD GPU
+- Intel Integrated Graphics + NVIDIA GPU
 
 Now the work is beginning on having LDM configure X.Org, Mesa, and so-forth. Additionally, we'll be obsoleting `gl-driver-switch` and putting LDM into `system.base`, meaning LDM will be seamlessly rolled out to existing users, deprecating old scripts and paving an easier route to LDM being shipped in future snapshot ISOs.
 
@@ -41,7 +41,7 @@ Speaking of contributions, we've [recently been reviewing our process](https://d
 Naturally, we want to make the experience easier on everyone and remove some bottlenecks. As a result, we will soon be moving our git management to our Phabricator's Diffusion application and utilize the Arcanist tool for easier submission and management of patches. This move has the added benefits of:
 
 - Allowing us to take advantage of inline patch review.
-- Enabling us to more easily add package maintainers or individuals with write-access to specific repos.
+- Providing a method to add community maintainers in a scalable manner.
 - Enabling us to consolidate some infrastructure, namely moving *some*  `solus-project` GitHub and GitLab repositories, into Phabricator.
   - For items such as our Software Center, it'll make filing issues less of a complex matter, with some being split between GitHub and Phabricator.
 
