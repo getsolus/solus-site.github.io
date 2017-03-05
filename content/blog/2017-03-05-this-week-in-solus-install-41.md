@@ -10,7 +10,7 @@ url = "/2017/03/05/this-week-in-solus-install-41"
 featuredimage = "2017/03/ldm-detection.jpg"
 +++
 
-Welcome to This Week in Solus, Installation #41.
+Welcome to This Week in Solus, install #41.
 
 ## Linux Driver Management
 
