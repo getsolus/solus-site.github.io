@@ -10,11 +10,11 @@ title = "This Week in Solus - Install #42"
 url = "/2017/03/19/this-week-in-solus-install-42"
 +++
 
-Welcome to the 42nd installation of This Week in Solus!
+Welcome to the 42nd installation of This Week in Solus.
 
 ## Upgrades
 
-Several significant upgrades happened this week (all of which are shipped in the stable repo at the time of publication), starting with Peter spending time upgrading our KDE Frameworks to `5.32.0` and upgrading our Kdenlive to the latest release.
+Several significant upgrades happened this week (all of which are shipped in the stable repo at the time of publication), starting with Peter spending time upgrading our KDE Frameworks to 5.32.0 and upgrading our Kdenlive to the latest release.
 
 We updated our kernel to the latest longterm release, 4.9.16.
 
@@ -35,7 +35,7 @@ If you haven't gotten involved in Solus packaging and you're wondering where you
 
 ## Upcoming This Week
 
-We'll be doing some crunching this week on items for the upcoming Q1 ISO snapshots. Ikey will be taking a vacation from work and will be devoting such time to working on Budgie 10.3, as well as some corner cases in the UEFI support of the Solus Installer. Furthermore, we'll be taming the verbosity of debug messages during boot time.
+We'll be doing some crunching this week on items for the upcoming Q1 ISO snapshots. Ikey will be working on Budgie 10.3, as well as some corner cases in the UEFI support of the Solus Installer. Furthermore, we'll be taming the verbosity of debug messages during boot time.
 
 With the new Solus website designs nearly finalized, I'll be working on the new site design this coming week. Additionally, I'll be doing a sweep through our Dev Tracker.
 
