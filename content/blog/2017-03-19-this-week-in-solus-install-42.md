@@ -35,7 +35,12 @@ If you haven't gotten involved in Solus packaging and you're wondering where you
 
 ## Upcoming This Week
 
-We'll be doing some crunching this week on items for the upcoming Q1 ISO snapshots. Ikey will be working on Budgie 10.3, as well as some corner cases in the UEFI support of the Solus Installer. Furthermore, we'll be taming the verbosity of debug messages during boot time.
+We'll be doing some crunching this week on items for the upcoming Q1 ISO snapshots. Ikey will be working on:
+
+- A new Brisk Menu release, which will feature [a right-click context menu for launching a menu editor for an item](https://github.com/solus-project/brisk-menu/issues/16) as well as the [ability to search for items which are present in the Control Center](https://github.com/solus-project/brisk-menu/issues/10).
+- Budgie 10.3
+- Resolving some corner cases in the UEFI support of the Solus Installer.
+- Taming the verbosity of debug messages during boot time.
 
 With the new Solus website designs nearly finalized, I'll be working on the new site design this coming week. Additionally, I'll be doing a sweep through our Dev Tracker.
 
