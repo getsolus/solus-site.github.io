@@ -50,7 +50,7 @@
 {{ $metaCompliantPageTitle :=  delimit (split (lower $pageTitle) " ") ", " }}
 
 {{ if or (eq .Section "articles") (eq .Section "help-center") }}
-	<meta name="keywords" content="ask solus, help center, {{ $generalMetaTags }}, {{ $metaCompliantPageTitle }}" />
+	<meta name="keywords" content="ask solus, asksolus, help center, wiki, {{ $generalMetaTags }}, {{ $metaCompliantPageTitle }}" />
 {{ else }}
 	<meta name="keywords" content="{{ $generalMetaTags }}, {{ $metaCompliantPageTitle }}" />
 {{ end }}
