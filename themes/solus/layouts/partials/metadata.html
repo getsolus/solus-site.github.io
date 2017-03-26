@@ -27,7 +27,12 @@
 <!-- End of Author Info -->
 <!-- Beginning of Featured Image -->
 {{ if and (isset .Params "featuredimage") (ne .Params.featuredimage "") }}
-	<meta property="og:image" content="{{ .Site.BaseURL }}imgs/posts/{{ .Params.featuredimage }}" />
+	{{ $imagePath := printf "imgs/posts/%s" .Params.featuredimage }}
+	{{ $staticPath := printf "static/%s" $imagePath }}
+	{{ $imageInfo := imageConfig $staticPath }}
+	<meta property="og:image" content="{{ .Site.BaseURL }}{{ $imagePath }}" />
+	<meta property="og:image:height" content="{{ $imageInfo.Height }}px" />
+	<meta property="og:image:width" content="{{ $imageInfo.Width }}px" />
 {{ end }}
 <!-- End of Featured Image -->
 <meta property="og:link" content="{{ .Permalink }}" />
