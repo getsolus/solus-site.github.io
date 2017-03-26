@@ -4,6 +4,7 @@ author = "joshua"
 date = "2017-03-26T19:52:23+03:00"
 title = "clr-boot-manager now available in Solus"
 url = "/2017/03/26/clr-boot-manager-now-available-in-solus"
+featuredimage = "2017/03/clr-boot-manager.jpg"
 notitle = true
 +++
 
