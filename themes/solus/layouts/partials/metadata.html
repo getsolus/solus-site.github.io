@@ -3,8 +3,13 @@
 <!-- Page Info -->
 {{ $pageTitle := i18n (lower .Title) | default (title .Title) }}
 {{ if ne .Section "articles"}}
-	<title>{{ $pageTitle }} | Solus</title>
-	<meta property="og:title" content="{{ $pageTitle }} | Solus" />
+	{{ if isset .Params "notitle" }}
+		<title>{{ .Title }} | Solus</title>
+		<meta property="og:title" content="{{ .Title }} | Solus" />
+	{{ else }}
+		<title>{{ $pageTitle }} | Solus</title>
+		<meta property="og:title" content="{{ $pageTitle }} | Solus" />
+	{{ end }}
 {{ else }}
 	<title>{{ $pageTitle }} | Solus Help Center</title>
 	<meta property="og:title" content="{{ $pageTitle }} | Solus Help Center" />

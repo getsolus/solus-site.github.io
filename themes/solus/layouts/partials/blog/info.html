@@ -7,7 +7,13 @@
 	{{ if isset $blog.Params "categories" }}
 		<!-- Beginning of Post Info -->
 		<div data-solus-component="post-info">
-			<h1><a href="{{ $blog.Permalink }}">{{ replace (title $blog.Title) "'S" "'s" }}</a></h1>
+			<h1><a href="{{ $blog.Permalink }}">
+				{{ if isset $blog.Params "notitle" }}
+					{{ replace ($blog.Title) "'S" "'s" }}
+				{{ else }}
+					{{ replace (title $blog.Title) "'S" "'s" }}
+				{{ end }}
+			</a></h1>
 			<span>{{ $author.Name }} / {{ $author.Role }}</span>
 			<span>{{ dateFormat "January 2, 2006" $blog.Date }}
 				{{ $categoriesLength := len $blog.Params.categories }}
