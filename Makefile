@@ -4,12 +4,12 @@ benchmark:
 	hugo benchmark --quiet
 
 deploy:
-	hugo --i18n-warnings --quiet --destination public-deployed/
+	hugo --i18n-warnings --quiet --cleanDestinationDir --destination public-deployed/
 	rm -v public-deployed/index.html
 	mv public-deployed/en/sitemap.xml public-deployed
 
 local:
-	hugo server --baseURL "http://127.0.0.1:1313" --i18n-warnings --watch --quiet --ignoreCache
+	hugo server --baseURL "http://127.0.0.1:1313" --i18n-warnings --watch --quiet --ignoreCache --cleanDestinationDir
 
 setup:
 	git submodule init
