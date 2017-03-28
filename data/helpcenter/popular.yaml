@@ -7,12 +7,12 @@ common_tasks:
 configuration:
     Title: Configuration
     Description: Configure and personalize your system.
-contributing:
-    Title: Contributing
-    Description: Help make Solus better for everyone.
-gaming:
-    Title: Gaming
-    Description: Time to get your game face on.
 installation:
     Title: Installation
     Description: Some bits to make installation simpler.
+repair_and_recovery:
+    Title: Repair and Recovery
+    Description: Repairing or recovering your Solus system.
+software:
+    Title: Software
+    Description: Kickstart use of select software like Java.

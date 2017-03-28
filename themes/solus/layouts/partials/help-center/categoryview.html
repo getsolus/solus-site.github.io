@@ -8,9 +8,10 @@
 		<div data-solbit="list-item">
 			{{ $filepath := printf "content/articles/%s/%s/en.md" $category $articleInfo.Name }}
 			{{ $file := readFile $filepath }}
+			{{ $file := $file | replaceRE "(?m)(^\\+[\\s\\S]+\\+\\n)" ""  }}
 			{{ $fileLines := split $file "\n" }}
-			{{ $articleHeader := replace (index $fileLines 3) "# " "" }}
-			{{ $articleDescription := index $fileLines 5}}
+			{{ $articleHeader := replace (index $fileLines 0) "# " "" }}
+			{{ $articleDescription := index $fileLines 2}}
 			<a href="{{ $articleInfo.Name }}/en">{{ $articleHeader }}</a>
 			<section>{{ $articleDescription | markdownify }}</section>
 		</div>
