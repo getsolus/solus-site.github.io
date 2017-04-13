@@ -2,14 +2,13 @@
 {{ $content := .content }}
 <div data-solus-component="download-content">
 	<h1>Install today. Updates forever.</h1>
-	{{ range $edition := (slice "Budgie" "Mate") }}
-		{{ $editionName := replace $edition "Mate" "MATE" }}
+	{{ range $edition := (slice "Budgie" "MATE" "GNOME") }}
 		{{ $editionInfo := (index $site.Data.isos.info $edition )}}
 		<!-- For each edition -->
 		<div data-solus-component="solus-edition-section-full">
 			<div data-solus-component="solus-edition-section">
-				<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/Solus-{{ $edition }}.jpg" />
-				<h2>Solus{{ if eq $editionName "MATE" }} MATE{{ end }}</h2>
+				<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/{{ $site.Data.isos.info.Version }}/{{ $edition }}.png" />
+				<h2>Solus {{ $edition  }}</h2>
 				<p>{{ $editionInfo.description }}</p>
 				<section data-solus-component="solus-media">
 					<div data-solus-minor-component="solus-media-regions">
@@ -22,7 +21,7 @@
 									{{ $type := index $typeURLArr 0 }}
 									{{ $url := index $typeURLArr 1 }}
 									{{ $locationName := (replace $location "_" " ") }}
-									{{ $fullurl := printf "%sSolus-%s-%s.iso" $url $site.Data.isos.info.Version $editionName | safeURL }}
+									{{ $fullurl := printf "%sSolus-%s-%s.iso" $url $site.Data.isos.info.Version $edition | safeURL }}
 									<div>
 										<a href="{{ $fullurl }}" data-solbit-icon="{{ $type }}" title="{{ humanize $type }}">{{- $locationName -}}</a>
 									</div>
@@ -35,7 +34,7 @@
 						Alternative Download: <a href="{{ $editionInfo.torrent }}">Torrent</a><br />
 						Legend: <span data-solbit-icon="official">Official</span><span data-solbit-icon="community"> Community</span><br />
 						SHA256 Checksum: {{ $editionInfo.shasum }}<br />
-						{{ $sha256url := printf "http://soluslond1iso.stroblindustries.com/Solus-%s-%s.sha256sum" $site.Data.isos.info.Version $editionName | safeURL }}
+						{{ $sha256url := printf "http://soluslond1iso.stroblindustries.com/Solus-%s-%s.sha256sum" $site.Data.isos.info.Version $edition | safeURL }}
 						SHA256SUMS: <a href="{{ $sha256url }}" target="_blank">File</a> | <a href="{{ $sha256url }}.sign" target="_blank">GPG Signed File</a> | <a href="https://archive.solus-project.com/solus.gpg" target="_blank">GPG Public Key</a>
 					</div>
 				</section>	
