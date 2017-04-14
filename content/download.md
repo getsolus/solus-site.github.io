@@ -3,22 +3,17 @@ date = "2016-08-03T18:22:33+03:00"
 title = "download"
 +++
 
-###  System Requirements
 
-- An available DVD drive or USB port
- - Minimum USB drive size of 2GB.
+# More Information
+##  System Requirements
+
+- A blank DVD or a 2GB+ USB drive.
 - Minimum of 10GB of disk space available.
 - 2GB of RAM for an optimal experience.
-- Utilizes a 64-bit (x86_64) processor.
+- A 64-bit (x86_64) processor.
 
-### Need assistance?
+## Need assistance?
 
-First off, check our [Installation](/articles/installation/preparing-to-install/en/) guide for determining what software to use to burn or write the Solus ISO to a DVD or USB drive. If your system is UEFI-enabled, we 
-also recommend following our [UEFI](/articles/installation/disks/en/) guide.
+First off, check our [Installation](/articles/installation/preparing-to-install/en/) guide for determining what software to use to burn or write the Solus ISO to a DVD or USB drive. If your system is UEFI-enabled, we also recommend following our [UEFI](/articles/installation/disks/en/) guide.
 
-If you still have questions, we provide assistance via our [Forums](https://solus-project.com/forums), [Google+ Community](https://plus.google.com/communities/104830131595272878110), and live via our 
-IRC (Internet Relay Chat) channel. Communication via IRC can be done through software such as [Hexchat](https://hexchat.github.io/), which is pre-installed on Solus and with the details below:
-
-Channel: [#Solus](irc://chat.freenode.net/#Solus)
-
-Server: irc.freenode.net
+If you still have questions, feel free to [reach out](/help-center/contact)!

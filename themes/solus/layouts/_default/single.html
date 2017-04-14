@@ -4,7 +4,7 @@
 {{ partial "metadata.html" . }}
 	<body>
 		{{ partial "sidepane.html" . }}
-		<div data-solbit="main">
+		<div data-solbit="main" {{ if eq .Title "download"}}data-solbit-flexcol{{end}}>
 			{{ partial "header.html" . }}
 			{{ if eq .Title "download"}}
 				{{ partial "download/page.html" (dict "site" .Site "content" .Content) }}
