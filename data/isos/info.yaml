@@ -4,7 +4,7 @@ Budgie:
     shasum: 9de286a8d1dc9c4f15c696a4d68a7f02a3a96eba3da29b5cc4d6264af436f123
     torrent: http://linuxtracker.org/index.php?page=torrent-details&id=03476572364d397bef795c4ddce32e29c44de602
 GNOME:
-    description: A contemporary desktop experience. Or something.
+    description: A contemporary desktop experience.
     mediasize: 666MB
     shasum: a07002244f62613342eedf6fc33861bae5972563abd417b185e6084817b350db
     torrent: http://linuxtracker.org/index.php?page=torrent-details&id=afd60c363e3f1c3e30b5ec0fb3150ac424023e38
