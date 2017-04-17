@@ -20,21 +20,14 @@
 				{{ $categoriesURL := "categories/" | absLangURL }}
 				{{- if ne $categoriesLength 0 }}
 					in
-					{{ $firstCategory := index (first 1 $blog.Params.categories) 0 }}
-					<a href="{{ $categoriesURL }}{{ lower $firstCategory }}">{{- if eq (lower $firstCategory) "twis"}}TWIS{{ else }}{{ i18n (lower $firstCategory) }}{{ end -}}</a>
-					{{- if gt $categoriesLength 2 }},{{end -}}
-					{{ if gt $categoriesLength 1 }}
-						{{ $followupCategories := first (sub $categoriesLength 1) (after 1 $blog.Params.categories) }}
-						{{ $lastCategory := index (last 1 $blog.Params.categories) 0 }}
-
-						{{- if ne (index $followupCategories 0) $lastCategory }}
-							{{ range $category := $followupCategories }}
-								<a href="{{ $categoriesURL }}{{ lower $category }}">{{ if eq (lower $category) "twis"}}TWIS{{ else }}{{ i18n (lower $category) }}{{ end }}</a>,
-							{{ end }}
-						{{ end }}
-
-						and <a href="{{ $categoriesURL }}{{ lower $lastCategory }}">{{ if eq (lower $lastCategory) "twis"}}TWIS{{ else }}{{ i18n (lower $lastCategory) }}{{ end }}</a>
-					{{ end -}}
+					{{ $secondToLast := index (last 2 $blog.Params.categories) 0 }}
+					{{ $last := index (last 1 $blog.Params.categories) 0 }}
+					{{ range $category := $blog.Params.categories }}
+						<a href="{{ $categoriesURL }}{{ lower $category }}">{{- if eq (lower $category) "twis"}}TWIS{{ else }}{{ i18n (lower $category) }}{{ end -}}</a>
+						{{- if gt $categoriesLength 1}}
+							{{- if and (ne $category $secondToLast) (ne $category $last) }}{{ replace "," " " "" }}{{ else if ne $category $last }} and{{ end }}
+						{{ end -}}
+					{{ end }}
 				{{ end -}}
 			</span>
 		</div>

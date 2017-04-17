@@ -1,6 +1,7 @@
 +++
 author = "joshua"
 categories = [
+"Budgie",
 "News",
 "Releases"
 ]
