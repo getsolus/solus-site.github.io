@@ -5,7 +5,7 @@ categories = [
 "Releases"
 ]
 date = "2017-04-16T19:41:53+03:00"
-featuredimage = ""
+featuredimage = "/2017/04/Snapshot_Featured_Image.jpg"
 title = "Solus Releases ISO Snapshot 2017.04.17.0"
 url = "/2017/04/17/solus-releases-iso-snapshot-20170417-0"
 +++
@@ -159,6 +159,8 @@ Our GNOME edition ships with the GNOME theme provided by Arc, providing a cleane
 - TopIcons is shipped by default to merge the locations of application tray icons into a single place, as opposed to it being separated by the "Legacy Tray" and the top tray icons.
 
 ## MATE
+
+{{< altimg "/2017/04/MATE.jpg" >}}
 
 Solus MATE edition delivers the latest 1.18 release from the MATE project as well as shipping with a new [Brisk menu](https://github.com/solus-project/brisk-menu).
 
