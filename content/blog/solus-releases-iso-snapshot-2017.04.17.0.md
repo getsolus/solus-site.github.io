@@ -38,7 +38,7 @@ Our GNOME Stack has been upgraded to the 3.24 series. We have also done further 
 
 ### Graphics Stack and Kernel Enablement
 
-Multiple improvements have been made to our graphics stack and enablement of the Linux kernel for this snapshot.
+Many improvements have been made to our graphics stack and enablement of the Linux kernel for this snapshot, as well as shipping the latest Mesa, 17.0.4.
 
 #### Linux Driver Management
 
