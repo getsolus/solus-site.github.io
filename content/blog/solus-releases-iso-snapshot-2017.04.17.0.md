@@ -22,9 +22,9 @@ This snapshot features a multitude of new improvements and upgrades to almost ev
 
 This snapshot is the first to deliver bulletproof boot management out-of-the-box, leveraging [clr-boot-manager](/2017/03/26/clr-boot-manager-now-available-in-solus) to enable  the maintenance and garbage collection of kernels, as well as configuration of the bootloader (across GRUB2 for Legacy Boot and goofiboot for UEFI boot).
 
-Furthermore, clr-boot-manager enables the retaining of known-working kernels, so you can always rollback to a prior kernel if a kernel upgrade results in the inability to boot. This gives users even more confidence in upgrading their system, and ensures that their running systems will just keep working as expected.
+Furthermore, clr-boot-manager enables the retention of known-working kernels, so you can always rollback to a prior kernel if a kernel upgrade results in the inability to boot. This gives users even more confidence in upgrading their system, and ensures that their running systems will just keep working as expected.
 
-clr-boot-manager also provides us a pathway to supporting **multiple** kernels. By default, we provide the LTS kernel to our users, however we now have the flexibility to provide multiple kernels without "branch jumping" existing users onto a mainline kernel, something we plan on adding in the future.
+clr-boot-manager also provides a pathway to supporting **multiple** kernels. By default, we provide the LTS kernel to our users, however we now have the flexibility to provide multiple kernels without "branch jumping" existing users onto a mainline kernel, something we plan on adding in the future.
 
 ### Graphics Stack and Kernel Enablement
 
@@ -43,7 +43,7 @@ This snapshot features Linux kernel 4.9.22, the latest of the longterm branch at
 - NVME Enablement and Improvements
   - Backporting support for Macbook Pro 2016 SSD (NVME, really)
   - NVME SCSI emulation to resolve some minor NVME bugs
-  - We now support NVME patches provided by [linux-nvme](https://github.com/damige/linux-nvme)
+  - We now use NVME patches, backported from 4.11, provided by [linux-nvme](https://github.com/damige/linux-nvme)
 - Webcam Enablement
   - GSCPA ZC3XX class webcams (Creative, etc.)
   - GSPCA STV06XX class webcams (Logitech QuickCam, etc.)
@@ -51,11 +51,12 @@ This snapshot features Linux kernel 4.9.22, the latest of the longterm branch at
   - Baytrail sound card support (SoC)
   - Dell All In one WMI (hotkeys, etc)
   - Enabling `/proc/config.gz`
+  - Enabling Macbook gmux for Macbook backlight support.
   - Mayflash (ACRUX) game controller support (gamecube, etc)
   - Ricoh NAND and SDX/MMC
   - Samsung Q10 platform support
 
-Furthermore, we've using  cpufreq performance as default governor now and rely on userspace to set ondemand post bootup.
+With the latest changes to solus-hardware-config and our linux-lts package, we'll now dynamically select the appropriate power saving CPU frequency governor after the system is booted. During boot we default to the performance setting, to ensure a rapid startup, however we'll now switch to the appropriate scaling setting to conserve battery life (`powersave` for `intel_pstate` and `ondemand` for `cpufreq`).
 
 ### Multimedia Upgrades
 
@@ -72,6 +73,27 @@ For starters, we are now shipping with ffmpeg 3.2.4, including patches to VLC fo
 Our gstreamer-1.0 packages have been updated to 1.10.4, which is the latest in their 1.10 stable series. 
 
 Pulseaudio has been upgrade to 10.0, enabling improvements to Bluetooth A2DP and HSP profiles and hotplugging support for USB sound cards.
+
+## Default Applications
+
+### All Editions
+
+All of our editions feature:
+
+- Firefox 52.0.2
+- Rhythmbox 3.4.1
+- Thunderbird 52.01
+
+We also now ship with a default office suite across all editions, LibreOffice 5.3.2.2!
+
+### Default Video Player
+
+Our Budgie and GNOME editions ship with GNOME MPV as the new default video player. GNOME MPV was chosen to be our new default for these two editions as it:
+
+- Fits into the general aesthetic of both Budgie and GNOME
+- In our opinion provides a simpler experience for simply watching video content
+
+Our MATE edition will maintain the use of VLC, preserving a more traditional user experience.
 
 ## Budgie
 
@@ -90,7 +112,6 @@ Budgie 10.3 features our new Alt+Tab implementation, eliminating previous issues
 {{< altimg "/2017/04/Budgie_ClockApplet.jpg" >}}
 
 Clock Applet received customization options in this release, enabling the ability to show the date, seconds, as well as the option for 24 hour time.
-
 
 {{< altimg "/2017/04/Budgie_Button_Layout.jpg" >}}
 
@@ -117,10 +138,17 @@ On the Budgie applets front, we have:
 - Resolved the inability to pin GNOME Twitch via the Icon Tasklist
 - Resolved incorrect vertical alignment of the Clock Applet
 - Now ensure tray icons are evenly spaced, as a result of syncing our natray with upstream gnome-panel.
+- Improvements have been made to the Places applet
+  - Support for encrypted volumes and remote (S/FTP, SMB) shares.
+  - Clicking on S/FTP bookmarks now open them in the default file manager.
 
 For Raven, we fixed the notification spam that'd occur during start up notifying the user they're connected to the network. No more red notification bell on startup!
 
+For `budgie-wm`, a crash has been fixed that would occur when the current locale was deleted.
+
 ## GNOME
+
+{{< altimg "/2017/04/GNOME.jpg" >}}
 
 We're proud to formally announce the release of our Solus GNOME edition. This edition fulfills our desire to make GNOME a first class experience, instead of a hybrid Budgie / GNOME setup, and introduces a near-vanilla GNOME experience with sane defaults and some shipped extensions. 
 
@@ -136,8 +164,15 @@ Solus MATE edition delivers the latest 1.18 release from the MATE project as wel
 
 Brisk Menu 0.3.5 offers:
 
-- Standardizing CSS usage and fixes broken assets
+- Standardized CSS usage and fixes broken assets
 - Enables a rollover behavior via gsettings
 - Adds a context menu for editing menus
 
 Ongoing support of development of Brisk Menu has been provided by Martin Wimpress and the Ubuntu MATE project and they have our thanks for helping to enable a modern, efficient menu for the MATE Desktop Environment.
+
+Several issues relating to keyboard layouts have now been resolved, ensuring layouts are "sticky" and switch dynamically. The control center is now able to display the system layouts, as well as the MATE 1.18 stack update introducing support for libinput.
+
+---
+
+## Full Changelog (Primary Image)
+
