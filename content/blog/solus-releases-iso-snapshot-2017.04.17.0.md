@@ -5,7 +5,7 @@ categories = [
 "News",
 "Releases"
 ]
-date = "2017-04-16T19:41:53+03:00"
+date = "2017-04-17T19:41:53+03:00"
 featuredimage = "/2017/04/Snapshot_Featured_Image.jpg"
 title = "Solus Releases ISO Snapshot 2017.04.17.0"
 url = "/2017/04/17/solus-releases-iso-snapshot-20170417-0"
@@ -27,6 +27,15 @@ Furthermore, clr-boot-manager enables the retention of known-working kernels, so
 
 clr-boot-manager also provides a pathway to supporting **multiple** kernels. By default, we provide the LTS kernel to our users, however we now have the flexibility to provide multiple kernels without "branch jumping" existing users onto a mainline kernel, something we plan on adding in the future.
 
+### GNOME Stack
+
+Our GNOME Stack has been upgraded to the 3.24 series. We have also done further refinements by:
+
+- Adding back the Enter Location menu option for Nautilus
+- Enabling EGLDevice for EGLStreams in Mutter, as well as disabling `NET_WM_PING` dialogs, which could break many SDL games or some applications. Such applications are just slower to start, such as Thunderbird, or GL-locked (SDL), and as a result displaying a "not responsive" window unnecessarily would break focus, input, etc. when the application is in fact working.
+- Including a patch to resolve items not appearing via gnome-menus
+- Updating libgnomekbd to resolve schemas from a prior release.
+
 ### Graphics Stack and Kernel Enablement
 
 Multiple improvements have been made to our graphics stack and enablement of the Linux kernel for this snapshot.
@@ -34,8 +43,6 @@ Multiple improvements have been made to our graphics stack and enablement of the
 #### Linux Driver Management
 
 This snapshot features [Linux Driver Management](https://github.com/solus-project/linux-driver-management), which is a **modern, open source** solution developed by us to enable NVIDIA Optimus support and paves the way towards supporting dynamic, switchable graphics across all hardware vendors in the future.
-
-Click [here]() to learn more about using Linux Driver Management.
 
 #### Kernel Enablement
 
@@ -149,13 +156,18 @@ For `budgie-wm`, a crash has been fixed that would occur when the current locale
 
 {{< altimg "/2017/04/GNOME.jpg" >}}
 
-We're proud to formally announce the release of our Solus GNOME edition. This edition fulfills our desire to make GNOME a first class experience, instead of a hybrid Budgie / GNOME setup, and introduces a near-vanilla GNOME experience with sane defaults and some shipped extensions. 
+We're proud to formally announce the release of our Solus GNOME edition. This edition fulfills our desire to make GNOME a first class experience, instead of a hybrid Budgie / GNOME setup, and introduces a near-stock GNOME experience with sane defaults and some shipped extensions. 
 
-Our GNOME edition ships with the GNOME theme provided by Arc, providing a cleaner and more modern look to GNOME. Furthermore, we ship and have enabled several sensible extensions so you can spend less time tweaking and more time just using the system.
+Our GNOME edition ships with GNOME 3.24 and features the GNOME theme provided by Arc, providing a cleaner and more modern look to GNOME. Furthermore, we ship and have enabled several sensible extensions so you can spend less time tweaking and more time just using the system.
 
-- Dash To Dock is installed to enable faster access to your applications. We provide subtle styling changes as well as set defaults such as setting the Applications icon on the top of the dock, setting the default click action of running applications to minimize, reducing the hide delay, and lastly changing the maximum icon size to better utilize screen real estate.
+- Dash To Dock is installed to enable faster access to your applications. We provide subtle styling changes as well as set defaults such as:
+  - Setting the Applications icon on the top of the dock
+  - Setting the default click action of running applications to minimize
+  - Reducing the hide delay
+  - Changing the maximum icon size to better utilize screen real estate.
 - Impatience enables faster animations for GNOME Shell. In our edition, you can expect animations to take only half the time!
 - TopIcons is shipped by default to merge the locations of application tray icons into a single place, as opposed to it being separated by the "Legacy Tray" and the top tray icons.
+- We provide the chrome-gnome-shell package out-of-the-box so installation of extensions via Chrome are painless, and installation via Firefox is simpler, by only requiring the installation of Firefox support provided via the GNOME Extensions website.
 
 ## MATE
 
