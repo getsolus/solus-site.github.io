@@ -10,7 +10,7 @@
 			{{ $editionInfo := (index $site.Data.isos.info $edition )}}
 			<!-- For each edition -->
 			<div data-solus-component="solus-edition">
-				<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/{{ $site.Data.isos.info.Version }}/{{ $edition }}.png" />
+				<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/{{ $site.Data.isos.info.Version }}/{{ $edition }}.jpg" />
 				<h1>Solus {{ $edition  }}</h1>
 				<h2>{{ $editionInfo.description }}</h2>
 				<div data-solus-component="edition-obtain">
