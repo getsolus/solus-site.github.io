@@ -61,9 +61,7 @@ With the latest changes to solus-hardware-config and our linux-lts package, we'l
 
 ### Multimedia Upgrades
 
-This snapshot delivers upgraded multimedia and sound system upgrades.
-
-For starters, we are now shipping with ffmpeg 3.2.4, including patches to VLC for ffmpeg 3 support. ffmpeg 3 features a large set of improvements, such as:
+This snapshot delivers upgraded multimedia libraries and a new Pulseaudio. We are now shipping with ffmpeg 3.2.4, including patches to VLC for ffmpeg 3 support. ffmpeg 3 features a large set of improvements, such as:
 
 - A native AAC encoder
 - New filters
@@ -83,7 +81,7 @@ All of our editions feature:
 
 - Firefox 52.0.2
 - Rhythmbox 3.4.1
-- Thunderbird 52.01
+- Thunderbird 52.0.1
 
 We also now ship with a default office suite across all editions, LibreOffice 5.3.2.2!
 
@@ -92,7 +90,7 @@ We also now ship with a default office suite across all editions, LibreOffice 5.
 Our Budgie and GNOME editions ship with GNOME MPV as the new default video player. GNOME MPV was chosen to be our new default for these two editions as it:
 
 - Fits into the general aesthetic of both Budgie and GNOME
-- In our opinion provides a simpler experience for simply watching video content
+- In our opinion provides a simpler experience for watching video content
 
 Our MATE edition will maintain the use of VLC, preserving a more traditional user experience.
 
@@ -100,7 +98,7 @@ Our MATE edition will maintain the use of VLC, preserving a more traditional use
 
 {{< altimg "/2017/04/Budgie.jpg" >}}
 
-This snapshot features the new Budgie 10.3 release. Budgie 10.3 is the last of our 10.x series, bringing the development of our GTK and Vala implementation of Budgie to a close, and opening the door for development of Budgie 11, which will be based on Qt 5.
+This snapshot features the new Budgie 10.3 release. Budgie 10.3 is the last major release of our 10.x series, bringing the development of our GTK and Vala implementation of Budgie to a close, and opening the door for development of Budgie 11, which will be based on Qt 5.
 
 ### Alt+Tab
 
