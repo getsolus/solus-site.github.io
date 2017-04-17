@@ -26,7 +26,7 @@ sync:
 	cp -R solus-styling/build/* themes/solus/static/css/
 	cp -R solbit/build/fonts themes/solus/static/css/
 	cp solbit/build/solbit*js themes/solus/static/js/
-	cp solus-webplatform-js/build/site.min.js themes/solus/static/js/
+	cp solus-webplatform-js/build/site*.min.js themes/solus/static/js/
 
 help:
 	@echo "deploy    - Create the deployed form of site. Not particularly useful for those not able to deploy the site."
