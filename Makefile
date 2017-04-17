@@ -23,7 +23,7 @@ sync:
 	mkdir -p themes/solus/static/imgs/help-center
 	find help-center-docs/* -maxdepth 0 ! -name "imgs" -type d -exec cp -Ru {} content/articles/ \;
 	cp -R help-center-docs/imgs/* themes/solus/static/imgs/help-center/
-	cp -R solus-styling/build/* themes/solus/static/css/
+	cp -R solus-styling/build/*.css themes/solus/static/css/
 	cp -R solbit/build/fonts themes/solus/static/css/
 	cp solbit/build/solbit*js themes/solus/static/js/
 	cp solus-webplatform-js/build/site*.min.js themes/solus/static/js/

@@ -1,3 +1,4 @@
+{{ $site := .Site }}
 <!-- Begnning of Metadata -->
 <head>
 <!-- Page Info -->
@@ -72,12 +73,21 @@
 <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1,user-scalable=no" />
 <meta property="og:site_name" content="Solus" />
 <meta property="og:locale" content="{{ .Site.Language.Lang }}" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/website.css" />
+{{ range readDir ("themes/solus/static/css") }}
+	{{ if and (hasPrefix .Name "website") (in .Name ".css") }}
+		<link rel="stylesheet" href="{{ $site.BaseURL }}css/{{ .Name }}" />
+	{{ end }}
+{{ end }}
+
 <link rel="icon" href="{{ .Site.BaseURL}}imgs/favicon.ico" />
 <link rel="sitemap" href="{{ .Site.BaseURL}}sitemap.xml" />
 <script type="text/javascript" src="{{ .Site.BaseURL}}js/highlight.min.js"></script>
 <script type="text/javascript" src="{{ .Site.BaseURL}}js/solbit.min.js"></script>
-<script type="text/javascript" src="{{ .Site.BaseURL}}js/site.min.js"></script>
+{{ range readDir ("themes/solus/static/js") }}
+	{{ if and (hasPrefix .Name "site") (in .Name ".min.js") }}
+		<script type="text/javascript" src="{{ $site.BaseURL}}js/{{ .Name }}"></script>
+	{{ end }}
+{{ end }}
 {{ .Hugo.Generator }}
 {{ if .RSSLink }}
 <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />

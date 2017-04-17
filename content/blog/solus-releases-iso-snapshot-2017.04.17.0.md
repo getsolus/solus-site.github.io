@@ -70,9 +70,7 @@ With the latest changes to solus-hardware-config and our linux-lts package, we'l
 
 This snapshot delivers upgraded multimedia libraries and a new Pulseaudio. We are now shipping with ffmpeg 3.2.4, including patches to VLC for ffmpeg 3 support. ffmpeg 3 features a large set of improvements, such as:
 
-- A native AAC encoder
 - New filters
-- VAAPI-accelerated H.264
 - VP9 hardware acceleration
 - Support for SDL2
 
