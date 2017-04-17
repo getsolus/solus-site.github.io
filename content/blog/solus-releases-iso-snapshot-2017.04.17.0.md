@@ -5,13 +5,13 @@ categories = [
 "News",
 "Releases"
 ]
-date = "2017-04-17T19:41:53+03:00"
+date = "2017-04-18T19:41:53+03:00"
 featuredimage = "/2017/04/Snapshot_Featured_Image.jpg"
-title = "Solus Releases ISO Snapshot 2017.04.17.0"
-url = "/2017/04/17/solus-releases-iso-snapshot-20170417-0"
+title = "Solus Releases ISO Snapshot 2017.04.18.0"
+url = "/2017/04/18/solus-releases-iso-snapshot-20170418-0"
 +++
 
-We're proud to announce our second ISO snapshot, 2017.04.17.0, across our Budgie and MATE editions, as well as our new GNOME edition!
+We're proud to announce our second ISO snapshot, 2017.04.18.0, across our Budgie and MATE editions, as well as our new GNOME edition!
 
 This snapshot is the culmination of months of work across nearly every aspect of our operating system, ranging from multiple under the hood upgrades and changes to improvements to our desktop experiences.
 
