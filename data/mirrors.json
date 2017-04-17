@@ -14,23 +14,23 @@
 		"Url": "http://solus.veatnet.de/iso/"
 	},
 	{
-		"Latitude": 6.1745,
+		"Latitude": -6.174465,
 		"Location": "Indonesia",
 		"Longitude": 106.8227,
 		"Type": "community",
 		"Url": "http://mirror.solus.id/"
 	},
 	{
-		"Latitude": 51.5074,
+		"Latitude": 51.507351,
 		"Location": "London",
-		"Longitude": 0.1278,
+		"Longitude": -0.127758,
 		"Type": "official",
 		"Url": "http://soluslond1iso.stroblindustries.com/"
 	},
 	{
 		"Latitude": 37.7749,
 		"Location": "San Francisco",
-		"Longitude": 122.4194,
+		"Longitude": -122.4194,
 		"Type": "official",
 		"Url": "http://solussf1iso.stroblindustries.com/"
 	}
