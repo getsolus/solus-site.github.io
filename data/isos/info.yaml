@@ -1,16 +1,16 @@
 Budgie:
     description: A feature-rich, luxurious desktop using the most modern technologies.
-    mediasize: 976MB
-    shasum: 9de286a8d1dc9c4f15c696a4d68a7f02a3a96eba3da29b5cc4d6264af436f123
+    mediasize: 1.2GB
+    shasum: e58aed6a66d25dda48e1fa920f484a2b20416cb5422ed4242cde15d6f061f28b
     torrent: http://linuxtracker.org/index.php?page=torrent-details&id=03476572364d397bef795c4ddce32e29c44de602
 GNOME:
     description: A contemporary desktop experience.
-    mediasize: 666MB
-    shasum: a07002244f62613342eedf6fc33861bae5972563abd417b185e6084817b350db
+    mediasize: 1.2GB
+    shasum: 07d4c0ac17f71dc17f526ec69a2a361dbd94986c36e752af4a72d31d8ce87620
     torrent: http://linuxtracker.org/index.php?page=torrent-details&id=afd60c363e3f1c3e30b5ec0fb3150ac424023e38
 MATE:
     description: A traditional desktop for advanced users and older hardware.
-    mediasize: 961MB
-    shasum: a07002244f62613342eedf6fc33861bae5972563abd417b185e6084817b350db
+    mediasize: 1.2GB
+    shasum: 3ee058ffc80b1e5a923ea5e5323574d52fdf3ff8b545a1a4e8270b57c4bca3f4
     torrent: http://linuxtracker.org/index.php?page=torrent-details&id=afd60c363e3f1c3e30b5ec0fb3150ac424023e38
 Version: 2017.04.18.0
