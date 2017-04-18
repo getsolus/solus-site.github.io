@@ -26,5 +26,12 @@
 		"Longitude": -122.4194,
 		"Type": "official",
 		"Url": "http://solussf1iso.stroblindustries.com/"
+	},
+	{
+		"Latitude": 40.712784,
+		"Location": "New York",
+		"Longitude": -74.005941,
+		"Type": "community",
+		"Url": "https://appealsblog.com/solus/"
 	}
 ]
