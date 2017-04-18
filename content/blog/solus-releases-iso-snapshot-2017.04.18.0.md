@@ -103,7 +103,7 @@ Our MATE edition will maintain the use of VLC, preserving a more traditional use
 
 {{< altimg "/2017/04/Budgie.jpg" >}}
 
-This snapshot features the new Budgie 10.3 release. Budgie 10.3 is the last major release of our 10.x series, bringing the development of our GTK and Vala implementation of Budgie to a close, and opening the door for development of Budgie 11, which will be based on Qt 5.
+This snapshot features the brand new Budgie 10.3.1 release. Budgie 10.3 is the last incarnation of the 10.x series, with only minor updates to the 10.3 releases being planned, and opening the door for development of the Qt 5-based Budgie 11.
 
 ### Alt+Tab
 
