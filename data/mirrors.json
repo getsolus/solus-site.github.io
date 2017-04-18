@@ -7,6 +7,13 @@
 		"Url": "http://stroblindustries.com/isos/"
 	},
 	{
+		"Latitude": 52.5200,
+		"Location": "Germany",
+		"Longitude": 13.4050,
+		"Type": "community",
+		"Url": "http://solus.veatnet.de/iso/"
+	},
+	{
 		"Latitude": 51.507351,
 		"Location": "London",
 		"Longitude": -0.127758,
