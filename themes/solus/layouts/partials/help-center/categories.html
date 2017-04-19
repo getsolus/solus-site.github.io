@@ -1,9 +1,9 @@
 {{ $categories := .Categories }}
 {{ $site := .Site }}
-<div data-solus-component="helpcenter-categories">
+<div data-solus="helpcenter-categories">
 	{{ range $categoryName, $categoryInfo := $categories }}
 		{{ $categoryURL := replace $categoryName "_" "-" }}
-		<a data-solus-component="helpcenter-category" href="{{ $site.BaseURL }}articles/{{ $categoryURL }}">
+		<a data-solus="helpcenter-category" href="{{ $site.BaseURL }}articles/{{ $categoryURL }}">
 			<img alt="{{ $categoryName }}" src="{{ $site.BaseURL }}imgs/help-center/categories/{{ $categoryURL }}.png" /><!-- Placeholder until I add the icons into Solbit font -->
 			<h1>{{ $categoryInfo.Title }}</h1>
 			<h2>{{ $categoryInfo.Description }}</h2>

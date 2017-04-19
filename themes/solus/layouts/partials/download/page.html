@@ -1,25 +1,25 @@
 {{ $site := .site }}
 {{ $content := .content }}
-<div data-solus-component="download-banner">
+<div data-solus="download-banner">
 	<h1>Install today. Updates forever.</h1>
 	<h2>Simply choose an edition!</h2>
 </div>
-<div data-solbit="content" data-solus-component="download-page">
-	<div data-solus-component="download-grid">
+<div data-solbit="content" data-solus="download-page">
+	<div data-solus="download-grid">
 		{{ range $edition := (slice "Budgie" "GNOME" "MATE") }}
 			{{ $editionInfo := (index $site.Data.isos.info $edition )}}
 			<!-- For each edition -->
-			<div data-solus-component="solus-edition">
+			<div data-solus="solus-edition">
 				<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/{{ $site.Data.isos.info.Version }}/{{ $edition }}.jpg" />
 				<h1>Solus {{ $edition  }}</h1>
 				<h2>{{ $editionInfo.description }}</h2>
-				<div data-solus-component="edition-obtain">
-					<section data-solus-component="solus-direct-download">
-						<div data-solus-component="buttongroup">
-							<div data-solbit="button" data-solbit-custom data-solbit-icon="pin" data-solus-component="solus-closest-download" data-solus-edition="{{ $edition }}" data-solus-version="{{ $site.Data.isos.info.Version }}">Closest</div>
-							<div data-solbit="button" data-solbit-custom data-solbit-icon="list" data-solbit-toggleable data-solus-component="solus-all-mirrors">All</div>
+				<div data-solus="edition-obtain">
+					<section data-solus="solus-direct-download">
+						<div data-solus="buttongroup">
+							<div data-solbit="button" data-solbit-custom data-solbit-icon="pin" data-solus="solus-closest-download" data-solus-edition="{{ $edition }}" data-solus-version="{{ $site.Data.isos.info.Version }}">Closest</div>
+							<div data-solbit="button" data-solbit-custom data-solbit-icon="list" data-solbit-toggleable data-solus="solus-all-mirrors">All</div>
 						</div>
-						<div data-solbit="list" data-solus-minor-component="solus-mirrors-list">
+						<div data-solbit="list" data-solus-type="solus-mirrors-list">
 							{{ range $item := $site.Data.mirrors }}
 								<div data-solbit="list-item">
 									{{ $fullurl := printf "%sSolus-%s-%s.iso" $item.Url $site.Data.isos.info.Version $edition | safeURL }}
@@ -28,7 +28,7 @@
 							{{ end }}
 						</div>
 					</section>
-					<section data-solus-minor-component="solus-extra-info">
+					<section data-solus-type="solus-extra-info">
 						Media Size: {{ $editionInfo.mediasize }}<br />
 						Alternative Download: <a href="{{ $editionInfo.torrent }}">Torrent</a><br />
 						{{ $sha256url := printf "http://soluslond1iso.stroblindustries.com/Solus-%s-%s.sha256sum" $site.Data.isos.info.Version $edition | safeURL }}
@@ -38,7 +38,7 @@
 			</div>
 		{{ end }}
 
-		<div data-solus-component="solus-download-info">
+		<div data-solus="solus-download-info">
 			<section>
 				{{ $content }}
 			</section>

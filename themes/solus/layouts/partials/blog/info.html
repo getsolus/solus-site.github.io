@@ -6,7 +6,7 @@
 
 	{{ if isset $blog.Params "categories" }}
 		<!-- Beginning of Post Info -->
-		<div data-solus-component="post-info">
+		<div data-solus="post-info">
 			<h1><a href="{{ $blog.Permalink }}">
 				{{ if isset $blog.Params "notitle" }}
 					{{ replace ($blog.Title) "'S" "'s" }}

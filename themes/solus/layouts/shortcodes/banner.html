@@ -4,9 +4,9 @@
 {{ $primaryButton := .Get "primary-button" }}
 {{ $secondaryButton := .Get "secondary-button" }}
 
-<div data-solus-component="banner"
+<div data-solus="banner"
 {{ with .Get "height" }}data-banner-height="{{ . }}"{{ end }}
-{{ with .Get "subclass" }} data-solus-minor-component="{{ . }}"{{ end }}>
+{{ with .Get "subclass" }} data-solus-type="{{ . }}"{{ end }}>
 	<section>
 		{{ if isset .Params "centerimage" }}
 			{{ $centerimage := .Get "centerimage"}}

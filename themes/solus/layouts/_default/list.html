@@ -10,8 +10,8 @@
 				{{ $firstBlog := (index $blogPosts 0) }}
 				{{ if and (isset $firstBlog.Params "featuredimage") (ne $firstBlog.Params.featuredimage "") }}
 					<!-- Beginning of Featured Blog Post -->
-					<div data-solus-component="featured-blog-post">
-						<div data-solus-minor-component="featured-blog-info">
+					<div data-solus="featured-blog-post">
+						<div data-solus-type="featured-blog-info">
 							{{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
 							{{ if ge (len $firstBlog.Summary) 397 }}
 								<p>{{- safeHTML (substr $firstBlog.Summary 0 397) -}}...</p>

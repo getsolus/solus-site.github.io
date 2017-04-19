@@ -1,8 +1,8 @@
 {{ $site := .Site }}
 <!-- Beginning of Budgie applets partial -->
-<div data-solus-component="banner"
+<div data-solus="banner"
 data-banner-height="tall"
-data-solus-minor-component="budgie-applets-view">
+data-solus-type="budgie-applets-view">
 	<section>
 		<h1>Customizable. Extensible.</h1>
 		<p>Customizing your desktop has never been simpler. Right from Raven, you are able to customize and extend Budgie to meet your needs!
@@ -10,10 +10,10 @@ data-solus-minor-component="budgie-applets-view">
 		</p>
 		{{ range $appletsVia := (slice "official" "community") }}
 			<h2>{{ $appletsVia | title}}</h2>
-			<div data-solus-minor-component="budgie-applet-list">
+			<div data-solus-type="budgie-applet-list">
 				{{ $applets := (index $site.Data.applets $appletsVia) }}
 				{{ range $applets }}
-					<div data-solus-minor-component="budgie-applet">
+					<div data-solus-type="budgie-applet">
 						<span>
 							{{ partial "altimg.html" (dict "image" .Icon "dir" "/imgs/icons/applets/" ) }}
 							<b>{{ .Name }}</b>
