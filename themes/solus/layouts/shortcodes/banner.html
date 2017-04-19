@@ -26,8 +26,7 @@
 					{{ if (ne $button "") }}
 						{{ $buttonInfo := (split $button "|") }}
 						{{ $buttonURL := index $buttonInfo 0 }}
-						{{ $buttonName := index $buttonInfo 1 }}
-						{{ $buttonName := i18n (lower $buttonName) | default $buttonName }}
+						{{ $buttonName := title (index $buttonInfo 1) }}
 
 						{{ if eq $buttonURL "paypal" }}
 							<form action="https://www.paypal.com/cgi-bin/webscr" method="post">

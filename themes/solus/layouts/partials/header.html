@@ -6,7 +6,7 @@
 	<section>
 		{{ $menus := index $site.Params.menus "main" }}
 		{{ range $id := $menus}}
-			{{ $name := i18n $id }}
+			{{ $name := title (replace $id "_" " ") }}
 			{{ $url := index $site.Params.menuurls $id }}
 			{{ if hasPrefix $url "http" }}
 				<a href="{{ safeURL $url }}">{{ $name }}</a>

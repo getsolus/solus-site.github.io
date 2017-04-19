@@ -4,7 +4,7 @@
 	<div data-solbit="full-width-box">
 		{{ $menus := index $site.Params.menus "main" }}
 		{{ range $id := $menus}}
-			{{ $name := i18n $id }}
+			{{ $name := title (replace $id "_" " ")}}
 			{{ $url := index $site.Params.menuurls $id }}
 			<span>
 				{{ if hasPrefix $url "http" }}

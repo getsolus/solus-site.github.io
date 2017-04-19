@@ -2,7 +2,7 @@
 <!-- Begnning of Metadata -->
 <head>
 <!-- Page Info -->
-{{ $pageTitle := i18n (lower .Title) | default (title .Title) }}
+{{ $pageTitle := title .Title }}
 {{ if ne .Section "articles"}}
 	{{ if isset .Params "notitle" }}
 		<title>{{ .Title }} | Solus</title>

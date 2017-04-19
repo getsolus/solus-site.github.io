@@ -1,11 +1,11 @@
 {{ $site := .Site }}
 <!-- Beginning of Categories -->
 <div data-solbit="full-width-box">
-    <h3>{{ i18n "categories" }}</h3>
+    <h3>Categories</h3>
     {{ range $category := $site.Params.category }}
 		{{ $categoryURL := printf "categories/%s" $category | absLangURL }}
         <span>
-            <a href="{{ $categoryURL }}">{{ i18n $category }}</a>
+            <a href="{{ $categoryURL }}">{{ title $category }}</a>
             <a href="{{ $categoryURL}}/index.xml" data-solbit-icon="rss"></a>
         </span>
     {{ end }}
