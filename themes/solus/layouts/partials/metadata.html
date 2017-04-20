@@ -2,7 +2,7 @@
 <!-- Begnning of Metadata -->
 <head>
 <!-- Page Info -->
-{{ $pageTitle := title .Title }}
+{{ $pageTitle := title (replace .Title "_" " ") }}
 {{ if ne .Section "articles"}}
 	{{ if isset .Params "notitle" }}
 		<title>{{ .Title }} | Solus</title>
