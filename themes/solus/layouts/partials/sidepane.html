@@ -10,7 +10,7 @@
 				{{ if hasPrefix $url "http" }}
 					<a href="{{ safeURL $url }}">{{ $name }}</a>
 				{{ else }}
-					<a href="{{ $url | absLangURL }}">{{ $name }}</a>
+					<a href="{{ $url | absURL }}">{{ $name }}</a>
 				{{ end }}
 			</span>
 		{{ end }}

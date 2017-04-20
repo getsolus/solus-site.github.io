@@ -23,9 +23,9 @@ theme = "solus"
 	userguide = "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
 
 [params.menus]
-	main = [ "home", "blog", "download", "support_us", "help", "budgie", "store", "press"]
+	main = [ "home", "blog", "download", "support_us", "help", "solus", "store", "press"]
 	footer = [ "solus", "social", "support", "press"]
-	solus = [ "download" ]
+	solus = [ "overview", "download", "experiences", "technologies" ]
 	social = [ "facebook", "google_plus", "reddit", "twitter"]
 	support = ["dev_tracker", "forums", "google_plus_community", "help_center", "irc"]
 	press = ["press_center", "branding"]
@@ -37,6 +37,7 @@ theme = "solus"
 	budgie = "budgie"
 	dev_tracker = "https://dev.solus-project.com"
 	download = "download"
+	experiences = "/solus/experiences"
 	facebook = "https://facebook.com/get.solus"
 	forums = "https://solus-project.com/forums"
 	google_plus = "https://plus.google.com/u/0/+Solus-Project"
@@ -44,11 +45,14 @@ theme = "solus"
 	help = "help-center/home"
 	help_center = "help-center/home"
 	irc = "/articles/contributing/getting-involved/en/#irc"
+	overview = "/solus/about"
 	press = "press-center"
 	press_center = "press-center"
 	reddit = "https://reddit.com/r/SolusProject"
+	solus = "/solus/about"
 	store = "http://www.unixstickers.com/stickers/software_stickers/solus-linux-shaped-sticker"
 	support_us = "support"
+	technologies = "/solus/technologies"
 	twitter = "https://twitter.com/SolusProject"
 
 ###### Blackfriday Markdown Tweaks

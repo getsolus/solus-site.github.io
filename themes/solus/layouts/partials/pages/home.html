@@ -1,0 +1,17 @@
+{{ $site := .site }}
+{{ partial "banners/solus.html" (dict "title" .title) }}
+{{ partial "banners/designed-for-everyone.html" }}
+<div data-solus="solus-apps">
+	<div data-solus="solus-apps-content">
+		<h1>Ready to go.</h1>
+		<p>Solus ships with a variety of software out of the box so you can get going without a lot of setup fuss. See our selection of default applications below!</p>
+		<div data-solus="solus-apps-list">
+			{{ range $app, $info := $site.Data.apps }}
+				<section>
+					<img src="{{ $site.BaseURL }}/imgs/icons/apps/{{ lower $app }}.png" />
+					<p>{{ $info.description }}</p>
+				</section>
+			{{ end }}
+		</div>
+	</div>
+</div>

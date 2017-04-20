@@ -6,12 +6,16 @@
 		{{ partial "sidepane.html" . }}
 		<div data-solbit="main" {{ if eq .Title "download"}}data-solbit-flexcol{{end}}>
 			{{ partial "header.html" . }}
-			{{ if eq .Title "download"}}
-				{{ partial "download/page.html" (dict "site" .Site "content" .Content) }}
+			{{ if eq .Title "home"}}
+				{{ partial "pages/home.html" (dict "site" .Site "title" .Title) }}
+			{{ else if eq .Title "download"}}
+				{{ partial "pages/download.html" (dict "site" .Site "content" .Content) }}
 			{{ else if  eq .Title "branding"}}
-				{{ partial "branding/page.html" (dict "site" .Site "content" .Content) }}
+				{{ partial "pages/branding.html" (dict "site" .Site "content" .Content) }}
 			{{ else if eq .Title "press_center" }}
-				{{ partial "press-center/page.html" (dict "page" . "content" .Content) }}
+				{{ partial "pages/press-center.html" (dict "page" . "content" .Content) }}
+			{{ else if eq .Title "support_us" }}
+				{{ partial "pages/support-us.html" }}
 			{{ else }}
 				{{ .Content }}
 			{{ end }}
