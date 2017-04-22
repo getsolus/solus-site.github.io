@@ -1,16 +1,17 @@
 {{ $title := .title }}
-<div data-solus="banner" data-solus-type="solus">
-	<section>
+<div data-solus="banner" data-solus-type="solus" data-solbit-flexrow>
+	<img src="{{ .Site.BaseURL }}/imgs/banners/solus/laptop.png" />
+	<section data-solus-type="center-text" data-solbit-flexcol>
 		<h1>Solus</h1>
 		<p>
 			Solus is an operating system that is designed for home computing.
 			Every tweak enabling us to deliver a cohesive computing experience.
 		</p>
-		<span>
+		<span data-solbit-flexrow>
 			{{ if eq $title "home"}}
-				<a data-solbit="button" href="/solus" data-solbit-size="large" data-solbit-enfsize>Learn More</a>
+				<a data-solbit="button" href="/solus/about" data-solbit-size="large" data-solus-custom data-solbit-enfsize>Learn More</a>
 			{{ end }}
-			<a data-solbit="button" href="/download" data-solbit-size="large" data-solbit-enfsize>Download</a>
+			<a data-solbit="button" href="/download" data-solbit-size="large" data-solus-custom data-solbit-enfsize>Download</a>
 		</span>
 	</section>
 </div>

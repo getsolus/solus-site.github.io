@@ -1,20 +1,20 @@
 {{ $site := .Site }}
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
-{{ partial "metadata.html" . }}
+	{{ partial "metadata.html" . }}
 	<body>
 		{{ partial "sidepane.html" . }}
 		<div data-solbit="main" {{ if eq .Title "download"}}data-solbit-flexcol{{end}}>
 			{{ partial "header.html" . }}
-			{{ if eq .Title "home"}}
+			{{ if eq .URL "/home/"}}
 				{{ partial "pages/home.html" (dict "site" .Site "title" .Title) }}
-			{{ else if eq .Title "download"}}
+			{{ else if eq .URL "/download/" }}
 				{{ partial "pages/download.html" (dict "site" .Site "content" .Content) }}
-			{{ else if  eq .Title "branding"}}
+			{{ else if  eq .URL "/branding/" }}
 				{{ partial "pages/branding.html" (dict "site" .Site "content" .Content) }}
-			{{ else if eq .Title "press_center" }}
+			{{ else if eq .URL "/press-center/" }}
 				{{ partial "pages/press-center.html" (dict "page" . "content" .Content) }}
-			{{ else if eq .Title "support_us" }}
+			{{ else if eq .URL "/support/" }}
 				{{ partial "pages/support-us.html" }}
 			{{ else }}
 				{{ .Content }}
