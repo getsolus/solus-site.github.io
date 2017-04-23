@@ -17,7 +17,9 @@ setup:
 	mkdir -p themes/solus/static/imgs/help-center
 
 sync:
-	git submodule update --remote --rebase
+	rm -rf solus-styling
+	git submodule sync
+	git submodule update --force --recursive --remote --rebase
 	mkdir -p themes/solus/static/{css,js}
 	mkdir -p themes/solus/static/imgs/help-center
 	find help-center-docs/* -maxdepth 0 ! -name "imgs" -type d -exec cp -Ru {} content/articles/ \;
