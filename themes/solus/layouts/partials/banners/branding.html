@@ -1,0 +1,12 @@
+{{ $site := .site }}
+<div data-solus="banner" data-solus-type="branding" data-solbit-flexcol>
+	<h1>Branding</h1>
+	<div data-solus="brands">
+		{{ range $brand := (slice "solus" "budgie") }}
+			<div data-solus="brand-item">
+				{{ partial "altimg.html" (dict "dir" "/imgs/" "image" (printf "%s.png" $brand)) }}
+				<a data-solbit="button" data-solus-custom data-solbit-size="large" href="{{ printf "%sassets/%s.zip" $site.BaseURL $brand }}" target="_blank">Download</a>
+			</div>
+		{{ end }}
+	</div>
+</div>
