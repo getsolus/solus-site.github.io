@@ -1,0 +1,15 @@
+{{ $site := .site}}
+<div data-solus="banner" data-solus-type="ready-to-go" data-solbit-flexcol>
+	<section data-solus-type="center-text">
+		<h1>Ready to go.</h1>
+		<p>Solus ships with a variety of software out of the box so you can get going without a lot of setup fuss. See our selection of default applications below!</p>
+	</section>
+	<div data-solus="solus-apps-list">
+		{{ range $app, $info := $site.Data.apps }}
+			<section data-solbit-flexrow>
+				<img src="{{ $site.BaseURL }}/imgs/icons/apps/{{ lower $app }}.png" />
+				<p>{{ $info.description }}</p>
+			</section>
+		{{ end }}
+	</div>
+</div>
