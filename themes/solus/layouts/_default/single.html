@@ -14,6 +14,8 @@
 				{{ partial "pages/branding.html" (dict "site" .Site "content" .Content) }}
 			{{ else if eq .URL "/press-center/" }}
 				{{ partial "pages/press-center.html" (dict "page" . "content" .Content) }}
+			{{ else if eq .URL "/solus/about/" }}
+				{{ partial "pages/solus/about.html" (dict "site" .Site "title" .Title) }}
 			{{ else if eq .URL "/support/" }}
 				{{ partial "pages/support-us.html" }}
 			{{ else }}

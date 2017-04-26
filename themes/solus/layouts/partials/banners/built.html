@@ -1,10 +1,12 @@
-<div data-solus="banner" data-solus-type"built">
+{{ $site := .site }}
+<div data-solus="banner" data-solus-type="built">
 	<section>
 		<h1>Built for people like you, by people like you.</h1>
 		<p>Solus is created by and for the community, leveraging a broad open source ecosystem and building upon GNU/Linux and other key technologies.</p>
-		<span>
+		<span data-solbit-flexrow>
 			<a data-solbit="button" href="/articles/contributing/getting-involved/en/" data-solbit-size="large" data-solbit-enfsize>Get Involved</a>
-			<a data-solbut="button" href="/solus/technologies" data-solbit-size="large" data-solbit-enfsize>Technologies</a>
+			<a data-solbit="button" href="/solus/technologies" data-solbit-size="large" data-solbit-enfsize>Technologies</a>
 		</span>
 	</section>
+	<img src="{{ $site.BaseURL }}/imgs/heart.png" />
 </div>
