@@ -4,6 +4,7 @@ categories = [
 "News",
 "Releases"
 ]
+date =  "2015-08-10T20:57:38Z"
 title = "All your drums are belong to us"
 url = "/2015/08/10/all-your-drums-are-belong-to-us/"
 +++

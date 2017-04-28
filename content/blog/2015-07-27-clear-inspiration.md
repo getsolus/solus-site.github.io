@@ -4,7 +4,6 @@ categories = [
 "News"
 ]
 date =  "2015-07-27T20:57:38Z"
-
 title = "Clear Inspiration"
 url = "/2015/07/27/clear-inspiration/"
 +++
