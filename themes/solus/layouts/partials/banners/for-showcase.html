@@ -1,7 +1,7 @@
 {{ $site := .site }}
 {{ $class := .class }}
 
-<div data-solus="banner" data-solus-type="for-showcase" class="{{ $class }}" data-solbit-flexrow>
+<div data-solus="banner" data-solus-type="for-showcase" class="{{ $class }}" data-solbit-flexcol>
 	{{ $bannerInfo := index $site.Data.banner (replace $class "-" "") }}
 	<section>
 		<h1>{{ $bannerInfo.Header }}</h1>
@@ -9,7 +9,7 @@
 	</section>
 	<div data-solus="for-showcase-items">
 		{{ range $item, $description := $bannerInfo.Items }}
-			<section>
+			<section data-solbit-flexrow>
 				<img src="{{ $site.BaseURL }}/imgs/icons/banner-items/{{ $item }}.png" />
 				<p>{{ $description }}</p>
 			</section>
