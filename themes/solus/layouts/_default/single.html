@@ -6,18 +6,10 @@
 		{{ partial "sidepane.html" . }}
 		<div data-solbit="main" {{ if eq .Title "download"}}data-solbit-flexcol{{end}}>
 			{{ partial "header.html" . }}
-			{{ if eq .URL "/home/"}}
-				{{ partial "pages/home.html" (dict "site" .Site "title" .Title) }}
-			{{ else if eq .URL "/download/" }}
-				{{ partial "pages/download.html" (dict "site" .Site "content" .Content) }}
-			{{ else if  eq .URL "/branding/" }}
-				{{ partial "pages/branding.html" (dict "site" .Site "content" .Content) }}
-			{{ else if eq .URL "/press-center/" }}
-				{{ partial "pages/press-center.html" (dict "page" . "content" .Content) }}
-			{{ else if eq .URL "/solus/about/" }}
-				{{ partial "pages/solus/about.html" (dict "site" .Site "title" .Title) }}
-			{{ else if eq .URL "/support/" }}
-				{{ partial "pages/support-us.html" }}
+			{{ $proposedPage := printf "pages%s.html" (substr .URL 0 -1) }}
+			{{ $partial := printf "themes/solus/layouts/partials/%s" $proposedPage }}
+			{{ if ne (default "does-not-exist" (readFile $partial)) "does-not-exist" }}
+				{{ partial $proposedPage (dict "page" . "site" .Site "title" .Title "content" .Content) }}
 			{{ else }}
 				{{ .Content }}
 			{{ end }}
