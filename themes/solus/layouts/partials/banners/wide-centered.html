@@ -1,0 +1,11 @@
+{{ $site := .site }}
+{{ $class := .class}}
+
+<div data-solus="banner" data-solus-type="wide-centered" class="{{ $class }}" data-solbit-flexrow>
+	<section data-solus-type="center-text">
+		{{ $bannerInfo := index $site.Data.banner (replace $class "-" "") }}
+		<h1>{{ $bannerInfo.Header }}</h1>
+		<p>{{ $bannerInfo.Content }}</p>
+	</section>
+	<img src="{{ $site.BaseURL }}/imgs/banners/solus/{{ $class }}.jpg" />
+</div>

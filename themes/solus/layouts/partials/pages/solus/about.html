@@ -1,3 +1,6 @@
 {{ partial "banners/solus.html" (dict "title" .title) }}
-{{ partial "banners/designed-for-everyone.html" }}
 {{ partial "banners/built.html" (dict "site" .site) }}
+{{ partial "banners/wide-centered.html"  (dict "site" .site "class" "home-or-office") }}
+{{ partial "banners/for-showcase.html" (dict "site" .site "class" "developers") }}
+{{ partial "banners/wide-centered.html"  (dict "site" .site "class" "content-creators") }}
+{{ partial "banners/for-showcase.html" (dict "site" .site "class" "gamers") }}
