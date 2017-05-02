@@ -1,0 +1,33 @@
+{{ $site := .site }}
+<div data-solus="banner" data-solus-type="mini" class="experiences" data-solbit-flexrow>
+	<section data-solus-type="center-text">
+		<h1>Experiences</h1>
+		<p>Solus provides a multitude of experiences that enable you to get the most out of your hardware.</p>
+	</section>
+</div>
+<div data-solus="experiences" data-solbit-flexcol>
+	{{ range $name, $experienceInfo := $site.Data.experience }}
+		<div data-solus="experience" data-solus-type="{{ $name }}">
+			{{ $releaseImage := replace $experienceInfo.image "LATEST_RELEASE" (index $site.Data.isos.info "Version") }}
+			<img src="{{$site.BaseURL}}/imgs/{{ $releaseImage }}" />
+			<div data-solus="experience-content" data-solbit-flexcol>
+				<div data-solus="experience-header">
+					<h1>{{ $experienceInfo.header }}</h1>
+					<p>{{ $experienceInfo.description }}</p>
+				</div>
+				<section>
+					{{ $differentiators := index $experienceInfo "differentiators" }}
+					{{ range $differentiator := $differentiators }}
+						<span>
+							<h2>{{ $differentiator.header }}</h2>
+							{{ $paragraphs := split $differentiator.description "\n" }}
+							{{ range $paragraph := $paragraphs }}
+								<p>{{ chomp $paragraph }}</p>
+							{{ end }}
+						</span>
+					{{ end }}
+				</section>
+			</div>
+		</div>
+	{{ end }}
+</div>
