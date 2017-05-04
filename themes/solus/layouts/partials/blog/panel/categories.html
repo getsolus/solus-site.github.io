@@ -5,7 +5,7 @@
     {{ range $category := $site.Params.category }}
 		{{ $categoryURL := printf "categories/%s" $category | absLangURL }}
         <span>
-            <a href="{{ $categoryURL }}">{{ title $category }}</a>
+            <a href="{{ $categoryURL }}">{{ if ne $category "twis" }}{{ title $category }}{{ else  }}TWIS{{ end }}</a>
             <a href="{{ $categoryURL}}/index.xml" data-solbit-icon="rss"></a>
         </span>
     {{ end }}

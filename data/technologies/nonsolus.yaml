@@ -1,0 +1,15 @@
+GNOME_Project:
+    description: We utilize software from the GNOME Project for a wide set of functionality across Solus, ranging from Budgie's window manager to the file manager in our main edition. Graphical tools such as DoFlicky, Linux Steam Integration, and our Software Center are built upon GTK.
+    url: https://gnome.org
+GNU_Project:
+    description: Many projects from the GNU Project are used in Solus, such as GCC (GNU Compiler Collection), the GNU Build System, the Bash command-line interpreter, and GNU GRUB for the bootloader on legacy systems.
+    url: http://gnu.org
+Linux:
+    description: The Linux kernel is a fundamental part of Solus' stack, enabling hardware support, networking, CPU and IO scheduling, filesystems such as ext4, and more.
+    url: https://www.kernel.org/
+XOrg_project:
+    description: We leverage X.Org Server, an open source display server, as well as its graphics and input drivers.
+    url: https://www.x.org/wiki/
+systemd:
+    description: systemd to used in Solus to manage services and the system. It offers the ability to keep track of processes, handle daemons, control mounts, and more.
+    url: https://www.freedesktop.org/wiki/Software/systemd/

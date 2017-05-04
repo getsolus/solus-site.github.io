@@ -1,0 +1,15 @@
+{{ $site := .site }}
+<div data-solus="banner" data-solus-type="mini" class="technologies">
+	<section data-solus-type="center-text">
+		<h1>Open Source</h1>
+		<p>
+			Solus is built upon and extends the incredible work done by a broad open source community, actively engaging in and developing various projects under free software / open source software licenses.
+		</p>
+	</section>
+</div>
+<div data-solus="technologies-list">
+	<!-- Our Projects -->
+	{{ partial "technologies/list.html" (dict "title" "Our projects" "list" $site.Data.technologies.solus) }}
+	<!-- Projects and software we're built upon -->
+	{{ partial "technologies/list.html" (dict "title" "Projects we're built upon." "list" $site.Data.technologies.nonsolus) }}
+</div>

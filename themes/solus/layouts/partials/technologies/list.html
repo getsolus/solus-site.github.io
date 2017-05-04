@@ -1,0 +1,38 @@
+{{ $title := .title }}
+{{ $list := .list }}
+<div data-solbit="list" data-solus-type="technologies" {{ if eq $title "Our projects" }}class="our-projects"{{ end }}data-solbit-flexcol>
+	<div data-solus="list-header">
+		<section>{{ $title }}</section>
+		{{ if eq $title "Our projects" }}
+			<div data-solbit="button" data-solbit-custom data-solbit-toggleable data-solus="solus-our-projects" data-solbit-flexrow>
+				<div data-solbit-icon="list"></div>
+				Filter
+			</div>
+			<div data-solbit="list" data-solus-type="solus-our-projects-filterlist" data-solbit-flexcol>
+				<div data-solbit="list-item" data-solbit-flexrow data-solus-type="all">
+					<div data-solbit-icon="menu"></div>
+					All
+				</div>
+				<div data-solbit="list-item" data-solbit-flexrow data-solus-type="desktop">
+					<div data-solbit-icon="desktop"></div>
+					Desktop
+				</div>
+				<div data-solbit="list-item" data-solbit-flexrow data-solus-type="tooling">
+					<div data-solbit-icon="tooling"></div>
+					Tooling
+				</div>
+				<div data-solbit="list-item" data-solbit-flexrow data-solus-type="other">
+					<div data-solbit-icon="other"></div>
+					Other
+				</div>
+			</div>
+		{{ end}}
+	</div>
+	{{ range $key, $data := $list }}
+		{{ $projectName := replace $key "_" " " }}
+		<div data-solbit="list-item" data-solbit-flexcol {{ if ne $data.type nil }}data-solus-type="{{ $data.type }}"{{ end }}>
+			<a href="{{ $data.url }}" target="_blank">{{ $projectName }}</a>
+			<p>{{ $data.description }}</p>
+		</div>
+	{{ end }}
+</div>
