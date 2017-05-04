@@ -20,7 +20,8 @@ sync:
 	rm -rf solus-styling
 	git submodule sync
 	git submodule update --force --recursive --remote --rebase
-	mkdir -p themes/solus/static/{css,js}
+	mkdir -p themes/solus/static/css/fonts
+	mkdir -p themes/solus/static/js
 	mkdir -p themes/solus/static/imgs/help-center
 	find help-center-docs/* -maxdepth 0 ! -name "imgs" -type d -exec cp -Ru {} content/articles/ \;
 	cp -R help-center-docs/imgs/* themes/solus/static/imgs/help-center/
