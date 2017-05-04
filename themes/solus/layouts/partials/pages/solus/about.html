@@ -1,5 +1,10 @@
-{{ partial "banners/solus.html" (dict "title" .title) }}
-{{ partial "banners/designed-for-everyone.html" }}
+<div data-solus="banner" data-solus-type="mini" data-solbit-flexrow>
+	<section data-solus-type="center-text">
+		<h1>The Personal OS for Personal Computers</h1>
+		<p>A modern operating system to power your daily needs. Install today, update forever.</p>
+	</section>
+</div>
+
 {{ partial "banners/built.html" (dict "site" .site) }}
 {{ partial "banners/wide-centered.html"  (dict "site" .site "class" "home-or-office") }}
 {{ partial "banners/for-showcase.html" (dict "site" .site "class" "developers") }}
