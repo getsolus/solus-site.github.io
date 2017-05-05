@@ -1,7 +1,7 @@
 files:
     description: Easily manage all your documents, music, photos, videos, and more with Files.
 firefox:
-    description: We ship with Mozilla Firefox, a fast and secure web browser.
+    description: We ship with Mozilla Firefox*, a fast and secure web browser.
 gnome_mpv:
     description: Pop some popcorn and sit down to watch your DVDs, Blu-Rays, or digital media via GNOME MPV.
 rhythmbox:
@@ -9,4 +9,4 @@ rhythmbox:
 sc:
     description: No more hunting around for apps! Install and manage them right from our Software Center.
 thunderbird:
-    description: Take the hassle out of email by using the simple yet feature-rich Mozilla Thunderbird.
+    description: Take the hassle out of email by using the simple yet feature-rich Mozilla Thunderbird*.
