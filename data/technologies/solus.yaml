@@ -26,10 +26,6 @@ MATE_Notification_Theme_Slate:
     description: A MATE Notification theme, emulating the Arc-styled Budgie notifications of Solus.
     type: desktop
     url: https://github.com/solus-project/mate-notification-theme-slate
-Solus_Icon_Theme:
-    description: The official icon set of the Solus Project.
-    type: desktop
-    url: https://github.com/solus-project/solus-icon-theme
 Solus_Software_Center:
     description: Software Center of Solus.
     type: desktop
