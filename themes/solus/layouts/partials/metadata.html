@@ -62,6 +62,10 @@
 
 {{ if or (eq .Section "articles") (eq .Section "help-center") }}
 	<meta name="keywords" content="ask solus, asksolus, help center, wiki, {{ $generalMetaTags }}, {{ $metaCompliantPageTitle }}" />
+{{ else if and (eq .Section "blog") (hasPrefix .URL "/blog/") }}
+	{{ $blogPosts := .Paginator.Pages }}
+	{{ $firstBlog := (index $blogPosts 0) }}
+	<link rel="prefetch" content="{{ absURL $firstBlog.URL }}" />
 {{ else }}
 	<meta name="keywords" content="{{ $generalMetaTags }}, {{ $metaCompliantPageTitle }}" />
 {{ end }}
