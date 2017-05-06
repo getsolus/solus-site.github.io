@@ -7,7 +7,9 @@
 	<div data-solus="solus-apps-list">
 		{{ range $app, $info := $site.Data.apps }}
 			<section data-solbit-flexrow>
-				<img src="{{ $site.BaseURL }}/imgs/icons/apps/{{ lower $app }}.png" />
+				{{ $altName := replace $app "_" " "}}
+				{{ $altName := replace (title $altName) "Mpv" "MPV" }}
+				<img alt="{{ $altName }}" src="{{ $site.BaseURL }}/imgs/icons/apps/{{ lower $app }}.png" />
 				<p>{{ $info.description }}</p>
 			</section>
 		{{ end }}
