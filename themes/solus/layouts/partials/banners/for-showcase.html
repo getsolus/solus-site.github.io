@@ -10,7 +10,7 @@
 	<div data-solus="for-showcase-items">
 		{{ range $item, $description := $bannerInfo.Items }}
 			<section data-solbit-flexrow>
-				<img src="{{ $site.BaseURL }}/imgs/icons/banner-items/{{ $item }}.png" />
+				<img class="{{ $item }}" src="{{ $site.BaseURL }}/imgs/icons/banner-items/{{ $item }}.png" />
 				<p>{{ $description }}</p>
 			</section>
 		{{ end }}
