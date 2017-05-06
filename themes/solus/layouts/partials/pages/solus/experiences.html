@@ -9,7 +9,7 @@
 	{{ range $name, $experienceInfo := $site.Data.experience }}
 		<div data-solus="experience" data-solus-type="{{ $name }}">
 			{{ $releaseImage := replace $experienceInfo.image "LATEST_RELEASE" (index $site.Data.isos.info "Version") }}
-			<img src="{{$site.BaseURL}}/imgs/{{ $releaseImage }}" />
+			<img alt="{{ $experienceInfo.header }}" src="{{$site.BaseURL}}/imgs/{{ $releaseImage }}" />
 			<div data-solus="experience-content" data-solbit-flexcol>
 				<div data-solus="experience-header">
 					<h1>{{ $experienceInfo.header }}</h1>
