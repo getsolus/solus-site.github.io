@@ -65,7 +65,7 @@
 {{ else if and (eq .Section "blog") (hasPrefix .URL "/blog/") }}
 	{{ $blogPosts := .Paginator.Pages }}
 	{{ $firstBlog := (index $blogPosts 0) }}
-	<link rel="prefetch" content="{{ absURL $firstBlog.URL }}" />
+	<link rel="prefetch" href="{{ absURL $firstBlog.URL }}" />
 {{ else }}
 	<meta name="keywords" content="{{ $generalMetaTags }}, {{ $metaCompliantPageTitle }}" />
 {{ end }}
