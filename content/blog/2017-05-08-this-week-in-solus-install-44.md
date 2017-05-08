@@ -40,6 +40,13 @@ Furthermore, I'll be implementing the MP3 and OGG podcast feeds in preparation f
 
 ## Other Goodies
 
+### ABI Reports
+
+{{< altimg "2017/05/abi-reports.jpg" >}}
+*This goes on for several pages.*
+
+Peter spent time before our migration to Diffusion and Differential generating the ABI reports for over **500** packages. These reports give us a clear picture of all the used libraries of a package as well as what ABI / APIs they expose, which makes it easy to spot changes across upgrades or tweaks to packages and come to a determination as to whether we'll need to rebuild packages that depend on it.
+
 ### Bluetooth
 
 {{< altimg "2017/05/creative-t3250.jpg" >}}
@@ -84,12 +91,17 @@ Despite a repo freeze that occurred Friday and some of Saturday, quite a few new
 - [calibre 2.84.0](https://dev.solus-project.com/R485:da4d8f37f9436ecf22dca49117c555da1ec54deb)
 - [corebird 1.5](https://dev.solus-project.com/R558:7e2c52685763d98a331d60599b27bd7b388ef0fa)
 - [cmake 3.8.1](https://dev.solus-project.com/R535:c4139dbb8479f9166189b1bb021983da893e9bbc)
+- [epiphany 3.24.2](https://dev.solus-project.com/R707:2f76a254066d880caa4dcec713613afa1676844d)
+- [evolution 3.24.2](https://dev.solus-project.com/R716:4c46e7ac8972d9c4ea0729c8e7a0d546c3ed1d75)
+- [evolution-data-server 3.24.2](https://dev.solus-project.com/R717:abbc12e80def78c14d3a1189ac9c9887641a87f9)
+- [evolution-ews 3.24.2](https://dev.solus-project.com/R718:4332c71ede6078643464ab0f3b285a02e3092241)
 - [flatpak 0.9.3](https://dev.solus-project.com/R766:0bad1352101aa816dae29a585b38a1d8f4e9ae47)
 - [firefox 53.0.2](https://dev.solus-project.com/R755:360d8fc632717e6411877ef43981bc13309fbd6f)
 - [fuse-emulator 1.3.5](https://dev.solus-project.com/R862:77085a091be6a9f249cbfe16a331fdcd2d648adf)
 - [fzf 0.16.7](https://dev.solus-project.com/R864:16ae416a7ccb9164f123fb127cf56257877f8f2c)
 - [gjs 1.48.3](https://dev.solus-project.com/R916:c7d881f1ef55f0d245cee55d98898f2dd2262f18)
 - [gnome-disk-utility 3.24.1](https://dev.solus-project.com/R959:461971afa3bf75939b9babb18012c4c640d35583)
+- [gnome-maps 3.24.2](https://dev.solus-project.com/R971:d47e960d2fbca148254abf5b82ca480e3db4d751)
 - [gparted 0.28.1](https://dev.solus-project.com/R1042:4b86f007fc1add11270e1589c8748ce0952e069a)
 - [ibus-libpinyin 1.9.0](https://dev.solus-project.com/R1449:311743ea5b3ff6fa33103ec673d59f71a492c83e)
 - [icoutils 0.31.3](https://dev.solus-project.com/R1456:fc4d27da8cf84332697d2badd4bcf8ee4690bf59)
@@ -113,7 +125,7 @@ Despite a repo freeze that occurred Friday and some of Saturday, quite a few new
 - [pluma 1.18.2](https://dev.solus-project.com/R2455:528e48bd1be63bf3bd3c32d6b9ba8b1d98ab4f56)
 - [q4wine: Built against Qt5, enabled icoutils, compressed man pages](https://dev.solus-project.com/R2719:7156f07c4d5d01c48f4fe2e2a6875693329657ba)
 - [qgis 2.18.7](https://dev.solus-project.com/R2726:61be7b5e6ba3a10a6d2625e1133605efc8dc5629)
-- [qownnotes 17.05.1](https://dev.solus-project.com/R2730:dac51b0b7d0422b2f178dd6064c2cd9bb4cabf6e)
+- [qownnotes 17.05.2]https://dev.solus-project.com/R2730:fbe4f29ca9ba50adac5749058823ec9f0e5bb324)
 - [rcm 1.3.1](https://dev.solus-project.com/R2791:5584ca024f70405d99fb75cd594a0b0c0722b7e4)
 - [riot 0.9.9](https://dev.solus-project.com/R2816:2a0bb2f87595999029041b7dea81c3a627b56757)
 - [scala 2.12.2](https://dev.solus-project.com/R2852:db7c01c40a3e9e3510e38e16cf90012625c51dc3)
