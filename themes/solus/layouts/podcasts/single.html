@@ -3,7 +3,7 @@
 {{- $page := .Page -}}
 {{- $type := $page.Params.feedtype -}}
 {{- $latestEpisodeArray := first 1 $site.Data.sws -}}
-{{ $swsDescription := "A bi-weekly podcast covering the latest news from the Solus project." }}
+{{- $swsDescription := "A bi-weekly podcast covering the latest news from the Solus project." -}}
 {{ "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 	<channel>
