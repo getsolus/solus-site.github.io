@@ -7,17 +7,21 @@
 		<section>
 			<h1>Sundays with Solus #{{$episode}}</h1>
 			{{ $splitDate := split .date "+" }}
-			<span type="date">{{ index $splitDate 0 }}
-			<span type="description">{{ .description }}</p>
-		</section>
-		{{ range $type := (slice "mp3" "ogg") }}
-			<div data-solus="podcast-player-media">
-				{{ $mediaURL := printf "https://solus-project.com/podcastmedia/sundays-with-solus/%s.%s" $episode $type }}
-				<b>{{ upper $type }}</b>
-				<audio controls src="{{ $mediaURL }}"></audio>
-				<a href="{{ $mediaURL }}">Download</a>
-				<a href="{{ $site.BaseURL }}/podcasts/sundays-with-solus-{{$type}}.xml">RSS Feed</a>
+			<span type="date">{{ index $splitDate 0 }}</span>
+			<span type="description">{{ .description }}</span>
+			<div data-solus="podcast-player-types">
+				{{ range $type := (slice "mp3" "ogg") }}
+					<div data-solus="podcast-player-media">
+						{{ $mediaURL := printf "https://solus-project.com/podcastmedia/sundays-with-solus/%s.%s" $episode $type }}
+						<b>{{ upper $type }}</b>
+						<audio controls src="{{ $mediaURL }}"></audio>
+						<section>
+							<a href="{{ $mediaURL }}">Download</a>
+							<a href="{{ $site.BaseURL }}/podcasts/sundays-with-solus-{{$type}}.xml">RSS Feed</a>
+						</section>
+					</div>
+				{{ end }}
 			</div>
-		{{ end }}
+		</section>
 	{{ end }}
 </div>
