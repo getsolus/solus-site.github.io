@@ -12,7 +12,7 @@
 		{{ $categoryURL := printf "https://solus-project.com/podcasts/sundays-with-solus-%s.xml" $type }}
         <span>
             <a href="{{ $categoryURL }}">{{ upper $type }}</a>
-			<a href="{{ $categoryURL}}/index.xml" data-solbit-icon="rss"></a>
+			<a href="{{ $categoryURL}}" data-solbit-icon="rss"></a>
         </span>
     {{ end }}
 </div>
