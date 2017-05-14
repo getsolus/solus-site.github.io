@@ -60,17 +60,7 @@ Sundays with Solus is back and this time, in audio format! This was a decision m
 
 I'm currently working out the infrastructure bits for doing a live stream of Sundays with Solus, simultaneously to Facebook Live, our site, and our Youtube channel, as well as working on podcast-specific RSS feeds for MP3 and OGG. I'll have a future announcement when all of those bits are ready, however I didn't want to hold back on getting everyone the latest news in an edited format, so below are the MP3 and OGG!
 
-**MP3**
-
-<audio src="https://solus-project.com/podcastmedia/sundays-with-solus/10.mp3" controls></audio>
-
-[Download](https://solus-project.com/podcastmedia/sundays-with-solus/10.mp3)
-
-**OGG**
-
-<audio src="https://solus-project.com/podcastmedia/sundays-with-solus/10.ogg" controls></audio>
-
-[Download](https://solus-project.com/podcastmedia/sundays-with-solus/10.ogg)
+{{< sundays-with-solus episode="10" >}}
 
 ---
 
