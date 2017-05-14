@@ -62,15 +62,15 @@ I'm currently working out the infrastructure bits for doing a live stream of Sun
 
 **MP3**
 
-<audio src="https://solus-project.com/podcasts/sundays-with-solus/SwS-10.mp3" controls></audio>
+<audio src="https://solus-project.com/podcastmedia/sundays-with-solus/10.mp3" controls></audio>
 
-[Download](https://solus-project.com/podcasts/sundays-with-solus/SwS-10.mp3)
+[Download](https://solus-project.com/podcastmedia/sundays-with-solus/10.mp3)
 
 **OGG**
 
-<audio src="https://solus-project.com/podcasts/sundays-with-solus/SwS-10.ogg" controls></audio>
+<audio src="https://solus-project.com/podcastmedia/sundays-with-solus/10.ogg" controls></audio>
 
-[Download](https://solus-project.com/podcasts/sundays-with-solus/SwS-10.ogg)
+[Download](https://solus-project.com/podcastmedia/sundays-with-solus/10.ogg)
 
 ---
 

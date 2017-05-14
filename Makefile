@@ -6,9 +6,13 @@ benchmark:
 deploy:
 	hugo --quiet --cleanDestinationDir --destination public-deployed/
 	rm -v public-deployed/index.html
+	mv public-deployed/podcasts/sundays-with-solus-mp3/index.html public-deployed/podcasts/sundays-with-solus-mp3.xml
+	mv public-deployed/podcasts/sundays-with-solus-ogg/index.html public-deployed/podcasts/sundays-with-solus-ogg.xml
+	rmdir public-deployed/podcasts/sundays-with-solus-{mp3,ogg}
+	rm -r public-deployed/podcasts/{page,index}*
 
 local:
-	hugo server --baseURL "http://127.0.0.1:1313" --watch --quiet --ignoreCache --cleanDestinationDir
+	hugo server --baseURL "http://127.0.0.1:1313" --watch --quiet --cleanDestinationDir --cacheDir /tmp/hugo/cache/ --destination /tmp/hugo/cache/
 
 setup:
 	git submodule init

@@ -1,0 +1,19 @@
+{{ $site := .Site }}
+<!-- Beginning of Podcast Section -->
+<div data-solbit="full-width-box">
+    <h3>Sundays with Solus</h3>
+	{{- $latestEpisodeArray := first 1 $site.Data.sws -}}
+	{{- range $latestEpisode := $latestEpisodeArray }}
+	<span>
+		<b><a href="{{ $latestEpisode.twis | absURL }}#sundays-with-solus">Latest Episode</a></b>
+	</span>
+	{{- end -}}
+    {{ range $type := slice "mp3" "ogg" }}
+		{{ $categoryURL := printf "https://solus-project.com/podcasts/sundays-with-solus-%s.xml" $type }}
+        <span>
+            <a href="{{ $categoryURL }}">{{ upper $type }}</a>
+			<a href="{{ $categoryURL}}/index.xml" data-solbit-icon="rss"></a>
+        </span>
+    {{ end }}
+</div>
+<!-- End of Podcast Section -->
