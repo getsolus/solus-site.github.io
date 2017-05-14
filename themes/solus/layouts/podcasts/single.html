@@ -36,7 +36,7 @@
 			<itunes:image href="{{ $site.BaseURL}}imgs/podcasts/sundays-with-solus/large.jpg" />
 			<description>{{ $info.description }}</description>
 			<link>https://solus-project.com/podcastmedia/sundays-with-solus/{{ $info.episode }}.{{ lower $type }}</link>
-			<guid>{{ $info.twis | absURL }}</guid>
+			<guid>sws-ep-{{ $info.episode}}</guid>
 			<pubDate>{{ $info.date | safeHTML }}</pubDate>
 		</item>
 		{{ end -}}
