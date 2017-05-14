@@ -18,6 +18,7 @@
 		</itunes:category>
 		<itunes:explicit>No</itunes:explicit>
 		<itunes:image href="{{ $site.BaseURL}}imgs/podcasts/sundays-with-solus/large.jpg" />
+		<itunes:keywords>solus, linux, technology, open source</itunes:keywords>
 		<itunes:owner>
 			<itunes:name>Solus Project</itunes:name>
 			<itunes:email>joshua@solus-project.com</itunes:email>
@@ -30,13 +31,15 @@
 		<lastBuildDate>{{ $latestEpisode.date | safeHTML }}</lastBuildDate>
 		{{- end -}}
 		{{- range $info := $site.Data.sws }}
+		{{- $mediaURL := printf "https://solus-project.com/podcastmedia/sundays-with-solus/%s.%s" $info.episode (lower $type) -}}
 		<item>
 			<title>Sundays with Solus #{{ $info.episode }}</title>
 			<itunes:summary>{{ $info.description }}</itunes:summary>
 			<itunes:image href="{{ $site.BaseURL}}imgs/podcasts/sundays-with-solus/large.jpg" />
+			<enclosure url="{{ $mediaURL }}" type="audio/{{ $type }}"></enclosure>
 			<description>{{ $info.description }}</description>
-			<link>https://solus-project.com/podcastmedia/sundays-with-solus/{{ $info.episode }}.{{ lower $type }}</link>
-			<guid>sws-ep-{{ $info.episode}}</guid>
+			<link>{{ $mediaURL }}</link>
+			<guid isPermalink="false">{{ $mediaURL }}</guid>
 			<pubDate>{{ $info.date | safeHTML }}</pubDate>
 		</item>
 		{{ end -}}
