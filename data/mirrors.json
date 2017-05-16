@@ -21,17 +21,17 @@
 		"Url": "http://soluslond1iso.stroblindustries.com/"
 	},
 	{
+		"Latitude": 40.357298,
+		"Location": "New Jersey",
+		"Longitude": -74.667223,
+		"Type": "community",
+		"Url": "http://mirror.math.princeton.edu/pub/solus-iso/"
+	},
+	{
 		"Latitude": 37.7749,
 		"Location": "San Francisco",
 		"Longitude": -122.4194,
 		"Type": "official",
 		"Url": "http://solussf1iso.stroblindustries.com/"
-	},
-	{
-		"Latitude": 40.712784,
-		"Location": "New York",
-		"Longitude": -74.005941,
-		"Type": "community",
-		"Url": "https://appealsblog.com/solus/"
 	}
 ]
