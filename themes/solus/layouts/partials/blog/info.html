@@ -9,7 +9,7 @@
 		<div data-solus="post-info" itemscope itemtype="http://schema.org/NewsArticle">
 			<meta itemprop="datePublished" content="{{ $blog.Date }}" />
 			<meta itemprop="dateModified" content="{{ $blog.Lastmod }}" />
-			<h1><a href="{{ $blog.Permalink }}" itemprop="header">
+			<h1><a href="{{ $blog.Permalink }}" itemprop="headline">
 				{{ if isset $blog.Params "notitle" }}
 					{{ replace ($blog.Title) "'S" "'s" }}
 				{{ else }}

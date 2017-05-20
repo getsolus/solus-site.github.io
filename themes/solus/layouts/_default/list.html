@@ -27,8 +27,8 @@
 							{{ $url := (printf "imgs/posts/%s" $firstBlog.Params.featuredimage) | absURL }}
 							<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject" style="background-image: url('{{ $url }}')">
 								<img src="{{ $url }}" />
-								{{ $localURL := printf "static/imgs/posts/%s" $firstBlog.Params.featuredimage }}
 								<meta itemprop="url" content="{{ $url }}" />
+								{{ $localURL := printf "static/imgs/posts/%s" $firstBlog.Params.featuredimage }}
 								{{ with (imageConfig $localURL) }}
 									<meta itemprop="height" content="{{.Height}}px" />
 									<meta itemprop="width" content="{{.Width}}px" />
