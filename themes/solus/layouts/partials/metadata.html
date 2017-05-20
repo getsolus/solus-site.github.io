@@ -62,7 +62,7 @@
 
 {{ if or (eq .Section "articles") (eq .Section "help-center") }}
 	<meta name="keywords" content="ask solus, asksolus, help center, wiki, {{ $generalMetaTags }}, {{ $metaCompliantPageTitle }}" />
-	<script type="text/javascript" src="{{ .Site.BaseURL}}js/highlight.min.js"></script>
+	<script type="text/javascript" src="{{ .Site.BaseURL}}js/highlight.min.js" async></script>
 {{ else if and (eq .Section "blog") (hasPrefix .URL "/blog/") }}
 	{{ $blogPosts := .Paginator.Pages }}
 	{{ $firstBlog := (index $blogPosts 0) }}
@@ -88,7 +88,7 @@
 <link rel="sitemap" href="{{ .Site.BaseURL}}sitemap.xml" />
 {{ range readDir ("themes/solus/static/js") }}
 	{{ if and (or (hasPrefix .Name "site") (hasPrefix .Name "solbit")) (in .Name ".min.js") }}
-		<script type="text/javascript" src="{{ $site.BaseURL}}js/{{ .Name }}"></script>
+		<script type="text/javascript" src="{{ $site.BaseURL}}js/{{ .Name }}" async></script>
 	{{ end }}
 {{ end }}
 {{ .Hugo.Generator }}

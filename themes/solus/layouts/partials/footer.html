@@ -41,7 +41,9 @@
 		<a href="{{ $blogIndexURL }}" data-solbit-icon="rss"></a>
 	</div>
 	<script type="text/javascript">
-		site.Init();
+		window.onload = function() {
+			site.Init();
+		};
 	</script>
 </footer>
 <!-- {{ template "_internal/google_analytics_async.html" . }}-->
