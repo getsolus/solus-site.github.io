@@ -10,7 +10,8 @@
 		<div data-solus="post-info" {{ if eq $isfeatured "no" }}itemscope itemtype="http://schema.org/NewsArticle"{{end}}>
 			<meta itemprop="datePublished" content="{{ $blog.Date }}" />
 			<meta itemprop="dateModified" content="{{ $blog.Lastmod }}" />
-			<h1><a href="{{ $blog.Permalink }}" itemprop="headline">
+			<meta itemprop="headline" content="{{ if isset $blog.Params "notitle" }}{{ replace ($blog.Title) "'S" "'s" }}{{ else }}	{{ replace (title $blog.Title) "'S" "'s" }}{{ end }}" />
+			<h1><a href="{{ $blog.Permalink }}">
 				{{ if isset $blog.Params "notitle" }}
 					{{ replace ($blog.Title) "'S" "'s" }}
 				{{ else }}
