@@ -1,7 +1,7 @@
 {{ $site := .Site }}
 <!-- Beginning of Solus Site Header -->
 <header>
-	<a href="{{ .Site.BaseURL }}home">{{ partial "altimg.html" (dict "image" "logo.png" "dir" "/imgs/" ) }}</a>
+	<a href="{{ .Site.BaseURL }}home">{{ partial "altimg.html" (dict "image" "logo.jpg" "dir" "/imgs/" ) }}</a>
 	{{- $pagePermalink := .Permalink -}}
 	<section>
 		{{ $menus := index $site.Params.menus "main" }}
