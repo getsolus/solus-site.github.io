@@ -14,7 +14,8 @@
 					{{ $firstBlog := (index $blogPosts 0) }}
 					{{ if and (isset $firstBlog.Params "featuredimage") (ne $firstBlog.Params.featuredimage "") }}
 						<!-- Beginning of Featured Blog Post -->
-						<div data-solus="featured-blog-post">
+						<div data-solus="featured-blog-post" itemscope itemtype="http://schema.org/NewsArticle">
+							<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="{{ $firstBlog.URL | absURL }}"/>
 							<div data-solus-type="featured-blog-info">
 								{{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
 								{{ if ge (len $firstBlog.Summary) 397 }}
@@ -41,7 +42,7 @@
 							<div data-solbit="view-primary">
 								{{ if gt (len $blogPosts) 1 }}
 									{{ range $blog := (after 1 $blogPosts) }}
-										{{ partial "blog/info.html" (dict "blog" $blog "site" .Site) }}
+										{{ partial "blog/info.html" (dict "blog" $blog "site" .Site "isfeatured" "no") }}
 									{{ end }}
 									{{ partial "blog/paginator.html" (dict "paginator" .Paginator "site" .Site) }}
 								{{ end }}
