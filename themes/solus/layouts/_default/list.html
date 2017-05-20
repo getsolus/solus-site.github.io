@@ -1,3 +1,4 @@
+{{ $site := .Site }}
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
 	{{ partial "metadata.html" . }}
@@ -17,13 +18,22 @@
 							<div data-solus-type="featured-blog-info">
 								{{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
 								{{ if ge (len $firstBlog.Summary) 397 }}
-									<p>{{- safeHTML (substr $firstBlog.Summary 0 397) -}}...</p>
+									<p itemprop="description">{{- safeHTML (substr $firstBlog.Summary 0 397) -}}...</p>
 								{{ else }}
-									<p>{{- safeHTML $firstBlog.Summary -}}
+									<p itemprop="description">{{- safeHTML $firstBlog.Summary -}}
 								{{ end }}
 								<a data-solbit="button" href="{{ $firstBlog.Permalink }}" data-solbit-size="large" data-solbit-enfsize>Read More</a>
 							</div>
-							{{ partial "altimg.html" (dict "image" $firstBlog.Params.featuredimage "dir" "/imgs/posts/" )}}
+							{{ $url := (printf "imgs/posts/%s" $firstBlog.Params.featuredimage) | absURL }}
+							<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject" style="background-image: url('{{ $url }}')">
+								<img src="{{ $url }}" />
+								{{ $localURL := printf "static/imgs/posts/%s" $firstBlog.Params.featuredimage }}
+								<meta itemprop="url" content="{{ $url }}" />
+								{{ with (imageConfig $localURL) }}
+									<meta itemprop="height" content="{{.Height}}px" />
+									<meta itemprop="width" content="{{.Width}}px" />
+								{{ end }}
+							</div>
 						</div>
 						<!-- End of Featured Blog Post -->
 						<!-- All Other Blog Posts -->

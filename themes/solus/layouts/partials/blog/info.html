@@ -6,15 +6,17 @@
 
 	{{ if isset $blog.Params "categories" }}
 		<!-- Beginning of Post Info -->
-		<div data-solus="post-info">
-			<h1><a href="{{ $blog.Permalink }}">
+		<div data-solus="post-info" itemscope itemtype="http://schema.org/NewsArticle">
+			<meta itemprop="datePublished" content="{{ $blog.Date }}" />
+			<meta itemprop="dateModified" content="{{ $blog.Lastmod }}" />
+			<h1><a href="{{ $blog.Permalink }}" itemprop="header">
 				{{ if isset $blog.Params "notitle" }}
 					{{ replace ($blog.Title) "'S" "'s" }}
 				{{ else }}
 					{{ replace (title $blog.Title) "'S" "'s" }}
 				{{ end }}
 			</a></h1>
-			<span>{{ $author.Name }} / {{ $author.Role }}</span>
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ $author.Name }}</span> / <span itemprop="jobTitle">{{ $author.Role }}</span></span>
 			<span>{{ dateFormat "January 2, 2006" $blog.Date }}
 				{{ $categoriesLength := len $blog.Params.categories }}
 				{{ $categoriesURL := "categories/" | absLangURL }}

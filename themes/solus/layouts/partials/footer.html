@@ -6,14 +6,15 @@
 		{{ range $submenuName := index $site.Params.menus "footer" }}
 			<div data-solbit="full-width-row">
 				<b>{{ title $submenuName  }}:</b>
-				<span>
+				<span {{ if eq $submenuName "social"}}itemscope itemtype="http://schema.org/Organization"{{end}}>
+					{{ if eq $submenuName "social"}}<link itemprop="url" href="{{ $site.BaseURL }}" />{{end}}
 					{{ range $menuItem := index $site.Params.menus $submenuName }}
 						{{ $name := title (replace $menuItem "_" " ") }}
 						{{ $name := replace $name " Plus" "+" }}
 						{{ $url := index $site.Params.menuurls $menuItem }}
 
 						{{ if and (hasPrefix $url "http") (ne $menuItem "irc") }}
-							<a href="{{ safeURL $url }}">{{ $name }}</a>
+							<a {{ if eq $submenuName "social"}}itemprop="sameAs"{{end}} href="{{ safeURL $url }}">{{ $name }}</a>
 						{{ else if eq $menuItem "irc" }}
 							<a href="{{ safeURL $url }}">{{ upper $menuItem }}</a>
 						{{ else }}
