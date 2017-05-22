@@ -22,7 +22,7 @@ We recently released Brisk Menu 0.4, which has since landed in the stable reposi
 
 Brisk Menu also saw some significant backend changes, as Ikey notes below:
 
-> *With the 0.4.0 release, we opted to split the frontend from the backend, but more importantly, abstract the "items" so much that the frontend isn't aware of the specifics of MATE Menus or even `.desktop` files. The default `AppsBackend` is responsible for monitoring changes in the system `.desktop` files and dynamically rebuilding `BriskItem`s and `BriskSection`s for the frontend to include within the display. This in turn resolved a whole host of issues, including items not appearing after installation due to some assumptions in the mate-menus library, as well as allowing us to integrate the `Administration` and Preferences` menu providers.*
+> *With the 0.4.0 release, we opted to split the frontend from the backend, but more importantly, abstract the "items" so much that the frontend isn't aware of the specifics of MATE Menus or even `.desktop` files. The default `AppsBackend` is responsible for monitoring changes in the system `.desktop` files and dynamically rebuilding `BriskItem` and `BriskSection` for the frontend to include within the display. This in turn resolved a whole host of issues, including items not appearing after installation due to some assumptions in the mate-menus library, as well as allowing us to integrate the `Administration` and `Preferences` menu providers.*
 >
 > *In the future, this architecture change will allow different backends to be added in the upcoming 0.5.0 release, including a new Favourites backend. Along with supporting basic "Pin To" functionality in the menu, it will support reordering, and keyboard shortcut activation (CTRL+1 through to CTRL+0).*
 
