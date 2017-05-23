@@ -3,6 +3,7 @@
 <head>
 <!-- Page Info -->
 {{ $pageTitle := title (replace .Title "_" " ") }}
+{{ $pageTitle := replace $pageTitle "'S" "'s" }}
 {{ if ne .Section "articles"}}
 	{{ if isset .Params "notitle" }}
 		<title>{{ .Title }} | Solus</title>
