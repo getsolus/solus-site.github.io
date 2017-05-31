@@ -52,6 +52,7 @@ below that are in fact compatible.
 ### Dell
 
 - Dell Inspiron 1110
+- Dell Inspiron 14 3452
 - Dell Inspiron 15R N5010
 - Dell Inspiron 15R N5110
 - Dell Inspiron 5050
@@ -80,6 +81,7 @@ below that are in fact compatible.
 - HP Compaq Presario CQ61
 - HP Compaq NC6400
 - HP EliteBook 8440P
+- HP EliteBook 8460p
 - HP EliteBook 8740w
 - HP EliteBook 8760w
 - HP Envy TS M6
@@ -91,6 +93,7 @@ below that are in fact compatible.
 - HP Pavilion DV7
 - HP Pavilion x360 Convertible
 - HP Presario V6000
+- HP ProBook 6450b
 
 ### Lenovo
 
@@ -119,11 +122,13 @@ below that are in fact compatible.
 - Lenovo ThinkPad T430
 - Lenovo ThinkPad T440
 - Lenovo ThinkPad T440s
+- Lenovo ThinkPad T560
 - Lenovo ThinkPad W520 4270CTO
 - Lenovo ThinkPad X1 Carbon 3rd
 - Lenovo ThinkPad X200T
 - Lenovo ThinkPad X201
 - Lenovo ThinkPad X220
+- Lenovo ThinkPad X230
 - Lenovo ThinkPad X61
 - Lenovo Yoga 2 11
 - Lenovo Z50-70
