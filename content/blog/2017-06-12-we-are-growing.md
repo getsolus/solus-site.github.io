@@ -28,3 +28,5 @@ We're also really excited to announce that Ikey will become a full-time Solus de
 > For clarification, I’m leaving my current job at Intel as a personal choice, and not a professional one.  The four years I’ve spent as a software engineer and distribution engineer at Intel have helped mould me into the engineer that I am today. I’ll always be grateful for the experience, knowledge and relationships I have as a result of that time, and will of course miss those that I’ve worked with. This transition is about me following my heart: Solus is my passion.
 >
 > This move has been enabled by you, supporters of Solus. Together, as a community, we’re going to take Solus to new heights. I want to extend my personal thanks to all supporters and users of Solus, for placing your faith in me. Now, it is time to deliver on that faith.
+
+For more discussion on his move to developing Solus full time, check out Late Night Linux episode 13 [here](https://latenightlinux.com/late-night-linux-episode-13/).
