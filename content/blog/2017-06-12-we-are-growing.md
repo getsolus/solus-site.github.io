@@ -2,7 +2,7 @@
 author = "joshua"
 categories = ["news"]
 date = "2017-06-13T16:41:09+03:00"
-featuredimage = ""
+featuredimage = "/2017/06/growing.jpg"
 title = "We Are Growing!"
 url = "/2017/06/13/we-are-growing"
 +++
