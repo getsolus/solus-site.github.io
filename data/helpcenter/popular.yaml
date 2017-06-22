@@ -10,9 +10,9 @@ configuration:
 installation:
     Title: Installation
     Description: Some bits to make installation simpler.
-repair_and_recovery:
-    Title: Repair and Recovery
-    Description: Repairing or recovering your Solus system.
+packaging:
+    Title: Packaging
+    Description: Distributing software to users on Solus.
 software:
     Title: Software
     Description: Kickstart use of select software like Java.
