@@ -31,7 +31,10 @@ This release introduces a new applet, Night Light, which can help reduce eye str
 
 The Places Indicator applet also received some love this release, with a new option to always expand the places section when the applet is shown. The whole Places section header is now a clickable button, making toggling the section easier.
 
-The Calendar widget in Raven will now remove the date selection if you change the month or year.
+Additionally:
+
+- The Calendar widget in Raven will now remove the date selection if you change the month or year.
+- The Icon Tasklist applet no longer has a list of "derper" applications for which we'd override the icon. If a `.desktop` file is found, use the icon referenced in it.
 
 ## Budgie Menu
 
