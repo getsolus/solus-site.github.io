@@ -4,6 +4,7 @@ author: "joshua"
 categories:
 - budgie
 - news
+draft: true
 date: 2017-06-25T22:02:27+03:00
 featuredimage: "2017/06/budgie-10/Budgie10_4.jpg"
 url: "/2017/06/25/budgie-10-4-released"
