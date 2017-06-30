@@ -48,15 +48,25 @@ We now dynamically compute scores for a given entry during search in relation to
 
 ## Panels
 
+### Vertical Panels
+
 {{< altimg "2017/06/budgie-10/LeftAndRightPanels.jpg" >}}
 
 In Budgie 10.4, you can now set vertical panels on the left and right sides of your display. Popovers will correctly indicate (with its "tail") the point of origin, we've done extensive work to ensure all of our animations and applets will display and adjust depending on if they are on (or originating from) a horizontal or vertical panel, and Raven will account for right-side panels and slide out from underneath the panel, as well as anchor to left panels when no horizontal or right panel exists.
+
+### Transparency
 
 With these new panels, you will now also be able to control the panel transparency via a setting in Raven with three modes:
 
 - None: The panel is always opaque.
 - Dynamic: The panel is opaque when there is a maximized window on the workspace, or Raven is open, otherwise it's transparent.
 - Always: The panel is always transparent.
+
+### Docks
+
+As if Budgie panels couldn't improve more, we've also introduced a Dock mode for panels, which leverage our Icon Tasklist and some positioning magic, enabling you to put a dock on any side of your display and have it work 
+
+This Dock mode also uses a custom CSS class, which means theme developers have the ability to implement custom styling.
 
 ## Popovers
 
