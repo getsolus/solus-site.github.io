@@ -68,8 +68,13 @@ below that are in fact compatible.
 - Dell Latitude E6430
 - Dell Latitude E6530
 - Dell Precision M6500
+- Dell Precision 7520
 - Dell Vostro 1700
 - Dell XPS 15 9560
+
+### Fujitsu
+
+- Fujitsu Lifebook T900
 
 ### Google
 
