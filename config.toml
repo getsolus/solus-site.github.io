@@ -23,7 +23,7 @@ theme = "solus"
 	userguide = "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
 
 [params.menus]
-	main = [ "home", "blog", "download", "support_us", "help", "about", "store", "press"]
+	main = [ "home", "blog", "download", "support_us", "help_center", "about", "store", "press"]
 	footer = [ "solus", "social", "support", "press"]
 	solus = [ "about", "download", "experiences", "technologies" ]
 	social = [ "facebook", "google_plus", "reddit", "twitter"]
@@ -43,7 +43,6 @@ theme = "solus"
 	forums = "https://solus-project.com/forums"
 	google_plus = "https://plus.google.com/u/0/+Solus-Project"
 	google_plus_community = "https://plus.google.com/communities/104830131595272878110"
-	help = "help-center/home"
 	help_center = "help-center/home"
 	irc = "/articles/contributing/getting-involved/en/#irc"
 	press = "press-center"
