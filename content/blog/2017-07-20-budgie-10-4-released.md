@@ -111,3 +111,27 @@ In addition to the above mentioned goodies, some other fixes include:
 - The Clock applet will now only redraw when the label contents would change. This resolves unnecessary redraws of the applet.
 - daemon: Fixed the order of left-side window buttons, ensuring that the window decoration style is consistent between native and CSD window decorations.
 - wm: Ensuring we purge old backgrounds from the cache.
+
+---
+
+## Thank You
+
+We'd like to take a moment to thank all the contributors that have made this Budgie release, one of the largest in Budgie's history, possible. Whether it was implementing features, fixes, or improving / expanding translations, the community helped to make this release possible.
+
+**By number of commits:**
+
+- 345 Ikey Doherty
+- 32 Stefan Ric
+- 14 Bryan T. Meyers
+- 4 Sam Hewitt
+- 2 Tristan Partin
+- 2 Santiago Santoro
+- 2 J. R. Schmid
+- 2 fossfreedom
+- 1 Nazar Mokrynskyi
+- 1 György Balló
+- 1 danielpinto8zz6
+
+Here's a visualization we created for the Budgie 10.4 release, using [gource](http://gource.io).
+
+{{<youtube "J-dB8mPbhpw" >}}
