@@ -1,5 +1,6 @@
 +++
 title = "Enabling Desktop Icons"
+lastmod = "2017-06-20T19:16:24+03:00"
 +++
 # Enabling Desktop Icons
 

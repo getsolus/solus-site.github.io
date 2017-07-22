@@ -1,5 +1,6 @@
 +++
 title = "Powerline Shell Prompt"
+lastmod = "2017-05-14T10:49:10+03:00"
 +++
 # Powerline Shell Prompt
 

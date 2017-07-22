@@ -1,5 +1,6 @@
 +++
 title = "Configuring Sound and Sound Devices"
+lastmod = "2017-07-08T17:51:19+03:00"
 +++
 # Configuring Sound and Sound Devices
 

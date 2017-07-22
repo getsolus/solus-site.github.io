@@ -1,5 +1,6 @@
 +++
 title = "Wireless Chipsets Compatibility"
+lastmod = "2017-04-13T17:39:14+03:00"
 +++
 # Wireless Chipsets Compatibility
 

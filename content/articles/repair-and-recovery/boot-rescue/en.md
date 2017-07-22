@@ -1,5 +1,6 @@
 +++
 title = "Boot Rescue"
+lastmod = "2017-04-13T17:39:14+03:00"
 aliases = ["/articles/configuration/modifying-grub/en/"]
 +++
 # Boot Rescue

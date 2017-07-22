@@ -1,5 +1,6 @@
 +++
 title = "Packaging Using a Local Repository"
+lastmod = "2017-04-13T17:39:14+03:00"
 +++
 # Packaging Using a Local Repository
 

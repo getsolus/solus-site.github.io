@@ -1,5 +1,6 @@
 +++
 title = "Preparing to install"
+lastmod = "2017-06-01T13:45:24+03:00"
 +++
 # Preparing to install
 

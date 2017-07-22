@@ -1,5 +1,6 @@
 +++
 title = "Browsing the web"
+lastmod = "2017-03-11T00:40:25+02:00"
 +++
 # Browsing the web
 

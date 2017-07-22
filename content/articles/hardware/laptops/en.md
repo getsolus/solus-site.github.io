@@ -1,5 +1,6 @@
 +++
 title = "Laptop Compatibility"
+lastmod = "2017-07-08T17:51:19+03:00"
 +++
 # Laptop Compatibility
 

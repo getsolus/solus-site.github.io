@@ -1,10 +1,10 @@
 +++
 title = "History and Software Rollback"
+lastmod = "2017-07-22T15:18:34+03:00"
 +++
 # History and Software Rollback
 
-Solus provides a history and rollback feature via its package manager, eopkg. This feature allows you to see when your repository was last 
-updated, actions such as installation, removal, and upgrading of software. 
+Solus provides a history and rollback feature via its package manager, eopkg. This feature allows you to see when your repository was last updated, actions such as installation, removal, and upgrading of software.
 
 Our rollback feature allows you to essentially rewind your system's software back to a previous state, assuming you or our repository has the versions in question.
 

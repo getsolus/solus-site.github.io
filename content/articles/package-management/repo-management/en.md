@@ -1,10 +1,10 @@
 +++
 title = "Repository Management"
+lastmod = "2017-07-22T15:15:45+03:00"
 +++
 # Repository Management
 
-While Solus currently only provides two repositories, stable (shannon) and unstable, our package manager does support actively using multiple repositories on your system. This 
-is useful if you are using a vendor-provided repository.
+While Solus currently only provides two repositories, stable (shannon) and unstable, our package manager does support actively using multiple repositories on your system. This is useful if you are using a vendor-provided repository.
 
 ## Adding a Repository
 

@@ -1,5 +1,6 @@
 +++
 title = "VirtualBox"
+lastmod = "2017-07-22T15:17:22+03:00"
 +++
 # VirtualBox
 
@@ -28,7 +29,7 @@ Now, download the [Guest Additions](http://download.virtualbox.org/virtualbox/) 
 
 **Note:** For each kernel update you will need to rebuild the VirtualBox Modules. So simply remount the ISO and run the instructions again.
 
-### Clipboard Sharing, Copy&Paste, Drag&Drop
+### Clipboard Sharing, Copy & Paste, Drag & Drop
 
 By default, the VirtualBox modules for those VirtualBox features are not loaded/enabled, therefore the features simply do not work if selected in the Guest.
 If you want that these features do work properly automatically, without starting the corresponding VBoxClient yourself, you can use xdg to autostart VBoxClient thus enabling the features.

@@ -41,18 +41,16 @@
 <!-- End of Page Info -->
 
 <!-- Beginning of Blog Post Specific Content (Requires Summary) -->
-{{ if isset . "Summary" }}
+{{ if and (eq .Section "blog") (ne .Summary "nil") }}
 	<!-- Beginning of Description -->
-	{{ $plainSummary := substr (.page.Summary | plainify) 0 140 }}
+	{{ $plainSummary := substr (.Summary | plainify | htmlUnescape ) 0 140 }}
 	<meta name="description" content="{{ $plainSummary }}" />
 	<meta property="og:description" content="{{ $plainSummary }}" />
 	<!-- End of Description -->
 {{ end }}
 <!-- End of Blog Post Specific Content -->
 
-{{ if isset . "Lastmod" }}
-	<meta name="article:modified_time" content="{{ .Lastmod }}" />
-{{ end }}
+<meta name="article:modified_time" content="{{ .Lastmod }}" />
 
 {{ if isset . "PublishedDate" }}
 	<meta name="article:published_time" content="{{ .PublishedDate }}" />
