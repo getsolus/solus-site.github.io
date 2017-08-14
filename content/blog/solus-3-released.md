@@ -5,9 +5,9 @@ categories:
 - budgie
 - news
 - releases
-date: 2017-08-14T22:02:27+03:00
+date: 2017-08-15T22:02:27+03:00
 featuredimage: "2017/08/Solus-3-Editions.jpg"
-url: "/2017/08/14/solus-3-released"
+url: "/2017/08/15/solus-3-released"
 ---
 
 We're proud to be announce and be making available today Solus 3, which builds on our curated rolling release and ISO snapshot model. This release is the culmination of months of work across all of our editions.
@@ -210,3 +210,9 @@ Among the above mentioned items, we've also resolved the following issues:
 #### Caya
 
 Caya has been patched to [support whitelisting and trusting symlinked vendor-provided .desktop files](https://dev.solus-project.com/R482:f667c0a3d29851855f8b0a232a1eb0e3958883e1). This enables us to provide default desktop icons for items such as the Installer.
+
+---
+
+## Press
+
+Press can obtain our Press Release PDF and Media Pack via our [Press Center](/press-center).
