@@ -6,7 +6,7 @@ categories:
 - news
 - releases
 date: 2017-08-14T22:02:27+03:00
-featuredimage: ""
+featuredimage: "2017/08/Solus-3-Editions.jpg"
 url: "/2017/08/14/solus-3-released"
 ---
 
@@ -202,7 +202,7 @@ Among the above mentioned items, we've also resolved the following issues:
 
 ## MATE
 
-IMAGE HERE
+{{< altimg "2017/08/MATE.jpg" >}}
 
 ### General Fixes and Improvements
 
