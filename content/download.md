@@ -16,4 +16,4 @@ title = "download"
 
 First off, check our [Installation](/articles/installation/preparing-to-install/en/) guide for determining what software to use to burn or write the Solus ISO to a DVD or USB drive. If your system is UEFI-enabled, we also recommend following our [UEFI](/articles/installation/disks/en/) guide.
 
-If you still have questions, feel free to [reach out](/help-center/contact)!
+If you still have questions, feel free to [reach out](/articles/contributing/getting-involved/en/#irc)!
