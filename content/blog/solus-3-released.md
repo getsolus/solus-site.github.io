@@ -10,7 +10,7 @@ featuredimage: "2017/08/Solus-3-Editions.jpg"
 url: "/2017/08/15/solus-3-released"
 ---
 
-We're proud to be announce and be making available today Solus 3, which builds on our curated rolling release and ISO snapshot model. This release is the culmination of months of work across all of our editions.
+We're proud toannounce and be making available today Solus 3, which builds on our curated rolling release and ISO snapshot model. This release is the culmination of months of work across all of our editions.
 
 ## General
 
@@ -46,6 +46,8 @@ This release delivers ffmpeg 3.3.3, the latest in the 3.3 series, offering impro
 {{< altimg "2017/08/snaps.jpg" >}}
 
 This release features out-of-the-box support for [snaps](https://snapcraft.io), universal software packages for Linux. Support for snaps relieves pressure from software vendors to target a specific platform by sharing a unified target across all Linux distributions. For our users, they gain access to a wide variety of software that may not meet our package inclusion criteria, such as server software, as well as enabling an improved distribution method for Third Party software.
+
+Support for Snaps was made possible due to fantastic cross-platform collaboration between Canonical's Snapcraft and Ubuntu teams and Solus, which is the first non-Ubuntu distribution to feature full snap confinement leveraging AppArmor, offering feature parity with the reference Ubuntu implementation.
 
 ## Budgie
 
