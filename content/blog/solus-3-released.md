@@ -217,10 +217,7 @@ Caya has been patched to [support whitelisting and trusting symlinked vendor-pro
 
 A message from Ikey, Solus Project founder
 
- > I would like to personally thank everyone who has supported, and those who continue to support, our projects.
- > With your support, you've enabled me to work full time on Solus. It is a rare privilege indeed to be able to work on that which
- > you love, to make your passion your life's work. Without your support, and without the community that *empowers* Solus, we would
- > never be the project we have become. Here's to a fantastic 2017, and a glorious, open and collaborative future for all of us.
+ > I would like to personally thank everyone that has supported, and those who continue to support our projects. With your support, you've enabled me to work full time on Solus. It is a rare privilege indeed to be able to work on that which you love, to make your passion your life's work. Without your support, and without the community that *empowers* Solus, we would never be the project we have become. Here's to a fantastic 2017, and a glorious, open and collaborative future for all of us.
 
 ---
 
