@@ -10,7 +10,7 @@ featuredimage: ""
 url: "/2017/08/14/solus-3-released"
 ---
 
-We're proud to be announce and be making available today Solus 3, which builds on curated rolling release and ISO snapshot model. This release is the culmination of months of work across all of our editions.
+We're proud to be announce and be making available today Solus 3, which builds on our curated rolling release and ISO snapshot model. This release is the culmination of months of work across all of our editions.
 
 ## General
 
