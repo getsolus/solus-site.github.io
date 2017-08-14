@@ -13,4 +13,4 @@ MATE:
     mediasize: 1.2GB
     shasum: 3ee058ffc80b1e5a923ea5e5323574d52fdf3ff8b545a1a4e8270b57c4bca3f4
     torrent: http://linuxtracker.org/index.php?page=torrent-details&id=aa9c39c69461c27a8bd42fa74941da3aa649812f
-Version: 3
+Version: '3'
