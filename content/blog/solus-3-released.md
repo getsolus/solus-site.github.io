@@ -170,7 +170,7 @@ In addition to the above mentioned goodies, some other fixes include:
 
 ## GNOME
 
-IMAGE HERE
+{{< altimg "2017/08/GNOME.jpg" >}}
 
 Solus GNOME Edition has received numerous improvements to its curated, out-of-the-box GNOME experience, as well as featuring our new default GTK and Icon Themes, Adapta and Papirus respectively.
 
