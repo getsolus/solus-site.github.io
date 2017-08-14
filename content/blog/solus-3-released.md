@@ -1,16 +1,16 @@
 ---
-title: "Solus Releases ISO Snapshot 2017.08.13.0"
+title: "Solus 3 Released"
 author: "joshua"
 categories:
 - budgie
 - news
 - releases
-date: 2017-08-13T22:02:27+03:00
+date: 2017-08-14T22:02:27+03:00
 featuredimage: ""
-url: "/2017/08/13/solus-releases-iso-snapshot-20170813-0"
+url: "/2017/08/14/solus-3-released"
 ---
 
-We're proud to be announce and be making available today a brand new Solus release, which builds on curated rolling release and ISO snapshot model. This release is the culmination of months of work across all of our editions.
+We're proud to be announce and be making available today Solus 3, which builds on curated rolling release and ISO snapshot model. This release is the culmination of months of work across all of our editions.
 
 ## General
 
@@ -45,17 +45,23 @@ This release delivers ffmpeg 3.3.3, the latest in the 3.3 series, offering impro
 
 ### Support for Snaps
 
-IMAGE HERE
+{{< altimg "2017/08/snaps.jpg" >}}
 
-This release features out-of-the-box support for [snaps](https://snapcraft.io), universal software packages for Linux. Support for snaps relieves pressure from software vendors to target a specific platform by sharing a unified target across all Linux distributions. For Solus users, it also enables our users to gain access to a wide variety of software that may not meet our package inclusion criteria, such as server software, as well as enable an improved distribution method for Third Party software.
+This release features out-of-the-box support for [snaps](https://snapcraft.io), universal software packages for Linux. Support for snaps relieves pressure from software vendors to target a specific platform by sharing a unified target across all Linux distributions. For our users, they gain access to a wide variety of software that may not meet our package inclusion criteria, such as server software, as well as enabling an improved distribution method for Third Party software.
 
 ## Budgie
 
-{{< altimg "2017/08/budgie-10/Budgie10_4.jpg" >}}
+{{< altimg "2017/08/Budgie.jpg" >}}
 
-Solus ships with our brand new release of the Budgie 10.x series, Budgie 10.4, as well as introducing our new branding defaults, such as adopting the stunning Adapta GTK Theme and Papirus Icon Theme, as well as complementing those design changes by adopting the Noto Sans font. We've also moved the primary panel from the top of the display to the bottom and tweaked panel widget spacing to make Budgie feel more spacious.
+Solus ships with our brand new release of the Budgie 10.x series, Budgie 10.4, as well as introducing our new branding defaults, adopting the stunning Adapta GTK Theme and Papirus Icon Theme, as well as complementing those design changes by adopting the Noto Sans font. We've also moved the primary panel from the top of the display to the bottom and tweaked panel widget spacing to make Budgie feel more spacious.
 
-Whether it was implementing features, fixes, or improving / expanding translations, the Budgie community was integral to this Budgie release. So thank you to everyone that has contributed, whether it was features or fixes, or improving translations.
+Whether it was implementing features, fixes, or improving / expanding translations, the Budgie community was integral to this Budgie release. So thank you to everyone that has contributed, whether it was features or fixes, reporting issues, or improving translations.
+
+### Animations
+
+<video src="/vids/Budgie_Animations.mp4" autoplay="autoplay" loop="loop" width="1000" height="562" preload></video>
+
+Budgie 10.4 now has maximize and unmaximize animations for applications.
 
 ### Alt+Tab
 
@@ -135,7 +141,7 @@ Budgie 10.4 moves Settings out of Raven and into a dedicated application. This n
 
 {{< altimg "2017/08/budgie-10/Budgie_Panel_Applets.jpg" >}}
 
-In the image above, you can see the management of the Top Panel. We have split panel management into two sections, with Applets being the primary section (as we anticipate users primarily making changes to applets) and Settings. Similar to the behavior of prior Budgie releases, you can move applets around using the up or down arrow buttons, or delete them. These buttons are positioned at the top of the list to make them more easily accessible for lower-resolution displays.
+In the image above, you can see the management of the Bottom Panel. We have split panel management into two sections, with Applets being the primary section (as we anticipate users primarily making changes to applets) and Settings. Similar to the behavior of prior Budgie releases, you can move applets around using the up or down arrow buttons, or delete them. These buttons are positioned at the top of the list to make them more easily accessible for lower-resolution displays.
 
 To the right of the applet list, you have a dedicated "Add applet" button and settings for the selected applet below.
 
@@ -172,7 +178,7 @@ Solus GNOME Edition ships with the latest stable releases of the GNOME stack, su
 
 ### A Searchable Command Palette
 
-<video src="/vids/Solus_GNOME_Plotinus.mp4" autoplay="autoplay" loop="loop" width="740" height="416" preload></video>
+<video src="/vids/Solus_GNOME_Plotinus.mp4" autoplay="autoplay" loop="loop" width="1000" height="562" preload></video>
 
 <a href="/imgs/posts/2017/08/Solus_GNOME_Plotinus.jpg">Full-size image</a>
 
