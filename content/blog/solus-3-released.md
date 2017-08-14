@@ -10,7 +10,7 @@ featuredimage: "2017/08/Solus-3-Editions.jpg"
 url: "/2017/08/15/solus-3-released"
 ---
 
-On behalf of the Solus team and community, we're extremely proud to announce the immediate availability of Solus 3. This is the third iteration of Solus since our move to become a rolling release operating system. Unlike the previous iterations, however, this is a release and not a snapshot. We've now moved away from the "regular snapshot" model to accomodate the best hybrid approach possible - feature rich releases with explicit goals and technology enabling, along with the benefits of a curated rolling release operating system.
+On behalf of the Solus team and community, we're extremely proud to announce the immediate availability of Solus 3. This is the third iteration of Solus since our move to become a rolling release operating system. Unlike the previous iterations, however, this is a release and not a snapshot. We've now moved away from the "regular snapshot" model to accommodate the best hybrid approach possible - feature rich releases with explicit goals and technology enabling, along with the benefits of a curated rolling release operating system.
 
 ## General
 
