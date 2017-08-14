@@ -16,8 +16,6 @@ We're proud to be announce and be making available today Solus 3, which builds o
 
 ### Default Applications
 
-IMAGE HERE
-
 All of our editions feature:
 
 - Firefox 55.0.1
