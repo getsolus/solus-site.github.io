@@ -33,7 +33,7 @@ Furthermore, we've enabled AppArmor `LSM` by default to provide functionality fo
 
 Mesa has seen an upgrade to 17.1.6 and libtxc_dxtn has been updated to help improve reliability and graphical performance in some games.
 
-Bluetooth controllers are now automatically enabled and our bluez now uses a stateless configuration. Users of wireless Logitech keyboards are able to utilize them during dm-crypt unlock of an LVM / LUKS rootfs as a result of an upgraded dracut 045.
+Bluetooth controllers are now automatically enabled and our bluez now uses a stateless configuration. Users of wireless Logitech keyboards are able to utilize them during dm-crypt unlock of an LVM / LUKS rootfs.
 
 To improve the out-of-the-box support for printing and scanning, we now ship with sane-backends, hplip drivers, and Canon UFRII LT printer drivers. Our hplip has been upgraded to 3.17.7, which improves cups support, recognition of Solus by hp-check, and udev rule location fixes. 
 
@@ -53,7 +53,7 @@ This release features out-of-the-box support for [snaps](https://snapcraft.io), 
 
 Solus ships with our brand new release of the Budgie 10.x series, Budgie 10.4, as well as introducing our new branding defaults, adopting the stunning Adapta GTK Theme and Papirus Icon Theme, as well as complementing those design changes by adopting the Noto Sans font. We've also moved the primary panel from the top of the display to the bottom and tweaked panel widget spacing to make Budgie feel more spacious.
 
-Whether it was implementing features, fixes, or improving / expanding translations, the Budgie community was integral to this Budgie release. So thank you to everyone that has contributed, whether it was features or fixes, reporting issues, or improving translations.
+Whether it was implementing features, fixes, or improving / expanding translations, the Budgie community was integral to this Budgie release. So thank you to everyone that has contributed.
 
 ### Animations
 
@@ -121,7 +121,7 @@ With these new panels, you will now also be able to control the panel transparen
 
 {{< altimg "2017/08/budgie-10/Budgie_Panel_Dockmode.jpg" >}}
 
-As if Budgie panels couldn't improve more, we've also introduced a Dock mode for panels, which leverage our Icon Tasklist and some positioning magic, enabling you to put a dock on any side of your display!
+As if Budgie panels couldn't improve more, we've also introduced a Dock mode for panels, enabling you to put a dock on any side of your display!
 
 This Dock mode also uses a custom CSS class, which means theme developers have the ability to implement custom styling.
 
@@ -148,6 +148,7 @@ To the right of the applet list, you have a dedicated "Add applet" button and se
 In the Settings section of a panel, a multitude of options are exposed, such as:
 
 - Position of the panel
+- Size of the panal (height for vertical panels, width for horizontal panels)
 - Auto-hide settings (including Intellihide, which is great for Dock mode)
 - Transparency settings (as discussed in the Panels -> Transparency section of this blog post)
 - Shadow (a decorative drop shadow)
@@ -190,7 +191,7 @@ Solus GNOME Edition ships an updated GNOME Online Accounts and Evolution Data Se
 
 #### Nautilus
 
-Solus GNOME Edition ships with a patched Nautilus that re-introduces the graphical option for the "Enter Location" option that was removed in Nautilus, enabling users to more easily type a location to navigate to rather than needing to memorize keyboard shortcuts.
+Solus GNOME Edition ships with a patched Nautilus that re-introduces the graphical option for the "Enter Location" option that was removed in Nautilus, enabling users to more easily access the functionality to type a location to navigate.
 
 #### Other Fixes
 
