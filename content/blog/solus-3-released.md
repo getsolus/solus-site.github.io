@@ -27,7 +27,7 @@ Our Budgie and GNOME Editions ship with GNOME MPV 0.12 and our MATE Edition ship
 
 ### Hardware and Kernel Enablement
 
-This Solus release switches our default kernel to the Linux stable branch, release 4.12.7. This switch enables us to receive numerous improvements to support of the latest AMD, Intel, and NVIDIA hardware, while still making available the LTS branch for existing users.
+This new major version of Solus is now based on the latest stable branch of the Linux kernel, 4.12.7. This switch enables various hardware improvements for the latest AMD, Intel, and NVIDIA hardware. Users of the existing `linux-lts` kernel will continue to receive updates indefinitely, with the next major update to this branch scheduled to land in or around September.
 
 Furthermore, we've enabled AppArmor `LSM` by default to provide functionality for snapd confining, as well as the introduction of a fully functioning Linux Security Module within our kernel builds.
 
@@ -212,6 +212,15 @@ Among the above mentioned items, we've also resolved the following issues:
 #### Caya
 
 Caya has been patched to [support whitelisting and trusting symlinked vendor-provided .desktop files](https://dev.solus-project.com/R482:f667c0a3d29851855f8b0a232a1eb0e3958883e1). This enables us to provide default desktop icons for items such as the Installer.
+
+## Lastly
+
+A message from Ikey, Solus Project founder
+
+ > I would like to personally thank everyone who has supported, and those who continue to support, our projects.
+ > With your support, you've enabled me to work full time on Solus. It is a rare privilege indeed to be able to work on that which
+ > you love, to make your passion your life's work. Without your support, and without the community that *empowers* Solus, we would
+ > never be the project we have become. Here's to a fantastic 2017, and a glorious, open and collaborative future for all of us.
 
 ---
 
