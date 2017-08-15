@@ -150,7 +150,7 @@ To the right of the applet list, you have a dedicated "Add applet" button and se
 In the Settings section of a panel, a multitude of options are exposed, such as:
 
 - Position of the panel
-- Size of the panal (height for vertical panels, width for horizontal panels)
+- Size of the panel (height for vertical panels, width for horizontal panels)
 - Auto-hide settings (including Intellihide, which is great for Dock mode)
 - Transparency settings (as discussed in the Panels -> Transparency section of this blog post)
 - Shadow (a decorative drop shadow)
@@ -209,9 +209,9 @@ Among the above mentioned items, we've also resolved the following issues:
 
 ### General Fixes and Improvements
 
-#### Caya
+#### Caja
 
-Caya has been patched to [support whitelisting and trusting symlinked vendor-provided .desktop files](https://dev.solus-project.com/R482:f667c0a3d29851855f8b0a232a1eb0e3958883e1). This enables us to provide default desktop icons for items such as the Installer.
+Caja has been patched to [support whitelisting and trusting symlinked vendor-provided .desktop files](https://dev.solus-project.com/R482:f667c0a3d29851855f8b0a232a1eb0e3958883e1). This enables us to provide default desktop icons for items such as the Installer.
 
 ## Lastly
 
