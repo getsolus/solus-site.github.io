@@ -68,7 +68,7 @@ There is some Solus technology that we'll be replacing or overhauling, such as:
 
 - Replacing `eopkg` with `sol`.
 - First-class hybrid GPU support, with dynamic GPU switching and OS/desktop integration.
-- Developing a TLP alternative to improve people's battery life.
+- Developing a TLP alternative to improve battery life.
 - Providing an OEM installer mode.
 
 ---
