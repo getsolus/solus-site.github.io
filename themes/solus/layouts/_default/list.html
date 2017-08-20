@@ -19,9 +19,9 @@
 							<div data-solus-type="featured-blog-info">
 								{{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
 								{{ if ge (len $firstBlog.Summary) 397 }}
-									<p itemprop="description">{{- safeHTML (substr $firstBlog.Summary 0 397) -}}...</p>
+									<p itemprop="description">{{- htmlUnescape (plainify (safeHTML (substr $firstBlog.Summary 0 397))) -}}...</p>
 								{{ else }}
-									<p itemprop="description">{{- safeHTML $firstBlog.Summary -}}
+									<p itemprop="description">{{- htmlUnescape (plainify (safeHTML $firstBlog.Summary)) -}}</p>
 								{{ end }}
 								<a data-solbit="button" href="{{ $firstBlog.Permalink }}" data-solbit-size="large" data-solbit-enfsize>Read More</a>
 							</div>
