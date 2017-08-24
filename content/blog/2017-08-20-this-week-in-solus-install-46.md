@@ -12,7 +12,7 @@ url: "/2017/08/20/this-week-in-solus-install-46"
 
 Welcome to the 46th installation of This Week in Solus, or as I'm opting to call this one, "TODO all the things!"
 
-We've been absolutely thrilled with the release (and reception) of Solus 3, but our work on building a better Solus is never finished.We knew this ahead of release and set up a [post release tasklist](https://dev.solus-project.com/T4235) of all the items we want to address in the immediate or long-term future.<!--more-->
+We've been absolutely thrilled with the release (and reception) of Solus 3, but our work on building a better Solus is never finished. We knew this ahead of release and set up a [post release tasklist](https://dev.solus-project.com/T4235) of all the items we want to address in the immediate or long-term future.<!--more-->
 
 But let's be honest, a big TODO list is far less exciting than us actually going over some of these higher priority items, so let's do that.
 
