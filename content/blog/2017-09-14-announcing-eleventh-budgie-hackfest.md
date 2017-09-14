@@ -1,5 +1,5 @@
 ---
-title: "Announcing Budgie 11 Hackfest"
+title: "Announcing Upcoming Hackfest - The Eleventh Budgie"
 author: "joshua"
 categories:
 - budgie
@@ -7,7 +7,7 @@ categories:
 - plans
 date: 2017-09-14T16:51:34+03:00
 featuredimage: "2017/09/budgie-eleven-hackfest.jpg"
-url: "/2017/09/14/announcing-budgie-eleven-hackfest"
+url: "/2017/09/14/announcing-eleventh-budgie-hackfest"
 ---
 
 The time is nigh to start development of Budgie 11 and you can tune in on Saturday, September 16th at 1700 GMT to watch Ikey work on it live!
