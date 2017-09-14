@@ -39,6 +39,7 @@ This list should not suggest that *only* such devices listed below are compatibl
 - Asus EEE-PC 1001PX
 - Asus EEE-PC 1011PX
 - Asus G750JZA
+- Asus K401UQK
 - Asus K53U
 - Asus K55VM
 - Asus M50VM
@@ -132,8 +133,10 @@ This list should not suggest that *only* such devices listed below are compatibl
 - Lenovo ThinkPad T440
 - Lenovo ThinkPad T440s
 - Lenovo ThinkPad T560
+- Lenovo ThinkPad T570
 - Lenovo ThinkPad W520 4270CTO
-- Lenovo ThinkPad X1 Carbon 3rd
+- Lenovo ThinkPad X1 Carbon 3rd Edition
+- Lenovo ThinkPad X1 Carbon 4th Edition
 - Lenovo ThinkPad X200T
 - Lenovo ThinkPad X201
 - Lenovo ThinkPad X220
