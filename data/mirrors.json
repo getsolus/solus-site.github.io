@@ -4,7 +4,7 @@
 		"Location": "Amsterdam",
 		"Longitude": 4.8952,
 		"Type": "official",
-		"Url": "http://stroblindustries.com/isos/"
+		"Url": "https://stroblindustries.com/isos/"
 	},
 	{
 		"Latitude": 33.753746,
@@ -25,7 +25,7 @@
 		"Location": "London",
 		"Longitude": -0.127758,
 		"Type": "official",
-		"Url": "http://soluslond1iso.stroblindustries.com/"
+		"Url": "https://soluslond1iso.stroblindustries.com/"
 	},
 	{
 		"Latitude": 40.357298,
@@ -46,6 +46,6 @@
 		"Location": "San Francisco",
 		"Longitude": -122.4194,
 		"Type": "official",
-		"Url": "http://solussf1iso.stroblindustries.com/"
+		"Url": "https://solussf1iso.stroblindustries.com/"
 	}
 ]
