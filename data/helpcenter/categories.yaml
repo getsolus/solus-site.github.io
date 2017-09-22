@@ -25,9 +25,9 @@ package_management:
 packaging:
     Title: Packaging
     Description: Distributing software to users on Solus.
-repair_and_recovery:
-    Title: Repair and Recovery
-    Description: Repairing or recovering your Solus system.
 software:
     Title: Software
     Description: Kickstart use of select software like Java.
+troubleshooting:
+    Title: Troubleshooting
+    Description: Troubleshoot issues on your Solus system.
