@@ -28,7 +28,8 @@ sync:
 	mkdir -p themes/solus/static/js
 	mkdir -p themes/solus/static/imgs/help-center
 	find help-center-docs/* -maxdepth 0 ! -name "imgs" -type d -exec cp -Ru {} content/articles/ \;
-	cp -R help-center-docs/imgs/* themes/solus/static/imgs/help-center/
+	find content/articles/* -name "*.jpg" -type f -exec rm {} \;
+	rsync -avx --delete help-center-docs/imgs/* themes/solus/static/imgs/help-center/
 	rm -f themes/solus/static/css/website*.css
 	rm -f themes/solus/static/js/{site,solbit}*
 	cp -R solus-styling/build/*.css themes/solus/static/css/
