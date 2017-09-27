@@ -1,5 +1,5 @@
 ---
-date: 2017-02-07T04:14:14+02:00
+date: 2017-09-27T15:32:14+03:00
 internaltype: page
 title: Troubleshooting
 aliases: ["/articles/repair-and-recovery/"]
