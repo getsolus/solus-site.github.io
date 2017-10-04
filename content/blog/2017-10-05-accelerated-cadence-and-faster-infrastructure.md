@@ -16,17 +16,16 @@ Over the last month we've been pushing Solus hard in order to scale properly to 
 
 ### fastly
 
-We're thrilled to announce that [Fastly](https://www.fastly.com/), providers of first-class content delivery, are sponsoring the distribution of packages from our package server via their CDN services, enabling **blazing fast and more reliable** package downloading for Solus users around the world. Fastly is passionate about [open source](https://www.fastly.com/open-source/), with a long history of sponsoring open source projects, including Debian, Inkscape, the Linux Kernel, Mumble, and more. When we reached out regarding our desire to vertically and horizontally scale out our infrastructure, they brought their expertise and resources to the table, recognizing the opportunity to positively impact the Solus experience for our users all around the world.
+We're thrilled to announce that [Fastly](http://fastly.us/2fpXNvV), providers of first-class content delivery, are sponsoring the distribution of packages from our package server via their CDN services, enabling **blazing fast and more reliable** package downloading for Solus users around the world. Fastly is passionate about [open source](https://www.fastly.com/open-source/), with a long history of sponsoring open source projects, including Debian, Inkscape, the Linux Kernel, Mumble, and more. When we reached out regarding our desire to vertically and horizontally scale out our infrastructure, they brought their expertise and resources to the table, recognizing the opportunity to positively impact the Solus experience for our users all around the world.
 Previously we used a single server (on a decent line) to provide our package repositories, and therefore package updates, to our users. As time went by and the Solus userbase grew, the server became oversaturated and was no longer able to sufficiently cope with the load.
 
 One of the most important things for a project like Solus is being able to rapidly deploy security sensitive updates, fresh software, and bug fixes, to our users. Prior to our switch to Fastly late last Friday, our systems had all but crawled to a halt. On my system, the average speed coming from the package servers had dropped as low as 280kb/s, making daily development incredibly painful. Depending on your location in the world, and your internet capabilities, this may be similar or indeed lower.
 
 Now, we're seeing dramatically higher speeds. More importantly, our users are seeing similar speeds all around the world, so their proximity to the main server is no longer relevant. As an indication, using the previous test speed of 280kb/s on my system, the Fastly CDN now provides the same items at 11.14mb/s. That's almost 40x faster!
 
-Thanks to ferryd and Fastly's support for faster infrastructure, we're able to not only build and upgrade Solus at an accelerated rate, we're able to deliver those upgrades and improvements to you.
-
 ### ferryd
-To understand what ferryd is, and what purpose it serves, we must take a very brief tour of the Solus deployment architecture:
+
+To understand what [ferryd](https://github.com/solus-project/ferryd) is, and what purpose it serves, we must take a very brief tour of the Solus deployment architecture:
 
 - Changes made to package within git
 - Core developer publishes to build controller
@@ -40,7 +39,7 @@ Ok, now we understand the basic architecture in play, we can discuss ferryd. Pri
 
 **Enter ferryd**
 
-ferryd is described as: "Fast, safe and reliable transit for the delivery of software updates to users". It was built from the ground up to ensure the absolute minimum amount of time required to process packages, as well as addressing design flaws in the old implementation. Written in Golang, it is designed to be highly parallel and ensure that as soon as a package is processed, it is always available. A typical package inclusion takes little over 6 seconds (which is an enormous improvement on the previous 6 minutes!). The new design also mandates a verifiable "transit manifest" (.tram) upload, so that an entire package set is processed at once. So even for our large build payloads, we still see an average of 6 seconds per inclusion.
+[ferryd](https://github.com/solus-project/ferryd) is described as: "Fast, safe and reliable transit for the delivery of software updates to users". It was built from the ground up to ensure the absolute minimum amount of time required to process packages, as well as addressing design flaws in the old implementation. Written in Golang, it is designed to be highly parallel and ensure that as soon as a package is processed, it is always available. A typical package inclusion takes little over 6 seconds (which is an enormous improvement on the previous 6 minutes!). The new design also mandates a verifiable "transit manifest" (.tram) upload, so that an entire package set is processed at once. So even for our large build payloads, we still see an average of 6 seconds per inclusion.
 
 **So how much faster is it..?**
 
@@ -56,6 +55,8 @@ deltas are available.
 OK so keep up - we've got a fantastic new repository management system, always on deltas, significantly faster downloads.. what next? More people, of course! We've now onboarded 2 more global maintainers for the project. They have direct access to the repositories like we do, and can help with landing patches. More people = more faster.
 
 Without further ado, please welcome [kyrios](https://dev.solus-project.com/p/kyrios123/) (Pierre-Yves) and [joebonrichie](https://dev.solus-project.com/p/joebonrichie/) (Joey Riches) as global community maintainers! They've made a significant dent already, and the Solus build page is constantly ticking over.
+
+Over the following weeks and months we'll be looking to onboard maintainers for specific repositories and stacks to further increase the Solus cadence, and ensure each area is monitored by those familiar with the relevant technologies.
 
 ### Fixed sync cycle
 
