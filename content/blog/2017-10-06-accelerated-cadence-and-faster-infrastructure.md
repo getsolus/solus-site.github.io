@@ -6,9 +6,9 @@ categories:
 - news
 - packages
 - partners
-date: 2017-10-05T01:49:59+03:00
+date: 2017-10-06T01:49:59+03:00
 featuredimage: "/2017/10/download-speeds.jpg"
-url: "/2017/10/05/accelerated-cadence-and-faster-infrastructure"
+url: "/2017/10/06/accelerated-cadence-and-faster-infrastructure"
 ---
 
 Over the last month we've been pushing Solus hard in order to scale properly to meet the growing daily demands of the project. In a nutshell - it's not enough to be faster, we must be fast. We're delighted to report that we've achieved that aim, and in this post we'll share the details of how we got there.
@@ -60,7 +60,7 @@ Over the following weeks and months we'll be looking to onboard maintainers for 
 
 ### Fixed sync cycle
 
-As of this Friday (October 6th) we'll be implementing a formal sync cadence for issuing updates from unstable to the Shannon channel (stable repository). This mandates that we shall sync at minimum once every Friday, which will allow us to make breaking changes in the unstable repository in that time and stabilise in time for deployment. Our first demonstration of this will be to update the GNOME Stack in Solus to 3.26.1 as part of our ["Weekendtoberfest"](https://dev.solus-project.com/T4672). We may also make minor syncs during the week, but Friday should be the expected "batch update" day.
+As of this Friday (October 6th) [we'll be implementing a formal sync cadence](/articles/packaging/release-processes/en/) for issuing updates from unstable to the Shannon channel (stable repository). This mandates that we shall sync at minimum once every Friday, which will allow us to make breaking changes in the unstable repository in that time and stabilise in time for deployment. Our first demonstration of this will be to update the GNOME Stack in Solus to 3.26.1 as part of our ["Weekendtoberfest"](https://dev.solus-project.com/T4672). We may also make minor syncs during the week, but Friday should be the expected "batch update" day.
 
 ### Finally...
 
