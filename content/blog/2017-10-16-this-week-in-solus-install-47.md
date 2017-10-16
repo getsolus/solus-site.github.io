@@ -87,17 +87,11 @@ libGL error: unable to load driver: swrast_dri.so
 libGL error: failed to load driver: swrast
 ```
 
-Solus users currently have a git-based Linux Steam Integration, that features further improvements to liblsi-intercept. For starters, we ensure use of vendor-provided libGL, libGLES*, libGLU, and libGLEW. We transmute sonames for Feral Interactive games. 
-
-From the words of Ikey:
-
-> During testing with DiRT Rally, it was discovered that Feral Interactive have altered the sonames of their libraries and linked to those, ensuring they never match the system versions. This however will lead to a mixed SDL2 stack for those disabling the Steam runtime, and in turn forces older builds of SDL to be used. To combat this, we intercept soname requests during early linking based on a simple pattern, and if they don't match the expected target name, we'll rewrite the request in place to force the linker to look for the real soname.
-> 
-> In combination with the existing lsi_blacklist_vendor function, this ensures that a game looking for `libSDL2-2.0.5.so` will correctly load the system's own `libSDL2-2.0.so.0`.
+Solus users currently have a git-based Linux Steam Integration, that features further improvements to liblsi-intercept. For starters, we ensure use of vendor-provided libGL, libGLES*, libGLU, and libGLEW. During testing with DiRT Rally, it was discovered that it had shipped with altered sonames of its libraries and linked to those, ensuring they never match the system versions. This however will lead to a mixed SDL2 stack for those disabling the Steam runtime, and in turn forces older builds of SDL to be used. To combat this, we intercept soname requests during early linking based on a simple pattern, and if they don't match the expected target name, we'll rewrite the request in place to force the linker to look for the real soname. In combination with the existing lsi_blacklist_vendor function, this ensures that a game looking for `libSDL2-2.0.5.so` will correctly load the system's own `libSDL2-2.0.so.0`.
 
 We also blacklist games from replacing security-sensitive libcurl and have taught liblsi-intercept to rewrite dlopen requests for XNA. This means that Mono games such as Stardew Valley, which previous loaded paths locally using `dlopen()`, are now detected and and we attempt to rewrite those to meet system paths, forcing `dlopen()` to resolve to system SDL, openAL, etc.
 
-Lastly, liblsi-intercept now has rewrite rules for SDL2 TTF and we now prevent games, for example HyperLightDrifter, from loading ancient SSL libraries.
+Lastly, liblsi-intercept now has rewrite rules for SDL2 TTF and we now prevent games from loading ancient SSL libraries.
 
 ### Driverless Printing
 
