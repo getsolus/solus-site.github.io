@@ -58,7 +58,7 @@ More polish and touches on the GNOME stack and various GNOME or GTK applications
 - GNOME Calendar: Reported ownCloud as an account option when in reality the Gnome Online Accounts type is Nextcloud, so that's been patched.
 - GNOME Online Accounts had its Todoist support enabled.
 - Epiphany was modified so the [Solus blog is the default homepage](https://dev.solus-project.com/R707:5c63226823fd6568ed80466e96a931b46111b3bb), keeping it consistent with what we do with Firefox.
-- We've enabled properly exiting Midori, [even when music is playing](https://dev.solus-project.com/R2178:0152427ce249bb30f623030e69bbed565793fbca).
+- We've enabled properly exiting Noise, [even when music is playing](https://dev.solus-project.com/R2178:0152427ce249bb30f623030e69bbed565793fbca).
 
 Our GNOME desktop branding was [updated](https://dev.solus-project.com/R957:39e585e35b69fc4989f8fc309225c2b5b47a6de6) to show basic file type information in Nautilus' list view, as well as experimenting with enabling the Create Link (symbolic links) out-of-the-box.
 
