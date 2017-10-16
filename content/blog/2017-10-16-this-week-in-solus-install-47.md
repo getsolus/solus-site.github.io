@@ -68,9 +68,9 @@ Our GNOME desktop branding was [updated](https://dev.solus-project.com/R957:39e5
 
 Linux Steam Integration has seen 3 releases this week and features a new "liblsi-intercept", which controls the dynamic linking for Steam binaries, resolving some long-standing issues such as crashes on start, broken fullscreen views, and ensures that the Steam client uses OS-provided libraries. liblsi-intercept also provides a whitelist to allow Steam to continue to load its own private libraries and our intercept behavior is controlled on a process-name basis.
 
-What does this mean? Well it means the Steam client is now using more system libraries, such as SDL, which fixes crashes and fullscreen issues when watching a game trailer in the store.
+What does this mean? Well it means the Steam client is now using more system libraries, such as SDL, which fixes crashes as well as fullscreen issues when watching a game trailer in the store.
 
-Our liblsi-intercept also includes a fallback "vendor offendor" mode, ensuring certain vendored libraries are **blacklisted**, which ensures certain games like Black Mesa will work correctly on the open source drivers. This matters for distributions using the new C++ ABI and games shipping the old C++ ABI as a vendored lib.
+Our liblsi-intercept also includes a fallback "vendor offendor" mode, ensuring certain vendored libraries are **blacklisted**, which ensures many games, including Black Mesa, will work correctly on the open source drivers. This matters for distributions using the new C++ ABI and games shipping the old C++ ABI as a vendored lib.
 
 {{<altimg "2017/10/liblsi-intercept-blackmesa.jpg" >}}
 
@@ -89,9 +89,9 @@ libGL error: failed to load driver: swrast
 
 Solus users currently have a git-based Linux Steam Integration, that features further improvements to liblsi-intercept. For starters, we ensure use of vendor-provided libGL, libGLES*, libGLU, and libGLEW. During testing with DiRT Rally, it was discovered that it had shipped with altered sonames of its libraries and linked to those, ensuring they never match the system versions. This however will lead to a mixed SDL2 stack for those disabling the Steam runtime, and in turn forces older builds of SDL to be used. To combat this, we intercept soname requests during early linking based on a simple pattern, and if they don't match the expected target name, we'll rewrite the request in place to force the linker to look for the real soname. In combination with the existing lsi_blacklist_vendor function, this ensures that a game looking for `libSDL2-2.0.5.so` will correctly load the system's own `libSDL2-2.0.so.0`.
 
-We also blacklist games from replacing security-sensitive libcurl and have taught liblsi-intercept to rewrite dlopen requests for XNA. This means that Mono games such as Stardew Valley, which previous loaded paths locally using `dlopen()`, are now detected and and we attempt to rewrite those to meet system paths, forcing `dlopen()` to resolve to system SDL, openAL, etc.
+We have taught liblsi-intercept to rewrite dlopen requests for XNA. This means that Mono games such as Stardew Valley, which previous loaded paths locally using `dlopen()`, are now detected and and we attempt to rewrite those to meet system paths, forcing `dlopen()` to resolve to system SDL, openAL, etc.
 
-Lastly, liblsi-intercept now has rewrite rules for SDL2 TTF and we now prevent games from loading ancient SSL libraries.
+Lastly, liblsi-intercept now has rewrite rules for ABI-stable SDL2 components (SDL2_TTF, etc) and we'll also now blacklist any attempts at loading vendored security-critical libraries, such as OpenSSL or curl.
 
 ### Driverless Printing
 
