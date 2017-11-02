@@ -1,6 +1,6 @@
 +++
 title = "Laptop Compatibility"
-lastmod = "2017-07-08T17:51:19+03:00"
+lastmod = "2017-11-02T03:28:55+02:00"
 +++
 # Laptop Compatibility
 
@@ -15,9 +15,10 @@ This list should not suggest that *only* such devices listed below are compatibl
 - Acer Aspire 4830T
 - Acer Aspire 5750G
 - Acer Aspire 7551
-- Acer Aspire ES 17 (ES1-731G-P1MC)
 - Acer Aspire E5-473-370Z
 - Acer Aspire E5-573G
+- Acer Aspire ES 15 (ES1-572-5025)
+- Acer Aspire ES 17 (ES1-731G-P1MC)
 - Acer Aspire V3-112P
 - Acer Aspire V3-571G
 - Acer Aspire V5-121
@@ -46,6 +47,7 @@ This list should not suggest that *only* such devices listed below are compatibl
 - Asus N501JW
 - Asus N61JA
 - Asus N61Jv
+- Asus Pro50SR
 - Asus UX305FA
 - Asus X200MA
 - Asus X201EV
@@ -65,6 +67,7 @@ This list should not suggest that *only* such devices listed below are compatibl
 - Dell Latitude D830
 - Dell Latitude E4310
 - Dell Latitude E5440
+- Dell Latitude E5510
 - Dell Latitude E6230
 - Dell Latitude E6320
 - Dell Latitude E6410
@@ -165,6 +168,7 @@ This list should not suggest that *only* such devices listed below are compatibl
 
 ### Sony
 
+- Sony VAIO Pro 13
 - Sony VAIO S Series 13
 - Sony VAIO VPCEC3M1E
 
