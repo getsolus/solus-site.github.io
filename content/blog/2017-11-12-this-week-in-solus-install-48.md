@@ -92,6 +92,8 @@ This isn't a full, comprehensive list of games, and may not be up-to-date by the
 
 At this stage, we're considering our runtime a "pre-alpha". Rome wasn't built in a day and we're looking to the broader community to help test across a wider range of operating systems, like Fedora and Ubuntu. It requires getting your hands a bit dirty, but we've provided some instructions on our [project page](https://github.com/solus-project/runtime-snaps) on getting started! It will require you to have a `snapd` with a few patches that haven't landed yet but we are hosting and actively updating our runtime and linux-steam-integration snaps, so you likely won't need to build the runtime and LSI snaps, but rather just follow the instructions below!
 
+Please ensure that before testing, you are using a patched snapd and have rebooted after its installation. For Solus users, it'll be a matter of `eopkg up` as usual, then proceeding to reboot. For non-Solus users, consult the respective documentation for your operating system on building, installing, and enabling snapd prior to rebooting.
+
 #### On Your Mark
 
 Download our snaps with the following commands:
