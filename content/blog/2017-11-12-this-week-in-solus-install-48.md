@@ -15,6 +15,7 @@ Welcome to This Week in Solus, install #48.
 
 This has been an absolutely incredible week for our Snap support. In a matter of a few days, we've gone from having no snap gaming runtime to one that's been battle tested (*quite literally*) against over 70 titles, with over 60 that are known to be working.
 
+<!--more-->
 So what makes this gaming runtime so important? Well if you're a Solus user, you've had a pretty stellar experience with Steam and Linux gaming for quite some time, whether it's having our optimized libraries, a modern and native runtime, or the recent addition of `liblsi-intercept` in our Linux Steam Integration tool for enabling a wider variety of titles to work as expected. But if you've been using a different operating system, you haven't necessarily been able to benefit to the fullest extent from all our optimizations and improvements.
 
 But thanks to the power of [Snaps](https://snapcraft.io), we're able to bring that same gaming experience to **everyone**. Snap enables us to provide a base image that is effectively a miniature version of Solus, featuring our optimized Mesa, glibc, SDLs, and various graphical components such as the necessary GTK theming to make Steam look proper. This snap is referred to as `solus-runtime-gaming` and is leveraged by our application runtime snap, which features Linux Steam Integration and Steam itself.
@@ -140,7 +141,7 @@ Like any early testing, there are some known issues and notes we want to provide
 
 ## Solus 4
 
-With our plan to release Solus 4 this month, we've created a meta tasklist on what we want to get done before shipping. The full list is available [here](), but here is a summary of some of the items we want to do.
+With our plan to release Solus 4 this month, we've created a meta tasklist on what we want to get done before shipping. The full list is available [here](https://dev.solus-project.com/T5010), but here is a summary of some of the items we want to do.
 
 ### Budgie
 
@@ -148,9 +149,9 @@ We'll be shipping a point release of Budgie 10.4. This will, in comparison to Bu
 
 This Budgie release will feature icon tasklist improvements courtesy of Stefan Ric (aka cybre), specifically window grouping and smarter window control / switching (switching windows using the scroll wheel). These options will be configurable so grouping can be disabled.
 
-### Improved Third-Party Experience
+### MATE
 
-The same Snap technology enabling our gaming runtime will also enable a smoother third-party experience. We'll be continuing our work on integrating Snaps into the Solus Software Center, replacing our current third party system with them.
+Solus MATE Edition will see a visual refresh, including to mate-notification-theme-slate and a new Brisk Menu release.
 
 ### QoL and Stack Upgrades
 
@@ -161,7 +162,15 @@ We'll be performing various stack upgrades such as:
 - Pulseaudio 11
 - Python 2 and 3
 
-Additionally, we'll be working on improving the state of hotspot enabling by shipping `hostapd` as well as support for network shares with Samba enablement and testing.
+Additionally, we'll be working on improving the state:
+
+- Hotspot enabling by shipping `hostapd`
+- Network shares with Samba enablement and testing
+- Wayland with enablement and [improving the NVIDIA GL/EGL situation](https://dev.solus-project.com/T4901)
+
+### Software Center and Third Party
+
+The same Snap technology enabling our gaming runtime will also enable a smoother third-party experience. We'll be continuing our work on integrating Snaps into the Solus Software Center, replacing our current third party system with them. Meanwhile, we'll be fixing various issues and addressing some feature requests for the Software Center, such as adding an Update button in the package details page of apps that are already installed.
 
 ## Last TWIS
 
