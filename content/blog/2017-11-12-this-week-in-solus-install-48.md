@@ -97,8 +97,8 @@ At this stage, we're considering our runtime a "pre-alpha". Rome wasn't built in
 Download our snaps with the following commands:
 
 ``` bash
-wget https://solus-project.com/sources/snap/solus-runtime-gaming_0.0.0_amd64.snap
-wget https://solus-project.com/sources/snap/linux-steam-integration_0.6_amd64.snap
+wget https://packages.solus-project.com/lsi/solus-runtime-gaming_0.0.0_amd64.snap
+wget https://packages.solus-project.com/lsi/linux-steam-integration_0.6_amd64.snap
 ```
 
 #### Get Set
