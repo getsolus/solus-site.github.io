@@ -172,6 +172,37 @@ Additionally, we'll be working on improving the state:
 
 The same Snap technology enabling our gaming runtime will also enable a smoother third-party experience. We'll be continuing our work on integrating Snaps into the Solus Software Center, replacing our current third party system with them. Meanwhile, we'll be fixing various issues and addressing some feature requests for the Software Center, such as adding an Update button in the package details page of apps that are already installed.
 
+## Keep on rolling, rolling, rolling
+
+Over time, elements of the underlying system are prone to change due to the nature of being a rolling release. Traditionally those changes have required manual user-intervention to resolve update issues. Recently an example of this opted to rear its ugly head in Solus.
+
+After upgrades to some packages, including `sane-backends`, users were left unable to use their scanners without first using sudo or similar to gain administrative privileges. This was due to the udev rules update requiring users to be in the `scanner` group. Similarly, other packages when updated required users to be in the `plugdev` group.
+
+The problem is, those groups didn't exist in Solus 3, and there was no way for users to be in those groups. Rather than resorting to an informational blog post with manual intervention instructions, we built a new solution to address this kind of upgrade issue head-on.
+
+### qol-assist
+
+[qol-assist](https://github.com/solus-project/qol-assist) is a new part of Solus that is designed to help rolling releases to  keep rolling. Currently this is responsible for dealing with complex migrations in a controlled fashion - dealing with elements that are typically very hard to do from package install scripts. Right now qol-assist will be triggered to run when first installed, and any time the qol-assist package is updated to provide migrations.
+
+Right now qol-assist is responsible for applying versioned migrations to the system, and was recently used to automatically migrate all human system users with administrative privileges (i.e. in the `sudo` group) to the new `plugdev` and `scanner` groups automatically. This meant that upon rebooting from these updates, users had been automatically migrated without any intervention and things went back to "just works".
+
+### Next steps
+
+As part of solidifying the core experience, we're going to expand upon our tooling to provide not only solid upgrade systems, but tooling that can be used for recovery purposes. Currently we have a disconnected set of "post-install" scripts in various packages in the repositories, just like any other distribution. However, this significantly complicates the upgrade process as we cannot gaurantee execution order, nor are these action scripts available for recovery or diagnosis purposes.
+
+Our next steps are to consolidate all of the OS triggers into a new project, which will provide a static binary designed to be entirely immune to potential upgrade issues. Much like `qol-assist` it will employ intelligent state tracking to determine exactly which system operations need to be applied, and ensure a sane order of execution. This will be used for everything from simple `ldconfig` style updates up to the management of system users.
+
+Additionally, the new trigger system will provide a CLI system to assist in `chroot`-style recoveries, so that all system triggers can be applied (and introspected) to bring a system back up to health, without requiring complex bootstrap steps to interact with the package manager. Once this system is integrated we will begin preparing for the replacement of eopkg by completely removing its own configuration system, `COMAR`, from normal packaging operations.
+
+### Post-COMAR
+
+An item that isn't on the Solus 4 agenda, but will be worked on in the coming months, is replacing the `COMAR` part of the package manager entirely. Once the trigger system is implemented, the only part of COMAR still being used will be by the Software Center to handle the installation and removal of packages. However, we've experienced some issues with this due to an architectural limitation: This service lives on D-BUS. This is common to almost all user-space management daemons for package management, and during their initial design would never have been an issue. However, nowadays we see systemd and dbus both deeply entwined, thus, if one goes down, so does the other. This makes it impossible to safely implement sane restarts of systemd (`daemon-reexec`) from within the user session as it would cause D-BUS to restart, nuke the daemon, and in turn take out the Software Center.
+
+To alleviate that architectural weakness and reliance on D-BUS, a new system daemon for software management will be implemented, again designed to be fail-safe and resilient to upgrades, service restarts, etc. This will also allow for managed transactional package management operations in the background, insulated from the effects of the upgrade itself (this also links back into the system triggers).
+
+It should be noted that these changes will reduce much of the surface area of the eopkg codebase back to something far simpler,
+notably, something that would be trivial to then replace with an improved implementation (*we know you guys want support for automatically removing orphan packages*). The qol-assist binary, new system triggers, package mux daemon will all come together to provide the required architecture to implement the package management system, and will happen in a serial fashion with a currently unbounded timeline.
+
 ## Last TWIS
 
 When I first started This Week in Solus (which dates clear back to September of 2015), the project was in its early days. We didn't have any of the fancy infrastructure that we have today, we had a completely different bug tracker and literally emailed in patches. Our Core Team was just Ikey, Justin, and myself. Basically what I'm saying is things were much simpler then.
