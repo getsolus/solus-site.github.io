@@ -1,6 +1,6 @@
 +++
 title = "VirtualBox"
-lastmod = "2017-11-09T15:30:00+01:00"
+lastmod = "2017-12-16T20:35:00+02:00"
 +++
 # VirtualBox
 
@@ -25,6 +25,25 @@ VirtualBox is available in the Software Center, select the package that matches 
 virtualbox | virtualbox-current
 ----- | -----
 VirtualBox modules for the **linux-lts** kernel | VirtualBox modules for the **linux-current** kernel
+
+You **must** reboot your computer before running VirtualBox for the first time
+
+### Troubleshooting
+
+{{< altimg "vbox-kernel.png" "help-center/software/virtualbox/" >}}
+
+The Error `Kernel driver not installed (rc=-1908)` may occur if
+
+- The computer was not restarted before launching VirtualBox for the first time
+- The computer is not booted on the latest kernel. Make sure to apply the updates from the Software Center and restart your machine.
+- The wrong VirtualBox package was installed. Please check the instructions just above to install the correct package for your kernel.
+- VirtualBox was manually installed and it conflicts with the version installed from the Solus Repository. The below commands usually help solving this last problem.
+
+``` bash
+sudo /opt/VirtualBox/uninstall.sh
+eopkg li | grep virtualbox | awk '{print $1}' | xargs sudo eopkg it --reinstall
+sudo reboot
+```
 
 ## Solus as Guest
 
