@@ -12,7 +12,7 @@ deploy:
 	rm -r public-deployed/podcasts/{page,index}*
 
 local:
-	hugo server --baseURL "http://127.0.0.1:1313" --watch --quiet --cleanDestinationDir --cacheDir /tmp/hugo/cache/ --destination /tmp/hugo/cache/
+	hugo server --disableFastRender --baseURL "http://127.0.0.1:1313" --watch --quiet --cleanDestinationDir --cacheDir /tmp/hugo/cache/ --destination /tmp/hugo/cache/
 
 setup:
 	git submodule init
