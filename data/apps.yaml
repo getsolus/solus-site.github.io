@@ -3,7 +3,7 @@ files:
 firefox:
     description: We ship with Mozilla Firefox*, a fast and secure web browser.
 gnome_mpv:
-    description: Pop some popcorn and sit down to watch your DVDs, Blu-Rays, or digital media via GNOME MPV.
+    description: Pop some popcorn and sit down to your favorite digital content via GNOME MPV.
 rhythmbox:
     description: Play and manage your music and podcasts, as well as tune into online radio with Rhythmbox.
 sc:
