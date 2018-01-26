@@ -4,7 +4,7 @@ author: "joshua"
 categories:
 - news
 - roundup
-date: 2018-01-26T15:59:24+02:00
+date: 2018-01-26T12:59:24+02:00
 featuredimage: "2018/01/lsi-1.0.jpg"
 url: "/2018/01/26/linux-driver-management-1-0-released" # Example, /2017/01/18/adopting-flatpak-to-reassemble-third-party-applications
 ---
