@@ -17,7 +17,7 @@ theme = "solus"
 ###### Special Params
 
 [params]
-	category = ["budgie", "infrastructure", "news", "packages", "partners", "plans", "releases", "security", "twis"]
+	category = ["budgie", "infrastructure", "news", "packages", "partners", "plans", "releases", "security", "roundup", "twis"]
 	copyright = "2018"
 	footermenu = ["solus", "social", "support", "pressmenu"] # Because I can't for the life of me get Hugo nested lists to work
 	userguide = "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
