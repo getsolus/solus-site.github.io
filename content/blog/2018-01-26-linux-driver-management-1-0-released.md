@@ -9,7 +9,7 @@ featuredimage: "2018/01/lsi-1.0.jpg"
 url: "/2018/01/26/linux-driver-management-1-0-released" # Example, /2017/01/18/adopting-flatpak-to-reassemble-third-party-applications
 ---
 
-We're proud to announce the first release of the new [Linux Driver Management](https://github.com/solus-project/linux-driver-management) and library and the first in a series of future updates.
+We're proud to announce the first release of the new [Linux Driver Management](https://github.com/solus-project/linux-driver-management) and library, as well as the first in a series of future updates.
 
 Since 0.1.0, we've completely reworked LDM to be agnostic and library-based, providing a GObject-style library for use in bindings (*C, JS via GJS, Python, and Vala*), C to detect and enumerate devices, and support for matching devices to driver packages.
 
