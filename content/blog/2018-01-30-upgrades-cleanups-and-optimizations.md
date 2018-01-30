@@ -9,7 +9,7 @@ featuredimage: ""
 url: "/2018/01/30/upgrades-cleanups-and-optimizations"
 ---
 
-Welcome to The Roundup #2, your bytes of Solus news. In this roundup, we're talking stack upgrades, repo cleanup efforts, LDM updates, and planned boot optimizations!
+Welcome to The Roundup #2, your bytes of Solus news. In this roundup, we're talking stack upgrades, repo cleanup efforts, LDM updates, Plasma Early Access ISO, and planned boot optimizations!
 
 ## Stack and Package Upgrades
 
@@ -39,19 +39,19 @@ While all these stack upgrades went on, we also landed some updates like:
 
 ## Repo Cleanup Efforts
 
-### Back in my day (backstory)
+### Back In My Day (Backstory)
 
 In the early days of Evolve OS, building packages was done through handwriting XML files called `pspec.xml` and the configure, build, and install instructions via Python in `actions.py`. This made building packages tedious, repetitive, and had a fairly high barrier to entry. Packaging on Evolve OS (and naturally Solus) forever changed when Ikey introduced ypkg, our modern declarative format on top of YAML, that not only combined package metadata (like name, version, summary, description, patterns, etc.) but **also** the instructions for configuring, building, and installing it. ypkg has also enabled us to enforce a level of consistency as a result of defaults for package splitting and macros for shorthand methods to perform various build operations for GNU Autotools, Haskell, Meson, Perl, Python, etc. If you'd like to see more about Package.yml, check [here](https://solus-project.com/articles/packaging/package.yml/en/).
 
-However, there has been a small subset of packages that we've only recently been capable of converting over to our modern build format. With tooling like `qol-assist` and `usysconf` in November and December respectively, we no longer need to rely on legacy systems like COMAR for various post-install triggers and enables us to centralize them. Additionally in November we added support for prefixless package names with `^` name specifier (we'll get into this in a sec). This has opened the door to us being able to convert our kernels, NVIDIA drivers, gdm, and more to our ypkg format.
+However, there has been a small subset of packages that we've only recently been capable of converting over to our modern build format. With tooling like `qol-assist` and `usysconf` in November and December respectively, we no longer need to rely on legacy systems like COMAR for various post-install triggers and enables us to centralize them. Additionally in November we added support for prefixless package names with `^` name specifier (we'll get into this in a sec). All of this new tooling and improvements has opened the door to us being able to convert our kernels, NVIDIA drivers, gdm, and more to our ypkg format.
 
-### But you said there's effort?
+### But You Said There's Effort?
 
-So Peter a.k.a Sunnyflunk created the [Solus 'Spring' Repo Cleanup task](https://dev.solus-project.com/T5629) to start the steps of finally converting all packages to ypkg (*excluding the ones that are relied on by eopkg*), cleaning up git repositories by disabling those which do not have a corresponding repo package, enforcing a consistent naming policy for repositories, and making the repositories easier to be scripted against (like for ABI rebuilds).
+So Peter a.k.a Sunnyflunk created the [Solus 'Spring' Repo Cleanup task](https://dev.solus-project.com/T5629) to start the steps of finally converting all packages to ypkg (*excluding some that are relied on by eopkg*), cleaning up git repositories by disabling those which do not have a corresponding repo package, enforcing a consistent naming policy for repositories, and making the repositories easier to be scripted against (like for ABI rebuilds).
 
 To say the cleanup effort has been successful would be an understatement. Over 200 repositories have either been renamed for consistency (like `AccountsService` to `accountsservice`) or removed (for example, `libwnck-1` or `spidermonkey`).
 
-Furthermore, thanks to the prefixless package name support in ypkg, we're now able to have more flexibility in how we split packages, instead of being limited to splitting for suffix names like `-devel` or `-utils` (`nfs-utils` as an example). This means packages like `vala` can be converted and split up into packages like `libvala` or `vala`. Here's a shortened example below:
+Furthermore, thanks to the prefixless package name support in ypkg, we're now able to have more flexibility in how we split packages, instead of being limited to splitting for suffix names like `-devel` or `-utils` (`nfs-utils` as an example). This means packages like `vala` can be converted and split up into packages like `libvala` or `valadoc`. Here's a shortened example below:
 
 ``` yaml
 name        : vala
@@ -93,6 +93,12 @@ In case you missed the big news, Linux Driver Management 1.0 was [released last 
 - Ensured stable device	sorting	in `LdmManager`
 - Allowed distros to disable GLX management with `-Dwith-glx-configuration=false`
 - Bumped the soname for release (ABI compatible)
+
+## Plasma Early Access ISO
+
+Peter has just released an Early Access ISO of the Solus Plasma Edition to our [Patrons](https://patreon.com/solus). This early access ISO indicates there are some aspects of the experience that are not finalized, may be subject to change, and potentially in need of more extensive testing. This ISO will give Patron members the opportunity to provide feedback over the coming weeks and based on that feedback, enable Peter to make further refinements to settings, default applications, and more.
+
+If you're already a Patron, I welcome you to read the full post made available to you. If you're not a Patron already, we welcome you to become one today!
 
 ## Planned Boot Optimizations
 
