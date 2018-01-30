@@ -5,7 +5,7 @@ categories:
 - news
 - roundup
 date: 2018-01-30T00:30:19+02:00
-featuredimage: ""
+featuredimage: "2018/01/conversions.png"
 url: "/2018/01/30/upgrades-cleanups-and-optimizations"
 ---
 
@@ -44,7 +44,7 @@ While all these stack upgrades went on, we also landed some updates like:
 
 In the early days of Evolve OS, building packages was done through handwriting XML files called `pspec.xml` and the configure, build, and install instructions via Python in `actions.py`. This made building packages tedious, repetitive, and had a fairly high barrier to entry. Packaging on Evolve OS (and naturally Solus) forever changed when Ikey introduced ypkg, our modern declarative, structured format on top of YAML, that not only combined package metadata (like name, version, summary, description, patterns, etc.) but **also** the instructions for configuring, building, and installing it. ypkg has also enabled us to enforce a level of consistency as a result of defaults for package splitting and macros for shorthand methods to perform various build operations for GNU Autotools, Haskell, Meson, Perl, Python, etc. If you'd like to see more about Package.yml, check [here](https://solus-project.com/articles/packaging/package.yml/en/).
 
-However, there has been a small subset of packages that we've only recently been capable of converting over to our modern build format. With tooling like `qol-assist` and `usysconf` in November and December respectively, we no longer need to rely on legacy systems like COMAR for various post-install triggers and this enables us to centralize them. Additionally in November we added support for prefixless package names with `^` name specifier (we'll get into this in a sec). All of this new tooling and improvements has opened the door to us being able to convert our kernels, NVIDIA drivers, gdm, and more to our ypkg format.
+However, there has been a small subset of packages that we've only recently been capable of converting over to our modern build format. With tooling like `qol-assist` and `usysconf` in November and December respectively, we no longer need to rely on legacy systems like COMAR for various post-install triggers and this enables us to centralize them. Additionally in November we added support for prefix-less package names with `^` name specifier (we'll get into this in a sec). All of this new tooling and improvements has opened the door to us being able to convert our kernels, NVIDIA drivers, gdm, and more to our ypkg format.
 
 ### But You Said There's Effort?
 
@@ -52,7 +52,7 @@ So Peter a.k.a Sunnyflunk created the [Solus 'Spring' Repo Cleanup task](https:/
 
 To say the cleanup effort has been successful would be an understatement. Over 200 repositories have either been renamed for consistency (like `AccountsService` to `accountsservice`) or removed (for example, `libwnck-1` or `spidermonkey`).
 
-Furthermore, thanks to the prefixless package name support in ypkg, we're now able to have more flexibility in how we split packages, instead of being limited to splitting for suffix names like `-devel` or `-utils` (`nfs-utils` as an example). This means packages like `vala` can be converted and split up into packages like `libvala` or `valadoc`. Here's a shortened example below:
+Furthermore, thanks to the prefix-less package name support in ypkg, we're now able to have more flexibility in how we split packages, instead of being limited to splitting for suffix names like `-devel` or `-utils` (`nfs-utils` as an example). This means packages like `vala` can be converted and split up into packages like `libvala` or `valadoc`. Here's a shortened example below:
 
 ``` yaml
 name        : vala
@@ -103,4 +103,6 @@ If you're already a Patron, I welcome you to read the full post made available t
 
 ## Planned Boot Optimizations
 
-Have you ever looked at your boot time and thought *"I sure wish I could make this faster!"* ? We have too. This week, Ikey is going to be working on optimizing various services in the boot process.
+Have you ever looked at your boot time and thought *"I sure wish I could make this faster!"* ? We have too. This week Ikey will be reworking our core systems to facilitate a faster boot for all users, evaluating the early boot services and unblocking critical services to ensure speedy boot and login. He'll be profiling the system boot and speeding up the early sysinit to fix slow units such as apparmor, as well as attempting to speed up the start of X.Org, display managers, and other relevant services that make use of exec helpers.
+
+We'll be covering more broadly the optimizations that have occurred during The Roundup #3 late this week.
