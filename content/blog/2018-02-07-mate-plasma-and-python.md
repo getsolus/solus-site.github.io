@@ -43,7 +43,7 @@ Last week Peter and kyrios performed an upgrade of our Python 3 from 3.5 to 3.6.
 
 As mentioned in [The Roundup #2](/2018/01/30/upgrades-cleanups-and-optimizations) last week, we wanted to dedicate some time on addressing boot speeds and optimizing early boot services, primarily around speeding up slow units such as AppArmor.
 
-Ikey worked on a "simple project" called `aa-lsm-hook`, which simplifies AppArmor LSM integration by means of portable, agnostic binaries that can be called on boot and during package transactions when the AppArmor profiles reload.
+Ikey worked on a [simple project](https://github.com/solus-project/aa-lsm-hook) called `aa-lsm-hook`, which simplifies AppArmor LSM integration by means of portable, agnostic binaries that can be called on boot and during package transactions when the AppArmor profiles reload.
 
 This project eliminates the use of legacy bash scripts to manage the lifetime of AppArmor profiles, performs ahead-of-time compilation of AppArmor profiles (*leveraging apparmor_parser*) via `aa-lsm-hook-compile` during package operations and avoids boot time regressions by loading only from a cache via `aa-lsm-hook-load` (and only recompiling if the cache is invalid or unable to load).
 
