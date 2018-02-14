@@ -9,7 +9,8 @@ featuredimage: "2018/02/kernel_4_15_3.jpg"
 url: "/2018/02/14/plasma-and-solus-4-updates"
 ---
 
-Welcome to The Roundup #4, your bytes of Solus news. In this roundup, we're talking updates to Plasma and progress on Solus 4.
+Welcome to The Roundup #4, your bytes of Solus news. In this roundup, we're talking updates to Plasma and updates on various items for Solus 4.
+<!--more-->
 
 ## New Mesalib and Kernels
 
@@ -55,6 +56,19 @@ Additionally the clock format has been restored. Previously the shortDate format
 {{<altimg "2018/02/plasma-clock-widget.jpg" >}}
 
 ## Solus 4
+
+snapd integration for Solus 4 has been deferred to unblock the Solus 4 release. We will instead land the relevant integration in a future update to the Software Center as and when some pending feature-work has been fully integrated upstream.
+
+The Software Center for Solus 4 will still introduce a fresh design and integrate all the work we've done [in Linux Driver Management](/2018/01/26/linux-driver-management-1-0-released) to provide an improved hardware support and driver installation experience. This Software Center will also utilize the plugin-based architecture that Ikey had worked on during his time at Ubuntu Rally last September, and this will simplify the process of implementing and enabling snapd integration in a future update.
+
+So aside from the Software Center, what further items do we have for the release of Solus 4?
+
+1. Enabling Hotspot support with `hostapd`
+2. Budgie 10.4.1 Release
+3. Brisk Menu Release
+4. UI refreshing for our default MATE experience
+5. Enabling an **experimental** Wayland session for GNOME. Wayland **will not** be the default for Solus Budgie or Solus GNOME, however GNOME users will be able to install a separate session package if they wish to test and experiment with Wayland support. During my testing, I have not found the quality of the GNOME + Wayland to be sufficient enough to be provided as a default experience for our users, and I largely concur with [Canonical's reasoning for deferring it as a default for Ubuntu as well](https://insights.ubuntu.com/2018/01/26/bionic-beaver-18-04-lts-to-use-xorg-by-default/).
+
 
 ## Package Updates
 
