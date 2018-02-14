@@ -51,10 +51,6 @@ Since the issuing of the latest ISO, Peter has updated KDE Frameworks 5 to the l
   - Fix RTL appearance for ComboBox
   - Plasma Dialog: Call window effects only if visible
 
-Additionally the clock format has been restored. Previously the shortDate format was used to provide a nice looking date prior to locale's being fixed. Peter has created a new option for the clock format (RFC2822 Date or otherwise shown as `day month year`) that is now the new default.
-
-{{<altimg "2018/02/plasma-clock-widget.jpg" >}}
-
 ## Solus 4
 
 snapd integration for Solus 4 has been deferred to unblock the Solus 4 release. We will instead land the relevant integration in a future update to the Software Center as and when some pending feature-work has been fully integrated upstream.
