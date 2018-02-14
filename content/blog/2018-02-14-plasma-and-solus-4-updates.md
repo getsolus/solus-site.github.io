@@ -9,7 +9,7 @@ featuredimage: "2018/02/kernel_4_15_3.jpg"
 url: "/2018/02/14/plasma-and-solus-4-updates"
 ---
 
-Welcome to The Roundup #4, your bytes of Solus news. In this roundup, we're talking updates to Mesa and Kernels, Plasma and various items for Solus 4.
+Welcome to The Roundup #4, your bytes of Solus news. In this roundup, we're talking updates to Kernels, Plasma, various items for Solus 4, and more!
 <!--more-->
 
 ## New Mesalib and Kernels
