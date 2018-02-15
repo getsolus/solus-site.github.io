@@ -4,7 +4,7 @@ author: "ikey"
 categories:
 - news
 date: 2018-02-15T11:33:21Z
-featuredimage: ""
+featuredimage: "2018/02/architecture.jpg"
 url: "/2018/02/15/exploring-solus-architecture"
 ---
 
