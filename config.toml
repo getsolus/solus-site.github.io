@@ -23,7 +23,7 @@ theme = "solus"
 	userguide = "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
 
 [params.menus]
-	main = [ "home", "blog", "download", "support_us", "help_center", "about", "store", "press"]
+	main = [ "home", "blog", "download", "support_us", "help_center", "about", "press"]
 	footer = [ "solus", "social", "support", "press"]
 	solus = [ "about", "download", "experiences", "technologies" ]
 	social = [ "facebook", "google_plus", "reddit", "twitter"]
@@ -48,7 +48,6 @@ theme = "solus"
 	press = "press-center"
 	press_center = "press-center"
 	reddit = "https://reddit.com/r/SolusProject"
-	store = "http://www.unixstickers.com/stickers/software_stickers/solus-linux-shaped-sticker"
 	support_us = "support"
 	technologies = "/solus/technologies"
 	twitter = "https://twitter.com/SolusProject"
