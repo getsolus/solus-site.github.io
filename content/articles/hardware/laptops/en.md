@@ -1,6 +1,6 @@
 +++
 title = "Laptop Compatibility"
-lastmod = "2018-02-26T11:36:37+02:00"
+lastmod = "2018-03-08T16:00:57+01:00"
 +++
 # Laptop Compatibility
 
@@ -24,6 +24,7 @@ This list should not suggest that *only* such devices listed below are compatibl
 - Acer Aspire V5-121
 - Acer C710 Chromebook
 - Acer C720-2848 Chromebook
+- Acer TravelMate X349-G2-M
 
 ### Alienware
 
@@ -85,6 +86,10 @@ This list should not suggest that *only* such devices listed below are compatibl
 
 - Fujitsu Lifebook T900
 
+### Gigabyte
+
+- Gigabyte Aero 14K
+
 ### Google
 
 - Google Chromebook CR48
@@ -108,6 +113,7 @@ This list should not suggest that *only* such devices listed below are compatibl
 - HP Pavilion DV7
 - HP Pavilion x360 Convertible
 - HP Presario V6000
+- HP Probook 6360b
 - HP ProBook 6450b
 
 ### Lenovo
@@ -138,6 +144,7 @@ This list should not suggest that *only* such devices listed below are compatibl
 - Lenovo ThinkPad T440
 - Lenovo ThinkPad T440s
 - Lenovo ThinkPad T470
+- Lenovo ThinkPad T470s
 - Lenovo ThinkPad T560
 - Lenovo ThinkPad T570
 - Lenovo ThinkPad W520 4270CTO
