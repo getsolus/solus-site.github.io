@@ -1,6 +1,6 @@
 +++
-title = "Samba file sharing"
-lastmod = "2018-04-20T15:25:16+03:00"
+title = "Samba File Sharing"
+lastmod = "2018-04-20T15:34:16+03:00"
 +++
 # Samba file sharing
 
@@ -57,7 +57,7 @@ By default, the Solus-managed configuration enables $HOME shares and is configur
 
 ``` ini
 # Contents of /etc/samba/smb.conf
-#   if ^^ exists, it is automatically loaded by the solus-controlled default config
+#   if ^^ exists, it is automatically loaded by the Solus-controlled default config
 #   residing in /usr/share/defaults/smb.conf 
 # 
 # Create a "//servername/someshare" share where anonymous users have read and write access
@@ -87,7 +87,7 @@ Full manual control of Samba can be achieved by bypassing the default Solus Samb
 
 In the Samba manual page (`man 8 samba`), it is shown how the compiled-in default config file can be overridden by specifying the `--configfile=<somepath>` flag during invocation of Samba.
 
-To use the traditional `/etc/samba/smb.conf` configuration file exclusively (thus bypassing the solus configuration), edit the `/etc/sysconfig/samba` file to look like so:
+To use the traditional `/etc/samba/smb.conf` configuration file exclusively (thus bypassing the Solus configuration), edit the `/etc/sysconfig/samba` file to look like so:
 
 ```
 ## Path:           Network/Samba
