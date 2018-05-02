@@ -21,13 +21,6 @@
 		"Url": "http://solus.veatnet.de/iso/"
 	},
 	{
-		"Latitude": 51.507351,
-		"Location": "London",
-		"Longitude": -0.127758,
-		"Type": "official",
-		"Url": "https://soluslond1iso.stroblindustries.com/"
-	},
-	{
 		"Latitude": 40.357298,
 		"Location": "New Jersey",
 		"Longitude": -74.667223,
@@ -40,12 +33,5 @@
 		"Longitude": -77.674538,
 		"Type": "community",
 		"Url": "https://mirrors.rit.edu/solus/images/"
-	},
-	{
-		"Latitude": 37.7749,
-		"Location": "San Francisco",
-		"Longitude": -122.4194,
-		"Type": "official",
-		"Url": "https://solussf1iso.stroblindustries.com/"
 	}
 ]

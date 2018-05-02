@@ -31,7 +31,7 @@
 					<section data-solus-type="solus-extra-info">
 						Media Size: {{ $editionInfo.mediasize }}<br />
 						Alternative Download: <a href="{{ $editionInfo.torrent }}">Torrent</a><br />
-						{{ $sha256url := printf "https://soluslond1iso.stroblindustries.com/Solus-%s-%s.sha256sum" $site.Data.isos.info.Version $edition | safeURL }}
+						{{ $sha256url := printf "https://stroblindustries.com/Solus-%s-%s.sha256sum" $site.Data.isos.info.Version $edition | safeURL }}
 						SHA256SUMS: <a href="{{ $sha256url }}" target="_blank">File</a> | <a href="{{ $sha256url }}.sign" target="_blank">Signed File</a> | <a href="https://archive.solus-project.com/solus.gpg" target="_blank">Public Key</a>
 					</section>
 				</div>
