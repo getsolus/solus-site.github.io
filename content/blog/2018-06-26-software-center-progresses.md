@@ -40,6 +40,17 @@ This means we could prompt for installation of the Brother MFCJ220 driver when y
 
 Note: The driver integration in Software Center is very much a work-in-progress and we look forward to showing it off more in the next Roundup!
 
+At this point, many major features have now been completed in the Software Center, including:
+
+- Full search with filters for already installed software
+- Notifications when each job completes, telling you what was installed/removed/etc
+- Full priority queue system to allow stacking up install/remove operations which will continue to execute in the background.
+- Category based navigation system
+- Cross-plugin APIs
+- "Job plan" system to convert every user-initiated install/remove operation into a complete and calculated transaction
+
+Additionally the Software Center now understands the notion of "soft links" between various items which allows us to automatically group related software based on the system configuration or AppStream recommendations. As a result driver providers for the active kernel are prioritized within the Hardware view, 32-bit libraries are automatically recommended for proprietary graphics drivers, and soon we'll be able to link to software enhancing the currently viewed software in some way, such as plugins and extensions. Finally, all of the new plugin work and LDM integration has allowed us to ensure proper namespacing between different providers and links, which would in future allow any plugin (for any OS) to provide drivers and suggestions in the Software Center, ensuring it is 100% agnostic.
+
 ## Budgie
 
 Budgie has been getting some improvements and cleanup in preparation for Budgie 10.5, which will be released alongside Solus 4.
