@@ -20,9 +20,9 @@ In the screenshot below, you can see an example of this new sidepane being utili
 
 {{<altimg "2018/06/software-center-gdm.jpg" >}}
 
-We're now defaulting the Software Center to our eopkg `autoremove` behavior, which will automatically remove any dependencies of the software that are not used by any other packages on the system. You can see this in the screenshot below when removing Spectacle, we're also removing packages such as `kaccounts-integration` which isn't being used by anything else on the system.
+We're now defaulting the Software Center to our eopkg `autoremove` behavior, which will automatically remove any dependencies of the software that are not used by any other packages on the system. You can see this in the screenshot below when removing Builder, we're also removing packages such as `gnome-code-assistance` which isn't being used by anything else on the system.
 
-{{<altimg "2018/06/software-center-spectacle-removal.jpg" >}}
+{{<altimg "2018/06/software-center-removal.jpg" >}}
 
 Some fixes have been made to better support HiDPI, we're now ensuring we use cairo surfaces which respect the device scaling factor.
 
