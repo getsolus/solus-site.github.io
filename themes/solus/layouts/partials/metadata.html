@@ -5,6 +5,7 @@
 {{ $pageTitle := title (replace .Title "_" " ") }}
 {{ $pageTitle := replace $pageTitle "'S" "'s" }}
 {{ $pageTitle := replace $pageTitle "Twis" "TWIS" }}
+{{ $pageTitle := replace $pageTitle "| t" "| T" }}
 {{ if ne .Section "articles"}}
 	{{ if isset .Params "notitle" }}
 		<title>{{ .Title }} | Solus</title>

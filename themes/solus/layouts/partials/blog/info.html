@@ -12,11 +12,8 @@
 			<meta itemprop="dateModified" content="{{ $blog.Lastmod }}" />
 			<meta itemprop="headline" content="{{ if isset $blog.Params "notitle" }}{{ replace ($blog.Title) "'S" "'s" }}{{ else }}	{{ replace (title $blog.Title) "'S" "'s" }}{{ end }}" />
 			<h1><a href="{{ $blog.Permalink }}">
-				{{ if isset $blog.Params "notitle" }}
-					{{ replace ($blog.Title) "'S" "'s" }}
-				{{ else }}
-					{{ replace (title $blog.Title) "'S" "'s" }}
-				{{ end }}
+				{{ $sortS := replace ($blog.Title) "'S" "'s" }}
+				{{ replace $sortS " | t" " | T" }}
 			</a></h1>
 			<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ $author.Name }}</span> / <span itemprop="jobTitle">{{ $author.Role }}</span></span>
 			<span>{{ dateFormat "January 2, 2006" $blog.Date }}

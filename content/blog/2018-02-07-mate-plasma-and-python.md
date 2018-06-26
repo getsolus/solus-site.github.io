@@ -1,5 +1,5 @@
 ---
-title: "MATE, Plasma, and Python 3 | The Roundup #3"
+title: "MATE, Plasma, and Python 3 | The Roundup #3"
 author: "joshua"
 categories:
 - news

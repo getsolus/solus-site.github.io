@@ -1,5 +1,5 @@
 ---
-title: "Plasma and Solus 4 Updates | The Roundup #4"
+title: "Plasma and Solus 4 Updates | The Roundup #4"
 author: "joshua"
 categories:
 - news

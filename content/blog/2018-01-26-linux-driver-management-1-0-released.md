@@ -1,5 +1,5 @@
 ---
-title: "Linux Driver Management 1.0 Released | The Roundup #1"
+title: "Linux Driver Management 1.0 Released | The Roundup #1"
 author: "joshua"
 categories:
 - news

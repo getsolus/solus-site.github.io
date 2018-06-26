@@ -1,5 +1,5 @@
 ---
-title: "Software Center Redesign | The Roundup #5"
+title: "Software Center Redesign | The Roundup #5"
 author: "joshua"
 categories:
 - news

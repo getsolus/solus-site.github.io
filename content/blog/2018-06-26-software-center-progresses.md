@@ -1,5 +1,5 @@
 ---
-title: "Software Center Progresses | The Roundup #6"
+title: "Software Center Progresses | The Roundup #6"
 author: "joshua"
 categories:
 - news

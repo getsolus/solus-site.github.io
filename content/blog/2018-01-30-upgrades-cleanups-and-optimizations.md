@@ -1,5 +1,5 @@
 ---
-title: "Upgrades, Cleanups, and Optimizations | The Roundup #2"
+title: "Upgrades, Cleanups, and Optimizations | The Roundup #2"
 author: "joshua"
 categories:
 - news
