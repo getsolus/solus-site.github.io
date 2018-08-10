@@ -16,7 +16,7 @@ local:
 
 setup:
 	git submodule init
-	sudo eopkg install hugo
+	sudo eopkg install hugo rsync
 	mkdir -p themes/solus/static/{css,js}
 	mkdir -p themes/solus/static/imgs/help-center
 
