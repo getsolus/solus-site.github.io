@@ -14,7 +14,7 @@ Welcome to The Roundup #7, your bytes of Solus news. In this roundup, we're talk
 
 ## Summertime Solus Hackfest
 
-For those that missed our announcements of last week's Hackfest, you can watch it via the video embedded below. Most of this roundup will cover the work that has been done since the last roundup (in the specific sections in this blog) as well as the Hackfest however, so if you don't want to sit through the **10 hours of content**, feel free to just keep reading.
+For those that missed our announcements of last week's Hackfest, you can watch it via the video embedded below. Most of this roundup will cover the work that has been done since the last roundup (in the specific sections in this blog) as well as the Hackfest, so if you don't want to sit through the **10 hours of content**, feel free to just keep reading.
 
 {{<youtube "6d40jbAKEcs">}}
 
@@ -30,7 +30,7 @@ To tackle these two items, there's a couple things we need to be aware of as dom
 1. Is there an available update to this piece of software?
 2. What is the fallout for upgrading this software, the reverse dependencies of it, etc?
 
-This has traditionally involved following a bunch of RSS feeds, subscribing to mailing lists, and following the relevant social media accounts for keeping track of updates. For stack upgrades, this has varied from just writing a list of reverse dependencies in a text editor to creating spreadsheets with literally hundreds of rows of packages. While that isn't necessarily going away for some aspects of our roles (okay the spreadsheet thing is), Bryan has spend a significant amount of time writing the tooling to simplify both of the items I listed above.
+This has traditionally involved following a bunch of RSS feeds, subscribing to mailing lists, and following the relevant social media accounts for keeping track of updates. For stack upgrades, this has varied from just writing a list of reverse dependencies in a text editor to creating spreadsheets with literally hundreds of rows of packages. While that isn't necessarily going away for some aspects of our roles (okay the spreadsheet thing is), Bryan has spent a significant amount of time writing the tooling to simplify both of the items I listed above.
 
 So we've reached the end of this backstory, I won't read you another book. Let's actually talk about what those tools are.
 
@@ -159,7 +159,7 @@ So what is there left to do in terms of Budgie 10.5? At this moment in time, it'
 
 In additional to all the above items, Peter has been hard at work on polishing and upgrading the Plasma experience on Solus. KDE Frameworks 5 has seen an upgrade to 5.48.0, KDE applications to 18.04.3, and Plasma to 5.13.4.
 
-Additionally, he's improved the out-of-the-box experience when using 3G and 4G models, so if you own either then we welcome you to **test and file bugs**. Lastly, thanks to work by a community member Psi-Jack, wireless access points should now work out-of-the-box!
+Additionally, he's improved the out-of-the-box experience when using 3G and 4G modems, so if you own either we welcome you to **test and file bugs**. Lastly, thanks to work by a community member Psi-Jack, wireless access points should now work out-of-the-box!
 
 ---
 
