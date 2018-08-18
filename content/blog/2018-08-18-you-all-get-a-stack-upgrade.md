@@ -14,7 +14,7 @@ Welcome to The Roundup #8, your bytes of Solus news. In this roundup, we're talk
 
 ## You All Get A Stack Upgrade
 
-Since last week's The Roundup, we've performed a multitude of stack upgrades and deprecations of packages in the repos in preparation for further ones.
+Since last week's The Roundup, we've performed a multitude of stack upgrades and made preparations for upcoming ones.
 
 ### KDE Frameworks 5
 
