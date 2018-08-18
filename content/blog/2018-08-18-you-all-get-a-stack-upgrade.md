@@ -1,5 +1,5 @@
 ---
-title: "You All Get a Stack Upgrade | The Roundup #8"
+title: "You All Get A Stack Upgrade | The Roundup #8"
 author: "joshua"
 categories:
 - news
