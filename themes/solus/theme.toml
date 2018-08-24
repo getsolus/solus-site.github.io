@@ -5,7 +5,7 @@ description = "Solus Site theme"
 homepage = "https://solus-project.com/"
 tags = ["solus"]
 features = ["being amazeballs"]
-min_version = 0.18 
+min_version = 0.47
 [author]
 	name = "Solus Project"
 	homepage = "https://solus-project.com"
