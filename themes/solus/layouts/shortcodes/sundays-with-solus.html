@@ -12,7 +12,7 @@
 			<div data-solus="podcast-player-types">
 				{{ range $type := (slice "mp3" "ogg") }}
 					<div data-solus="podcast-player-media">
-						{{ $mediaURL := printf "https://solus-project.com/podcastmedia/sundays-with-solus/%s.%s" $episode $type }}
+						{{ $mediaURL := printf "%s/podcastmedia/sundays-with-solus/%s.%s" $site.BaseURL $episode $type }}
 						<b>{{ upper $type }}</b>
 						<audio controls src="{{ $mediaURL }}"></audio>
 						<section>

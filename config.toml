@@ -1,6 +1,6 @@
 ###### Config
 
-baseurl = "https://solus-project.com/"
+baseurl = "https://getsol.us/"
 title = "Solus"
 
 ###### Content
@@ -17,6 +17,7 @@ theme = "solus"
 ###### Special Params
 
 [params]
+	domain = "getsol.us"
 	category = ["budgie", "infrastructure", "news", "packages", "partners", "plans", "releases", "security", "roundup", "twis"]
 	copyright = "2018"
 	footermenu = ["solus", "social", "support", "pressmenu"] # Because I can't for the life of me get Hugo nested lists to work
@@ -36,11 +37,11 @@ theme = "solus"
 	blog = "blog"
 	branding = "branding"
 	budgie = "budgie"
-	dev_tracker = "https://dev.solus-project.com"
+	dev_tracker = "https://dev.getsol.us"
 	download = "download"
 	experiences = "/solus/experiences"
 	facebook = "https://facebook.com/get.solus"
-	forums = "https://solus-project.com/forums"
+	forums = "https://getsol.us/forums"
 	google_plus = "https://plus.google.com/u/0/+Solus-Project"
 	google_plus_community = "https://plus.google.com/communities/104830131595272878110"
 	help_center = "help-center/home"

@@ -1,16 +1,18 @@
+{{ $site := .Site }}
 <div data-solus="support-item" data-solbit-flexcol>
 	<h2>What can I do to help?</h2>
 	<section>
 		<p>
 			<ul>
+				{{ $forums := "forums" | absURL }}
 				<li>Donate via PayPal or Patreon to show your support and appreciation for Solus</li>
-				<li><a href="https://dev.solus-project.com/maniphest/task/edit/form/1/">Report issues</a> or bugs that you&apos;ve found during testing</li>
-                <li>Join our <a href="https://solus-project.com/forums/">community forums</a>, 
+				<li><a href="https://dev.getsol.us/maniphest/task/edit/form/1/">Report issues</a> or bugs that you&apos;ve found during testing</li>
+				<li>Join our <a href="{{ $forums }}">community forums</a>, 
 					<a href="https://plus.google.com/u/0/+Solus-Project" target="_blank">Google+ community</a>, 
 					or <a href="https://www.reddit.com/r/SolusProject/" target="_blank">subreddit</a> to meet and assist like-minded users
 				</li>
-                <li>Provide suggestions and feedback on our releases, through the <a href="https://solus-project.com/forums/">forums</a>, or the <a href="https://dev.solus-project.com/">bug tracker</a></li>
-                <li>Test new releases and features of Solus, announced regularly through our <a href="/blog">blog</a></li>
+				<li>Provide suggestions and feedback on our releases, through the <a href="{{ $forums }}">forums</a>, or the <a href="https://dev.getsol.us/">bug tracker</a></li>
+				<li>Test new releases and features of Solus, announced regularly through our <a href="/blog">blog</a></li>
 			</ol>
 		</p>
 	</section>

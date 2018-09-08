@@ -4,7 +4,7 @@ date = "2017-01-07T02:44:48+00:00"
 aliases = ["/branding-guidelines"]
 +++
 
-We enforce branding guidelines to ensure consistency of imaging and messaging for Solus and its software. If you have any questions, please consult our [Press Center](https://solus-project.com/press-center/).
+We enforce branding guidelines to ensure consistency of imaging and messaging for Solus and its software. If you have any questions, please consult our [Press Center](/press-center/).
 
 ## Assets
 
