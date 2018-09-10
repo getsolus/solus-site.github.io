@@ -1,9 +1,3 @@
-[submodule "solus-styling"]
-	path = solus-styling
-	url = ssh://vcs@dev.solus-project.com/source/solus-site-styling.git
-[submodule "solus-webplatform-js"]
-	path = solus-webplatform-js
-	url = ssh://vcs@dev.solus-project.com/source/solus-webplatform-js.git
 [submodule "solbit"]
 	path = solbit
 	url = https://github.com/solus-project/solbit.git
