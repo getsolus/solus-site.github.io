@@ -48,7 +48,7 @@ We are assessing the pisi / eopkg code to determine the best method for graceful
 
 To build on this, these instructions will also be made available in our Help Center, as pinned posts on our social media accounts and subreddit, in the topic of our support IRC channel, as well as via support channels typically reserved for these sorts of important cases, like Facebook Messenger, to help aid you in this changeover should you need it.
 
-If you are using a repository which is not provided by us (or RIT), we recommend reaching out to the respective administrator to ensure they update their rsync URLs to new endpoints (mirrors.rit.edu and packages.getsol.us).
+If you are using a repository which is not provided by us (or RIT), we recommend reaching out to the respective administrator to ensure they update their rsync URLs to new endpoint (mirrors.rit.edu).
 
 ## New ISOs
 
