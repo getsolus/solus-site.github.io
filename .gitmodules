@@ -4,3 +4,9 @@
 [submodule "help-center-docs"]
 	path = help-center-docs
 	url = git@github.com:solus-project/help-center-docs
+[submodule "solus-styling"]
+	path = solus-styling
+	url = ssh://vcs@dev.getsol.us:2222/source/solus-site-styling.git
+[submodule "solus-webplatform-js"]
+	path = solus-webplatform-js
+	url = ssh://vcs@dev.getsol.us:2222/source/solus-webplatform-js.git
