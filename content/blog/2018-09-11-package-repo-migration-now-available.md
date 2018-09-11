@@ -19,7 +19,11 @@ This update also brings a couple added improvements:
 1. You no longer need to remove or disable a repo to add one of the same name. You can now directly run `sudo eopkg ar Example https://example.com/eopkg-index.xml.xz` and if you already had `Example` set, it'd update the repo URL.
 2. Upon removal (via `sudo eopkg rr RepoName`) of the last repository you have configured, we will automatically added the shannon / stable repository. This ensures you will always have a repository on your system to perform updates.
 
-We strongly encourage you perform this upgrade **immediately**, as we can not guarantee availability of the legacy package server in the near future. Furthermore, if you had multiple repos on your system, you may need to re-disable ones which were previously disabled prior to this update. If those repositories were not pointed to `packages.solus-project.com`, their URLs will not be modified.
+Further notes:
+
+- We strongly encourage you perform this upgrade **immediately**, as we can not guarantee availability of the legacy package server in the near future.
+- If you had multiple repos on your system, you may need to re-disable ones which were previously disabled prior to this update. If those repositories were not pointed to `packages.solus-project.com`, their URLs will not be modified.
+- You may need to run `eopkg` as `sudo` during the first interaction with it after this upgrade, such as `sudo eopkg lr`, as it will need to perform the necessary writes to disk.
 
 ## Manually Configuring Package Repositories
 
