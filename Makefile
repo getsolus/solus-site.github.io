@@ -12,7 +12,7 @@ deploy:
 	rm -r public-deployed/podcasts/{page,index}*
 
 local:
-	hugo server --watch
+	hugo server --watch --disableFastRender
 
 setup:
 	git submodule init
