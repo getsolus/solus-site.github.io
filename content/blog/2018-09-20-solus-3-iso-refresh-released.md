@@ -18,7 +18,7 @@ We are proud to announce the availability of Solus 3.9999, our ISO refresh of So
 All of our editions feature:
 
 - Firefox 62
-- LibreOffice 6.1.1.2
+- LibreOffice 6.1.0.3
 - Rhythmbox 3.4.2
 - Thunderbird 60
 
