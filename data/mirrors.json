@@ -1,44 +1,16 @@
 [
 	{
-		"Latitude": 52.3702,
-		"Location": "Amsterdam (NL)",
-		"Longitude": 4.8952,
+		"Latitude": 50.98651,
+		"Location": "Gravelines (FR)",
+		"Longitude": 2.12807,
 		"Type": "official",
-		"Url": "https://stroblindustries.com/isos/"
-	},
-	{
-		"Latitude": 33.753746,
-		"Location": "Atlanta (US)",
-		"Longitude": -84.386330,
-		"Type": "official",
-		"Url": "http://us.justin.id.au/iso/"
-	},
-	{
-		"Latitude": 60.192059,
-		"Location": "Helsinki (FI)",
-		"Longitude": 24.945831,
-		"Type": "community",
-		"Url": "http://solus.fin.veatnet.de/iso/"
-	},
-	{
-		"Latitude": 50.47788,
-		"Location": "Falkenstein (DE)",
-		"Longitude": 12.37129,
-		"Type": "community",
-		"Url": "http://solus.veatnet.de/iso/"
-	},
-	{
-		"Latitude": 40.357298,
-		"Location": "New Jersey (US)",
-		"Longitude": -74.667223,
-		"Type": "community",
-		"Url": "http://mirror.math.princeton.edu/pub/solus-iso/"
+		"Url": "https://solusdl.joshuastrobl.com/"
 	},
 	{
 		"Latitude": 43.086002,
 		"Location": "Rochester (US)",
 		"Longitude": -77.674538,
-		"Type": "community",
+		"Type": "official",
 		"Url": "https://mirrors.rit.edu/solus/images/"
 	}
 ]
