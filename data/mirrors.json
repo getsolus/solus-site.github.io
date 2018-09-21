@@ -1,5 +1,12 @@
 [
 	{
+		"Latitude": 33.753746,
+		"Location": "Atlanta (US)",
+		"Longitude": -84.386330,
+		"Type": "official",
+		"Url": "http://us.justin.id.au/iso/images/"
+	},
+	{
 		"Latitude": 50.98651,
 		"Location": "Gravelines (FR)",
 		"Longitude": 2.12807,
