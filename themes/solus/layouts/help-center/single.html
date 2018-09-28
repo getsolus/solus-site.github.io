@@ -10,10 +10,7 @@
 				<div data-solbit="view-container">
 					<div data-solbit="view-centered">
 						{{ if eq .Title "help_center" }}
-							<h1>Popular Categories</h1>
-							{{ partial "help-center/categories.html" (dict "Categories" .Site.Data.helpcenter.popular "Site" .Site)}}
-						{{ else if eq .Title "categories" }}
-							<h1>All Categories</h1>
+							<h1>Categories</h1>
 							{{ partial "help-center/categories.html" (dict "Categories" .Site.Data.helpcenter.categories "Site" .Site)}}
 						{{ else if eq .Title "contact_us" }}
 							<div data-solbit="blog-content">
