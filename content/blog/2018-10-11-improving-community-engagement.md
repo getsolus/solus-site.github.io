@@ -2,28 +2,29 @@
 title: "Improving Community Engagement | The Roundup #10"
 author: "joshua"
 categories:
+- infrastructure
 - news
 - roundup
-date: 2018-10-10T17:45:40+03:00
+date: 2018-10-11T01:50:12+03:00
 featuredimage: "/2018/10/improving-community-engagement.jpg"
-url: "/2018/10/10/improving-community-engagement"
+url: "/2018/10/11/improving-community-engagement"
 ---
 
-Welcome to The Roundup #10, your bytes of Solus news. In this roundup we are focusing on improving community engagement, reducing barriers, and improving the delivering of Solus news.
+Welcome to The Roundup #10, your bytes of Solus news. In this roundup we are focusing on improving community engagement, reducing barriers to entry, and improving the delivery of Solus news.
 <!--more-->
 
-We believe good communication is a cornerstone of a healthy community. We always strive to actively communicate with our community and understand that it's never a matter of just talking **at** our community, but listening and having a conversation. We can't implement feedback or make changes unless we listen, engage, and sometimes debate.
+We believe good communication is the cornerstone of a healthy community. We always strive to actively communicate with our community and understand that it's never a matter of just talking **at** our community, but listening and having a conversation. We can't implement feedback or make changes unless we listen, engage, and sometimes debate.
 
-Sharing the happenings of Solus to our community occurs across a variety of platforms and services. As we've grown as a project and as a community, we've been increasing our footprint of services we're on. Doing so enables our community to check for Solus news on the platform that fits them best, or the best middleground between what those of us on the Core Team want to use and what is most comfortable for our community members.
+Sharing the happenings of Solus to our community occurs across a variety of platforms and services. As we've grown as a project and as a community, we've been increasing our presence on various platforms. Doing so enables our community to check for Solus news on the platform that fits them best, or the best middleground between what those of us on the Core Team want to use and what is most comfortable for our community members.
 
-Back in the EvolveOS days, this was Google+, our old Wordpress-based site, Forums, and IRC. Since the EvolveOS days, we've expanded to other platforms like:
+Back in the EvolveOS days, this was Google+, our old Wordpress site, Forums, and IRC. Since the EvolveOS days, we've expanded to other platforms like:
 
 - Facebook
 - Mastodon
 - Reddit
 - Twitter
 
-To this day Google+ still remains one of the most engaged platforms, one which all of the Core Team is available on, and the Google+ Communities feature is one which is used almost daily by our community members and us. With the [announcement by Google](https://www.blog.google/technology/safety-security/project-strobe/) of their sunsetting of Google+ over the next 10 months, we wanted to take this opportunity to improve communication and engagement across the board.
+To this day Google+ still remains one of the most engaged platforms, one which all of the Core Team is available on, and the Google+ Communities feature is one which is used almost daily by our community members and us. In fact, Google+ Communities is one of our favorite systems to interact with. With the unfortunately [announcement by Google](https://www.blog.google/technology/safety-security/project-strobe/) of their sunsetting of Google+ over the next 10 months, we wanted to take this opportunity to improve communication and engagement across the board.
 
 ## The Problems To Solve
 
@@ -39,7 +40,7 @@ So ensuring we choose platforms and services that **all** parties want to use is
 
 There is always Solus news for us to share, whether it's something major like a release announcement, or something less significant like a new feature or package update. However, these updates would sometimes be posted in a manner which wouldn't necessarily result in the entirety of our community being made aware of them. Trying to ensure news gets out to all of our community can sometimes be difficult, just as **getting** news about Solus can be. We want to make the entire process easier.
 
-**3. Reduce steps to engaging.**
+**3. Reducing barriers to engagement.**
 
 To make it easier to engage, we need to reduce the steps to actually doing so, on the platforms we intend on using. Let's lay out some examples where you may need a new or dedicated account:
 
@@ -55,12 +56,7 @@ We want to reduce this as much as we possibly can, as well as be cognisant that 
 
 ### Engagement
 
-With the sunsetting of Google+ and thusly Google+ Communities, we're wanting to provide a more modern alternative to our forums that not only our community would like to use, but we'd like to as well.
-
-At this moment, we're currently looking at two open source options:
-
-1. [Discourse](https://www.discourse.org/)
-2. [Flarum](https://flarum.org/)
+With the sunsetting of Google+ and thusly Google+ Communities, we want to provide a more modern alternative to our forums that not only our community would like to use, but we'd like to as well.
 
 At this moment in time, Flarum is looking like the most appealing option, from both a UX and technical perspective. The Flarum UX is more appealing to us as a result of it delivering a more tag-oriented layout as opposed to topic-based layout, which will make it easier for us to organize content. Additionally, they have plans on introducing a hybrid approach to pagination, which is more appealing to some members of the Core Team.
 
@@ -70,21 +66,21 @@ After assessing the Flarum API, I'm of the opinion that it will overall be easie
 2. Their discussion and post API endpoints should it easier to fetch or publish content from/to the platform.
 3. Their login APIs indicate that it may be simpler to build a login method implementation that can leverage the OAuth Server functionality of our Phabricator. As a result, we'll have one less login to use on the platform. Essentially every user posting on our new forum would also be capable of creating new tasks / reports on our development tracker.
 
-For real-time communication, IRC is still in our opinions our best option. We're open to moving away from IRC in the future, however if we're going to do so, such platform needs to meet the following requirements:
+For real-time communication, IRC is still in our opinions a mature and reliable standard. However, we are open to additional services in the future, but would do so under the expectation that they meet the following requirements:
 
-1. It needs to log messages so users can read them while they're not actively looking at the chat. If we're going to switch away from IRC, it may as well be to something which natively supports logging as opposed to requiring the use of an IRC bouncer.
+1. It needs to support buffering messages so users can read them when they come back online. If we're going to support alternatives, it may as well be to something which natively supports buffering messages as opposed to requiring the use of an IRC bouncer.
 2. It needs to be open source (which rules out Discord).
-3. It needs to be multi-channeled, so we can separate support, off-topic chat, development chatter, etc. (This rules out Telegram).
-4. It should support voice channels (with push-to-talk). We understand that this isn't something IRC supports, but we're talking about moving to a **superior** option that enables us to engage better with our community. Voice channels have been previously facilitated by temporary Discord services for specific events like our Gamefests and Hackfests. If we're going to completely move away from IRC, it should really be a consolidated tool that offers all the bells and whistles.
+3. It needs to be allow multiple channels, so that we can separate support, off-topic, and development discussions. (This rules out Telegram).
+4. It should support voice channels (with push-to-talk). We understand that this isn't something IRC supports, but we're talking about supporting alternatives that enables us to engage better with our community. Voice channels have been previously facilitated by temporary Discord services for specific events like our Gamefests and Hackfests.
 5. It needs to be mobile friendly.
 6. Users need to be able to engage with anonymous or guest accounts for support purposes.
 7. It needs to have good role management and user moderation.
 
-We're yet to find a solution that does all of the things listed above. We're opposed to introducing more options for real-time communication (like Discord, Mumble, Telegram, etc.) as it unnecessarily fragments our community, as well as makes providing support harder and more time consuming.
+We have yet to find a solution that does all of the things listed above. We're opposed to introducing non-compliant options for real-time communication (like Discord, Mumble, Telegram, etc.) as it unnecessarily fragments our community, as well as makes providing support harder and more time consuming.
 
 ### News
 
-The team should be enabled to share news about Solus with the entire community, with overall less of everything. Less accounts, clicks, copy / pasting, and time spent. To do this, the intent is to create an open source backend which we can tie into various frontends, whether that's web-based or even on IRC (like with a plugin for the [IRC bot I'm developing](https://github.com/JoshStrobl/narwhal)). It should be able to post to as many platforms as possible, such as:
+The team should be enabled to share news about Solus with the entire community, as easily as possible. Fewer accounts, clicks, copy / pasting, and time spent. To do this, the intent is to create an open source broadcast system which we can tie into various frontends, whether that's web-based or even on IRC (like with a plugin for the [IRC bot I'm developing](https://github.com/JoshStrobl/narwhal)). It should be able to post to as many platforms as possible, such as:
 
 - Facebook
 - Flarum
@@ -125,8 +121,6 @@ Some of the items I've mentioned in this blog post are ones which will take time
 4. Implementation of the content posting backend (as well as a frontend) to enable team postings.
 5. Implementation of the News hub.
 6. Migration of some projects away from GitHub to Phabricator, introduce new project pages (and as a result, overhaul our "technologies" page).
-
-Other items such as an IRC replacement will happen only when a viable solution is presented.
 
 ### Suggestions
 
