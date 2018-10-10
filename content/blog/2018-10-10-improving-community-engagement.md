@@ -84,7 +84,7 @@ We're yet to find a solution that does all of the things listed above. We're opp
 
 ### News
 
-The team should be enabled to share news about Solus with the entire community, with overall less of everything. Less accounts, clicks, copy / pasting, and time spent. To do this, I intend to create an open source backend which we can tie into various frontends, whether that's web-based or even on IRC (like with a plugin for the [IRC bot I'm developing](https://github.com/JoshStrobl/narwhal)). It should be able to post to as many platforms as possible, such as:
+The team should be enabled to share news about Solus with the entire community, with overall less of everything. Less accounts, clicks, copy / pasting, and time spent. To do this, the intent is to create an open source backend which we can tie into various frontends, whether that's web-based or even on IRC (like with a plugin for the [IRC bot I'm developing](https://github.com/JoshStrobl/narwhal)). It should be able to post to as many platforms as possible, such as:
 
 - Facebook
 - Flarum
@@ -92,7 +92,7 @@ The team should be enabled to share news about Solus with the entire community, 
 - Reddit
 - Twitter
 
-Additionally it should be able to automatically generate Hugo content pieces (a mix of TOML and Markdown), so I can implement a centralized Solus news "hub" so you can see all our short and long form posts in a single place. Naturally, it would support the ability to **get** the latest posts, so in theory we could figure out a way to integrate that into an RSS feed that people can follow, a Raven widget, or elsewhere. Really we'd have limitless options. For our needs, a custom solution is a better option over the likes of Buffer or Circular, since we're able to more closely curate the services we support. For example, Buffer doesn't support Mastodon, which means we'd have to manually post updates there.
+Additionally it should be able to automatically generate Hugo content pieces (a mix of TOML and Markdown), so we can implement a centralized Solus news "hub" so you can see all our short and long form posts in a single place. Naturally, it would support the ability to **get** the latest posts, so in theory we could figure out a way to integrate that into an RSS feed that people can follow, a Raven widget, Software Center, or elsewhere. Really we'd have limitless options. For our needs, a custom solution is a better option over the likes of Buffer or Circular, since we're able to more closely curate the services we support. For example, Buffer doesn't support Mastodon, which means we'd have to manually post updates there.
 
 For the blog, I'm currently working on a redesign that will enable us to feature multiple pieces of content and hopefully make content consumption easier. This will later be integrated into the News hub so all relevant activity from the team (posts, blogs, etc.) can be discovered in a single place.
 
@@ -103,7 +103,7 @@ In addition to the above mentioned areas, there is also the opportunity to impro
 1. GitHub-hosted projects
 2. Translations
 
-For projects currently hosted on GitHub, we should assess which ones are most likely candidates for migrating to our development tracker (Phabricator), develop processes for tagging new releases and surfacing them on our planned development hub (Solhub) or generated project pages. Some of these projects may include our Software Center, Installer, ypkg, etc. In general, Peter and I have some ideas on using Phabricator's tag system to make it easier to tag specific pieces of software (as an example, `qt-creator`) and ideally that should extend to software developed **on** Phabricator.
+For projects currently hosted on GitHub, we should determine which ones are candidates for migrating to our development tracker (Phabricator), develop processes for tagging new releases and surfacing them on our planned development hub (Solhub) or generated project pages. Some of these projects may include our Software Center, Installer, ypkg, etc. In general, Peter and I have some ideas on using Phabricator's tag system to make it easier to tag specific pieces of software (as an example, `qt-creator`) and ideally that should extend to software developed **on** Phabricator.
 
 For translations, we should ideally migrate from Transifex to something which is:
 
@@ -130,4 +130,4 @@ Other items such as an IRC replacement will happen only when a viable solution i
 
 ### Suggestions
 
-There are always other ways of improving community engagement and reducing barriers to entry. If you have any suggestions, you're always welcome to reach out via to us via the [Forums](https://getsol.us/forums), [IRC](https://getsol.us/articles/contributing/getting-involved/en/#irc) or [social media](https://getsol.us/articles/contributing/getting-involved/en/#social-media).
+There are always other ways of improving community engagement and reducing barriers to entry. If you have any suggestions, you're always welcome to reach out via to us via the [Forums](/forums), [IRC](/articles/contributing/getting-involved/en/#irc) or [social media](/articles/contributing/getting-involved/en/#social-media).
