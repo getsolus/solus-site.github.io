@@ -24,7 +24,7 @@ Back in the EvolveOS days, this was Google+, our old Wordpress site, Forums, and
 - Reddit
 - Twitter
 
-To this day Google+ still remains one of the most engaged platforms, one which all of the Core Team is available on, and the Google+ Communities feature is one which is used almost daily by our community members and us. In fact, Google+ Communities is one of our favorite systems to interact with. With the unfortunately [announcement by Google](https://www.blog.google/technology/safety-security/project-strobe/) of their sunsetting of Google+ over the next 10 months, we wanted to take this opportunity to improve communication and engagement across the board.
+To this day Google+ still remains one of the most engaged platforms, one which all of the Core Team is available on, and the Google+ Communities feature is one which is used almost daily by our community members and us. In fact, Google+ Communities is one of our favorite systems to interact with. With the unfortunate [announcement by Google](https://www.blog.google/technology/safety-security/project-strobe/) of their sunsetting of Google+ over the next 10 months, we wanted to take this opportunity to improve communication and engagement across the board.
 
 ## The Problems To Solve
 
