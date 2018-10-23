@@ -15,7 +15,7 @@ Welcome to The Roundup #11, your bytes of Solus news. In this roundup, we're tal
 
 ## Stack Upgrades
 
-It's been all hands on deck this last week as we perform stack upgrades. Let's start on October 17th where it was kicked off with the upgrade of KDE Plasma to the latest 5.14.1 bugfix release. This was delivered in last Friday's sync and Peter has continued improving the KDE + Plasma experience on Solus by backporting multiple fixes from git to our packages. Let's highlight some of the fixes featured in Plasma 5.14.1, you can read the announcement and see the full changelog [here](https://www.kde.org/announcements/plasma-5.14.1.php):
+It's been all hands on deck this last week as we perform stack upgrades. Let's start on October 17th where it was kicked off with the upgrade of KDE Plasma to the 5.14.1 bugfix release. This was delivered in last Friday's sync and Peter has continued improving the KDE + Plasma experience on Solus by backporting multiple fixes from git to our packages. Let's highlight some of the fixes featured in Plasma 5.14.1, you can read the announcement and see the full changelog [here](https://www.kde.org/announcements/plasma-5.14.1.php):
 
 - KWin
  - There's been a fix to a logic error in the user menu blocking activity updates.
@@ -141,3 +141,9 @@ I've also begun the process of migrating various projects to Phabricator, starti
 - Plasma Desktop Branding
 
 The above mentioned projects were considered the most likely initial candidates for migration as they're not intended to be distro agnostic (they're branding packages for our ISOs). I'll be working on getting tooling set up for tarball publishing and project pages soon.
+
+### Upcoming Hackfest
+
+We will be doing a hackfest this coming Saturday (October 27th, 2018) at 1400 UTC (10am Eastern Time, 5pm Helsinki). During this hackfest, Bryan will be working on improving the state of JACK support on Solus and I'll be working on the new indexer / tooling for the Help Center.
+
+{{<youtube "dIEs0j4reFk" >}}
