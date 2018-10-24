@@ -10,8 +10,24 @@ featuredimage: "/2018/10/shiny-delights.jpg"
 url: "/2018/10/24/shiny-delights" # Example, /2017/01/18/adopting-flatpak-to-reassemble-third-party-applications
 ---
 
-Welcome to The Roundup #11, your bytes of Solus news. In this roundup, we're talking about all the latest stack upgrades we've performed, an update on feedback for improving community engagement, and more!
+Welcome to The Roundup #11, your bytes of Solus news. In this roundup, we're talking about all the availability of our public Plasma testing ISO, latest stack upgrades we've performed, and an update on feedback for improving community engagement!
 <!--more-->
+
+## Plasma Testing ISO
+
+A testing ISO for the Plasma Edition is now available. It includes [Plasma desktop 5.14](https://www.kde.org/announcements/plasma-5.14.0.php) and is complemented with the KDE Frameworks 5.51, KDE Applications 18.08.2 and Qt 5.11.2 releases. Solus users can now perform a clean install of the Plasma desktop with the latest updates.
+
+Over the last couple of weeks a majority of the packages have been updated and rebuilt. This provides a stateless implementation of the Plasma desktop on top of Solus.
+
+### Known Issues:
+
+- Some icons are missing in the Software Center, this will be addressed in the rewrite.
+
+ISO: [Solus-Plasma-Testing-v1.iso](https://mirrors.rit.edu/solus/images/Solus-Plasma-Testing-v1.iso)
+
+SHA256SUM: 8baf1ee5d68fa1153d9f650cad51b7610557c59ca0b1ad181e0a41572eb99743
+
+Bugs can be filed [here](https://dev.getsol.us/) with the Plasma tag if it is specific to the Plasma edition.
 
 ## Stack Upgrades
 
