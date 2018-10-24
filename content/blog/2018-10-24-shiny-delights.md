@@ -133,7 +133,7 @@ I appreciate all the suggestions from our community on various new social media 
 
 ### Other Suggestions
 
-We've received a few other suggestions that I'd likely to go over for improvment community engagement and making it easier to access Solus news.
+We've received a few other suggestions that I'd likely to go over for improving community engagement and making it easier to access Solus news.
 
 **Feed Reader**
 
