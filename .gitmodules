@@ -1,9 +1,9 @@
 [submodule "solbit"]
 	path = solbit
-	url = https://github.com/solus-project/solbit.git
+	url = https://github.com/getsolus/solbit.git
 [submodule "help-center-docs"]
 	path = help-center-docs
-	url = git@github.com:solus-project/help-center-docs
+	url = git@github.com:getsolus/help-center-docs
 [submodule "solus-styling"]
 	path = solus-styling
 	url = ssh://vcs@dev.getsol.us:2222/source/solus-site-styling.git
