@@ -26,7 +26,7 @@ theme = "solus"
 [params.menus]
 	main = [ "home", "blog", "download", "support_us", "help_center", "about", "press"]
 	footer = [ "solus", "social", "support", "press"]
-	solus = [ "about", "download", "experiences", "technologies" ]
+	solus = [ "about", "download", "experiences", "team", "technologies" ]
 	social = [ "facebook", "google_plus", "mastodon", "reddit", "twitter"]
 	support = ["dev_tracker", "forums", "google_plus_community", "help_center", "irc"]
 	press = ["press_center", "branding"]
@@ -51,8 +51,13 @@ theme = "solus"
 	press_center = "press-center"
 	reddit = "https://www.reddit.com/r/SolusProject"
 	support_us = "support"
+	team = "/solus/team"
 	technologies = "/solus/technologies"
 	twitter = "https://twitter.com/SolusProject"
+
+[params.teams]
+	core = ["bryan", "joshua", "peter"]
+	global = ["joe", "pierre"]
 
 ###### Blackfriday Markdown Tweaks
 
