@@ -9,7 +9,7 @@ date: 2018-10-27T03:00:00+03:00
 featuredimage: "/2018/10/in-full-sail.jpg"
 url: "/2018/10/27/in-full-sail" # Example, /2017/01/18/adopting-flatpak-to-reassemble-third-party-applications
 ---
-In Full Sail is our update on the state of Solus, services which we use, our project founder as well as our plans for the project and future Solus releases.
+In Full Sail is our update on the state of Solus, our project founder, services which we use, as well as our plans for the project and future Solus releases.
 <!--more-->
 
 ## Audio
