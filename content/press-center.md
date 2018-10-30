@@ -19,9 +19,9 @@ For branding information, including guidelines and licensing, please consult our
 
 # Contact
 
-Reach out to the following individuals for inquiring on information in regards to our products (remove NOSPAM and use @):
+Reach out to the following individuals for inquiring on information in regards to our products (remove NOSPAM):
 
-- [Joshua Strobl, Communications Manager](mailto:joshuaATsgetsol.usNOSPAM)
+- [Joshua Strobl, Experience Lead](mailto:joshua@getsol.usNOSPAM)
 
 **Note:** This is not a support address and support inquiries will not be replied to. For support, please refer to our [Getting Involved](/articles/contributing/getting-involved/en/) page.
 
