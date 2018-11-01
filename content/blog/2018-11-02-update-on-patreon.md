@@ -4,9 +4,9 @@ author: "joshua"
 categories:
 - infrastructure
 - news
-date: 2018-11-01T21:36:25+02:00
+date: 2018-11-02T00:25:25+02:00
 featuredimage: "/2018/11/update-on-patreon.jpg"
-url: "/2018/11/01/update-on-patreon"
+url: "/2018/11/02/update-on-patreon"
 ---
 In this blog post, we provide an update on our Patreon account, current available funds, and insights on previous finances.
 <!--more-->
