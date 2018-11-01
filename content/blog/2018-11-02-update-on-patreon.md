@@ -93,4 +93,8 @@ Until such time, all money which was withdrawn to PayPal, whether manually or au
 
 ---
 
-We hope this information has provided insight into our current and past finances. Going forward, we will continue to not accept any monetary donations until decided otherwise, or we have a legal entity such as the Software Freedom Conservancy handling legal and financial matters for Solus. I truly appreciate everyone that has reached out to offer monetary donations, I hope you understand that we wish to get these matters resolved first, as well as return to more normal development operations, before opening the doors to donations.
+We hope this information has provided insight into our current and past finances. Going forward, we will continue to not accept any monetary donations until decided otherwise, or we have a legal entity such as the Software Freedom Conservancy handling legal and financial matters for Solus. I want to thank everyone that has continued to offer their support for Solus, whether that be financial or otherwise. We look forward to providing more means of donating to the project in the future once we've returned to more normal development operations and have a legal entity working on behalf of the project. Until then, there are plenty of other ways to contribute to the project, whether that's filing bugs, contributing patches, or simply sharing Solus with your friends!
+
+Signing off,
+
+The Solus Core Team
