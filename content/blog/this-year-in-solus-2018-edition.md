@@ -46,7 +46,7 @@ In August, Bryan began working extensively on new tools, with the focal points b
 
 Traditionally, the tracking of upstream projects has involved following a bunch of RSS feeds, subscribing to mailing lists, following social media accounts, and more. In some cases, none of the above would ever be provided, so we would be resigned to routinely checking websites or FTP servers manually. Every moment spent tracking upstreams in this manner means one less moment spent performing upgrades or working on other aspects of Solus, so providing an distro-agnostic solution was absolutely crucial to us as we aim for a more rapid iteration of development.
 
-To accomplish the task of reducing manual work of tracking upstreams, Bryan began work on developing a new tool called [Cuppa](https://github.com/DataDrake/cuppa) (or Comprehensive Upstream Provider Polling Assistant). [By early August](/2018/08/10/summertime-solus), Bryan had already shipped the first stable release of Cuppa which included a truly massive set of providers:
+To accomplish the task of reducing manual work of tracking upstreams, Bryan began work on the first stable release of [Cuppa](https://github.com/DataDrake/cuppa) (or Comprehensive Upstream Provider Polling Assistant), which was shipped in [early August](/2018/08/10/summertime-solus) with support for a truly massive set of providers:
 
 - CPAN (for Perl)
 - GitHub
@@ -57,17 +57,17 @@ To accomplish the task of reducing manual work of tracking upstreams, Bryan bega
 - PyPi (for Python)
 - RubyGems (for Ruby)
 
-Cuppa has already significantly simplified tracking upstreams in Solus and more recent efforts (that we'll get into later) have expanded our coverage as well.
+Cuppa has already significantly simplified tracking upstreams in Solus and more recent efforts have expanded our coverage as well.
 
-But it's one thing to be able to track an upstream and upgrade software, it's another to improve the reliability of upgrades and the minimize fallout from them. There are multiple aspects of stack upgrades which were in need of simplifying. One aspect is painting a clearer picture of the reverse dependencies of a package and another is enabling a reliable and most optimal path to a full stack upgrade without missing or skipping packages.
+But it is one thing to be able to track an upstream and upgrade software, it is another to improve the reliability of upgrades and the minimize fallout from them. There are multiple aspects of stack upgrades which were in need of simplifying. One aspect is painting a clearer picture of the reverse dependencies of a package and another is enabling a reliable and most optimal path to a full stack upgrade without missing or skipping packages.
 
-To address this, Bryan worked on [eopkg-deps](https://github.com/DataDrake/eopkg-deps) for dependency tracking with eopkg. We're now able to fetch a list of forward and reverse dependencies of a package, as well as be provided a ToDo list of packages which need to be rebuild and in what order.
+To address this, Bryan worked on [eopkg-deps](https://github.com/DataDrake/eopkg-deps) for dependency tracking with eopkg. We are now able to fetch a list of forward and reverse dependencies of a package, as well as be provided a ToDo list of packages which need to be rebuild and in what order.
 
 We immediately put eopkg-deps to the test with an upgrade to KDE Frameworks 5, Mesalib, dbus, evolution-data-server, gstreamer, and more **all in August**.
 
 Bryan worked on improving the resilience of upgrades with eopkg / pisi in August as well, resolving some edge cases that were discovered during the upgrade of a package.
 
-Lastly in August, I worked on more improvements for Budgie 10.5. I've always believed that Budgie should provide a balanced desktop experience for our users, enabling a reasonable level of curation / personalization out-of-the-box while still empowering our users (and downstreams such as Ubuntu Budgie) to open up a world of possibilities with Budgie applets.
+Lastly in August, I worked on more improvements for Budgie 10.5. I have always believed that Budgie should provide a balanced desktop experience for our users, enabling a reasonable level of curation / personalization out-of-the-box while still empowering our users (and downstreams such as Ubuntu Budgie) to open up a world of possibilities with Budgie applets.
 
 One of my first actionable items in August was to expand on its personalization via Budgie Desktop Settings. I introduced a few goodies such as:
 
@@ -75,11 +75,11 @@ One of my first actionable items in August was to expand on its personalization 
 - The ability to raise your volume above 100% via Raven's Sound Output widget
 - The ability to turn on mouse enter / leave focus for window switching.
 
-Contributor feddamis introduced a new Text Scaling option in the Fonts section of Budgie Desktop setting as well.
+Contributor `feddamis` introduced a new Text Scaling option in the Fonts section of Budgie Desktop setting as well.
 
-I also introduced a long-desired feature for Raven, Notification Grouping and the ability to dismiss individual notifications. Notifications also no longer would fill up your screen thanks to a contribution by EbonJaeger!
+I also introduced a long-desired feature for Raven, Notification Grouping and the ability to dismiss individual notifications. Notifications also no longer would fill up your screen thanks to a contribution by `EbonJaeger`.
 
-As if our Budgie wasn't hyped up enough, yursan9 ported his Caffeine applet (prevents screen dimming and lock screen triggering) over to Vala and provided a stellar patch for its inclusion in Budgie "core".
+As if our Budgie wasn't hyped up enough, `yursan9` ported his Caffeine applet (prevents screen dimming and lock screen triggering) over to Vala and provided a stellar patch for its inclusion in Budgie "core".
 
 In September, as a result of a multitude of factors such as the expiration of various OVH contracts, lack of access to the solus-project.com domain, and the move of the project founder, Ikey, Bryan and I spent a considerable amount of time migrating the project over to new infrastructure as well as a new domain name. Bryan provisioned hardware graciously provided by the Rochester Institute of Technology and I began work to bring back online various services such as our website, development tracker, and forums.
 
@@ -108,19 +108,19 @@ Once those problems had been taken care of, we *finally* had ourselves a `jackd`
 
 In early November, we released a blog post detailing available Patreon funds, being [fully transparent](/2018/11/02/update-on-patreon) on current access to various financial assets. Early November also saw the departure of the founder of Solus, Ikey Doherty, [for various family reasons detailed in his Open Letter](https://www.phoronix.com/scan.php?page=news_item&px=Solus-Open-Letter).
 
-Back in full gear with wind behind our sails, November was an incredibly busy month for Solus development with several Hackfests. Starting with [Just GTK Things](https://www.youtube.com/watch?v=a7qMJvRr0qg), I implemented a new application tracking mechanism for Budgie, which was to be used by IconTasklist to drastically simplify state tracking and pave the way for new improvements that were to be made to the IconTasklist.
+Back in full gear with wind behind our sails, November was an incredibly busy month for Solus development with several Hackfests. Starting with [Just GTK Things](https://www.youtube.com/watch?v=a7qMJvRr0qg), I implemented a new application tracking mechanism for Budgie, which was to be used by the IconTasklist to drastically simplify state tracking and pave the way for new improvements that were to be made to the IconTasklist.
 
-Peter released ypkg v29. For those unfamiliar with ypkg, simply put it is our declarative build format and build tool, effectively converting our format into a set of instructions for configuring, building, and generating a binary package (eopkg). ypkg v29 introduced a multitude of changes and improvements, such as:
+Peter released ypkg v29. For those unfamiliar with ypkg, simply put it is our declarative build format and packaging tool, effectively converting our format into a set of instructions for configuring, building, and generating a binary package (eopkg). ypkg v29 introduced a multitude of changes and improvements, such as:
 
-- Add environment key which exports content to all ypkg build steps
+- Added an environment key which exports content to all ypkg build steps
 - New python test macros
-- No longer install 32bit clang as it is deprecated
-- Remove setting locale as it is set already via solbuild
-- Use flag for avx2 builds that supports clang and gcc
-- Use llvm-objcopy to strip ar archives with clang
-- Use SSE2 for 32bit builds resulting in a significant performance boost in some tests
+- No longer installing 32-bit clang as it is deprecated
+- Removed setting locale as it is set already via solbuild
+- Used flag for AVX2 builds that supports clang and gcc
+- Used llvm-objcopy to strip ar archives with clang
+- Used SSE2 for 32-bit builds resulting in a significant performance boost in some tests
 
-Bryan unveiled and began his work on a new project, Linux Hardware Qualifier, in the [Cornucopia of Compability](https://www.youtube.com/watch?v=wjuamlW6Zxw) Hackfest. One of the biggest problems we have when it comes to hardware is knowing exactly what our users need us to support. Up until now, we had relied entirely on bug reports and social media messages to let us know when there's something we need to enable in the kernel or if there is some out-of-tree driver that we should be providing. It was becoming perfectly clear that a new piece of software was needed to help us do this automatically, in an efficient and timely manner.
+Bryan unveiled and began his work on a new project, Linux Hardware Qualifier, in the [Cornucopia of Compability](https://www.youtube.com/watch?v=wjuamlW6Zxw) Hackfest. One of the biggest problems we have when it comes to hardware is knowing exactly what our users need us to support. Up until now, we had relied entirely on bug reports and social media messages to let us know when there's something we need to enable in the kernel or if there is some out-of-tree driver that we should be providing. It became perfectly clear that a new piece of software was needed to help us do this automatically, in an efficient and timely manner.
 
 So Bryan set out to accomplish the following goals with [Linux Hardware Qualifier](https://github.com/getsolus/linux-hardware-qualifier):
 
@@ -130,7 +130,7 @@ So Bryan set out to accomplish the following goals with [Linux Hardware Qualifie
 
 Linux Hardware Qualifier (LHQ) seeks to perform all three of these tasks automatically with the help of the fantastic resources provided by the Linux Kernel Driver DataBase ([LKDDB](https://cateee.net/lkddb/)).
 
-During the Cornucopia of Compatibility Hackfest, Bryan began laying the foundation for the codebase. This included finally learning how to to use the [Meson](https://mesonbuild.com/) build system to manage C projects, setting up the initial project architecture, and implementing the parsing for the main `lkddb.list` format.
+During the Cornucopia of Compatibility Hackfest, Bryan laid the foundation for the codebase. This included finally learning how to to use the [Meson](https://mesonbuild.com/) build system to manage C projects, setting up the initial project architecture, and implementing the parsing for the main `lkddb.list` format.
 
 At the start of this month, Bryan and I had our [I Choose You, Budgie!](https://www.youtube.com/watch?v=MS1t0U5rcNg) Hackfest. In that Hackfest, I worked on the brand new IconTasklist popovers (*which I ended up having to completely rewrite due to disk corruption*). Bryan continued his work on Linux Hardware Qualifier. He had made significant progress in Linux Hardware Qualifier since the last Hackfest, now being able to read in all of the LKDDB listings, so he spent the majority of the stream implementing LKDDB search functionality. By the end of the stream, he was able to search for any USB device in the LKDDB.
 
@@ -156,10 +156,10 @@ On the 21st of December, I shipped further refinements to Budgie, such as:
 - Changed the behavior of the mute button to essentially act as a temporary toggle for the user to mute the volume while still interacting with the volume slider. This could be useful if at launch, the volume of an application is too loud, and the user wishes to quickly mute it, lower the volume, then unmute at a safer volume.
  - Additionally, if the volume is set to 0 on the closing of an application, we define this as being "pre-muted" and allow for the immediate raising of the volume without needing to unmute first.
 - Consolidating Translations in preparation for use by Weblate.
-- Ensure we perform a lookup of the Icon key/val, if it exists, of an application which has a respective DesktopAppInfo during our on_notification_closed func. This resolves an issue where an application (GNOME Pomodoro) uses the standard file naming convention set forth in the Desktop Entry specification, however does not do the same for their icon.
+- Ensured we perform a lookup of the Icon key/val, if it exists, of an application which has a respective DesktopAppInfo during our on_notification_closed func. This resolves an issue where an application (GNOME Pomodoro) uses the standard file naming convention set forth in the Desktop Entry specification, however does not do the same for their icon.
 - Making versioning clearer and more accurate
 
-Bryan worked on improving our upstream tracking coverage for Cuppa by reviewing and updating **over 300 packages** in the span of the last week, bringing our current coverage to **roughly 80%** of our entire source repository (git repositories containing package.yml files). Additionally:
+Bryan worked on improving our upstream tracking coverage for Cuppa by reviewing and updating **over 300 packages** in the span of the last week, bringing our current coverage to **over 75%** of our entire source repository (git repositories containing package.yml files). Additionally:
 
 - We added a new member to the Global Maintainer team, Friedrich von Gellhorn (a.k.a Girtablulu). Friedrich has been responsible for the support of Brother printer drivers, Rust and cargo, and more!
 - Friedrich upgraded our Ruby stack to the latest in the 2.6 series.
@@ -171,16 +171,16 @@ Last night I finished the last remaining items for Budgie 10.5, excluding transl
 - Ensure power and printer notifications don't get stored in Raven.
  - Power notifications such as automatic suspend and wake-from-suspend should no longer get stored in Raven. To enable this, I needed to [backport](https://dev.getsol.us/R991:00bfd3db0034c2f5972d95b037f912ed1285f7dd) various desktop-entry hint setting in gnome-settings-daemon for the Solus package and add gnome-power-panel as a spam "app" in the gschema.
  - Additionally added printer notifications since those can get quite spammy for network printers (apparently).
-- Ensure we set button layout in org.gnome.desktop.wm.preferences whenever we set our budgie-wm button layout.
-- Implementing a mechanism for hiding Sound widgets when there are no devices, dynamically showing / hiding the Sound Output and Input widgets based on the devices which are plugged in, while still respecting the setting defined in Budgie Desktop Settings
-- Making it possible to pin Chrome Apps (and keep them separated from Chrome itself) as well as resolving issues with tracking LibreOffice windows. For a comprehensive explanation on all the engineering behind this, I'd suggest reading [this commit](https://dev.getsol.us/R465:8b7843ecc4ad83d25fe29408a5facfe7b541aaa6).
+- Ensured we set button layout in `org.gnome.desktop.wm.preferences` whenever we set our budgie-wm button layout.
+- Implemented a mechanism for hiding Sound widgets when there are no devices, dynamically showing / hiding the Sound Output and Input widgets based on the devices which are plugged in, while still respecting the setting defined in Budgie Desktop Settings
+- Made it possible to pin Chrome Apps (and keep them separated from Chrome itself) as well as resolving issues with tracking LibreOffice windows. For a comprehensive explanation on all the engineering behind this, I'd suggest reading [this commit](https://dev.getsol.us/R465:8b7843ecc4ad83d25fe29408a5facfe7b541aaa6).
 - DIALOG and SPLASHSCREEN window types are now rightfully ignored.
 
 ---
 
-It's no understatement to say this has been a truly amazing year for Solus. Throughout the year, our community has grown alongside the amount of contributions to the project itself. Despite a few setbacks, we've gained new team members, bolstered our infrastructure, and made strides in various areas like tooling and our flagship desktop environment. Our development efforts this year around Budgie, Software Center, and tooling have been pivotal in getting the Solus ship into tip-top shape and preparing us for future adventures in 2019. We look forward to giving you a sneak peek into some of our plans in our upcoming blog post, bringing you along for the journey and enabling you to help shape Solus for years to come. There is always more work for us to do and more improvements to be made as we strive for technical excellence.
+It is no understatement to say this has been a truly amazing year for Solus. Throughout the year, our community has grown alongside the number of contributions to the project itself. Despite a few setbacks, we have gained new team members, bolstered our infrastructure, and made strides in various areas like tooling and our flagship desktop environment. Our focus on Budgie, Software Center, and tooling in 2018 has been pivotal in getting the Solus ship into tip-top shape and preparing us for future adventures in 2019. We look forward to giving you a sneak peek into some of our plans in our upcoming blog post, bringing you on our journey and enabling you to help shape Solus for years to come. There is always more work for us to do and more improvements to be made as we continue to strive for technical excellence.
 
-So thank you for all of your contributions, your kind words, and your support. Thank you for believing in the **shared vision** of Solus. We couldn't do this without all of you, our users.
+So thank you for all of your contributions, your kind words, and your support. Most of all, thank you for believing in the **shared vision** of Solus. We couldn't do this without all of you.
 
 Signing off,
 
