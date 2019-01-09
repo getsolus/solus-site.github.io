@@ -57,7 +57,7 @@ theme = "solus"
 
 [params.teams]
 	core = ["bryan", "joshua", "peter"]
-	global = ["friedrich", "joe", "pierre"]
+	global = ["friedrich", "joe", "pierre", "rune"]
 
 ###### Blackfriday Markdown Tweaks
 
