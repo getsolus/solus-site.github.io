@@ -36,7 +36,7 @@ To be perfectly clear, it should not be expected that any major new releases of 
 
 ### Cuppa
 
-[Comprehensive Upstream Project Polling Assistant](https://github.com/DataDrake/cuppa) (or Cuppa, for short) enables us to easily track and report the current state of our package repository and individual packages within it, across a wide variety of sources such as (but not limited to):
+[Comprehensive Upstream Provider Polling Assistant](https://github.com/DataDrake/cuppa) (or Cuppa, for short) enables us to easily track and report the current state of our package repository and individual packages within it, across a wide variety of sources such as (but not limited to):
 
 - CPAN
 - GitHub
