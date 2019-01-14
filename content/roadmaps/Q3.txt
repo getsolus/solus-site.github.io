@@ -1,0 +1,17 @@
+## Budgie
+
+- Budgie 11 development across entire quarter.
+- Aim for public alpha builds on top of a Solis ISO around August
+ - Formal development to transition to GitHub as well
+
+## Sol
+
+- Sol development across entire quarter.
+- Planned release of sol 1.5, with some items such as (but not limited to):
+ - A new binary index format
+ - A new metadata + files format
+ - Enforced index signing
+
+## usysconf
+
+- Rewrite at some point in Q3 to be entirely configuration-based, eliminating the requirement to learn and write C just for new usysconf handlers

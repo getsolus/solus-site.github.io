@@ -1,0 +1,54 @@
+## Budgie
+
+### January
+
+- Release Budgie 10.5
+
+### February
+
+- Release Budgie 10.5.1 with support for GNOME 3.30 Stack
+
+### March
+
+- Release Budgie 10.5.2 (if required) with support for GNOME 3.32 Stack
+
+## Cuppa
+
+### January
+
+- Tag a new release
+
+## Linux Hardware Qualifier
+
+### January
+
+- Tag a beta or stable release
+
+## Web Infrastructure
+
+### February
+
+- Deploy Flarum with OAuth Sign-In support with our Development Tracker. Flarum will replace our Forums and Google+ Community
+
+### March
+
+- Deploy re-designed Help Center with updated and restructured documentation
+
+## YPKG
+
+### February
+
+Begin development of ypkg 3.
+
+- Consolidate and enforce consistency in our package tooling
+- Introduce desired functionality such as:
+ - SPDX compliance checking
+ - Validation of package names, release numbers, and version numbers
+ - Checking of mandatory and empty keys
+
+### March
+
+Continue development of ypkg 3.
+
+- Implement various ypkg 3 build processes
+- Incorporate eopkg-deps and ypkg-update-checker like functionality

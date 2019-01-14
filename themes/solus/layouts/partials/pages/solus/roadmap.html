@@ -1,0 +1,28 @@
+{{ $site := .site }}
+{{ $content := .content }}
+<div data-solbit="content">
+	<div data-solbit="view-container">
+		<div data-solbit="view-centered">
+			<div data-solus-component="roadmap">
+				<h1>Roadmap</h1>
+				<h2>The roadmap below is subject to change and not indicative of all the changes that may occur in the respective quarter.</h2>
+				<div data-solus-component="roadmap-items">
+					{{ range $quarter, $info := $site.Data.roadmap }}
+						<div data-solus-component="roadmap-item">
+							<div data-solus-component="roadmap-header" id="{{ printf "%s-%s" $quarter $site.Params.Copyright }}">
+								{{ $colorNum := index (shuffle (seq 1 4)) 1 }}
+								<div data-solus-component="roadmap-circle" data-solus-colornum="{{ $colorNum }}">{{ $quarter }}</div>
+								<b>{{ $quarter }}</b>
+								<section>{{ $info.Timeline }}</section>
+							</div>
+							{{ $filename := printf "content/roadmaps/%s.txt" $quarter }}
+							<section data-solus="post-info">
+								{{ readFile $filename | markdownify | safeHTML }}
+							</section>
+						</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

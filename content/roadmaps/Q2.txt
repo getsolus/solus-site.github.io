@@ -1,0 +1,82 @@
+## Budgie
+
+### April
+
+Officially (re-?)start development of Budgie 11. This development will occur internally on our Development Tracker until it is in a more ready state, in which case it will be available under our [GetSolus](https://github.com/getsolus) GitHub organization. This will enable us to iterate on Budgie 11 at a pace which won't compromise our other higher priority and more time sensitive development efforts, as well as allow us to evolve and experiment with various Budgie 11 components.
+
+- Focused on starting development of the following components:
+ - `budgie-daemon`: Centered around initial settings, power, and notification state handling. Effectively it will be feature parity with current Budgie Daemon and introduce a Budgie 10 compatibility layer for supported features.
+ - `budgie-desktop-shell`: Centered around the various classes and foundation for supporting Budgie Panel, Budgie Menu and Raven.
+
+### May
+
+TBD
+
+### June
+
+TBD
+
+## Software Center
+
+### April
+
+Start development efforts on new Software Center implementation.
+
+- Written in C and GTK3 with proper desktop handling on Plasma (not use GTK Headerbar)
+- Introduce support for Flatpak and Snaps via our planned plugin architecture
+- Introduce a new user experience
+
+### May
+
+Continue development of new Software Center
+
+### June
+
+- Tag first stable release of new Software Center
+
+## Sol
+
+### April
+
+Begin development of our next generation package manager, sol.
+
+- Release `sold` (sol daemon) as a Go JSON-RPC service that will call out to eopkg. This will be done until the rest of sol's functionality is completed, for the purposes of enabling the Software Center to perform native package transactions.
+- Additionally introduce a Third Party backend to facilitate installation of Third Party repo items using ypkg, which would not otherwise be supported by Flatpak or Snaps (such as Google Chrome).
+
+### May
+
+Work on feature parity with eopkg, such as:
+
+- Package Management
+- Repository Management
+- Searching
+
+### June
+
+- Tag first stable release of sol
+
+## Web Infrastructure
+
+### April
+
+- Start work on replacing blog with a new Activity Hub to consolidate all relevant Solus activity from the team (blogs, social media posts, development tracker activity) in a single place.
+
+### May
+
+- Start work on various tooling for social media cross-posting, which will be able to be leveraged by the Team to post across:
+ - Activity Hub
+ - Facebook
+ - Flarum
+ - Mastodon
+ - Reddit
+ - Twitter
+
+### June
+
+- Deployment of new Activity Hub
+
+## ypkg
+
+### April
+
+- Tag first stable release of ypkg 3
