@@ -11,7 +11,7 @@ featuredimage: "/2019/01/to-venture-ahead.jpg"
 url: "/2019/01/14/2019-to-venture-ahead"
 ---
 
-Solus is a project which does not shy away from continuously improving and rethinking entire aspects of our architecture and experiences on our quest for technical excellence, whether that is introducing new tooling and experiences or changing existing ones. 2019 is going to be a year of transformative work for Solus.
+Solus is a project which does not shy away from continuously improving and rethinking entire aspects of our architecture and experiences on our quest for technical excellence, whether that is introducing new tooling and experiences or changing existing ones. 2019 is going to be a year of transformative year for Solus.
 <!--more-->
 
 To make it easier to discover what we're going to be working throughout the year and the time-frames for when development of those items will occur, we are going to be breaking up these sections into quarters, and within each quarter the projects themselves.
