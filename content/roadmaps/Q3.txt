@@ -1,7 +1,7 @@
 ## Budgie
 
 - Budgie 11 development across entire quarter.
-- Aim for public alpha builds on top of a Solis ISO around August
+- Aim for public alpha builds on top of a Solus ISO around August
  - Formal development to transition to GitHub as well
 
 ## Sol
