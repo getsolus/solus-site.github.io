@@ -16,7 +16,7 @@ Solus is a project which does not shy away from continuously improving and rethi
 
 To make it easier to discover what we're going to be working throughout the year and the time-frames for when development of those items will occur, we are going to be breaking up these sections into quarters, and within each quarter the projects themselves.
 
-As with all things Solus, our roadmap is subject to change over time and may not be the full breadth of our plans. We'll be keeping our new [Roadmap](/roadmap) page up-to-date throughout development and you can always follow along with development by reading our blog and checking various development resources (our Development Tracker, GitHub, etc.).
+As with all things Solus, our roadmap is subject to change over time and may not be the full breadth of our plans. We'll be keeping our new [Roadmap](/solus/roadmap) page up-to-date throughout development and you can always follow along with development by reading our blog and checking various development resources (our Development Tracker, GitHub, etc.).
 
 ## Q1 (January - March)
 
