@@ -59,7 +59,7 @@ Our web infrastructure is always evolving to meeting the needs of us and our use
 
 In February, I will be working on deploying [Flarum](https://flarum.org/) to effectively replace our forums and the Google+ Community (which has an accelerated "sunsetting" of April). This was touched on in our [Improving Community Engagement](/2018/10/11/improving-community-engagement) blog post. In conjunction with this, I'll be working on the OAuth tie-in with Phabricator, so all Solus users engaging on Flarum will be known to also have an account on our Development Tracker, which should make it easier for them to file issues!
 
-In March, I will deploying a redesigned Help Center with updated and restructured documentation.
+In March, I will be deploying a redesigned Help Center with updated and restructured documentation.
 
 ### YPKG
 
