@@ -31,4 +31,4 @@ Flarum enables us to follow through with our commitment to [improving community 
 3. Engage with other community members, showcase their artworks / wallpapers, etc.
 4. Engage with the Team on announcements, whether that's coming from our cross-posted blog posts or future Activity Hub-based.
 
-So check it out and start engaging at [https://discuss.getsol.us](https://discuss.getsol.us)
+So check it out and start engaging at [https://discuss.getsol.us](https://discuss.getsol.us). We would love to hear your feedback [here](https://discuss.getsol.us/d/1-introducing-our-new-community-forums).
