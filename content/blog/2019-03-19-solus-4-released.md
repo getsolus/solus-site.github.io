@@ -1,5 +1,5 @@
 ---
-title: "Solus 4 Released"
+title: "Solus 4 Fortitude Released"
 author: "joshua"
 categories:
 - budgie
@@ -10,7 +10,8 @@ featuredimage: ""
 url: "/2019/03/18/solus-4-released"
 ---
 
-We are proud to announce the immediate availability of Solus 4, a new major release of the Solus operating system. This refresh delivers a brand new Budgie experience and updated set of default applications and theming.
+We are proud to announce the immediate availability of Solus 4 Fortitude, a new major release of the Solus operating system. This release delivers a brand new Budgie experience, updated sets of default applications and theming, and hardware enablement.
+<!--more-->
 
 ## General
 
@@ -27,7 +28,7 @@ Our Budgie and GNOME Editions ship with GNOME MPV 0.16 and our MATE Edition ship
 
 ### Hardware and Kernel Enablement
 
-This release of Solus ships with Linux kernel 4.20.16, enabling us to provide support for AMD Radeon Picasso and Raven2 APUs, AMD Vega20 and broader Vega10 enablement, as well as improved support for Intel Coffeelake and Icelake CPUs.
+This release of Solus ships with Linux kernel 4.20.16, enabling us to provide support for AMD Picasso and Raven2 APUs, AMD Vega20 and broader Vega10 enablement, as well as improved support for Intel Coffee Lake and Ice Lake CPUs.
 
 Furthermore, Linux kernel 4.20 expands our support for other hardware devices, such as touchpad support for the Lenovo IdeaPad 130-15IKB and 330-15ARR.
 
@@ -73,9 +74,9 @@ We'd like to thank [yursan9](https://github.com/yursan9) for their amazing work 
 
 #### Icon Tasklist
 
-Budgie 10.5 provides a massive upgrade to the IconTasklist applet. Our new IconTasklist has improved application detection to more consistently group applications and introduces a brand new IconTasklist popover experience.
-
 {{< altimg "2019/03/budgie-10/IconTasklistPopover.jpg" >}}
+
+Budgie 10.5 provides a massive upgrade to the IconTasklist applet. Our new IconTasklist applet has improved application detection to more consistently group applications and introduces a brand new IconTasklist popover experience.
 
 This new popover design enables you to:
 
@@ -121,7 +122,7 @@ Our Sound widgets have been completely rewritten and redesigned! We've broken up
 
 For Sound Output, you can now enable the "Allow raising volume above 100%" option to crank up your volume to 150%! Great for parties or movie watching.
 
-Controlling your volume on a per-app has never been easier. With our new Sound Output widget, you can now control each application as well as mute them right from Raven! No longer do you need need to dive into the Sound settings in GNOME Control Center or install a third-party tool like pavucontrol. Applications which utilize ALSA for sound playback will be less verbose, so you can expect to see apps like mocp (music-on-console player) showing up as "mocp" rather than "ALSA plug-in [mocp]"
+Controlling your volume on a per-app has never been easier. With our new Sound Output widget, you can now control each application as well as mute them right from Raven! No longer do you need need to dive into the Sound settings in GNOME Control Center or install a third-party tool like pavucontrol. Applications which utilize ALSA for sound playback will also have less verbose names, so you can expect to see applications like mocp (music-on-console player) showing up as "mocp" rather than "ALSA plug-in [mocp]"
 
 With both the Sound Output and Input widgets, you can easily switch between devices, and the functionality for device switching has been rewritten to be more reliable in cases of plugging in a new device or removing an existing one.
 
@@ -175,19 +176,52 @@ The Windows section of Budgie Desktop Settings introduces options for:
 Some other changes / fixes of note:
 
 - Added dedicated CSS classes for Sound widgets (`apps-list`, `devices-list`, `sound-devices`) as well as various popovers to make it easier for theme developers.
-- We now prevent the dragging of desktop icons into the IconTasklist, given it's purpose is to show favorited and/or active windows.
+- We now prevent the dragging of desktop icons into the IconTasklist, given its purpose is to show favorited and/or active windows.
 
 ## GNOME
 
-Our GNOME experience has seen some minor refinements to our out-of-the-box default experience.
+Our GNOME experience has seen some refinements to our out-of-the-box default experience.
 
 - Gedit with now default to using the Oblivion theme
 - Nautilus will now default to sorting directories before files.
 - We now default to the Plata (Noir) GTK Theme.
 
+## MATE
+
+Our MATE experience has seen some refinements to our out-of-the-box default experience.
+
+- We now default to Plata GTK Theme for improved system theming
+- We've resolved an issue with password setting in the About Me of MATE Control Center
+- Due to various issues with broken user management, we have decided to temporarily remove the packages responsible for providing this functionality, which are `gnome-system-tools` , `system-tools-backend`,  and `liboobs`. We are actively working with the developer of an [alternative tool](https://github.com/zhuyaliang/user-admin) to resolve various issues (such as avatar and language setting) and we are optimistic we'll have a solution to deliver to our users. When this tooling is considered ready for production, we will deploy it automatically to our MATE users.
+
+Our MATE ISO ships with latest of the MATE 1.20 series, which has numerous improvements and fixes such as:
+
+- Applet fixes in Cpufreq and Eyes
+- Numerous fixes in MATE Tweak
+- Numerous fixes in MATE Panel such as for the Clock and na-tray
+- Support for background fallback on HiDPI in mate-desktop
+- You now double-click instead of single-click to edit keyboard shortcuts in MATE Control Center
+
 ## Plasma
 
-We're happy to introduce the availability of a new Plasma Testing ISO. 
+Thanks to the hard work by Friedrich von Gellhorn (Girtablulu) and the groundwork laid by Peter O'Connor (sunnyflunk), we're happy to introduce the availability of a new Plasma Testing ISO. This new Plasma Testing ISO features the latest of the Plasma Desktop [5.15](https://kde.org/announcements/plasma-5.15.0.php) series, [5.15.3](https://kde.org/announcements/plasma-5.15.3.php), and is complemented by KDE Frameworks 5.56, KDE Applications 18.12.3, and Qt 5.12.1.
+
+This Plasma Testing ISO features various performance improvements, as well as reduced QML Engine Memory usage thanks Qt 5.12 by upwards of 30%. It also features improvements from the latest Plasma Desktop and KDE Applications such as:
+
+- Crash fixes for Dolphin
+- Full support for emoji characters, including coloured emojis.
+- KDE Plasma 5.15 is starting up now faster.
+- Some new/improved icons.
+
+We have also refined our default experience so windows now open in the center of the desktop, as well as the addition of a new default keyboard shortcut for showing your desktop (Meta+D).
+
+You can download the new Plasma Testing ISO [here](https://getsol.us/releases/4.0/Solus-Plasma-Testing.iso)
+
+## Thank You
+
+We would like to thank everyone that has supported and contributed to Solus and its endeavors, including Budgie Desktop. It's you, our community, that has made this release possible. Whether you've filed bugs, fixed software, contributed code, translated Budgie Desktop, or shared Solus releases with your colleagues, friends, and family, you've helped shape this release and improved the project for everyone.
+
+Thank you for believing in our shared vision for the project. We look forward to working alongside all of you on many more releases in the future.
 
 ---
 
