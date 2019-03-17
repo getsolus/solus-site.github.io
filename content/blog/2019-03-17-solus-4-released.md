@@ -209,7 +209,7 @@ Our MATE ISO ships with latest of the MATE 1.20 series, which has numerous impro
 
 {{< altimg "2019/03/plasma.jpg" >}}
 
-Thanks to the hard work by Friedrich von Gellhorn (Girtablulu) and the groundwork laid by Peter O'Connor (sunnyflunk), we're happy to introduce the availability of a new Plasma Testing ISO. This new Plasma Testing ISO features the latest of the Plasma Desktop [5.15](https://kde.org/announcements/plasma-5.15.0.php) series, [5.15.3](https://kde.org/announcements/plasma-5.15.3.php), and is complemented by KDE Frameworks 5.56, KDE Applications 18.12.3, and Qt 5.12.1.
+Thanks to the hard work by Friedrich von Gellhorn (Girtablulu) and the groundwork laid by Peter O'Connor (sunnyflunk), we're happy to introduce the availability of a new Plasma Testing ISO. This new Plasma Testing ISO features the latest of the Plasma Desktop [5.15](https://kde.org/announcements/plasma-5.15.0.php) series, [5.15.2](https://kde.org/announcements/plasma-5.15.2.php), and is complemented by KDE Frameworks 5.56, KDE Applications 18.12.2, and Qt 5.12.1.
 
 This Plasma Testing ISO features various performance improvements, as well as reduced QML Engine Memory usage thanks to Qt 5.12 by upwards of 30%. It also features improvements from the latest Plasma Desktop and KDE Applications such as:
 
