@@ -1,7 +1,7 @@
 Budgie:
     description: A feature-rich, luxurious desktop using the most modern technologies.
-    mediasize: 1.5GB
-    shasum: 2d5d410a81a0b69077280e1b408f18cdfed770e69112ee4fe7b76e577e35acf2
+    mediasize: 1.4GB
+    shasum: e67c3b7644c97937a0b681883e519a78ea4f62b304d236b28f06536ba1dcdbd6
     torrent: https://getsol.us/torrents/Solus-4.0-Budgie.torrent
 GNOME:
     description: A contemporary desktop experience.
