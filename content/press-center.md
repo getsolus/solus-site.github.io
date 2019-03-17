@@ -28,8 +28,9 @@ Reach out to the following individuals for inquiring on information in regards t
 # Press Announcements
 
 - **Current Release**
- - Solus 3.9999: Click [here for blog post](/2018/09/20/solus-3-iso-refresh-released)
+ - Solus 4.0: Click [here for blog post](/2019/03/18/solus-4-released)
 - **Previous Releases**
+ - Solus 3.9999: Click [here for blog post](/2018/09/20/solus-3-iso-refresh-released)
  - Solus 3: Click [here for blog post](/2017/08/15/solus-3-released), [Press Release (PDF)](https://drive.google.com/open?id=0B_SiwGH9SWnGcmxxTUxab3hoZHM) or [Media Pack (ZIP)](https://drive.google.com/file/d/0B_SiwGH9SWnGNVJKM2hYUUMtSFE/view?usp=sharing)
  - Solus 2017.04.18.0: Click [here for blog post](/2017/04/18/solus-releases-iso-snapshot-20170418-0), [Press Release (PDF)](https://drive.google.com/file/d/0B_SiwGH9SWnGQzJOUDhBZExlaG8/view?usp=sharing) or [Media Pack (ZIP)](https://drive.google.com/file/d/0B_SiwGH9SWnGNkdadnFsd2FuMzg/view?usp=sharing)
  - Solus 2017.01.01.0: Click [here for blog post](/2017/01/01/solus-releases-iso-snapshot-20170101-0)

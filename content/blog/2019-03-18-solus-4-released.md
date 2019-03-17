@@ -220,7 +220,7 @@ This Plasma Testing ISO features various performance improvements, as well as re
 
 We have also refined our default experience so windows now open in the center of the desktop, as well as the addition of a new default keyboard shortcut for showing your desktop (Meta+D).
 
-You can download the new Plasma Testing ISO [here](https://getsol.us/releases/4.0/Solus-Plasma-Testing.iso)
+You can download the new Plasma Testing ISO [here](https://mirrors.rit.edu/solus/images/4.0/Solus-Plasma-Testing.iso)
 
 ## Thank You
 
