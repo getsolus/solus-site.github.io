@@ -122,7 +122,7 @@ Our Sound widgets have been completely rewritten and redesigned! We've broken up
 
 For Sound Output, you can now enable the "Allow raising volume above 100%" option to crank up your volume to 150%! Great for parties or movie watching.
 
-Controlling your volume on a per-app has never been easier. With our new Sound Output widget, you can now control each application as well as mute them right from Raven! No longer do you need need to dive into the Sound settings in GNOME Control Center or install a third-party tool like pavucontrol. Applications which utilize ALSA for sound playback will also have less verbose names, so you can expect to see applications like mocp (music-on-console player) showing up as "mocp" rather than "ALSA plug-in [mocp]"
+Controlling your volume on a per-application basis has never been easier. With our new Sound Output widget, you can now control each application as well as mute them right from Raven! No longer do you need need to dive into the Sound settings in GNOME Control Center or install a third-party tool like pavucontrol. Applications which utilize ALSA for sound playback will also have less verbose names, so you can expect to see applications like mocp (music-on-console player) showing up as "mocp" rather than "ALSA plug-in [mocp]"
 
 With both the Sound Output and Input widgets, you can easily switch between devices, and the functionality for device switching has been rewritten to be more reliable in cases of plugging in a new device or removing an existing one.
 
@@ -159,7 +159,7 @@ Budgie 10.5 introduces a new section to Budgie Desktop Settings for personalizin
   - Sound Output
   - Microphone / Sound Input
   - Media Playback Controls (MPRIS)
-  - Power Strip
+  - Power Strip (Quick Access to Budgie Desktop Settings, Lock, and Logout)
 
 #### Windows
 
@@ -211,12 +211,12 @@ Our MATE ISO ships with latest of the MATE 1.20 series, which has numerous impro
 
 Thanks to the hard work by Friedrich von Gellhorn (Girtablulu) and the groundwork laid by Peter O'Connor (sunnyflunk), we're happy to introduce the availability of a new Plasma Testing ISO. This new Plasma Testing ISO features the latest of the Plasma Desktop [5.15](https://kde.org/announcements/plasma-5.15.0.php) series, [5.15.3](https://kde.org/announcements/plasma-5.15.3.php), and is complemented by KDE Frameworks 5.56, KDE Applications 18.12.3, and Qt 5.12.1.
 
-This Plasma Testing ISO features various performance improvements, as well as reduced QML Engine Memory usage thanks Qt 5.12 by upwards of 30%. It also features improvements from the latest Plasma Desktop and KDE Applications such as:
+This Plasma Testing ISO features various performance improvements, as well as reduced QML Engine Memory usage thanks to Qt 5.12 by upwards of 30%. It also features improvements from the latest Plasma Desktop and KDE Applications such as:
 
 - Crash fixes for Dolphin
-- Full support for emoji characters, including coloured emojis.
+- Full support for emoji characters, including color emojis.
 - KDE Plasma 5.15 is starting up now faster.
-- Some new/improved icons.
+- Some new / improved icons.
 
 We have also refined our default experience so windows now open in the center of the desktop, as well as the addition of a new default keyboard shortcut for showing your desktop (Meta+D).
 
@@ -230,7 +230,7 @@ Thank you for believing in our shared vision for the project. We look forward to
 
 ---
 
-## Changelog of ISO
+## Changelog of ISO (Budgie)
 
 ### Packages added to this release:
 
