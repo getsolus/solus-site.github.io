@@ -228,6 +228,10 @@ We would like to thank everyone that has supported and contributed to Solus and 
 
 Thank you for believing in our shared vision for the project. We look forward to working alongside all of you on many more releases in the future.
 
+## Download
+
+To download our latest Editions, you can go to our [Download](/download) page, where direct links and torrents are available!
+
 ---
 
 ## Changelog of ISO (Budgie)
