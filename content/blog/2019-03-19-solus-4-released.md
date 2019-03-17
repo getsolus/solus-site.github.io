@@ -183,7 +183,6 @@ Some other changes / fixes of note:
 Our GNOME experience has seen some refinements to our out-of-the-box default experience.
 
 - Gedit with now default to using the Oblivion theme
-- Nautilus will now default to sorting directories before files.
 - We now default to the Plata (Noir) GTK Theme.
 
 ## MATE
