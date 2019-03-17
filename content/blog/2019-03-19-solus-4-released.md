@@ -6,7 +6,7 @@ categories:
 - news
 - releases
 date: 2019-03-15T13:34:33+02:00
-featuredimage: ""
+featuredimage: "/2019/03/solus-4-featured.jpg"
 url: "/2019/03/18/solus-4-released"
 ---
 
@@ -180,12 +180,16 @@ Some other changes / fixes of note:
 
 ## GNOME
 
+{{< altimg "2019/03/gnome.jpg" >}}
+
 Our GNOME experience has seen some refinements to our out-of-the-box default experience.
 
 - Gedit with now default to using the Oblivion theme
 - We now default to the Plata (Noir) GTK Theme.
 
 ## MATE
+
+{{< altimg "2019/03/mate.jpg" >}}
 
 Our MATE experience has seen some refinements to our out-of-the-box default experience.
 
@@ -202,6 +206,8 @@ Our MATE ISO ships with latest of the MATE 1.20 series, which has numerous impro
 - You now double-click instead of single-click to edit keyboard shortcuts in MATE Control Center
 
 ## Plasma
+
+{{< altimg "2019/03/plasma.jpg" >}}
 
 Thanks to the hard work by Friedrich von Gellhorn (Girtablulu) and the groundwork laid by Peter O'Connor (sunnyflunk), we're happy to introduce the availability of a new Plasma Testing ISO. This new Plasma Testing ISO features the latest of the Plasma Desktop [5.15](https://kde.org/announcements/plasma-5.15.0.php) series, [5.15.3](https://kde.org/announcements/plasma-5.15.3.php), and is complemented by KDE Frameworks 5.56, KDE Applications 18.12.3, and Qt 5.12.1.
 
