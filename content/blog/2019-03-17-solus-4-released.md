@@ -5,9 +5,9 @@ categories:
 - budgie
 - news
 - releases
-date: 2019-03-15T13:34:33+02:00
+date: 2019-03-17T23:06:48+02:00
 featuredimage: "/2019/03/solus-4-featured.jpg"
-url: "/2019/03/18/solus-4-released"
+url: "/2019/03/17/solus-4-released"
 ---
 
 We are proud to announce the immediate availability of Solus 4 Fortitude, a new major release of the Solus operating system. This release delivers a brand new Budgie experience, updated sets of default applications and theming, and hardware enablement.
