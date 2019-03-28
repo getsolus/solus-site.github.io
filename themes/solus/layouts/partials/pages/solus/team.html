@@ -12,7 +12,7 @@
 		{{ range $member := (index $site.Params.teams $teamType) }}
 			<div data-site="team-member">
 				{{ $memberInfo := index $site.Data.users $member }}
-				<img src="{{ printf "imgs/avatars/%s.jpg" $member | absURL }}" />
+				<img src="{{ printf "imgs/avatars/%s.jpg" $member | absURL }}" height="120px" width="120px" />
 				<div data-site="team-member-info">
 					<span><h4>{{ $memberInfo.Name}}</h4><h5>{{ $memberInfo.Role }}</h5></span>
 					<p>{{ $memberInfo.Description }}</p>
