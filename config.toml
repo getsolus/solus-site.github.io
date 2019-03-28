@@ -24,7 +24,7 @@ theme = "solus"
 	userguide = "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
 
 [params.menus]
-	main = [ "home", "blog", "download", "support_us", "help_center", "forum", "about"]
+	main = [ "home", "about", "blog", "download", "help_center", "forum", "get_involved"]
 	footer = [ "solus", "social", "support", "press"]
 	solus = [ "about", "download", "experiences", "roadmap", "team", "technologies" ]
 	social = [ "facebook", "mastodon", "reddit", "twitter"]
@@ -43,6 +43,7 @@ theme = "solus"
 	facebook = "https://facebook.com/get.solus"
 	forum = "https://discuss.getsol.us"
 	forums = "https://discuss.getsol.us"
+	get_involved = "/articles/contributing/getting-involved/en/"
 	help_center = "help-center/home"
 	irc = "/articles/contributing/getting-involved/en/#irc"
 	mastodon = "https://mastodon.cloud/@SolusProject"

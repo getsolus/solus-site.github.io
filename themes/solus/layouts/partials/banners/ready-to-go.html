@@ -9,7 +9,7 @@
 			<section data-solbit-flexrow>
 				{{ $altName := replace $app "_" " "}}
 				{{ $altName := replace (title $altName) "Mpv" "MPV" }}
-				<img alt="{{ $altName }}" src="{{ $site.BaseURL }}/imgs/icons/apps/{{ lower $app }}.jpg" />
+				<img alt="{{ $altName }}" src="{{ $site.BaseURL }}/imgs/icons/apps/{{ lower $app }}.svg" height="64px" width="64px" />
 				<p>{{ $info.description }}</p>
 			</section>
 		{{ end }}
