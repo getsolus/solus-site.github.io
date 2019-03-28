@@ -26,7 +26,7 @@
 								{{ else }}
 									{{ $type = index (split $urlInfo.Host ".") 0 }}
 								{{ end }}
-								{{ $title := title (replace $type "google_plus" "google+") }}
+								{{ $title := title $type }}
 								<a href="{{ $link }}" data-solbit-icon="{{ $type }}" target="_blank" title="{{ $title }}"></a>
 							{{ end }}
 						</div>

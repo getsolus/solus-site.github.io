@@ -8,7 +8,7 @@
 			{{ $url := index $site.Params.menuurls $id }}
 			<span>
 				{{ if hasPrefix $url "http" }}
-					<a href="{{ safeURL $url }}">{{ $name }}</a>
+					<a href="{{ safeURL $url }}" target="_blank">{{ $name }}</a>
 				{{ else }}
 					<a href="{{ $url | absURL }}">{{ $name }}</a>
 				{{ end }}

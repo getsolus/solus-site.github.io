@@ -24,11 +24,11 @@ theme = "solus"
 	userguide = "https://drive.google.com/open?id=0B5Ymf8oYXx-PUFk4UG1WOFRnTzQ"
 
 [params.menus]
-	main = [ "home", "blog", "download", "support_us", "help_center", "about", "press"]
+	main = [ "home", "blog", "download", "support_us", "help_center", "forum", "about"]
 	footer = [ "solus", "social", "support", "press"]
 	solus = [ "about", "download", "experiences", "roadmap", "team", "technologies" ]
-	social = [ "facebook", "google_plus", "mastodon", "reddit", "twitter"]
-	support = ["dev_tracker", "forums", "google_plus_community", "help_center", "irc"]
+	social = [ "facebook", "mastodon", "reddit", "twitter"]
+	support = ["dev_tracker", "forums", "help_center", "irc"]
 	press = ["press_center", "branding"]
 
 [params.menuurls]
@@ -41,9 +41,8 @@ theme = "solus"
 	download = "download"
 	experiences = "/solus/experiences"
 	facebook = "https://facebook.com/get.solus"
+	forum = "https://discuss.getsol.us"
 	forums = "https://discuss.getsol.us"
-	google_plus = "https://plus.google.com/u/0/+Solus-Project"
-	google_plus_community = "https://plus.google.com/communities/104830131595272878110"
 	help_center = "help-center/home"
 	irc = "/articles/contributing/getting-involved/en/#irc"
 	mastodon = "https://mastodon.cloud/@SolusProject"
@@ -51,7 +50,7 @@ theme = "solus"
 	press_center = "press-center"
 	reddit = "https://www.reddit.com/r/SolusProject"
 	roadmap = "/solus/roadmap"
-	support_us = "support"
+	support_us = "/articles/contributing/getting-involved/en/"
 	team = "/solus/team"
 	technologies = "/solus/technologies"
 	twitter = "https://twitter.com/SolusProject"
