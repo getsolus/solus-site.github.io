@@ -5,7 +5,7 @@ categories:
 - news
 - packages
 - roundup
-date: 2019-04-25T04:58:20+03:00
+date: 2019-04-25T16:14:28+03:00
 featuredimage: "/2019/04/budgie-on-gnome-332.jpg"
 url: "/2019/04/25/gnome-of-thrones"
 ---
@@ -66,7 +66,7 @@ If you are currently using the stable repository but wish to help test these lat
 
 ## KDE Applications 19.04.0
 
-It's not just Budgie and GNOME users that are getting a bunch of goodies this week though! Friedrich (Girtablulu) has been hard at work [before his vacation](https://discuss.getsol.us/d/767-plasma-on-vacation/26) to provide the latest KDE Applications for our Solus Plasma users. You can expect all of these goodies to land within this sync cycle!
+It's not just Budgie and GNOME users that are getting a bunch of goodies this week though! Friedrich (Girtablulu) has been hard at work [before his vacation](https://discuss.getsol.us/d/767-plasma-on-vacation/26) to provide the latest KDE Applications for our Solus Plasma users on the unstable repo.
 
 KDE Applications 19.04 comes with a bunch of improvements, such as:
 
