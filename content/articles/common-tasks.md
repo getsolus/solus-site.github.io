@@ -4,4 +4,4 @@ internaltype: page
 title: Common Tasks
 ---
 
-{{% helpcenter-categoryview "common-tasks" %}}
+{{< helpcenter-categoryview "common-tasks" >}}

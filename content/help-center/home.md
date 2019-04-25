@@ -4,4 +4,4 @@ title = "help_center"
 aliases = ["/help-center/categories"]
 +++
 
-{{% helpcenter-categories %}}
+{{< helpcenter-categories >}}

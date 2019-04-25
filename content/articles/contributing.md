@@ -4,4 +4,4 @@ internaltype: page
 title: Contributing
 ---
 
-{{% helpcenter-categoryview "contributing" %}}
+{{< helpcenter-categoryview "contributing" >}}

@@ -4,4 +4,4 @@ internaltype: page
 title: Software
 ---
 
-{{% helpcenter-categoryview "software" %}}
+{{< helpcenter-categoryview "software" >}}

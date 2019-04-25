@@ -5,4 +5,4 @@ title: Troubleshooting
 aliases: ["/articles/repair-and-recovery/"]
 ---
 
-{{% helpcenter-categoryview "troubleshooting" %}}
+{{< helpcenter-categoryview "troubleshooting" >}}

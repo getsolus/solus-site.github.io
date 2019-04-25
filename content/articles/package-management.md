@@ -4,4 +4,4 @@ internaltype: page
 title: Package Management
 ---
 
-{{% helpcenter-categoryview "package-management" %}}
+{{< helpcenter-categoryview "package-management" >}}

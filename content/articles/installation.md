@@ -4,4 +4,4 @@ internaltype: page
 title: Installation
 ---
 
-{{% helpcenter-categoryview "installation" %}}
+{{< helpcenter-categoryview "installation" >}}

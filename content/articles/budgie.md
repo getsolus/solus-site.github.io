@@ -4,4 +4,4 @@ internaltype: page
 title: Budgie
 ---
 
-{{% helpcenter-categoryview "budgie" %}}
+{{< helpcenter-categoryview "budgie" >}}
