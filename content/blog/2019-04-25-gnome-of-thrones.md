@@ -60,7 +60,7 @@ Amongst these changes, we also performed an upgrade of deja-dup which has result
 
 We all know you are incredibly excited to try out the latest goodies from GNOME! With Solus being a curated rolling release, you know you can get the latest packages at a pace which doesn't compromise the usability of your system. With the GNOME Stack upgrade being as comprehensive and wide-reaching as it is, we have decided to defer our sync to the stable repositories until Friday, May 3rd, which provides an additional work week of testing for all of our unstable repo users.
 
-If you are on the unstable repository, feel free to upgrade and start testing. We have created a [task on our development tracker]() detailing what has been tested, and we'd love for you to contribute in the comments of the task with your own experience! If you run into any issues, please file an issue on our development tracker so we can investigate and address the matter. This testing doesn't just apply to Budgie and GNOME Shell, but to MATE as well.
+If you are on the unstable repository, feel free to upgrade and start testing. We have created a [task on our development tracker](https://dev.getsol.us/T7902) detailing what has been tested, and we'd love for you to contribute in the comments of the task with your own experience! If you run into any issues, please file an issue on our development tracker so we can investigate and address the matter. This testing doesn't just apply to Budgie and GNOME Shell, but to MATE as well.
 
 If you are currently using the stable repository but wish to help test these latest changes, you are welcome to [reach out to us in our IRC channel](/articles/contributing/getting-involved/en/#irc)
 
