@@ -5,7 +5,7 @@ categories:
 - news
 - packages
 - roundup
-date: 2019-04-25T00:01:16+03:00
+date: 2019-04-25T04:58:20+03:00
 featuredimage: "/2019/04/budgie-on-gnome-332.jpg"
 url: "/2019/04/25/gnome-of-thrones"
 ---
@@ -29,11 +29,11 @@ We are thrilled to announce that we have just landed the latest GNOME 3.32 Stack
 
 During our testing of both Budgie and GNOME Shell under the latest GNOME Stack, we have seen varying performance improvements, as well as CPU and memory usage reductions.
 
-On Budgie, we saw a significant reduction in memory usage at cold start-up, largely thanks to improvements made to Mutter, which Budgie WM is currently built on. On a laptop with an AMD Ryzen 2500U, we saw memory usage reductions of about 50%, going from 58MiB to 27.2MiB. On a desktop with an AMD Ryzen 1700 and a NVIDIA GeForce GTX 1070Ti (running NVIDIA Beta Driver 418.43) we saw a memory usage reduction of roughly 30%, going from 122MiB to 84MiB.
+Budgie saw a significant reduction in memory usage in Budgie WM at cold start-up, largely thanks to improvements made to Mutter, which it is currently built on. On a laptop with an AMD Ryzen 2500U, we saw memory usage reductions of about 50%, going from 58MiB to 27.2MiB. On a desktop with an AMD Ryzen 1700 and a NVIDIA GeForce GTX 1070Ti (running NVIDIA Beta Driver 418.43) we saw a memory usage reduction of roughly 30%, going from 122MiB to 84MiB.
 
 On GNOME Shell, we saw a slight reduction in memory usage at cold start-up and a CPU usage reduction of about 10-15% on our laptop with the AMD Ryzen APU, especially during animations and interaction with GNOME Shell's Applications dashboard / view, so those with lower-end systems that opt to use GNOME Shell should expect it to be less taxing on their system!
 
-Alongside all these updates, we have also updated Network Manager to 1.16 series, upgraded enchant to enchant 2 (while still maintaining backwards compatibility with an enchant16 library), and finally deprecated a legacy version of WebKit.
+Alongside all these updates, we have also updated Network Manager to 1.16 series, upgraded Enchant to 2.x (while still maintaining backwards compatibility with an enchant16 library), and finally deprecated a legacy version of WebKit.
 
 For our Budgie users, we are now using Budgie git builds with GNOME 3.32 support. This support was graciously provided by the Ubuntu Budgie developers and we're grateful for their contribution to the Budgie Desktop. We have performed a few changes on top of this new support to ensure we continue to use Budgie WM schemas (to make any transitions between stack upgrades and newer Budgie releases occur more smoothly), as well as fixed instances where we would not be performing a redraw on closing the Budgie Menu, resulting in artifacts.
 
@@ -66,7 +66,7 @@ If you are currently using the stable repository but wish to help test these lat
 
 ## KDE Applications 19.04.0
 
-It's not just Budgie and GNOME users that are getting a bunch of goodies this week though! Friedrich (Girtablulu) has been hard at work [before his vacation](https://discuss.getsol.us/d/767-plasma-on-vacation/26) to provide the latest KDE Applications for our Solus Plasma users. You can expect all of these goodies to land tomorrow!
+It's not just Budgie and GNOME users that are getting a bunch of goodies this week though! Friedrich (Girtablulu) has been hard at work [before his vacation](https://discuss.getsol.us/d/767-plasma-on-vacation/26) to provide the latest KDE Applications for our Solus Plasma users. You can expect all of these goodies to land within this sync cycle!
 
 KDE Applications 19.04 comes with a bunch of improvements, such as:
 
