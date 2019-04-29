@@ -1,4 +1,3 @@
-{{- $hugo := .Hugo -}}
 {{- $site := .Site -}}
 {{- $page := .Page -}}
 {{- $type := $page.Params.feedtype -}}
@@ -25,8 +24,7 @@
 		</itunes:owner>
 		<itunes:summary>{{ $swsDescription }}</itunes:summary>
 		<link>{{ $site.BaseURL }}</link>
-		<copyright>Copyright 2016-2017 Solus Project</copyright>
-		<generator>Hugo {{ $hugo.Version }}</generator>
+		<copyright>Copyright 2016-2019 Solus Project</copyright>
 		{{- range $latestEpisode := $latestEpisodeArray }}
 		<lastBuildDate>{{ $latestEpisode.date | safeHTML }}</lastBuildDate>
 		{{- end -}}
