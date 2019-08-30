@@ -1,30 +1,23 @@
 [
-	{
-		"Latitude": 33.753746,
-		"Location": "Atlanta (US)",
-		"Longitude": -84.386330,
-		"Type": "official",
-		"Url": "http://us.justin.id.au/iso/images/4.0/"
-	},
-	{
-		"Latitude": 50.47788,
-		"Location": "Falkenstein (DE)",
-		"Longitude": 12.37129,
-		"Type": "community",
-		"Url": "http://solus.veatnet.de/iso/images/4.0/"
-	},
-	{
-		"Latitude": 60.192059,
-		"Location": "Helsinki (FI)",
-		"Longitude": 24.945831,
-		"Type": "community",
-		"Url": "http://solus.fin.veatnet.de/iso/images/4.0/"
-	},
-	{
-		"Latitude": 43.086002,
-		"Location": "Rochester (US)",
-		"Longitude": -77.674538,
-		"Type": "official",
-		"Url": "https://mirrors.rit.edu/solus/images/4.0/"
-	}
+    {
+        "Latitude": 50.47788,
+        "Location": "Falkenstein (DE)",
+        "Longitude": 12.37129,
+        "Type": "community",
+        "Url": "http://solus.veatnet.de/iso/images/4.0/"
+    },
+    {
+        "Latitude": 60.192059,
+        "Location": "Helsinki (FI)",
+        "Longitude": 24.945831,
+        "Type": "community",
+        "Url": "http://solus.fin.veatnet.de/iso/images/4.0/"
+    },
+    {
+        "Latitude": 43.086002,
+        "Location": "Rochester (US)",
+        "Longitude": -77.674538,
+        "Type": "official",
+        "Url": "https://mirrors.rit.edu/solus/images/4.0/"
+    }
 ]
