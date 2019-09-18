@@ -57,7 +57,7 @@ theme = "solus"
 	twitter = "https://twitter.com/SolusProject"
 
 [params.teams]
-	core = ["bryan", "joshua", "peter"]
+	core = ["bryan", "joshua"]
 	global = ["friedrich", "joe", "pierre", "rune"]
 
 ###### Blackfriday Markdown Tweaks
