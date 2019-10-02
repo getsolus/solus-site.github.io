@@ -3,6 +3,7 @@ title: "Budgie and Its Army of GNOMES | The Roundup #13"
 author: "joshua"
 categories:
 - budgie
+- infrastructure
 - news
 date: 2019-10-02T16:44:42+03:00
 featuredimage: "2019/10/budgie-desktop.jpg"
@@ -28,6 +29,7 @@ Budgie 10.5.1 introduces some bug fixes around Budgie Menu artifacting, notifica
  - Menu items are now sorted using [locale linguist rules](https://github.com/solus-project/budgie-desktop/issues/1546).
 - IconTasklist
  - Fixed instances of window tracking in multi-window scenarios by invalidating our window on close in our AbominationRunningApp and picking another window of the same WM_CLASS.
+ - Fixed the ability to move non-favorited running applications / windows in IconTasklist across grouping and non-grouping modes. These are now allowed to intermingle with your favorited applications without concern for a panel crash. We're doing this by more heavily leveraging our AbominationRunningApp to provide more consistent window-specific IDs.
 - Raven
  - Notification body alignment is now properly justified.
  - Notifications will now properly wrap using `WORD_CHAR`, so we'll be more aggressive on wrapping on words when possible, but fallback to characters for longer running strings like URLs.
@@ -50,7 +52,7 @@ Budgie 10.5.1 introduces hinting and anti-aliasing settings in our Fonts section
 
 ### GNOME Stack Support
 
-Budgie 10.5.1 provides support for a multitude of GNOME stacks, allowing for an ever growing amount of Budgie users to get the latest updates! Budgie supports GNOME 3.30, 3.32, and now 3.34, including recent changes in GNOME Settings Daemon.
+Budgie 10.5.1 provides support for several GNOME stack releases, allowing for an ever growing amount of Budgie users to get the latest updates! Budgie supports GNOME 3.30, 3.32, and now 3.34, including recent changes in GNOME Settings Daemon.
 
 Thanks to the folks over at Ubuntu Budgie for their patches, it's greatly appreciated!
 
@@ -88,7 +90,7 @@ Budgie 10.5.1 introduces a multitude of new CSS classes to ease Budgie Desktop t
 
 {{< altimg "2019/10/gnome-shell.jpg" >}}
 
-We're happy to be bringing the GNOME 3.34 stack to our stable / shannon repo users in this coming Friday sync. This stack upgrade has been rigorously tested by a wide range of users via our unstable repository, whom all presented valuable feedback and reports over on [our development tracker](https://dev.getsol.us/T8366). This upgrade has also fortunately been smoother compared to previous stack upgrades, with no necessary changes having needed to be made to our branding packages to account for schema changes, and we've been more aggressive with backporting patches for fixes to GNOME Shell and Mutter.
+We're happy to be bringing the GNOME 3.34 stack to our stable / shannon repo users in this coming Friday sync. This stack upgrade has been rigorously tested by a wide range of users via our unstable repository, all of whom valuable feedback and reports over on [our development tracker](https://dev.getsol.us/T8366). This upgrade has also fortunately been smoother compared to previous stack upgrades, with no necessary changes having needed to be made to our branding packages to account for schema changes, and we've been more aggressive with backporting patches for fixes to GNOME Shell and Mutter.
 
 ### Smoother Sailing
 
@@ -112,7 +114,7 @@ GNOME 3.34 introduces a bunch of new features and bug fixes from the GNOME commu
 
 {{< altimg "2019/10/gnome-settings.jpg" >}}
 
-GNOME Control Center / GNOME Settings has seen a redesign of two sections such as the backgrounds view and picker, as well as moving the Night Mode in the Displays section.
+GNOME Control Center / GNOME Settings has seen a redesign of two sections such as the backgrounds panel and picker, as well as moving the Night Mode in the Displays section.
 
 #### Epiphany / GNOME Web
 
@@ -139,7 +141,7 @@ Our KDE and Plasma integrator and maintainer, Friedrich (a.k.a Girtablulu), has 
 - Akonadi: Fix short names of favorite folder resulting in improperly shown number of unread messages.
 - Ark: Fall back to numerical owner and group if no text representation exists.
 - Dolphin
- - Bug fixes in new fodlers in tabs feature.
+ - Bug fixes in new folders in tabs feature.
  - Fix places text when the URL has a trailing slash.
  - Reset progress bar text when directory loading starts.
  - Fixing bug where split view opens with no URLs.
@@ -260,4 +262,5 @@ solbuild, our chroot-based package build system, has seen a minor release (1.4.5
 ### Software Center
 
 {{< altimg "2019/10/software-center-teamviewer.jpg" >}}
+
 We've added Teamviewer into the Third Party section of the Software Center and have fully deprecated Android Tools from the Third Party section, as it is now maintained and available via our official repositories!
