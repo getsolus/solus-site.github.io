@@ -196,7 +196,7 @@ Our MATE Applications and Desktop integrator and maintainer, Pierre-Yves (a.k.a 
 
 ### Hackfest
 
-On Saturday, September 28th, Bryan and I held a Solus Hackfest featuring our latest development efforts around the rewritite of ferryd, our repository manager, as well as work on Help Center documentation in preparation for the new Help Center redesign.
+On Saturday, September 28th, Bryan and I held a Solus Hackfest featuring our latest development efforts around the rewrite of ferryd, our repository manager, as well as work on Help Center documentation in preparation for the new Help Center redesign.
 
 If you have 5 hours to spare, feel free to watch [the video](https://www.youtube.com/watch?v=3TUmsbvnKlc) embedded below!
 
