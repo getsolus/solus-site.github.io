@@ -163,7 +163,7 @@ Our KDE and Plasma integrator and maintainer, Friedrich (a.k.a Girtablulu), has 
 
 {{< altimg "2019/10/plasma-solus-dark-theme.jpg" >}}
 
-With this update you will receive a darker color-scheme for the Solus Dar theme. We welcome your feedback and bug reports [here](https://discuss.getsol.us/d/1608-plasma-solus-color-scheme/29).
+With this update you will receive a darker color-scheme for the Solus Dark theme. We welcome your feedback and bug reports [here](https://discuss.getsol.us/d/1608-plasma-solus-color-scheme/29).
 
 ## MATE Desktop Updates
 
