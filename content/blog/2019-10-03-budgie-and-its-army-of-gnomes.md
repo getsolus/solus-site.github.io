@@ -1,5 +1,5 @@
 ---
-title: "Budgie and Its Army of GNOMEs | The Roundup #13"
+title: "Budgie and Its Army of GNOMES | The Roundup #13"
 author: "joshua"
 categories:
 - budgie
