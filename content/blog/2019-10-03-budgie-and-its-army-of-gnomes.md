@@ -104,7 +104,7 @@ Furthermore, if you are using GNOME Shell, as is standard practice for upgrading
 sudo eopkg install --reinstall gnome-shell-extension-dash-to-dock gnome-shell-extension-impatience gnome-shell-extension-topicons-plus
 ```
 
-If you haven't installed separate GNOME Shell extensions or updated ours via the GNOME Extensions website (or alternatively GNOME Tweaks), the above should not apply to you.
+If you haven't installed separate GNOME Shell extensions or updated ours via the GNOME Extensions website (or alternatively GNOME Tweaks), the above should not apply to you. There is also a known issue regarding desktop icons preventing the ability to leave Overview, we recommend disabling Desktop Icons in GNOME Shell if you use them prior to updating. We will be working on a fix for this upstream issue.
 
 ### Latest Goodies
 
