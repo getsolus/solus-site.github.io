@@ -5,4 +5,4 @@ differentiators:
   Ready:
     header: Ready out of the box.
     description: |-
-        We ship the GNOME with a variety of extensions. From transforming the app launcher to a dock with Dash to Dock, to speeding up animations with Impatience, it's ready to go from the moment you start using it.
+        We ship the GNOME with a variety of extensions. From transforming the app launcher and a dock with Dash to Dock, to speeding up animations with Impatience, it's ready to go from the moment you start using it.
