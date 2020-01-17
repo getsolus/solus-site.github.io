@@ -67,9 +67,9 @@ ypkg, our declarative build format and packaging tool, will see official develop
 
 - A massive consolidation and enforced consistency in our package tooling, folding in a lot of currently used functionality such as package bumping and package.yml generation.
 - The introduction of much desired functionality for `package.yml` formatting and linting, so we can do things like:
- - Check licensing against SPDX and provide a warning if it is non-compliant
- - Check for valid package names, release numbers, and version numbers
- - Check for mandatory and empty keys
+  - Check licensing against SPDX and provide a warning if it is non-compliant
+  - Check for valid package names, release numbers, and version numbers
+  - Check for mandatory and empty keys
 - The introduction of a new ypkg specification
 
 In February, Bryan's primary focus will be the porting of common and the variety of tools we use into a single binary, as well as the parsing / generation of package.yml.
@@ -170,8 +170,8 @@ Development efforts for sol will continue in Q4, with the planned release of sol
 As you can see, we have a lot in store for 2019. Alongside the above mentioned items and timeframes, I also want to mention other efforts of ours which will see attention throughout 2019, though at no specific or committed time:
 
 - Installer
- - The Installer will see some love in 2019, whether that's in the form of improvements to the current implementation or the re-write of the Installer entirely. Some notable improvements we're looking for is OEM installer mode and better UEFI handling.
+  - The Installer will see some love in 2019, whether that's in the form of improvements to the current implementation or the re-write of the Installer entirely. Some notable improvements we're looking for is OEM installer mode and better UEFI handling.
 - Linux Steam Integration
- - We'll be working to hopefully update LSI with better support for newer gaming titles, improving LSI libintercept, and releasing an updated Snap.
+  - We'll be working to hopefully update LSI with better support for newer gaming titles, improving LSI libintercept, and releasing an updated Snap.
 - ferryd: Our binary repository manager
- - While we are quite happy with ferryd, there is some improvements we'd like to make to it such as improving delta generation and various behaviors around obsoleting and trimming packages.
+  - While we are quite happy with ferryd, there is some improvements we'd like to make to it such as improving delta generation and various behaviors around obsoleting and trimming packages.

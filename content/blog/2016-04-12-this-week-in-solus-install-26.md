@@ -115,9 +115,9 @@ Updated:
 - [conky: Enabled Lua, RSS, wlan.](https://git.solus-project.com/packages/conky/commit/?id=efd920400d32a800965bee54a0446715ff1840df)
 - [darktable 2.0.3](https://git.solus-project.com/packages/darktable/commit/?id=5370cf6a432ae7103eb5e48cac78e08b34ae306f)
 - eopkg: 
- -  [Add initial support for reproducible builds](https://git.solus-project.com/packages/pisi/commit/?id=58c15580ddb758b6299c396751d5627e30adc897)
- -  [Always use ypkg-gen-history where possible](https://git.solus-project.com/packages/pisi/commit/?id=f5bdbfd3fd05559d8f99be4689ce91c7ebb7e5a4)
- -  [Greatly optimize automatic binary dependencies](https://git.solus-project.com/packages/pisi/commit/?id=32284f103ca7997d30609eae4681bba91e3d09c3)
+  -  [Add initial support for reproducible builds](https://git.solus-project.com/packages/pisi/commit/?id=58c15580ddb758b6299c396751d5627e30adc897)
+  -  [Always use ypkg-gen-history where possible](https://git.solus-project.com/packages/pisi/commit/?id=f5bdbfd3fd05559d8f99be4689ce91c7ebb7e5a4)
+  -  [Greatly optimize automatic binary dependencies](https://git.solus-project.com/packages/pisi/commit/?id=32284f103ca7997d30609eae4681bba91e3d09c3)
 - [erlang 18.3.1](https://git.solus-project.com/packages/erlang/commit/?id=91b9b13923e4f55e99b6bfb36e5ea4e94d88267c)
 - [evince: Update to 3.18.2 and enable djvu support](https://git.solus-project.com/packages/evince/commit/?id=462119ce0bb9d6cd2ad9e581d483c77e93285338)
 - [firefox: Updated to 45.0.2 and enabled locales.](https://git.solus-project.com/packages/firefox/commit/?id=f7dd186538c40a321ec64cc44a39616ed068c1af)

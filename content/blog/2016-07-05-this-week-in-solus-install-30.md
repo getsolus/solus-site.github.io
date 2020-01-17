@@ -31,18 +31,18 @@ A lot was accomplished over the course of those two days, such as:
 -  You can now set a custom background for the Lock Screen via Gnome Control Center.
 -  Conky transparency has been fixed.
 -  The Third-Party section in Solus Software Center has received support for installation of more software, namely: 
- - Google Talk Plugin
- - Sublime Text 3
- - Opera
+  - Google Talk Plugin
+  - Sublime Text 3
+  - Opera
 -  Patches have landed for a multiple of new and existing packages, such as: 
- - <a href="https://bugs.solus-project.com/show_bug.cgi?id=711">font-indic-ttf has landed in the repo for improved international support.</a>
- - <a href="https://bugs.solus-project.com/show_bug.cgi?id=879">Glade has been updated to 3.19.</a>
- - <a href="https://bugs.solus-project.com/show_bug.cgi?id=961">Guake has landed in the repo.</a>
- - <a href="https://bugs.solus-project.com/show_bug.cgi?id=910">Parted is now a runtime dependency of gnome-disks.</a>
- - <a href="https://bugs.solus-project.com/show_bug.cgi?id=721">pgAdmin3 has landed in the repo, alongside sphinx.</a>
- - <a href="https://bugs.solus-project.com/show_bug.cgi?id=1001">SFML has landed in the repo.</a>
- - <a href="https://bugs.solus-project.com/show_bug.cgi?id=883">xprop now using the correct package format.</a>
- - <a href="https://bugs.solus-project.com/show_bug.cgi?id=868">Zenity now using the correct package format.</a>
+  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=711">font-indic-ttf has landed in the repo for improved international support.</a>
+  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=879">Glade has been updated to 3.19.</a>
+  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=961">Guake has landed in the repo.</a>
+  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=910">Parted is now a runtime dependency of gnome-disks.</a>
+  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=721">pgAdmin3 has landed in the repo, alongside sphinx.</a>
+  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=1001">SFML has landed in the repo.</a>
+  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=883">xprop now using the correct package format.</a>
+  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=868">Zenity now using the correct package format.</a>
 
 #### eopkg is dead, long live sol
 

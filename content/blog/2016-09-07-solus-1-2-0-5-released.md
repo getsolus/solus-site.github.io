@@ -12,14 +12,14 @@ url = "/2016/09/07/solus-1-2-0-5-released/"
 Today we are providing a minor update to Solus 1.2 in the form of Solus 1.2.0.5. This release enables us to address a multitude of issues that have since been resolved after the release of Solus 1.2, such as:
 
 - Budgie: 
- - Battery icon refresh issues were solved
- - We resolved an issue where the keyboard layout would revert to the default guessed layout for the locale on login
- - We switched to gnome-screensaver for screen locking and power management
+  - Battery icon refresh issues were solved
+  - We resolved an issue where the keyboard layout would revert to the default guessed layout for the locale on login
+  - We switched to gnome-screensaver for screen locking and power management
 - Installation: 
- - Issues using Solus and the installation media on some hardware configurations, such as NVIDIA Maxwell cards and Intel Skylake processors.
- - We solved an issue whereby the installer might hang scanning disks.
+  - Issues using Solus and the installation media on some hardware configurations, such as NVIDIA Maxwell cards and Intel Skylake processors.
+  - We solved an issue whereby the installer might hang scanning disks.
 - Software: 
- - We delivered an updated GNOME 3.20 Stack, Pulseaudio 9, as well as Mesa 12. Additionally, we shipped with GCC 6.1.0, glibc 2.24, and the latest stable kernel 4.7.2.
+  - We delivered an updated GNOME 3.20 Stack, Pulseaudio 9, as well as Mesa 12. Additionally, we shipped with GCC 6.1.0, glibc 2.24, and the latest stable kernel 4.7.2.
 
 You can download 1.2.0.5 via HTTP direct download and torrents from [here](https://solus-project.com/1-2-0-5/).
 

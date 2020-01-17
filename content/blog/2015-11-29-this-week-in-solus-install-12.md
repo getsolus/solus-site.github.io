@@ -100,13 +100,13 @@ There has also been other updates since RC1, as well as changes to the default I
 - evince: [Update to 3.18.1](https://git.solus-project.com/packages/evince/commit/?id=c3991a1)        
 - evolve-sc: [Include select/deselect fix](https://git.solus-project.com/packages/evolve-sc/commit/?id=34780e0)        
 - gnome-control-center:
- - [Disable cheese, for it go boom](https://git.solus-project.com/packages/gnome-control-center/commit/?id=97d980d)
- - [Update to 3.18.2](https://git.solus-project.com/packages/gnome-control-center/commit/?id=2fcca13)        
+  - [Disable cheese, for it go boom](https://git.solus-project.com/packages/gnome-control-center/commit/?id=97d980d)
+  - [Update to 3.18.2](https://git.solus-project.com/packages/gnome-control-center/commit/?id=2fcca13)        
 - gtk3: [Update to 3.18.5](https://git.solus-project.com/packages/gtk3/commit/?id=f3af43b)        
 - nvidia-glx-driver: [Update to 352.63 to address a number of CVEs](https://git.solus-project.com/packages/nvidia-glx-driver/commit/?id=a2c3da5)        
 - pulseaudio:
- - [Kill broken bash_completion as it bricks GDM X11 sessions](https://git.solus-project.com/packages/pulseaudio/commit/?id=155f989)
- - [Disable flat volumes](https://git.solus-project.com/packages/pulseaudio/commit/?id=da6ffcc)        
+  - [Kill broken bash_completion as it bricks GDM X11 sessions](https://git.solus-project.com/packages/pulseaudio/commit/?id=155f989)
+  - [Disable flat volumes](https://git.solus-project.com/packages/pulseaudio/commit/?id=da6ffcc)        
 - primary image: [Drop deprecated package from default ISO](https://git.solus-project.com/images/primary/commit/?id=dcc8fe7f56d9c66b358f3fb3ae80b6eadfd24629)        
 - thunderbird: [Update to 38.4.0](https://git.solus-project.com/packages/thunderbird/commit/?id=68d2be1)
 

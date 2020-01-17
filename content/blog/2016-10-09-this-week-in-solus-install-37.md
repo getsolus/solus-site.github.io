@@ -38,13 +38,13 @@ LibreOffice 5.2.2.2 has landed in the repo. LibreOffice 5.2 brings a lot of fant
 
 - A new Single Toolbar mode is available to provide a less cluttered UX.
 - Calc: 
- - Currency drop-down list attached to currency toolbar icon makes it easy to choose and use desired currency format."
- - RAWSUBTRACT and Forecast.ETS functions have been added.
+  - Currency drop-down list attached to currency toolbar icon makes it easy to choose and use desired currency format."
+  - RAWSUBTRACT and Forecast.ETS functions have been added.
 - Impress: 
- - "Speed drop down menus with presets are replaced with comboboxes with editable values."
- - You now can get "quick access to slide and page properties in a new 'Slide' and 'Page' content panel in the 'Properties' sidebar tab."
+  - "Speed drop down menus with presets are replaced with comboboxes with editable values."
+  - You now can get "quick access to slide and page properties in a new 'Slide' and 'Page' content panel in the 'Properties' sidebar tab."
 - GUI: 
- - Improved resizing behavior for images, videos and OLE objects: Dragging a corner will resize proportionately while dragging an edge will resize unproportionately.
+  - Improved resizing behavior for images, videos and OLE objects: Dragging a corner will resize proportionately while dragging an edge will resize unproportionately.
 
 For more information, check out LibreOffice's comprehensive list of changes [here](https://wiki.documentfoundation.org/ReleaseNotes/5.2). **They also have some great vids!**
 

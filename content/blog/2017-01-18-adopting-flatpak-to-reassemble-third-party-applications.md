@@ -37,11 +37,11 @@ You read that right. The best approach forward for Solus, for something as desir
 yet minor as the Third Party selection, is to use a **non-native** application management
 system. Let's first think about our basic requirements here:
 
- - Enable us to distribute Google Chrome. This is basically the #1 issue.
- - Minimum disruption with regards to integration. We shouldn't need to reengineer Solus to make it "fit".
- - Technically capable
- - Responsive upstream.
- - Simple to integrate into the existing Software Center, to _swap out_ Third Party.
+  - Enable us to distribute Google Chrome. This is basically the #1 issue.
+  - Minimum disruption with regards to integration. We shouldn't need to reengineer Solus to make it "fit".
+  - Technically capable
+  - Responsive upstream.
+  - Simple to integrate into the existing Software Center, to _swap out_ Third Party.
 
 This is a discussion that I've been having back and forth for a long time on social
 networks now, and I decided to put the feelers out [one last time](https://plus.google.com/+IkeyDoherty/posts/huGi7ey6GAp).

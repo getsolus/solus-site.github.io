@@ -161,7 +161,7 @@ Here is a highlight of new and updated packages.
 - [vsftpd - Added pam service name and seccomp sandbox setting.](https://git.solus-project.com/packages/vsftpd/commit/?id=bdd2e64696a9ba256e7e25ddefcdfe61911daa9a)
 - [youtube-dl 2016.10.26](https://git.solus-project.com/packages/youtube-dl/commit/?id=824d8ea090e8f687e1fe17b7396f53225986da2c)
 - ypkg:
- - [Sync with git fixes](https://git.solus-project.com/packages/ypkg/commit/?id=d49881da29a217803925307285dd127541c02cbe)
- - [AVX2: Drop -msse4](https://git.solus-project.com/packages/ypkg/commit/?id=cad2711cdb31208e41ff39ccb81bdfcce393efd3)
- - [Finalize the AVX2 implementation](https://git.solus-project.com/packages/ypkg/commit/?id=131d83424088b8876448ccbe1ee03e1834b9a05f)
+  - [Sync with git fixes](https://git.solus-project.com/packages/ypkg/commit/?id=d49881da29a217803925307285dd127541c02cbe)
+  - [AVX2: Drop -msse4](https://git.solus-project.com/packages/ypkg/commit/?id=cad2711cdb31208e41ff39ccb81bdfcce393efd3)
+  - [Finalize the AVX2 implementation](https://git.solus-project.com/packages/ypkg/commit/?id=131d83424088b8876448ccbe1ee03e1834b9a05f)
 - [zathura - Enabled PS with libspectre](https://git.solus-project.com/packages/zathura/commit/?id=564f5ec33e256350192e408386af1b2f7dbdd1f6)

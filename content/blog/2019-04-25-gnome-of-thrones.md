@@ -20,9 +20,9 @@ We are thrilled to announce that we have just landed the latest GNOME 3.32 Stack
 
 - Many GNOME applications have seen a consolidation of their menus into a singular application menu rather that being split in two. This can be noticed with applications like Calendar, Evince, and GNOME System Monitor.
 - Numerous improvements to GNOME Control Center.
- - GNOME Control Center now has a new Applications panel that lists application-specific permissions (such as notifications) and storage usage. 
- - Night Light color temperature can now be adjusted.
- - Sound settings has been re-designed to be more intuitive.
+  - GNOME Control Center now has a new Applications panel that lists application-specific permissions (such as notifications) and storage usage. 
+  - Night Light color temperature can now be adjusted.
+  - Sound settings has been re-designed to be more intuitive.
 - GNOME Music now works better with dark themes.
 - GNOME Terminal no longer uses traditional window decorations but has now adopted the use of GTK3 Headerbar, with faster access to search, new tab creation, and more.
 - GNOME Weather will now show tomorrow's forecasts at the end of the day.
@@ -52,7 +52,7 @@ The majority of the packages which have been removed during this GNOME Stack upg
 - galculator: Hasn't seen a release since 2015
 - gnome-code-assistance: Hasn't seen a release since 2016 and was only used by GNOME Builder
 - gnome-contacts and gnome-games: Now requires libhandy, a mobile-focused UI library built by Purism and currently considered unstable. Not only do we largely not accept the usage of unstable libraries in the repository, but having applications which target or force the installation of mobile UXs or their libraries is not acceptable, considering we are solely focused on modern home computing devices (laptops and desktops).
- - As a result of the deprecation of gnome-games, retro-gtk has been removed.
+  - As a result of the deprecation of gnome-games, retro-gtk has been removed.
 - gnome-todo: No longer compiles against latest Evolution Data Server. Should it receive a new stable release (we have been on git builds since late in GNOME 3.28 cycle) that compiles against it, we are open to including it in the repository again.
 - libwebkit3-gtk: This is an old release of WebKit GTK that was only used by uzbl. To reduce the complexities of maintaining and rapidly updating our stack against changes to libsoup, cairo, glib2, etc. we have decided to deprecate libwebkit3-gtk and uzbl from the repository.
 
@@ -73,9 +73,9 @@ KDE Applications 19.04 comes with a bunch of improvements, such as:
 - Dolphin can now display previews for EPub, Microsoft Office, and Blender files.
 - KMail can now correct your grammar in messages. It will also detect phone numbers in emails, which can be dialed directly via KDE Connect.
 - Kdenlive has been refactored and comes with massive improvements to its timeline.
- - The timeline now uses QML.
- - Audio and video now always go to separate tracks when you add a clip to the timeline.
- - Copy / pasting now works between project windows
+  - The timeline now uses QML.
+  - Audio and video now always go to separate tracks when you add a clip to the timeline.
+  - Copy / pasting now works between project windows
 - Okular now has added scaling options to their Print Dialog.
 - You can now verify digital signatures in PDF files via Okular.
 

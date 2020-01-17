@@ -41,10 +41,10 @@ Budgie ships with an applet, notification and customization center referred to a
 1. Easily access calendar information, sound volume, media player controls, and more via Applets view.
 2. Manage incoming application and system notifications via Notifications view
 3. Customize your Budgie and system experience by enabling you to: 
- - Toggle system-wide Dark theme.
- - Change GTK and icon theming
- - Add, remove, and modify Budgie panels, their properties as well as their displayed applets.
- - Obtain quick access to system settings and power options such as restart, suspend, and shutdown.
+  - Toggle system-wide Dark theme.
+  - Change GTK and icon theming
+  - Add, remove, and modify Budgie panels, their properties as well as their displayed applets.
+  - Obtain quick access to system settings and power options such as restart, suspend, and shutdown.
 
 #### Package Management
 

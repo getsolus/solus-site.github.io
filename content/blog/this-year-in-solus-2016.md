@@ -249,16 +249,16 @@ After LDM work has been complete, we'll be focusing on Budgie 11 development. Fr
 From a design perspective, we'll see significant improvements, **some** of which are listed below:
 
 - A multitude of Raven improvements:
- - Moving to Widgets and Notifications only, moving settings out of Raven.
- - The ability to resize Raven.
- - Implementation of a Raven API to enable the development of Raven Widgets, such as RSS and Weather.
- - Moving to "Drawer" mode, which means overlapping panels. This'll enable a particular Panel improvement listed below.
- - "Quiet Mode" (Do Not Disturb)
+  - Moving to Widgets and Notifications only, moving settings out of Raven.
+  - The ability to resize Raven.
+  - Implementation of a Raven API to enable the development of Raven Widgets, such as RSS and Weather.
+  - Moving to "Drawer" mode, which means overlapping panels. This'll enable a particular Panel improvement listed below.
+  - "Quiet Mode" (Do Not Disturb)
 - A multitude of Panel improvements:
- - Multi-monitor support.
- - Drag reordering of widgets and the ability to "lock" the panel.
- - Permitting panels to be on **any** edge.
- - Intellihide (autohide) ability.
+  - Multi-monitor support.
+  - Drag reordering of widgets and the ability to "lock" the panel.
+  - Permitting panels to be on **any** edge.
+  - Intellihide (autohide) ability.
 - A richer UX with improved animations.
 - Richer, actionable Notifications, which will be grouped by application.
 - We'll be completely replacing Gnome Control Center with our own Settings application.

@@ -111,8 +111,8 @@ allow packages that sanely co-exist, but we do not permit duplication of a given
 
 The only notable exceptions to this rule right now:
 
- - NVIDIA proprietary drivers (As a design decision to enforce a single NVIDIA driver to be active)
- - Display managers (LightDM/SDDM/GDM). In time we'll allow them to co-exist with a switch to change preferred DM, with built-in weights.
+  - NVIDIA proprietary drivers (As a design decision to enforce a single NVIDIA driver to be active)
+  - Display managers (LightDM/SDDM/GDM). In time we'll allow them to co-exist with a switch to change preferred DM, with built-in weights.
 
 It is arguable that the culmination of these rules may seem overly hostile to free motion, however the real world outcome is that it forces developers to consider how their packages will work from the outset, and how they will behave when updated. For users, they get a consistent install and update experience, without being faced with interactive configuration/scary
 removal dialogs, and everything "just works".

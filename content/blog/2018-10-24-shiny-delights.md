@@ -34,14 +34,14 @@ Bugs can be filed [here](https://dev.getsol.us/) with the Plasma tag if it is sp
 It's been all hands on deck this last week as we perform stack upgrades. Let's start on October 17th where it was kicked off with the upgrade of KDE Plasma to the 5.14.1 bugfix release. This was delivered in last Friday's sync and Peter has continued improving the KDE + Plasma experience on Solus by backporting multiple fixes from git to our packages. Let's highlight some of the fixes featured in Plasma 5.14.1, you can read the announcement and see the full changelog [here](https://www.kde.org/announcements/plasma-5.14.1.php):
 
 - KWin
- - There's been a fix to a logic error in the user menu blocking activity updates.
- - Visual artifacts caused by the maximize effect for wobblywindows have been resolved.
+  - There's been a fix to a logic error in the user menu blocking activity updates.
+  - Visual artifacts caused by the maximize effect for wobblywindows have been resolved.
 - Plasma Desktop
- - Keyboard navigation on the desktop is now fixed thanks to focus fixes.
+  - Keyboard navigation on the desktop is now fixed thanks to focus fixes.
 - Plasma Workspace
- - The menu layout option should now no longer always be disabled in Global Menu Applet.
- - The popup indicating the device can now be safely removed in Device Notifier will now auto-hide.
- - Slideshow Wallpaper "Open" and "Next" context menu actions should now use the translated string.
+  - The menu layout option should now no longer always be disabled in Global Menu Applet.
+  - The popup indicating the device can now be safely removed in Device Notifier will now auto-hide.
+  - Slideshow Wallpaper "Open" and "Next" context menu actions should now use the translated string.
 
 Peter has backported a few fixes to various KDE packages, such as:
 

@@ -152,9 +152,9 @@ During this hackfest, I worked on the Help Center document indexer. This indexer
 On the 21st of December, I shipped further refinements to Budgie, such as:
 
 - Changing a previously-made design decision for Budgie Menu. We used to show applications multiple times in non-compact mode when headers were turned off. Going forward, in non-compact mode, we will not duplicate items under "All" unless you have Show Headers enabled.
- - Disable menu headers by default now.
+  - Disable menu headers by default now.
 - Changed the behavior of the mute button to essentially act as a temporary toggle for the user to mute the volume while still interacting with the volume slider. This could be useful if at launch, the volume of an application is too loud, and the user wishes to quickly mute it, lower the volume, then unmute at a safer volume.
- - Additionally, if the volume is set to 0 on the closing of an application, we define this as being "pre-muted" and allow for the immediate raising of the volume without needing to unmute first.
+  - Additionally, if the volume is set to 0 on the closing of an application, we define this as being "pre-muted" and allow for the immediate raising of the volume without needing to unmute first.
 - Consolidating Translations in preparation for use by Weblate.
 - Ensured we perform a lookup of the Icon key/val, if it exists, of an application which has a respective DesktopAppInfo during our on_notification_closed func. This resolves an issue where an application (GNOME Pomodoro) uses the standard file naming convention set forth in the Desktop Entry specification, however does not do the same for their icon.
 - Making versioning clearer and more accurate
@@ -169,8 +169,8 @@ Last night I finished the last remaining items for Budgie 10.5, excluding transl
 
 - Ensure action labels in IconPopover do not get cut off by calculating the longest label length (with a minimum of 20) based on available actions (if any).
 - Ensure power and printer notifications don't get stored in Raven.
- - Power notifications such as automatic suspend and wake-from-suspend should no longer get stored in Raven. To enable this, I needed to [backport](https://dev.getsol.us/R991:00bfd3db0034c2f5972d95b037f912ed1285f7dd) various desktop-entry hint setting in gnome-settings-daemon for the Solus package and add gnome-power-panel as a spam "app" in the gschema.
- - Additionally added printer notifications since those can get quite spammy for network printers (apparently).
+  - Power notifications such as automatic suspend and wake-from-suspend should no longer get stored in Raven. To enable this, I needed to [backport](https://dev.getsol.us/R991:00bfd3db0034c2f5972d95b037f912ed1285f7dd) various desktop-entry hint setting in gnome-settings-daemon for the Solus package and add gnome-power-panel as a spam "app" in the gschema.
+  - Additionally added printer notifications since those can get quite spammy for network printers (apparently).
 - Ensured we set button layout in `org.gnome.desktop.wm.preferences` whenever we set our budgie-wm button layout.
 - Implemented a mechanism for hiding Sound widgets when there are no devices, dynamically showing / hiding the Sound Output and Input widgets based on the devices which are plugged in, while still respecting the setting defined in Budgie Desktop Settings
 - Made it possible to pin Chrome Apps (and keep them separated from Chrome itself) as well as resolving issues with tracking LibreOffice windows. For a comprehensive explanation on all the engineering behind this, I'd suggest reading [this commit](https://dev.getsol.us/R465:8b7843ecc4ad83d25fe29408a5facfe7b541aaa6).

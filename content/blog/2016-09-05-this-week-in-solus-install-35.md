@@ -51,15 +51,15 @@ The improvements and integration of i3 in Solus has continued throughout last we
 - A volume change sound is now played when you change the volume via keyboard keys.
 - Disabled networking sections since they are largely redundant given nm-applet, which we now ensure launches alongside i3 so you can more easily configure your networking via the i3 bar.
 - Further default styling has been implemented, such as:
- - Changed tztime to have date after time.
- - Changed workspacing colors easier to differentiate between focused and unfocused windows, workspaces, and so forth. 
- - This is merely commented out so easy to enable for others and ourselves in future if needed.
- - Daniel a.k.a crash_ from our community provided configuration settings to ensure preference, popup, and task dialog windows are floating.
- - Desaturated i3status coloring to better complement the Arc-based i3 bar background.
- - Increased font size from 9pt to 10pt for slightly improved readability.
- - Moved the panel to the top.
- - Tweaked volume section.
- - Introduced more elaborate battery rendering but less verbose percentage values and time info (hide seconds).
+  - Changed tztime to have date after time.
+  - Changed workspacing colors easier to differentiate between focused and unfocused windows, workspaces, and so forth. 
+  - This is merely commented out so easy to enable for others and ourselves in future if needed.
+  - Daniel a.k.a crash_ from our community provided configuration settings to ensure preference, popup, and task dialog windows are floating.
+  - Desaturated i3status coloring to better complement the Arc-based i3 bar background.
+  - Increased font size from 9pt to 10pt for slightly improved readability.
+  - Moved the panel to the top.
+  - Tweaked volume section.
+  - Introduced more elaborate battery rendering but less verbose percentage values and time info (hide seconds).
 
 #### Further 3rd-Party Inclusions
 

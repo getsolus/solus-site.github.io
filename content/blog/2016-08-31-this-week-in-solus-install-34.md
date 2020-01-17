@@ -61,10 +61,10 @@ desktop experience, for them, period.
 This week we landed the tiling window manager i3, specifically the i3-gaps fork, to provide a power-user oriented user experience, and out-of-the-box our i3 provides:
 
 - Integration of function keys, including: 
- - Brightness controls which utilize xbacklight
- - Media playback controls which utilize playerctl
- - Print (typically PrntScrn) which utilizes scrot.
- - Volume controls which utilize alsactl
+  - Brightness controls which utilize xbacklight
+  - Media playback controls which utilize playerctl
+  - Print (typically PrntScrn) which utilizes scrot.
+  - Volume controls which utilize alsactl
 - Shortcut for quickly locking your screen. This can be done using $mod+Shift+S and triggers i3lock.
 - Usage of gaps (as shown in the screenshot above) including window titles being automatically hidden.
 
@@ -142,8 +142,8 @@ Updated:
 - [flash-player-nonfree 11.2.202.632](https://git.solus-project.com/packages/flash-player-nonfree/commit/?id=0f4dab31cf7b8e5b1eef7e668a93a6f91ab396a6)
 - [filezilla 3.21.0](https://git.solus-project.com/packages/filezilla/commit/?id=db02efb05eb954e89af71e78d4a7fd785827ac5f)
 - firefox: 
- - [Update to 48.0.2](https://git.solus-project.com/packages/firefox/commit/?id=b204dfa5c6285d173b9a6d409989a5f49afce4b7)
- - [Disable libevent in config.](https://git.solus-project.com/packages/firefox/commit/?id=2cfd33c313d37c641ed8a30fb3fc17664df0d05e)
+  - [Update to 48.0.2](https://git.solus-project.com/packages/firefox/commit/?id=b204dfa5c6285d173b9a6d409989a5f49afce4b7)
+  - [Disable libevent in config.](https://git.solus-project.com/packages/firefox/commit/?id=2cfd33c313d37c641ed8a30fb3fc17664df0d05e)
 - [fotoxx 16.08.1](https://git.solus-project.com/packages/fotoxx/commit/?id=ec429167b0342905875b47004d4e57619a6cc992)
 - [gegl3: Enable jasper / raw support for GNOME Photos](https://git.solus-project.com/packages/gegl3/commit/?id=b98cfba75865f7eca3a476ef156040982aab9dd2)
 - [ghostwriter 1.4.2](https://git.solus-project.com/packages/ghostwriter/commit/?id=faafd901eccd43cb967514402cb470b8f8af0ff8)
@@ -168,9 +168,9 @@ Updated:
 - [rust 1.11.0](https://git.solus-project.com/packages/rust/commit/?id=ffc17e7e87d3b17463d395c4bdf1ea47835f75d1)
 - [shotwell 0.23.5](https://git.solus-project.com/packages/shotwell/commit/?id=73b77f9dee04fca616230001948c56b705a5a637)
 - tlp: 
- - [Update to 0.9, disable default of USB_AUTOSUSPEND=1](https://git.solus-project.com/packages/tlp/commit/?id=3cb29860f842de41862df98a9ac604850e6e5244)
- - [Disable audio power saving on battery](https://git.solus-project.com/packages/tlp/commit/?id=df4f895b340c12ac71723c81ad3a122dbba1b30d)
+  - [Update to 0.9, disable default of USB_AUTOSUSPEND=1](https://git.solus-project.com/packages/tlp/commit/?id=3cb29860f842de41862df98a9ac604850e6e5244)
+  - [Disable audio power saving on battery](https://git.solus-project.com/packages/tlp/commit/?id=df4f895b340c12ac71723c81ad3a122dbba1b30d)
 - wine: 
- - [Convert to a full WoW64 build](https://git.solus-project.com/packages/wine/commit/?id=be45e5cf9810458d71afcce5b5b64e262239b02f)
- - [Update to WINE staging: 1.9.17](https://git.solus-project.com/packages/wine/commit/?id=2e6a34148a9bd2b8a424a727c232ae2784a0043b)
- - [youtube-dl 2016.08.28](https://git.solus-project.com/packages/youtube-dl/commit/?id=4d0bd317bcb0bf23951df28d09c6fc2900afae8c)
+  - [Convert to a full WoW64 build](https://git.solus-project.com/packages/wine/commit/?id=be45e5cf9810458d71afcce5b5b64e262239b02f)
+  - [Update to WINE staging: 1.9.17](https://git.solus-project.com/packages/wine/commit/?id=2e6a34148a9bd2b8a424a727c232ae2784a0043b)
+  - [youtube-dl 2016.08.28](https://git.solus-project.com/packages/youtube-dl/commit/?id=4d0bd317bcb0bf23951df28d09c6fc2900afae8c)

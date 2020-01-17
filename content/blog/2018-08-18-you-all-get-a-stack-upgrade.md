@@ -22,22 +22,22 @@ KDE Frameworks 5 has been updated to 5.49.0. A variety of improvements and fixes
 
 - Breeze Icons: Add drive-optical icon
 - KTextEditor
- - Proper fix for the raw string indenting auto-quoting
- - Fix indenter to cope with new syntax file in syntaxhighlighting framework
- - Show "Search wrapped" message in center of view for better visibility
+  - Proper fix for the raw string indenting auto-quoting
+  - Fix indenter to cope with new syntax file in syntaxhighlighting framework
+  - Show "Search wrapped" message in center of view for better visibility
 - KTextWidgets
- - KFindDialog: give the lineedit focus when showing a reused dialog
+  - KFindDialog: give the lineedit focus when showing a reused dialog
 - Plasma Framework
- - If an applet is invalid, it has immediately UiReadyConstraint
- - Fix fading node when one textured is atlassed
+  - If an applet is invalid, it has immediately UiReadyConstraint
+  - Fix fading node when one textured is atlassed
 - Syntax Highlighting
- - CoffeeScript: fix templates in embedded JavaScript code & add escapes
- - CoffeeScript & JavaScript: fix member objects. Add `.ts` extension in JS
- - Use in-class member initialization where possible
- - Add Definition::::formats()
- - Add QVector<Definition> Definition::includedDefinitions() const
- - Add Theme::TextStyle Format::textStyle() const;
- - Python: fix escapes in quoted-comments
+  - CoffeeScript: fix templates in embedded JavaScript code & add escapes
+  - CoffeeScript & JavaScript: fix member objects. Add `.ts` extension in JS
+  - Use in-class member initialization where possible
+  - Add Definition::::formats()
+  - Add QVector<Definition> Definition::includedDefinitions() const
+  - Add Theme::TextStyle Format::textStyle() const;
+  - Python: fix escapes in quoted-comments
 
 For the full announcement where the above mentioned items have been sourced, click [here](https://www.kde.org/announcements/kde-frameworks-5.49.0.php).
 
@@ -84,24 +84,24 @@ Peter will be performing a rebootstrap of our toolchain around GCC 8.2.0 this co
 Peter has already upgrade our KDE Applications to 18.08.0 in unstable, so you can look forward to getting that in next week's sync. Here's a summary of some of the improvements to look forward to:
 
 - Dolphin
- - Create New menu items are no longer available when viewing the track
- - The context menu now includes more useful options, allowing you to sort and change the view mode directly.
- - The Settings dialog has been modernized to follow design guidelines and be more intuitive.
- - Various memory leak fixes
+  - Create New menu items are no longer available when viewing the track
+  - The context menu now includes more useful options, allowing you to sort and change the view mode directly.
+  - The Settings dialog has been modernized to follow design guidelines and be more intuitive.
+  - Various memory leak fixes
 - Konsole
- - The "Find" widget will now appear on the top of the window without disrupting your workflow.
+  - The "Find" widget will now appear on the top of the window without disrupting your workflow.
 - Gwenview
- - Gwenview's statusbar now features an image counter and displays the total number of images.
- - It is now possible to sort by rating and in descending order. Sorting by date now separates directories and archives and was fixed in some situations.
- - Support for drag-and-drop has been improved to allow dragging files and folders to the View mode to display them, as well as dragging viewed items to external applications.
- - Enabled zooming by scrolling or clicking as well as panning also when the Crop or Red Eye Reduction tools are active.
- - Gwenview now zooms to the cursor's current position for Zoom In/Out, Fill and 100% zoom operations when using the mouse and keyboard shortcuts.
+  - Gwenview's statusbar now features an image counter and displays the total number of images.
+  - It is now possible to sort by rating and in descending order. Sorting by date now separates directories and archives and was fixed in some situations.
+  - Support for drag-and-drop has been improved to allow dragging files and folders to the View mode to display them, as well as dragging viewed items to external applications.
+  - Enabled zooming by scrolling or clicking as well as panning also when the Crop or Red Eye Reduction tools are active.
+  - Gwenview now zooms to the cursor's current position for Zoom In/Out, Fill and 100% zoom operations when using the mouse and keyboard shortcuts.
 - KMail
- - Improvements in the travel data extraction engine. It now supports UIC 918.3 and SNCF train ticket barcodes and Wikidata-powered train station location lookup.
- - Support for multi-traveler itineraries was added
- - Now has integration with the KDE Itinerary app.
+  - Improvements in the travel data extraction engine. It now supports UIC 918.3 and SNCF train ticket barcodes and Wikidata-powered train station location lookup.
+  - Support for multi-traveler itineraries was added
+  - Now has integration with the KDE Itinerary app.
 - Spectacle
- - In Rectangular Region mode, there is now a magnifier to help you draw a pixel-perfect selection rectangle.
+  - In Rectangular Region mode, there is now a magnifier to help you draw a pixel-perfect selection rectangle.
 
 We encourage you to read the [full announcement](https://www.kde.org/announcements/announce-applications-18.08.0.php) where the above mentioned items have been sourced, there is many more improvements!
 

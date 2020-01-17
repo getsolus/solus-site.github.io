@@ -145,9 +145,9 @@ There's a wide variety of other improvements and fixes that have landed recently
 - You can now middle click on the Sound applet to mute and unmute global audio.
 - We now hide the add workspace button in the Workspace Applet during initialization. Thanks JockeTF for the patch!
 - More strings are translatable thanks to patches from m4sk1n!
- - "Autostart Apps" in Budgie Desktop Settings
- - "Pinned", "Close" and "Close all" in the menu shown when right-clicking on an app on the Icon Tasklist
- - "Sorry, no items found" in Budgie Menu
+  - "Autostart Apps" in Budgie Desktop Settings
+  - "Pinned", "Close" and "Close all" in the menu shown when right-clicking on an app on the Icon Tasklist
+  - "Sorry, no items found" in Budgie Menu
 
 Those new translations will be available to our awesome translators as we get closer to the Budgie 10.5 release.
 

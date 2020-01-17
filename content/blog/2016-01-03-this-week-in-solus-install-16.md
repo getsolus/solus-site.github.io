@@ -21,17 +21,17 @@ There has been **three** **updates** released for the Budgie desktop since the v
 
 - Budgie is [officially supported](https://plus.google.com/+Solus-Project/posts/fsxB3kHEEWy) via OBS for Fedora 23 and openSUSE.
 - Fixes: 
- - Partially fixed issues relating to notifications from Mumble.
- - Resolved an issue where Firefox would not appear in panel.
- - Resolved issues with Raven rendering when using a bottom panel.
- - Respect and follow screen resolution changes
- - Resolve sizes of x11 tray icons.
- - linking/portability issues on other distributions
+  - Partially fixed issues relating to notifications from Mumble.
+  - Resolved an issue where Firefox would not appear in panel.
+  - Resolved issues with Raven rendering when using a bottom panel.
+  - Respect and follow screen resolution changes
+  - Resolve sizes of x11 tray icons.
+  - linking/portability issues on other distributions
 
 - Other Improvements: 
- - Use unique desktop name (XDG_CURRENT_DESKTOP=Budgie:GNOME)
- - We ship our own nm-applet .desktop launcher until we have our own network settings
- - Replace polkit-gnome dependency with our own new budgie-polkit.
+  - Use unique desktop name (XDG_CURRENT_DESKTOP=Budgie:GNOME)
+  - We ship our own nm-applet .desktop launcher until we have our own network settings
+  - Replace polkit-gnome dependency with our own new budgie-polkit.
 
 Alongside all these improvements and fixes, we asked our community to assist in translating Budgie into other languages [via Transifex](https://www.transifex.com/solus-project/budgie-desktop/) and we're absolutely blown away by the contributions. 
 Budgie is now 100% translated into the following languages (not including English):

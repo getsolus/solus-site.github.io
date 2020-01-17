@@ -69,19 +69,19 @@ Updated:
 - [granite 0.4.0.1](https://git.solus-project.com/packages/granite/commit/?id=7789d54ab11cf62f4f08eb2a6ab5223692c5054e)
 - [irssi: Update to 0.8.20 to resolve CVE-2016-7044 and CVE-2016-7045](https://git.solus-project.com/packages/irssi/commit/?id=12bcb369d0de0d37f4f37fd92f5e4a28714ca122)
 - kernel: 
- - [Enable CONFIG_B43_PHY_N per issue T651](https://git.solus-project.com/packages/kernel/commit/?id=5ac898321e29a80b382096f030770456ad9210ba) 
- - This option enables N generation (type 4) devices to work with our B43 driver.
- - Update to the latest upstream release, 4.7.5
- - [Enable CONFIG_RCU_FAST_NO_HZ](https://git.solus-project.com/packages/kernel/commit/?id=ae86f909a3500f175a706984c471bf794cfec4d4)
- - [Move to voluntary-preempt, enable BPF JIT, other micro-optimisations](https://git.solus-project.com/packages/kernel/commit/?id=ba85a08f7b6ac3b77db226ad74c6b3d4e154566f)
+  - [Enable CONFIG_B43_PHY_N per issue T651](https://git.solus-project.com/packages/kernel/commit/?id=5ac898321e29a80b382096f030770456ad9210ba) 
+  - This option enables N generation (type 4) devices to work with our B43 driver.
+  - Update to the latest upstream release, 4.7.5
+  - [Enable CONFIG_RCU_FAST_NO_HZ](https://git.solus-project.com/packages/kernel/commit/?id=ae86f909a3500f175a706984c471bf794cfec4d4)
+  - [Move to voluntary-preempt, enable BPF JIT, other micro-optimisations](https://git.solus-project.com/packages/kernel/commit/?id=ba85a08f7b6ac3b77db226ad74c6b3d4e154566f)
 - [kodi 17.0-b2](https://git.solus-project.com/packages/kodi/commit/?id=0b9f8e229d44371a093ebfb5feb0ba23f7f39869)
 - [krita: Include Krita locales.](https://git.solus-project.com/packages/krita/commit/?id=3f130ab5a2fec88994e23074c097a53b16f5d743)
 - [lemonbar: Add xtitle as a rundep to draw tasklist.](https://git.solus-project.com/packages/lemonbar/commit/?id=610e4054fc347f26b6bc9c327972ec78f3482ce0)
 - [lmms: Add fltk, rebuild against Qt4 and GCC changes.](https://git.solus-project.com/packages/lmms/commit/?id=f23b8c6e948a431dc6b93ec5f6156ab906c29896)
 - [lollypop 0.9.205](https://git.solus-project.com/packages/lollypop/commit/?id=1641ca10fdb9649fa5e04e5665498b1a5dd818c4)
 - mesalib: 
- - [Sync with git](https://git.solus-project.com/packages/mesalib/commit/?id=119413de2ac27d0e82e4f99b9487afa8f83bbded)
- - [Update to latest upstream version for Intel i965 changes](https://git.solus-project.com/packages/mesalib/commit/?id=80633e00e1bdaa12513400208e6057636b827dd1)
+  - [Sync with git](https://git.solus-project.com/packages/mesalib/commit/?id=119413de2ac27d0e82e4f99b9487afa8f83bbded)
+  - [Update to latest upstream version for Intel i965 changes](https://git.solus-project.com/packages/mesalib/commit/?id=80633e00e1bdaa12513400208e6057636b827dd1)
 - [ncmpcpp: Enable outputs and visualizer.](https://git.solus-project.com/packages/ncmpcpp/commit/?id=3c3f711301bedffb42dd7e94acdcb7953f0bb03e)
 - [noise 0.4](https://git.solus-project.com/packages/noise/commit/?id=480df50cd38ed178545e7baa167087c876375dc7)
 - [openal: Fix crash when toggling HRTF in Devil Daggers](https://git.solus-project.com/packages/openal/commit/?id=6abc261b3488356047925622ae7478f7b20388b8)
@@ -95,8 +95,8 @@ Updated:
 - [vim 8.0.0014](https://git.solus-project.com/packages/vim/commit/?id=5cc7bca937bed320b3794bee8ec900ef8b766f4e)
 - [VLC: Landed x265, realrtsp, libdvbpsi support.](https://git.solus-project.com/packages/vlc/commit/?id=0eda1dc1777ad6b56a79b85058a1601820eda4fd)
 - vulkan: 
- - [Enable smoketest, vulkaninfo, and layers](https://git.solus-project.com/packages/vulkan/commit/?id=a99e339a35e2f2391107c01a375b29af30509996)
- - [Update to 1.0.26.0](https://git.solus-project.com/packages/vulkan/commit/?id=89786b37641a7f07bb768ad113a297a763bf2f88)
+  - [Enable smoketest, vulkaninfo, and layers](https://git.solus-project.com/packages/vulkan/commit/?id=a99e339a35e2f2391107c01a375b29af30509996)
+  - [Update to 1.0.26.0](https://git.solus-project.com/packages/vulkan/commit/?id=89786b37641a7f07bb768ad113a297a763bf2f88)
 - [vscode 1.5.3](https://git.solus-project.com/packages/vscode/commit/?id=340b200f09ef49e84f1bf0203695ed679c033710)
 - [xorg-driver-video-intel: Sync with git for cursor/ kaby lake, etc, fixes](https://git.solus-project.com/packages/xorg-driver-video-intel/commit/?id=78b3c4deb902eb97d587b495725334f2bd264db2)
 - [youtube-dl 2016.09.24](https://git.solus-project.com/packages/youtube-dl/commit/?id=dc349e9f7d445265f882e451ea3581d4e50fe54d)

@@ -148,8 +148,8 @@ Here is a highlight of new inclusions and updates to software in our repository.
 - [php 7.0.13](https://git.solus-project.com/packages/php/commit/?id=4da1b9cabdc7b6229c50d5457bb09aadf8bc8068)
 - [pip 9.0.1](https://git.solus-project.com/packages/pip/commit/?id=030f8818b964bb3f1140a08b877b34019574b3a6)
 - pisi:
- - [Completely moved to eopkg](https://git.solus-project.com/packages/pisi/commit/?id=8a72716ba21f478af3895b00177c2e3818cec115)
- - [Ensure evobuild creates eopkg directory](https://git.solus-project.com/packages/pisi/commit/?id=f6b61c558a308f5862190ff68a8e3ad05a84c946)
+  - [Completely moved to eopkg](https://git.solus-project.com/packages/pisi/commit/?id=8a72716ba21f478af3895b00177c2e3818cec115)
+  - [Ensure evobuild creates eopkg directory](https://git.solus-project.com/packages/pisi/commit/?id=f6b61c558a308f5862190ff68a8e3ad05a84c946)
 - [poedit 1.8.11](https://git.solus-project.com/packages/poedit/commit/?id=9e590710ff268f3c7a28c07692cfd0ed936aab94)
 - [python3: Fix splitting for pyconfig header](https://git.solus-project.com/packages/python3/commit/?id=dfaa93e0e75220d31377c4627e1a5b6dfb380356)
 - [python-pbr: Enable python3](https://git.solus-project.com/packages/python-pbr/commit/?id=6bc6ca5d704c2f61c3aff1c69e68a3c53ee4feb2)
@@ -163,8 +163,8 @@ Here is a highlight of new inclusions and updates to software in our repository.
 - [suitesparse 4.5.3](https://git.solus-project.com/packages/suitesparse/commit/?id=4a53392dde88571790685258ac14fd73e2d26554)
 - [tesseract: Add tessdata as rundep](https://git.solus-project.com/packages/tesseract/commit/?id=68a7a144327f401ac7d53b123ad139dd3c345c06=)
 - virtualenvwrapper:
- - [Enable python3](https://git.solus-project.com/packages/virtualenvwrapper/commit/?id=f905fdc83d82020bd2e240aa80960af208c75983)
- - [Add missing rundep python-stevedore](https://git.solus-project.com/packages/virtualenvwrapper/commit/?id=e465564b0c9c61c146b7f0fa099faaf4065e680c)
+  - [Enable python3](https://git.solus-project.com/packages/virtualenvwrapper/commit/?id=f905fdc83d82020bd2e240aa80960af208c75983)
+  - [Add missing rundep python-stevedore](https://git.solus-project.com/packages/virtualenvwrapper/commit/?id=e465564b0c9c61c146b7f0fa099faaf4065e680c)
 - [vagrant 1.8.7: Use system libraries for nokogiri, fix unofficial installer warning, fix error when installing plugins due to external bundler](https://git.solus-project.com/packages/vagrant/commit/?id=56ac5843bfc04cae3703eb179e7d9cd0abf54171)
 - [vim 8.0.0085](https://git.solus-project.com/packages/vim/commit/?id=5068b23b38a4c86560f3eab4978af2a00ae817d2)
 - [vsftpd - Drop quotes around login](https://git.solus-project.com/packages/vsftpd/commit/?id=569d484bb4c6a88dab75f0777c82578f93160a71)

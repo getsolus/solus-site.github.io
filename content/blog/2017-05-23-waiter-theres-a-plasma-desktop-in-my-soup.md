@@ -11,9 +11,9 @@ If you've been keeping your Solus installation up to date recently, well, you sa
 
 Peter O'Connor, a core Solus team member (aka `sunnyflunk`) has been your friendly Solus KDE maintainer for a long time now. If you're wondering why we needed a dedicated KDE maintainer, look no further than some of the KDE specific software that is very such in demand on Solus:
 
- - [K3b](https://userbase.kde.org/K3b)
- - [Kdenlive](https://kdenlive.org/)
- - [Krita](https://krita.org/en/)
+  - [K3b](https://userbase.kde.org/K3b)
+  - [Kdenlive](https://kdenlive.org/)
+  - [Krita](https://krita.org/en/)
 
 These apps introduce large stack complexity, and luckily for us, we have Peter maintaining all of these components, including the Qt stack itself. The question on your mind right now is very likely, why have the desktop components turned up in Solus?
 
@@ -33,12 +33,12 @@ In a nut shell, the Plasma Desktop is currently a slowly evolving future option 
 
 To date, the team has evolved and expanded in a way that has met the challenges of stack complexity head on:
 
- - **GNOME Shell**: Joshua Strobl `[JoshStrobl]`
- - **Budgie Desktop**: Ikey Doherty `[ikey]`
- - **KDE/Plasma**: Peter O'Connor `[sunnyflunk]`
- - **MATE Desktop**: Justin Zobel `[JustinZobel]`
- - **Solus Software**: Ikey Doherty `[ikey]`
- - **Scientific/Machine Learning/Research**: Bryan T Meyers `[DataDrake]`
+  - **GNOME Shell**: Joshua Strobl `[JoshStrobl]`
+  - **Budgie Desktop**: Ikey Doherty `[ikey]`
+  - **KDE/Plasma**: Peter O'Connor `[sunnyflunk]`
+  - **MATE Desktop**: Justin Zobel `[JustinZobel]`
+  - **Solus Software**: Ikey Doherty `[ikey]`
+  - **Scientific/Machine Learning/Research**: Bryan T Meyers `[DataDrake]`
 
 The GNOME Shell and Budgie Desktop stack are currently 99.99% identical, significantly reducing overhead there. Likewise, the MATE Desktop efforts reuse (with the exception of around 50 packages) much of that same stack. Going forward, for Budgie 11, much of the underlying components used in the KDE/Qt base stack will also be used, so there is an added benefit to fleshing out these items prior to starting on Budgie 11 development. 
 

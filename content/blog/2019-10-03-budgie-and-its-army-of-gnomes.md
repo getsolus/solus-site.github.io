@@ -25,15 +25,15 @@ Bug fixes are the cornerstone of Budgie 10.5 series releases, ensuring existing 
 Budgie 10.5.1 introduces some bug fixes around Budgie Menu artifacting, notifications, improving window raise performance, and more. Let's break down the big items that were addressed!
 
 - Budgie Menu
- - Menu artificating (such as window borders still showing in some cases) is now fixed.
- - Menu items are now sorted using [locale linguist rules](https://github.com/solus-project/budgie-desktop/issues/1546).
+  - Menu artificating (such as window borders still showing in some cases) is now fixed.
+  - Menu items are now sorted using [locale linguist rules](https://github.com/solus-project/budgie-desktop/issues/1546).
 - IconTasklist
- - Fixed instances of window tracking in multi-window scenarios by invalidating our window on close in our AbominationRunningApp and picking another window of the same WM_CLASS.
- - Fixed the ability to move non-favorited running applications / windows in IconTasklist across grouping and non-grouping modes. These are now allowed to intermingle with your favorited applications without concern for a panel crash. We're doing this by more heavily leveraging our AbominationRunningApp to provide more consistent window-specific IDs.
+  - Fixed instances of window tracking in multi-window scenarios by invalidating our window on close in our AbominationRunningApp and picking another window of the same WM_CLASS.
+  - Fixed the ability to move non-favorited running applications / windows in IconTasklist across grouping and non-grouping modes. These are now allowed to intermingle with your favorited applications without concern for a panel crash. We're doing this by more heavily leveraging our AbominationRunningApp to provide more consistent window-specific IDs.
 - Raven
- - Notification body alignment is now properly justified.
- - Notifications will now properly wrap using `WORD_CHAR`, so we'll be more aggressive on wrapping on words when possible, but fallback to characters for longer running strings like URLs.
- - Application controls in the Sound applet will now handle Gvc ChannelMap changes. This is useful since some applications do not provide accurate GvcStream volume immediately when creating their stream, such as Firefox when starting a video. We'll now ensure we're updating those values and ensuring applications like Firefox more accurately reflect muted states over Gvc.
+  - Notification body alignment is now properly justified.
+  - Notifications will now properly wrap using `WORD_CHAR`, so we'll be more aggressive on wrapping on words when possible, but fallback to characters for longer running strings like URLs.
+  - Application controls in the Sound applet will now handle Gvc ChannelMap changes. This is useful since some applications do not provide accurate GvcStream volume immediately when creating their stream, such as Firefox when starting a video. We'll now ensure we're updating those values and ensuring applications like Firefox more accurately reflect muted states over Gvc.
 - Polkit: We now correctly handle user dismissing authentication dialogs
 - WM: We now enforce an instant auto raise of windows when the focus-mode is set to mouse over / mouse focus and 250ms on click, resulting in speedy window raising.
 
@@ -79,12 +79,12 @@ Budgie 10.5.1 introduces a multitude of new CSS classes to ease Budgie Desktop t
 - Icon Popover: Now has the `icon-popover` class
 - Night Light Applet: The container for the Night Light applet popover now uses the `night-light-indicator` class
 - Raven
- - MPRIS widget now has an  `mpris-widget` class
- - MPRIS widget controls now have a `raven-mpris-controls` class
- - Notifications View now has the  `raven-notifications-view` class
- - Internal to the Notifications View, we now provide the `raven-header` class, as well as dedicated classes for the Do Not Disturb (`do-not-disturb`) and Clear All Notifications (`clear-all-notifications`) buttons
- - Groups of Notifications (per app) now have the `raven-notifications-group` class, with the header being `raven-notifications-group-header` and the individual Notifications having `notification-clone` classes.
- - When no album art is provided for the MPRIS widget, we set the `no-album-art` class
+  - MPRIS widget now has an  `mpris-widget` class
+  - MPRIS widget controls now have a `raven-mpris-controls` class
+  - Notifications View now has the  `raven-notifications-view` class
+  - Internal to the Notifications View, we now provide the `raven-header` class, as well as dedicated classes for the Do Not Disturb (`do-not-disturb`) and Clear All Notifications (`clear-all-notifications`) buttons
+  - Groups of Notifications (per app) now have the `raven-notifications-group` class, with the header being `raven-notifications-group-header` and the individual Notifications having `notification-clone` classes.
+  - When no album art is provided for the MPRIS widget, we set the `no-album-art` class
 
 ## GNOME 3.34
 
@@ -141,25 +141,25 @@ Our KDE and Plasma integrator and maintainer, Friedrich (a.k.a Girtablulu), has 
 - Akonadi: Fix short names of favorite folder resulting in improperly shown number of unread messages.
 - Ark: Fall back to numerical owner and group if no text representation exists.
 - Dolphin
- - Bug fixes in new folders in tabs feature.
- - Fix places text when the URL has a trailing slash.
- - Reset progress bar text when directory loading starts.
- - Fixing bug where split view opens with no URLs.
+  - Bug fixes in new folders in tabs feature.
+  - Fix places text when the URL has a trailing slash.
+  - Reset progress bar text when directory loading starts.
+  - Fixing bug where split view opens with no URLs.
 - Kate
- - Fix stop button of search and replace plugin.
+  - Fix stop button of search and replace plugin.
 - Kdenlive
- - Fix disabling clip only disable audio part of an AV clip.
- - Fix regression breaking timeline resize.
- - Fix disabling autoscroll.
- - Convert old custom effects to new customAudio/Video naming.
- - Ctrl resize in monitor effects keeps center position.
- - Fix custom effects not recognized as audio.
+  - Fix disabling clip only disable audio part of an AV clip.
+  - Fix regression breaking timeline resize.
+  - Fix disabling autoscroll.
+  - Convert old custom effects to new customAudio/Video naming.
+  - Ctrl resize in monitor effects keeps center position.
+  - Fix custom effects not recognized as audio.
 - Kmail
- - Fix missing "Save Attachments..." from Multiple Emails
+  - Fix missing "Save Attachments..." from Multiple Emails
 - Konsole
- - Fix the fallback code used when restoring session fails.
- - Add scrollbuttons for tabs when tabbar is full.
- - Restore "Show 'new tab' button" option in Konsole Settings.
+  - Fix the fallback code used when restoring session fails.
+  - Add scrollbuttons for tabs when tabbar is full.
+  - Restore "Show 'new tab' button" option in Konsole Settings.
 
 {{< altimg "2019/10/plasma-solus-dark-theme.jpg" >}}
 
@@ -170,27 +170,27 @@ With this update you will receive a darker color-scheme for the Solus Dark theme
 Our MATE Applications and Desktop integrator and maintainer, Pierre-Yves (a.k.a kyrios) has upgraded MATE users to the latest updates from the MATE Desktop team. These include numerous fixes and improvements, such as:
 
 - Pluma
- - smart-converter: Fix memory leaks.
+  - smart-converter: Fix memory leaks.
 - mate-menu
- - The buttons will now have a relief on hover.
- - The viewport is now coloured consistently with the other plugins.
+  - The buttons will now have a relief on hover.
+  - The viewport is now coloured consistently with the other plugins.
 - mate-panel
- - When determining whether the pos is in the applet, use ad->cells to calc.
- - panel-toplevel: fix applets placement on expanded vertical panel
+  - When determining whether the pos is in the applet, use ad->cells to calc.
+  - panel-toplevel: fix applets placement on expanded vertical panel
 - mate-screensaver
- - Ensure lock on suspend and unlock on resume
+  - Ensure lock on suspend and unlock on resume
 - mate-settings-daemon
- - Hide MATE Settings Daemon from Startup Applications capplet.
+  - Hide MATE Settings Daemon from Startup Applications capplet.
 - mate-session-manager
- - Fix mate-session-properties vertical scaling.
+  - Fix mate-session-properties vertical scaling.
 - mate-tweak
- - Add support for setting window manager button layouts with and without the menu.
- - Remove clear shadow. This seems to affect how some shadows are positioned, leading to a clear space between the window and its shadow.
+  - Add support for setting window manager button layouts with and without the menu.
+  - Remove clear shadow. This seems to affect how some shadows are positioned, leading to a clear space between the window and its shadow.
 - mate-utils
- - mate-disk-usage-analyzer: Remove blank space before right parenthesis.
+  - mate-disk-usage-analyzer: Remove blank space before right parenthesis.
 - mozo
- - Change DragAction to MOVE
- - Fix item drag & drop creating copies, fix undo, redo and a crash when refreshing.
+  - Change DragAction to MOVE
+  - Fix item drag & drop creating copies, fix undo, redo and a crash when refreshing.
 
 ## Tooling Improvements
 

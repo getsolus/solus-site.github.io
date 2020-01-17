@@ -17,11 +17,11 @@ Empowered with our new tooling like cuppa and eopkg-deps, we are now capable of 
 To facilitate our accelerated development cadence, as well as our growing needs, we are shifting our infrastructure from multiple OVH servers to hardware graciously provided by the Rochester Institute of Technology. Specifically, we have been provided with:
 
 - A Supermicro 2042G-TRF 2U Server
- - Four AMD Opteron 6128 CPUs (32 Cores)
- - 128 GB of DDR3-1333 Registered ECC Memory
- - 6TB of (Raw) HDD Capacity
- - Dual Redundant 1400W Power Supplies
- - IPMI Remote Management
+  - Four AMD Opteron 6128 CPUs (32 Cores)
+  - 128 GB of DDR3-1333 Registered ECC Memory
+  - 6TB of (Raw) HDD Capacity
+  - Dual Redundant 1400W Power Supplies
+  - IPMI Remote Management
 - An unmetered 1Gb network connection
 - The ability to directly push packages to the purpose-built “mirrors.rit.edu”, which is fitted with an even faster 10Gb uplink.
 

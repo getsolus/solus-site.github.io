@@ -57,43 +57,43 @@ those found in media players, to make it very simple to control the system volum
 Alongside all the goodies above, a plethora of bug fixes and other improvements have been made, such as:
 
 -   Applets
- -  Icon Tasklist icons are now longer squishing on login.
- -  Icon Tasklist now implements Exec-based mapping as the final fallback. This specifically fixes an instance where GIMP wasn't pinnable as the window class is "gimp-2.8".
- -  Keyboard Layout applet no longer steals input button focus.
- -  Status applet has been ported to upower 0.99 API. Prior to this fix, the remove signal would always result in a segfault, as we were trying to treat a string as a gobject.
- -  User Indicator now has a Hibernate option.
- -  We now ensure our appsystem is reloaded to immediately make available the pinning of a newly installed application.
+  -  Icon Tasklist icons are now longer squishing on login.
+  -  Icon Tasklist now implements Exec-based mapping as the final fallback. This specifically fixes an instance where GIMP wasn't pinnable as the window class is "gimp-2.8".
+  -  Keyboard Layout applet no longer steals input button focus.
+  -  Status applet has been ported to upower 0.99 API. Prior to this fix, the remove signal would always result in a segfault, as we were trying to treat a string as a gobject.
+  -  User Indicator now has a Hibernate option.
+  -  We now ensure our appsystem is reloaded to immediately make available the pinning of a newly installed application.
 -   Daemon 
- -  Addressed shadow on EndSessionDialog in composite race-condition.
- -  Ensure we always hide the User Indicator window and focus on the daemon window.
- -  Fix issues with OSD placement. Basically, the window allocation inexplicablly changes between shows of the window, resulting in a larger offset the second time around, moving the whole OSD one full unit east.
+  -  Addressed shadow on EndSessionDialog in composite race-condition.
+  -  Ensure we always hide the User Indicator window and focus on the daemon window.
+  -  Fix issues with OSD placement. Basically, the window allocation inexplicablly changes between shows of the window, resulting in a larger offset the second time around, moving the whole OSD one full unit east.
 -   Data 
- -  We now provide fallback icons for pane-{hide,show}-symbolic icons created by horst3180, which are used in the Raven Sidebar Control. These are used in absence of the named icons within the theme itself, such as when using Adwaita.
+  -  We now provide fallback icons for pane-{hide,show}-symbolic icons created by horst3180, which are used in the Raven Sidebar Control. These are used in absence of the named icons within the theme itself, such as when using Adwaita.
 -   Iconography 
- -  We now import and utilize iconography contributed by Sam Hewitt, such as: Clock Applet, Icon Tasklist Applet, Lock Keys applet, Notifications Applet, and more.
+  -  We now import and utilize iconography contributed by Sam Hewitt, such as: Clock Applet, Icon Tasklist Applet, Lock Keys applet, Notifications Applet, and more.
 -   Panel 
- -  Always restore focus to windows after closing popovers. We now store / restore the focused window in the window manager around expansion changes in the panel.
- -  We now chain methods to fix GtkBox allocation spamming journald every half second (ticked by clock update and other applets requiring a refresh). This affects GTK 3.20 onwards.
- -  You can now re-order pinned apps by dragging them around! Woohoo!
+  -  Always restore focus to windows after closing popovers. We now store / restore the focused window in the window manager around expansion changes in the panel.
+  -  We now chain methods to fix GtkBox allocation spamming journald every half second (ticked by clock update and other applets requiring a refresh). This affects GTK 3.20 onwards.
+  -  You can now re-order pinned apps by dragging them around! Woohoo!
 -   Plugin 
- -  All applets now extend GtkEventBox and not GtkBin. 
+  -  All applets now extend GtkEventBox and not GtkBin. 
 -   As seen in issue [#574](https://github.com/solus-project/budgie-desktop/issues/574), we have various problems with certain applet types due to extending from the primitive GtkBin. In this particular instance we have no child GdkWindow, 
 which is why the drawing system becomes bizarely bugged and results in rendering in random locations.All applets should have at least one top level GdkWindow that is not part of the GtkWindow's GdkWindow, to ensure separate context. As a part of this 
 change, all third-party applets should be rebuilt against the new Budgie due to the ABI break introduced here.
 -   Raven 
- -  Ensure all cursor themes are loaded. Previously, we made an assumption that icons and cursors were somehow mutually exclusive. The idea of the index.theme parsing was simply to test that it was a valid icon theme. However, we then only tested for the 
+  -  Ensure all cursor themes are loaded. Previously, we made an assumption that icons and cursors were somehow mutually exclusive. The idea of the index.theme parsing was simply to test that it was a valid icon theme. However, we then only tested for the 
  cursors directory if it definitely wasn't an icon theme. That meant that themes shipping both cursors and icons in one directory would never show the cursor themes.
- -  Added support for legacy theme directories, such as ~/.icons, ~/.themes, and ~/.fonts
- -  Fixed broken markup parsing by importing our mate parser.
- -  Fixed HeaderWidget & HeaderExpander expanded property mismatch.
+  -  Added support for legacy theme directories, such as ~/.icons, ~/.themes, and ~/.fonts
+  -  Fixed broken markup parsing by importing our mate parser.
+  -  Fixed HeaderWidget & HeaderExpander expanded property mismatch.
 -   Run Dialog 
- -  Respect OnlyShowIn and other control factors.
- -  We now use the same search algorithm as Budgie Menu
+  -  Respect OnlyShowIn and other control factors.
+  -  We now use the same search algorithm as Budgie Menu
 -   Theme 
- -  Background-image is now set to none for the built-in theme in order to override any themes that may use a background image for the panel styling.
- -  Our theme has received fixes for GTK 3.22.
+  -  Background-image is now set to none for the built-in theme in order to override any themes that may use a background image for the panel styling.
+  -  Our theme has received fixes for GTK 3.22.
 -   Window Manager 
- -  Fix negated logic in screen unredirect.
+  -  Fix negated logic in screen unredirect.
 
 #### MATE
 

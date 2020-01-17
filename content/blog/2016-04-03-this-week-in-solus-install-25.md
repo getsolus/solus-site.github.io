@@ -20,8 +20,8 @@ On the heels of Budgie 10.2.5, Ikey has landed further improvements to Budgie. T
 -  We now accommodate GNOME Terminal notifications in Raven.
 
 -  Improvements have been made to the Icon Tasklist: 
- - Atom and Telegram are forbid from overriding their icons. This keeps iconography consistent across your icon theme and what Budgie shows.
- - Icons are now non-focusable. Apparently Ikey had fun with this when taking screenshots.
+  - Atom and Telegram are forbid from overriding their icons. This keeps iconography consistent across your icon theme and what Budgie shows.
+  - Icons are now non-focusable. Apparently Ikey had fun with this when taking screenshots.
 
 #### Packaging Improvements
 
@@ -49,16 +49,16 @@ New:
 Updated:
 
 - alsa updates: 
- -  [alsa-lib 1.1.1](https://git.solus-project.com/packages/alsa-lib/commit/?id=52cab626b26d619aa21b0ed21d9f59fc09187bf8) -- Fixes PCM issues
- -  [alsa-plugins 1.1.1](https://git.solus-project.com/packages/alsa-plugins/commit/?id=61b8e3678760ac84fd5ac0c53ae3bcf51665767a)
- -  [alsa-utils 1.1.1](https://git.solus-project.com/packages/alsa-utils/commit/?id=49cecc6fda06f94c4a851a6677633c59b601dadb) -- Fixes alsamixedr, alsactl issues
+  -  [alsa-lib 1.1.1](https://git.solus-project.com/packages/alsa-lib/commit/?id=52cab626b26d619aa21b0ed21d9f59fc09187bf8) -- Fixes PCM issues
+  -  [alsa-plugins 1.1.1](https://git.solus-project.com/packages/alsa-plugins/commit/?id=61b8e3678760ac84fd5ac0c53ae3bcf51665767a)
+  -  [alsa-utils 1.1.1](https://git.solus-project.com/packages/alsa-utils/commit/?id=49cecc6fda06f94c4a851a6677633c59b601dadb) -- Fixes alsamixedr, alsactl issues
 - [atom 1.6.2](https://git.solus-project.com/packages/atom/commit/?id=45cce0d0af339355286a049e2eb71cb03d0148bb)
 - [budgie-desktop: Sync with git for all the shiny](https://git.solus-project.com/packages/budgie-desktop/commit/?id=e23628fa6b438d9c8d14e051e32d4a42957700d4)
 - [gnome-calendar 3.18.3](https://git.solus-project.com/packages/gnome-calendar/commit/?id=71e7ee928da3863ea94e02f05645d5bb3297d60b)
 - [gnumeric 1.12.28](https://git.solus-project.com/packages/gnumeric/commit/?id=f992445fa08ed53ae97504ce2b45ca412a0a7188)
 - gnome-terminal improvements: 
- -  [Fix new tab icon](https://git.solus-project.com/packages/gnome-terminal/commit/?id=53b321b568455eeb740aa65078562b884749a081)
- -  [Imported Fedora's notification + transparency patch](https://git.solus-project.com/packages/gnome-terminal/commit/?id=6267466416388123df6716f72c1e71cb40afd997)
+  -  [Fix new tab icon](https://git.solus-project.com/packages/gnome-terminal/commit/?id=53b321b568455eeb740aa65078562b884749a081)
+  -  [Imported Fedora's notification + transparency patch](https://git.solus-project.com/packages/gnome-terminal/commit/?id=6267466416388123df6716f72c1e71cb40afd997)
 - [grilo 0.2.15](https://git.solus-project.com/packages/grilo/commit/?id=0b40bf4001352bb75b4054349fb4d3c334e0b455)
 - [grilo-plugins 0.2.17](https://git.solus-project.com/packages/grilo-plugins/commit/?id=bbd088f53960c43807b77166502e1a7712ce08c2) & rebuild against GOM for bookmark support
 - [gvfs 1.28.0](https://git.solus-project.com/packages/gvfs/commit/?id=46b4e491b6841a92735ffe52ba7c168a1ca2f767) -- Addresses mount crashes from externals and network, MTP issues, fuse crashes.

@@ -52,7 +52,7 @@ All the changes above accompany an abundance of other improvements, some transpa
 
 -  Budgie is now stateless.
 -  Built-in theme has been ported to GTK 3.20. 
- - As a result, we select the correct theme based on the GTK version.
+  - As a result, we select the correct theme based on the GTK version.
 -  Fix window accountancy errors in budgie-wm, fixes several Steam titles
 -  LightDM lock screen functionality has been restored.
 -  Resolved instances where budgie-panel wouldn't render across the entire display, as well as fixing rare instances where budgie-panel would have a titlebar.  

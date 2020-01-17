@@ -59,14 +59,14 @@ Our community has made a lot of incredible contributions to internationalizing B
 - Arabic is now a supported language.
 - Chinese is now a supported language, both in Chinese (Traditional) as well as Chinese (Taiwan).
 - Multiple languages have received translation improvements:
- - Basque
- - Dutch and Dutch (Belgium)
- - Finnish
- - French
- - Japanese (Japan)
- - Polish
- - Portuguese (Brazil)
- - Spanish (Argentina)
- - Swedish (Sweden)
+  - Basque
+  - Dutch and Dutch (Belgium)
+  - Finnish
+  - French
+  - Japanese (Japan)
+  - Polish
+  - Portuguese (Brazil)
+  - Spanish (Argentina)
+  - Swedish (Sweden)
 
  HiDPI has improved for Budgie 10.2.9. When we detect a HiDPI change, whether it be from the user, or system, deciding to enforce a new scaling factor for the UI, we now re-assert our struts and position.

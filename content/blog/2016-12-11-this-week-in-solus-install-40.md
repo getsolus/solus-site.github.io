@@ -77,7 +77,7 @@ Here is a highlight of package additions and updates in the last week:
 **New:**
 
 - [biber 2.5](https://git.solus-project.com/packages/biber/commit/?id=8a8917f9ea04bb62ac071a747e39e7367ea147fd)
- - Honestly, this singular item has about a million perl dependencies that Bryan had to go through. Tip a hat to him.
+  - Honestly, this singular item has about a million perl dependencies that Bryan had to go through. Tip a hat to him.
 - [libcaca 0.99.19](https://git.solus-project.com/packages/libcaca/commit/?id=8cfec3a6ae3526593c3066419585c13a3392a915)
 - [mdds 1.2.2](https://git.solus-project.com/packages/mdds/commit/?id=f4a782cad2a559a2f5d90c9d895716c28ea77454)
 - [mythes 1.2.4](https://git.solus-project.com/packages/mythes/commit/?id=08e8ee3139bbc47db13860e765e4f0bdf144f2e7)
@@ -94,7 +94,7 @@ Here is a highlight of package additions and updates in the last week:
 
 - [avrdude: Enable USB support](https://git.solus-project.com/packages/avrdude/commit/?id=233f3692411341ddf0b015a3202a3fc3f740e646)
 - [binutils: Enable deterministic archives by default](https://git.solus-project.com/packages/binutils/commit/?id=ee75f143e77ab4d8cd13ea9fe3698dbe1c3f8578)
- - This should help us in our effort to provide reproducible builds within Solus by not having to do any .a mangling to fix timestamps, etc.
+  - This should help us in our effort to provide reproducible builds within Solus by not having to do any .a mangling to fix timestamps, etc.
 - [ca-certs 20161124](https://git.solus-project.com/packages/ca-certs/commit/?id=ffeab9c97c3bee1e33b4972906de73c268acc01f)
 - [calibre 2.74.0](https://git.solus-project.com/packages/calibre/commit/?id=19a028902ed596b4d57554f4334364b798af879f)
 - [ccache 3.3.3](https://git.solus-project.com/packages/ccache/commit/?id=e795d7aff85f6a9729e3b03f5eba7bb0701b9ba7)
@@ -106,7 +106,7 @@ Here is a highlight of package additions and updates in the last week:
 - [httpie 0.9.8](https://git.solus-project.com/packages/httpie/commit/?id=df504b4622b21e3b553e65d39ce57075c5c4da08)
 - [jemalloc 4.4.0](https://git.solus-project.com/packages/jemalloc/commit/?id=feea644238241acb199f86d3128dc67005a47261)
 - [kernel 4.8.12](https://git.solus-project.com/packages/kernel/commit/?id=428267d3f72b1e7342cad37c72e17988689f8843)
- - [And addressing CVE-2016-8655 before it was released in a newer kernel](https://git.solus-project.com/packages/kernel/commit/?id=65080112af6e4b75172f846524e26377405e5932)
+  - [And addressing CVE-2016-8655 before it was released in a newer kernel](https://git.solus-project.com/packages/kernel/commit/?id=65080112af6e4b75172f846524e26377405e5932)
 - [kodi 17.0 Beta 6](https://git.solus-project.com/packages/kodi/commit/?id=27cb691c708546b0cd32e418ce869f6320e85e9f)
 - [libdrm 2.4.74](https://git.solus-project.com/packages/libdrm/commit/?id=1ad592cf5ab154534ac9b7f101545fecd027f48a)
 - [libmediainfo 0.7.91](https://git.solus-project.com/packages/libmediainfo/commit/?id=1dac766b94c65847650e531225f2e37585d6d230)
@@ -119,11 +119,11 @@ Here is a highlight of package additions and updates in the last week:
 - [nodejs 7.2.1](https://git.solus-project.com/packages/nodejs/commit/?id=0f0adddac2d8a22cf072303559ac67fe83491761)
 - [phoronix-test-suite 6.8.0](https://git.solus-project.com/packages/phoronix-test-suite/commit/?id=18fe12bef89b3b477b085651c6c175e82d2c46be)
 - pidgin:
- - [Add dbus-glib headers](https://git.solus-project.com/packages/pidgin/commit/?id=052359319e9cd962a10d126e4dec241a455873ab)
- - [Enable audio/video and gtkspell](https://git.solus-project.com/packages/pidgin/commit/?id=0aab28e8f4ccd6239d6ff95b5d5c44ccd7095223)
+  - [Add dbus-glib headers](https://git.solus-project.com/packages/pidgin/commit/?id=052359319e9cd962a10d126e4dec241a455873ab)
+  - [Enable audio/video and gtkspell](https://git.solus-project.com/packages/pidgin/commit/?id=0aab28e8f4ccd6239d6ff95b5d5c44ccd7095223)
 - pisi:
- - [Deprecate evobuild in favour of solbuild](https://git.solus-project.com/packages/pisi/commit/?id=48d30f0a3a877a5ae150e0a7f77e0f070ebe9d8a)
- - [Update to 3.4 for improved files database performance for ypkg](https://git.solus-project.com/packages/pisi/commit/?id=b1e52a01754518897f48f8e111ab7ccabe979a05)
+  - [Deprecate evobuild in favour of solbuild](https://git.solus-project.com/packages/pisi/commit/?id=48d30f0a3a877a5ae150e0a7f77e0f070ebe9d8a)
+  - [Update to 3.4 for improved files database performance for ypkg](https://git.solus-project.com/packages/pisi/commit/?id=b1e52a01754518897f48f8e111ab7ccabe979a05)
 - [python-simplejson 3.10.0](https://git.solus-project.com/packages/python-simplejson/commit/?id=25a0e27674830a0d58d4cc9fb85ef54bb54aea5c)
 - [qemu: Enable opengl/virgl for VirtIO OpenGL rendering](https://git.solus-project.com/packages/qemu/commit/?id=1c7d4c0d224bdd92da3888cef3836b6ae89b2a48)
 - [qownnotes 16.12.4](https://git.solus-project.com/packages/qownnotes/commit/?id=dcada6ca1d6e44c91f32f754a3406b978584c1e3)
@@ -145,10 +145,10 @@ Here is a highlight of package additions and updates in the last week:
 - [vscode 1.7.2 and eliminate use of global node module installation](https://git.solus-project.com/packages/vscode/commit/?id=96212173d37352146bb75c3d4528e7a77729dfad)
 - [xkeyboard-config 2.19 and add compatibility symlink for MATE](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=5ae9ea62ff8be7f95f3e7813ce6043e766e9f8bd)
 - [xorg-driver-video-qxl: Do not build with full RELRO](https://git.solus-project.com/packages/xorg-driver-video-qxl/commit/?id=abb781d4a81e88181bbc79ed41fa891c9e5c5270)
- - All xorg driver modules must be built without full RELRO otherwise they will fail to bind when dlopen'd by the xorg server, making them impossible to use.
+  - All xorg driver modules must be built without full RELRO otherwise they will fail to bind when dlopen'd by the xorg server, making them impossible to use.
 - [yakyak 1.4.0](https://git.solus-project.com/packages/yakyak/commit/?id=bf04354781b436039dd538cfbfcc1f22ee385894)
 - [yarn 0.18.0](https://git.solus-project.com/packages/yarn/commit/?id=6f80ee65f825af54f70b82814891eefd0a2f16d5)
 - ypkg:
- - [Update to v18](https://git.solus-project.com/packages/ypkg/commit/?id=b6b97a60c2d102e89db920028307c81fb6cb4c59)
- - [Begin testing parallel tree processing in ypkg](https://git.solus-project.com/packages/ypkg/commit/?id=1d87df2fc3c84bdc30b22a8bae0069a8c3b9149c)
+  - [Update to v18](https://git.solus-project.com/packages/ypkg/commit/?id=b6b97a60c2d102e89db920028307c81fb6cb4c59)
+  - [Begin testing parallel tree processing in ypkg](https://git.solus-project.com/packages/ypkg/commit/?id=1d87df2fc3c84bdc30b22a8bae0069a8c3b9149c)
 - [youtube-dl 2016.12.01](https://git.solus-project.com/packages/youtube-dl/commit/?id=f860f6a029585a618f609f92c476875ac08e819b)
