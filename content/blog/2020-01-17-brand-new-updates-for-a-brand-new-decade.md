@@ -4,6 +4,7 @@ author: "joshua"
 categories:
 - packages
 - news
+- roundup
 date: 2020-01-17T13:04:27+02:00
 featuredimage: "2020/01/hmm.jpg"
 url: "/2020/01/17/new-updates-for-a-new-decade"
