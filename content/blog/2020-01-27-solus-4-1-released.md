@@ -40,6 +40,10 @@ This release of Solus ships with Linux kernel 5.4.12, enabling us to provide sup
 
 Mesa has been upgraded to the latest release, 19.3.2. Mesa 19.3 introduces OpenGL 4.6 support (for supported cards) and enables the new experimental ACO shader compiler, in addition to a wide variety of improvements for AMD APUs (Raven Ridge) and Intel Iris Pro Graphics.
 
+### Zstandard, Meet Solus
+
+Solus 4.1 is the first ISO release to feature the use of Zstandard(zstd) compression for the SquashFS images. Compared to the XZ compressed ISOs from previous releases, the ztsd compressed size is a little bit larger. But as a result, the decompression times are significantly improved (3-4x), leading to a much faster installation process than ever previously achieved. In most cases, you can expect to spend more time filling out the questions in the installation wizard than it will actually take to copy everything to disk. We hope you are just as surprised as we were at just how fast this process has become.
+
 ### Multimedia Upgrades
 
 This release ships with ffmpeg 4.2.2, the latest in the 4.2 series. This release has enabled us to deliver faster AV1 decoding by making dav1d the preferred ffmpeg AV1 decoder.
