@@ -6,7 +6,7 @@
 </div>
 <div data-solbit="content" data-solus="download-page">
 	<div data-solus="download-grid">
-		{{ range $edition := (slice "Budgie" "GNOME" "MATE") }}
+		{{ range $edition := (slice "Budgie" "GNOME" "MATE" "Plasma") }}
 			{{ $editionInfo := (index $site.Data.isos.info $edition )}}
 			<!-- For each edition -->
 			<div data-solus="solus-edition">

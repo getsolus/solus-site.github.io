@@ -1,0 +1,8 @@
+image: "/release-images/LATEST_RELEASE/Plasma.jpg"
+header: Plasma
+description : A sophisticated desktop experience for the tinkerers.
+differentiators:
+  Customization:
+    header: An experience built for tinkering.
+    description: |-
+        We ship Plasma with a curated experience with sensible defaults, enabling you to more quickly get to tinkering with the parts you love most.

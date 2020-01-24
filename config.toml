@@ -6,6 +6,7 @@ title = "Solus"
 ###### Content
 archetypedir = "themes/solus/archetypes"
 buildDrafts = false
+buildFuture = true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 googleanalytics = "UA-Not-Yet"

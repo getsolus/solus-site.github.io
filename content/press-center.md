@@ -9,7 +9,7 @@ aliases = ["press-centre"]
 For information on our products, consult the information below:
 
 - Budgie is the flagship desktop environment of Solus and a Solus project.
-  - [Home](http://budgie-desktop.org)
+  - [Home](https://github.com/solus-project/budgie-desktop)
 - Solus is an operating system that is designed for modern PCs
   - [Download](/download)
 
@@ -27,17 +27,21 @@ Reach out to the following individuals for inquiring on information in regards t
 
 # Press Announcements
 
-- **Current Release**
- - Solus 4.0: Click [here for blog post](/2019/03/17/solus-4-released)
-- **Previous Releases**
- - Solus 3.9999: Click [here for blog post](/2018/09/20/solus-3-iso-refresh-released)
- - Solus 3: Click [here for blog post](/2017/08/15/solus-3-released), [Press Release (PDF)](https://drive.google.com/open?id=0B_SiwGH9SWnGcmxxTUxab3hoZHM) or [Media Pack (ZIP)](https://drive.google.com/file/d/0B_SiwGH9SWnGNVJKM2hYUUMtSFE/view?usp=sharing)
- - Solus 2017.04.18.0: Click [here for blog post](/2017/04/18/solus-releases-iso-snapshot-20170418-0), [Press Release (PDF)](https://drive.google.com/file/d/0B_SiwGH9SWnGQzJOUDhBZExlaG8/view?usp=sharing) or [Media Pack (ZIP)](https://drive.google.com/file/d/0B_SiwGH9SWnGNkdadnFsd2FuMzg/view?usp=sharing)
- - Solus 2017.01.01.0: Click [here for blog post](/2017/01/01/solus-releases-iso-snapshot-20170101-0)
- - Solus 1.2.1: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PSXU2eFlsR0NvY1E) or [Media Pack (ZIP)](https://drive.google.com/open?id=0B5Ymf8oYXx-PalphUDlzRVhMMXc)
- - Solus 1.2: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PdWxRODNKd0RXVW8)
+**Current Release**
+
+- Solus 4.1: Click [here for blog post](/2020/01/27/solus-4-1-released)
+
+**Previous Releases**
+
+- Solus 4.0: Click [here for blog post](/2019/03/17/solus-4-released)
+- Solus 3.9999: Click [here for blog post](/2018/09/20/solus-3-iso-refresh-released)
+- Solus 3: Click [here for blog post](/2017/08/15/solus-3-released), [Press Release (PDF)](https://drive.google.com/open?id=0B_SiwGH9SWnGcmxxTUxab3hoZHM) or [Media Pack (ZIP)](https://drive.google.com/file/d/0B_SiwGH9SWnGNVJKM2hYUUMtSFE/view?usp=sharing)
+- Solus 2017.04.18.0: Click [here for blog post](/2017/04/18/solus-releases-iso-snapshot-20170418-0), [Press Release (PDF)](https://drive.google.com/file/d/0B_SiwGH9SWnGQzJOUDhBZExlaG8/view?usp=sharing) or [Media Pack (ZIP)](https://drive.google.com/file/d/0B_SiwGH9SWnGNkdadnFsd2FuMzg/view?usp=sharing)
+- Solus 2017.01.01.0: Click [here for blog post](/2017/01/01/solus-releases-iso-snapshot-20170101-0)
+- Solus 1.2.1: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PSXU2eFlsR0NvY1E) or [Media Pack (ZIP)](https://drive.google.com/open?id=0B5Ymf8oYXx-PalphUDlzRVhMMXc)
+- Solus 1.2: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PdWxRODNKd0RXVW8)
  or [Media Pack (ZIP)](https://drive.google.com/open?id=0B5Ymf8oYXx-PQVlxZzBWQk1KZzQ)
- - Solus 1.1: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PMUZWcXVkYVI4Um8)
+- Solus 1.1: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PMUZWcXVkYVI4Um8)
  or [Media Pack (ZIP)](https://drive.google.com/open?id=0B5Ymf8oYXx-PQko0RzBsN1J1WDg)
- - Solus 1.0: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PSURwa2h5T0t6Ulk)
+- Solus 1.0: Click here for [Press Release (PDF)](https://drive.google.com/open?id=0B5Ymf8oYXx-PSURwa2h5T0t6Ulk)
  or [Media Pack (ZIP)](https://drive.google.com/open?id=0B5Ymf8oYXx-PZUo0a2VxcEI5VUU)

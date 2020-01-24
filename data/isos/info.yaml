@@ -1,16 +1,21 @@
 Budgie:
     description: A feature-rich, luxurious desktop using the most modern technologies.
-    mediasize: 1.4GB
+    mediasize: 1.6GB
     shasum: e67c3b7644c97937a0b681883e519a78ea4f62b304d236b28f06536ba1dcdbd6
-    torrent: https://getsol.us/torrents/Solus-4.0-Budgie.torrent
+    torrent: https://getsol.us/torrents/Solus-4.1-Budgie.torrent
 GNOME:
     description: A contemporary desktop experience.
-    mediasize: 1.5GB
+    mediasize: 1.9GB
     shasum: bd146cccf91269aa9b14a0bd2ba0c1f297ef1615a569782c5d343f716b6c2f87
-    torrent: https://getsol.us/torrents/Solus-4.0-GNOME.torrent
+    torrent: https://getsol.us/torrents/Solus-4.1-GNOME.torrent
 MATE:
     description: A traditional desktop for advanced users and older hardware.
-    mediasize: 1.4GB
+    mediasize: 1.7GB
     shasum: 84ad3114a6581dab8eff6399c3f78e677042ad1cf5cd2f462825a2c596f7d5be
-    torrent: https://getsol.us/torrents/Solus-4.0-MATE.torrent
-Version: '4.0'
+    torrent: https://getsol.us/torrents/Solus-4.1-MATE.torrent
+Plasma:
+    description: A sophisticated desktop experience for the tinkerers.
+    mediasize: 1.7GB
+    shasum: 84ad3114a6581dab8eff6399c3f78e677042ad1cf5cd2f462825a2c596f7d5be
+    torrent: https://getsol.us/torrents/Solus-4.1-Plasma.torrent
+Version: '4.1'
