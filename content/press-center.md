@@ -29,7 +29,7 @@ Reach out to the following individuals for inquiring on information in regards t
 
 **Current Release**
 
-- Solus 4.1: Click [here for blog post](/2020/01/27/solus-4-1-released)
+- Solus 4.1: Click [here for blog post](/2020/01/25/solus-4-1-released)
 
 **Previous Releases**
 

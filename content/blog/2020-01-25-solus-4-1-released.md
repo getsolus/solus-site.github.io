@@ -4,9 +4,9 @@ author: "joshua"
 categories:
 - news
 - releases
-date: 2020-01-27T12:00:00+02:00
+date: 2020-01-25T12:00:00+02:00
 featuredimage: "2020/01/solus-4.1-featured.jpg"
-url: "/2020/01/27/solus-4-1-released"
+url: "/2020/01/25/solus-4-1-released"
 ---
 
 We are proud to announce the immediate availability of Solus 4.1 Fortitude, a new Solus 4 series release. This release delivers a brand new desktop experience, updated software stacks, and hardware enablement.
