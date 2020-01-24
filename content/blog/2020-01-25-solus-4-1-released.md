@@ -191,7 +191,8 @@ Solus Plasma Edition ships with Solus-specific integrations for KDE Applications
 - Klipper will not ignore images.
 - Kwin will default to centering windows.
 - Line numbers in Kate are enabled by default.
-- Single-click (and touchpad tapping) is enabled by default.
+- Single-click is enabled by default.
+- Tap-to-click is enable by default for Synaptic touchpads.
 
 Solus Plasma Edition ships with the following default applications (outside of the usual Solus Edition defaults such as Firefox and Thunderbird):
 
