@@ -112,7 +112,7 @@ Solus ships with the latest release of our flagship desktop environment, [Budgie
 - Raven
   - Application controls in the Sound applet will now handle Gvc ChannelMap changes. This is useful since some applications do not provide accurate GvcStream volume immediately when creating their stream, such as Firefox when starting a video. We'll now ensure we're updating those values and ensuring applications like Firefox more accurately reflect muted states over Gvc.
 - Workspaces
-  - You can now persistent workspaces created at the launch of Budgie, with a configurable amount of default workspaces. Under the Desktop section of Budgie Desktop Settings, you'll find a new option called "Number of virtual desktops", where you can go from just having one workspace up to eight!
+  - You can now create persistent workspaces created at the launch of Budgie, with a configurable amount of default workspaces. Under the Desktop section of Budgie Desktop Settings, you'll find a new option called "Number of virtual desktops", where you can go from just having one workspace up to eight!
 - Window Manager
   - We now enforce an instant auto raise of windows when the focus-mode is set to mouse over / mouse focus and 250ms on click, resulting in speedy window raising.
 
