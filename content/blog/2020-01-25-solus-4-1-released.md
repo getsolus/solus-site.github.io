@@ -4,7 +4,7 @@ author: "joshua"
 categories:
 - news
 - releases
-date: 2020-01-25T12:00:00+02:00
+date: 2020-01-25T15:51:24+02:00
 featuredimage: "2020/01/solus-4.1-featured.jpg"
 url: "/2020/01/25/solus-4-1-released"
 ---
