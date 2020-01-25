@@ -71,7 +71,7 @@ Solus 4.1 ships with the latest release of systemd, v244. systemd v244 introduce
 - Improved security on 64-bit systems to reduce PID collisions
 - Newer features in systemd-resolved for DNS-over-TLS
 
-We have also [taken care](/2020/01/17/new-updates-for-a-new-decade/) to ensure that software which currently only supports cgroups v1, such as Docker and podman (when leveraging runc, as opposed to crun). So if you utilize Docker or podman in your development workflow, you'll feel right at home under Solus with no additional effort around kernel command-line flags required!
+We have also [taken care](/2020/01/17/new-updates-for-a-new-decade/) to ensure that software which currently only supports cgroups v1, such as Docker and podman (when leveraging runc, as opposed to crun) continue to work. So if you utilize Docker or podman in your development workflow, you'll feel right at home under Solus with no additional effort around kernel command-line flags required!
 
 ### Other Improvements
 
