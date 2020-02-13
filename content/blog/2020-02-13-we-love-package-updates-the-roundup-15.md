@@ -89,6 +89,7 @@ Here's a highlight of some other package updates that have been done since our l
 - [snes9x-gtk 1.60](https://dev.getsol.us/R2920:71936bcf8bedb39ce052f5c6a2964bdd890a9828)
 - [scummvm 2.1.1](https://dev.getsol.us/R2865:1d1ee86239425c1488f85b7edf4c8897fc735350)
 - [supercollider 3.10.4](https://dev.getsol.us/R4550:bd24e390fb77cda8cd466835e10762e954cfa3b7)
+- [systemd: Start using our new NTP Pool vendor zones. Yay.](https://dev.getsol.us/R2999:25787c1e38142c7a7be4ecf326f970e80aa271da)
 - [tilda 1.5.0](https://dev.getsol.us/R3038:91c3d27d92ef116ab32a4a68f85d683d7e065234)
 - [veracrypt 1.24-update4](https://dev.getsol.us/R3118:b756a8fca7746fe7deea8f30ce5a596c688f7beb)
 - [vivaldi-snapshot 2.11.1811.28](https://dev.getsol.us/R3138:4b23b2c8b9dbcc7f9baa5badfb31a062a8ff695c)
