@@ -1,6 +1,6 @@
 +++
 title = "Boot Rescue"
-lastmod = "2019-03-26T19:52:54+01:00"
+lastmod = "2020-04-10T10:39:18+03:00"
 +++
 # Boot Rescue
 
@@ -41,7 +41,7 @@ If you use LUKS-based encryption, the process will involve decrypting your LUKS 
 2. Double check the output of `lsblk`. You should now see under "decrypted" `SolusSystem-Swap` and `SolusSystem-Root`.
 3. Mount `SolusSystem-Root` by running `mount /dev/mapper/SolusSystem-Root /target`
 
-Your lsblk output should be similar to the one listed below
+Your lsblk output should be similar to the one listed below:
 
 ``` bash
 NAME                   MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
@@ -114,7 +114,7 @@ In the event you had an incomplete upgrade, try the following commands:
 
 1. `sudo eopkg up`
 2. `sudo eopkg check | grep Broken | awk '{print $4}' | xargs sudo eopkg it --reinstall`
-3. Try reverting the latest package transaction (this should only be done if the first two steps, followed by the "Re-run System-Wide Configuration Triggers", failed to produce a successful bootup). See [our documentation on history and rollback](articles/package-management/history-and-rollback/en/) for more information, followed by re-applying your updates by running `sudo eopkg up`.
+3. Try reverting the latest package transaction (this should only be done if the first two steps, followed by the "Re-run System-Wide Configuration Triggers", failed to produce a successful bootup). See [our documentation on history and rollback](/articles/package-management/history-and-rollback/en) for more information, followed by re-applying your updates by running `sudo eopkg up`.
 
 ### Re-run System-Wide Configuration Triggers
 
