@@ -21,8 +21,8 @@
 							{{ range $link := $memberInfo.Social }}
 								{{ $urlInfo := urls.Parse $link }}
 								{{ $type := "mastodon" }}
-								{{ if eq $urlInfo.Host "plus.google.com" }}
-									{{ $type = "google_plus" }}
+								{{ if eq $urlInfo.Host "fosstodon.org" }}
+									{{ $type = "mastodon" }}
 								{{ else }}
 									{{ $type = index (split $urlInfo.Host ".") 0 }}
 								{{ end }}
