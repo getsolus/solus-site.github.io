@@ -10,7 +10,7 @@ featuredimage: "/2020/07/usysconf-list.jpg"
 url: "/2020/07/01/usysconf-rewrite-and-major-upgrades-roundup-16"
 ---
 
-Welcome to The Roundup #16, your bytes of Solus news. In this roundup, we talk about our progress on the rewrite of our universal system configuration interface, usysconf, as well as multiple major upgrades which are landing or right around the corner.
+Welcome to The Roundup #16, your bytes of Solus news. In this roundup, we talk about our progress on the rewrite of our universal system configuration tool, usysconf, as well as multiple major upgrades which are landing or right around the corner.
 
 <!--more-->
 
