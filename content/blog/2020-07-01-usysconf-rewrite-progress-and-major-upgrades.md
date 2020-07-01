@@ -127,12 +127,12 @@ In addition to all the stack upgrades and work done above, we have seen countles
 - opera-stable 69.0.3686.36
 - picon: update to v8 and renamed from compton
 - ppsspp 1.10.0
-- podman
+- podman 2.0.1
 - putty 0.74
 - python-bottleneck 1.3.2, remove python2 support
 - qemu 5.0
-- rclone
-- simplenote
+- rclone 1.52.2
+- simplenote 1.18.0
 - steam: Fix udev rule modes
 - swaylock 1.5
 - sxhkd 0.6.1
