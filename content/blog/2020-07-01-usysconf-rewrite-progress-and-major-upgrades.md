@@ -2,7 +2,9 @@
 title: "Usysconf Rewrite and Major Upgrades | The Roundup #16"
 author: "joshua"
 categories:
+- packages
 - news
+- roundup
 date: 2020-07-01T12:14:19+03:00
 featuredimage: "/2020/07/usysconf-list.jpg"
 url: "/2020/07/01/usysconf-rewrite-and-major-upgrades-roundup-16"
@@ -31,17 +33,17 @@ These triggers allow us to:
 
 All of this can be done without writing a single line of code or shipping a new usysconf release. New configuration files are loaded whenever usysconf is run or when you list triggers, and package maintainers will be able to test out triggers on their local system if necessary by placing them in the stateless directoried: `/etc/usysconf.d/` or `.config/usysconf.d/`.
 
-Building on this, the Go-based implementation of usysconf uses Bryan's [cli-ng](https://github.com/DataDrake/cli-ng/) library for commands, flags, and documentation generation. One benefit of this is the ability for us to introduce a translatable usysconf in the future and make it accessible via Weblate, using [Weblates's Nested JSON syntax](https://docs.weblate.org/en/latest/formats.html#json-files) allow for us to describe triggers and even make command-line arguments translatable. So as an example if you happened to speak Swiss German like Friedrich (Girtablulu) on the Team, you'd be able to use both `--hilfe` and `--help`, making the CLI more accessible while still enabling us to provide generic command documentation on the Help Center.
+Building on this, the Go-based implementation of usysconf uses Bryan's [cli-ng](https://github.com/DataDrake/cli-ng/) library for commands, flags, and documentation generation. One benefit of this is the ability for us to introduce a translatable usysconf in the future and make it accessible via Weblate, using [Weblates's Nested JSON syntax](https://docs.weblate.org/en/latest/formats.html#json-files) allow for us to describe triggers and even make command-line arguments translatable. So as an example if you happened to speak Swiss German like Friedrich (Girtablulu) on the Team, you would be able to use both `--hilfe` and `--help`, making the CLI more accessible while still enabling us to provide generic command documentation on the Help Center.
 
-Bryan has been building on Chris' work (merged into our usysconf) in the last few Twitch streams by making live device and chroot checking more reliable, as well as starting to get into the weeds of a dependency system, which will allow us to build a dependency graph and enable triggers to depend on others (this can be useful for packages like systemd). There is still a bit of work to do, including writing some external tools to facilitate conditional dconf / gsettings key+value updating, but we are making [strong headway](https://github.com/getsolus/usysconf/blob/master/TODO.md) and we're excited to be so close to a proper 1.0 major release! So keep an eye out on our social media for any new streams on it!
+Bryan has been building on Chris' work (merged into our usysconf) in the last few Twitch streams by making live device and chroot checking more reliable, as well as starting to get into the weeds of a dependency system, which will allow us to build a dependency graph and enable triggers to depend on others (this can be useful for packages like systemd). There is still a bit of work to do, including writing some external tools to facilitate conditional dconf / gsettings key+value updating, but we are making [strong headway](https://github.com/getsolus/usysconf/blob/master/TODO.md) and we are excited to be so close to a proper 1.0 major release! So keep an eye out on our social media for any new streams on it!
 
 ## Libboost 1.72
 
-Pierre (kyrios) upgraded our libboost to 1.72.0. While not the most recent stable release, we're waiting to upgrade to 1.73 after we do our major toolchain upgrades (GCC 10, LLVM 10). There are tons of fixes, improvements, and rebuilds against this release, so be sure to check out the [release notes](https://www.boost.org/users/history/version_1_72_0.html) for 1.72.0 if you use this library!
+Pierre (kyrios) upgraded our libboost to 1.72.0. While not the most recent stable release, we are waiting to upgrade to 1.73 after we do our major toolchain upgrades (GCC 10, LLVM 10). There are tons of fixes, improvements, and rebuilds against this release, so be sure to check out the [release notes](https://www.boost.org/users/history/version_1_72_0.html) for 1.72.0 if you use this library!
 
 ## OpenSSL
 
-While Bryan was working on usysconf during the streams, I was also working on upgrading our OpenSSL to the latest in the 1.1 series. Up until now, we've been utilizing OpenSSL 1.0 and backporting any available fixes when possible. The reason we've been conservative with OpenSSL upgrades comes down to everything which relies on it and ensuring that when upgrading, we'd have a safe transition / upgrade path. In order to offer the latest updates of OpenSSL, we've had to work to ensure that the 1.0 legacy OpenSSL and 1.1 series not only are co-installable and co-exist, but software which is running **during the time of upgrade** continues to function as expected.
+While Bryan was working on usysconf during the streams, I was also working on upgrading our OpenSSL to the latest in the 1.1 series. Up until now, we have been utilizing OpenSSL 1.0 and backporting any available fixes when possible. The reason we have been conservative with OpenSSL upgrades comes down to everything which relies on it and ensuring that when upgrading, we'd have a safe transition / upgrade path. In order to offer the latest updates of OpenSSL, we have had to work to ensure that the 1.0 legacy OpenSSL and 1.1 series not only are co-installable and co-exist, but software which is running **during the time of upgrade** continues to function as expected.
 
 What do I mean by this? Well one of the pieces of software that relies on OpenSSL and is compiled against it is Python 2. `eopkg`, which is our current package manager, is written in Python 2 and has to continue to function while system upgrades occur. To facilitate this, the specific shared object files that Python 2 relies on (`libcrypto.so.1.0.0` and `libssl.1.0.0`) cannot be removed during upgrade, otherwise Python breaks and thus the package manager itself breaks. This not only applies to the user's system, but our build environments as well, since we wouldn't be able to perform any rebuilds if eopkg is broken, since any package dependencies wouldn't be able to be fetched and installed.
 
@@ -53,7 +55,7 @@ To perform this upgrade during our sync this Friday (July 3rd), just make sure y
 
 ## OpenJDK 11
 
-Our community members have been absolutely determined to introduce OpenJDK 11 support and reduce any package's reliance on OpenJDK 8. Thanks to the initial groundwork of livingsilver94, determination of serebit, and contributions from chax and YakoYako, OpenJDK 11 is now available to install! The introduction of OpenJDK 11 has meant we've been able to give some packages some long overdue attention and updates, such as:
+Our community members have been absolutely determined to introduce OpenJDK 11 support and reduce any package's reliance on OpenJDK 8. Thanks to the initial groundwork of livingsilver94, determination of serebit, and contributions from chax and YakoYako, OpenJDK 11 is now available to install! The introduction of OpenJDK 11 has meant we have been able to give some packages some long overdue attention and updates, such as:
 
 - gradle (4.9 to 6.5)
 - bisq (0.6.7 to 1.3.5)
@@ -86,7 +88,7 @@ To see the feature notes for 2.7 series, check out the [2.7.0](https://www.ruby-
 
 ## Package Highlights
 
-In addition to all the stack upgrades and work done above, we've seen countless package updates and fixes. Here's a highlight of some of them:
+In addition to all the stack upgrades and work done above, we have seen countless package updates and fixes. Here's a highlight of some of them:
 
 - apparmor 2.13.4
 - arduino 1.8.13
