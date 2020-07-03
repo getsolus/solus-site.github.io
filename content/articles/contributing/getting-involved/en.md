@@ -33,7 +33,7 @@ You will find the following Solus channels on the [freenode](https://freenode.ne
 Alongside the forums, you can communicate with developers or others in the community by using one of the following websites:
 
 - [Facebook](https://www.facebook.com/get.solus)
-- [Mastodon](https://mastodon.cloud/@SolusProject)
+- [Mastodon](https://fosstodon.org/@Solus)
 - [Reddit](https://www.reddit.com/r/SolusProject/) 
 - [Twitter](https://twitter.com/solusproject)
 
