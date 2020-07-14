@@ -31,7 +31,6 @@ syncdocs: upmods
 	rsync -avx --delete help-center-docs/imgs/* themes/solus/static/imgs/help-center/
 
 syncstyling: upmods
-	rm -rf solus-styling
 	rm -f themes/solus/static/css/website*.css
 	cp -R solus-styling/build/*.css themes/solus/static/css/
 

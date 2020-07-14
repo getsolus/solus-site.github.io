@@ -16,16 +16,8 @@
 				<div data-solus="edition-obtain">
 					<section data-solus="solus-direct-download">
 						<div data-solus="buttongroup">
-							<div data-solbit="button" data-solbit-custom data-solbit-icon="pin" data-solus="solus-closest-download" data-solus-edition="{{ $edition }}" data-solus-version="{{ $site.Data.isos.info.Version }}">Closest</div>
-							<div data-solbit="button" data-solbit-custom data-solbit-icon="list" data-solbit-toggleable data-solus="solus-all-mirrors">All</div>
-						</div>
-						<div data-solbit="list" data-solus-type="solus-mirrors-list">
-							{{ range $item := $site.Data.mirrors }}
-								<div data-solbit="list-item">
-									{{ $fullurl := printf "%sSolus-%s-%s.iso" $item.Url $site.Data.isos.info.Version $edition | safeURL }}
-									<a href="{{ $fullurl }}">{{- $item.Location -}}</a>
-								</div>
-							{{ end }}
+							{{ $fullurl := printf "%sSolus-%s-%s.iso" "https://mirrors.rit.edu/solus/images/4.1/" $site.Data.isos.info.Version $edition | safeURL }}
+							<a href="{{ $fullurl }}" target="_blank" data-solbit="button" data-solbit-custom data-solbit-toggleable data-solus="solus-all-mirrors">Download</a>
 						</div>
 					</section>
 					<section data-solus-type="solus-extra-info">
