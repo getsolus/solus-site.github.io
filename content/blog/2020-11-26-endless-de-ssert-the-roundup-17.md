@@ -1,12 +1,14 @@
 ---
-title: "WIP | The Roundup #17"
+title: "Endless DE-ssert | The Roundup #17"
 author: "joshua"
 categories:
 - budgie
+- packages
 - news
-date: 2020-11-25T22:21:29+02:00
+- roundup
+date: 2020-11-26T17:08:12+02:00
 featuredimage: "2020/11/the-roundup-17-featured.jpg"
-url: "/2020/11/25/wip"
+url: "/2020/11/26/endless-de-ssert-the-roundup-17"
 ---
 
 Welcome to The Roundup #17, your bytes of Solus news. In this roundup, we're talk about our new desktop icons implementation for Budgie, GNOME 3.38, KDE and Plasma updates, and more!
@@ -19,7 +21,7 @@ Welcome to The Roundup #17, your bytes of Solus news. In this roundup, we're tal
 
 Since the early days of Budgie, we have been using Nautilus' (now legacy) desktop icons implementation to provide desktop icon support. While some other desktop environments have strayed away from providing this functionality over the years, some going so far as to remove it entirely and require you to jump through hoops to enable it, we have always recognized that for many it is a cornerstone of their desktop experience, and as such it has remained a priority for us to retain that aspect of the Budgie experience.
 
-Of course, we recognized that keeping Solus on an old version of Nautilus was not going to be sustainable. Not only did we want a newer version of the GNOME's file manager with all the fancy bells and whistles that come with it, but we wanted to enable our downstreams to ship Budgie akin to how Solus does without potentially compromising on functionality.
+Of course, we recognized that keeping Solus on an old version of Nautilus was not going to be sustainable. Not only did we want a newer version of GNOME's file manager with all the fancy bells and whistles that come with it, but we wanted to enable our downstreams to ship Budgie akin to how Solus does without potentially compromising on functionality.
 
 To facilitate this, our goal from the start for Budgie 10.5.2 was to introduce a new, separate project that could be iterated on independently from Budgie Desktop itelf. This project needed to be rigorously focused and developed with an understanding of the scope and intent of the project, not trying to be a file manager but rather a method of quickly accessing the content and applications you consider most important.
 
@@ -115,7 +117,7 @@ The majority of the packages which have been removed during this GNOME Stack upg
 
 We have also held back deja-dup to 40.x, gnome-boxes to 3.36.x, and gnome-screenshot to 3.36.x due to their new requirement for libhandy. This is in addition to existing applications held back. It is always worth keeping in mind that should you desire the most recent versions of this software, flatpak and snap support is available!
 
-## GStreamer
+## GStreamer 1.18.1
 
 Gstreamer has been updated to its latest major release, 1.18.1. This includes improvements and fixes such as:
 
@@ -134,7 +136,35 @@ Gstreamer has been updated to its latest major release, 1.18.1. This includes im
   - respect YouTube bitrate recommendation when user sets the YouTube profile preset
   - separate high-10 video formats from 8-bit formats to improve depth negotiation and only advertise suitable input raw formats for the desired output depth
 
-## KDE Applications
+## Pulseaudio 14
+
+Audiophiles rejoice, we have updated our Pulseaudio to latest release, 14.0! While the improvements are [truly endless](https://www.freedesktop.org/wiki/Software/PulseAudio/Notes/14.0/), some of the highlights are:
+
+**Automatic switching to HDMI is now disabled by default.**
+
+This actually prevented Solus from upgrading to 13.x due to this issue, and we're happy to see it was an unintended change resolved in 14.0. Here's an excerpt from the Pulseaudio notes:
+
+> PulseAudio 13.0 started to switch output to HDMI automatically when module-switch-on-connect was loaded (upstream PulseAudio doesn't load it by default, but some distributions do). This change was not intentional, and caused very annoying behaviour in cases where waking up the monitor from sleep appears as a plug-in event in ALSA. Now module-switch-on-connect has a configurable blacklist, which by default prevents switching to HDMI devices.
+
+**Better support for some USB gaming headsets**
+
+Pulseaudio 14 introduces custom configuration for several headsets, such as:
+
+- HyperX Cloud Orbit S
+- LucidSound LS31
+- Razer Kraken Tournament Edition
+- SteelSeries Arctis 5 (2019 edition)
+- SteelSeries Arctis Pro (2019 edition)
+
+Pulseaudio will now also create separate stereo and mono voice sinks for these headsets
+
+**Flat volumes are now disabled by default**
+
+`flat-volumes` is a feature Solus has patched to be disabled for a long time now and we're happy to no longer be required to do so. Here is Pulseaudio's notes on the matter:
+
+> With flat volumes the stream volumes control also the sink volume. In the simple case of only one stream, the stream and the sink volume are always the same. In case of multiple streams, the sink volume is set to the maximum of the stream volumes. The purpose of this is to simplify the volume control of an application: the full volume range is always available via the application volume slider, so there's no need to think about the sink volume. In practice, however, this has caused more harm than good (the worst problem is that some applications automatically set their stream volume to 100%, causing the audio to be played at the maximum volume that the hardware can produce), and most large distributions have patched PulseAudio to disable flat volumes by default. Now that patching won't be needed any more.
+
+## KDE Applications 20.08.3
 
 KDE Applications have been updated to the latest release 20.08.3. You can see KDE's announcement [here](https://kde.org/announcements/releases/2020-11-apps-update/) and we've highlighted some changes below!
 
@@ -228,34 +258,6 @@ If Budgie or GNOME Shell aren't your cups of coffee (or tea), this week's update
   - Fix missing “Switch User” button on lockscreen with systemd 246.
   - lookandfeel: Fix switching to a different user session.
   - System Tray: Fall back to tool tip title if no title is set.
-
-## Pulseaudio 14
-
-Audiophiles rejoice, we have updated our Pulseaudio to latest release, 14.0! While the improvements are [truly endless](https://www.freedesktop.org/wiki/Software/PulseAudio/Notes/14.0/), some of the highlights are:
-
-**Automatic switching to HDMI is now disabled by default.**
-
-This actually prevented Solus from upgrading to 13.x due to this issue, and we're happy to see it was an unintended change resolved in 14.0. Here's an excerpt from the Pulseaudio notes:
-
-> PulseAudio 13.0 started to switch output to HDMI automatically when module-switch-on-connect was loaded (upstream PulseAudio doesn't load it by default, but some distributions do). This change was not intentional, and caused very annoying behaviour in cases where waking up the monitor from sleep appears as a plug-in event in ALSA. Now module-switch-on-connect has a configurable blacklist, which by default prevents switching to HDMI devices.
-
-**Better support for some USB gaming headsets**
-
-Pulseaudio 14 introduces custom configuration for several headsets, such as:
-
-- HyperX Cloud Orbit S
-- LucidSound LS31
-- Razer Kraken Tournament Edition
-- SteelSeries Arctis 5 (2019 edition)
-- SteelSeries Arctis Pro (2019 edition)
-
-Pulseaudio will now also create separate stereo and mono voice sinks for these headsets
-
-**Flat volumes are now disabled by default**
-
-`flat-volumes` is a feature Solus has patched to be disabled for a long time now and we're happy to no longer be required to do so. Here is Pulseaudio's notes on the matter:
-
-> With flat volumes the stream volumes control also the sink volume. In the simple case of only one stream, the stream and the sink volume are always the same. In case of multiple streams, the sink volume is set to the maximum of the stream volumes. The purpose of this is to simplify the volume control of an application: the full volume range is always available via the application volume slider, so there's no need to think about the sink volume. In practice, however, this has caused more harm than good (the worst problem is that some applications automatically set their stream volume to 100%, causing the audio to be played at the maximum volume that the hardware can produce), and most large distributions have patched PulseAudio to disable flat volumes by default. Now that patching won't be needed any more.
 
 ## Qt5 5.15.2
 
