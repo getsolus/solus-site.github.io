@@ -103,7 +103,7 @@ Budgie has always been about striking a balance in customization and that extend
 
 {{< altimg "2020/12/budgie-10-5-2-raven-on-left.jpg" >}}
 
-Budgie 10.5.2 introduces a new option to choose which side of the screen Raven should be. Prior to Budgie 10.5.2, Raven would always appear on the left side when the main panel and trigger were on the left, and appear on the right when the main panel was anywhere else.
+Thanks to Solus contributor [Evan Maddock](https://github.com/EbonJaegar), Budgie 10.5.2 introduces a new option to choose which side of the screen Raven should be. Prior to Budgie 10.5.2, Raven would always appear on the left side when the main panel and trigger were on the left, and appear on the right when the main panel was anywhere else.
 
 Users will be able to choose between this behaviour, called "Automatic", as well as left and right sides!
 
