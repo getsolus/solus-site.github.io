@@ -5,7 +5,7 @@ categories:
 - budgie
 - packages
 - news
-date: 2020-12-02T01:12:28+02:00
+date: 2020-12-02T18:30:42+02:00
 featuredimage: "2020/12/budgie-10-5-2.jpg"
 url: "/2020/12/02/budgie-10-5-2-released"
 ---
@@ -62,7 +62,7 @@ The Sound applet has seen a redesign and now features a dedicated button for mut
 
 {{< altimg "2020/12/budgie-10-5-2-system-tray.jpg" >}}
 
-Dating back to the days of Budgie 7 in 2014, Budgie had been using an `na-tray` implementation also seen in desktop environments such as Cinnamon for the creation and management of system tray icons. In Budgie 10.5.2, the System Tray has been completely rewritten from scratch, supporting tray icons leveraging the XEmbed Protocol. This new implementation resolves numerous issues such as:
+Dating back to the days of Budgie 7 in 2014, Budgie had been using an `na-tray` implementation also seen in desktop environments such as Cinnamon for the creation and management of system tray icons. Thanks to the incredible work by Solus contributor [Campbell Jones](https://github.com/serebit), the System Tray has been completely rewritten from scratch, supporting tray icons leveraging the XEmbed Protocol. This new implementation resolves numerous issues such as:
 
 - Background icons not refreshing, resulting in instances where it may appear that multiple icons are overlapping.
 - Tray icons not consistently hiding when a panel hides (during "Intelligent" mode).
