@@ -3,6 +3,7 @@ title: "Budgie 10.5.2 Released"
 author: "joshua"
 categories:
 - budgie
+- packages
 - news
 date: 2020-12-02T01:12:28+02:00
 featuredimage: "2020/12/budgie-10-5-2.jpg"
@@ -10,6 +11,8 @@ url: "/2020/12/02/budgie-10-5-2-released"
 ---
 
 Solus is proud to announce our newest iteration on our flagship desktop environment, Budgie 10.5.2, with a diverse range of new features and bug fixes!
+
+<!--more-->
 
 ## Quality of Life
 
@@ -184,13 +187,20 @@ Name | Version
 `libwnck-3.0` | `>= 3.36.0`
 `upower-glib` | `>= 0.99.0`
 `vala` | `>= 0.48.0`
+
+Huge thanks to the Ubuntu Budgie folks for their hard work introducing both libmutter-6 and libmutter-7 support into Budgie.
+
+## Get the Release
+
+Official distribution tarballs for Budgie 10.5.2 are available [here](https://github.com/solus-project/budgie-desktop/releases/tag/v10.5.2). For Solus users, we have already shipped Budgie 10.5.2 to the stable repository!
+
 ---
 
 ## Contributors
 
 Thank you to all the amazing contributors that have made Budgie 10.5.2 possible. Here is the full list!
 
-- 47 [Joshua Strobl](https://github.com/JoshStrobl)
+- 49 [Joshua Strobl](https://github.com/JoshStrobl)
 - 16 [David Mohammed](https://github.com/fossfreedom)
 - 15 [Campbell Jones](https://github.com/serebit)
 - 2 [Ben Reaves](https://github.com/rbreaves)
