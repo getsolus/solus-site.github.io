@@ -7,6 +7,7 @@ categories:
 - news
 - roundup
 date: 2020-11-26T17:08:12+02:00
+disabletitlemodification: "yes"
 featuredimage: "2020/11/the-roundup-17-featured.jpg"
 url: "/2020/11/26/endless-de-ssert-the-roundup-17"
 ---
