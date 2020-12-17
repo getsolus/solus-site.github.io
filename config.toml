@@ -28,7 +28,7 @@ theme = "solus"
 	main = [ "home", "about", "blog", "download", "help_center", "forum", "get_involved"]
 	footer = [ "solus", "social", "support", "press"]
 	solus = [ "about", "download", "experiences", "roadmap", "team", "technologies" ]
-	social = [ "facebook", "mastodon", "reddit", "twitter"]
+	social = [ "facebook", "mastodon", "reddit", "twitter", "twitch"]
 	support = ["dev_tracker", "forums", "help_center", "irc"]
 	press = ["press_center", "branding"]
 
@@ -56,6 +56,7 @@ theme = "solus"
 	team = "/solus/team"
 	technologies = "/solus/technologies"
 	twitter = "https://twitter.com/SolusProject"
+	twitch = "https://twitch.tv/getsolus"
 
 [params.teams]
 	core = ["bryan", "joshua"]

@@ -2,12 +2,12 @@
 <!-- Begnning of Metadata -->
 <head>
 <!-- Page Info -->
-{{ $pageTitle := .Title }}
-{{ if ne (isset .Params "disabletitlemodification") }}
-	{{ $pageTitle := title (replace .Title "_" " ") }}
-	{{ $pageTitle := replace $pageTitle "'S" "'s" }}
-	{{ $pageTitle := replace $pageTitle "Twis" "TWIS" }}
-	{{ $pageTitle := replace $pageTitle "| t" "| T" }}
+{{ $pageTitle := title (replace .Title "_" " ") }}
+{{ $pageTitle := replace $pageTitle "'S" "'s" }}
+{{ $pageTitle := replace $pageTitle "Twis" "TWIS" }}
+{{ $pageTitle := replace $pageTitle "| t" "| T" }}
+{{ if isset .Params "disabletitlemodification" }}
+	{{ $pageTitle = .Title }}
 {{ end }}
 {{ if ne .Section "articles"}}
 	{{ if isset .Params "notitle" }}
