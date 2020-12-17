@@ -15,8 +15,6 @@ Welcome to The Roundup #18, your bytes of Solus news. In this roundup, we are ta
 
 ## Holiday Streaming
 
-*The weather outside is frightful. But the warmth from our PCs is delightful. And since we've got no place to go, Let the code flow! Let the code flow! Let the code flow!*
-
 While most years we would all run off to spend time with our families for the holidays, we all know 2020 has been quite a different year entirely. But that does not mean we can not stay toasty next to our computers, hang around in IRC, and engage in some banter on some live streams.
 
 So from next Monday, December 21st to Sunday, January 3rd, we will be having daily live streams! These live streams will range in subjects and projects, such as:
@@ -30,7 +28,7 @@ So from next Monday, December 21st to Sunday, January 3rd, we will be having dai
 
 Additionally, Bryan will be having some late night streams working on his pixel editor and we will be having a couple Friday game streams!
 
-We have put together some fancy schedules so you will know the whose, whens, and whats regarding the live streams. This schedule uses Eastern Standard Time (which is UTC -5) since Bryan will be the main streamer, but [here is a link](https://www.timeanddate.com/worldclock/converter.html?iso=20201217T150000&p1=421) to a timezone converter so you can figure out when it it starts for you.
+We have put together some fancy schedules so you will know the who, whens, and whats regarding the live streams. This schedule uses Eastern Standard Time (which is UTC -5) since Bryan will be the main streamer, but [here is a link](https://www.timeanddate.com/worldclock/converter.html?iso=20201217T150000&p1=421) to a timezone converter so you can figure out when it it starts for you.
 
 If you want to watch these streams, there are a few ways you can do it:
 
@@ -97,9 +95,9 @@ Alongside these updates, we have updated:
 - linux-firmware to its latest release, introducing many firmware updates for: Intel Bluetooth, amdgpu, ath10k, ath11k, i915 DMC, and rtw88.
 - nvidia-390-glx-driver to 390.138 and introduced patches for fixing compilation against 5.10
 - nvidia-beta-driver to 460.27.04
-- openrazer 2.9.0
+- openrazer to 2.9.0
 - nvidia-developer-driver and nvidia-glx-driver has both received patches for fixing compilation against 5.10, as well a patch for a page allocation failure error.
-- virtualbox 6.1.16
+- virtualbox to 6.1.16
 
 We took this opportunity to enable some kernel modules for various features, functionality, and hardware support. Here are some of our changes:
 
@@ -111,8 +109,7 @@ We took this opportunity to enable some kernel modules for various features, fun
 - CONFIG_XFS_SUPPORT_V4: Ensures the continuation of XFS v4 format support. While we will eventually deprecate XFS v4 support from our kernel, it is going to be supported for several years and therefore we are not in an immediate need to do so.
 - Multiple Intel sound SoCs.
 - Multiple NFTABLES flags
-- Our kernel now supports the use of ZSTD compression thanks to CONFIG_HAVE_KERNEL_ZSTD and CONFIG_KERNEL_ZSTD.
-- schedutil is enabled via CONFIG_CPU_FREQ_GOV_SCHEDUTIL
+- schedutil is enabled via CONFIG_CPU_FREQ_GOV_SCHEDUTIL. `performance` is still the default.
 
 ## Mesalib 20.2.3
 
@@ -152,7 +149,7 @@ Here's a highlight of some packages that has been updated this week. Please note
 - [libgtk-4](https://dev.getsol.us/R5107:5ac58944a68d47a2038ec675e5d4134f0fb77342)
 - [libusb 1.0.24](https://dev.getsol.us/R1880:9077ac037f92e462c5b2f4c1a4942033331426fc)
 - [libvirt 6.10.0](https://dev.getsol.us/R1891:afdb801a2f2b957a0d79925af49f2dfc6531b5c6)
-- [lmms 1.2.2 and enable VST support](https://dev.getsol.us/R1974:2552af053ea67ca1ddbb2a95bfe24aa624f2c7ed)
+- [lmms 1.2.2 and re-enabled VST support](https://dev.getsol.us/R1974:2552af053ea67ca1ddbb2a95bfe24aa624f2c7ed)
 - [mangohud 0.6.1](https://dev.getsol.us/R5038:f13bb46ab75d0bdbf593fc500d6dfa5bb7a3a8aa)
 - [mongodb-compass 1.24.1](https://dev.getsol.us/R4994:a7928f896c99f835b56ea07a3c83a865ee14188a)
 - [mupdf 1.18.0](https://dev.getsol.us/R4906:b4c450ded2a12ac58815d1f1ac09f22eb9c47f99)
