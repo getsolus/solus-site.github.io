@@ -55,7 +55,7 @@ Global Maintainer Friedrich von Gellhorn (a.k.a Girtablulu) has landed the lates
   - Remove useless blur from kontrast icon
 - Dolphin’s address bar is now in the toolbar, for example, and, in Detail View mode, you can set the size to include everything in the folder including the nested folders inside the parent one.
 - Elisa, a compact music player, now lets you change the color scheme of the app independent of the system wide color scheme. It also now lets you choose which view to display when the app launches.
-- Kate, KDE's file browser, now has an *Open with* menu item.
+- Kate's file browser now has an *Open with* menu item.
 - KFileMetaData: Add several subtypes for OpenDocument and OpenXML document.
 - KNotification: Don’t pass transient hint.
 - Konsole now has a configurable toolbar.
