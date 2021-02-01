@@ -138,7 +138,7 @@ Solus GNOME Edition continues to ship with our curated out-of-the-box experience
 
 {{< altimg "MATE.jpg" "/release-images/4.1/" >}}
 
-Solus 4.1 MATE Edition ships with the latest release of the MATE 1.22 series, with contains numerous bug fixes and under-the-hood improvements. Some of the highlights include:
+Solus 4.1 MATE Edition ships with the latest release of the MATE 1.22 series, which contains numerous bug fixes and under-the-hood improvements. Some of the highlights include:
 
 - MATE Applets improvements
   - The Display Applet got a full revamp, allowing for better monitor control directly from the panel.

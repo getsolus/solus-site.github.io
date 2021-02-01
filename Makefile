@@ -37,7 +37,7 @@ syncstyling: upmods
 syncsolbit: upmods
 	mkdir -p themes/solus/static/js
 	rm -f themes/solus/static/js/{site,solbit}*
-	cp -R solbit/build/fonts/*.{eot,svg,ttf,woff} themes/solus/static/css/fonts/
+	cp -R solbit/build/fonts/*.{css,eot,svg,ttf,woff} themes/solus/static/css/fonts/
 	cp solbit/build/solbit*.min.js themes/solus/static/js/
 	cp solus-webplatform-js/build/site*.min.js themes/solus/static/js/
 
