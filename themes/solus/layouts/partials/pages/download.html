@@ -8,6 +8,9 @@
 	<div data-solus="download-grid">
 		{{ range $edition := (slice "Budgie" "GNOME" "MATE" "Plasma") }}
 			{{ $editionInfo := (index $site.Data.isos.info $edition )}}
+			{{ $release := printf "Solus-%s-%s" $site.Data.isos.info.Version $edition }}
+			{{ $editionISO := printf "%s.iso" $release }}
+			{{ $isoURL := printf "https://mirrors.rit.edu/solus/images/%s/%s" $site.Data.isos.info.Version $editionISO | safeURL }}
 			<!-- For each edition -->
 			<div data-solus="solus-edition">
 				<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/{{ $site.Data.isos.info.Version }}/{{ $edition }}.jpg" />
@@ -16,15 +19,14 @@
 				<div data-solus="edition-obtain">
 					<section data-solus="solus-direct-download">
 						<div data-solus="buttongroup">
-							{{ $fullurl := printf "%sSolus-%s-%s.iso" "https://mirrors.rit.edu/solus/images/4.1/" $site.Data.isos.info.Version $edition | safeURL }}
-							<a href="{{ $fullurl }}" target="_blank" data-solbit="button" data-solbit-custom data-solbit-toggleable data-solus="solus-all-mirrors">Download</a>
+							<a href="{{ $isoURL }}" target="_blank" data-solbit="button" data-solbit-custom data-solbit-toggleable data-solus="solus-all-mirrors">Download</a>
 						</div>
 					</section>
 					<section data-solus-type="solus-extra-info">
 						Media Size: {{ $editionInfo.mediasize }}<br />
-						Alternative Download: <a href="{{ $editionInfo.torrent }}">Torrent</a><br />
-						{{ $sha256url := printf "https://mirrors.rit.edu/solus/images/%s/Solus-%s-%s.iso.sha256sum" $site.Data.isos.info.Version $site.Data.isos.info.Version $edition | safeURL }}
-						SHA256SUMS: <a href="{{ $sha256url }}" target="_blank">File</a> | <a href="{{ $sha256url }}.sign" target="_blank">Signed File</a> | <a href="https://getsol.us/releases/joshua-strobl.gpg" target="_blank">Public Key</a>
+						{{ $torrent := printf "%s%s.torrent" $site.Data.isos.info.TorrentLocation $release | safeURL }}
+						Alternative Download: <a href="{{ $torrent }}">Torrent</a><br />
+						SHA256SUMS: <a href="{{ $isoURL }}.sha256sum" target="_blank">File</a> | <a href="{{ $isoURL }}.sha256sum.sign" target="_blank">Signed File</a> | <a href="https://getsol.us/releases/joshua-strobl.gpg" target="_blank">Public Key</a>
 					</section>
 				</div>
 			</div>
@@ -35,6 +37,6 @@
 				{{ $content }}
 			</section>
 		</div>
-		<a title="hidden-download-url"></a>
+		<!--<a title="hidden-download-url"></a>-->
 	</div>
 </div>

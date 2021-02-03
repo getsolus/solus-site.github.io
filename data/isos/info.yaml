@@ -1,21 +1,18 @@
 Budgie:
     description: A feature-rich, luxurious desktop using the most modern technologies.
     mediasize: 1.8GB
-    shasum: 4bf00f2f50e7024a71058c50c24a5706f9c18f618c013b8a819db33482577d17
-    torrent: https://getsol.us/torrents/Solus-4.1-Budgie.torrent
+    shasum: 24cd81916c2beb57c7d6048b9c454c0ce915540bed60571f9606b8f53aeacb99
 GNOME:
     description: A contemporary desktop experience.
-    mediasize: 1.9GB
-    shasum: 308caa5b3ab42f21f79b3ba9ff78bd6cf348e0d6867d77b55d979ac4d28ceeef
-    torrent: https://getsol.us/torrents/Solus-4.1-GNOME.torrent
+    mediasize: 2.1GB
+    shasum: ee2badc34d7174fd54057d3268b57c6676cb560969ff76d138bd8a9252d49feb
 MATE:
     description: A traditional desktop for advanced users and older hardware.
-    mediasize: 1.7GB
-    shasum: f70e8b233a518ad79cbe6d2f9f2313a692a1e3efd290c13ee844ad7c154383ef
-    torrent: https://getsol.us/torrents/Solus-4.1-MATE.torrent
+    mediasize: 1.8GB
+    shasum: 63c81e52b8c21e63f2dc20ffe97735e79a1d70bd2c343999364e956f57bfc2da
 Plasma:
     description: A sophisticated desktop experience for the tinkerers.
-    mediasize: 1.8GB
-    shasum: 56138dadf2637d1b06c39d2cb19bfecbae1099117cdff57ed1c27ff8c654413a
-    torrent: https://getsol.us/torrents/Solus-4.1-Plasma.torrent
-Version: '4.1'
+    mediasize: 1.9GB
+    shasum: dfbb6feabc2fb502c83dac291ffe1f6d412791d77e81875d1c6886b3754bdd5d
+Version: '4.2'
+TorrentLocation: https://getsol.us/torrents/
