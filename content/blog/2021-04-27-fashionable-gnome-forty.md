@@ -17,7 +17,7 @@ Welcome to The Roundup #19, your bytes of Solus news. In this roundup, we talk a
 
 ## Budgie 10.5.3
 
-[Budgie 10.5.3](https://github.com/solus-project/budgie-desktop/tree/v10.5.3) is a minor release that introduces fixes for bugs, various quality-of-life improvements, and support for the GNOME 40 stack.
+[Budgie 10.5.3](https://github.com/solus-project/budgie-desktop/tag/v10.5.3) is a minor release that introduces fixes for bugs, various quality-of-life improvements, and support for the GNOME 40 stack.
 
 ### Bug Fixes and Cleanup
 
