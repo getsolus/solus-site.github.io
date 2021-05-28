@@ -24,11 +24,11 @@ theme = "solus"
 	footermenu = ["solus", "social", "support", "pressmenu"] # Because I can't for the life of me get Hugo nested lists to work
 
 [params.menus]
-	main = [ "home", "about", "blog", "download", "help_center", "forum", "get_involved"]
+	main = [ "home", "about", "blog", "download", "funding", "help_center", "forum", "get_involved"]
 	footer = [ "solus", "social", "support", "press"]
 	solus = [ "about", "download", "experiences", "team", "technologies" ]
 	social = [ "facebook", "mastodon", "reddit", "twitter", "twitch"]
-	support = ["dev_tracker", "forums", "help_center", "irc"]
+	support = ["dev_tracker", "forums", "funding", "help_center", "irc"]
 	press = ["press_center", "branding"]
 
 [params.menuurls]
@@ -43,6 +43,7 @@ theme = "solus"
 	facebook = "https://facebook.com/get.solus"
 	forum = "https://discuss.getsol.us"
 	forums = "https://discuss.getsol.us"
+	funding = "https://opencollective.com/getsolus"
 	get_involved = "/articles/contributing/getting-involved/en/"
 	help_center = "help-center/home"
 	irc = "/articles/contributing/getting-involved/en/#irc"
