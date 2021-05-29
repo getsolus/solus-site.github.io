@@ -47,12 +47,16 @@ Please bare in mind that we are actively working on the tooling to facilitate so
 
 Amount: $1+ USD
 
+### Release Testers
+
+Amount: $3+ USD
+
 Perks:
 
 - Early access to news / updates (timeframe will vary depending on the post)
 - Access to testing ISOs the week of Release
 
-### Crew
+### Beta Testers
 
 Amount: $10+ USD
 
@@ -60,12 +64,12 @@ Perks:
 
 - Early access to news / updates (timeframe will vary depending on the post)
 - Access to testing ISOs the week of Release
-- **Access to weekly “snapshot” ISO for the Budgie Edition**
+- Access to weekly “snapshot” ISO of Budgie Edition
   - This ISO will be generated after our Friday syncs and use the stable repo. In situations where we are deferring sync for additional testing, they will be based on the unstable repository at a "most stable" point in time. In the event that it is the week of a release, this would overlap with the respective "testing ISOs".
 
-### Officers
+### Crew
 
-Amount: $100+ USD
+Amount: $25+ USD
 
 Perks:
 
@@ -73,20 +77,3 @@ Perks:
 - Access to testing ISOs the week of Release
 - Access to weekly “snapshot” ISOs **for all editions**
   - These ISOs will be generated after our Friday syncs and use the stable repo. In situations where we are deferring sync for additional testing, they will be based on the unstable repository at a "most stable" point in time. In the event that it is the week of a release, this would overlap with the respective "testing ISOs".
-- **Request 1 accepted package to be officially maintained by Core Team**
-- **Monthly group call (via Zoom)**
-
-### Captains
-
-Amount: $500+ USD
-
-Perks:
-
-- Early access to news/updates (timeframe will vary depending on the post)
-- Access to testing ISOs the week of Release
-- Access to weekly “snapshot” ISOs for all editions
-  - These ISOs will be generated after our Friday syncs and use the stable repo. In situations where we are deferring sync for additional testing, they will be based on the unstable repository at a "most stable" point in time. In the event that it is the week of a release, this would overlap with the respective "testing ISOs".
-- Request up to **5** accepted packages to be officially maintained by Core Team
-- Monthly group call (via Zoom)
-- **Private dedicated group chat via an invite-only IRC channel on Libera / Matrix (Matrix being bridged)**
-- **Have your name permanently added to the list of Solus Captains on our website**
