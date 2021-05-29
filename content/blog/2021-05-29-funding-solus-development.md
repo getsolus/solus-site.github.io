@@ -4,7 +4,7 @@ author: "joshua"
 categories:
 - news
 - infrastructure
-date: 2021-05-29T00:00:00+03:00
+date: 2021-05-29T21:58:55+03:00
 featuredimage: "2021/05/funding-solus-development.jpg"
 url: "/2021/05/29/funding-solus-development"
 ---
@@ -39,7 +39,7 @@ Solus is now proudly available on [Open Collective](https://opencollective.com/g
 
 If you are interested in supporting Solus or development of one or more of our projects, we encourage you to become a financial contributor today. We are working to provide additional incentives to backers, with some of the early tier perks being detailed below (as well as on our Open Collective page).
 
-Please keep in mind that we are actively working on the tooling to facilitate some of the perks, we will endeavour to provide them as quickly as possible.
+Please keep in mind that we are actively working on the tooling to facilitate some of the perks, we will endeavour to provide them as quickly as possible. Details on the first weekly snapshot ISO(s) will be rolled out to Beta Testers and Crew on June 4th, 2021.
 
 ## Tiers
 
