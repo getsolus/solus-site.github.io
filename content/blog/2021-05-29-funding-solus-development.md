@@ -1,15 +1,15 @@
 ---
-title: "Plotting The Next Course For Solus"
+title: "Funding Solus Development"
 author: "joshua"
 categories:
 - news
+- infrastructure
 date: 2021-05-29T00:00:00+03:00
-featuredimage: "2021/05/plotting-the-next-course-featured.jpg"
-url: "/2021/05/29/plotting-the-next-course-for-solus"
+featuredimage: "2021/05/funding-solus-development.jpg"
+url: "/2021/05/29/funding-solus-development"
 ---
 
-In this announcement, we discuss the plotting of the next course for Solus, empowered by all of you.
-
+After much anticipation, in this blog post we announce the availability of community funding opportunities.
 <!--more-->
 
 # Background
@@ -39,7 +39,7 @@ Solus is now proudly available on [Open Collective](https://opencollective.com/g
 
 If you are interested in supporting Solus or development of one or more of our projects, we encourage you to become a financial contributor today. We are working to provide additional incentives to backers, with some of the early tier perks being detailed below (as well as on our Open Collective page).
 
-Please bare in mind that we are actively working on the tooling to facilitate some of the perks, we will endeavour to provide them as quickly as possible.
+Please keep in mind that we are actively working on the tooling to facilitate some of the perks, we will endeavour to provide them as quickly as possible.
 
 ## Tiers
 
