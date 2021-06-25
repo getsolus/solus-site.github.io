@@ -7,7 +7,7 @@
 			{{ $memberInfo := index $site.Data.users $member }}
 			<img src="{{ printf "imgs/avatars/%s.jpg" $member | absURL }}" height="120px" width="120px" />
 			<div data-site="team-member-info">
-				<span><h4>{{ $memberInfo.Name}}</h4><h5>{{ $memberInfo.Role }}</h5></span>
+				<span><h4>{{ $memberInfo.Name}}</h4><h5>{{ $memberInfo.Role }}{{ if or (eq $member "bryan") (eq $member "joshua") }}, Core Team{{end}}</h5></span>
 				<p>{{ $memberInfo.Description }}</p>
 				<div data-site="team-member-social" data-solbit-flexrow>
 					<div data-site="team-member-social-links">
