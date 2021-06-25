@@ -2,46 +2,37 @@
 <div data-site="team-page" data-solbit-flexcol>
 	<h1>Solus is built by a diverse team from around the world.</h1>
 	<h2>We purposefully build Solus with a shared vision and common goals in mind,<br />volunteering our time to build an open system and software that you'd be proud to use.</h2>
-	{{ range $teamType := (slice "core" "global") }}
-		{{ $teamTypeName := "Core Team" }}
-
-		{{ if eq $teamType "global" }}
-			{{ $teamTypeName = "Global Maintainers" }}
-		{{ end }}
-		<h3>{{ $teamTypeName }}</h3>
-		{{ range $member := (index $site.Params.teams $teamType) }}
-			<div data-site="team-member">
-				{{ $memberInfo := index $site.Data.users $member }}
-				<img src="{{ printf "imgs/avatars/%s.jpg" $member | absURL }}" height="120px" width="120px" />
-				<div data-site="team-member-info">
-					<span><h4>{{ $memberInfo.Name}}</h4><h5>{{ $memberInfo.Role }}</h5></span>
-					<p>{{ $memberInfo.Description }}</p>
-					<div data-site="team-member-social" data-solbit-flexrow>
-						<div data-site="team-member-social-links">
-							{{ range $link := $memberInfo.Social }}
-								{{ $urlInfo := urls.Parse $link }}
-								{{ $type := "mastodon" }}
-								{{ if eq $urlInfo.Host "fosstodon.org" }}
-									{{ $type = "mastodon" }}
-								{{ else }}
-									{{ $type = index (split $urlInfo.Host ".") 0 }}
-								{{ end }}
-								{{ $title := title $type }}
-								<a href="{{ $link }}" data-solbit-icon="{{ $type }}" target="_blank" title="{{ $title }}"></a>
+	{{ range $member := (index $site.Params.teams.list) }}
+		<div data-site="team-member">
+			{{ $memberInfo := index $site.Data.users $member }}
+			<img src="{{ printf "imgs/avatars/%s.jpg" $member | absURL }}" height="120px" width="120px" />
+			<div data-site="team-member-info">
+				<span><h4>{{ $memberInfo.Name}}</h4><h5>{{ $memberInfo.Role }}</h5></span>
+				<p>{{ $memberInfo.Description }}</p>
+				<div data-site="team-member-social" data-solbit-flexrow>
+					<div data-site="team-member-social-links">
+						{{ range $link := $memberInfo.Social }}
+							{{ $urlInfo := urls.Parse $link }}
+							{{ $type := "mastodon" }}
+							{{ if eq $urlInfo.Host "fosstodon.org" }}
+								{{ $type = "mastodon" }}
+							{{ else }}
+								{{ $type = index (split $urlInfo.Host ".") 0 }}
 							{{ end }}
+							{{ $title := title $type }}
+							<a href="{{ $link }}" data-solbit-icon="{{ $type }}" target="_blank" title="{{ $title }}"></a>
+						{{ end }}
+					</div>
+					<div data-site="team-member-social-misc">
+						<div data-site="team-member-social-misc-row">
+							<span>IRC</span>{{ $memberInfo.IRC }} on irc.libera.chat
 						</div>
-						<div data-site="team-member-social-misc">
-							<div data-site="team-member-social-misc-row">
-								<span>IRC</span>{{ $memberInfo.IRC }} on irc.libera.chat
-							</div>
-							<div data-site="team-member-social-misc-row">
-								<span>{{ $memberInfo.Timezone }}</span>{{ $memberInfo.Location }}
-							</div>
+						<div data-site="team-member-social-misc-row">
+							<span>{{ $memberInfo.Timezone }}</span>{{ $memberInfo.Location }}
 						</div>
 					</div>
 				</div>
 			</div>
-			<hr />
-		{{ end }}
+		</div>
 	{{ end }}
 </div>

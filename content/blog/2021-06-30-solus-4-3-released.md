@@ -5,8 +5,9 @@ categories:
 - news
 - releases
 date: 2021-06-23T15:20:51+03:00
+draft: true
 featuredimage: ""
-url: "/2021/06/23/2021-06-30-solus-4-3-released"
+url: "/2021/06/30/solus-4-3-released"
 ---
 
 We are proud to announce the immediate availability of Solus 4.3, a new Solus 4 "Fortitude" series release. This release delivers new desktop environment updates, software stacks, and hardware enablement.
