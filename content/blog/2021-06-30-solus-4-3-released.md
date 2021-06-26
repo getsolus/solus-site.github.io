@@ -32,7 +32,7 @@ For audio and video multimedia playback, we offer software out-of-the-box that c
 
 ### Hardware and Kernel Enablement
 
-This release of Solus ships with Linux kernel 5.12.11, enabling us to provide support for a broader range of hardware, such as:
+This release of Solus ships with Linux kernel 5.12.13, enabling us to provide support for a broader range of hardware, such as:
 
 - AMD Radeon RX 6700 XT, 6800, 6800 XT and 6900 XT cards.
 - ASoC machine driver for the Elkhart Lake platform and those with the DA7219 + MAX98373/MAX98360A I2S audio codecs.
@@ -187,7 +187,7 @@ TODO: IMAGE HERE
 
 Solus 4.3 Plasma Edition ships with the latest Plasma Desktop 5.22, KDE Frameworks 5.83, Applications 21.04 and the backported patches for QT 5.15.2, which brings many new features some highlighted below:
 
-- Adaptive Transparency for Breeze. Support for this will be introduced into our custom DarkSolus theme in the near future.
+- Adaptive Transparency for Breeze.
 - System Settings introduces a new Speed Dial page, giving you direct access to commonly used features such as light / dark theme changing, wallpaper changing, and access to common settings.
 - System Tray got a rework with a redesigned Digital Clock.
 - If you are sharing or recording your screen the Notifications widget will automatically enter "Do not Distrub" mode.
