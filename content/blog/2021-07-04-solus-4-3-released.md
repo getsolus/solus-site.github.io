@@ -7,7 +7,7 @@ categories:
 date: 2021-06-23T15:20:51+03:00
 draft: true
 featuredimage: ""
-url: "/2021/06/30/solus-4-3-released"
+url: "/2021/07/04/solus-4-3-released"
 ---
 
 We are proud to announce the immediate availability of Solus 4.3, a new Solus 4 "Fortitude" series release. This release delivers new desktop environment updates, software stacks, and hardware enablement.
@@ -32,18 +32,23 @@ For audio and video multimedia playback, we offer software out-of-the-box that c
 
 ### Hardware and Kernel Enablement
 
-This release of Solus ships with Linux kernel 5.12.13, enabling us to provide support for a broader range of hardware, such as:
+This release of Solus ships with Linux kernel 5.13.0, enabling us to provide support for a broader range of hardware, such as:
 
 - AMD Radeon RX 6700 XT, 6800, 6800 XT and 6900 XT cards.
 - ASoC machine driver for the Elkhart Lake platform and those with the DA7219 + MAX98373/MAX98360A I2S audio codecs.
 - Dell X86 Platform specific drivers, such as vendor-specific laptop extension drivers, via X86_PLATFORM_DRIVERS_DELL.
+- Hardware monitoring for the NZXT Kraken X42/X52/X62/X72 all-in-one CPU liquid coolers via SENSORS_NZXT_KRAKEN2.
+- Microsoft network devices via NET_VENDOR_MICROSOFT
 - Intel ASoC for Elkhart Lake, Jasper Lake, Tiger Lake
 - Sony PS5 controller via HID_PLAYSTATION
-- Supplemental Microsoft Surface support such as SURFACE_ACPI_NOTIFY (Surface ACPI Notify (SAN) driver) and SURFACE_HOTPLUG (out-of-band hot-plug event signaling on Microsoft Surface devices with hot-pluggable PCIe cards, further details [here](https://cateee.net/lkddb/web-lkddb/SURFACE_HOTPLUG.html)).
+- Supplemental Microsoft Surface support such as CHARGER_SURFACE, SURFACE_ACPI_NOTIFY (Surface ACPI Notify (SAN) driver), SURFACE_DTX and SURFACE_HOTPLUG (out-of-band hot-plug event signaling on Microsoft Surface devices with hot-pluggable PCIe cards, further details [here](https://cateee.net/lkddb/web-lkddb/SURFACE_HOTPLUG.html)).
+- SemiTek keyboards via HID_SEMITEK.
 
 Additionally, we continue to refine our kernel configuration, and this release features changes such as:
 
 - Enabled CONFIG_NETFILTER_XT_TARGET_CHECKSUM for improved lxd support.
+- Enabled KVM guests to create SGX enclaves via X86_SGX_KVM
+- Enabled VIRTIO SND.
 - Disabled RT_GROUP_SCHED for improved JACK support.
 
 Mesa has been upgraded to 21.1.3. This introduces various improvements, such as:
