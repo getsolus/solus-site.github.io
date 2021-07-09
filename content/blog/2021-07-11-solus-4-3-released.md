@@ -4,10 +4,10 @@ author: "joshua"
 categories:
 - news
 - releases
-date: 2021-06-23T15:20:51+03:00
+date: 2021-07-09T10:37:35+03:00
 draft: true
 featuredimage: ""
-url: "/2021/07/04/solus-4-3-released"
+url: "/2021/07/11/solus-4-3-released"
 ---
 
 We are proud to announce the immediate availability of Solus 4.3, a new Solus 4 "Fortitude" series release. This release delivers new desktop environment updates, software stacks, and hardware enablement.
@@ -19,7 +19,7 @@ We are proud to announce the immediate availability of Solus 4.3, a new Solus 4 
 
 All our editions feature:
 
-- Firefox 89.0.1
+- Firefox 89.0.2
 - LibreOffice 7.1.4.2
 - Thunderbird 78.11.0
 
@@ -32,7 +32,7 @@ For audio and video multimedia playback, we offer software out-of-the-box that c
 
 ### Hardware and Kernel Enablement
 
-This release of Solus ships with Linux kernel 5.13.0, enabling us to provide support for a broader range of hardware, such as:
+This release of Solus ships with Linux kernel 5.13.1, enabling us to provide support for a broader range of hardware, such as:
 
 - AMD Radeon RX 6700 XT, 6800, 6800 XT and 6900 XT cards.
 - ASoC machine driver for the Elkhart Lake platform and those with the DA7219 + MAX98373/MAX98360A I2S audio codecs.
@@ -56,9 +56,11 @@ Mesa has been upgraded to 21.1.3. This introduces various improvements, such as:
 - AMD Resizable BAR support in RADV, RDNA 2 GPUs, and Zen 3.
 - Improved support for various game titles such as Cyberpunk 2077, DOTA 2, DIRT 5, Elite Dangerous: Odyssey, Halo: The Master Chief Collection, Path of Exile.
 
-Solus 4.3 ships with bluez 5.59, improving bluetooth support and fixing the following issues:
+Solus 4.3 ships with bluez 5.60, improving bluetooth support and fixing the following issues:
 
 - Accepting invalid AVDTP capabilities
+- Fix issue with non-discoverable device and advertising monitor.
+- Fix issue with reading from RFKILL device node.
 - Fix reading from rfkill socket
 - GATT and handling device removal
 - Handling session of A2DP channels
@@ -78,7 +80,7 @@ The latest bug fix release of gstreamer, 1.18.4, is provided out of the box. Thi
 - allow v4l2 encoder resolution changes
 - mpeg-2 video handling
 
-Solus 4.3 ships with version 0.9.0 of the dav1d AV1 decoder, which should provide a large boost to high-bitdepth decoding on AVX2 supported CPUs. We also ship with pulseaudio 14.2, which fixes a bug realted to unplug event handling.
+Solus 4.3 ships with version 0.9.0 of the dav1d AV1 decoder, which should provide a large boost to high-bitdepth decoding on AVX2 supported CPUs. We also ship with pulseaudio 14.2, which fixes a bug related to unplug event handling.
 
 ## Budgie
 
@@ -190,7 +192,7 @@ Solus 4.3 MATE Edition ships with the latest MATE desktop environment and applic
 
 TODO: IMAGE HERE
 
-Solus 4.3 Plasma Edition ships with the latest Plasma Desktop 5.22, KDE Frameworks 5.83, Applications 21.04 and the backported patches for QT 5.15.2, which brings many new features some highlighted below:
+Solus 4.3 Plasma Edition ships with the latest Plasma Desktop 5.22.2, KDE Frameworks 5.83, Applications 21.04.2 and the backported patches for QT 5.15.2, which brings many new features some highlighted below:
 
 - Adaptive Transparency for Breeze.
 - System Settings introduces a new Speed Dial page, giving you direct access to commonly used features such as light / dark theme changing, wallpaper changing, and access to common settings.
