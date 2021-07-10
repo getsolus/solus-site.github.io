@@ -9,7 +9,7 @@ title = "download"
 
 - A blank DVD or a 2GB+ USB drive.
 - Minimum of 10GB of disk space available.
-- 2GB of RAM for an optimal experience.
+- 4GB of RAM for an optimal experience.
 - A 64-bit (x86_64) processor.
 
 ## Need assistance?
