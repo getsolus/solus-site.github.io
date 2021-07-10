@@ -56,7 +56,7 @@ Mesa has been upgraded to 21.1.3. This introduces various improvements, such as:
 - AMD Resizable BAR support in RADV, RDNA 2 GPUs, and Zen 3.
 - Improved support for various game titles such as Cyberpunk 2077, DOTA 2, DIRT 5, Elite Dangerous: Odyssey, Halo: The Master Chief Collection, Path of Exile.
 
-Solus 4.3 ships with bluez 5.60, improving bluetooth support and fixing the following issues:
+Solus 4.3 ships with bluez 5.60, improving Bluetooth support and fixing the following issues:
 
 - Accepting invalid AVDTP capabilities
 - Fix issue with non-discoverable device and advertising monitor.
@@ -80,7 +80,7 @@ The latest bug fix release of gstreamer, 1.18.4, is provided out of the box. Thi
 - allow v4l2 encoder resolution changes
 - mpeg-2 video handling
 
-Solus 4.3 ships with version 0.9.0 of the dav1d AV1 decoder, which should provide a large boost to high-bitdepth decoding on AVX2 supported CPUs. We also ship with pulseaudio 14.2, which fixes a bug related to unplug event handling.
+Solus 4.3 ships with version 0.9.0 of the dav1d AV1 decoder, which should provide a large boost to high-bitdepth decoding on AVX2 supported CPUs. We also ship with Pulseaudio 14.2, which fixes a bug related to unplug event handling.
 
 ## Budgie
 
@@ -212,7 +212,7 @@ To download our latest Editions, you can go to our [Download](/download) page, w
 
 ## Thank You
 
-We would like to thank everyone that has supported and contributed to Solus and its endeavors. It's you, our community, that has made this release possible. Whether you've filed bugs, fixed software, contributed code, translated Budgie Desktop, validated testing ISOs, or shared Solus releases with your colleagues, friends, and family: you've helped shape this release and improved the project for everyone.
+We would like to thank everyone that has supported and contributed to Solus and its endeavors. It is you, our community, that has made this release possible. Whether you have filed bugs, fixed software, contributed code, translated Budgie Desktop, validated testing ISOs, or shared Solus releases with your colleagues, friends, and family: you've helped shape this release and improved the project for everyone.
 
 If you would like to financially support Solus, enabling us to continue to cover infrastructure costs as well as opening the door to future full-time work by the Solus team, you can support us via our [OpenCollective](https://opencollective.com/getsolus). If you are interested in other ways of getting involved, we encourage you to check out our dedicated [documentation](https://getsol.us/articles/contributing/getting-involved/en/) on doing so!
 

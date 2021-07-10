@@ -29,10 +29,11 @@ Reach out to the following individuals for inquiring on information in regards t
 
 **Current Release**
 
-- Solus 4.2: Click [here for blog post](//2021/02/03/solus-4-2-released)
+- Solus 4.3: Click [here for blog post](//2021/07/11/solus-4-3-released)
 
 **Previous Releases**
 
+- Solus 4.2: Click [here for blog post](//2021/02/03/solus-4-2-released)
 - Solus 4.1: Click [here for blog post](/2020/01/25/solus-4-1-released)
 - Solus 4.0: Click [here for blog post](/2019/03/17/solus-4-released)
 - Solus 3.9999: Click [here for blog post](/2018/09/20/solus-3-iso-refresh-released)
