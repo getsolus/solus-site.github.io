@@ -202,9 +202,10 @@ Solus 4.3 Plasma Edition ships with the latest Plasma Desktop 5.22.2, KDE Framew
 
 Solus-specific Plasma integration has received various refinements, specifically:
 
+- Introducing SolusLight theme. SolusLight is a brighter theme compared to Breeze Light and compliments our SolusDark aesthetic.
 - Plasma-Systemmonitor replaces Ksysguard as default install for the ISO.
-- Fixes for the SolusDark Theme for better integration.
-- konversation uses now the Libera.chat server and uses TLS connection as default.
+- Reworking of the SolusDark theme to better support blur and the new Plasma adaptive Transparency functionality.
+- konversation now uses the Libera.chat server and uses TLS connection as default.
 
 ## Download
 
