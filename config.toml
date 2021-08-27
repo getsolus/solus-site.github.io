@@ -58,4 +58,4 @@ theme = "solus"
 	twitch = "https://twitch.tv/getsolus"
 
 [params.teams]
-	list = ["bryan", "friedrich", "joe", "joshua",  "pierre"]
+	list = ["beatrice", "friedrich", "joe", "joshua",  "pierre"]
