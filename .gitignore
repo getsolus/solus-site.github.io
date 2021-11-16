@@ -1,3 +1,4 @@
+.hugo_build.lock
 public/
 public-deployed/
 themes/solus/static/css/fonts/*.html
