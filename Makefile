@@ -1,7 +1,7 @@
 SHELL = /bin/bash
 
-benchmark:
-	hugo benchmark --quiet
+local:
+	hugo server --watch --disableFastRender --ignoreCache
 
 deploy:
 	hugo --quiet --cleanDestinationDir --destination public-deployed/
@@ -11,37 +11,23 @@ deploy:
 	rmdir public-deployed/podcasts/sundays-with-solus-{mp3,ogg}
 	rm -r public-deployed/podcasts/{page,index}*
 
-local:
-	hugo server --watch --disableFastRender
-
 setup:
 	git submodule init
 	sudo eopkg install hugo rsync
-	mkdir -p themes/solus/static/{css,js}
-	mkdir -p themes/solus/static/imgs/help-center
-	
+
 upmods:
 	git submodule sync
 	git submodule update --force --recursive --remote --rebase
-	
-syncdocs: upmods
-	mkdir -p themes/solus/static/imgs/help-center
-	find help-center-docs/* -maxdepth 0 ! -name "imgs" -type d -exec cp -Ru {} content/articles/ \;
-	find content/articles/* -name "*.jpg" -type f -exec rm {} \;
-	rsync -avx --delete help-center-docs/imgs/* themes/solus/static/imgs/help-center/
 
-syncstyling: upmods
+syncstyling:
 	rm -f themes/solus/static/css/website*.css
 	cp -R solus-styling/build/*.css themes/solus/static/css/
 
 syncsolbit: upmods
-	mkdir -p themes/solus/static/js
-	rm -f themes/solus/static/js/{site,solbit}*
-	cp -R solbit/build/fonts/*.{css,eot,svg,ttf,woff} themes/solus/static/css/fonts/
-	cp solbit/build/solbit*.min.js themes/solus/static/js/
-	cp solus-webplatform-js/build/site*.min.js themes/solus/static/js/
+	cp -R solbit/build/fonts/*.{css,eot,svg,ttf,woff,woff2} themes/solus/static/css/fonts/
 
-sync: syncdocs syncstyling syncsolbit
+
+sync: syncstyling syncsolbit
 
 help:
 	@echo "deploy    - Create the deployed form of site. Not particularly useful for those not able to deploy the site."

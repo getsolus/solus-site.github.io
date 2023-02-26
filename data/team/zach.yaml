@@ -1,0 +1,13 @@
+name: Zach Bacon
+pronouns: he/him
+location: Ottawa, Canada
+timezone: UTC-5
+role: GNOME Maintainer
+teams:
+  - packaging
+social:
+  github: "ZachBacon"
+  irc: "ZachBacon"
+  mastodon: "@thecanadianbacon@mastodon.social"
+  www: "https://casualgamer.ca"
+active: true

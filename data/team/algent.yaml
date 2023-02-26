@@ -1,0 +1,15 @@
+name: Algent Albrahimi
+pronouns: he/him
+location: Durrës, Albania
+timezone: UTC+1
+role: Maintainer
+teams:
+  - moderation
+  - packaging
+social:
+  github: "algent-al"
+  irc: "algent"
+  reddit: "algent-al"
+  twitter: "al_genti"
+  fosstodon: "@algent@fosstodon.org"
+active: true

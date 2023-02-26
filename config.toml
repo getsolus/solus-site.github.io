@@ -3,8 +3,14 @@
 baseurl = "https://getsol.us/"
 title = "Solus"
 
+###### Modules
+[module]
+[[module.imports]]
+    path = "github.com/getsolus/solus-hugo-theme/themes/blog"
+[[module.imports]]
+    path = "github.com/getsolus/solus-hugo-theme/themes/solus"
+
 ###### Content
-archetypedir = "themes/solus/archetypes"
 buildDrafts = false
 buildFuture = true
 defaultContentLanguage = "en"
@@ -12,28 +18,27 @@ defaultContentLanguageInSubdir = false
 googleanalytics = "UA-Not-Yet"
 metaDataFormat = "toml"
 paginate = 5
-layoutsdir =   "themes/solus/layouts"
-theme = "solus"
+theme = ["blog", "solus"]
+enableInlineShortcodes = true
 
 ###### Special Params
 
 [params]
 	domain = "getsol.us"
 	category = ["budgie", "infrastructure", "news", "packages", "partners", "plans", "releases", "security", "roundup", "twis"]
-	copyright = "2021"
-	footermenu = ["solus", "social", "support", "pressmenu"] # Because I can't for the life of me get Hugo nested lists to work
+	copyright = "2023"
 
 [params.menus]
-	main = [ "home", "about", "blog", "download", "funding", "help_center", "forum", "get_involved"]
+	main = [ "home", "about", "blog", "download", "funding", "help", "forums", "get_involved"]
 	footer = [ "solus", "social", "support", "press"]
 	solus = [ "about", "download", "experiences", "team", "technologies" ]
 	social = [ "facebook", "mastodon", "reddit", "twitter", "twitch"]
-	support = ["dev_tracker", "forums", "funding", "help_center", "irc"]
-	press = ["press_center", "branding"]
+	support = ["dev_tracker", "forums", "funding", "help", "irc"]
+	press = ["press", "branding"]
 
 [params.menuurls]
 	about = "/solus/about"
-	home = "home"
+	home = ""
 	blog = "blog"
 	branding = "branding"
 	budgie = "budgie"
@@ -41,21 +46,30 @@ theme = "solus"
 	download = "download"
 	experiences = "/solus/experiences"
 	facebook = "https://facebook.com/get.solus"
-	forum = "https://discuss.getsol.us"
 	forums = "https://discuss.getsol.us"
 	funding = "https://opencollective.com/getsolus"
-	get_involved = "/articles/contributing/getting-involved/en/"
-	help_center = "help-center/home"
-	irc = "/articles/contributing/getting-involved/en/#irc"
+	get_involved = "/help/contributing/getting-involved/"
+	help = "help"
+	irc = "/help/contributing/getting-involved/#irc"
 	mastodon = "https://fosstodon.org/@Solus"
-	press = "press-center"
-	press_center = "press-center"
+	press = "press"
 	reddit = "https://www.reddit.com/r/SolusProject"
-	support_us = "/articles/contributing/getting-involved/en/"
+	support_us = "/help/contributing/getting-involved/"
 	team = "/solus/team"
 	technologies = "/solus/technologies"
 	twitter = "https://twitter.com/SolusProject"
 	twitch = "https://twitch.tv/getsolus"
 
 [params.teams]
-	list = ["beatrice", "friedrich", "joe", "joshua",  "pierre"]
+	list = ["beatrice", "friedrich", "joe", "pierre"]
+
+# Rendering
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[minify]
+    minifyOutput = true
+
+[minify.tdewolff.html]
+    keepWhitespace = true
