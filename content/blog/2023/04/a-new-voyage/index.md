@@ -21,7 +21,7 @@ Previously, our build and development infrastructure was hosted on-premises at t
 
 Both prior to and during the outage, active Solus team members offered to help mitigate the infrastructure bus-factor issue and move the infrastructure to more accessible hosting providers. These efforts were not met with success. In parallel, the Solus team members stepped up to communicate with the community when there was otherwise an absence of information.
 
-Separately, the Serpent OS project, led by Ikey Doherty (original founder and lead of Solus), reached out to offer hosting of the website to facilitate Solus’ ability to communicate with its user base and serve ISOs. Concerned by the continuing outage and its impact on Solus users and contributors, the Serpent OS team shared a proposal which would allow Solus to resume operations with less technical debt and mitigation of the apparent bus factor of one.
+Separately, the Serpent OS project, led by Ikey Doherty (original founder and lead of Solus), reached out to offer hosting of the website to facilitate Solus’ ability to communicate with its user base and serve ISOs (which was declined). Concerned by the continuing outage and its impact on Solus users and contributors, the Serpent OS team then shared a proposal which would allow Solus to resume operations with less technical debt and mitigation of the apparent bus factor of one.
 
 This proposal was well-received by active Solus team members and led to extensive discussions and eventual agreement regarding a sensible path towards infrastructure recovery and a viable future for Solus.
 
