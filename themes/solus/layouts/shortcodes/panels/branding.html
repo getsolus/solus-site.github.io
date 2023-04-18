@@ -1,0 +1,13 @@
+{{ $site := .Site }}
+<div class="panel branding">
+    <section>
+    	<div class="brands">
+        	{{ range $brand := (slice "solus") }}
+	    	<section>
+		    	{{ partial "altimg.html" (dict "dir" "/imgs/" "image" (printf "%s.png" $brand)) }}
+			    <a class="button" href="{{ printf "%sassets/%s.zip" $site.BaseURL $brand }}" target="_blank">Download</a>
+		    </section>
+	        {{ end }}
+        </div>
+    </section>
+</div>

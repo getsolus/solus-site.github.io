@@ -1,0 +1,13 @@
+// Main
+main
+	@include row()
+	gap: $main-gap
+	@include fullWidth()
+	@include box($main-box)
+
+	> *
+		flex: 0 0 20%
+
+	@media screen and #{$mobile}
+		@include column()
+		@include box($main-box-mobile)

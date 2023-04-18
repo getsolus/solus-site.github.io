@@ -1,18 +1,4 @@
 name: Beatrice T. Meyers
 pronouns: she/her
-location: Rochester, New York
-timezone: UTC-5
-role: Project Lead
-teams:
-  - admin
-  - development
-  - infrastructure
-  - moderation
-  - packaging
-social:
-  github: "DataDrake"
-  irc: "DataDrake"
-  reddit: "DataDrake"
-  twitter: "IamDataDrake"
-  www: "https://datadrake.com"
-active: true
+role: Former Project Lead
+active: false

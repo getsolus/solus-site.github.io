@@ -1,0 +1,38 @@
+// Experience
+
+.panel
+	&.experience
+		@include row()
+		gap: $panel-exp-gap
+		align-items: normal
+		@include box($panel-exp-box)
+
+		img
+			@include box($panel-exp-img-box)
+
+		.details
+			@include box($panel-details-box)
+
+			.header
+				text-align: center
+
+				*
+					font-weight: bolder
+			section
+				@include column()
+				@include box($panel-details-section-box)
+
+				*
+					@include fullWidth()
+			h1
+				@include box($panel-details-title-box)
+
+		@media screen and #{$mobile}
+			@include column()
+			
+			.details
+				@include fullWidth()
+
+			img
+				@include fullWidth()
+				@include box($panel-exp-img-box-mobile)

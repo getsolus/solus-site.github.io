@@ -1,0 +1,21 @@
+// Resets
+*
+	@include box($reset-box)
+	color: $text
+	border: none
+	font-family: Roboto
+
+a
+	color: $link
+	cursor: pointer
+	text-decoration: none // No more underline for you!
+
+p
+	@include box($paragraph-box)
+
+img
+	border: 0
+
+input
+	&:focus
+		outline: none // Don't want any outline from user agent stylesheet.

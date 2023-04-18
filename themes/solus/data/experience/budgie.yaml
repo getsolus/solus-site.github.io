@@ -1,0 +1,10 @@
+image: "/release-images/LATEST_RELEASE/Budgie.jpg"
+header: Budgie
+description: A feature-rich, luxurious desktop using the most modern technologies.
+differentiators:
+  Raven:
+    header: Unified home for notifications and a universe of functionality.
+    description: Raven enables you to manage notifications, control media playback, control your sound devices, and more!
+  Customization:
+    header: Make it your own.
+    description: Customizing your desktop has never been simpler via our dedicated Budgie Desktop Settings app!

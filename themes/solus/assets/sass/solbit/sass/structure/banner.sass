@@ -1,0 +1,20 @@
+// Banner
+.banner
+	@include column()
+	@include fullWidth()
+	@include box($banner-box)
+
+	&.top
+		align-items: center
+		@include colors($banner-top-swatch)
+
+		h1, h2
+			@include box($banner-heading-box)
+			color: fg($banner-top-swatch)
+		h1
+			font-size: $banner-top-h1-size
+		h2
+			font-size: $banner-top-h2-size
+
+	@media screen and #{$mobile}
+		@include box($banner-box-mobile)

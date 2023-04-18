@@ -1,0 +1,9 @@
+Header: Ready To Go
+Content: "Solus ships with a variety of software out of the box so you can get going without a lot of setup fuss. See our selection of default applications below!"
+Items:
+  files: Easily manage all your documents, music, photos, videos, and more with Files.
+  firefox: We ship with Mozilla Firefox*, a fast and secure web browser.
+  gnome_mpv: Pop some popcorn and sit down to your favorite digital content via GNOME MPV.
+  rhythmbox: Play and manage your music and podcasts, as well as tune into online radio with Rhythmbox.
+  sc: No more hunting around for apps! Install and manage them right from our Software Center.
+  thunderbird: Take the hassle out of email by using the simple yet feature-rich Mozilla Thunderbird*.

@@ -1,0 +1,11 @@
+name = "Solus"
+license = "Apache-2.0"
+licenselink = "No no no, no link for you."
+description = "Solus Site theme"
+homepage = "https://getsol.us/"
+tags = ["solus"]
+features = ["being amazeballs"]
+min_version = 0.47
+[author]
+	name = "Solus Project"
+	homepage = "https://getsol.us"

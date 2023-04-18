@@ -1,0 +1,9 @@
+<div class="content blog list">
+	{{ range $blog := .posts }}
+		{{ partial "blog/info.html" (dict "blog" $blog "site" .Site) }}
+	{{ end }}
+	{{ partial "blog/paginator.html" . }}
+</div>
+<div class="sidepane">
+	{{ partial "blog/panel.html" .page }}
+</div>

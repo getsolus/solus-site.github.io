@@ -1,0 +1,19 @@
+{{ $site := .Site }}
+<!-- Beginning of Podcast Section -->
+<div class="menu column">
+    <b>Sundays with Solus</b>
+	{{- $latestEpisodeArray := first 1 $site.Data.sws -}}
+	{{- range $latestEpisode := $latestEpisodeArray }}
+	<nav>
+		<a href="{{ $latestEpisode.twis | absURL }}#sundays-with-solus">Latest Episode</a>
+	</nav>
+	{{- end -}}
+    {{ range $type := slice "mp3" "ogg" }}
+		{{ $categoryURL := printf "%s/podcasts/sundays-with-solus-%s.xml" $site.BaseURL $type }}
+        <nav>
+            <a href="{{ $categoryURL }}">{{ upper $type }}</a>
+			<a href="{{ $categoryURL}}" class="icon-rss"></a>
+        </nav>
+    {{ end }}
+</div>
+<!-- End of Podcast Section -->

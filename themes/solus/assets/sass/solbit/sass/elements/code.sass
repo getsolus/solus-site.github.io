@@ -1,0 +1,14 @@
+// Code blocks
+pre, code
+	@include colors($code-swatch)
+
+code
+	@include box($code-box)
+
+pre // ie. pre > code
+	@include box($pre-box)
+	border-radius: $code-border-radius
+	overflow-x: auto // Ensure there is a scrollbar for when code snippet lines exceed pre width.
+
+	code
+		padding: 0

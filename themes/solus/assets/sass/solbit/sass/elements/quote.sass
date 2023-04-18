@@ -1,0 +1,10 @@
+// Quote
+
+blockquote
+	@include box($quote-box)
+	@include colors($quote-swatch)
+	border-left: $quote-border-width solid $quote-border-color
+	font-style: italic
+
+	p:last-of-type
+		margin: 0

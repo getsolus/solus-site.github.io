@@ -1,0 +1,8 @@
+image: "/release-images/LATEST_RELEASE/GNOME.jpg"
+header: GNOME
+description : A finely crafted, contemporary user experience.
+differentiators:
+  Ready:
+    header: Ready out of the box.
+    description: |-
+        We ship GNOME with a variety of extensions. From transforming the app launcher and a dock with Dash to Dock, to speeding up animations with Impatience, it's ready to go from the moment you start using it.

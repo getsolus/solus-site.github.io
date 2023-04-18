@@ -1,0 +1,30 @@
+// Mixins
+
+@mixin fullWidth
+	width: 100%
+
+@mixin halfWidth
+	width: 50%
+
+// Flex Layout Mixins
+@mixin column
+	display: inline-flex
+	flex-direction: column
+
+@mixin row
+	display: inline-flex
+	flex-direction: row
+
+// Modal dialog window
+@mixin modal
+	display: none
+	flex-direction: column
+	align-items: center
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+
+	.dialog
+		@include column()

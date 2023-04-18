@@ -1,0 +1,9 @@
+image: "/release-images/LATEST_RELEASE/MATE.jpg"
+header: MATE
+description : A traditional desktop for advanced users and older hardware. 
+differentiators:
+  Brisk:
+    header: A modern menu for the MATE Desktop
+    description: |-
+        We ship MATE with the Brisk Menu, a menu that strikes a balance between preserving the traditional feel of MATE and an efficient and modern design.
+        Brisk Menu enables quick access to your applications, the Software Center, and your settings!

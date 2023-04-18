@@ -4,11 +4,7 @@ baseurl = "https://getsol.us/"
 title = "Solus"
 
 ###### Modules
-[module]
-[[module.imports]]
-    path = "github.com/getsolus/solus-hugo-theme/themes/blog"
-[[module.imports]]
-    path = "github.com/getsolus/solus-hugo-theme/themes/solus"
+
 
 ###### Content
 buildDrafts = false
@@ -29,11 +25,11 @@ enableInlineShortcodes = true
 	copyright = "2023"
 
 [params.menus]
-	main = [ "home", "about", "blog", "download", "funding", "help", "forums", "get_involved"]
+	main = [ "home", "about", "blog", "download", "funding", "forums", "matrix"]
 	footer = [ "solus", "social", "support", "press"]
-	solus = [ "about", "download", "experiences", "team", "technologies" ]
+	solus = [ "about", "download", "experiences",  "technologies" ]
 	social = [ "facebook", "mastodon", "reddit", "twitter", "twitch"]
-	support = ["dev_tracker", "forums", "funding", "help", "irc"]
+	support = ["dev_tracker", "forums", "funding", "matrix"]
 	press = ["press", "branding"]
 
 [params.menuurls]
@@ -50,8 +46,8 @@ enableInlineShortcodes = true
 	funding = "https://opencollective.com/getsolus"
 	get_involved = "/help/contributing/getting-involved/"
 	help = "help"
-	irc = "/help/contributing/getting-involved/#irc"
 	mastodon = "https://fosstodon.org/@Solus"
+	matrix = "https://matrix.to/#/#solus:matrix.org"
 	press = "press"
 	reddit = "https://www.reddit.com/r/SolusProject"
 	support_us = "/help/contributing/getting-involved/"

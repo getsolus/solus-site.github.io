@@ -1,0 +1,21 @@
+Freedesktop:
+    description: Solus leverages many open source freedesktop.org projects including systemd, as well as compliance with XDG specifications.
+    url: https://freedesktop.org/
+Git:
+    description: Every Solus project and software package is managed and developed using the powerful, versatile Git version control system.
+    url: https://git-scm.com/
+GNOME_Project:
+    description: We utilize software from the GNOME Project for a wide set of functionality across Solus, ranging from Budgie's window manager to the file manager in our main edition. Graphical tools such as DoFlicky, Linux Steam Integration, and our Software Center are built upon GTK. In addition, we offer a GNOME variant of Solus shipping the upstream GNOME Shell desktop environment.
+    url: https://gnome.org
+GNU_Project:
+    description: Many components of the GNU Project are used within Solus, including the GNU Toolchain (GCC, binutils, glibc and co), the Bourne Again Shell (BASH).
+    url: https://gnu.org
+Linux:
+    description: The Linux kernel is the absolute heart of the operating system, providing an environment for all user-land programs to operate, hardware support, networking, etc.
+    url: https://www.kernel.org/
+MATE_Desktop_Environment:
+    description: The MATE Desktop is a continuation of the GNOME 2 Desktop code base and paradigm, providing a more traditional desktop metaphor for our Solus MATE users.
+    url: https://mate-desktop.org/
+XOrg_project:
+    description: The X.Org display server forms the backbone of all desktop experiences on Solus, enabling input device support and the ability to render on screen.
+    url: https://www.x.org/wiki/

@@ -1,0 +1,59 @@
+// Team Page
+
+.team-members
+	@include row()
+	flex-wrap: wrap
+	gap: $team-gap
+	justify-content: center
+	@include fullWidth()
+
+.member
+	@include column()
+	@include box($team-member-box)
+
+	h2, h3, h4
+		@include box($team-member-head-box)
+		text-align: center
+	h2
+		font-size: $team-h2-size
+	h3
+		font-size: $team-h3-size
+	h4
+		font-size: $team-h4-size
+
+	.avatar
+		@include row()
+		gap: $team-avatar-gap
+		align-items: center
+		justify-content: center
+		@include box($team-avatar-box)
+
+		object
+			@include box($team-object-box)
+			background: $team-missing-color url("/imgs/avatars/default.png") no-repeat
+			background-size: $team-object-bg-size
+			background-position: center
+			border-radius: $team-object-radius
+			border: $team-object-border-width solid $team-border-color
+
+						
+	.social, .teams
+		@include column()
+		justify-content: center
+		@include box($team-icons-box)
+
+	.social
+		a
+			@include box($team-social-box)
+			@include colors($team-social-swatch)
+			font-size: $team-social-font-size
+
+	.teams
+		gap: $teams-gap
+		b
+			@include box($teams-icon-box)
+			@include colors($teams-swatch)
+			border-radius: $teams-icon-radius
+			font-size: $teams-icon-font-size
+			font-weight: bold
+			text-align: center

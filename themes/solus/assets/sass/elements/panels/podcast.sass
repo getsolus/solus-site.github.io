@@ -1,0 +1,21 @@
+// Podcast
+
+.panel
+	&.podcast
+		@include panel-colors($panel-podcast-swatch)
+		img
+			@include box($podcast-img-box)
+
+		.podcast-types
+			@include row()
+			gap: $podcast-gap
+			@include box($podcast-types-box)
+
+			.menu
+				@include column()
+				gap: $podcast-gap
+				@include fullWidth()
+				@include box($podcast-menu-box)
+
+				> *
+					@include fullWidth()

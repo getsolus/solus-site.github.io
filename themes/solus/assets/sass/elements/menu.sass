@@ -1,0 +1,17 @@
+// Menu
+
+.menu
+	&.column
+		@include column()
+		@include box($menu-column-box)
+		border-left: 1px solid $menu-column-border
+
+		b
+			@include box($menu-column-title-box)
+			font-size: $menu-column-title-font-size
+
+		nav
+			justify-content: space-between
+
+			a
+				display: inline-block

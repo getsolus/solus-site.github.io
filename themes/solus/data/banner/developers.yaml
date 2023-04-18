@@ -1,0 +1,10 @@
+Header: For developers
+Content: "With Solus, you can spend less time setting up tooling and more time coding. We support a wide variety of editors, programming languages, compilers, and version control 
+systems, as well as containerization / virtualization technology such as Docker* and Vagrant*. Whether you're writing drivers in C or writing backend web services in Go,
+we have software that will fit your needs."
+Items:
+  editor: |
+    Powerful editors and IDEs readily available, such as: Atom, Idea, GNOME Builder, Qt Creator, Visual Studio Code*.
+  vcs: Support for Bazaar, Git, Mercurial, SVN. Graphical tools like GitKraken* and git-cola.
+  lang: |
+    Support for many languages, including: Go, Rust, PHP, Node.js, Ruby, and many more.

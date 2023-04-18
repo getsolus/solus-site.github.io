@@ -1,0 +1,24 @@
+{{ $site := .Page.Site}} {{ $class := .Get "class" }} {{ $ext := default "png"
+(.Get "ext") }}
+
+<div class="panel showcase full-width  {{ $class }}">
+  {{ $bannerInfo := index $site.Data.banner (replace $class "-" "") }}
+  <section>
+    <h1>{{ $bannerInfo.Header }}</h1>
+    <p>{{ $bannerInfo.Content }}</p>
+  </section>
+  <div class="items">
+    {{ range $item, $description := $bannerInfo.Items }}
+    <section>
+      {{ $alt := $item | title }} {{ if eq $item "gnome_mpv" }} {{ $alt :=
+      "GNOME MPV" }} {{ end }}
+      <img
+        class="{{ $item }}"
+        alt="{{ $alt }}"
+        src="{{ $site.BaseURL }}/imgs/panels/icons/{{ $item }}.{{ $ext }}"
+      />
+      <p>{{ $description }}</p>
+    </section>
+    {{ end }}
+  </div>
+</div>

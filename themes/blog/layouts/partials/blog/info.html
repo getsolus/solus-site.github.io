@@ -1,0 +1,39 @@
+{{ $blog := .blog }}
+{{ $site := .site }}
+{{ $isfeatured := .isfeatured }}
+
+{{ if isset $blog.Params "author" }}
+	{{ $author := (index $site.Data.team $blog.Params.author) }}
+	{{ if isset $blog.Params "categories" }}
+		<!-- Beginning of Post Info -->
+		<div class="info" {{ if eq $isfeatured "no" }}itemscope itemtype="http://schema.org/NewsArticle"{{end}}>
+			<meta itemprop="datePublished" content="{{ $blog.Date }}" />
+			<meta itemprop="dateModified" content="{{ $blog.Lastmod }}" />
+			<meta itemprop="headline" content="{{ if isset $blog.Params "notitle" }}{{ replace ($blog.Title) "'S" "'s" }}{{ else }}	{{ replace (title $blog.Title) "'S" "'s" }}{{ end }}" />
+			<h1><a href="{{ $blog.Permalink }}">
+				{{ $sortS := replace ($blog.Title) "'S" "'s" }}
+				{{ replace $sortS " | t" " | T" }}
+			</a></h1>
+            <div class="meta">
+			    <section itemprop="author" itemscope itemtype="https://schema.org/Person">
+							<span itemprop="name">{{ $author.name }}</span>&nbsp;<span itemprop="jobTitle">({{ $author.role }})</span>
+					</section>
+			    <section>
+							<span> {{ dateFormat "January 2, 2006" $blog.Date }} </span>
+					</section>
+					{{ $categoriesLength := len $blog.Params.categories }}
+					{{ $categoriesURL := "categories/" | absLangURL }}
+					{{- if ne $categoriesLength 0 }}
+							<section class="menu">
+									<nav>
+										{{ range $category := $blog.Params.categories }}
+										<a class="tag" href="{{ $categoriesURL }}{{ lower $category }}">{{- if eq $category "twis"}}TWIS{{ else }}{{ title $category }}{{ end -}}</a>
+										{{ end }}
+									</nav>
+							</section>
+					{{ end }}
+			</div>
+		</div>
+		<!-- End of Post Info -->
+	{{ end }}
+{{ end }}

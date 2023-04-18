@@ -1,0 +1,17 @@
+// Branding Panel
+
+.panel
+	&.branding
+		.brands
+			@include row()
+			justify-content: center
+			@include fullWidth()
+
+			section
+				@include column()
+				align-items: center
+				@include box($panel-brands-box)
+				@include colors($panel-branding-swatch)
+
+				img
+					@include box($panel-brands-img-box)

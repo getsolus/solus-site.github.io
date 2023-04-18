@@ -1,0 +1,19 @@
+{{ $title := .Page.Title }}
+<div class="panel row full-width centered solus">
+  <img alt="Laptop" src="{{ .Site.BaseURL }}/imgs/panels/solus/laptop.png" />
+  <section class="center">
+    <h1>Solus</h1>
+    <p>
+      Solus is an operating system that is designed for home computing. Every
+      tweak enables us to deliver a cohesive computing experience.
+    </p>
+    <div class="menu">
+      <nav>
+        {{ if eq $title "home"}}
+        <a class="button hover inverse" href="/solus/about">Learn More</a>
+        {{ end }}
+        <a class="button hover inverse" href="/download">Download</a>
+      </nav>
+    </div>
+  </section>
+</div>

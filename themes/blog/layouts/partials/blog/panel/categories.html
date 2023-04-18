@@ -1,0 +1,13 @@
+{{ $site := .Site }}
+<!-- Beginning of Categories -->
+<div class="menu column">
+    <b>Categories</b>
+    {{ range $category := $site.Params.category }}
+		{{ $categoryURL := printf "categories/%s" $category | absLangURL }}
+        <nav>
+            <a href="{{ $categoryURL }}">{{ if ne $category "twis" }}{{ title $category }}{{ else  }}TWIS{{ end }}</a>
+            <a href="{{ $categoryURL}}/index.xml" class="icon-rss"></a>
+        </nav>
+    {{ end }}
+</div>
+<!-- End of Categories -->

@@ -1,0 +1,42 @@
+// Scalable UX
+
+.downloads
+	@include row()
+	flex-wrap: wrap
+	gap: $downloads-gap
+	justify-content: center
+	@include fullWidth()
+	@include box($downloads-box)
+
+	.edition
+		@include column()
+		@include box($downloads-edition-box)
+		@include colors($downloads-swatch)
+
+	.title, .obtain, .more
+		@include box($downloads-section-box)
+
+	.title
+		@include box($downloads-title-box)
+		text-align: center
+		margin-block-end: 2vh
+
+	h2, h3
+		@include box($downloads-head-box)
+
+	.obtain
+		@include row()
+		gap: $downloads-obtain-gap
+		@include fullWidth()
+
+		section
+			@include halfWidth()
+
+	.download
+		@include column()
+		justify-content: center
+
+	@media screen and #{$mobile}
+		@include column()
+		.edition
+			@include fullWidth()

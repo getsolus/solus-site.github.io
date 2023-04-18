@@ -1,0 +1,9 @@
+// Pagination
+.pages
+	@include row()
+	@include fullWidth()
+	@include box($pages-box)
+
+	a
+		@extend %proto-button
+		@include box($pages-button-box)

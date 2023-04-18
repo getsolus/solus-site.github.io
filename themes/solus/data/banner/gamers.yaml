@@ -1,0 +1,9 @@
+Header: For gamers
+Content: "Many fantastic open source games are available natively for Solus, along with support for many
+gamepads and controllers. Within minutes you can be playing all your own Steam* titles for Linux, with a
+modern, optimised gaming runtime and no setup hassles."
+Items:
+  gamepad: Gamepad and controller software such as antimicro and sc-controller.
+  platform: Support for gaming platforms like Itch.io, Lutris, and Steam*.
+  titles: |
+    Many free and open source titles including: Freeciv, OpenTTD, Red Eclipse, and Warzone 2100.

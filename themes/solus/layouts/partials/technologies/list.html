@@ -1,0 +1,14 @@
+{{ $title := .title }}
+{{ $list := .list }}
+<div class="list">
+    <h2>{{ $title }}</h2>
+    <ol>
+	{{ range $key, $data := $list }}
+		{{ $projectName := replace $key "_" " " }}
+		<li>
+			<a href="{{ $data.url }}" target="_blank">{{ $projectName }}</a>
+			<p>{{ $data.description }}</p>
+		</li>
+	{{ end }}
+    </ol>
+</div>

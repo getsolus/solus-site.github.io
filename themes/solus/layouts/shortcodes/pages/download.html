@@ -1,0 +1,49 @@
+{{ $site := .Site }}
+<div class="downloads">
+{{ range $edition := (slice "Budgie" "GNOME" "MATE" "Plasma") }}
+	{{ $editionInfo := (index $site.Data.isos.info $edition )}}
+	{{ $release := printf "Solus-%s-%s" $site.Data.isos.info.Version $edition }}
+	{{ $editionISO := printf "%s.iso" $release }}
+	{{ $isoURL := printf "https://mirrors.rit.edu/solus/images/%s/%s" $site.Data.isos.info.Version $editionISO | safeURL }}
+	<div class="edition">
+		<img alt="Solus {{ $edition }} Image" src="{{ $site.BaseURL}}/imgs/release-images/{{ $site.Data.isos.info.Version }}/{{ $edition }}.jpg" />
+        <section class="title">
+		    <h2>Solus {{ $edition  }}</h1>
+		    <h3>{{ $editionInfo.description }}</h2>
+        </section>
+		<div class="obtain">
+			<section class="download">
+				<a href="{{ $isoURL }}" target="_blank" class="button">Download</a>
+			</section>
+			<section class="info">
+				Media Size: {{ $editionInfo.mediasize }}<br />
+				{{ $torrent := printf "%s%s.torrent" $site.Data.isos.info.TorrentLocation $release | safeURL }}
+				Alternative Download: <a href="{{ $torrent }}">Torrent</a><br />
+				SHA256SUMS: <a href="{{ $isoURL }}.sha256sum" target="_blank">File</a> | <a href="{{ $isoURL }}.sha256sum.sign" target="_blank">Signed File</a> | <a href="https://getsol.us/releases/joshua-strobl.gpg" target="_blank">Public Key</a>
+			</section>
+		</div>
+	</div>
+{{ end }}
+	<div class="edition">
+        <section class="more">
+            <h2> More Information </h1>
+            <h3> System Requirements </h2>
+            <ul>
+                <li> A blank DVD or a 2GB+ USB drive. </li>
+                <li> Minimum of 10GB of disk space available. </li>
+                <li> 4GB of RAM for an optimal experience. </li>
+                <li> A 64-bit (x86_64) processor. </li>
+            </ul>
+
+            <h3> Need assistance? </h2>
+
+            <p>
+                First off, check our <a href="/help/installation/preparing-to-install/en/">Installation</a> guide for determining what software to use to burn or write the Solus ISO to a DVD or USB drive. If your system is UEFI-enabled, we also recommend following our <a href="/help/installation/disks/en/">UEFI</a> guide.
+            </p>
+            <p>
+                If you still have questions, feel free to <a href="/help/contributing/getting-involved#irc">reach out</a>!
+            </p>
+            {{ partial "donate" }}
+		</section>
+	</div>
+</div>

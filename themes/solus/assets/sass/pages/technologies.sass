@@ -1,0 +1,31 @@
+// Technologies Page
+
+.technologies
+	@include row()
+	gap: $tech-gap
+	justify-content: center
+	@include fullWidth()
+
+	.list
+		@include box($tech-box)
+
+		h2
+			@include box($tech-head-box)
+		h2
+			@include colors($technologies-swatch)
+		ol
+			@include box($tech-list-box)
+			list-style-type: none
+		h2,li
+			@include box($tech-li-box)
+		a
+			@include box($tech-link-box)
+			font-size: 1.5em
+			font-weight: bold
+
+	@media screen and #{$mobile}
+		@include column()
+
+		.list
+			@include fullWidth()
+			@include box($tech-box-mobile)

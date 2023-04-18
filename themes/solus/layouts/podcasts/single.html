@@ -1,0 +1,45 @@
+{{- $site := .Site -}}
+{{- $page := .Page -}}
+{{- $type := $page.Params.feedtype -}}
+{{- $latestEpisodeArray := first 1 $site.Data.sws -}}
+{{- $swsDescription := "A bi-weekly podcast covering the latest news from the Solus project." -}}
+{{ "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<atom:link href="{{ $site.BaseURL }}podcasts/sundays-with-solus-{{$type}}.xml" rel="self" type="application/rss+xml" />
+		<language>en-us</language>
+		<title>Sundays with Solus ({{ upper $type }})</title>
+		<description>{{ $swsDescription }}</description>
+		<itunes:subtitle>{{ $swsDescription }}</itunes:subtitle>
+		<itunes:author>Solus Project</itunes:author>
+		<itunes:category text="Technology">
+			<itunes:category text="Tech News" />
+		</itunes:category>
+		<itunes:explicit>No</itunes:explicit>
+		<itunes:image href="{{ $site.BaseURL}}imgs/podcasts/sundays-with-solus/large.jpg" />
+		<itunes:keywords>solus, linux, technology, open source</itunes:keywords>
+		<itunes:owner>
+			<itunes:name>Solus Project</itunes:name>
+			<itunes:email>joshua@getsol.us</itunes:email>
+		</itunes:owner>
+		<itunes:summary>{{ $swsDescription }}</itunes:summary>
+		<link>{{ $site.BaseURL }}</link>
+		<copyright>Copyright 2016-{{ $site.Params.copyright }} Solus Project</copyright>
+		{{- range $latestEpisode := $latestEpisodeArray }}
+		<lastBuildDate>{{ $latestEpisode.date | safeHTML }}</lastBuildDate>
+		{{- end -}}
+		{{- range $info := $site.Data.sws }}
+		{{- $mediaURL := printf "%s/podcastmedia/sundays-with-solus/%s.%s" $site.BaseURL $info.episode (lower $type) -}}
+		<item>
+			<title>Sundays with Solus #{{ $info.episode }}</title>
+			<itunes:summary>{{ $info.description }}</itunes:summary>
+			<itunes:image href="{{ $site.BaseURL}}imgs/podcasts/sundays-with-solus/large.jpg" />
+			<enclosure length="{{- if eq $type "mp3" -}}{{- index $info.length 0 -}}{{- else -}} {{- index $info.length 1 -}}{{- end -}}" url="{{ $mediaURL }}" type="audio/{{ $type }}"></enclosure>
+			<description>{{ $info.description }}</description>
+			<link>{{ $mediaURL }}</link>
+			<guid isPermalink="false">{{ $mediaURL }}</guid>
+			<pubDate>{{ $info.date | safeHTML }}</pubDate>
+		</item>
+		{{ end -}}
+	</channel>
+</rss>

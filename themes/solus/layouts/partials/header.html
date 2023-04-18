@@ -1,0 +1,44 @@
+{{ $site := .Site }}
+{{ $menus := index $site.Params.menus "main" }}
+<!-- Beginning of Solus Site Header -->
+<header>
+    <div class="bar">
+	    <a href="{{ .Site.BaseURL }}" class="logo">
+            {{ partial "altimg.html" (dict "image" "logo.jpg" "dir" "/imgs/" ) }}
+        </a>
+	    {{- $pagePermalink := .Permalink -}}
+        <div class="menu">
+	        <nav>
+		    {{ range $id := $menus}}
+			    {{ $name := title (replace $id "_" " ") }}
+			    {{ $url := index $site.Params.menuurls $id }}
+			    {{ if hasPrefix $url "http" }}
+				    <a href="{{ safeURL $url }}" target="_blank">{{ $name }}</a>
+			    {{ else }}
+				    <a href="{{ $url | absLangURL }}">{{ $name }}</a>
+			    {{ end }}
+		    {{ end }}
+            </nav>
+        </div>
+    	<button>
+            <label class="icon-menu" for="toggle"></label>
+        </button>
+	</div>
+
+    <input type="checkbox" id="toggle">
+
+    <div class="overlay">
+        <nav>
+	    {{ range $id := $menus}}
+		    {{ $name := title (replace $id "_" " ") }}
+		    {{ $url := index $site.Params.menuurls $id }}
+		    {{ if hasPrefix $url "http" }}
+			    <a href="{{ safeURL $url }}" target="_blank">{{ $name }}</a>
+		    {{ else }}
+			    <a href="{{ $url | absLangURL }}">{{ $name }}</a>
+		    {{ end }}
+	    {{ end }}
+        </nav>
+    </div>
+</header>
+<!-- End of Solus Site Header -->

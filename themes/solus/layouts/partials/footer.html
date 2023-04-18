@@ -1,0 +1,39 @@
+{{ $site := .Site }}
+<!-- Beginning of Solus Site Footer -->
+<footer>
+	{{ range $submenuName := index $site.Params.menus "footer" }}
+	<div class="menu">
+		<b>{{ title $submenuName  }}:</b>
+		<nav {{ if eq $submenuName "social"}}itemscope itemtype="http://schema.org/Organization"{{end}}>
+			{{ if eq $submenuName "social"}}<link itemprop="url" href="{{ $site.BaseURL }}" />{{end}}
+			{{ range $menuItem := index $site.Params.menus $submenuName }}
+				{{ $name := title (replace $menuItem "_" " ") }}
+				{{ $name := replace $name " Plus" "+" }}
+				{{ $url := index $site.Params.menuurls $menuItem }}
+
+				{{ if and (hasPrefix $url "http") (ne $menuItem "irc") }}
+					<a {{ if eq $submenuName "social"}}itemprop="sameAs"{{end}} href="{{ safeURL $url }}">{{ $name }}</a>
+				{{ else if eq $menuItem "irc" }}
+					<a href="{{ safeURL $url }}">{{ upper $menuItem }}</a>
+				{{ else }}
+					<a href="{{ $url | absLangURL }}">{{ $name }}</a>
+				{{ end }}
+			{{ end }}
+		</nav>
+	</div>
+	{{ end }}
+    <div class="legal">
+		<p>
+			Copyright <a href="mailto:copyright@getsol.us">&copy; 2015-{{ .Site.Params.copyright }} Solus Project</a>. The Solus logo is Copyright <a href="mailto:copyright@getsol.us">&copy; 2015-{{ .Site.Params.copyright }} Solus Project</a>. All rights reserved.
+        </p>
+        <p>
+            Laptop graphic provided by Clyde Goodall. <br />
+            Application icons provided by the <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme" target="_blank">Papirus Icon Theme</a>. <br />
+            Other icons provided by <a href="https://forkaweso.me">Fork Awesome</a> under the <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a> License.
+		</p>
+		 <p>
+			* Other names and brands may be claimed as the property of others
+		</p>
+	</div>
+    {{ partial "donate" }}
+</footer>

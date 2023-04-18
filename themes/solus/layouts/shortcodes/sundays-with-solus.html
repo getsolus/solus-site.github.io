@@ -1,0 +1,27 @@
+{{ $site := .Site }}
+{{ $episode := index .Params "episode" }}
+<!-- Begin Sundays with Solus player -->
+<div class="panel row podcast">
+	<img src="{{ $site.BaseURL }}/imgs/podcasts/sundays-with-solus/small.jpg" />
+	{{ range where $site.Data.sws "episode" "==" $episode }}
+	<section>
+		<h1>Sundays with Solus #{{$episode}}</h1>
+		{{ $splitDate := split .date "+" }}
+		<p type="date">{{ index $splitDate 0 }}</p>
+		<p type="description">{{ .description }}</p>
+		<div class="podcast-types">
+			{{ range $type := (slice "mp3" "ogg") }}
+			<div class="menu">
+				{{ $mediaURL := printf "%s/podcastmedia/sundays-with-solus/%s.%s" $site.BaseURL $episode $type }}
+				<b>{{ upper $type }}</b>
+				<audio controls src="{{ $mediaURL }}"></audio>
+				<nav>
+					<a href="{{ $mediaURL }}">Download</a>
+					<a href="{{ $site.BaseURL }}podcasts/sundays-with-solus-{{$type}}.xml">RSS Feed</a>
+				</nav>
+			</div>
+		{{ end }}
+		</div>
+	</section>
+	{{ end }}
+</div>

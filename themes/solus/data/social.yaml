@@ -1,0 +1,21 @@
+fosstodon:
+  fmt: "https://fostodon.org/%s"
+  icon: mastodon
+github:
+  fmt: "https://github.com/%s"
+  icon: github
+irc:
+  fmt: "irc://libera.chat/%s,isuser"
+  icon: irc
+mastodon:
+  fmt: "https://fostodon.org/%s"
+  icon: mastodon
+reddit:
+  fmt: "https://reddit.com/u/%s"
+  icon: reddit
+twitter:
+  fmt: "https://twitter.com/%s"
+  icon: twitter
+www:
+  fmt: "%s"
+  icon: www

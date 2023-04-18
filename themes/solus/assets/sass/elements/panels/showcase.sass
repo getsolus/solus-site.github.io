@@ -1,0 +1,19 @@
+// Showcase
+
+.panel
+	&.showcase
+		> section
+			align-items: center
+		.items
+			@include row()
+			flex-wrap: wrap
+			justify-content: center
+			gap: $showcase-items-gap
+			@include fullWidth()
+
+			section
+				@include row()
+				gap: $showcase-section-gap
+				@include box($showcase-section-box)
+				img
+					@include box($showcase-img-box)

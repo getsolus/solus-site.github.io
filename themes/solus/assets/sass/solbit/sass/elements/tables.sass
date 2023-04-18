@@ -1,0 +1,26 @@
+// Tables
+table
+	@include box($table-box)
+	border-collapse: collapse
+	border: $table-border-width solid bg($table-header-swatch)
+
+	th, td
+		@include box($table-cell-box)
+		text-align: left
+	tr
+		@include box($table-row-box)
+
+	thead // Table Header
+		@include box($table-head-box)
+		background: bg($table-header-swatch)
+
+		th
+			color: fg($table-header-swatch)
+	tbody
+		background: $table-cell-odd
+		tr
+			&:nth-child(even)
+				background: $table-cell-even
+
+	@media screen and #{$mobile}
+		@include fullWidth()

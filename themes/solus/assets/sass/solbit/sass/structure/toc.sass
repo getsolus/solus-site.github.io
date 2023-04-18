@@ -1,0 +1,24 @@
+// Table of Contents
+.toc
+	@include column()
+	align-items: end
+	@include box($toc-box)
+
+	> h1
+		font-size: $toc-heading-font-size
+
+	nav
+		@include box($toc-nav-box)
+		@include colors($toc-swatch)
+
+		h1, h2
+			color: fg($toc-swatch)
+			text-align: left
+			font-size: $toc-nav-font-size
+		h1
+			font-weight: bold
+		h2
+			padding-left: $toc-nav-indent
+
+	@media screen and #{$mobile}
+		display: none

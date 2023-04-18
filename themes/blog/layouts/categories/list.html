@@ -1,0 +1,45 @@
+{{ define "banner" }}
+
+{{ $blogPosts := .Paginator.Pages }}
+{{ $firstBlog := (index $blogPosts 0) }}
+{{ if and (isset $firstBlog.Params "featuredimage") (ne $firstBlog.Params.featuredimage "") }}
+	<!-- Beginning of Featured Blog Post -->
+	<div class="panel row blog" itemscope itemtype="http://schema.org/NewsArticle">
+		<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="{{ $firstBlog.Permalink | absURL }}"/>
+		<section>
+			{{ partial "blog/info.html" (dict "blog" $firstBlog "site" .Site) }}
+			{{ if ge (len $firstBlog.Summary) 397 }}
+				<p itemprop="description">{{- htmlUnescape (plainify (safeHTML (substr $firstBlog.Summary 0 397))) -}}...</p>
+			{{ else }}
+				<p itemprop="description">{{- htmlUnescape (plainify (safeHTML $firstBlog.Summary)) -}}</p>
+			{{ end }}
+            <div class="menu">
+                <nav>
+			        <a class="button inverse" href="{{ $firstBlog.Permalink }}">Read More</a>
+                </nav>
+            </div>
+		</section>
+		{{ $url := (printf "%s/%s" $firstBlog.Params.url $firstBlog.Params.featuredimage) | absURL }}
+        <img alt="{{ $firstBlog.Title }}" src="{{ $url }}"></img>
+	</div>
+	<!-- End of Featured Blog Post -->
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+<main>
+    {{ $blogPosts := .Paginator.Pages }}
+    {{ $firstBlog := (index $blogPosts 0) }}
+    {{ if and (isset $firstBlog.Params "featuredimage") (ne $firstBlog.Params.featuredimage "") }}
+    	<!-- All Other Blog Posts -->
+        {{ if gt (len $blogPosts) 1 }}
+            {{ partial "blog/list.html" (dict "posts" (after 1 $blogPosts) "paginator" .Paginator "site" .Site "page" . ) }}
+        {{ end }}
+    	<!-- End of Other Blog Posts -->
+    {{ else }}
+    	<!-- Beginning of Generic Blog List -->
+        {{ partial "blog/list.html" (dict "posts" $blogPosts "paginator" .Paginator "site" .Site "page" . ) }}
+    	<!-- End of Generic Blog List -->
+    {{ end }}
+</main>
+{{ end }}

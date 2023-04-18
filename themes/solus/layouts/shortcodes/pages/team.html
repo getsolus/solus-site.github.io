@@ -1,0 +1,26 @@
+{{ $site := .Site }}
+{{ range $id, $member := $site.Data.team }}
+{{ if $member.active }}
+<div class="member">
+    <h2>{{ $member.name }}{{if $member.pronouns }}</h2>
+    <h4>({{ $member.pronouns }}){{ end }}</h4>
+    <div class="avatar">
+        <section class="teams">
+        {{ range $team := $member.teams }}
+            <b>{{ substr $team 0 1 | upper }}</b>
+        {{ end }}
+        </section>
+	    <object alt="{{ $member.name }}" data="{{ printf "imgs/avatars/%s.jpg" $id | absURL }}" type="image/jpeg"></object>
+        <section class="social">
+        {{ range $network, $user := $member.social }}
+            {{ $social := index $site.Data.social $network }}
+            <a alt="{{ $network | title }}" class="icon-{{ $social.icon }}" href="{{ printf (string $social.fmt) $user | safeURL }}"></a>
+        {{ end }}
+        </section>
+    </div>
+    <h2>{{ $member.role }}</h2>
+    <h3>{{ $member.location }}</h3>
+    <h4>{{ $member.timezone }}</h4>
+</div>
+{{ end }}
+{{ end }}

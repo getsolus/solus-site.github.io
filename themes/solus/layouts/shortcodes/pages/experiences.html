@@ -1,0 +1,23 @@
+{{ $site := .Site }}
+{{ range $name, $experienceInfo := $site.Data.experience }}
+<div class="panel experience">
+	{{ $releaseImage := replace $experienceInfo.image "LATEST_RELEASE" (index $site.Data.isos.info "Version") }}
+	<img alt="{{ $experienceInfo.header }}" src="{{$site.BaseURL}}/imgs/{{ $releaseImage }}" />
+	<div class="details">
+        <section class="header {{ $name }}">
+    		<h1>{{ $experienceInfo.header }}</h1>
+    		<p>{{ $experienceInfo.description }}</p>
+    	</section>
+        <section>
+        {{ $differentiators := index $experienceInfo "differentiators" }}
+    	{{ range $differentiator := $differentiators }}
+    	<h2>{{ $differentiator.header }}</h2>
+    	{{ $paragraphs := split $differentiator.description "\n" }}
+    	{{ range $paragraph := $paragraphs }}
+    	<p>{{ chomp $paragraph }}</p>
+    	{{ end }}
+    	{{ end }}
+        </section>
+	</div>
+</div>
+{{ end }}

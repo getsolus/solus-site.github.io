@@ -1,0 +1,40 @@
+Brisk_Menu:
+    description: An efficient menu for the MATE Desktop
+    type: desktop
+    url: https://github.com/getsolus/brisk-menu
+DoFlicky:
+    description: Simplistic driver detection and management utility specifically for Solus.
+    type: desktop
+    url: https://github.com/getsolus/doflicky
+ferryd:
+    description: The binary repository manager for Solus.
+    type: tooling
+    url: https://github.com/getsolus/ferryd
+Linux_Driver_Management:
+    description: Provides functionality required for integration of drivers into modern Linux distributions.
+    type: other
+    url: https://github.com/getsolus/linux-driver-management
+Linux_Steam_Integration:
+    description: Helper for enabling better Steam integration on Linux.
+    type: desktop
+    url: https://github.com/getsolus/linux-steam-integration
+MATE_Notification_Theme_Slate:
+    description: A MATE Notification theme, emulating the Arc-styled Budgie notifications of Solus.
+    type: desktop
+    url: https://github.com/getsolus/mate-notification-theme-slate
+Solus_Software_Center:
+    description: Software Center of Solus.
+    type: desktop
+    url: https://github.com/getsolus/solus-sc
+solbit:
+    description: Solbit is the unified component styling and JavaScript for Budgie and Solus brand assets.
+    type: other
+    url: https://github.com/getsolus/solbit
+solbuild:
+    description: The Solus package build system
+    type: tooling
+    url: https://github.com/getsolus/solbuild
+ypkg:
+    description: Modern, declarative, structured build format
+    type: tooling
+    url: https://github.com/getsolus/ypkg
