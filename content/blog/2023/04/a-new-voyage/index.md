@@ -174,9 +174,9 @@ What we are proposing is that, alongside its day-to-day operations, we will begi
 This would elegantly address several longstanding concerns in how to evolve Solus and bring it into the brave new future. Adopting the the Serpent OS tools and processes would enable Solus to:
 
 1. Shed technical debt in terms of tools and development processes
-   2 Offer seamlessly integrated from-source user repositories, finally making the much asked for Solus User Repository a reality, as well enabling users to self-host personal from-source repositories
-2. Become an atomic and immutable operating system with the benefits that this entails in terms of reliability and security
-3. Be ported to other architectures than x86_64, such as AArch64 and RISC-V, in the future
+2. Offer seamlessly integrated from-source user repositories, finally making the much asked for Solus User Repository a reality, as well enabling users to self-host personal from-source repositories
+3. Become an atomic and immutable operating system with the benefits that this entails in terms of reliability and security
+4. Be ported to other architectures than x86_64, such as AArch64 and RISC-V, in the future
 
 This would be married to the traditional Solus approach of a resilient, curated rolling release with its mantra “install once, update forever”.
 
