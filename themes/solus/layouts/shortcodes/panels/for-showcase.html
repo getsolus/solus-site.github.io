@@ -1,7 +1,7 @@
 {{ $site := .Page.Site}} {{ $class := .Get "class" }} {{ $ext := default "png"
 (.Get "ext") }}
 
-<div class="panel showcase full-width  {{ $class }}">
+<div class="panel showcase full-width  {{ $class }} rd-md">
   {{ $bannerInfo := index $site.Data.banner (replace $class "-" "") }}
   <section>
     <h1>{{ $bannerInfo.Header }}</h1>

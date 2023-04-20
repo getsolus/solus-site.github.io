@@ -1,5 +1,5 @@
 {{ $title := .Page.Title }}
-<div class="panel row full-width centered solus">
+<div class="panel row full-width centered solus rd-md">
   <img alt="Laptop" src="{{ .Site.BaseURL }}/imgs/panels/solus/laptop.png" />
   <section class="center">
     <h1>Solus</h1>
@@ -10,9 +10,9 @@
     <div class="menu">
       <nav>
         {{ if eq $title "home"}}
-        <a class="button hover inverse" href="/solus/about">Learn More</a>
+        <a class="button hover inverse rd-sm" href="/solus/about">Learn More</a>
         {{ end }}
-        <a class="button hover inverse" href="/download">Download</a>
+        <a class="button hover inverse rd-sm" href="/download">Download</a>
       </nav>
     </div>
   </section>

@@ -1,6 +1,6 @@
 {{ $class := .Get "class" }}
 
-<div class="panel bottom full-width  {{ $class }}">
+<div class="panel bottom full-width  {{ $class }} rd-md">
   <section class="center">
     {{ $bannerInfo := index .Site.Data.banner (replace $class "-" "") }}
     <h1>{{ $bannerInfo.Header }}</h1>
