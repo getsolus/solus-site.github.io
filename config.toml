@@ -25,12 +25,12 @@ enableInlineShortcodes = true
 	copyright = "2023"
 
 [params.menus]
-	main = [ "home", "about", "blog", "download", "funding", "forums", "matrix"]
+	main = [ "home", "about", "blog", "download", "dev_tracker", "forums", "funding", "help", "matrix"]
 	footer = [ "solus", "social", "support", "press"]
 	solus = [ "about", "download", "experiences",  "technologies" ]
-	social = [ "facebook", "mastodon", "reddit", "twitter", "twitch"]
-	support = ["dev_tracker", "forums", "funding", "matrix"]
-	press = ["press", "branding"]
+	social = [ "facebook", "mastodon", "reddit", "twitch", "twitter"]
+	support = ["dev_tracker", "forums", "funding", "help", "matrix"]
+	press = ["branding", "press"]
 
 [params.menuurls]
 	about = "/solus/about"
@@ -45,7 +45,7 @@ enableInlineShortcodes = true
 	forums = "https://discuss.getsol.us"
 	funding = "https://opencollective.com/getsolus"
 	get_involved = "/help/contributing/getting-involved/"
-	help = "help"
+	help = "https://help.getsol.us/"
 	mastodon = "https://fosstodon.org/@Solus"
 	matrix = "https://matrix.to/#/#solus:matrix.org"
 	press = "press"
