@@ -1,0 +1,14 @@
+name: Silke Hofstra
+pronouns: he/him
+location: The Netherlands
+timezone: UTC+1
+role:
+  - Maintainer
+teams:
+  - moderation
+  - infrastructure
+  - packaging
+social:
+  github: "silkeh"
+  matrix: "@silex:slxh.eu"
+active: true
