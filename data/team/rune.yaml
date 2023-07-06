@@ -1,0 +1,17 @@
+name: Rune Morling
+pronouns: he/him
+location: Denmark
+timezone: UTC+1
+role:
+  - Cat herder (or Co-ordinator if you prefer that)
+  - Maintainer
+  - Process guy
+teams:
+  - admin
+  - comms
+  - development
+  - packaging
+social:
+  github: "ermo"
+  matrix: "@ermo_:matrix.org"
+active: true
