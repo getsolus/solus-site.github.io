@@ -1,0 +1,15 @@
+name: David Harder
+pronouns: he/him
+location: Manitoba, Canada
+timezone: UTC-5
+role:
+  - Maintainer
+teams:
+  - comms
+  - moderation
+  - packaging
+social:
+  github: "davidjharder"
+  matrix: "@davidjharder:matrix.org"
+  reddit: "davidjharder"
+active: true
