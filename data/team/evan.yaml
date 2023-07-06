@@ -1,0 +1,16 @@
+name: Evan Maddock
+pronouns: he/him
+location: New York, USA
+timezone: UTC-4
+role:
+- Budgie Keeper
+- Social Media Poster
+- Maintainer
+teams:
+- comms
+- packaging
+- development
+social:
+github: "EbonJaeger"
+matrix: "@ebonjaeger:matrix.org"
+active: true
