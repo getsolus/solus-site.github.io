@@ -1,4 +1,11 @@
 name: Ikey Doherty
 pronouns: he/him
 role: Founder
-active: false
+active: true
+timezone: UTC
+role: What ever he wants :)
+social:
+  github: "ikeycode"
+  matrix: "@ikeydoherty:matrix.org"
+  twitter: "ikey_doherty"
+active: true
