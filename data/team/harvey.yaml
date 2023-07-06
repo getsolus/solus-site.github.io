@@ -1,0 +1,15 @@
+name: Troy Harvey
+pronouns: he/him
+location: Sydney, Australia
+timezone: UTC+10
+role:
+  - Maintainer
+teams:
+  - admin
+  - moderation
+  - packaging
+social:
+  github: "HarveyDevel"
+  matrix: "@harveydevel:matrix.org"
+  reddit: "TheHarveyBirdman"
+active: true
