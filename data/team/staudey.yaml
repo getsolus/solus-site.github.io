@@ -8,6 +8,7 @@ teams:
   - packaging
 social:
   github: "Staudey"
+  matrix: "@staudey:matrix.org"
   irc: "Staudey"
   reddit: "Staudey"
   fosstodon: "@staudey"

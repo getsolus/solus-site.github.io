@@ -8,6 +8,7 @@ teams:
   - packaging
 social:
   github: "joebonrichie"
+  matrix: "@joebonrichie:matrix.org"
   irc: "joebonrichie"
   reddit: "joebonrichie"
 active: true

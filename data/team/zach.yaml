@@ -7,6 +7,7 @@ teams:
   - packaging
 social:
   github: "ZachBacon"
+  matrix: "@thatzachbacon:matrix.org"
   irc: "ZachBacon"
   mastodon: "@thecanadianbacon@mastodon.social"
   www: "https://casualgamer.ca"

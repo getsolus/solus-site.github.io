@@ -8,6 +8,7 @@ teams:
   - packaging
 social:
   github: "algent-al"
+  matrix: "@algent:matrix.org"
   irc: "algent"
   reddit: "algent-al"
   twitter: "al_genti"
