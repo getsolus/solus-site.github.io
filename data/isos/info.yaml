@@ -1,18 +1,18 @@
 Budgie:
   description: A feature-rich, luxurious desktop using the most modern technologies.
   mediasize: 2.3GB
-  shasum: 7f6012af2e9fda814ad260520edf8fb8a0409b350723d347f9bb549795bc3a80
+  shasum: a01af64b96a4bb2898d907a006651778fbeb40f7a8d5b0829dc469517d9fd7bc
 GNOME:
   description: A simple, streamlined desktop for more modern hardware.
   mediasize: 2.5GB
-  shasum: 39101f739c8f7b17f8018a55473f47299f0d7260201a2ad9c42cbc347d554733
+  shasum: 829ce97260388d40624b690d16a808c33ef1b62667c036baf6f122b09049e0d3
 MATE:
   description: A traditional desktop for advanced users and older hardware.
   mediasize: 2.3GB
-  shasum: 294f197ba68a674ccd220e048a62b79edeecec44291dbb930f0b6fcc741928a6
+  shasum: a26a8d4ca921e9960c2ab9a32651492db89726634ca57f3a81ac9c88c56f0d50
 Plasma:
   description: A sophisticated desktop experience for the tinkerers.
-  mediasize: 2.4GB
-  shasum: c78231358a8de499e058baae7a06642520e09fc783c3fcf8667f5cbb7faabc2b
+  mediasize: 2.5GB
+  shasum: 5b43ea5c99ed880bcf3822b1668f980b41fbc688a5cddca13aaba0c5989d4b57
 Version: "4.4"
 TorrentLocation: https://downloads.getsol.us/torrents/
