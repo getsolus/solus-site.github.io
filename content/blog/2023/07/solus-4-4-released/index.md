@@ -128,7 +128,7 @@ As we implement our strategy for 4.5, including the adoption of PipeWire and Way
 
 After evaluating MATE, we have concluded that it does not have a credible and active Wayland strategy, with the project itself effectively being on life support. As such, we have decided to sunset the MATE Edition. Hence, Solus 4.4 will be the last release to ship a MATE edition ISO. For the time being, we will continue to support the actual MATE packages in order to ensure that our users will be able to update their existing MATE installations.
 
-Going forward, to serve users looking for a simple, lightweight GTK-based desktop experience, we will instead ship an edition with Xfce in the near future. Xfce sees considerably more development than MATE and has a viable Wayland strategy. Work on building out the Xfce stack has already started and will begin landing in the unstable repo shortly after the 4.4 release.
+**Going forward, to serve users looking for a simple, lightweight GTK-based desktop experience, we will instead ship an edition with Xfce in the near future.** Xfce sees considerably more development than MATE and has a viable Wayland strategy. Work on building out the Xfce stack has already started and will begin landing in the unstable repo shortly after the 4.4 release.
 
 The reality is that, at some point in the not-too-distant future, we will need to deprecate and remove the MATE packages from Solus. We would like to stress, however, that we are working to provide a seamless upgrade path from MATE to Xfce for those users with an existing MATE installation. You can expect to see more information on this topic soon.
 
