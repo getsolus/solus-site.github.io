@@ -34,6 +34,7 @@ For audio and video multimedia playback, we offer software out-of-the-box that c
 
 This release of Solus ships with Linux kernel 6.3.8, enabling us to provide support for a broader range of hardware, such as:
 
+- Secure Boot support. See our [documentation](https://help.getsol.us/docs/user/quick-start/installation/secure-boot) for enablement.
 - AMD Radeon RX 7600, 7900 XT, and 7900 XTX cards.
 - Intel Arc cards
 - NVIDIA 40 series cards
