@@ -30,7 +30,7 @@ You can start up a local server by calling `make local` in the `solus-site` dire
 
 ### Deployment
 
-To compile the website in preparation for deployment, run `make deploy`. This will create a `public-deployed` folder which can be uploaded to the server. Make sure you run a `make sync` prior to deployment, to ensure you have the latest Hugo themes.
+Merge the `master` branch into `deploy` and push.
 
 ### Styling
 
