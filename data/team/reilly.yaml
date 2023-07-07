@@ -1,0 +1,14 @@
+name: Reilly Brogan
+pronouns: he/him
+location: Minneapolis, United States
+timezone: UTC-6
+role:
+  - Maintainer
+teams:
+  - admin
+  - packaging
+  - plasma
+social:
+  github: "ReillyBrogan"
+  matrix: "@reillybrogan:matrix.org"
+active: true
