@@ -30,7 +30,7 @@ You can start up a local server by calling `make local` in the `solus-site` dire
 
 ### Deployment
 
-Merge the `master` branch into `deploy` and push.
+Merge the `main` branch into `deploy` and push.
 
 ### Styling
 
