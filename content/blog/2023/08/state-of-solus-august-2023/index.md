@@ -8,7 +8,7 @@ featuredimage: "/StateOfSolusAugust2023.jpg"
 url: "/2023/08/07/state-of-solus-august-2023"
 ---
 
-This blog post is meant as a follow-up to [A New Voyage](/2023/04/18/a-new-voyage/). We want to discuss what we have accomplished, what remains to be done, and what we have planned for the future.
+This blog post is meant as a follow-up to [A New Voyage](/2023/04/18/a-new-voyage/). We want to discuss what we have accomplished, and what we have planned for the future.
 
 <!--more-->
 
