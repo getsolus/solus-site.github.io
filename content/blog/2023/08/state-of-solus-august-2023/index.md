@@ -71,7 +71,7 @@ to direct people to Matrix.
 
 ### Releasing Solus 4.4
 
-The 4.4 ISOs were released at the beginning of July. Thanks to all our [OpenCollentive backers](https://opencollective.com/getsolus) for testing the pre-release images. If you haven’t heard about it and would like to learn more, check out our [release blog post here](/2023/07/08/solus-4-4-released/) and catch up on all the awesome stuff that went into it!
+The 4.4 ISOs were released at the beginning of July. Thanks to all our [OpenCollective backers](https://opencollective.com/getsolus) for testing the pre-release images. If you haven’t heard about it and would like to learn more, check out our [release blog post here](/2023/07/08/solus-4-4-released/) and catch up on all the awesome stuff that went into it!
 
 ## Next Steps
 
@@ -79,11 +79,11 @@ The 4.4 ISOs were released at the beginning of July. Thanks to all our [OpenColl
 
 The [Solus dev tracker](https://dev.getsol.us/), where all our package repositories, development tasks, and reported issues live, is currently run by software called _Phabricator_. We have decided to migrate these services to GitHub. There are several reasons why we decided to make this change:
 
-GitHub provides a better team experience, especially for reviewers and admins.
-GitHub has a greater mindshare among developers around the world.
-GitHub provides good APIs, opening the door to more tooling improvements.
-Solus will no longer need to pay for a server specifically to run the dev tracker.
-The future of Phabricator as a project is [uncertain](https://admin.phacility.com/phame/post/view/11/phacility_is_winding_down_operations/) as the historical upstream is not undergoing development. The open source fork “Phorge”, while doing fantastic work associated with maintenance, is not actively focusing on new features that would positively impact the developer experience of the Solus project.
+- GitHub provides a better team experience, especially for reviewers and admins.
+- GitHub has a greater mindshare among developers around the world.
+- GitHub provides good APIs, opening the door to more tooling improvements.
+- Solus will no longer need to pay for a server specifically to run the dev tracker.
+- The future of Phabricator as a project is [uncertain](https://admin.phacility.com/phame/post/view/11/phacility_is_winding_down_operations/) as the historical upstream is not undergoing development. The open source fork “Phorge”, while doing fantastic work associated with maintenance, is not actively focusing on new features that would positively impact the developer experience of the Solus project.
 
 This change should be mostly transparent to users, but will be a big change for our volunteers who contribute to packaging. For our users, the place to report issues and request packages will change. Work is just beginning here, we will share more in the future.
 
