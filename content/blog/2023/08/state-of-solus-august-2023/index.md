@@ -18,7 +18,7 @@ Long-time Solus users know that the project has navigated some choppy waters in 
 
 In short, the new strategy is to spread responsibilities across a larger team, enabling individuals to fill in for each other as availability dictates. Our new processes enable us to seamlessly onboard new and offboard existing team members as necessary. Since our return in April, Solus Staff has grown to a team of 16 volunteers, and we’ve been working on internal documentation and workflows so responsibilities can be readily shared.
 
-Case in point, to test our processes and documentation, we have been rotating the individuals that perform sync, with 11 out of our 16 staff members having already completed the process.
+Case in point, to test our processes and documentation, we have been rotating the individuals that perform the package repository sync, with 11 out of our 16 staff members having already completed the process.
 
 _Solus Staff_ is the umbrella term for everyone who has a role on the Solus team. Note that the roles are a little different from what was laid out in the New Voyage blog post. As we have collaborated over the past few months, we found these were the roles people naturally fell into.
 
@@ -26,7 +26,7 @@ The roles and their responsibilities are as follows:
 
 - Boring Admin
   - Be responsible for the financial side of Solus, in particular OpenCollective.
-  - Hold the keys for all important Solus accounts.
+  - Manage the keys for all important Solus accounts.
 - Comms
   - Reach out with news to the Solus communities, and solicit feedback.
   - Moderate Solus communities to keep them friendly and useful.
@@ -43,26 +43,22 @@ At the end of the day, Solus is a Linux distribution, so we expect that most peo
 
 Solus Staff now includes the following people:
 
-- Alex Vorobyev - `aleksvor`
-- Algent Albrahimi - `algent`
-- David Harder - `davidjharder`
-- Evan Maddock - `EbonJaeger`
-- Fabio Forni - `livingsilver94`
-- Gavin Zhao - `GZGavinZhao`
-- Ikey Doherty - `ikey`
-- Joey Riches - `joebonrichie`
-- Joshua Strobl - `JoshStrobl`
-- Philipp Trulson `der_eismann`
-- Reilly Brogan - `ReillyBrogan`
-- Rune Morling - `ermo`
-- Silke Hofstra - `silke`
-- Tracey Clark - `TClark77`
-- Troy Harvey - `Harvey`
-- Zach Bacon - `ZachBacon`
-
-## Other Recent Work
-
-### New Help Center
+- Alex Vorobyev (aleksvor)
+- Algent Albrahimi (algent)
+- David Harder (davidjharder)
+- Evan Maddock (EbonJaeger)
+- Fabio Forni (livingsilver94)
+- Gavin Zhao (GZGavinZhao)
+- Ikey Doherty (ikey)
+- Joey Riches (joebonrichie)
+- Joshua Strobl (JoshStrobl)
+- Philipp Trulson (der_eismann)
+- Reilly Brogan (ReillyBrogan)
+- Rune Morling (ermo)
+- Silke Hofstra (silke)
+- Tracey Clark (TClark77)
+- Troy Harvey (Harvey)
+- Zach Bacon (ZachBacon)
 
 Help Center content was moved onto a new stand-alone site at [help.getsol.us](https://help.getsol.us/). With this new [Docusaurus](https://docusaurus.io/)-based site, we can quickly review and incorporate changes suggested by anyone willing to send us a Pull Request or open an issue on the accompanying GitHub repository [here](https://github.com/getsolus/help-center-docs). Please take a look around and let us know what you think.
 
@@ -108,4 +104,4 @@ This plugin has some features we are excited about:
 
 ## Closing Thoughts
 
-Solus continues to exist solely (heh) because a wide group of people, scattered all over the globe, are willing to contribute to the project, and build a community excited about our future. We are incredibly grateful for the continued support of all of you fine folks in the community. All of this wouldn’t be possible without you. Thanks everyone! We look forward to continuing on this journey together, and we hope you’ll join us for the adventure.
+Solus continues to exist solely (heh) because a wide group of people, scattered all over the globe, are willing to contribute to the project, and build a community excited about our future. We are incredibly grateful for the continued support of all of you fine folks in the community and those of you that have financially contribute through our [OpenCollective](https://opencollective.com/getsolus). All of this wouldn’t be possible without you. Thanks everyone! We look forward to continuing on this journey together, and we hope you’ll join us for the adventure.
