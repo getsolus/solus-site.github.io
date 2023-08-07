@@ -82,7 +82,7 @@ The [Solus dev tracker](https://dev.getsol.us/), where all our package repositor
 - GitHub provides a better team experience, especially for reviewers and admins.
 - GitHub has a greater mindshare among developers around the world.
 - GitHub provides good APIs, opening the door to more tooling improvements.
-- Solus will no longer need to pay for a server specifically to run the dev tracker.
+- Solus will no longer need to pay for the infrastructure required to run the development tracker.
 - The future of Phabricator as a project is [uncertain](https://admin.phacility.com/phame/post/view/11/phacility_is_winding_down_operations/) as the historical upstream is not undergoing development. The open source fork “Phorge”, while doing fantastic work associated with maintenance, is not actively focusing on new features that would positively impact the developer experience of the Solus project.
 
 This change should be mostly transparent to users, but will be a big change for our volunteers who contribute to packaging. For our users, the place to report issues and request packages will change. Work is just beginning here, we will share more in the future.
