@@ -12,7 +12,7 @@ This blog post is meant as a follow-up to [A New Voyage](/2023/04/18/a-new-voyag
 
 <!--more-->
 
-## New roles and faces
+## New Roles and Faces
 
 Long-time Solus users know that the project has navigated some choppy waters in the past with [bus factor](https://en.wikipedia.org/wiki/Bus_factor). Too much responsibility on too few shoulders has led to burnout, stalled work, and even an extended project blackout. For Solus to continue long into the future, we need people to enjoy working on Solus, and we need it to be a team effort.
 
@@ -59,6 +59,10 @@ Solus Staff now includes the following people:
 - Tracey Clark (TClark77)
 - Troy Harvey (Harvey)
 - Zach Bacon (ZachBacon)
+
+## Other Recent Work
+
+### New Help Center
 
 Help Center content was moved onto a new stand-alone site at [help.getsol.us](https://help.getsol.us/). With this new [Docusaurus](https://docusaurus.io/)-based site, we can quickly review and incorporate changes suggested by anyone willing to send us a Pull Request or open an issue on the accompanying GitHub repository [here](https://github.com/getsolus/help-center-docs). Please take a look around and let us know what you think.
 
