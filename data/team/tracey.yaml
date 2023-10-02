@@ -5,11 +5,12 @@ timezone: UTC-6
 role: Advisory Board
 teams:
   - admin
+  - comms
   - moderation
   - packaging
 social:
   github: "TraceyC77"
   irc: "TraceyC"
-  reddit: "cromulentmuffin"
+  fosstodon: "TraceyC@fosstodon.org"
   www: "https://www.tlcnet.info"
 active: true
