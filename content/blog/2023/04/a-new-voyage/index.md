@@ -154,8 +154,8 @@ In line with the aims of Solus, Serpent OS and its tooling is developed and deli
 
 Currently, Serpent OS is in the development stage with functioning prototype tooling, infrastructure and ISO images. Serpent OS is not yet in a state for end users to rely on as their development or daily driver system. However, even in its current prototype state, the Serpent OS tooling is already more capable and advanced than the equivalent (and originally planned future) Solus tooling, including:
 
-- ypkg3 and solbuild (build system) – replaced by [boulder](https://serpentos.com/boulder/) and the distributed avalanche middleware
-- sol (eopkg replacement) – replaced by [moss](https://serpentos.com/moss/)
+- ypkg3 and solbuild (build system) – replaced by [boulder](https://serpentos.com/#boulder-a-better-way-to-package) and the distributed avalanche middleware
+- sol (eopkg replacement) – replaced by [moss](https://serpentos.com/#moss-blazing-fast-package-management)
 - solhub (development hub) – replaced by [summit](https://serpentos.com/blog/2023/03/18/infrastructure-launched/) (and [GitHub](https://github.com/serpent-os))
 - ferryd (binary package repository manager) – replaced by [vessel](https://github.com/serpent-os/vessel)
 
