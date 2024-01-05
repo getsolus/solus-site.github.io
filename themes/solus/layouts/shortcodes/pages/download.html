@@ -1,6 +1,6 @@
 {{ $site := .Site }}
 <div class="downloads">
-{{ range $edition := (slice "Budgie" "GNOME" "MATE" "Plasma") }}
+{{ range $edition := (slice "Budgie" "GNOME" "Plasma" "XFCE") }}
 	{{ $editionInfo := (index $site.Data.isos.info $edition )}}
 	{{ $release := printf "Solus-%s-%s" $site.Data.isos.info.Version $edition }}
 	{{ $editionISO := printf "%s.iso" $release }}
