@@ -16,9 +16,9 @@ GNU_Project:
 Linux:
   description: The Linux kernel is the absolute heart of the operating system, providing an environment for all user-land programs to operate, hardware support, networking, etc.
   url: https://www.kernel.org/
-MATE_Desktop_Environment:
-  description: The MATE Desktop is a continuation of the GNOME 2 Desktop code base and paradigm, providing a more traditional desktop metaphor for our Solus MATE users.
-  url: https://mate-desktop.org/
+XFCE_Desktop_Environment:
+  description: The XFCE Desktop Environment aims to be fast even on systems with lower powered hardware, while staying modern and friendly.
+  url: https://xfce.org/
 XOrg_project:
   description: The X.Org display server forms the backbone of all desktop experiences on Solus, enabling input device support and the ability to render on screen.
   url: https://www.x.org/wiki/

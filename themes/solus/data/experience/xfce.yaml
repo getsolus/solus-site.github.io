@@ -1,0 +1,8 @@
+image: "/release-images/LATEST_RELEASE/XFCE.jpg"
+header: XFCE
+description : A lightweight desktop that aims to be fast while still being friendly. 
+differentiators:
+  Fast:
+    header: Light on its feet
+    description: |-
+      We ship the XFCE Desktop to provide a full-featured experience for users running less powerful hardware.

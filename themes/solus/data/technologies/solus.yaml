@@ -1,7 +1,3 @@
-Brisk_Menu:
-    description: An efficient menu for the MATE Desktop
-    type: desktop
-    url: https://github.com/getsolus/brisk-menu
 DoFlicky:
     description: Simplistic driver detection and management utility specifically for Solus.
     type: desktop
@@ -18,10 +14,6 @@ Linux_Steam_Integration:
     description: Helper for enabling better Steam integration on Linux.
     type: desktop
     url: https://github.com/getsolus/linux-steam-integration
-MATE_Notification_Theme_Slate:
-    description: A MATE Notification theme, emulating the Arc-styled Budgie notifications of Solus.
-    type: desktop
-    url: https://github.com/getsolus/mate-notification-theme-slate
 Solus_Software_Center:
     description: Software Center of Solus.
     type: desktop
