@@ -6,13 +6,13 @@ GNOME:
   description: A simple, streamlined desktop for more modern hardware.
   mediasize: 2.5GB
   shasum: 829ce97260388d40624b690d16a808c33ef1b62667c036baf6f122b09049e0d3
-MATE:
-  description: A traditional desktop for advanced users and older hardware.
-  mediasize: 2.3GB
-  shasum: a26a8d4ca921e9960c2ab9a32651492db89726634ca57f3a81ac9c88c56f0d50
 Plasma:
   description: A sophisticated desktop experience for the tinkerers.
   mediasize: 2.5GB
   shasum: 5b43ea5c99ed880bcf3822b1668f980b41fbc688a5cddca13aaba0c5989d4b57
-Version: "4.4"
+XFCE:
+  description: A lightweight desktop that aims to be fast while still being friendly.
+  mediasize: 2.3GB
+  shasum: update_me
+Version: "4.5"
 TorrentLocation: https://downloads.getsol.us/torrents/
