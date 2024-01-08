@@ -51,7 +51,7 @@ The 6.6.9 kernel brings wider hardware support and some interesting configuratio
 - Our kernel config now enables all Bluetooth drivers, sound codecs, and sound drivers
 - `schedutil` is now the default CPU governor
 - Kernel modules are no longer compressed during initramfs creation, reducing boot times
-- We have modified our kernel to use the [BORE scheduler](https://github.com/firelzrd/bore-scheduler) by default. This is a modification of the default CFS scheduler optimized for interactive desktops. Under heavy CPU load the system will try to prioritize processes that it thinks are interactive, maintaining a responsive feel.
+- We have modified our kernel to use the [BORE scheduler](https://github.com/firelzrd/bore-scheduler) by default. This is a modification of the EEVDF scheduler optimized for interactive desktops. Under heavy CPU load the system will try to prioritize processes that it thinks are interactive, maintaining a responsive feel.
 
 Mesa has been upgraded to 23.3.2. This introduces various improvements:
 
