@@ -36,7 +36,7 @@ For audio and video multimedia playback, we offer software out-of-the-box that c
 
 ### Pipewire by default
 
-Pipewire is now the media framework for Solus, replacing PulseAudio and JACK. Users should notice no difference in the UI. You may notice improvements, such as better and more reliable Bluetooth audio. For a demonstration of pipewire's out-of-the-box capabilities, see [this forum post](https://discuss.getsol.us/d/9596-showcase-noise-reduction-with-pipewire-and-easyeffects) about noise reduction for microphone inputs.
+Pipewire is now the media framework for Solus, replacing PulseAudio and JACK. Users should not see any difference in the UI. You may notice performance improvements, such as better and more reliable Bluetooth audio. For a demonstration of pipewire's out-of-the-box capabilities, see [this forum post](https://discuss.getsol.us/d/9596-showcase-noise-reduction-with-pipewire-and-easyeffects) about noise reduction for microphone inputs.
 
 ### ROCm support for AMD hardware
 
@@ -135,7 +135,7 @@ Plenty of work has also been done for the future of the Plasma edition. We are s
 
 In the [Solus 4.4 release post](/2023/07/08/solus-4-4-released) we announced our intention to deprecate the MATE Edition in favor of a new XFCE edition. The XFCE edition aims to fill the same niche as the MATE edition: users who prefer a more lightweight desktop experience.
 
-As this is the first release if the XFCE edition, there may be some rough edges, even with all the time taken to make the experience smooth. We are calling the 4.5 release of XFCE a _beta_ release.
+As this is the first release of the XFCE edition, there may be some rough edges, even with all the time taken to make the experience smooth. We are calling the 4.5 release of XFCE a _beta_ release.
 
 The new XFCE edition includes:
 
