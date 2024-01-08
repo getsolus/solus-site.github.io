@@ -131,7 +131,7 @@ Plenty of work has also been done for the future of the Plasma edition. We are s
 
 ## XFCE
 
-{{< altimg "XFCE.jpg" "/release-images/4.5/" >}}
+{{< altimg "XFCE-Beta.jpg" "/release-images/4.5/" >}}
 
 In the [Solus 4.4 release post](/2023/07/08/solus-4-4-released) we announced our intention to deprecate the MATE Edition in favor of a new XFCE edition. The XFCE edition aims to fill the same niche as the MATE edition: users who prefer a more lightweight desktop experience.
 
