@@ -117,7 +117,7 @@ Upstream release notes can be found [here](https://release.gnome.org/)
 Solus 4.5 Plasma Edition ships with the latest Plasma Desktop, KDE Frameworks, KDE Gear, and, the KDE branch for QT, which largely brings bugfixes and translation updates
 
 - [Plasma 5.27.10](https://kde.org/announcements/plasma/5/5.27.10/)
-- [KDE Gear](https://kde.org/announcements/gear/23.08.4/)
+- [KDE Gear 23.08.4](https://kde.org/announcements/gear/23.08.4/)
 - [QT 5.15.11](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.11/release-note.md)
 - [sddm 0.20.0](https://github.com/sddm/sddm/blob/v0.20.0/ChangeLog)
 
