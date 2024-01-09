@@ -22,7 +22,7 @@ enableInlineShortcodes = true
 [params]
 	domain = "getsol.us"
 	category = ["budgie", "infrastructure", "news", "packages", "partners", "plans", "releases", "security", "roundup", "twis"]
-	copyright = "2023"
+	copyright = "2024"
 
 [params.menus]
 	main = [ "home", "about", "blog", "download", "dev_tracker", "forums", "funding", "help", "matrix"]
