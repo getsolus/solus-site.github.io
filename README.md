@@ -66,6 +66,11 @@ url: "/2023/07/08/solus-4-4-released"
 ---
 ```
 
+## Use caution before deleting files
+
+Files  in `static/imgs/release-images/` may be used outside of the website.
+For instance, Mailgun templates use the desktop collage graphic. Please coordinate with the Solus Team before deleting any files.
+
 ## Development
 
 ### Setup
