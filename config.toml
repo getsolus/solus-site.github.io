@@ -28,7 +28,7 @@ enableInlineShortcodes = true
 	main = [ "home", "about", "blog", "download", "dev_tracker", "forums", "funding", "help", "matrix"]
 	footer = [ "solus", "social", "support", "press"]
 	solus = [ "about", "download", "experiences",  "technologies" ]
-	social = [ "facebook", "mastodon", "reddit", "twitch", "twitter"]
+	social = [ "facebook", "mastodon", "reddit", "twitch"]
 	support = ["dev_tracker", "forums", "funding", "help", "matrix"]
 	press = ["branding", "press"]
 
@@ -53,7 +53,7 @@ enableInlineShortcodes = true
 	support_us = "/help/contributing/getting-involved/"
 	team = "/solus/team"
 	technologies = "/solus/technologies"
-	twitter = "https://twitter.com/SolusProject"
+	twitter = ""
 	twitch = "https://twitch.tv/getsolus"
 
 [params.teams]
