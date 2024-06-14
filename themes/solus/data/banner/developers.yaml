@@ -4,7 +4,7 @@ systems, as well as containerization / virtualization technology such as Docker*
 we have software that will fit your needs."
 Items:
   editor: |
-    Powerful editors and IDEs readily available, such as: Atom, Idea, GNOME Builder, Qt Creator, Visual Studio Code*.
+    Powerful editors and IDEs readily available, such as: Idea, GNOME Builder, Qt Creator, Visual Studio Code*.
   vcs: Support for Bazaar, Git, Mercurial, SVN. Graphical tools like GitKraken* and git-cola.
   lang: |
     Support for many languages, including: Go, Rust, PHP, Node.js, Ruby, and many more.
