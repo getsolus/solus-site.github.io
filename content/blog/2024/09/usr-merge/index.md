@@ -76,7 +76,7 @@ Migration to a new package repository has actually been done before on Solus. Mo
 
 We're aiming for a staged rollout, where everyone gets the necessary updates, but the script will only run on some systems, leaving everyone else operating as before. After our last attempt, we want to ensure that the process is as robust as possible, and if there is another problem that we have not forseen, it will only affect a limited number of users, and the rollout can be stopped with minimal disruption. Assuming that no issues pop up, each weekly sync after the rollout begins will see more machines going through the Usr-Merge process, until no one is being held back.
 
-A staged rollout can be achieved by taking the systemd machine ID of a computer, deriving a number from it between 0 and 255, and checking if the derived number is below a certain threshold. If it is, then the merging script continue run; otherwise, the script will exit, and the system will not be Usr-Merged. The magic number can be set in a file that gets shipped with the script, enabling us to update it for each rollout stage with the weekly sync.
+A staged rollout can be achieved by taking the systemd machine ID of a computer, deriving a number from it between 0 and 255, and checking if the derived number is below a certain threshold. If it is, then the merging script continues to run; otherwise, the script will exit, and the system will not be Usr-Merged. The magic number can be set in a file that gets shipped with the script, enabling us to update it for each rollout stage with the weekly sync.
 
 The entire process goes like this:
 
