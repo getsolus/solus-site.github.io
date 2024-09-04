@@ -5,6 +5,10 @@ pre, code
 code
 	@include box($code-box)
 
+li, p // inline code elements
+	code
+		padding: 0.1em
+
 pre // ie. pre > code
 	@include box($pre-box)
 	border-radius: $code-border-radius
