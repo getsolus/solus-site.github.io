@@ -80,10 +80,10 @@ A staged rollout can be achieved by taking the systemd machine ID of a computer,
 
 The entire process goes like this:
 
-Stage 1: Allow opt-in to Usr-Merge via a configuration file.
-Stage 2: Allow opt-in, and merge *x* amount of computers.
-Stage 3..*n*: Each sync, more systems are allowed to go through the process.
-Stage *n+1*: All users have been merged; do the Epoch bump. Users start getting updates from the new repository, and everyone is on a Usr-Merged system! 🎉
+- Stage 1: Allow opt-in to Usr-Merge via a configuration file.
+- Stage 2: Allow opt-in, and merge *x* amount of computers.
+- Stage 3..*n*: Each sync, more systems are allowed to go through the process.
+- Stage *n+1*: All users have been merged; do the Epoch bump. Users start getting updates from the new repository, and everyone is on a Usr-Merged system! 🎉
 
 ## When is it happening?
 
