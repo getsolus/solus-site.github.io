@@ -14,10 +14,10 @@ Back in May, 2024, we made our initial attempt at doing what we're calling "Usr-
 
 The old way of organizing the Linux filesystem split files between `/bin` and `/usr/bin`, `/sbin` and `/usr/sbin`, `/lib` and `/usr/lib`, and `/lib64` and `/usr/lib64`. In recent years, there has been a push to unify everything by putting all the directories in the `/usr` file tree, e.g. `/usr/bin` and `/usr/lib64`, and adding compatibility symbolic links (symlinks) pointing to the directories in `/usr`. There are several reasons for this:
 
-- It improves compatibility with other Unixes and Linuxes in behavior. Scripts written for another distribution don't need modifications for different file paths, making them more portable.
+- It improves compatibility in behavior with other Unixes and Linuxes. Scripts written for another distribution don't need modifications for different file paths, making them more portable.
 - Compatibility with the GNU build systems. Porting software to Linux becomes easier, because the build system and developers don't have to worry about a split `/usr`.
 - Improved compatibility with upstream development.
-- Reduced complexity of the filesystem. The seperation between vendor-provided (coming from your Linux distribution, possibly read-only) resources and user resources becomes more clear.
+- Reduced complexity of the filesystem. The separation between vendor-provided (coming from your Linux distribution, possibly read-only) resources and user resources becomes more clear.
 
 The Freedesktop Wiki has a much more detailed article about Usr-Merge [here](https://www.freedesktop.org/wiki/Software/systemd/TheCaseForTheUsrMerge/).
 
@@ -61,7 +61,7 @@ The process goes like this:
 
    The checking does mean that the script takes a while to run on less powerful systems; our testing in a Virtual Machine simulating really old hardware showed that the script took about 3 minutes to complete. Recent package updates include work to speed up the migration process significantly by essentially self-migrating, but it could still take a while.
    
-   Because of the time the script could take to run, a message will be shown on screen so the user knows that something is happening. The script is robust enough to not destory your system if a reboot occurs while it is running, but doing a hard reboot does mean that the script has to start over on the next boot.
+   Because of the time the script could take to run, a message will be shown on screen so the user knows that something is happening. The script is robust enough to not destroy your system if a reboot occurs while it is running, but doing a hard reboot does mean that the script has to start over on the next boot.
    
    Lastly, a marker file is written that indicates that the system is now Usr-Merged.
 3) eopkg will use the second marker file to know that it is safe to switch to a new package repository that is incompatible with non-Usr-Merged systems.
