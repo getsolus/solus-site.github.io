@@ -42,7 +42,7 @@ The second issue is compounded by the first issue because even if the second is 
 
 We started calling it our [Chicken and Egg](https://en.wikipedia.org/wiki/Chicken_or_the_egg) problem.
 
-## Chicken and egg
+## Chicken and Egg
 
 The problem goes like this: we can update `eopkg` to provide more deterministic updates. In fact, Ermo has already done this for both the [Python 2](https://github.com/getsolus/eopkg/pull/68) and [Python 3](https://github.com/getsolus/eopkg/pull/70) versions of `eopkg`. But because updates are already non-deterministic, and we can't guarantee what point in time users are updating from, we can't rely on the update being present on user systems if we try to do the Usr-Merge again; trying to update would lead to the same problem as before.
 
