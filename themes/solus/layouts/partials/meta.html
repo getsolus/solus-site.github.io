@@ -69,7 +69,7 @@
 <meta property="og:site_name" content="Solus" />
 <meta property="og:locale" content="{{ .Site.Language.Lang }}" />
 {{ $sass := resources.Get "sass/website.sass" }}
-{{ $style := $sass | resources.ToCSS }}
+{{ $style := $sass | toCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
 <link rel="stylesheet" href="/css/fonts/solbit.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100%7CRoboto:300%7CRoboto:400" media="all">
