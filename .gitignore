@@ -4,3 +4,5 @@ public-deployed/
 resources/
 themes/solus/static/css/fonts/*.html
 themes/solus/static/css/solhub.css
+
+.zed/

@@ -1,13 +1,100 @@
 // Sizes
 
+
+// --------
+// Defaults
+// --------
+
+// Media Sizes
+$desktop: (min-width: 1024px)
+$mobile: (max-width: 1023px)
+$mac: (max-width: 1439px)
+
+// Text Sizes
+$size-h1: 2.5em
+$size-h2: 2em
+$size-h3: 1.75em
+$size-h4: 1.5em
+$size-h5: 1.25em
+$size-text: 1em
+
+// Gap Sizes
+$gap-max: 2.5em
+$gap-big: 2em
+$gap-large: 1.5em
+$gap-medium: 1.25em
+$gap-normal: 1em
+$gap-small: 0.625em
+$gap-min: 0.5em
+
+// Common Sizes
+$content-margin: 1rem
+$page-margin: 10%
+$page-margin-mobile: 5%
+$paragraph-box: (margin-bottom: $gap-medium)
+$reset-box: (box-sizing: border-box, line-height: 1.25em, margin: 0, padding: 0)
+
+// ------
+// Mixins
+// ------
+
+@mixin box($box)
+	@each $attr, $value in $box
+		#{$attr}: $value
+
+
 // --------
 // Elements
 // --------
+
+// Banner
+$banner-box: (padding: $gap-medium $page-margin)
+$banner-box-mobile: (padding: $gap-medium $page-margin-mobile)
+$banner-heading-box: (margin: 0 0 $gap-normal)
+$banner-top-h1-size: $size-h4
+$banner-top-h2-size: $size-text
+
+// Buttons
+$button-box: (height: 2.5em, line-height: 2.5em, padding: 0 $gap-big)
+$button-small-box: (height: 2em, line-height: 2em)
+
+// Code
+$code-border-radius: 0.25em
+$code-box: (padding: 0.1em)
+$pre-box: (padding: $gap-normal, margin: 0 0 $content-margin)
+
+// Content
+$content-img-box: (max-width: 100%, margin: 0 0 $content-margin)
+$content-img-featured-box: (margin: 0 0 $gap-big)
+$paragraph-box: (min-height: 1.5em, line-height: 1.5em, margin: 0 0 $content-margin)
+$heading-box: (margin: $content-margin 0)
+$heading-top-box: (margin: $content-margin)
+
+// Footer
+$footer-legal-box: (margin: $gap-normal 0)
+$footer-gap: $gap-min
+$footer-box: (padding: $gap-max $page-margin)
+$footer-box-mobile: (padding: $gap-max $page-margin-mobile)
+
+// Keyboard
+$kbd-border-radius: 0.125em
+$kbd-box: (line-height: 2em, margin: 0 0.25em, padding: 0 $gap-min)
+
+// Lists
+$list-box: (line-height: 2em, padding: 0 $gap-big)
+$list-item-box: (margin: $gap-min 0 0)
+$list-box-all: (margin: 0 0 $gap-normal)
 
 // Menus
 $menu-column-box: (margin-bottom: $gap-big, padding: 0 $gap-normal $gap-normal)
 $menu-column-title-box: (margin-bottom: 0.5em)
 $menu-column-title-font-size: $size-h4
+$menu-label-box: (width: 9.375em)
+$menu-link-gap: $gap-normal $gap-big
+
+// Pagination
+$pages-box: (padding: $gap-normal)
+$pages-button-box: (padding: 0 $gap-big)
 
 // Panels
 $panel-gap: $gap-big
@@ -40,13 +127,58 @@ $showcase-img-box: (height: fit-content, width: 4em)
 $showcase-section-box: (width: 24em)
 $showcase-section-gap: $gap-normal
 
+// Quotes
+$quote-box: (margin: 0 $gap-big $content-margin, padding: $gap-normal $gap-big)
+$quote-border-width: 0.125em
+
+// Search
+$search-box: (width: 30em, line-height: 3em, padding: $gap-min)
+$search-before-box: (padding: 0 $gap-min)
+
 // Tags
 $tag-box: (height: 1.25em, line-height: 1.25em, padding: 0 $gap-min)
 $tag-font-size: $size-text
 $tag-radius: 0.625em
 
-// Video Player
+// Tables
+$table-box: (width: initial, margin: 0 0 $content-margin)
+$table-cell-box: (padding: 0 $gap-normal)
+$table-head-box: (height: 3em)
+$table-row-box: (height: 2em)
+$table-border-width: 0.125em
+
+// Video
+$video-box: (margin: 0 0 $content-margin)
 $video-player-box: (height: 33em)
+
+
+// ---------
+// Structure
+// ---------
+
+
+// Header
+$header-bar-box: (height: 5em, padding: $gap-small $page-margin)
+$header-bar-box-mobile: (height: 3.75em, padding: $gap-small $page-margin-mobile)
+$header-bar-logo-box: (min-width: 0)
+$header-button-box: (padding: 0 $gap-min)
+$header-button-font-size: $size-h4
+$header-link-box: (line-height: 2em)
+$header-overlay-box: (padding: $gap-small $page-margin-mobile)
+$header-overlay-font-size: $size-h2
+$header-overlay-gap: $gap-min
+
+// Main
+$main-box: (min-height: 100%, padding: $gap-medium $page-margin)
+$main-box-mobile: (padding: $gap-medium $page-margin-mobile)
+$main-gap: $gap-big
+
+// Table of Contents
+$toc-box: (margin: 4em 0 0)
+$toc-nav-box: (width: initial, margin: $gap-min 0 0, padding: $gap-normal)
+$toc-heading-font-size: $size-h5
+$toc-nav-font-size: $size-text
+$toc-nav-indent: $gap-normal
 
 
 // -----
