@@ -12,10 +12,10 @@ Static, [Hugo-based](https://gohugo.io) home of Solus and its projects. This web
 ### New Post
 
 To create a new post, change to the main directory of this repo (solus-site.github.io).
-From there, call `hugo new PATH`. The `PATH` format is `blog/year/month/post-title/post-title.md`.
+From there, call `hugo new PATH`. The `PATH` format is `blog/year/month/post-title/index.md`.
 
-For instance, to create a blog post for Feb. 2023 with the name "Welcome To The New Site", you would use: `hugo new blog/2023/02/welcome-to-the-new-site/welcome-to-the-new-site.md`.
-This would create `content/blog/2023/02/welcome-to-the-new-site/welcome-to-the-new-site.md`.
+For instance, to create a blog post for Feb. 2023 with the name "Welcome To The New Site", you would use: `hugo new blog/2023/02/welcome-to-the-new-site/index.md`.
+This would create `content/blog/2023/02/welcome-to-the-new-site/index.md`.
 
 The markdown file will be created with our default configuration, which you can update as necessary. For metadata, most fields are self-explanatory.
 
