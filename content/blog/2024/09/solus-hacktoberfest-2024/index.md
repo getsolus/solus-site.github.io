@@ -10,9 +10,15 @@ url: "/2024/09/30/solus-hacktoberfest-2024"
 
 Hey folks! It's spooky season, so you know what that means. It's time for [Hacktoberfest 2024](https://hacktoberfest.com/)! This is the annual event that "encourages people to contribute to open source throughout October", in exchange for rewards.
 
-This year we have two main goals. First, as always, we want to support anyone looking to get involved in Open Source contributions, or helping Solus specifically. We would love to add people to our packaging team.
+This year we have two main goals. First, as always, we want to support anyone 
+looking to get involved in open source contributions, or helping Solus 
+specifically. We would love to add people to our packaging team.
 
-Second, there's been a big push recently to clean up and update our package repository, and we can use your help. Much of this work currently involves adding home pages to packages, making sure they build, fixing them if the don't, and adding monitoring information. Related, we would like to field test and improve our "autobuild" tool.
+Second, there's been a big push recently to clean up and update our package 
+repository, and we can use your help. Much of this work currently involves 
+adding home pages to packages, making sure they build, fixing them if they 
+don't, and adding monitoring information. Related, we would like to field test 
+and improve our "autobuild" tool.
 
 Read on for ways to participate.
 
@@ -33,8 +39,10 @@ Developers aren't the only contributors in the open source community. We also ha
 - Check out our [docs on packaging](https://help.getsol.us/docs/packaging)
 - Join our [Matrix space](https://matrix.to/#/#solus:matrix.org), we use the Solus Packaging room to discuss packaging work.
 - Find something(s) to work on
-  - For development / bug triage: look in the [Solus Packages Repo](https://github.com/getsolus/packages/issues):
-  - We also need help with some issues in [our Help Center repo](https://github.com/getsolus/help-center-docs/issue)
+  - For development / bug triage: look in the [Solus Packages  
+repository](https://github.com/getsolus/packages/issues):
+  - We also need help with some issues in [our Help Center  
+repository](https://github.com/getsolus/help-center-docs/issue)
 Anything labeled "Hacktoberfest", "Good First Issue", "Package Request" or "Help Wanted" is a good candidate for new folks (but don't feel limited to them)
 - Do work and create pull requests in the Solus repos
 - At least four of your PRs / MRs need to be accepted and merged (across any and all projects which are participating) for you to complete Hacktoberfest
