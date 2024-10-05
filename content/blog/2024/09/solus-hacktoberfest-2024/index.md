@@ -39,12 +39,11 @@ Developers aren't the only contributors in the open source community. We also ha
 - Check out our [docs on packaging](https://help.getsol.us/docs/packaging)
 - Join our [Matrix space](https://matrix.to/#/#solus:matrix.org), we use the Solus Packaging room to discuss packaging work.
 - Find something(s) to work on
-  - For development / bug triage: look in the [Solus Packages  
-repository](https://github.com/getsolus/packages/issues):
-  - We also need help with some issues in [our Help Center  
-repository](https://github.com/getsolus/help-center-docs/issue)
-Anything labeled "Hacktoberfest", "Good First Issue", "Package Request" or "Help Wanted" is a good candidate for new folks (but don't feel limited to them)
-- Do work and create pull requests in the Solus repos
+  - For development / bug triage: look in the [Solus Packages repository](https://github.com/getsolus/packages/issues)
+  - We also need help with some issues in [our Help Center repository](https://github.com/getsolus/help-center-docs/issues)
+
+    Anything labeled "Hacktoberfest", "Good First Issue", "Package Request" or "Help Wanted" is a good candidate for new folks (but don't feel limited to them)
+- Do work and create pull requests in the Solus repositories
 - At least four of your PRs / MRs need to be accepted and merged (across any and all projects which are participating) for you to complete Hacktoberfest
 
 Good luck, everyone and happy hacking!
