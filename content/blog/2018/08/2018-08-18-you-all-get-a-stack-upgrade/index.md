@@ -107,7 +107,7 @@ We encourage you to read the [full announcement](https://www.kde.org/announcemen
 
 ### Linux Kernel
 
-Bryan has upgraded our `linux-current` kernel in unstable to 4.17.17 as well as introducing [the following improvements](https://dev.solus-project.com/T6786):
+Bryan has upgraded our `linux-current` kernel in unstable to 4.17.17 as well as introducing the following improvements:
 
 - `CONFIG_NR_CPUS` has now been set to 64 for AMD Threadripper 32C/64T parts
 - We've disabled `CONFIG_COMPAT_VDSO` to improve 32bit performance (benefits us for our emul32 enabled libs). This was largely in place to work around a bug in glibc and is no longer necessary.
@@ -121,4 +121,4 @@ We'll be performing an upgrade to PostgreSQL 10 this coming week. If you have an
 
 Early this week we [announced](/2018/08/13/upcoming-upgrade-of-godot) our upcoming upgrade to Godot 3. As of yesterday's sync to stable, Godot users should now have Godot 3 available to them. If you use Godot and didn't see our PSA, we highly recommend reading it.
 
-If you experience any issues with Godot 3, we suggest checking our dedicated [task](https://dev.solus-project.com/T6778).
+If you experience any issues with Godot 3, we suggest checking our dedicated task.

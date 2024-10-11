@@ -54,13 +54,13 @@ deltas are available.
 
 OK so keep up - we've got a fantastic new repository management system, always on deltas, significantly faster downloads.. what next? More people, of course! We've now onboarded 2 more global maintainers for the project. They have direct access to the repositories like we do, and can help with landing patches. More people = more faster.
 
-Without further ado, please welcome [kyrios](https://dev.solus-project.com/p/kyrios123/) (Pierre-Yves) and [joebonrichie](https://dev.solus-project.com/p/joebonrichie/) (Joey Riches) as global community maintainers! They've made a significant dent already, and the Solus build page is constantly ticking over.
+Without further ado, please welcome kyrios (Pierre-Yves) and joebonrichie (Joey Riches) as global community maintainers! They've made a significant dent already, and the Solus build page is constantly ticking over.
 
 Over the following weeks and months we'll be looking to onboard maintainers for specific repositories and stacks to further increase the Solus cadence, and ensure each area is monitored by those familiar with the relevant technologies.
 
 ### Fixed sync cycle
 
-As of this Friday (October 6th) [we'll be implementing a formal sync cadence](/articles/packaging/release-processes/en/) for issuing updates from unstable to the Shannon channel (stable repository). This mandates that we shall sync at minimum once every Friday, which will allow us to make breaking changes in the unstable repository in that time and stabilise in time for deployment. Our first demonstration of this will be to update the GNOME Stack in Solus to 3.26.1 as part of our ["Weekendtoberfest"](https://dev.solus-project.com/T4672). We may also make minor syncs during the week, but Friday should be the expected "batch update" day.
+As of this Friday (October 6th) we'll be implementing a formal sync cadence](/articles/packaging/release-processes/en/) for issuing updates from unstable to the Shannon channel (stable repository). This mandates that we shall sync at minimum once every Friday, which will allow us to make breaking changes in the unstable repository in that time and stabilise in time for deployment. Our first demonstration of this will be to update the GNOME Stack in Solus to 3.26.1 as part of our ["Weekendtoberfest". We may also make minor syncs during the week, but Friday should be the expected "batch update" day.
 
 ### Finally...
 

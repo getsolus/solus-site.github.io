@@ -143,7 +143,7 @@ Like any early testing, there are some known issues and notes we want to provide
 
 ## Solus 4
 
-With our plan to release Solus 4 this month, we've created a meta tasklist on what we want to get done before shipping. The full list is available [here](https://dev.solus-project.com/T5010), but here is a summary of some of the items we want to do.
+With our plan to release Solus 4 this month, we've created a meta tasklist on what we want to get done before shipping. The full list is available here, but here is a summary of some of the items we want to do.
 
 ### Budgie
 
@@ -168,7 +168,7 @@ Additionally, we'll be working on improving the state:
 
 - Hotspot enabling by shipping `hostapd`
 - Network shares with Samba enablement and testing
-- Wayland with enablement and [improving the NVIDIA GL/EGL situation](https://dev.solus-project.com/T4901)
+- Wayland with enablement and improving the NVIDIA GL/EGL situation
 
 ### Software Center and Third Party
 

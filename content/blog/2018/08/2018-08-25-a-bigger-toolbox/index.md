@@ -74,13 +74,13 @@ As a result of this change, eopkg is more resilient to these edge cases, and it 
 
 ## Upcoming
 
-This coming week will be full of QoL improvements and updates. We have some items targeted for specific days of the week (including this weekend), others will be addressed throughout the week or after next week's sync. We have a summarized list below of what to expect, with the full list being available [here](https://dev.solus-project.com/T6823).
+This coming week will be full of QoL improvements and updates. We have some items targeted for specific days of the week (including this weekend), others will be addressed throughout the week or after next week's sync. We have a summarized list below of what to expect, with the full list being available here.
 
 ### Weekend
 
 So far this weekend's focus has been updating our `linux-current` kernel to `4.18.5` and preparation for a potential Python 3.7 upgrade, in addition to our usual post-sync triage (addressing issues that may arise / have been discovered post sync) and minor upgrades.
 
-For our upgrade to 4.18.5, we've also enabled [some kernel options](https://dev.solus-project.com/T6812) to improve Intel GVT-g virtualization support, such as:
+For our upgrade to 4.18.5, we've also enabled some kernel options to improve Intel GVT-g virtualization support, such as:
 
 - CONFIG_DRM_I915_GVT
 - CONFIG_DRM_I915_GVT_KVMGT

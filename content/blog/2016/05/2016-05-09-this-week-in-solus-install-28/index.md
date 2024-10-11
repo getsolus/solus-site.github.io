@@ -124,28 +124,28 @@ Here is a highlight of updates that have happened this week.
 
 New:
 
-- [fontforge 20160404](https://git.solus-project.com/packages/fontforge/commit/?id=66b820a4cd74a211c9986641be3733927a11d50f)
-- [menulibre 2.1.3](https://git.solus-project.com/packages/menulibre/commit/?id=a223ea364bafc40ee11b62fa79350513caad4e24)
-- [woff-tools 1.0](https://git.solus-project.com/packages/woff-tools/commit/?id=772b5ad85e5e20858e7d5f1bcb00bd860e74d57b)
+- fontforge 20160404
+- menulibre 2.1.3
+- woff-tools 1.0
 
 Updated: 
 
-- [adapta-gtk-theme 3.21.1.100](https://git.solus-project.com/packages/adapta-gtk-theme/commit/?id=cbfbf58769e21db0702751f391165d39430508c4)
-- [conky 1.10.2](https://git.solus-project.com/packages/conky/commit/?id=57e98ca5a28bf8a6db372152b9f033bb3f9f41fe)
-- [darktable 2.0.4](https://git.solus-project.com/packages/darktable/commit/?id=8b98369ca3d082862c6ed920f673cb710bb6c21a)
+- adapta-gtk-theme 3.21.1.100
+- conky 1.10.2
+- darktable 2.0.4
 - [erlang 18.3.3](https://git.solus-project.com/packages/erlang/commit/)
-- [hexchat 2.12.1](https://git.solus-project.com/packages/hexchat/commit/?id=51f8d15f0abd63438f8c6146267f2a88b091ec0c)
-- [keepass 2.33](https://git.solus-project.com/packages/keepass/commit/?id=fec8052dd92b7dbdcbbadbb0aa356a37c1946114)
-- [kernel 4.4.9](https://git.solus-project.com/packages/kernel/commit/?id=b7ad5aa45c3dd3dffb5896bf957f041f72346b78)
-- [lollypop 0.9.104](https://git.solus-project.com/packages/lollypop/commit/?id=ddc6f69d8dede3e7f9590c012461966108b95d45)
-- [mpv: Ensure OpenGL features are enabled.](https://git.solus-project.com/packages/mpv/commit/?id=11116438439bb3e907bea4a533df32a062589fd5)
-- [n1 0.4.33](https://git.solus-project.com/packages/n1/commit/?id=5aa74d85ce01c0849a60e8dde5544388e70672a4)
-- [nodejs 5.11.1](https://git.solus-project.com/packages/nodejs/commit/?id=f5d4b4dfbd69e360e8c742f9d7bce864b4a132c9)
-- [nvidia-304-glx-driver: Disable mtrr](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=9bf874ca0e0a098389f1e1a2c38ab3bea389665b)
-- [openssl 1.0.2h](https://git.solus-project.com/packages/openssl/commit/?id=22461ec9f07e7c6293aeab0f8813e451b2b6cbe3)
-- [peerunity 0.2.2](https://git.solus-project.com/packages/peerunity/commit/?id=ad78e2317d7af5fef8cc6d06d40055f100cf8bb7)
-- [r 3.3.0](https://git.solus-project.com/packages/r/commit/?id=678700159e24ccfd4e2a1cf7051f8a6744aaadf3)
-- [retroarch 1.3.4](https://git.solus-project.com/packages/retroarch/commit/?id=6c645199cf3f23084108f5feb488ef97c39bdfc5)
-- [subversion 1.9.4](https://git.solus-project.com/packages/subversion/commit/?id=705eeaea7d81f20747afa15d417da061c20f5f9f)
-- [vlc 2.2.3](https://git.solus-project.com/packages/vlc/commit/?id=24272515b1341028952c3c2d5ee2413f043b5d11)
-- [weechat 1.5](https://git.solus-project.com/packages/weechat/commit/?id=e9373af2396987283e3c44d62159a1c9824e76fe)
+- hexchat 2.12.1
+- keepass 2.33
+- kernel 4.4.9
+- lollypop 0.9.104
+- mpv: Ensure OpenGL features are enabled.
+- n1 0.4.33
+- nodejs 5.11.1
+- nvidia-304-glx-driver: Disable mtrr
+- openssl 1.0.2h
+- peerunity 0.2.2
+- r 3.3.0
+- retroarch 1.3.4
+- subversion 1.9.4
+- vlc 2.2.3
+- weechat 1.5

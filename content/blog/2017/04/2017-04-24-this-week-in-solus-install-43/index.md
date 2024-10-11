@@ -70,54 +70,54 @@ Here is a highlight of package since our ISO snapshot!
 
 **New:**
 
-- [flat-plat-gtk-theme 20170323](https://git.solus-project.com/packages/flat-plat-gtk-theme/commit/?id=48d5fd394c285e9b1e864b4291825fb02c830da1)
-- [flow-pomodoro 1.2.0](https://git.solus-project.com/packages/flow-pomodoro/commit/?id=ced21c1ee1c3eda35d6f961a2edd8f98f769120d)
-- [k3b 17.04.0](https://git.solus-project.com/packages/k3b/commit/?id=d8f8a143a83a9ba71198f1d736becf822d100683)
-- [okteta 17.04.0](https://git.solus-project.com/packages/okteta/commit/?id=8ac3183c69d8a413f89111d91218807f9914b60a)
-- [radiotray-ng 0.1.5](https://git.solus-project.com/packages/radiotray-ng/commit/?id=ec251b1a49f862725f8786983b05942cc4f44149)
-- [zsh-syntax-highlighting 0.5.0](https://git.solus-project.com/packages/zsh-syntax-highlighting/commit/?id=a9cfa4679e434df089422d3bfae71a6da51c7f1b)
+- flat-plat-gtk-theme 20170323
+- flow-pomodoro 1.2.0
+- k3b 17.04.0
+- okteta 17.04.0
+- radiotray-ng 0.1.5
+- zsh-syntax-highlighting 0.5.0
 
 **Updated:**
 
-- [adapta-gtk-theme 3.90.0.93](https://git.solus-project.com/packages/adapta-gtk-theme/commit/?id=174c15d8246938054a103ccec05be7de47f849e8)
-- [albery 1.11.1](https://git.solus-project.com/packages/albert/commit/?id=a1e894840168d855b87ca4aa22928a855343007a)
-- [arc-firefox-theme 53.20170420](https://git.solus-project.com/packages/arc-firefox-theme/commit/?id=9258419377941a61b413a0920f90873602b27a98)
-- [bitcoin 0.14.1](https://git.solus-project.com/packages/bitcoin/commit/?id=f4f869442aee10045fc9ac2d7300ccbdee4e1b93)
-- [caja 1.18.2](https://git.solus-project.com/packages/caja/commit/?id=00219789545082a4f06df30d04ddb2fd68ba05b3)
-- [cantarell-fonts 0.0.25](https://git.solus-project.com/packages/cantarell-fonts/commit/?id=342739025d9b223bbc0c03fe5134e8cd9a8d3fc8)
-- [epiphany: Resolve inability to access web schema via dconf.](https://git.solus-project.com/packages/epiphany/commit/?id=a5d184a659d2c19bf94110891de6c14c5ceacec1)
-- [firefox 53.0](https://git.solus-project.com/packages/firefox/commit/?id=fce23633d2ff669af5b5fd23ab4042afc937dc49)
-- [gcolor3 2.2](https://git.solus-project.com/packages/gcolor3/commit/?id=cecac4ec4accba0c6568420d548123b82a354604)
-- [geany 1.30.1](https://git.solus-project.com/packages/geany/commit/?id=e0a6dd5828ff50a34190a76621d1f7eaaec4aab3)
-- [gnome-builder 3.24.1](https://git.solus-project.com/packages/gnome-builder/commit/?id=f107e56e8b5c863b8e78ce21f477b4ad88c27360)
-- [gnome-documents 3.24.1](https://git.solus-project.com/packages/gnome-documents/commit/?id=7f86d0b61f9b38fabd7c48929ca8c6dd8fcb09ac)
-- [gitg 3.23.90](https://git.solus-project.com/packages/gitg/commit/?id=4ae926e8f6adad52801f87ba1f9eb082dcf56361)
-- [kdenlive 17.04.0](https://git.solus-project.com/packages/kdenlive/commit/?id=2ec3f10d1f755982b69f0de4fdfcccbadd9455fb)
-- [kstars 17.04.0](https://git.solus-project.com/packages/kstars/commit/?id=a253edcacbb59d9222e52333bd61dd74b079cadf)
-- [kteatime 17.04.0](https://git.solus-project.com/packages/kteatime/commit/?id=bed36d34a00d8faf115f35d67a13f885a648a9fa)
-- [linux-lts 4.9.24](https://git.solus-project.com/packages/linux-lts/commit/?id=2b3729f4d808fd52ce9767481d844341f77b0bdd)
-- [lutris 0.4.8](https://git.solus-project.com/packages/lutris/commit/?id=d28e68d5c5b2595864fa8ab50501017ebf9b6dc5)
-- [marble 17.04.0](https://git.solus-project.com/packages/marble/commit/?id=b5f7ca740490a30daa47849f204d724b77fd1c7a)
-- [mercurial 4.1.3](https://git.solus-project.com/packages/mercurial/commit/?id=1c2997c96a48e24a3482afadf14694ca83ab07a1)
-- [miller 5.1.0](https://git.solus-project.com/packages/miller/commit/?id=e5a4dd1293587cf4a2665934df4f0f6c32a67a75)
-- [mutt 1.8.2](https://git.solus-project.com/packages/mutt/commit/?id=f6f02a66c55e5f2fc50aaa30cd98a0c9adb757b5)
-- [paperwork-gui 1.1.2](https://git.solus-project.com/packages/paperwork-gui/commit/?id=af18deabf49496e15f61809df9efb6307b864079)
-- [qgis 2.18.6](https://git.solus-project.com/packages/qgis/commit/?id=24a407ede278a08ff1d2978ba41dc3e53d1107ef)
-- [qt-creator 4.2.2](https://git.solus-project.com/packages/qt-creator/commit/?id=6580cfd7583f2bc38daa4ae7a77f6b649a724544)
-- [shotcut 17.04](https://git.solus-project.com/packages/shotcut/commit/?id=a10f4a360488d53ecf81a9c47a1bc185fd4ee2e1)
-- [smplayer 17.4.0](https://git.solus-project.com/packages/smplayer/commit/?id=f353a62b4f9f675f168ce4e40f76ed157d380802)
-- [smtube 17.1.0](https://git.solus-project.com/packages/smtube/commit/?id=ff650a4fcbd36e7f073ec79d1e70ae00bd240317)
-- [solbuild v1.3.1](https://git.solus-project.com/packages/solbuild/commit/?id=78ad1fac230a1e5db66b3364920c93057d9ff3f6)
-- [solus-hardware-config v13 and disabled coredumps](https://git.solus-project.com/packages/solus-hardware-config/commit/?id=ae82d4b3aad7dbc34c29f2de482173d7fbb65a62)
-- [sshfs 2.9](https://git.solus-project.com/packages/sshfs/commit/?id=8b4f8dab6c001e4a6a245b72fd4c109a8d603383)
+- adapta-gtk-theme 3.90.0.93
+- albery 1.11.1
+- arc-firefox-theme 53.20170420
+- bitcoin 0.14.1
+- caja 1.18.2
+- cantarell-fonts 0.0.25
+- epiphany: Resolve inability to access web schema via dconf.
+- firefox 53.0
+- gcolor3 2.2
+- geany 1.30.1
+- gnome-builder 3.24.1
+- gnome-documents 3.24.1
+- gitg 3.23.90
+- kdenlive 17.04.0
+- kstars 17.04.0
+- kteatime 17.04.0
+- linux-lts 4.9.24
+- lutris 0.4.8
+- marble 17.04.0
+- mercurial 4.1.3
+- miller 5.1.0
+- mutt 1.8.2
+- paperwork-gui 1.1.2
+- qgis 2.18.6
+- qt-creator 4.2.2
+- shotcut 17.04
+- smplayer 17.4.0
+- smtube 17.1.0
+- solbuild v1.3.1
+- solus-hardware-config v13 and disabled coredumps
+- sshfs 2.9
 - thunderbird
-  - [Update to 52.0.1](https://git.solus-project.com/packages/thunderbird/commit/?id=d0ea238e44ea51fbe3e348454264b90dadaab947)
-  - [Enable calendar](https://git.solus-project.com/packages/thunderbird/commit/?id=c679a9bd81bab3cad2604fd48e44d105802ee9e6)
-- [tmux 2.4](https://git.solus-project.com/packages/tmux/commit/?id=05eab4c9ed8b68109ac0dc14521fb3c3242771bc)
-- [uget 2.0.9](https://git.solus-project.com/packages/uget/commit/?id=7ba8d4274b7f6c4fa2156974e1a8e8728f2e588a)
-- [vagrant 1.9.3](https://git.solus-project.com/packages/vagrant/commit/?id=39046cc89568eaeaac652212b72322d53f1d3810)
-- [vivaldi-snapshot 1.9.818.22](https://git.solus-project.com/packages/vivaldi-snapshot/commit/?id=b8e0017003eb54dcaaf89e487cc1c889cbd89aba)
-- [weechat 1.7.1](https://git.solus-project.com/packages/weechat/commit/?id=8a1ed9b19a16a3abb46570e3bdfcccf21073361c)
-- [ypkg v21](https://git.solus-project.com/packages/ypkg/commit/?id=2cbd149ebf5111016e086ac3958a247aa4b431a1)
-- [youtube-dl 2017.04.17](https://git.solus-project.com/packages/youtube-dl/commit/?id=37bd9eddd55a3b934b14add30c7172bf2872591a)
-- [zuki-themes 3.22](https://git.solus-project.com/packages/zuki-themes/commit/?id=499d01341c4f389c255bd8ebaccdfb9ef171639a)
+  - Update to 52.0.1
+  - Enable calendar
+- tmux 2.4
+- uget 2.0.9
+- vagrant 1.9.3
+- vivaldi-snapshot 1.9.818.22
+- weechat 1.7.1
+- ypkg v21
+- youtube-dl 2017.04.17
+- zuki-themes 3.22

@@ -39,7 +39,7 @@ This release also features a new generic `lsi-exec` entry point. This entry poin
 
   - Add support for XDG specification (`XDG_CONFIG_HOME`, etc)
   - Reworked environment bootstrap to be robust and respect existing `LD_PRELOAD` variables, allowing Simple Screen Recorders glinject to work.
-  - Export `DBUS_SILENCE_WARNINGS` for patched d-bus to fix message spam (only useful with this [non-upstream patch](https://dev.solus-project.com/source/dbus/browse/master/files/0001-dbus-Teach-it-a-new-trick-Shutting-up.patch) or using the LSI snap)
+  - Export `DBUS_SILENCE_WARNINGS` for patched d-bus to fix message spam (only useful with this non-upstream patch or using the LSI snap)
 
 
 #### Redirect module

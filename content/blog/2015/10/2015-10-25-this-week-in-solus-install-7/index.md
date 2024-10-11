@@ -62,37 +62,37 @@ The following package updates are broken down based on contributor and within ea
 
 ##### Updated
 
-- [budgie-desktop: Updated to 8.3 for maintenence updates](https://git.solus-project.com/packages/budgie-desktop/commit/?id=e3d30fd6f970cb83fa964b3b83f3fa5d13ae992b)
-- [gvfs: Enabled CDDA and Avahi integration](https://git.solus-project.com/packages/gvfs/commit/?id=3e030bc8c36e713530713f1a9ffe6edb1d233742)
-- [kernel: Linux kernel has been updated to 4.1.11](https://git.solus-project.com/packages/kernel/commit/?id=b2203d7ba01e1ee1b865da1cad73ef4773c1a20c)
-- [pisi: Implemented proper build-info based dbginfo](https://git.solus-project.com/packages/pisi/commit/?id=ac8bfcfd454db21e93965010bcaaa8332d08e5b9)
-- [valgrind has been updated to 3.11](https://git.solus-project.com/packages/valgrind/commit/?id=798c17f0c43af5fb4537f4a28d8674378d10aa70)
-- [xorg-driver-video-intel has been updated to re-enable DRI3](https://git.solus-project.com/packages/xorg-driver-video-intel/commit/?id=3aeaabf09cd2dabedad71bfd4b56660be178a756)
-- [xorg-server has been updated to fix modesetting driver](https://git.solus-project.com/packages/xorg-server/commit/?id=f245e21d592c405fb41fc165ce454644a5ca2d03)
-- [ypkg now force-purges .la](https://git.solus-project.com/packages/ypkg/commit/?id=60472e3986d15fcd6b5c9ae203c7a0b80e1e9768)
+- budgie-desktop: Updated to 8.3 for maintenence updates
+- gvfs: Enabled CDDA and Avahi integration
+- kernel: Linux kernel has been updated to 4.1.11
+- pisi: Implemented proper build-info based dbginfo
+- valgrind has been updated to 3.11
+- xorg-driver-video-intel has been updated to re-enable DRI3
+- xorg-server has been updated to fix modesetting driver
+- ypkg now force-purges .la
 
 ##### New
 
-- [libcdio-paranoia 10.2.0.93.1 has been added](https://git.solus-project.com/packages/libcdio-paranoia/commit/?id=19ff5ca5b2a8acc5928708cf3b2a64a6533efe85)
-- [nvidia-304-glx-driver 304.128 has been added](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=1b2ee1e928299055e58af78095520fc3342d9b22)
+- libcdio-paranoia 10.2.0.93.1 has been added
+- nvidia-304-glx-driver 304.128 has been added
 
 #### Justin Zobel
 
 ##### Updated
 
-- [flash-player-nonfree has been updated to 11.2.202.540](https://git.solus-project.com/packages/flash-player-nonfree/commit/?id=3e9e84f4b149fff0a321ae476f430733a772cd68)
+- flash-player-nonfree has been updated to 11.2.202.540
 
 ##### New
 
-- [libdbi 0.9.0 has been added](https://git.solus-project.com/packages/libdbi/commit/?id=a882ad0e13324342d44a43490500d2482f9c586d)
-- [net-snmp 5.7.3 has been added](https://git.solus-project.com/packages/net-snmp/commit/?id=667856c031c6b86731e3a8cecc1c1e0e678a43f8)
+- libdbi 0.9.0 has been added
+- net-snmp 5.7.3 has been added
 
 #### Joshua Strobl
 
 ##### Updated
 
--  [gstreamer-1.0-plugins-ugly: Updated to utilize CD support from libcdio-paranoia](https://git.solus-project.com/packages/gstreamer-1.0-plugins-ugly/commit/?id=c1f3360a18e439ba36f4d43622b8ef27ab9671fe)
--  [jemalloc has been updated to 4.0.4](https://git.solus-project.com/packages/jemalloc/commit/?id=4218c0107db972479903ab69a1c01cf625ccf08d)
--  [libsodium has been updated to 1.0.4](https://git.solus-project.com/packages/libsodium/commit/?id=362b8133258f5f3e88deda3eb6cfa33cf4d588bb)
--  [lollypop has been updated to 0.9.6](https://git.solus-project.com/packages/lollypop/commit/?id=e1b08f1a1cbb827757121feebc1500198ed34b06)
--  [toxcore has been updated to upstream build 3513](https://git.solus-project.com/packages/toxcore/commit/?id=0ebc4f5eade23bc5c58cc7709fdf512e3aa6e3eb)
+-  gstreamer-1.0-plugins-ugly: Updated to utilize CD support from libcdio-paranoia
+-  jemalloc has been updated to 4.0.4
+-  libsodium has been updated to 1.0.4
+-  lollypop has been updated to 0.9.6
+-  toxcore has been updated to upstream build 3513

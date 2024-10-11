@@ -79,29 +79,29 @@ Here is a highlight of package updates that have occurred this week:
 
 New: 
 
-- [codeblocks 13.12](https://git.solus-project.com/packages/codeblocks/commit/?id=17fa91b3477867899ae1b13bf90035930082e849)            
-- [easystroke 0.6.0](https://git.solus-project.com/packages/easystroke/commit/?id=c598f7765676698c8aa66aa362cf07b9d6f4ef77)            
-- [exfat 1.2.3](https://git.solus-project.com/packages/exfat/commit/?id=7d16fba9e440566968ca9941ed5545110fc1948a)            
-- [gnome-todo 3.18.1](https://git.solus-project.com/packages/gnome-todo/commit/?id=6506f099d4036d6870204378344952a77f40ca33)            
-- [mpc-client 0.27](https://git.solus-project.com/packages/mpc-client/commit/?id=bfe4d8f2d9b3c51ca4beade9ac10a2035dedfcf4)            
-- [python-mpd 0.3.0](https://git.solus-project.com/packages/python-mpd/commit/?id=3bfb015dbcb336d0dfdf1b3c9bf4ccb2348a605e)
+- codeblocks 13.12            
+- easystroke 0.6.0            
+- exfat 1.2.3            
+- gnome-todo 3.18.1            
+- mpc-client 0.27            
+- python-mpd 0.3.0
 
 Updated:
 
-- [atom 1.3.3](https://git.solus-project.com/packages/atom/commit/?id=02d596b1490828d6a968f01cb8db2e03b9ccdd2d)            
-- [emacs 24.5](https://git.solus-project.com/packages/emacs/commit/?id=eb1c10c9c2e5ea44f73b463c5e7e1ad04879f0e2)            
-- [feedreader 1.4.3](https://git.solus-project.com/packages/feedreader/commit/?id=92268adcde3902881418aae456ac9faa85fe317b)            
-- [firefox 43.0.4](https://git.solus-project.com/packages/firefox/commit/?id=6d9c5bbe4fa753115ddb69a511169c75ef81693b)            
-- [fotoxx 16.01.1](https://git.solus-project.com/packages/fotoxx/commit/?id=79b9fbe840533d7c02b48fda6b7e43b782aec9b9)            
-- [git 2.7.0](https://git.solus-project.com/packages/git/commit/?id=e31ba39af16919b130fd9eaf36c9e019b96ee3a3)            
-- [hal-flash 0.3.2](https://git.solus-project.com/packages/hal-flash/commit/?id=2f94c9f75d90b1470b5d18abfa7ac518863b6747)            
-- [keepass 2.31](https://git.solus-project.com/packages/keepass/commit/?id=97a9df7c4633a5c77306a917b5969f044672dc0e)            
-- [nautilus-dropbox 2015.10.28](https://git.solus-project.com/packages/nautilus-dropbox/commit/?id=b1f924275f1731e07e3f5d00056fd9e32d6175db)            
-- [nodejs 5.4.0](https://git.solus-project.com/packages/nodejs/commit/?id=af108913ae9d47c52d0767625f79ac16ada67bd3)            
-- [php 7.0.2](https://git.solus-project.com/packages/php/commit/?id=c4edbeef9f68ab20162f75216470a63acbbd8b8d)            
-- [postgresql 9.5.0](https://git.solus-project.com/packages/postgresql/commit/?id=c7090807b6e2f56774031c4ef47aec0cb95dc44b)            
-- [telegram 0.9.18](https://git.solus-project.com/packages/telegram/commit/?id=cfa4602015eb5ca1f249d6af2a441ce0015102d6)            
-- [thunderbird 38.5.1](https://git.solus-project.com/packages/thunderbird/commit/?id=d756f70fc1fd3ee80bc10d02791f0157a33e3a78)            
-- [weechat 1.4](https://git.solus-project.com/packages/weechat/commit/?id=a7dff32827083568b2459d6e2694408980be3817)            
-- [winetricks 20151227](https://git.solus-project.com/packages/winetricks/commit/?id=a0e7443a83a0f9f7cd254eed7c5897c2123f8ccc)            
-- [youtube-dl 2016.01.09](https://git.solus-project.com/packages/youtube-dl/commit/?id=42fe3333ebaf5859085909e31a2435237026a863)
+- atom 1.3.3            
+- emacs 24.5            
+- feedreader 1.4.3            
+- firefox 43.0.4            
+- fotoxx 16.01.1            
+- git 2.7.0            
+- hal-flash 0.3.2            
+- keepass 2.31            
+- nautilus-dropbox 2015.10.28            
+- nodejs 5.4.0            
+- php 7.0.2            
+- postgresql 9.5.0            
+- telegram 0.9.18            
+- thunderbird 38.5.1            
+- weechat 1.4            
+- winetricks 20151227            
+- youtube-dl 2016.01.09

@@ -29,95 +29,95 @@ In this release, we feature several key updates, along with the 4.1.2 LTS Linux 
 
 **kernel**
 
-- [Ikey Doherty: Update to 4.1.2, latest LTS release](https://git.solus-project.com/packages/kernel/commit/?id=d63a213)
+- Ikey Doherty: Update to 4.1.2, latest LTS release
 
 **nautilus**
 
-- [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/nautilus/commit/?id=bd6bcda)
+- Ikey Doherty: Convert to stateless configuration
 
 **firefox**
 
-- [Ikey Doherty: Update to 39.0](https://git.solus-project.com/packages/firefox/commit/?id=0fb3ac2)
+- Ikey Doherty: Update to 39.0
 
 **lightdm**
 
-- [Ikey Doherty: Update to 1.15.0](https://git.solus-project.com/packages/lightdm/commit/?id=7afa1f3)
-- [Ikey Doherty: Gracefully handle local hostname changes w/ xauthority](https://git.solus-project.com/packages/lightdm/commit/?id=feb7bf3)
+- Ikey Doherty: Update to 1.15.0
+- Ikey Doherty: Gracefully handle local hostname changes w/ xauthority
 
 **xdg-user-dirs-gtk**
 
-- [Ikey Doherty: Add explicit runtime dep on xdg-user-dirs](https://git.solus-project.com/packages/xdg-user-dirs-gtk/commit/?id=22ef5bf)
-- [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/xdg-user-dirs-gtk/commit/?id=2560845)
+- Ikey Doherty: Add explicit runtime dep on xdg-user-dirs
+- Ikey Doherty: Convert to stateless configuration
 
 **lightdm-gtk-greeter**
 
-- [Ikey Doherty: Update to 2.0.1](https://git.solus-project.com/packages/lightdm-gtk-greeter/commit/?id=3b2ea75)
+- Ikey Doherty: Update to 2.0.1
 
 **budgie-desktop**
 
-- [Ikey Doherty: Convert to ypkg, that pspec is damned offensive.](https://git.solus-project.com/packages/budgie-desktop/commit/?id=161b033)
+- Ikey Doherty: Convert to ypkg, that pspec is damned offensive.
 
 **gparted**
 
-- [Ikey Doherty: Autoreconf to ensure pkexec patch is applied](https://git.solus-project.com/packages/gparted/commit/?id=1e050f3)
-- [Ikey Doherty: Add Polkit policy to enable pkexec launch from menu](https://git.solus-project.com/packages/gparted/commit/?id=4acd4d6)
+- Ikey Doherty: Autoreconf to ensure pkexec patch is applied
+- Ikey Doherty: Add Polkit policy to enable pkexec launch from menu
 
 **xdg-user-dirs**
 
-- [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/xdg-user-dirs/commit/?id=88f2aaf)
+- Ikey Doherty: Convert to stateless configuration
 
 **polkit-gnome**
 
-- [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/polkit-gnome/commit/?id=90a5da2)
+- Ikey Doherty: Convert to stateless configuration
 
 **gnome-terminal**
 
-- [Ikey Doherty: Hide menubar by default, make scrollbar automatic](https://git.solus-project.com/packages/gnome-terminal/commit/?id=2f399ae)
-- [Ikey Doherty: Set defaults (11% transparency, size 10 font)](https://git.solus-project.com/packages/gnome-terminal/commit/?id=a3fcc18)
-- [Ikey Doherty: Disable GConf usage, fix libexecdir](https://git.solus-project.com/packages/gnome-terminal/commit/?id=97d3291)
+- Ikey Doherty: Hide menubar by default, make scrollbar automatic
+- Ikey Doherty: Set defaults (11% transparency, size 10 font)
+- Ikey Doherty: Disable GConf usage, fix libexecdir
 
 **ncurses**
 
-- [Ikey Doherty: Fix cyclical dependencies](https://git.solus-project.com/packages/ncurses/commit/?id=9d7477e)
-- [Ikey Doherty: Convert to ypkg, major package cleanup](https://git.solus-project.com/packages/ncurses/commit/?id=92f8fbe)
+- Ikey Doherty: Fix cyclical dependencies
+- Ikey Doherty: Convert to ypkg, major package cleanup
 
 **gtk3**
 
-- [Ikey Doherty: Update to 3.16.5](https://git.solus-project.com/packages/gtk3/commit/?id=f1d7cc0)
+- Ikey Doherty: Update to 3.16.5
 
 **os-installer**
 
-- [Ikey Doherty: Sync new lightdm (1.15.0) config](https://git.solus-project.com/packages/os-installer/commit/?id=c0bcaf6)
+- Ikey Doherty: Sync new lightdm (1.15.0) config
 
 **libevent**
 
-- [Ikey Doherty: Update to 2.0.22, convert to ypkg](https://git.solus-project.com/packages/libevent/commit/?id=9686692)
+- Ikey Doherty: Update to 2.0.22, convert to ypkg
 
 **bash**
 
-- [Ikey Doherty: Enhance bash's default PS1](https://git.solus-project.com/packages/bash/commit/?id=6c2aa24)
+- Ikey Doherty: Enhance bash's default PS1
 
 **gnome-keyring**
 
-- [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/gnome-keyring/commit/?id=962c4e2)
+- Ikey Doherty: Convert to stateless configuration
 
 **at-spi2**
 
-- [Ikey Doherty: Convert to stateless configuration (XDG dir only at this point)](https://git.solus-project.com/packages/at-spi2/commit/?id=3f2685a)
+- Ikey Doherty: Convert to stateless configuration (XDG dir only at this point)
 
 **thunderbird**
 
-- [Ikey Doherty: Update to 38.1.0](https://git.solus-project.com/packages/thunderbird/commit/?id=dec85ea)
+- Ikey Doherty: Update to 38.1.0
 
 **network-manager-applet**
 
-- [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/network-manager-applet/commit/?id=bc7a78b)
-- [Ikey Doherty: Disable GConf usage](https://git.solus-project.com/packages/network-manager-applet/commit/?id=77d1670)
+- Ikey Doherty: Convert to stateless configuration
+- Ikey Doherty: Disable GConf usage
 
 **gnome-settings-daemon**
 
-- [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/gnome-settings-daemon/commit/?id=621341d)
+- Ikey Doherty: Convert to stateless configuration
 
 **glib2**
 
-- [Ikey Doherty: Support stateless XDG config directory](https://git.solus-project.com/packages/glib2/commit/?id=d6900a6)
+- Ikey Doherty: Support stateless XDG config directory

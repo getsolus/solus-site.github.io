@@ -211,7 +211,7 @@ Among the above mentioned items, we've also resolved the following issues:
 
 #### Caja
 
-Caja has been patched to [support whitelisting and trusting symlinked vendor-provided .desktop files](https://dev.solus-project.com/R482:f667c0a3d29851855f8b0a232a1eb0e3958883e1). This enables us to provide default desktop icons for items such as the Installer.
+Caja has been patched to support whitelisting and trusting symlinked vendor-provided .desktop files. This enables us to provide default desktop icons for items such as the Installer.
 
 ## Lastly
 
@@ -293,1112 +293,1112 @@ Press can obtain our Press Release PDF and Media Pack via our [Press Center](/pr
 
 **gnome-user-docs**
 
-  - [Joshua Strobl: Update to 3.24.2](https://dev.solus-project.com/source/gnome-user-docs/browse/master/;d78a003)
+  - Joshua Strobl: Update to 3.24.2
 
 
 **libgnome-desktop**
 
-  - [Joshua Strobl: Update to 3.24.1](https://dev.solus-project.com/source/libgnome-desktop/browse/master/;efc292f)
+  - Joshua Strobl: Update to 3.24.1
 
 
 **lz4**
 
-  - [Ikey Doherty: Update to 1.7.5](https://dev.solus-project.com/source/lz4/browse/master/;464b354)
-  - [Mitchell Fossen: Update to 1.7.3](https://dev.solus-project.com/source/lz4/browse/master/;a0d0895)
+  - Ikey Doherty: Update to 1.7.5
+  - Mitchell Fossen: Update to 1.7.3
 
 
 **kbd**
 
-  - [Pierre-Yves: Update kbd to 2.0.4](https://dev.solus-project.com/source/kbd/browse/master/;7b95a9b)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/kbd/browse/master/;0a85ac5)
+  - Pierre-Yves: Update kbd to 2.0.4
+  - Peter O'Connor: Update abireport
 
 
 **evince**
 
-  - [Joshua Strobl: Update to 3.24.1](https://dev.solus-project.com/source/evince/browse/master/;48431f6)
-  - [Joshua Strobl: Resolve CVE-2017-1000083](https://dev.solus-project.com/source/evince/browse/master/;cc9c2c9)
-  - [Peter O'Connor: Safety rebuild for libgxps](https://dev.solus-project.com/source/evince/browse/master/;a5241b3)
+  - Joshua Strobl: Update to 3.24.1
+  - Joshua Strobl: Resolve CVE-2017-1000083
+  - Peter O'Connor: Safety rebuild for libgxps
 
 
 **gd**
 
-  - [Peter O'Connor: Address CVE-2017-7890](https://dev.solus-project.com/source/gd/browse/master/;4f869e4)
+  - Peter O'Connor: Address CVE-2017-7890
 
 
 **libnspr**
 
-  - [Pierre-Yves: Update libnspr to 4.15](https://dev.solus-project.com/source/libnspr/browse/master/;f8e9c00)
+  - Pierre-Yves: Update libnspr to 4.15
 
 
 **mesalib**
 
-  - [Ikey Doherty: Update mesa to 17.1.6](https://dev.solus-project.com/source/mesalib/browse/master/;0b390a4)
-  - [Ikey Doherty: Restore missing 32-bit libGL deps](https://dev.solus-project.com/source/mesalib/browse/master/;2c7e8aa)
-  - [Ikey Doherty: Update mesalib to 17.1.5](https://dev.solus-project.com/source/mesalib/browse/master/;da508fb)
-  - [Peter O'Connor: Resolve dependency version of libxxfm-devel](https://dev.solus-project.com/source/mesalib/browse/master/;8d5c4b9)
-  - [Ikey Doherty: Restore derpy deps](https://dev.solus-project.com/source/mesalib/browse/master/;11d7562)
-  - [Ikey Doherty: Update mesalib to 17.1.4](https://dev.solus-project.com/source/mesalib/browse/master/;ba63813)
-  - [Ikey Doherty: Update Mesa to 17.1.1](https://dev.solus-project.com/source/mesalib/browse/master/;7dc909e)
-  - [Ikey Doherty: Update to 17.0.5 and align optimisations with xorg-server](https://dev.solus-project.com/source/mesalib/browse/master/;474ed37)
-  - [Ikey Doherty: Enable SWR and Gallium Nine (D3D) support](https://dev.solus-project.com/source/mesalib/browse/master/;5d0bc10)
+  - Ikey Doherty: Update mesa to 17.1.6
+  - Ikey Doherty: Restore missing 32-bit libGL deps
+  - Ikey Doherty: Update mesalib to 17.1.5
+  - Peter O'Connor: Resolve dependency version of libxxfm-devel
+  - Ikey Doherty: Restore derpy deps
+  - Ikey Doherty: Update mesalib to 17.1.4
+  - Ikey Doherty: Update Mesa to 17.1.1
+  - Ikey Doherty: Update to 17.0.5 and align optimisations with xorg-server
+  - Ikey Doherty: Enable SWR and Gallium Nine (D3D) support
 
 
 **gpgme**
 
-  - [Peter O'Connor: Enable Qt bindings for gpgme](https://dev.solus-project.com/source/gpgme/browse/master/;66ba293)
+  - Peter O'Connor: Enable Qt bindings for gpgme
 
 
 **gobject-introspection**
 
-  - [Peter O'Connor: Update to 1.52.1](https://dev.solus-project.com/source/gobject-introspection/browse/master/;e6de9a2)
+  - Peter O'Connor: Update to 1.52.1
 
 
 **libsndfile**
 
-  - [Peter O'Connor: Address CVE-2017-12562](https://dev.solus-project.com/source/libsndfile/browse/master/;3707325)
-  - [Peter O'Connor: Address CVE-2017-6892](https://dev.solus-project.com/source/libsndfile/browse/master/;24c971b)
-  - [Peter O'Connor: Resolve the following CVEs:](https://dev.solus-project.com/source/libsndfile/browse/master/;33c7774)
+  - Peter O'Connor: Address CVE-2017-12562
+  - Peter O'Connor: Address CVE-2017-6892
+  - Peter O'Connor: Resolve the following CVEs:
 
 
 **samba**
 
-  - [Pierre-Yves: Update samba to 4.6.6 to address CVE-2017-11103](https://dev.solus-project.com/source/samba/browse/master/;f8b4c15)
-  - [Peter O'Connor: Add nopatch for false positive on CVE](https://dev.solus-project.com/source/samba/browse/master/;cbff259)
-  - [Peter O'Connor: Use system talloc - resolves T3912](https://dev.solus-project.com/source/samba/browse/master/;be6aa1e)
-  - [Ikey Doherty: Update Samba to 4.6.5](https://dev.solus-project.com/source/samba/browse/master/;05134eb)
-  - [Ikey Doherty: Update to 4.6.4, the latest Samba version](https://dev.solus-project.com/source/samba/browse/master/;6b95661)
+  - Pierre-Yves: Update samba to 4.6.6 to address CVE-2017-11103
+  - Peter O'Connor: Add nopatch for false positive on CVE
+  - Peter O'Connor: Use system talloc - resolves T3912
+  - Ikey Doherty: Update Samba to 4.6.5
+  - Ikey Doherty: Update to 4.6.4, the latest Samba version
 
 
 **clr-boot-manager**
 
-  - [Ikey Doherty: Update clr-boot-manager to 1.5.4](https://dev.solus-project.com/source/clr-boot-manager/browse/master/;477611d)
-  - [Ikey Doherty: Actually apply the patches to clr-boot-manager (thanks mesiment)](https://dev.solus-project.com/source/clr-boot-manager/browse/master/;d386667)
-  - [Ikey Doherty: Sync latest clr-boot-manager patches to help me do some unstable testing](https://dev.solus-project.com/source/clr-boot-manager/browse/master/;4c9d2fc)
-  - [Ikey Doherty: Update to 1.5.3 to fix UEFI GC issues](https://dev.solus-project.com/source/clr-boot-manager/browse/master/;9552894)
+  - Ikey Doherty: Update clr-boot-manager to 1.5.4
+  - Ikey Doherty: Actually apply the patches to clr-boot-manager (thanks mesiment)
+  - Ikey Doherty: Sync latest clr-boot-manager patches to help me do some unstable testing
+  - Ikey Doherty: Update to 1.5.3 to fix UEFI GC issues
 
 
 **libnss**
 
-  - [Ikey Doherty: Update libnss to 3.31](https://dev.solus-project.com/source/libnss/browse/master/;f111c46)
-  - [Ikey Doherty: Update to 3.30.2](https://dev.solus-project.com/source/libnss/browse/master/;133b5ad)
+  - Ikey Doherty: Update libnss to 3.31
+  - Ikey Doherty: Update to 3.30.2
 
 
 **gnome-calendar**
 
-  - [Joshua Strobl: Rebuild against evolution-data-server 3.24.5](https://dev.solus-project.com/source/gnome-calendar/browse/master/;9977a09)
-  - [Joshua Strobl: Update to 3.24.3](https://dev.solus-project.com/source/gnome-calendar/browse/master/;dd61192)
-  - [Joshua Strobl: Update to 3.24.2](https://dev.solus-project.com/source/gnome-calendar/browse/master/;7fa1174)
-  - [Joshua Strobl: Update to 3.24.1](https://dev.solus-project.com/source/gnome-calendar/browse/master/;1fc2ce9)
+  - Joshua Strobl: Rebuild against evolution-data-server 3.24.5
+  - Joshua Strobl: Update to 3.24.3
+  - Joshua Strobl: Update to 3.24.2
+  - Joshua Strobl: Update to 3.24.1
 
 
 **fontconfig**
 
-  - [Ikey Doherty: Fix glibc 2.25 build failure](https://dev.solus-project.com/source/fontconfig/browse/master/;ff8e08f)
-  - [Ikey Doherty: Move this out of system.base as x11 is no longer welcome there](https://dev.solus-project.com/source/fontconfig/browse/master/;a75c365)
+  - Ikey Doherty: Fix glibc 2.25 build failure
+  - Ikey Doherty: Move this out of system.base as x11 is no longer welcome there
 
 
 **gdk-pixbuf**
 
-  - [Ikey Doherty: Update gdk-pixbuf to 2.36.8](https://dev.solus-project.com/source/gdk-pixbuf/browse/master/;a4f3482)
-  - [Ikey Doherty: Rebuild gdk-pixbuf to ensure SVG module is loadable](https://dev.solus-project.com/source/gdk-pixbuf/browse/master/;36b5547)
-  - [Ikey Doherty: Update gdk-pixbuf to 2.36.7](https://dev.solus-project.com/source/gdk-pixbuf/browse/master/;f53e13a)
+  - Ikey Doherty: Update gdk-pixbuf to 2.36.8
+  - Ikey Doherty: Rebuild gdk-pixbuf to ensure SVG module is loadable
+  - Ikey Doherty: Update gdk-pixbuf to 2.36.7
 
 
 **python3**
 
-  - [Ikey Doherty: Update Python to 3.5.4](https://dev.solus-project.com/source/python3/browse/master/;45dd12d)
+  - Ikey Doherty: Update Python to 3.5.4
 
 
 **xorg-driver-input-libinput**
 
-  - [Pierre-Yves: Update xorg-driver-input-libinput to 0.25.1](https://dev.solus-project.com/source/xorg-driver-input-libinput/browse/master/;8eece54)
+  - Pierre-Yves: Update xorg-driver-input-libinput to 0.25.1
 
 
 **openvpn**
 
-  - [Pierre-Yves: Update openvpn to 2.4.3 (to fix multiple CVE's)](https://dev.solus-project.com/source/openvpn/browse/master/;8f57527)
-  - [Justin Zobel: Remove no longer needed install path, also fixes CVE-2017-7479 and CVE-2017-7478](https://dev.solus-project.com/source/openvpn/browse/master/;b0575d3)
-  - [Justin Zobel: Update to 2.4.2](https://dev.solus-project.com/source/openvpn/browse/master/;f275b68)
+  - Pierre-Yves: Update openvpn to 2.4.3 (to fix multiple CVE's)
+  - Justin Zobel: Remove no longer needed install path, also fixes CVE-2017-7479 and CVE-2017-7478
+  - Justin Zobel: Update to 2.4.2
 
 
 **solus-artwork**
 
-  - [Joshua Strobl: Update to v18](https://dev.solus-project.com/source/solus-artwork/browse/master/;549843b)
-  - [Ikey Doherty: Update to v17](https://dev.solus-project.com/source/solus-artwork/browse/master/;cc00a75)
+  - Joshua Strobl: Update to v18
+  - Ikey Doherty: Update to v17
 
 
 **libreoffice**
 
-  - [Peter O'Connor: Add bzip2-devel to build](https://dev.solus-project.com/source/libreoffice/browse/master/;1fc73d2)
-  - [Peter O'Connor: Update to 5.4.0.3 - resolves T4179](https://dev.solus-project.com/source/libreoffice/browse/master/;c5bd977)
-  - [Peter O'Connor: Update to 5.3.3, add dictionaries to -all subpackage](https://dev.solus-project.com/source/libreoffice/browse/master/;3bb2df0)
-  - [Ikey Doherty: Include *all* desktop files (including links) and appdata files](https://dev.solus-project.com/source/libreoffice/browse/master/;9e1a681)
-  - [Ikey Doherty: One last attempt at fixing appstream data for libreoffice](https://dev.solus-project.com/source/libreoffice/browse/master/;a3d81f1)
-  - [Ikey Doherty: Ensure all subpackages contain their own icons for AppStream](https://dev.solus-project.com/source/libreoffice/browse/master/;217db8e)
-  - [Ikey Doherty: Switch back to GTK3](https://dev.solus-project.com/source/libreoffice/browse/master/;c978a76)
-  - [Ikey Doherty: Switch to system alloc](https://dev.solus-project.com/source/libreoffice/browse/master/;0cbd287)
+  - Peter O'Connor: Add bzip2-devel to build
+  - Peter O'Connor: Update to 5.4.0.3 - resolves T4179
+  - Peter O'Connor: Update to 5.3.3, add dictionaries to -all subpackage
+  - Ikey Doherty: Include *all* desktop files (including links) and appdata files
+  - Ikey Doherty: One last attempt at fixing appstream data for libreoffice
+  - Ikey Doherty: Ensure all subpackages contain their own icons for AppStream
+  - Ikey Doherty: Switch back to GTK3
+  - Ikey Doherty: Switch to system alloc
 
 
 **baselayout**
 
-  - [Ikey Doherty: baselayout: Update OS major version to 3](https://dev.solus-project.com/source/baselayout/browse/master/;183eda0)
+  - Ikey Doherty: baselayout: Update OS major version to 3
 
 
 **youtube-dl**
 
-  - [Justin Berthault: Update to 2017.07.23](https://dev.solus-project.com/source/youtube-dl/browse/master/;8e0cc57)
-  - [Peter O'Connor: Update to 2017.06.12](https://dev.solus-project.com/source/youtube-dl/browse/master/;0989038)
-  - [Justin Berthault: Update to 2017.05.29](https://dev.solus-project.com/source/youtube-dl/browse/master/;deb3194)
-  - [Justin Berthault: Update to 2017.05.23](https://dev.solus-project.com/source/youtube-dl/browse/master/;a44ac67)
-  - [Justin Berthault: Update to 2017.05.18.1, fixes T3714](https://dev.solus-project.com/source/youtube-dl/browse/master/;d03e73d)
-  - [Justin Berthault: Update to 2017.05.14](https://dev.solus-project.com/source/youtube-dl/browse/master/;86370d4)
-  - [Justin Berthault: Update to 2017.05.01](https://dev.solus-project.com/source/youtube-dl/browse/master/;b9c6d3b)
-  - [Peter O'Connor: Update to 2017.04.28](https://dev.solus-project.com/source/youtube-dl/browse/master/;3ad2022)
-  - [Peter O'Connor: Update to 2017.04.26](https://dev.solus-project.com/source/youtube-dl/browse/master/;ffaebf1)
-  - [Peter O'Connor: Update to 2017.04.17](https://dev.solus-project.com/source/youtube-dl/browse/master/;37bd9ed)
+  - Justin Berthault: Update to 2017.07.23
+  - Peter O'Connor: Update to 2017.06.12
+  - Justin Berthault: Update to 2017.05.29
+  - Justin Berthault: Update to 2017.05.23
+  - Justin Berthault: Update to 2017.05.18.1, fixes T3714
+  - Justin Berthault: Update to 2017.05.14
+  - Justin Berthault: Update to 2017.05.01
+  - Peter O'Connor: Update to 2017.04.28
+  - Peter O'Connor: Update to 2017.04.26
+  - Peter O'Connor: Update to 2017.04.17
 
 
 **geoclue**
 
-  - [Joshua Strobl: Update to 2.4.7](https://dev.solus-project.com/source/geoclue/browse/master/;c760b60)
+  - Joshua Strobl: Update to 2.4.7
 
 
 **glibmm**
 
-  - [Joshua Strobl: Test rebuild of glibmm for gimagereader: T3696.](https://dev.solus-project.com/source/glibmm/browse/master/;993ad88)
-  - [Joshua Strobl: Update to 2.51.7](https://dev.solus-project.com/source/glibmm/browse/master/;e44157c)
+  - Joshua Strobl: Test rebuild of glibmm for gimagereader: T3696.
+  - Joshua Strobl: Update to 2.51.7
 
 
 **swig**
 
-  - [Ikey Doherty: Update swig to 3.0.12](https://dev.solus-project.com/source/swig/browse/master/;7233693)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/swig/browse/master/;d1a5886)
+  - Ikey Doherty: Update swig to 3.0.12
+  - Peter O'Connor: Update abireport
 
 
 **bash-completion**
 
-  - [Pierre-Yves: Update bash-completion to 2.7](https://dev.solus-project.com/source/bash-completion/browse/master/;0d5c249)
+  - Pierre-Yves: Update bash-completion to 2.7
 
 
 **gtk3**
 
-  - [Ikey Doherty: Update to GTK3 to 3.22.18 and enable Snapd compat symlink (T4272)](https://dev.solus-project.com/source/gtk3/browse/master/;9147190)
-  - [Ikey Doherty: Update GTK to 3.22.16 and fix broken x11 grabs](https://dev.solus-project.com/source/gtk3/browse/master/;ed24108)
-  - [Ikey Doherty: Update to 3.22.15 to address GtkListBox regressions upstream](https://dev.solus-project.com/source/gtk3/browse/master/;10e48cf)
-  - [Joshua Strobl: Update to 3.22.14 to resolve clipboard issue. Revert listbox patch that'd cause budgie-panel to segfault.](https://dev.solus-project.com/source/gtk3/browse/master/;bfe954e)
-  - [Ikey Doherty: Downgrade to 3.22.12 to unbrick Budgie](https://dev.solus-project.com/source/gtk3/browse/master/;c4833c2)
-  - [Joshua Strobl: Update to 3.22.13](https://dev.solus-project.com/source/gtk3/browse/master/;a477bf4)
+  - Ikey Doherty: Update to GTK3 to 3.22.18 and enable Snapd compat symlink (T4272)
+  - Ikey Doherty: Update GTK to 3.22.16 and fix broken x11 grabs
+  - Ikey Doherty: Update to 3.22.15 to address GtkListBox regressions upstream
+  - Joshua Strobl: Update to 3.22.14 to resolve clipboard issue. Revert listbox patch that'd cause budgie-panel to segfault.
+  - Ikey Doherty: Downgrade to 3.22.12 to unbrick Budgie
+  - Joshua Strobl: Update to 3.22.13
 
 
 **mpv**
 
-  - [Joshua Strobl: Rebuild mpv against ffmpeg 3.3.2. Resolves T3889.](https://dev.solus-project.com/source/mpv/browse/master/;9bdc4ba)
-  - [Ikey Doherty: Rebuild for new Samba](https://dev.solus-project.com/source/mpv/browse/master/;5d86eb4)
-  - [Justin Zobel: Update to 0.25.0](https://dev.solus-project.com/source/mpv/browse/master/;f46385f)
+  - Joshua Strobl: Rebuild mpv against ffmpeg 3.3.2. Resolves T3889.
+  - Ikey Doherty: Rebuild for new Samba
+  - Justin Zobel: Update to 0.25.0
 
 
 **os-installer**
 
-  - [Ikey Doherty: Sync os-installer with git to drop Arc box-shadow on sidebar](https://dev.solus-project.com/source/os-installer/browse/master/;25fdded)
-  - [Ikey Doherty: Sync `os-installer` with git](https://dev.solus-project.com/source/os-installer/browse/master/;10498ee)
-  - [Ikey Doherty: Sync `os-installer` with git for more derp/vanity fixes](https://dev.solus-project.com/source/os-installer/browse/master/;22655b2)
-  - [Ikey Doherty: Sync `os-installer` with git to add branding support for all DEs](https://dev.solus-project.com/source/os-installer/browse/master/;ebe616a)
-  - [Ikey Doherty: Sync os-installer with git for Summary page beautification](https://dev.solus-project.com/source/os-installer/browse/master/;997fd4a)
-  - [Ikey Doherty: Sync os-installer with git to unbreak it](https://dev.solus-project.com/source/os-installer/browse/master/;0a52b01)
-  - [Ikey Doherty: Sync os-installer with git for new UI changes + testing](https://dev.solus-project.com/source/os-installer/browse/master/;80c3137)
-  - [Ikey Doherty: Sync with git for Adapta styling fixes](https://dev.solus-project.com/source/os-installer/browse/master/;2f92f00)
-  - [Ikey Doherty: Fix issue with disks having "None" type](https://dev.solus-project.com/source/os-installer/browse/master/;ee53379)
+  - Ikey Doherty: Sync os-installer with git to drop Arc box-shadow on sidebar
+  - Ikey Doherty: Sync `os-installer` with git
+  - Ikey Doherty: Sync `os-installer` with git for more derp/vanity fixes
+  - Ikey Doherty: Sync `os-installer` with git to add branding support for all DEs
+  - Ikey Doherty: Sync os-installer with git for Summary page beautification
+  - Ikey Doherty: Sync os-installer with git to unbreak it
+  - Ikey Doherty: Sync os-installer with git for new UI changes + testing
+  - Ikey Doherty: Sync with git for Adapta styling fixes
+  - Ikey Doherty: Fix issue with disks having "None" type
 
 
 **libdrm**
 
-  - [Ikey Doherty: Update libdrm to 2.4.82](https://dev.solus-project.com/source/libdrm/browse/master/;67bfa5d)
-  - [Ikey Doherty: Update libdrm to 2.4.81 for new mesa 17.1.1](https://dev.solus-project.com/source/libdrm/browse/master/;bd0c167)
+  - Ikey Doherty: Update libdrm to 2.4.82
+  - Ikey Doherty: Update libdrm to 2.4.81 for new mesa 17.1.1
 
 
 **gnutls**
 
-  - [Pierre-Yves: Update gnutls to 3.5.14](https://dev.solus-project.com/source/gnutls/browse/master/;74ea52b)
-  - [Ikey Doherty: Fix 32bit deps](https://dev.solus-project.com/source/gnutls/browse/master/;98e11cc)
+  - Pierre-Yves: Update gnutls to 3.5.14
+  - Ikey Doherty: Fix 32bit deps
 
 
 **pcre2**
 
-  - [Ikey Doherty: Enable pcre2-16+32 for Qt 5.9 base](https://dev.solus-project.com/source/pcre2/browse/master/;5c27a24)
-  - [Peter O'Connor: Resolve CVE-2017-8786](https://dev.solus-project.com/source/pcre2/browse/master/;487b6bc)
+  - Ikey Doherty: Enable pcre2-16+32 for Qt 5.9 base
+  - Peter O'Connor: Resolve CVE-2017-8786
 
 
 **gvfs**
 
-  - [Joshua Strobl: Ensure gvfs can see blocking processes with lsof.](https://dev.solus-project.com/source/gvfs/browse/master/;710f09d)
-  - [Ikey Doherty: Rebuild for new Samba](https://dev.solus-project.com/source/gvfs/browse/master/;f93af6f)
+  - Joshua Strobl: Ensure gvfs can see blocking processes with lsof.
+  - Ikey Doherty: Rebuild for new Samba
 
 
 **ca-certs**
 
-  - [Ikey Doherty: Update certificates (`ca-certs`) to version 20170803](https://dev.solus-project.com/source/ca-certs/browse/master/;ebc8e6e)
-  - [Ikey Doherty: Update to 20170427](https://dev.solus-project.com/source/ca-certs/browse/master/;254f5f8)
+  - Ikey Doherty: Update certificates (`ca-certs`) to version 20170803
+  - Ikey Doherty: Update to 20170427
 
 
 **nvidia-340-glx-driver**
 
-  - [Ikey Doherty: Rebuild for new kernel releases](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;869388d)
-  - [Ikey Doherty: Rebuild nvidia-340-glx-driver for new kernels](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;06ee82f)
-  - [Ikey Doherty: Rebuild nvidia-340-glx-driver for linux-current](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;489fe07)
-  - [Ikey Doherty: Rebuild nvidia-340-glx-driver for linux-current](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;f5b0cb4)
-  - [Ikey Doherty: Rebuild nvidia-340-glx-driver for new kernels](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;250b6cf)
-  - [Ikey Doherty: Fix nvidia-340 on 4.12](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;3e11f33)
-  - [Ikey Doherty: Rebuild nvidia-340-glx-driver for parallel kernel support](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;c963aed)
-  - [Ikey Doherty: Rebuild nvidia-340-glx-driver for 4.9.39-35.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;36d06bd)
-  - [Ikey Doherty: Rebuild nvidia-340-glx-driver for 4.9.38-34.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;dc6799e)
-  - [Ikey Doherty: Rebuild nvidia-340-glx-driver for 4.9.37-33.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;7c5c559)
-  - [Ikey Doherty: Rebuild for 4.9.36-32.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;26a4cf6)
-  - [Peter O'Connor: Rebuild for 4.9.32-31.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;74c8726)
-  - [Ikey Doherty: Rebuild nvidia-340-glx-driver for 4.9.32-30.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;27aad6f)
-  - [Ikey Doherty: Rebuild against 4.9.30-29.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;9ee7992)
-  - [Ikey Doherty: Rebuild for 4.9.29-28.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;7b1046b)
-  - [Ikey Doherty: Rebuild nvidia-340-glx-driver for LTS kernel (Ref T3674)](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;d69ded7)
-  - [Ikey Doherty: Rebuild nvidia-340-glx-driver for 4.9.27-26.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;d164435)
-  - [Ikey Doherty: Rebuild for 4.9.26-25.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;755a4b9)
-  - [Ikey Doherty: Rebuild for 4.9.25-24.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;1e5936f)
-  - [Ikey Doherty: Rebuild for 4.9.25-23.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;4d21a90)
-  - [Ikey Doherty: Rebuild for 4.9.24-22.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;bcb55e1)
-  - [Ikey Doherty: Rebuild for kernel](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;5183eaf)
-  - [Ikey Doherty: Rebuild for 4.9.23-20.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;9a5d505)
-  - [Ikey Doherty: Rebuild for 4.9.23-19.lts](https://dev.solus-project.com/source/nvidia-340-glx-driver/browse/master/;48299e1)
+  - Ikey Doherty: Rebuild for new kernel releases
+  - Ikey Doherty: Rebuild nvidia-340-glx-driver for new kernels
+  - Ikey Doherty: Rebuild nvidia-340-glx-driver for linux-current
+  - Ikey Doherty: Rebuild nvidia-340-glx-driver for linux-current
+  - Ikey Doherty: Rebuild nvidia-340-glx-driver for new kernels
+  - Ikey Doherty: Fix nvidia-340 on 4.12
+  - Ikey Doherty: Rebuild nvidia-340-glx-driver for parallel kernel support
+  - Ikey Doherty: Rebuild nvidia-340-glx-driver for 4.9.39-35.lts
+  - Ikey Doherty: Rebuild nvidia-340-glx-driver for 4.9.38-34.lts
+  - Ikey Doherty: Rebuild nvidia-340-glx-driver for 4.9.37-33.lts
+  - Ikey Doherty: Rebuild for 4.9.36-32.lts
+  - Peter O'Connor: Rebuild for 4.9.32-31.lts
+  - Ikey Doherty: Rebuild nvidia-340-glx-driver for 4.9.32-30.lts
+  - Ikey Doherty: Rebuild against 4.9.30-29.lts
+  - Ikey Doherty: Rebuild for 4.9.29-28.lts
+  - Ikey Doherty: Rebuild nvidia-340-glx-driver for LTS kernel (Ref T3674)
+  - Ikey Doherty: Rebuild nvidia-340-glx-driver for 4.9.27-26.lts
+  - Ikey Doherty: Rebuild for 4.9.26-25.lts
+  - Ikey Doherty: Rebuild for 4.9.25-24.lts
+  - Ikey Doherty: Rebuild for 4.9.25-23.lts
+  - Ikey Doherty: Rebuild for 4.9.24-22.lts
+  - Ikey Doherty: Rebuild for kernel
+  - Ikey Doherty: Rebuild for 4.9.23-20.lts
+  - Ikey Doherty: Rebuild for 4.9.23-19.lts
 
 
 **npth**
 
-  - [Ikey Doherty: Update npth to version 1.5](https://dev.solus-project.com/source/npth/browse/master/;4938757)
-  - [Michael Meinertzhagen: Update nPth to 1.4](https://dev.solus-project.com/source/npth/browse/master/;6bfe843)
+  - Ikey Doherty: Update npth to version 1.5
+  - Michael Meinertzhagen: Update nPth to 1.4
 
 
 **ghostscript**
 
-  - [Ikey Doherty: Sync with git (future 9.22) to resolve CVE-2017-7948](https://dev.solus-project.com/source/ghostscript/browse/master/;de83b6d)
-  - [Peter O'Connor: Resolve CVE-2017-8291](https://dev.solus-project.com/source/ghostscript/browse/master/;bd04300)
+  - Ikey Doherty: Sync with git (future 9.22) to resolve CVE-2017-7948
+  - Peter O'Connor: Resolve CVE-2017-8291
 
 
 **libcairo**
 
-  - [Pierre-Yves: Update cairo to 1.14.10](https://dev.solus-project.com/source/libcairo/browse/master/;77d06c9)
+  - Pierre-Yves: Update cairo to 1.14.10
 
 
 **xorg-server**
 
-  - [Peter O'Connor: Address CVE-2017-10971 and CVE-2017-10972](https://dev.solus-project.com/source/xorg-server/browse/master/;f126973)
-  - [Ikey Doherty: Enable libunwind, xcsecurity for xauth, and fix optimisations](https://dev.solus-project.com/source/xorg-server/browse/master/;636051e)
+  - Peter O'Connor: Address CVE-2017-10971 and CVE-2017-10972
+  - Ikey Doherty: Enable libunwind, xcsecurity for xauth, and fix optimisations
 
 
 **breeze-cursor-theme**
 
-  - [Ikey Doherty: Add index.theme defaults to breeze cursor theme](https://dev.solus-project.com/source/breeze-cursor-theme/browse/master/;0d52610)
+  - Ikey Doherty: Add index.theme defaults to breeze cursor theme
 
 
 **unrar**
 
-  - [Justin Berthault: Update to 5.5.5](https://dev.solus-project.com/source/unrar/browse/master/;2bfd64c)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/unrar/browse/master/;efce263)
+  - Justin Berthault: Update to 5.5.5
+  - Peter O'Connor: Update abireport
 
 
 **gnome-control-center**
 
-  - [Joshua Strobl: Update to 3.24.3](https://dev.solus-project.com/source/gnome-control-center/browse/master/;532d29c)
-  - [Joshua Strobl: Correct passwd binary location.](https://dev.solus-project.com/source/gnome-control-center/browse/master/;fa2886a)
-  - [Ikey Doherty: Rebuild for Kerberos update](https://dev.solus-project.com/source/gnome-control-center/browse/master/;b27b517)
-  - [Joshua Strobl: Update to 3.24.2](https://dev.solus-project.com/source/gnome-control-center/browse/master/;95ea7c0)
+  - Joshua Strobl: Update to 3.24.3
+  - Joshua Strobl: Correct passwd binary location.
+  - Ikey Doherty: Rebuild for Kerberos update
+  - Joshua Strobl: Update to 3.24.2
 
 
 **gnome-online-accounts**
 
-  - [Joshua Strobl: Update to 3.24.2](https://dev.solus-project.com/source/gnome-online-accounts/browse/master/;5b6f364)
-  - [Joshua Strobl: Update to 3.24.1.](https://dev.solus-project.com/source/gnome-online-accounts/browse/master/;0a857f6)
+  - Joshua Strobl: Update to 3.24.2
+  - Joshua Strobl: Update to 3.24.1.
 
 
 **expat**
 
-  - [Pierre-Yves: Update expat to 2.2.3](https://dev.solus-project.com/source/expat/browse/master/;eb7251e)
-  - [Peter O'Connor: Update to 2.2.1 to resolve the following CVEs:](https://dev.solus-project.com/source/expat/browse/master/;dd7a378)
-  - [Ikey Doherty: Mark nopatch](https://dev.solus-project.com/source/expat/browse/master/;95424f7)
+  - Pierre-Yves: Update expat to 2.2.3
+  - Peter O'Connor: Update to 2.2.1 to resolve the following CVEs:
+  - Ikey Doherty: Mark nopatch
 
 
 **gnome-disk-utility**
 
-  - [Joshua Strobl: Update to 3.24.1](https://dev.solus-project.com/source/gnome-disk-utility/browse/master/;461971a)
+  - Joshua Strobl: Update to 3.24.1
 
 
 **gspell**
 
-  - [Joshua Strobl: Update to 1.4.1](https://dev.solus-project.com/source/gspell/browse/master/;6d5ae1c)
+  - Joshua Strobl: Update to 1.4.1
 
 
 **bluez**
 
-  - [Joshua Strobl: Update to 5.45](https://dev.solus-project.com/source/bluez/browse/master/;4ccd4ef)
-  - [Joshua Strobl: Fix install, change to using datadir.](https://dev.solus-project.com/source/bluez/browse/master/;0cbf9b5)
-  - [Joshua Strobl: Enable stateless main.conf and set AutoEnable to true by default. AutoEnable=true should enable automatic enabling of all Bluetooth controllers.](https://dev.solus-project.com/source/bluez/browse/master/;e4224fb)
+  - Joshua Strobl: Update to 5.45
+  - Joshua Strobl: Fix install, change to using datadir.
+  - Joshua Strobl: Enable stateless main.conf and set AutoEnable to true by default. AutoEnable=true should enable automatic enabling of all Bluetooth controllers.
 
 
 **libinput**
 
-  - [Pierre-Yves: Update libinput to 1.7.3](https://dev.solus-project.com/source/libinput/browse/master/;f6199d1)
-  - [Pierre-Yves: Update libinput to 1.7.2](https://dev.solus-project.com/source/libinput/browse/master/;e05ec55)
-  - [Peter O'Connor: Update to 1.7.1](https://dev.solus-project.com/source/libinput/browse/master/;fe960a6)
+  - Pierre-Yves: Update libinput to 1.7.3
+  - Pierre-Yves: Update libinput to 1.7.2
+  - Peter O'Connor: Update to 1.7.1
 
 
 **libxslt**
 
-  - [Ikey Doherty: Address CVE-2017-5029](https://dev.solus-project.com/source/libxslt/browse/master/;cef68a5)
+  - Ikey Doherty: Address CVE-2017-5029
 
 
 **libgtksourceview**
 
-  - [Joshua Strobl: Update to 3.24.2.](https://dev.solus-project.com/source/libgtksourceview/browse/master/;867a169)
-  - [Joshua Strobl: Update to 3.24.1](https://dev.solus-project.com/source/libgtksourceview/browse/master/;ebffcc6)
+  - Joshua Strobl: Update to 3.24.2.
+  - Joshua Strobl: Update to 3.24.1
 
 
 **libicu**
 
-  - [Peter O'Connor: Resolve the following CVEs:](https://dev.solus-project.com/source/libicu/browse/master/;744973e)
+  - Peter O'Connor: Resolve the following CVEs:
 
 
 **kmod**
 
-  - [Pierre-Yves: Update kmod to 24](https://dev.solus-project.com/source/kmod/browse/master/;1467ff2)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/kmod/browse/master/;13da6e7)
+  - Pierre-Yves: Update kmod to 24
+  - Peter O'Connor: Update abireport
 
 
 **pisi**
 
-  - [Ikey Doherty: pisi: Fix the FORTIFY_SOURCE flags](https://dev.solus-project.com/source/pisi/browse/master/;451a71e)
-  - [Ikey Doherty: pisi: Fix our compiler flags to be Clang compatible](https://dev.solus-project.com/source/pisi/browse/master/;7a61c08)
-  - [Ikey Doherty: Add missing FORTIFY_SOURCE](https://dev.solus-project.com/source/pisi/browse/master/;162fce9)
-  - [Ikey Doherty: Enforce default flags](https://dev.solus-project.com/source/pisi/browse/master/;d81b05a)
+  - Ikey Doherty: pisi: Fix the FORTIFY_SOURCE flags
+  - Ikey Doherty: pisi: Fix our compiler flags to be Clang compatible
+  - Ikey Doherty: Add missing FORTIFY_SOURCE
+  - Ikey Doherty: Enforce default flags
 
 
 **nano**
 
-  - [Ikey Doherty: Add new syntax highlighting capabilities to nano](https://dev.solus-project.com/source/nano/browse/master/;39d1f20)
-  - [Michael Meinertzhagen: Update to 2.8.6](https://dev.solus-project.com/source/nano/browse/master/;d0e9bdd)
-  - [Michael Meinertzhagen: Update to 2.8.5](https://dev.solus-project.com/source/nano/browse/master/;cfcbd7f)
-  - [Pierre-Yves: Update nano to 2.8.4](https://dev.solus-project.com/source/nano/browse/master/;0b5a0c7)
-  - [Pierre-Yves: Update nano to 2.8.3](https://dev.solus-project.com/source/nano/browse/master/;58965f2)
-  - [Ikey Doherty: Rebuild nano to test Software Center changelog improvements](https://dev.solus-project.com/source/nano/browse/master/;157dd7e)
-  - [Ikey Doherty: Move into system.devel for debugging](https://dev.solus-project.com/source/nano/browse/master/;c0dd3fc)
-  - [Pierre-Yves: Update to 2.8.2](https://dev.solus-project.com/source/nano/browse/master/;4f9126d)
+  - Ikey Doherty: Add new syntax highlighting capabilities to nano
+  - Michael Meinertzhagen: Update to 2.8.6
+  - Michael Meinertzhagen: Update to 2.8.5
+  - Pierre-Yves: Update nano to 2.8.4
+  - Pierre-Yves: Update nano to 2.8.3
+  - Ikey Doherty: Rebuild nano to test Software Center changelog improvements
+  - Ikey Doherty: Move into system.devel for debugging
+  - Pierre-Yves: Update to 2.8.2
 
 
 **libgtop**
 
-  - [Peter O'Connor: Update to 2.36.0](https://dev.solus-project.com/source/libgtop/browse/master/;173dd59)
-  - [Peter O'Connor: Add abireport](https://dev.solus-project.com/source/libgtop/browse/master/;4fba8a9)
+  - Peter O'Connor: Update to 2.36.0
+  - Peter O'Connor: Add abireport
 
 
 **hwdata**
 
-  - [Ikey Doherty: Update hwdata to 0.302](https://dev.solus-project.com/source/hwdata/browse/master/;fc43caf)
+  - Ikey Doherty: Update hwdata to 0.302
 
 
 **glibc**
 
-  - [Peter O'Connor: Rebuild for GCC 6.4.0](https://dev.solus-project.com/source/glibc/browse/master/;bbfa1c0)
-  - [Ikey Doherty: Fix x64 ABI bug with glibc](https://dev.solus-project.com/source/glibc/browse/master/;f957924)
-  - [Ikey Doherty: Import Clear Linux stateless patch for `getusershell()`](https://dev.solus-project.com/source/glibc/browse/master/;d9d65bd)
-  - [Ikey Doherty: Address CVE-2017-1000366 in glibc](https://dev.solus-project.com/source/glibc/browse/master/;5b1afd4)
-  - [Ikey Doherty: Security update for the `glibc` package](https://dev.solus-project.com/source/glibc/browse/master/;a7ab1af)
+  - Peter O'Connor: Rebuild for GCC 6.4.0
+  - Ikey Doherty: Fix x64 ABI bug with glibc
+  - Ikey Doherty: Import Clear Linux stateless patch for `getusershell()`
+  - Ikey Doherty: Address CVE-2017-1000366 in glibc
+  - Ikey Doherty: Security update for the `glibc` package
 
 
 **gnome-settings-daemon**
 
-  - [Joshua Strobl: Update to 3.24.3](https://dev.solus-project.com/source/gnome-settings-daemon/browse/master/;0e6ddbc)
-  - [Joshua Strobl: Update to 3.24.2](https://dev.solus-project.com/source/gnome-settings-daemon/browse/master/;132060d)
+  - Joshua Strobl: Update to 3.24.3
+  - Joshua Strobl: Update to 3.24.2
 
 
 **poppler**
 
-  - [Peter O'Connor: Address CVE-2017-7511](https://dev.solus-project.com/source/poppler/browse/master/;054c9a5)
-  - [Justin Zobel: Bump to fix revert](https://dev.solus-project.com/source/poppler/browse/master/;ce17fd3)
-  - [Justin Zobel: Revert "Update poppler to 0.55.0"](https://dev.solus-project.com/source/poppler/browse/master/;322f757)
-  - [Pierre-Yves: Update poppler to 0.55.0](https://dev.solus-project.com/source/poppler/browse/master/;0ccf8eb)
+  - Peter O'Connor: Address CVE-2017-7511
+  - Justin Zobel: Bump to fix revert
+  - Justin Zobel: Revert "Update poppler to 0.55.0"
+  - Pierre-Yves: Update poppler to 0.55.0
 
 
 **gnome-mpv**
 
-  - [Joshua Strobl: Add meson.build version patch from upstream.](https://dev.solus-project.com/source/gnome-mpv/browse/master/;e3bf3ab)
-  - [Justin Zobel: Update to 0.12](https://dev.solus-project.com/source/gnome-mpv/browse/master/;340d7e0)
+  - Joshua Strobl: Add meson.build version patch from upstream.
+  - Justin Zobel: Update to 0.12
 
 
 **linux-firmware**
 
-  - [Ikey Doherty: Roll linux-firmware on back](https://dev.solus-project.com/source/linux-firmware/browse/master/;921372d)
-  - [Ikey Doherty: Rebuild linux-firmware without strip and new ypkg git support](https://dev.solus-project.com/source/linux-firmware/browse/master/;feec0c6)
-  - [Ikey Doherty: Update linux-firmware to 20170622](https://dev.solus-project.com/source/linux-firmware/browse/master/;6044498)
-  - [Ikey Doherty: Roll back the last update (push for build)](https://dev.solus-project.com/source/linux-firmware/browse/master/;eea317b)
-  - [Ikey Doherty: Roll back the last update](https://dev.solus-project.com/source/linux-firmware/browse/master/;0967a5d)
-  - [Ikey Doherty: Update linux-firmware to 20170511 snapshot (resolves T3680)](https://dev.solus-project.com/source/linux-firmware/browse/master/;b2f733d)
+  - Ikey Doherty: Roll linux-firmware on back
+  - Ikey Doherty: Rebuild linux-firmware without strip and new ypkg git support
+  - Ikey Doherty: Update linux-firmware to 20170622
+  - Ikey Doherty: Roll back the last update (push for build)
+  - Ikey Doherty: Roll back the last update
+  - Ikey Doherty: Update linux-firmware to 20170511 snapshot (resolves T3680)
 
 
 **modem-manager**
 
-  - [Peter O'Connor: Update to 1.6.4](https://dev.solus-project.com/source/modem-manager/browse/master/;31af235)
-  - [Peter O'Connor: Add abireport](https://dev.solus-project.com/source/modem-manager/browse/master/;cbb1b0f)
+  - Peter O'Connor: Update to 1.6.4
+  - Peter O'Connor: Add abireport
 
 
 **xdg-utils**
 
-  - [Pierre-Yves: Update xdg-tools to 1.1.2](https://dev.solus-project.com/source/xdg-utils/browse/master/;c8ae87f)
+  - Pierre-Yves: Update xdg-tools to 1.1.2
 
 
 **appstream-data**
 
-  - [Ikey Doherty: Update appstream-data package to version 8](https://dev.solus-project.com/source/appstream-data/browse/master/;cc9b560)
-  - [Ikey Doherty: Update to v7 for Qt app support](https://dev.solus-project.com/source/appstream-data/browse/master/;32ab938)
-  - [Ikey Doherty: Update to v5 for LibreOffice support](https://dev.solus-project.com/source/appstream-data/browse/master/;ef80718)
-  - [Ikey Doherty: Update to v5](https://dev.solus-project.com/source/appstream-data/browse/master/;aa89eb4)
-  - [Ikey Doherty: Publish latest build of appstream data to resolve T3613](https://dev.solus-project.com/source/appstream-data/browse/master/;d2cbaa0)
-  - [Ikey Doherty: Move to new git URIs per T3606, fix component too](https://dev.solus-project.com/source/appstream-data/browse/master/;fa86b65)
+  - Ikey Doherty: Update appstream-data package to version 8
+  - Ikey Doherty: Update to v7 for Qt app support
+  - Ikey Doherty: Update to v5 for LibreOffice support
+  - Ikey Doherty: Update to v5
+  - Ikey Doherty: Publish latest build of appstream data to resolve T3613
+  - Ikey Doherty: Move to new git URIs per T3606, fix component too
 
 
 **libwebkit-gtk**
 
-  - [Peter O'Connor: Update to 2.16.6 to address following CVEs:](https://dev.solus-project.com/source/libwebkit-gtk/browse/master/;09e8c8a)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/libwebkit-gtk/browse/master/;b5c6c62)
-  - [Peter O'Connor: Update to 2.16.4 to address CVE-2017-2538](https://dev.solus-project.com/source/libwebkit-gtk/browse/master/;bf4b57c)
-  - [Joshua Strobl: Update to 2.16.3](https://dev.solus-project.com/source/libwebkit-gtk/browse/master/;2ce244f)
-  - [Joshua Strobl: Update to 2.16.2](https://dev.solus-project.com/source/libwebkit-gtk/browse/master/;e80efd2)
-  - [Joshua Strobl: Add upstream modification to resolve signing in with Google.](https://dev.solus-project.com/source/libwebkit-gtk/browse/master/;1b7ea45)
+  - Peter O'Connor: Update to 2.16.6 to address following CVEs:
+  - Peter O'Connor: Update abireport
+  - Peter O'Connor: Update to 2.16.4 to address CVE-2017-2538
+  - Joshua Strobl: Update to 2.16.3
+  - Joshua Strobl: Update to 2.16.2
+  - Joshua Strobl: Add upstream modification to resolve signing in with Google.
 
 
 **libgxps**
 
-  - [Peter O'Connor: Update to 0.2.5](https://dev.solus-project.com/source/libgxps/browse/master/;6c08f05)
+  - Peter O'Connor: Update to 0.2.5
 
 
 **upower**
 
-  - [Ikey Doherty: Sync with git 0.99.5 to fix world of issues in upower](https://dev.solus-project.com/source/upower/browse/master/;0ae9597)
+  - Ikey Doherty: Sync with git 0.99.5 to fix world of issues in upower
 
 
 **gnome-terminal**
 
-  - [Joshua Strobl: Update to 3.24.2. Updated patch.](https://dev.solus-project.com/source/gnome-terminal/browse/master/;c98b2d6)
-  - [Joshua Strobl: Update to 3.24.1](https://dev.solus-project.com/source/gnome-terminal/browse/master/;e1cffc3)
+  - Joshua Strobl: Update to 3.24.2. Updated patch.
+  - Joshua Strobl: Update to 3.24.1
 
 
 **libgdata**
 
-  - [Peter O'Connor: Update to 0.17.8, convert to yml](https://dev.solus-project.com/source/libgdata/browse/master/;d226c01)
-  - [Peter O'Connor: Add abireport](https://dev.solus-project.com/source/libgdata/browse/master/;bd66255)
+  - Peter O'Connor: Update to 0.17.8, convert to yml
+  - Peter O'Connor: Add abireport
 
 
 **libqmi**
 
-  - [Peter O'Connor: Update to 1.18.0](https://dev.solus-project.com/source/libqmi/browse/master/;c905bfd)
-  - [Peter O'Connor: Add abireport](https://dev.solus-project.com/source/libqmi/browse/master/;3e2bb8d)
+  - Peter O'Connor: Update to 1.18.0
+  - Peter O'Connor: Add abireport
 
 
 **systemd**
 
-  - [Ikey Doherty: systemd: Add service handler to update hwdb (T3769)](https://dev.solus-project.com/source/systemd/browse/master/;46f511e)
-  - [Ikey Doherty: Always create sysusers before tmpfiles](https://dev.solus-project.com/source/systemd/browse/master/;cebb7d4)
+  - Ikey Doherty: systemd: Add service handler to update hwdb (T3769)
+  - Ikey Doherty: Always create sysusers before tmpfiles
 
 
 **foomatic-db**
 
-  - [Peter O'Connor: Update to 4.0.20170420](https://dev.solus-project.com/source/foomatic-db/browse/master/;dc85b8a)
+  - Peter O'Connor: Update to 4.0.20170420
 
 
 **gutenprint**
 
-  - [Bryan T. Meyers: Update to 5.2.12](https://dev.solus-project.com/source/gutenprint/browse/master/;ac69d36)
+  - Bryan T. Meyers: Update to 5.2.12
 
 
 **libgcrypt**
 
-  - [Pierre-Yves: Update libgcrypt to 1.8.0](https://dev.solus-project.com/source/libgcrypt/browse/master/;394f8aa)
-  - [Peter O'Connor: Update to 1.7.8 to address CVE-2017-7526](https://dev.solus-project.com/source/libgcrypt/browse/master/;f8a6675)
-  - [Ikey Doherty: Update libgcrypt to version 1.7.7](https://dev.solus-project.com/source/libgcrypt/browse/master/;9ee1219)
+  - Pierre-Yves: Update libgcrypt to 1.8.0
+  - Peter O'Connor: Update to 1.7.8 to address CVE-2017-7526
+  - Ikey Doherty: Update libgcrypt to version 1.7.7
 
 
 **bash**
 
-  - [Ikey Doherty: Fix definition for FORTIFY_SOURCE in bash's environment files](https://dev.solus-project.com/source/bash/browse/master/;12f7880)
-  - [Ikey Doherty: profile: Fix our default flags to work with Clang](https://dev.solus-project.com/source/bash/browse/master/;cdd554a)
-  - [Ikey Doherty: Sync default environment flags](https://dev.solus-project.com/source/bash/browse/master/;a18fb07)
+  - Ikey Doherty: Fix definition for FORTIFY_SOURCE in bash's environment files
+  - Ikey Doherty: profile: Fix our default flags to work with Clang
+  - Ikey Doherty: Sync default environment flags
 
 
 **nvidia-304-glx-driver**
 
-  - [Ikey Doherty: Rebuild nvidia-glx-driver for new kernel releases](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;fe151b8)
-  - [Ikey Doherty: Rebuild nvidia-304-glx-driver for new kernels](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;6fab112)
-  - [Ikey Doherty: Rebuild nvidia-304-glx-driver for linux-current](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;813455f)
-  - [Ikey Doherty: Rebuild nvidia-304-glx-driver for linux-current](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;5d151aa)
-  - [Ikey Doherty: Rebuild nvidia-304-glx-driver for new kernels](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;05f8aab)
-  - [Ikey Doherty: Only apply nv-drm.patch on LTS kernel](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;edec8de)
-  - [Ikey Doherty: Enable parallel kernel support in nvidia 304](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;db7fbb5)
-  - [Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.39-35.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;335e340)
-  - [Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.38-34.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;669ba6c)
-  - [Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.37-33.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;fa1cd20)
-  - [Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.36-32.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;e04d18d)
-  - [Peter O'Connor: Rebuild for 4.9.32-31.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;c6beb8b)
-  - [Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.32-30.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;17e618c)
-  - [Ikey Doherty: Rebuild against 4.9.30-29.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;44988b3)
-  - [Ikey Doherty: Rebuild for 4.9.29-28.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;d836e34)
-  - [Ikey Doherty: Rebuild nvidia-304-glx-driver for LTS kernel (Ref T3674)](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;fe62f9d)
-  - [Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.27-26.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;13df579)
-  - [Ikey Doherty: Rebuild for 4.9.26-25.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;189fca3)
-  - [Ikey Doherty: Rebuild for 4.9.25-24.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;9c30bde)
-  - [Ikey Doherty: Rebuild for 4.9.25-23.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;6ab22e1)
-  - [Ikey Doherty: Rebuild for 4.9.24-22.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;5796703)
-  - [Ikey Doherty: Rebuild for kernel](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;5c34de4)
-  - [Ikey Doherty: Rebuild for 4.9.23-20.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;6a217c3)
-  - [Ikey Doherty: Rebuild for 4.9.23-19.lts](https://dev.solus-project.com/source/nvidia-304-glx-driver/browse/master/;5995eed)
+  - Ikey Doherty: Rebuild nvidia-glx-driver for new kernel releases
+  - Ikey Doherty: Rebuild nvidia-304-glx-driver for new kernels
+  - Ikey Doherty: Rebuild nvidia-304-glx-driver for linux-current
+  - Ikey Doherty: Rebuild nvidia-304-glx-driver for linux-current
+  - Ikey Doherty: Rebuild nvidia-304-glx-driver for new kernels
+  - Ikey Doherty: Only apply nv-drm.patch on LTS kernel
+  - Ikey Doherty: Enable parallel kernel support in nvidia 304
+  - Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.39-35.lts
+  - Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.38-34.lts
+  - Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.37-33.lts
+  - Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.36-32.lts
+  - Peter O'Connor: Rebuild for 4.9.32-31.lts
+  - Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.32-30.lts
+  - Ikey Doherty: Rebuild against 4.9.30-29.lts
+  - Ikey Doherty: Rebuild for 4.9.29-28.lts
+  - Ikey Doherty: Rebuild nvidia-304-glx-driver for LTS kernel (Ref T3674)
+  - Ikey Doherty: Rebuild nvidia-304-glx-driver for 4.9.27-26.lts
+  - Ikey Doherty: Rebuild for 4.9.26-25.lts
+  - Ikey Doherty: Rebuild for 4.9.25-24.lts
+  - Ikey Doherty: Rebuild for 4.9.25-23.lts
+  - Ikey Doherty: Rebuild for 4.9.24-22.lts
+  - Ikey Doherty: Rebuild for kernel
+  - Ikey Doherty: Rebuild for 4.9.23-20.lts
+  - Ikey Doherty: Rebuild for 4.9.23-19.lts
 
 
 **doflicky**
 
-  - [Ikey Doherty: Update DoFlicky to version 6:](https://dev.solus-project.com/source/doflicky/browse/master/;88761a8)
-  - [Ikey Doherty: Force doflickey .desktop file to have correct permission](https://dev.solus-project.com/source/doflicky/browse/master/;fa37066)
+  - Ikey Doherty: Update DoFlicky to version 6:
+  - Ikey Doherty: Force doflickey .desktop file to have correct permission
 
 
 **openssh**
 
-  - [Peter O'Connor: Fix dependency release for xauth](https://dev.solus-project.com/source/openssh/browse/master/;81d4584)
-  - [Peter O'Connor: Provide xauth path for X forwarding](https://dev.solus-project.com/source/openssh/browse/master/;5b7ca83)
+  - Peter O'Connor: Fix dependency release for xauth
+  - Peter O'Connor: Provide xauth path for X forwarding
 
 
 **openssl**
 
-  - [Pierre-Yves: Update openssl to 1.0.2l](https://dev.solus-project.com/source/openssl/browse/master/;90d366b)
+  - Pierre-Yves: Update openssl to 1.0.2l
 
 
 **libarchive**
 
-  - [Ikey Doherty: Restore bzip2 support in libarchive](https://dev.solus-project.com/source/libarchive/browse/master/;d4b11bb)
-  - [Pierre-Yves: Update libarchive to 3.3.2](https://dev.solus-project.com/source/libarchive/browse/master/;1d17571)
+  - Ikey Doherty: Restore bzip2 support in libarchive
+  - Pierre-Yves: Update libarchive to 3.3.2
 
 
 **mutagen**
 
-  - [Michael Meinertzhagen: Update to 1.37](https://dev.solus-project.com/source/mutagen/browse/master/;5225e29)
+  - Michael Meinertzhagen: Update to 1.37
 
 
 **jansson**
 
-  - [Michael Meinertzhagen: Update to 2.10, patches cleanup](https://dev.solus-project.com/source/jansson/browse/master/;96a056f)
+  - Michael Meinertzhagen: Update to 2.10, patches cleanup
 
 
 **accountsservice**
 
-  - [Ikey Doherty: Stop using deprecated lightdm config section in AccountsService](https://dev.solus-project.com/source/accountsservice/browse/master/;d864699)
-  - [Joshua Strobl: Resolve incorrect location of passwd.](https://dev.solus-project.com/source/accountsservice/browse/master/;d528d8e)
-  - [Joshua Strobl: Revert "Update accountsservice to 0.6.45"](https://dev.solus-project.com/source/accountsservice/browse/master/;2708071)
-  - [Pierre-Yves: Update accountsservice to 0.6.45](https://dev.solus-project.com/source/accountsservice/browse/master/;78fc0aa)
+  - Ikey Doherty: Stop using deprecated lightdm config section in AccountsService
+  - Joshua Strobl: Resolve incorrect location of passwd.
+  - Joshua Strobl: Revert "Update accountsservice to 0.6.45"
+  - Pierre-Yves: Update accountsservice to 0.6.45
 
 
 **libgweather**
 
-  - [Joshua Strobl: Update to 3.24.1](https://dev.solus-project.com/source/libgweather/browse/master/;d124008)
+  - Joshua Strobl: Update to 3.24.1
 
 
 **glib2**
 
-  - [Ikey Doherty: glib2: Support snap desktop files in XDG_DATA_DIRS](https://dev.solus-project.com/source/glib2/browse/master/;cbf766d)
-  - [Pierre-Yves: Update glib2 to 2.52.3](https://dev.solus-project.com/source/glib2/browse/master/;539934f)
-  - [Pierre-Yves: Temporary patch to resolve T3812](https://dev.solus-project.com/source/glib2/browse/master/;687ea75)
-  - [Ikey Doherty: Work around woes with glib multilib builds](https://dev.solus-project.com/source/glib2/browse/master/;de27f35)
-  - [Pierre-Yves: Update glib2 to 2.52.2 and convert to package.yml](https://dev.solus-project.com/source/glib2/browse/master/;4f7d466)
+  - Ikey Doherty: glib2: Support snap desktop files in XDG_DATA_DIRS
+  - Pierre-Yves: Update glib2 to 2.52.3
+  - Pierre-Yves: Temporary patch to resolve T3812
+  - Ikey Doherty: Work around woes with glib multilib builds
+  - Pierre-Yves: Update glib2 to 2.52.2 and convert to package.yml
 
 
 **cryptsetup**
 
-  - [Pierre-Yves: Update cryptsetup to 1.7.5](https://dev.solus-project.com/source/cryptsetup/browse/master/;ac11f4a)
+  - Pierre-Yves: Update cryptsetup to 1.7.5
 
 
 **firefox**
 
-  - [Pierre-Yves: Update firefox to 55.0.1](https://dev.solus-project.com/source/firefox/browse/master/;cc8f177)
-  - [Ikey Doherty: Update langpacks for 55.0.1](https://dev.solus-project.com/source/firefox/browse/master/;80c677b)
-  - [Pierre-Yves: Update firefox to 55.0](https://dev.solus-project.com/source/firefox/browse/master/;abe65f1)
-  - [Ikey Doherty: Update langpacks for 55.0](https://dev.solus-project.com/source/firefox/browse/master/;3c31509)
-  - [Pierre-Yves: Remove arc-firefox-theme defaults from Firefox](https://dev.solus-project.com/source/firefox/browse/master/;c49dcb8)
-  - [Pierre-Yves: Update firefox to 54.0.1](https://dev.solus-project.com/source/firefox/browse/master/;35f6e66)
-  - [Joshua Strobl: Update langpacks to 54.0.1](https://dev.solus-project.com/source/firefox/browse/master/;8de8536)
-  - [Ikey Doherty: Update Firefox to 54.0](https://dev.solus-project.com/source/firefox/browse/master/;f48f7e7)
-  - [Ikey Doherty: Update langpacks for 54.0 release](https://dev.solus-project.com/source/firefox/browse/master/;1771dab)
-  - [Pierre-Yves: Update firefox to 53.0.3](https://dev.solus-project.com/source/firefox/browse/master/;89120d4)
-  - [Joshua Strobl: Update langpack for Firefox 53.0.3](https://dev.solus-project.com/source/firefox/browse/master/;d3bef1f)
-  - [Pierre-Yves: Update to 53.0.2](https://dev.solus-project.com/source/firefox/browse/master/;360d8fc)
-  - [Ikey Doherty: Update langpacks for 53.0.2](https://dev.solus-project.com/source/firefox/browse/master/;e23b40e)
-  - [Ikey Doherty: Enable e10s out of the box](https://dev.solus-project.com/source/firefox/browse/master/;cd6c724)
-  - [Pierre-Yves: Update to 53.0 (hunspell disabled)](https://dev.solus-project.com/source/firefox/browse/master/;fce2363)
-  - [Ikey Doherty: Update langpacks for 53.0](https://dev.solus-project.com/source/firefox/browse/master/;2984b6b)
+  - Pierre-Yves: Update firefox to 55.0.1
+  - Ikey Doherty: Update langpacks for 55.0.1
+  - Pierre-Yves: Update firefox to 55.0
+  - Ikey Doherty: Update langpacks for 55.0
+  - Pierre-Yves: Remove arc-firefox-theme defaults from Firefox
+  - Pierre-Yves: Update firefox to 54.0.1
+  - Joshua Strobl: Update langpacks to 54.0.1
+  - Ikey Doherty: Update Firefox to 54.0
+  - Ikey Doherty: Update langpacks for 54.0 release
+  - Pierre-Yves: Update firefox to 53.0.3
+  - Joshua Strobl: Update langpack for Firefox 53.0.3
+  - Pierre-Yves: Update to 53.0.2
+  - Ikey Doherty: Update langpacks for 53.0.2
+  - Ikey Doherty: Enable e10s out of the box
+  - Pierre-Yves: Update to 53.0 (hunspell disabled)
+  - Ikey Doherty: Update langpacks for 53.0
 
 
 **gnome-themes-standard**
 
-  - [Ikey Doherty: Update to 3.22.3 to fix Adwaita-dark](https://dev.solus-project.com/source/gnome-themes-standard/browse/master/;19de504)
+  - Ikey Doherty: Update to 3.22.3 to fix Adwaita-dark
 
 
 **libtiff**
 
-  - [Pierre-Yves: Update libtiff to 4.0.8](https://dev.solus-project.com/source/libtiff/browse/master/;3ebc3fd)
+  - Pierre-Yves: Update libtiff to 4.0.8
 
 
 **lsb-release**
 
-  - [Ikey Doherty: Update Solus major version to 3](https://dev.solus-project.com/source/lsb-release/browse/master/;f13013f)
+  - Ikey Doherty: Update Solus major version to 3
 
 
 **libvte**
 
-  - [Joshua Strobl: Update to 0.49.1](https://dev.solus-project.com/source/libvte/browse/master/;96770c7)
+  - Joshua Strobl: Update to 0.49.1
 
 
 **libmbim**
 
-  - [Peter O'Connor: Fix license from new version](https://dev.solus-project.com/source/libmbim/browse/master/;41b7156)
-  - [Peter O'Connor: Update to 1.14.0](https://dev.solus-project.com/source/libmbim/browse/master/;32ab35b)
-  - [Peter O'Connor: Add abireport](https://dev.solus-project.com/source/libmbim/browse/master/;eb2c1c6)
+  - Peter O'Connor: Fix license from new version
+  - Peter O'Connor: Update to 1.14.0
+  - Peter O'Connor: Add abireport
 
 
 **libplist**
 
-  - [Joshua Strobl: Update to latest stable. Resolve CVE-2017-5950.](https://dev.solus-project.com/source/libplist/browse/master/;e6adf07)
+  - Joshua Strobl: Update to latest stable. Resolve CVE-2017-5950.
 
 
 **networkmanager-openvpn**
 
-  - [Philipp Trulson: Update networkmanager-openvpn to 1.2.10](https://dev.solus-project.com/source/networkmanager-openvpn/browse/master/;3773ee1)
+  - Philipp Trulson: Update networkmanager-openvpn to 1.2.10
 
 
 **opus**
 
-  - [Joshua Strobl: Update to 1.2.1](https://dev.solus-project.com/source/opus/browse/master/;d02d8f2)
-  - [Pierre-Yves: Update opus to 1.2](https://dev.solus-project.com/source/opus/browse/master/;30a4701)
-  - [Pierre-Yves: Update opus to 1.1.5](https://dev.solus-project.com/source/opus/browse/master/;c42d1fb)
+  - Joshua Strobl: Update to 1.2.1
+  - Pierre-Yves: Update opus to 1.2
+  - Pierre-Yves: Update opus to 1.1.5
 
 
 **libpcre**
 
-  - [Peter O'Connor: Update to 8.41 to address CVEs:](https://dev.solus-project.com/source/libpcre/browse/master/;efa8136)
+  - Peter O'Connor: Update to 8.41 to address CVEs:
 
 
 **dracut**
 
-  - [Pierre-Yves: Update dracut to 045](https://dev.solus-project.com/source/dracut/browse/master/;cd096b4)
-  - [Ikey Doherty: Ensure we load hid-logitech-hidpp during boot for wireless Logitech](https://dev.solus-project.com/source/dracut/browse/master/;6d2290e)
+  - Pierre-Yves: Update dracut to 045
+  - Ikey Doherty: Ensure we load hid-logitech-hidpp during boot for wireless Logitech
 
 
 **libcroco**
 
-  - [Peter O'Connor: Resolve following CVEs:](https://dev.solus-project.com/source/libcroco/browse/master/;6235d20)
-  - [Peter O'Connor: Update to 0.6.12, patch CVE](https://dev.solus-project.com/source/libcroco/browse/master/;5a5013e)
-  - [Peter O'Connor: Add abireport](https://dev.solus-project.com/source/libcroco/browse/master/;519cbac)
+  - Peter O'Connor: Resolve following CVEs:
+  - Peter O'Connor: Update to 0.6.12, patch CVE
+  - Peter O'Connor: Add abireport
 
 
 **nvidia-glx-driver**
 
-  - [Ikey Doherty: Rebuild for new kernel releases](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;bfe5e2b)
-  - [Ikey Doherty: Rebuild nvidia-glx-driver for new kernels](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;79f9c04)
-  - [Ikey Doherty: Rebuild nvidia-glx-driver for linux-current](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;54800c9)
-  - [Ikey Doherty: Rebuild nvidia-glx-driver for linux-current](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;25d7f2e)
-  - [Ikey Doherty: Rebuild nvidia-glx-driver for recent kernels](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;114e055)
-  - [Ikey Doherty: Fix broken multilib dependency on LTS](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;f35e294)
-  - [Ikey Doherty: Update `nvidia-glx-driver` to 384.59](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;e602538)
-  - [Ikey Doherty: Rebuild nvidia-glx-driver for 4.9.39-35.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;07b5b18)
-  - [Ikey Doherty: Rebuild nvidia-glx-driver for 4.9.38-34.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;d5b67a0)
-  - [Ikey Doherty: Rebuild for 4.9.37-33.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;5f07f5b)
-  - [Ikey Doherty: Rebuild nvidia-glx-driver for 4.9.36-32.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;1a73309)
-  - [Peter O'Connor: Rebuild for 4.9.32-31.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;b10d0a8)
-  - [Ikey Doherty: Rebuild nvidia-glx-driver for 4.9.32-30.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;eeb16f1)
-  - [Ikey Doherty: Rebuild against 4.9.30-29.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;f52c930)
-  - [Ikey Doherty: Update nvidia-glx-driver to 381.22](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;f1c8e87)
-  - [Ikey Doherty: Fix runtime dep](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;a575352)
-  - [Ikey Doherty: Rebuild for 4.9.29-28.lts and fix ABI versions](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;73e1fd7)
-  - [Ikey Doherty: Rebuild nvidia-glx-driver for LTS kernel (Ref T3674)](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;56d0d7c)
-  - [Ikey Doherty: Fix minimum kernel dependency](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;0a17cc7)
-  - [Ikey Doherty: Rebuild nvidia-glx-driver for 4.9.27-26.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;94869ac)
-  - [Ikey Doherty: Update to 375.66](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;ea2786e)
-  - [Ikey Doherty: Unbreak the modaliases file](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;516d844)
-  - [Ikey Doherty: Rebuild for 4.9.26-25.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;04f7a0e)
-  - [Ikey Doherty: Rebuild for 4.9.25-24.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;29795e1)
-  - [Ikey Doherty: Rebuild for 4.9.25-23.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;34ba88d)
-  - [Ikey Doherty: Rebuild for 4.9.24-22.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;1855777)
-  - [Ikey Doherty: Rebuild for kernel](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;602b75b)
-  - [Ikey Doherty: Rebuild](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;c695165)
-  - [Ikey Doherty: Rebuild for 4.9.23-19.lts](https://dev.solus-project.com/source/nvidia-glx-driver/browse/master/;19c29fd)
+  - Ikey Doherty: Rebuild for new kernel releases
+  - Ikey Doherty: Rebuild nvidia-glx-driver for new kernels
+  - Ikey Doherty: Rebuild nvidia-glx-driver for linux-current
+  - Ikey Doherty: Rebuild nvidia-glx-driver for linux-current
+  - Ikey Doherty: Rebuild nvidia-glx-driver for recent kernels
+  - Ikey Doherty: Fix broken multilib dependency on LTS
+  - Ikey Doherty: Update `nvidia-glx-driver` to 384.59
+  - Ikey Doherty: Rebuild nvidia-glx-driver for 4.9.39-35.lts
+  - Ikey Doherty: Rebuild nvidia-glx-driver for 4.9.38-34.lts
+  - Ikey Doherty: Rebuild for 4.9.37-33.lts
+  - Ikey Doherty: Rebuild nvidia-glx-driver for 4.9.36-32.lts
+  - Peter O'Connor: Rebuild for 4.9.32-31.lts
+  - Ikey Doherty: Rebuild nvidia-glx-driver for 4.9.32-30.lts
+  - Ikey Doherty: Rebuild against 4.9.30-29.lts
+  - Ikey Doherty: Update nvidia-glx-driver to 381.22
+  - Ikey Doherty: Fix runtime dep
+  - Ikey Doherty: Rebuild for 4.9.29-28.lts and fix ABI versions
+  - Ikey Doherty: Rebuild nvidia-glx-driver for LTS kernel (Ref T3674)
+  - Ikey Doherty: Fix minimum kernel dependency
+  - Ikey Doherty: Rebuild nvidia-glx-driver for 4.9.27-26.lts
+  - Ikey Doherty: Update to 375.66
+  - Ikey Doherty: Unbreak the modaliases file
+  - Ikey Doherty: Rebuild for 4.9.26-25.lts
+  - Ikey Doherty: Rebuild for 4.9.25-24.lts
+  - Ikey Doherty: Rebuild for 4.9.25-23.lts
+  - Ikey Doherty: Rebuild for 4.9.24-22.lts
+  - Ikey Doherty: Rebuild for kernel
+  - Ikey Doherty: Rebuild
+  - Ikey Doherty: Rebuild for 4.9.23-19.lts
 
 
 **kerberos**
 
-  - [Ikey Doherty: Update package to upstream krb5-1.15.1](https://dev.solus-project.com/source/kerberos/browse/master/;e128c8e)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/kerberos/browse/master/;3723cbd)
+  - Ikey Doherty: Update package to upstream krb5-1.15.1
+  - Peter O'Connor: Update abireport
 
 
 **file-roller**
 
-  - [Joshua Strobl: Update to 3.24.1](https://dev.solus-project.com/source/file-roller/browse/master/;70dbd0f)
+  - Joshua Strobl: Update to 3.24.1
 
 
 **mutter**
 
-  - [Joshua Strobl: Update to 3.24.4](https://dev.solus-project.com/source/mutter/browse/master/;628c7a0)
-  - [Joshua Strobl: Update to 3.24.3](https://dev.solus-project.com/source/mutter/browse/master/;7da0fc1)
-  - [Ikey Doherty: Rebuild mutter so that mutter-devel doesn't depend on itself](https://dev.solus-project.com/source/mutter/browse/master/;274c67e)
-  - [Ikey Doherty: Rebuild mutter to restore rundeps for mutter-devel](https://dev.solus-project.com/source/mutter/browse/master/;53fbc0c)
-  - [Joshua Strobl: Resolve red and blue value swap during current window screenshots. Resolves T3711.](https://dev.solus-project.com/source/mutter/browse/master/;3655701)
-  - [Joshua Strobl: Update to 3.24.2](https://dev.solus-project.com/source/mutter/browse/master/;0e44361)
+  - Joshua Strobl: Update to 3.24.4
+  - Joshua Strobl: Update to 3.24.3
+  - Ikey Doherty: Rebuild mutter so that mutter-devel doesn't depend on itself
+  - Ikey Doherty: Rebuild mutter to restore rundeps for mutter-devel
+  - Joshua Strobl: Resolve red and blue value swap during current window screenshots. Resolves T3711.
+  - Joshua Strobl: Update to 3.24.2
 
 
 **graphite2**
 
-  - [Peter O'Connor: Update to 1.3.10](https://dev.solus-project.com/source/graphite2/browse/master/;632e960)
+  - Peter O'Connor: Update to 1.3.10
 
 
 **inxi**
 
-  - [Pierre-Yves: Update inxi to 2.3.23](https://dev.solus-project.com/source/inxi/browse/master/;b0dcc10)
-  - [Peter Cornelis: Update to 2.3.19](https://dev.solus-project.com/source/inxi/browse/master/;687831d)
-  - [Federico Damián Schonborn: Add missing rundeps](https://dev.solus-project.com/source/inxi/browse/master/;55baa99)
+  - Pierre-Yves: Update inxi to 2.3.23
+  - Peter Cornelis: Update to 2.3.19
+  - Federico Damián Schonborn: Add missing rundeps
 
 
 **solus-sc**
 
-  - [Ikey Doherty: Update solus-sc to version 20](https://dev.solus-project.com/source/solus-sc/browse/master/;b6d4cdf)
-  - [Ikey Doherty: Fix solus-sc changelog rendering of `)` after markup URIs](https://dev.solus-project.com/source/solus-sc/browse/master/;ffe7788)
-  - [Ikey Doherty: Sync `solus-sc` with latest git version](https://dev.solus-project.com/source/solus-sc/browse/master/;793333e)
-  - [Ikey Doherty: Fix some solus-sc rendering issues](https://dev.solus-project.com/source/solus-sc/browse/master/;4fb6162)
-  - [Ikey Doherty: Update solus-sc to v19](https://dev.solus-project.com/source/solus-sc/browse/master/;c6b4a3f)
-  - [Ikey Doherty: Update to version 18](https://dev.solus-project.com/source/solus-sc/browse/master/;526d60f)
+  - Ikey Doherty: Update solus-sc to version 20
+  - Ikey Doherty: Fix solus-sc changelog rendering of `)` after markup URIs
+  - Ikey Doherty: Sync `solus-sc` with latest git version
+  - Ikey Doherty: Fix some solus-sc rendering issues
+  - Ikey Doherty: Update solus-sc to v19
+  - Ikey Doherty: Update to version 18
 
 
 **evolution-data-server**
 
-  - [Joshua Strobl: Update to 3.24.5](https://dev.solus-project.com/source/evolution-data-server/browse/master/;9607aca)
-  - [Joshua Strobl: Update to 3.24.2](https://dev.solus-project.com/source/evolution-data-server/browse/master/;abbc12e)
+  - Joshua Strobl: Update to 3.24.5
+  - Joshua Strobl: Update to 3.24.2
 
 
 **gnome-keyring**
 
-  - [Joshua Strobl: Update to 3.20.1](https://dev.solus-project.com/source/gnome-keyring/browse/master/;27a17aa)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/gnome-keyring/browse/master/;f2f5c61)
+  - Joshua Strobl: Update to 3.20.1
+  - Peter O'Connor: Update abireport
 
 
 **grep**
 
-  - [Joshua Strobl: Update to 3.1](https://dev.solus-project.com/source/grep/browse/master/;a853b23)
+  - Joshua Strobl: Update to 3.1
 
 
 **freetype2**
 
-  - [Ikey Doherty: Meagre attempt to break circular dependencies](https://dev.solus-project.com/source/freetype2/browse/master/;d54e1b9)
-  - [Pierre-Yves: Update freetype2 to 2.8](https://dev.solus-project.com/source/freetype2/browse/master/;03ac0c7)
-  - [Ikey Doherty: Security update for freetype2](https://dev.solus-project.com/source/freetype2/browse/master/;40a9538)
-  - [Peter O'Connor: Update to 2.7.1](https://dev.solus-project.com/source/freetype2/browse/master/;85882e4)
+  - Ikey Doherty: Meagre attempt to break circular dependencies
+  - Pierre-Yves: Update freetype2 to 2.8
+  - Ikey Doherty: Security update for freetype2
+  - Peter O'Connor: Update to 2.7.1
 
 
 **iso-codes**
 
-  - [Pierre-Yves: Update to 3.75](https://dev.solus-project.com/source/iso-codes/browse/master/;198b5b5)
+  - Pierre-Yves: Update to 3.75
 
 
 **libtasn1**
 
-  - [Peter O'Connor: Resolve CVE-2017-10790](https://dev.solus-project.com/source/libtasn1/browse/master/;8dc7617)
-  - [Peter O'Connor: Update to 4.12 to resolve CVE-2017-6891](https://dev.solus-project.com/source/libtasn1/browse/master/;7294047)
+  - Peter O'Connor: Resolve CVE-2017-10790
+  - Peter O'Connor: Update to 4.12 to resolve CVE-2017-6891
 
 
 **gnupg**
 
-  - [Pierre-Yves: Update gnupg to 2.1.21](https://dev.solus-project.com/source/gnupg/browse/master/;62c758a)
+  - Pierre-Yves: Update gnupg to 2.1.21
 
 
 **ffmpeg**
 
-  - [Pierre-Yves: Update ffmpeg to 3.3.3](https://dev.solus-project.com/source/ffmpeg/browse/master/;263f2b6)
-  - [Pierre-Yves: Update ffmpeg to 3.3.2 and enable extra libraries](https://dev.solus-project.com/source/ffmpeg/browse/master/;e3bbe69)
-  - [Ikey Doherty: Enable SDL2 to restore the ffplay binary](https://dev.solus-project.com/source/ffmpeg/browse/master/;e557b6a)
+  - Pierre-Yves: Update ffmpeg to 3.3.3
+  - Pierre-Yves: Update ffmpeg to 3.3.2 and enable extra libraries
+  - Ikey Doherty: Enable SDL2 to restore the ffplay binary
 
 
 **alsa-utils**
 
-  - [Pierre-Yves: Update alsa-utils to 1.1.4](https://dev.solus-project.com/source/alsa-utils/browse/master/;66efa20)
+  - Pierre-Yves: Update alsa-utils to 1.1.4
 
 
 **nautilus**
 
-  - [Pierre-Yves: Update nautilus to 3.24.2](https://dev.solus-project.com/source/nautilus/browse/master/;b5032b1)
-  - [Joshua Strobl: Revert lsof rundep as it's actually needed as a rundep of gvfs.](https://dev.solus-project.com/source/nautilus/browse/master/;603c874)
-  - [Joshua Strobl: Add lsof as a rundep to resolve empty Volume is busy dialog.](https://dev.solus-project.com/source/nautilus/browse/master/;f9f0fab)
-  - [Ikey Doherty: Ensure Nautilus allows trusted symlinked .desktop files to work](https://dev.solus-project.com/source/nautilus/browse/master/;1b46e97)
-  - [Joshua Strobl: Update to 3.24.1 via git, since 3.24.x tarballs don't ship with meson build files. Switched to meson from GNU Build System as a result of issues with it properly detecting gtk-doc.](https://dev.solus-project.com/source/nautilus/browse/master/;857367d)
+  - Pierre-Yves: Update nautilus to 3.24.2
+  - Joshua Strobl: Revert lsof rundep as it's actually needed as a rundep of gvfs.
+  - Joshua Strobl: Add lsof as a rundep to resolve empty Volume is busy dialog.
+  - Ikey Doherty: Ensure Nautilus allows trusted symlinked .desktop files to work
+  - Joshua Strobl: Update to 3.24.1 via git, since 3.24.x tarballs don't ship with meson build files. Switched to meson from GNU Build System as a result of issues with it properly detecting gtk-doc.
 
 
 **man-db**
 
-  - [Ikey Doherty: Add missing groff dependency](https://dev.solus-project.com/source/man-db/browse/master/;9d3bd25)
+  - Ikey Doherty: Add missing groff dependency
 
 
 **lightdm**
 
-  - [Ikey Doherty: Add missing at-spi2-atk dependency to lightdm](https://dev.solus-project.com/source/lightdm/browse/master/;ed94a84)
+  - Ikey Doherty: Add missing at-spi2-atk dependency to lightdm
 
 
 **sudo**
 
-  - [Pierre-Yves: Update sudo to 1.8.20p2](https://dev.solus-project.com/source/sudo/browse/master/;c4845b9)
-  - [Pierre-Yves: Update sudo to 1.8.20p1 to address CVE-2017-1000367](https://dev.solus-project.com/source/sudo/browse/master/;da6236e)
-  - [Pierre-Yves: Update sudo to 1.8.20](https://dev.solus-project.com/source/sudo/browse/master/;d565bd2)
+  - Pierre-Yves: Update sudo to 1.8.20p2
+  - Pierre-Yves: Update sudo to 1.8.20p1 to address CVE-2017-1000367
+  - Pierre-Yves: Update sudo to 1.8.20
 
 
 **cups-filters**
 
-  - [Pierre-Yves: Update cups-filters to 1.16.1](https://dev.solus-project.com/source/cups-filters/browse/master/;a56b881)
-  - [Pierre-Yves: Update cups-filters to 1.14.0](https://dev.solus-project.com/source/cups-filters/browse/master/;af8fdee)
+  - Pierre-Yves: Update cups-filters to 1.16.1
+  - Pierre-Yves: Update cups-filters to 1.14.0
 
 
 **gedit**
 
-  - [Pierre-Yves: Update gedit to 3.22.1](https://dev.solus-project.com/source/gedit/browse/master/;6ef8b43)
+  - Pierre-Yves: Update gedit to 3.22.1
 
 
 **rhythmbox**
 
-  - [Joshua Strobl: Enable DAAP support. Resolves T3796.](https://dev.solus-project.com/source/rhythmbox/browse/master/;fae2a8a)
+  - Joshua Strobl: Enable DAAP support. Resolves T3796.
 
 
 **linux-tools**
 
-  - [Ikey Doherty: Update linux-tools to follow `linux-lts` new release](https://dev.solus-project.com/source/linux-tools/browse/master/;82f4ecb)
-  - [Ikey Doherty: Update `linux-tools` to latest LTS release (4.9.42)](https://dev.solus-project.com/source/linux-tools/browse/master/;82d6cd3)
-  - [Ikey Doherty: Update linux-tools to follow latest LTS release (4.9.41)](https://dev.solus-project.com/source/linux-tools/browse/master/;76c5e82)
-  - [Ikey Doherty: Update linux-tools to 4.9.40, latest LTS version](https://dev.solus-project.com/source/linux-tools/browse/master/;2bfbb06)
-  - [Ikey Doherty: Update linux-tools to 4.9.39 - the latest LTS version](https://dev.solus-project.com/source/linux-tools/browse/master/;730a6f5)
-  - [Ikey Doherty: Update linux-tools to 4.9.27, resolves T3679](https://dev.solus-project.com/source/linux-tools/browse/master/;b2a67a4)
-  - [Ikey Doherty: Update to 4.9.25 LTS](https://dev.solus-project.com/source/linux-tools/browse/master/;a8c8141)
+  - Ikey Doherty: Update linux-tools to follow `linux-lts` new release
+  - Ikey Doherty: Update `linux-tools` to latest LTS release (4.9.42)
+  - Ikey Doherty: Update linux-tools to follow latest LTS release (4.9.41)
+  - Ikey Doherty: Update linux-tools to 4.9.40, latest LTS version
+  - Ikey Doherty: Update linux-tools to 4.9.39 - the latest LTS version
+  - Ikey Doherty: Update linux-tools to 4.9.27, resolves T3679
+  - Ikey Doherty: Update to 4.9.25 LTS
 
 
 **curl**
 
-  - [Pierre-Yves: Update curl to 7.55.1](https://dev.solus-project.com/source/curl/browse/master/;b84dae2)
-  - [Pierre-Yves: Update curl to 7.55.0 to address multiple CVEs](https://dev.solus-project.com/source/curl/browse/master/;e967fe7)
-  - [Peter O'Connor: Update to 7.54.1](https://dev.solus-project.com/source/curl/browse/master/;60adb41)
-  - [Joshua Strobl: Post-merge removal of pkgconfig(libssh2).](https://dev.solus-project.com/source/curl/browse/master/;e7bfcdb)
-  - [Stefan Ric: Enable sftp support](https://dev.solus-project.com/source/curl/browse/master/;6c30dc9)
-  - [Peter O'Connor: Update to 7.54.0](https://dev.solus-project.com/source/curl/browse/master/;68dd7e6)
+  - Pierre-Yves: Update curl to 7.55.1
+  - Pierre-Yves: Update curl to 7.55.0 to address multiple CVEs
+  - Peter O'Connor: Update to 7.54.1
+  - Joshua Strobl: Post-merge removal of pkgconfig(libssh2).
+  - Stefan Ric: Enable sftp support
+  - Peter O'Connor: Update to 7.54.0
 
 
 **gcc**
 
-  - [Peter O'Connor: Revert GCC to 6.4.0](https://dev.solus-project.com/source/gcc/browse/master/;d27b2f9)
-  - [Ikey Doherty: Disable /usr/bin/gcov-dump due to jankiness in dbginfo](https://dev.solus-project.com/source/gcc/browse/master/;8c647d9)
-  - [Ikey Doherty: Update GCC to v7.1](https://dev.solus-project.com/source/gcc/browse/master/;0f6d664)
-  - [Ikey Doherty: Conduct ABI report for current GCC in repo](https://dev.solus-project.com/source/gcc/browse/master/;a8747f3)
-  - [Ikey Doherty: Restore sane flags in build](https://dev.solus-project.com/source/gcc/browse/master/;2995af2)
+  - Peter O'Connor: Revert GCC to 6.4.0
+  - Ikey Doherty: Disable /usr/bin/gcov-dump due to jankiness in dbginfo
+  - Ikey Doherty: Update GCC to v7.1
+  - Ikey Doherty: Conduct ABI report for current GCC in repo
+  - Ikey Doherty: Restore sane flags in build
 
 
 **solus-hardware-config**
 
-  - [Ikey Doherty: Update to v13 and disable coredumps](https://dev.solus-project.com/source/solus-hardware-config/browse/master/;ae82d4b)
+  - Ikey Doherty: Update to v13 and disable coredumps
 
 
 **lame**
 
-  - [Ikey Doherty: Security update for `lame`](https://dev.solus-project.com/source/lame/browse/master/;8ed3b38)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/lame/browse/master/;ed7fcd3)
+  - Ikey Doherty: Security update for `lame`
+  - Peter O'Connor: Update abireport
 
 
 **alsa-lib**
 
-  - [Pierre-Yves: Update alsa-lib to 1.1.4.1](https://dev.solus-project.com/source/alsa-lib/browse/master/;b69bf5f)
-  - [Pierre-Yves: Update alsa-lib to 1.1.4](https://dev.solus-project.com/source/alsa-lib/browse/master/;641a363)
+  - Pierre-Yves: Update alsa-lib to 1.1.4.1
+  - Pierre-Yves: Update alsa-lib to 1.1.4
 
 
 **budgie-desktop-branding**
 
-  - [Ikey Doherty: Update budgie-desktop-branding to v17](https://dev.solus-project.com/source/budgie-desktop-branding/browse/master/;677ba96)
-  - [Ikey Doherty: Update `budgie-desktop-branding` to v16](https://dev.solus-project.com/source/budgie-desktop-branding/browse/master/;121a9c2)
-  - [Ikey Doherty: Override default material menu icon for Budgie Desktop branding](https://dev.solus-project.com/source/budgie-desktop-branding/browse/master/;352d47e)
-  - [Ikey Doherty: Update budgie-desktop-branding to v15](https://dev.solus-project.com/source/budgie-desktop-branding/browse/master/;ef0016d)
-  - [Joshua Strobl: Update to v14 to ensure livecd schema overrides Material.](https://dev.solus-project.com/source/budgie-desktop-branding/browse/master/;06995fb)
-  - [Ikey Doherty: Update budgie-desktop-branding(-material) for Slick Greeter](https://dev.solus-project.com/source/budgie-desktop-branding/browse/master/;f9c7c2a)
-  - [Ikey Doherty: Remove hard theme dependencies from main budgie-desktop-branding package](https://dev.solus-project.com/source/budgie-desktop-branding/browse/master/;31fded7)
-  - [Ikey Doherty: Stop pinning installer to tasklist with budgie-desktop-branding](https://dev.solus-project.com/source/budgie-desktop-branding/browse/master/;bb67e4f)
-  - [Ikey Doherty: Update to v12 to fix broken material schemas](https://dev.solus-project.com/source/budgie-desktop-branding/browse/master/;4c63499)
-  - [Ikey Doherty: Update to v11](https://dev.solus-project.com/source/budgie-desktop-branding/browse/master/;52e2baf)
-  - [Ikey Doherty: Fix Qt styling on the Budgie ISO](https://dev.solus-project.com/source/budgie-desktop-branding/browse/master/;8e754d9)
+  - Ikey Doherty: Update budgie-desktop-branding to v17
+  - Ikey Doherty: Update `budgie-desktop-branding` to v16
+  - Ikey Doherty: Override default material menu icon for Budgie Desktop branding
+  - Ikey Doherty: Update budgie-desktop-branding to v15
+  - Joshua Strobl: Update to v14 to ensure livecd schema overrides Material.
+  - Ikey Doherty: Update budgie-desktop-branding(-material) for Slick Greeter
+  - Ikey Doherty: Remove hard theme dependencies from main budgie-desktop-branding package
+  - Ikey Doherty: Stop pinning installer to tasklist with budgie-desktop-branding
+  - Ikey Doherty: Update to v12 to fix broken material schemas
+  - Ikey Doherty: Update to v11
+  - Ikey Doherty: Fix Qt styling on the Budgie ISO
 
 
 **librsvg**
 
-  - [Joshua Strobl: Update to 2.40.18](https://dev.solus-project.com/source/librsvg/browse/master/;1254fe9)
-  - [Joshua Strobl: Update to 2.40.17 to resolve SVG rendering in Nautilus.](https://dev.solus-project.com/source/librsvg/browse/master/;97d686c)
-  - [Peter O'Connor: Add abireport](https://dev.solus-project.com/source/librsvg/browse/master/;26f700e)
+  - Joshua Strobl: Update to 2.40.18
+  - Joshua Strobl: Update to 2.40.17 to resolve SVG rendering in Nautilus.
+  - Peter O'Connor: Add abireport
 
 
 **budgie-desktop**
 
-  - [Ikey Doherty: Update budgie-desktop to version 10.4 "Irish Summer"](https://dev.solus-project.com/source/budgie-desktop/browse/master/;3908436)
-  - [Ikey Doherty: Sync budgie-desktop with git to fix cropping of side panels](https://dev.solus-project.com/source/budgie-desktop/browse/master/;70b12e4)
-  - [Ikey Doherty: Sync budgie-desktop with git commit `876555241ddc46fbdfa859ccce1258f80cc4eb69`](https://dev.solus-project.com/source/budgie-desktop/browse/master/;a22855d)
-  - [Ikey Doherty: Update `budgie-desktop` to latest git commit](https://dev.solus-project.com/source/budgie-desktop/browse/master/;307c1ef)
-  - [Ikey Doherty: Disable maximize animations for Budgie until it's stable](https://dev.solus-project.com/source/budgie-desktop/browse/master/;8ce3554)
-  - [Ikey Doherty: Sync budgie-desktop with git for today's repo sync](https://dev.solus-project.com/source/budgie-desktop/browse/master/;8014b42)
-  - [Ikey Doherty: Sync budgie-desktop with git](https://dev.solus-project.com/source/budgie-desktop/browse/master/;1614fe5)
-  - [Ikey Doherty: Sync Budgie Desktop with git for budgie-desktop-symbolic icon](https://dev.solus-project.com/source/budgie-desktop/browse/master/;f478c52)
-  - [Ikey Doherty: Sync Budgie with git once more to fix initialisation of default layout](https://dev.solus-project.com/source/budgie-desktop/browse/master/;f6b6cf3)
-  - [Ikey Doherty: Sync Budgie Desktop with git](https://dev.solus-project.com/source/budgie-desktop/browse/master/;1e48637)
-  - [Ikey Doherty: Sync Budgie with git for Raven positioning fixes](https://dev.solus-project.com/source/budgie-desktop/browse/master/;8bb6b42)
-  - [Ikey Doherty: Sync budgie-desktop with git commit 32907caa7c14bb143c5811d905c425ecd8a915cb](https://dev.solus-project.com/source/budgie-desktop/browse/master/;3a52ae2)
-  - [Ikey Doherty: Sync budgie-desktop with commit a074ba53cedf53205e9a9a9cd774466884ac2747](https://dev.solus-project.com/source/budgie-desktop/browse/master/;414b7e3)
-  - [Ikey Doherty: Refix Budgie from git](https://dev.solus-project.com/source/budgie-desktop/browse/master/;2172699)
-  - [Ikey Doherty: Sync budgie-desktop with git commit b76cec047fedfc0a9a89565c0b8ac2299e8a04be](https://dev.solus-project.com/source/budgie-desktop/browse/master/;2b491b5)
-  - [Ikey Doherty: Fix the ordering of CSD titles on Budgie Desktop](https://dev.solus-project.com/source/budgie-desktop/browse/master/;3cf731f)
-  - [Ikey Doherty: Sync budgie-desktop with git to purge old wallpapers](https://dev.solus-project.com/source/budgie-desktop/browse/master/;e815c39)
-  - [Ikey Doherty: Per T3776 don't unref NULL cards as GvcMixerStream](https://dev.solus-project.com/source/budgie-desktop/browse/master/;d2aaad9)
-  - [Ikey Doherty: Fix budgie-desktop crash with certain audio configurations](https://dev.solus-project.com/source/budgie-desktop/browse/master/;ec9c4b5)
-  - [Ikey Doherty: Fix notification handling of special characters in Budgie Desktop](https://dev.solus-project.com/source/budgie-desktop/browse/master/;677dd92)
+  - Ikey Doherty: Update budgie-desktop to version 10.4 "Irish Summer"
+  - Ikey Doherty: Sync budgie-desktop with git to fix cropping of side panels
+  - Ikey Doherty: Sync budgie-desktop with git commit `876555241ddc46fbdfa859ccce1258f80cc4eb69`
+  - Ikey Doherty: Update `budgie-desktop` to latest git commit
+  - Ikey Doherty: Disable maximize animations for Budgie until it's stable
+  - Ikey Doherty: Sync budgie-desktop with git for today's repo sync
+  - Ikey Doherty: Sync budgie-desktop with git
+  - Ikey Doherty: Sync Budgie Desktop with git for budgie-desktop-symbolic icon
+  - Ikey Doherty: Sync Budgie with git once more to fix initialisation of default layout
+  - Ikey Doherty: Sync Budgie Desktop with git
+  - Ikey Doherty: Sync Budgie with git for Raven positioning fixes
+  - Ikey Doherty: Sync budgie-desktop with git commit 32907caa7c14bb143c5811d905c425ecd8a915cb
+  - Ikey Doherty: Sync budgie-desktop with commit a074ba53cedf53205e9a9a9cd774466884ac2747
+  - Ikey Doherty: Refix Budgie from git
+  - Ikey Doherty: Sync budgie-desktop with git commit b76cec047fedfc0a9a89565c0b8ac2299e8a04be
+  - Ikey Doherty: Fix the ordering of CSD titles on Budgie Desktop
+  - Ikey Doherty: Sync budgie-desktop with git to purge old wallpapers
+  - Ikey Doherty: Per T3776 don't unref NULL cards as GvcMixerStream
+  - Ikey Doherty: Fix budgie-desktop crash with certain audio configurations
+  - Ikey Doherty: Fix notification handling of special characters in Budgie Desktop
 
 
 **gparted**
 
-  - [Joshua Strobl: Add gpart as a runtime dependency for rescue data functionality. Resolves T3306.](https://dev.solus-project.com/source/gparted/browse/master/;0bcac75)
-  - [Matthias Eliasson: Update to 0.28.1](https://dev.solus-project.com/source/gparted/browse/master/;4b86f00)
+  - Joshua Strobl: Add gpart as a runtime dependency for rescue data functionality. Resolves T3306.
+  - Matthias Eliasson: Update to 0.28.1
 
 
 **coreutils**
 
-  - [Pierre-Yves: Update coreutils to 8.27, resolves CVE-2017-7476](https://dev.solus-project.com/source/coreutils/browse/master/;a44a21a)
+  - Pierre-Yves: Update coreutils to 8.27, resolves CVE-2017-7476
 
 
 **sqlite3**
 
-  - [Pierre-Yves: Update sqlite3 to 3.19.3](https://dev.solus-project.com/source/sqlite3/browse/master/;4390f73)
-  - [Pierre-Yves: Update sqlite3 to 3.19.2](https://dev.solus-project.com/source/sqlite3/browse/master/;956c5f0)
-  - [Michael Meinertzhagen: Update to 3.19.0](https://dev.solus-project.com/source/sqlite3/browse/master/;dcf4f59)
+  - Pierre-Yves: Update sqlite3 to 3.19.3
+  - Pierre-Yves: Update sqlite3 to 3.19.2
+  - Michael Meinertzhagen: Update to 3.19.0
 
 
 **rhythmbox-alternative-toolbar**
 
-  - [Ikey Doherty: Update alternative-toolbar to 0.17.4](https://dev.solus-project.com/source/rhythmbox-alternative-toolbar/browse/master/;d723fc7)
+  - Ikey Doherty: Update alternative-toolbar to 0.17.4
 
 
 **libsoup**
 
-  - [Peter O'Connor: Update to 2.58.2 to address CVE-2017-2885](https://dev.solus-project.com/source/libsoup/browse/master/;24e20da)
-  - [Peter O'Connor: Update to 2.58.0](https://dev.solus-project.com/source/libsoup/browse/master/;4639593)
+  - Peter O'Connor: Update to 2.58.2 to address CVE-2017-2885
+  - Peter O'Connor: Update to 2.58.0
 
 
 **llvm**
 
-  - [Ikey Doherty: Update LLVM to 4.0.1](https://dev.solus-project.com/source/llvm/browse/master/;036fef8)
-  - [Ikey Doherty: Enable lldb + clang-extra-tools in llvm](https://dev.solus-project.com/source/llvm/browse/master/;820febe)
-  - [Rex Morgan: Fixing dependencies for llvm-clang-devel and llvm-clang-32bit-devel](https://dev.solus-project.com/source/llvm/browse/master/;57e73dc)
-  - [Ikey Doherty: Fix llvm-config to include missing header for mesa build](https://dev.solus-project.com/source/llvm/browse/master/;cf1e4ef)
-  - [Ikey Doherty: Break llvm circular dependency by moving c-index-text into clang](https://dev.solus-project.com/source/llvm/browse/master/;11afed5)
-  - [Ikey Doherty: Update llvm to 4.0.0](https://dev.solus-project.com/source/llvm/browse/master/;877590a)
-  - [Ikey Doherty: Rebuild against new GCC 7](https://dev.solus-project.com/source/llvm/browse/master/;6a065c3)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/llvm/browse/master/;3c29e22)
+  - Ikey Doherty: Update LLVM to 4.0.1
+  - Ikey Doherty: Enable lldb + clang-extra-tools in llvm
+  - Rex Morgan: Fixing dependencies for llvm-clang-devel and llvm-clang-32bit-devel
+  - Ikey Doherty: Fix llvm-config to include missing header for mesa build
+  - Ikey Doherty: Break llvm circular dependency by moving c-index-text into clang
+  - Ikey Doherty: Update llvm to 4.0.0
+  - Ikey Doherty: Rebuild against new GCC 7
+  - Peter O'Connor: Update abireport
 
 
 **cups-pk-helper**
 
-  - [Pierre-Yves: Update cups-pk-helper to 0.2.6](https://dev.solus-project.com/source/cups-pk-helper/browse/master/;071777c)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/cups-pk-helper/browse/master/;5c29882)
+  - Pierre-Yves: Update cups-pk-helper to 0.2.6
+  - Peter O'Connor: Update abireport
 
 
 **zimg**
 
-  - [Peter O'Connor: Update to 2.5.1](https://dev.solus-project.com/source/zimg/browse/master/;35054f1)
+  - Peter O'Connor: Update to 2.5.1
 
 
 **kernel-glue**
 
-  - [Ikey Doherty: Address update issues by providing full bash environment for GRUB](https://dev.solus-project.com/source/kernel-glue/browse/master/;f8373d1)
+  - Ikey Doherty: Address update issues by providing full bash environment for GRUB
 
 
 **openldap**
 
-  - [Joshua Strobl: Update to 2.4.45](https://dev.solus-project.com/source/openldap/browse/master/;1ee9167)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/openldap/browse/master/;f78f2eb)
+  - Joshua Strobl: Update to 2.4.45
+  - Peter O'Connor: Update abireport
 
 
 **eog**
 
-  - [Peter O'Connor: Update to 3.24.1](https://dev.solus-project.com/source/eog/browse/master/;180e7ae)
+  - Peter O'Connor: Update to 3.24.1
 
 
 **gnome-screensaver**
 
-  - [Ikey Doherty: Only lock gnome-screensaver on suspend when locking is enabled](https://dev.solus-project.com/source/gnome-screensaver/browse/master/;32697e5)
-  - [Ikey Doherty: Sync gnome-screensaver with the budgie-screensaver fork](https://dev.solus-project.com/source/gnome-screensaver/browse/master/;60d22d4)
-  - [Peter O'Connor: Update abireport](https://dev.solus-project.com/source/gnome-screensaver/browse/master/;0cd867e)
+  - Ikey Doherty: Only lock gnome-screensaver on suspend when locking is enabled
+  - Ikey Doherty: Sync gnome-screensaver with the budgie-screensaver fork
+  - Peter O'Connor: Update abireport
 
 
 **libmwaw**
 
-  - [Ikey Doherty: Address CVE-2017-9433 in libmwaw](https://dev.solus-project.com/source/libmwaw/browse/master/;1f43c45)
+  - Ikey Doherty: Address CVE-2017-9433 in libmwaw
 
 
 **libbluray**
 
-  - [Pierre-Yves: Update libbluray to 1.0.1](https://dev.solus-project.com/source/libbluray/browse/master/;bdaae8f)
+  - Pierre-Yves: Update libbluray to 1.0.1
 
 
 **libx11**
 
-  - [Thomas Hautier: Update to 1.6.5](https://dev.solus-project.com/source/libx11/browse/master/;6e219b1)
+  - Thomas Hautier: Update to 1.6.5
 
 
 **thunderbird**
 
-  - [Pierre-Yves: Update thunderbird to 52.2.1 to address multiple CVEs](https://dev.solus-project.com/source/thunderbird/browse/master/;d1b332f)
-  - [Joshua Strobl: Disable system sqlite to fix search. Resolves T3677.](https://dev.solus-project.com/source/thunderbird/browse/master/;4e4aadb)
-  - [Ikey Doherty: Update langpacks to 52.2.1](https://dev.solus-project.com/source/thunderbird/browse/master/;93ccf16)
-  - [Joshua Strobl: Update langpacks to 52.2.0](https://dev.solus-project.com/source/thunderbird/browse/master/;528cbeb)
-  - [Pierre-Yves: Update thunderbird to 52.1.1,enable back hunspell](https://dev.solus-project.com/source/thunderbird/browse/master/;bd32366)
-  - [Joshua Strobl: Update langpacks to 52.1.1](https://dev.solus-project.com/source/thunderbird/browse/master/;6cd3570)
-  - [Pierre-Yves: Update to 52.1.0](https://dev.solus-project.com/source/thunderbird/browse/master/;d098af2)
-  - [Ikey Doherty: Enable calendar (T3375)](https://dev.solus-project.com/source/thunderbird/browse/master/;c679a9b)
+  - Pierre-Yves: Update thunderbird to 52.2.1 to address multiple CVEs
+  - Joshua Strobl: Disable system sqlite to fix search. Resolves T3677.
+  - Ikey Doherty: Update langpacks to 52.2.1
+  - Joshua Strobl: Update langpacks to 52.2.0
+  - Pierre-Yves: Update thunderbird to 52.1.1,enable back hunspell
+  - Joshua Strobl: Update langpacks to 52.1.1
+  - Pierre-Yves: Update to 52.1.0
+  - Ikey Doherty: Enable calendar (T3375)
 
 
 **pulseaudio**
 
-  - [Ikey Doherty: Correct broken symlink to resolve rpath issues for pulse in wine](https://dev.solus-project.com/source/pulseaudio/browse/master/;0b802f9)
+  - Ikey Doherty: Correct broken symlink to resolve rpath issues for pulse in wine
 
 
 **nettle**
 
-  - [Ikey Doherty: I have nfc.](https://dev.solus-project.com/source/nettle/browse/master/;b6ede78)
-  - [Ikey Doherty: Unbrick again](https://dev.solus-project.com/source/nettle/browse/master/;34eaa74)
-  - [Ikey Doherty: Unbugger 32-bit dependencies](https://dev.solus-project.com/source/nettle/browse/master/;416cb7f)
+  - Ikey Doherty: I have nfc.
+  - Ikey Doherty: Unbrick again
+  - Ikey Doherty: Unbugger 32-bit dependencies
 
 
 **xorg-driver-video-nouveau**
 
-  - [Pierre-Yves: Update to 1.0.15](https://dev.solus-project.com/source/xorg-driver-video-nouveau/browse/master/;9264040)
+  - Pierre-Yves: Update to 1.0.15
 
 
 **gnome-session**
 
-  - [Joshua Strobl: Remove sed so we don't bork translations.](https://dev.solus-project.com/source/gnome-session/browse/master/;5271c40)
-  - [Joshua Strobl: Attempt at disabling Wayland login capabilities. Spotty hardware support and inability to re-login after logout.](https://dev.solus-project.com/source/gnome-session/browse/master/;8c1e5d0)
+  - Joshua Strobl: Remove sed so we don't bork translations.
+  - Joshua Strobl: Attempt at disabling Wayland login capabilities. Spotty hardware support and inability to re-login after logout.
 
 
 **totem-pl-parser**
 
-  - [Peter O'Connor: Enable libquvi support - fixes T3113](https://dev.solus-project.com/source/totem-pl-parser/browse/master/;3c574ac)
+  - Peter O'Connor: Enable libquvi support - fixes T3113
 
 
 **alsa-plugins**
 
-  - [Pierre-Yves: update alsa-plugins to 1.1.4](https://dev.solus-project.com/source/alsa-plugins/browse/master/;65a8d92)
+  - Pierre-Yves: update alsa-plugins to 1.1.4
 
 
 **udisks**
 
-  - [Ikey Doherty: Update to udisks 2.6.5](https://dev.solus-project.com/source/udisks/browse/master/;39f3ac1)
+  - Ikey Doherty: Update to udisks 2.6.5
 
 

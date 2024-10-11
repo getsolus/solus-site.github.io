@@ -37,7 +37,7 @@ Last week we announced the Plasma Early Access ISO. The feedback and community e
 
 ## Python 3 Upgrade
 
-Last week Peter and kyrios performed an upgrade of our Python 3 from 3.5 to 3.6.4. This stack upgrade went fairly smoothly and we gave ourselves a few more days to stabilize the repositories before syncing to stable. This week we've been keeping an eye out for any other packages that may need to be updated, patched, or rebuilt for Python 3.6, and aside a `docker-compose` issue was that [addressed](https://dev.solus-project.com/T5753) with an upgrade (and available in the unstable repos currently), it's been smooth sailing so far.
+Last week Peter and kyrios performed an upgrade of our Python 3 from 3.5 to 3.6.4. This stack upgrade went fairly smoothly and we gave ourselves a few more days to stabilize the repositories before syncing to stable. This week we've been keeping an eye out for any other packages that may need to be updated, patched, or rebuilt for Python 3.6, and aside a `docker-compose` issue was that addressed with an upgrade (and available in the unstable repos currently), it's been smooth sailing so far.
 
 ## Update on Boot Optimizations
 

@@ -27,7 +27,7 @@ Per our [inclusion requirements](https://solus-project.com/articles/packaging/pa
 
 Peter's ambition is to eventually support a full Plasma stack on Solus, and through his long standing commitments to this work already, and to Solus as a project, he will be the official maintainer for KDE items in the distribution. The argument of stack complexity is already met and nullified.
 
-In a nut shell, the Plasma Desktop is currently a slowly evolving future option for Solus, and at present isn't currently officially supported. As and when Peter feels the work is complete, final integration steps will be taken and at that moment in time we can formally support the KDE stack, under Peter. If you're a KDE fan, you can help Peter by reporting bugs on our [Phabricator instance](https://dev.solus-project.com/) against applications and components in the stack (i.e. Dolphin, plasma-desktop, etc.)
+In a nut shell, the Plasma Desktop is currently a slowly evolving future option for Solus, and at present isn't currently officially supported. As and when Peter feels the work is complete, final integration steps will be taken and at that moment in time we can formally support the KDE stack, under Peter. If you're a KDE fan, you can help Peter by reporting bugs on our Phabricator instance against applications and components in the stack (i.e. Dolphin, plasma-desktop, etc.)
 
 ## Stack Maintainers
 

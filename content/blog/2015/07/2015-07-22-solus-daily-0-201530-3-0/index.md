@@ -24,81 +24,81 @@ unavoidable 🙂
 
 **kernel**
 
-- [Ikey Doherty: Update to 4.1.3](https://git.solus-project.com/packages/kernel/commit/?id=b2c1357)
-- [Ikey Doherty: Enable thin provisioning and virtio input for virtualisation use cases](https://git.solus-project.com/packages/kernel/commit/?id=7f91921)
+- Ikey Doherty: Update to 4.1.3
+- Ikey Doherty: Enable thin provisioning and virtio input for virtualisation use cases
 
 **glib2**
 
-- [Ikey Doherty: Update to 2.44.1](https://git.solus-project.com/packages/glib2/commit/?id=b656132)
+- Ikey Doherty: Update to 2.44.1
 
 **mesalib**
 
-- [Ikey Doherty: Rebuild against latest llvm](https://git.solus-project.com/packages/mesalib/commit/?id=dbc1d2f)
+- Ikey Doherty: Rebuild against latest llvm
 
 **pisi**
 
-- [Ikey Doherty: Enforce LD\_AS\_NEEDED by default](https://git.solus-project.com/packages/pisi/commit/?id=50e17aa)
+- Ikey Doherty: Enforce LD\_AS\_NEEDED by default
 
 **nano**
 
-- [Ikey Doherty: Rebuild now with proper cflags on remote server](https://git.solus-project.com/packages/nano/commit/?id=2a5d108)
-- [Ikey Doherty: Canary test 2](https://git.solus-project.com/packages/nano/commit/?id=53bb667)
-- [Ikey Doherty: Canary build for the server test](https://git.solus-project.com/packages/nano/commit/?id=1483340)
-- [Ikey Doherty: Canary test (glibc changes)](https://git.solus-project.com/packages/nano/commit/?id=57597c4)
+- Ikey Doherty: Rebuild now with proper cflags on remote server
+- Ikey Doherty: Canary test 2
+- Ikey Doherty: Canary build for the server test
+- Ikey Doherty: Canary test (glibc changes)
 
 **cairo**
 
-- [Ikey Doherty: Various fixes to ensure evince does not crash (bug 42)](https://git.solus-project.com/packages/cairo/commit/?id=0857f67)
+- Ikey Doherty: Various fixes to ensure evince does not crash (bug 42)
 
 **python-dbus**
 
-- [Joshua Strobl: Bumped python(3) dbus to be compatible with build of python-3.4](https://git.solus-project.com/packages/python-dbus/commit/?id=0b9907f)
+- Joshua Strobl: Bumped python(3) dbus to be compatible with build of python-3.4
 
 **libplist**
 
-- [Joshua Strobl: Rebuild libplist against clang.](https://git.solus-project.com/packages/libplist/commit/?id=b3ebe97)
+- Joshua Strobl: Rebuild libplist against clang.
 
 **llvm**
 
-- [Ikey Doherty: Enforce Solus toolchain defaults (build-id, relro)](https://git.solus-project.com/packages/llvm/commit/?id=75a7147)
-- [Ikey Doherty: Enforce system include directories](https://git.solus-project.com/packages/llvm/commit/?id=fe96dab)
-- [Ikey Doherty: Rebuild as llvm ignores libdir..](https://git.solus-project.com/packages/llvm/commit/?id=3688637)
-- [Ikey Doherty: Update to 3.6.2 (use updated system locations too)](https://git.solus-project.com/packages/llvm/commit/?id=b23df49)
+- Ikey Doherty: Enforce Solus toolchain defaults (build-id, relro)
+- Ikey Doherty: Enforce system include directories
+- Ikey Doherty: Rebuild as llvm ignores libdir..
+- Ikey Doherty: Update to 3.6.2 (use updated system locations too)
 
 **libarchive**
 
-- [Ikey Doherty: Another bump bites the dust](https://git.solus-project.com/packages/libarchive/commit/?id=8199890)
-- [Ikey Doherty: Fine-grained control of libarchive placement](https://git.solus-project.com/packages/libarchive/commit/?id=9801902)
+- Ikey Doherty: Another bump bites the dust
+- Ikey Doherty: Fine-grained control of libarchive placement
 
 **xz**
 
-- [Ikey Doherty: Fix /usr/share/doc file conflicts (using root namespace)](https://git.solus-project.com/packages/xz/commit/?id=4af9e04)
+- Ikey Doherty: Fix /usr/share/doc file conflicts (using root namespace)
 
 **evince**
 
-- [Ikey Doherty: Build with clang](https://git.solus-project.com/packages/evince/commit/?id=5f4f350)
+- Ikey Doherty: Build with clang
 
 **gparted**
 
-- [Ikey Doherty: Build with clang](https://git.solus-project.com/packages/gparted/commit/?id=8176e6f)
+- Ikey Doherty: Build with clang
 
 **libtool**
 
-- [Ikey Doherty: Get libtool out of system.devel (mostly. it'll still work.)](https://git.solus-project.com/packages/libtool/commit/?id=59b62de)
+- Ikey Doherty: Get libtool out of system.devel (mostly. it'll still work.)
 
 **budgie-desktop**
 
-- [Ikey Doherty: Fix menu problems by pretending to be GNOME. Even more.](https://git.solus-project.com/packages/budgie-desktop/commit/?id=3243f71)
+- Ikey Doherty: Fix menu problems by pretending to be GNOME. Even more.
 
 **firefox**
 
-- [Ikey Doherty: Fix LD\_AS\_NEEDED issue](https://git.solus-project.com/packages/firefox/commit/?id=fdda735)
-- [Ikey Doherty: Convert to ypkg and build with clang](https://git.solus-project.com/packages/firefox/commit/?id=b1f9027)
+- Ikey Doherty: Fix LD\_AS\_NEEDED issue
+- Ikey Doherty: Convert to ypkg and build with clang
 
 **gtk3**
 
-- [Ikey Doherty: Update to 3.16.6](https://git.solus-project.com/packages/gtk3/commit/?id=0cdf817)
+- Ikey Doherty: Update to 3.16.6
 
 **python3**
 
-  - [Ikey Doherty: Enable sqlite3 support, fix license](https://git.solus-project.com/packages/python3/commit/?id=86c7520)
+  - Ikey Doherty: Enable sqlite3 support, fix license

@@ -59,7 +59,7 @@ Soon we'll begin to ship [thermald](https://01.org/linux-thermal-daemon/document
 
 In addition to some of the other cool stuff we recently adopted from the [Clear Linux Project for Intel Architecture](https://solus-project.com/2015/07/27/clear-inspiration/), we recently adopted some more! All of our packages are now being rebuilt to ensure 
 they are built with full RELRO (relocation read-only), and full stack protection, amongst other toolchain hardening changes. Additionally, we've begun to 
-[deprecated insecure SSL ciphers](https://git.solus-project.com/packages/openssl/commit/?id=295bd174ac1c11c52892db274ef1123b37b60739). We'll be expanding this across the rest of the project; you can read more about why this is important, and why 
+deprecated insecure SSL ciphers. We'll be expanding this across the rest of the project; you can read more about why this is important, and why 
 it should happen, in this [Google+ post by Arjan van de Ven](https://plus.google.com/+ArjanvandeVen/posts/VAK1SRHjTZm). With these continued changes and improvements, we're constantly improving our project.
 
 ### Sooo, what can we expect?

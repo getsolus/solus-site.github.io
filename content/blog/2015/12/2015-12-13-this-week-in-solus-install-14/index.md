@@ -51,19 +51,19 @@ These multilib (32-bit enabled) utilities and libraries are going to be the basi
 
 Here are some highlights of package updates:
 
-- [atom has been updated to 1.3.1](https://git.solus-project.com/packages/atom/commit/?id=5ca831aaac5f7b857193e7a4b6cc9ec239819e90)
-- [flash-player-nonfree has been updated to 11.2.202.554](https://git.solus-project.com/packages/flash-player-nonfree/commit/?id=6e310ca993f3942a01df1200218fb58bf245619f)
-- [geany has been updated to 1.26](https://git.solus-project.com/packages/geany/commit/?id=89bdd5bb0a22e2c8866715743c8efe3709c18f5c)
-- [gnome-disk-utilities 3.18.3 has been added to the repo](https://git.solus-project.com/packages/gnome-disk-utility/commit/?id=aed7477780e6749bb8ddbcaab88fbabcc69d6a6e)
-- [git has been updated to 2.6.4](https://git.solus-project.com/packages/git/commit/?id=d7c4a6901cfc8fd6927e7db4323e52f054f0c274)
-- [lollypop has been updated to 0.9.75](https://git.solus-project.com/packages/lollypop/commit/?id=e96675c11724fca1f45a09234b0fadd036ceedd1)
-- [kernel has been updated to 4.1.14](https://git.solus-project.com/packages/kernel/commit/?id=f57a5855ae489b4eeb27e48cce862dc837396a22)
-- [php has been updated to 7.0.0](https://git.solus-project.com/packages/php/commit/?id=f55c5cf341c9d1b3e7df9fee2bdb9efe09411159)
-- [r has been updated to 3.2.3](https://git.solus-project.com/packages/r/commit/?id=32760c451fd9906bfe42681c8e9ed850bd7b223c)
-- [rhythmbox has been updated to enable mtp and vala support](https://git.solus-project.com/packages/rhythmbox/commit/?id=b8c83663e172fc23f575a95a7d91894ea2cc3d4e)
-- [rust has been updated to 1.5.0](https://git.solus-project.com/packages/rust/commit/?id=dc84877ba9d4eea071d21ed585f8e471d8222c38)
-- [supertuxkart 0.9.1 has been added to the repo](https://git.solus-project.com/packages/supertuxkart/commit/?id=3d915ee1d7b88cfb71f657cd99c25df54cf36f54)
-- [qbittorrent has been updated to 3.3.1](https://git.solus-project.com/packages/qbittorrent/commit/?id=b9c3e8749670b1f1b22116fb9740d42874ca9f30)
-- [youtube-dl has been updated to 2015.12.09](https://git.solus-project.com/packages/youtube-dl/commit/?id=a7f57874b6cb545953a5f75395331e3060af4d03)
+- atom has been updated to 1.3.1
+- flash-player-nonfree has been updated to 11.2.202.554
+- geany has been updated to 1.26
+- gnome-disk-utilities 3.18.3 has been added to the repo
+- git has been updated to 2.6.4
+- lollypop has been updated to 0.9.75
+- kernel has been updated to 4.1.14
+- php has been updated to 7.0.0
+- r has been updated to 3.2.3
+- rhythmbox has been updated to enable mtp and vala support
+- rust has been updated to 1.5.0
+- supertuxkart 0.9.1 has been added to the repo
+- qbittorrent has been updated to 3.3.1
+- youtube-dl has been updated to 2015.12.09
 
 Thanks for tuning in this week!

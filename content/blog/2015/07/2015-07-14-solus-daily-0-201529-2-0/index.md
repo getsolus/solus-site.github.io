@@ -46,35 +46,35 @@ We request users now use the Solus [Bugzilla](https://bugs.solus-project.com/ent
 
 **systemd**
 
-- [Ikey Doherty: Bump for build](https://git.solus-project.com/packages/systemd/commit/?id=09a5ea7)
-- [Ikey Doherty: Fix segfault in bootchart when sample number is lower than expected](https://git.solus-project.com/packages/systemd/commit/?id=8a707b2)
+- Ikey Doherty: Bump for build
+- Ikey Doherty: Fix segfault in bootchart when sample number is lower than expected
 
 **lightdm-gtk-greeter**
 
-- [Ikey Doherty: Back to SolusFresh wallpaper](https://git.solus-project.com/packages/lightdm-gtk-greeter/commit/?id=65e7377)
-- [Ikey Doherty: Switch to Faba Mono](https://git.solus-project.com/packages/lightdm-gtk-greeter/commit/?id=19dfb5a)
+- Ikey Doherty: Back to SolusFresh wallpaper
+- Ikey Doherty: Switch to Faba Mono
 
 **xorg-server**
 
-- [Ikey Doherty: Enable systemd integration](https://git.solus-project.com/packages/xorg-server/commit/?id=ffd4e6c)
+- Ikey Doherty: Enable systemd integration
 
 **network-manager**
 
-- [Ikey Doherty: Switch to dhclient as dhcpcd is all kinds of broken (bug 21)](https://git.solus-project.com/packages/network-manager/commit/?id=2be4fcb)
+- Ikey Doherty: Switch to dhclient as dhcpcd is all kinds of broken (bug 21)
 
 **os-installer**
 
-- [Ikey Doherty: Fix brand](https://git.solus-project.com/packages/os-installer/commit/?id=01b22e1)
+- Ikey Doherty: Fix brand
 
 **solus-artwork**
 
-- [Ikey Doherty: Add dep on Faba Mono icon theme](https://git.solus-project.com/packages/solus-artwork/commit/?id=e9746ee)
+- Ikey Doherty: Add dep on Faba Mono icon theme
 
 **gsettings-desktop-schemas**
 
-- [Ikey Doherty: Back to SolusFresh wallpaper.](https://git.solus-project.com/packages/gsettings-desktop-schemas/commit/?id=4811241)
-- [Ikey Doherty: Switch to Faba Mono](https://git.solus-project.com/packages/gsettings-desktop-schemas/commit/?id=00f10d7)
+- Ikey Doherty: Back to SolusFresh wallpaper.
+- Ikey Doherty: Switch to Faba Mono
 
 **dracut**
 
-  - [Ikey Doherty: Use lz4 and not xz to speed up boot times (bug 25)](https://git.solus-project.com/packages/dracut/commit/?id=90c2f77)
+  - Ikey Doherty: Use lz4 and not xz to speed up boot times (bug 25)

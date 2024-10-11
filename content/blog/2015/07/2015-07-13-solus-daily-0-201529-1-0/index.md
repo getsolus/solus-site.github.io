@@ -25,51 +25,51 @@ This release also sees the introduction of the Arc-Darker theme as a new default
 
 **kernel**
 
-- [Ikey Doherty: Enable CONFIG\_ATH9K\_HTC (Atheros AR9271), bug 22](https://git.solus-project.com/packages/kernel/commit/?id=9cc7c1c)
+- Ikey Doherty: Enable CONFIG\_ATH9K\_HTC (Atheros AR9271), bug 22
 
 **lightdm-gtk-greeter**
 
-- [Ikey Doherty: Switch to Arc-Darker](https://git.solus-project.com/packages/lightdm-gtk-greeter/commit/?id=91d7feb)
+- Ikey Doherty: Switch to Arc-Darker
 
 **freetype2**
 
-- [Ikey Doherty: Split devel files into subpackage](https://git.solus-project.com/packages/freetype2/commit/?id=dd22e67)
+- Ikey Doherty: Split devel files into subpackage
 
 **libcap2**
 
-- [Ikey Doherty: Bump for rebuild](https://git.solus-project.com/packages/libcap2/commit/?id=31a73ae)
-- [Ikey Doherty: Split devel files into subpackage](https://git.solus-project.com/packages/libcap2/commit/?id=c749d63)
+- Ikey Doherty: Bump for rebuild
+- Ikey Doherty: Split devel files into subpackage
 
 **cairo**
 
-- [Ikey Doherty: Fix issue with relno](https://git.solus-project.com/packages/cairo/commit/?id=0d4d122)
-- [Ikey Doherty: Force a runtime dep on -devel for freetype2](https://git.solus-project.com/packages/cairo/commit/?id=19015ae)
+- Ikey Doherty: Fix issue with relno
+- Ikey Doherty: Force a runtime dep on -devel for freetype2
 
 **expat**
 
-- [Ikey Doherty: Split devel files into subpackage](https://git.solus-project.com/packages/expat/commit/?id=b8d05c8)
+- Ikey Doherty: Split devel files into subpackage
 
 **arc-gtk-theme**
 
-- [Ikey Doherty: Update to 20150711 (dark headers, lightdm changes)](https://git.solus-project.com/packages/arc-gtk-theme/commit/?id=284e6ce)
+- Ikey Doherty: Update to 20150711 (dark headers, lightdm changes)
 
 **libtool**
 
-- [Ikey Doherty: Fix missing files](https://git.solus-project.com/packages/libtool/commit/?id=1ab1d4e)
-- [Ikey Doherty: Split development files into subpackage](https://git.solus-project.com/packages/libtool/commit/?id=91f4500)
+- Ikey Doherty: Fix missing files
+- Ikey Doherty: Split development files into subpackage
 
 **libvte**
 
-- [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/libvte/commit/?id=1da26be)
+- Ikey Doherty: Convert to stateless configuration
 
 **gsettings-desktop-schemas**
 
-- [Ikey Doherty: Switch to Arc Darker](https://git.solus-project.com/packages/gsettings-desktop-schemas/commit/?id=34b55ce)
+- Ikey Doherty: Switch to Arc Darker
 
 **bash**
 
-- [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/bash/commit/?id=d59a8d9)
+- Ikey Doherty: Convert to stateless configuration
 
 **baselayout**
 
-- [Ikey Doherty: Use new etc/profile location, somewhat anti-stateless right now](https://git.solus-project.com/packages/baselayout/commit/?id=7c45701)
+- Ikey Doherty: Use new etc/profile location, somewhat anti-stateless right now

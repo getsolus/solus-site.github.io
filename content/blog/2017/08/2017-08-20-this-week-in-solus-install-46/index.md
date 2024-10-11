@@ -12,7 +12,7 @@ url: "/2017/08/20/this-week-in-solus-install-46"
 
 Welcome to the 46th installation of This Week in Solus, or as I'm opting to call this one, "TODO all the things!"
 
-We've been absolutely thrilled with the release (and reception) of Solus 3, but our work on building a better Solus is never finished. We knew this ahead of release and set up a [post release tasklist](https://dev.solus-project.com/T4235) of all the items we want to address in the immediate or long-term future.<!--more-->
+We've been absolutely thrilled with the release (and reception) of Solus 3, but our work on building a better Solus is never finished. We knew this ahead of release and set up a post release tasklist of all the items we want to address in the immediate or long-term future.<!--more-->
 
 But let's be honest, a big TODO list is far less exciting than us actually going over some of these higher priority items, so let's do that.
 
@@ -34,7 +34,7 @@ We discussed this more in-depth in [TWIS #43](/2017/04/24/this-week-in-solus-ins
 
 ### Third Party
 
-We know Third Party has been a pain point for some time now, both for us and all of our users. Addressing Third Party using our newly added Snap support is a high priority item for us, and we're drawing up plans for a livestreamed "snapfest" event to occur after the landing of ferryd, where we will be either integrating existing snaps or developing new ones for our Third Party items, unblocking a multitude of [requested Third Party additions](https://dev.solus-project.com/project/view/12/) and enabling the upgrade of Third Party items to be more seamless.
+We know Third Party has been a pain point for some time now, both for us and all of our users. Addressing Third Party using our newly added Snap support is a high priority item for us, and we're drawing up plans for a livestreamed "snapfest" event to occur after the landing of ferryd, where we will be either integrating existing snaps or developing new ones for our Third Party items, unblocking a multitude of requested Third Party additions and enabling the upgrade of Third Party items to be more seamless.
 
 ### X Stack Upgrade
 

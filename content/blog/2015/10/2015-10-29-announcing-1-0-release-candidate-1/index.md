@@ -121,771 +121,771 @@ Solus will co-exist with other operating systems using UEFI, and will not add th
 
 **colord**
 
-- [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/colord/commit/?id=77e9ec4)
+- Ikey Doherty: Rebuild for cflags
 
 **python-urlgrabber**
 
-- [Ikey Doherty: Update to 3.10.1 for yum to work](https://git.solus-project.com/packages/python-urlgrabber/commit/?id=cb2e1fb)
+- Ikey Doherty: Update to 3.10.1 for yum to work
 
 **evince**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/evince/commit/?id=9828e9a)
--  [Ikey Doherty: Build with clang](https://git.solus-project.com/packages/evince/commit/?id=5f4f350)
--  [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/evince/commit/?id=9f2f5c9)
--  [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/evince/commit/?id=3896eb8)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Build with clang
+-  Ikey Doherty: Rebuild with new cflags
+-  Ikey Doherty: Rebuild for debug symbols
 
 **gnome-system-monitor**
 
--  [Ikey Doherty: Convert to ypkg to stop use of /usr/libexec](https://git.solus-project.com/packages/gnome-system-monitor/commit/?id=2a456f6)
+-  Ikey Doherty: Convert to ypkg to stop use of /usr/libexec
 
 **findutils**
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/findutils/commit/?id=c0c0a4f)
+-  Ikey Doherty: Rebuild for cflags
 
 **firefox**
 
--  [Ikey Doherty: Use unversioned directory to fix extension issue](https://git.solus-project.com/packages/firefox/commit/?id=2d024b0)
--  [Ikey Doherty: Install default preferences and compat link for theming,etc](https://git.solus-project.com/packages/firefox/commit/?id=b85ada2)
--  [Ikey Doherty: Update to 41.0.2 to address security issues](https://git.solus-project.com/packages/firefox/commit/?id=46cbc9e)
--  [Ikey Doherty: Force-build with clang to fix gcc specific link issue](https://git.solus-project.com/packages/firefox/commit/?id=638b5fc)
--  [Ikey Doherty: Disable skia to avoid gtk3 related crashes](https://git.solus-project.com/packages/firefox/commit/?id=5933403)
--  [Justin Zobel: Update to 41.0.1](https://git.solus-project.com/packages/firefox/commit/?id=1f8cb43)
--  [Justin Zobel: Update to 41.0](https://git.solus-project.com/packages/firefox/commit/?id=aa4886b)
--  [Justin Zobel: Update to 40.0.3](https://git.solus-project.com/packages/firefox/commit/?id=186ff20)
--  [Ikey Doherty: Rebuild with GCC 5](https://git.solus-project.com/packages/firefox/commit/?id=a9f5ca7)
--  [Ikey Doherty: Update to 40.0.2](https://git.solus-project.com/packages/firefox/commit/?id=0f103f7)
--  [Ikey Doherty: Update to 40.0.1](https://git.solus-project.com/packages/firefox/commit/?id=432183f)
--  [Ikey Doherty: Update to latest upstream stable version (40.0)](https://git.solus-project.com/packages/firefox/commit/?id=a239b5a)
--  [Ikey Doherty: Updae to 39.0.3](https://git.solus-project.com/packages/firefox/commit/?id=ba0ea22)
--  [Ikey Doherty: Fix LD_AS_NEEDED issue](https://git.solus-project.com/packages/firefox/commit/?id=fdda735)
--  [Ikey Doherty: Convert to ypkg and build with clang](https://git.solus-project.com/packages/firefox/commit/?id=b1f9027)
--  [Ikey Doherty: Update to 39.0](https://git.solus-project.com/packages/firefox/commit/?id=0fb3ac2)
+-  Ikey Doherty: Use unversioned directory to fix extension issue
+-  Ikey Doherty: Install default preferences and compat link for theming,etc
+-  Ikey Doherty: Update to 41.0.2 to address security issues
+-  Ikey Doherty: Force-build with clang to fix gcc specific link issue
+-  Ikey Doherty: Disable skia to avoid gtk3 related crashes
+-  Justin Zobel: Update to 41.0.1
+-  Justin Zobel: Update to 41.0
+-  Justin Zobel: Update to 40.0.3
+-  Ikey Doherty: Rebuild with GCC 5
+-  Ikey Doherty: Update to 40.0.2
+-  Ikey Doherty: Update to 40.0.1
+-  Ikey Doherty: Update to latest upstream stable version (40.0)
+-  Ikey Doherty: Updae to 39.0.3
+-  Ikey Doherty: Fix LD_AS_NEEDED issue
+-  Ikey Doherty: Convert to ypkg and build with clang
+-  Ikey Doherty: Update to 39.0
 
 **gdbm**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/gdbm/commit/?id=fc30ef1)
+-  Ikey Doherty: Rebuild for cflags
 
 **systemd**
 
--  [Ikey Doherty: Attempt to fix comar bork](https://git.solus-project.com/packages/systemd/commit/?id=10fd391)
--  [Ikey Doherty: Fix problem with lib64 paths for sysusers](https://git.solus-project.com/packages/systemd/commit/?id=a2c58c2)
--  [Ikey Doherty: Enable tmpfile and sysusers handling](https://git.solus-project.com/packages/systemd/commit/?id=7076f2b)
--  [Ikey Doherty: Bump for build](https://git.solus-project.com/packages/systemd/commit/?id=09a5ea7)
--  [Ikey Doherty: Fix segfault in bootchart when sample number is lower than expected](https://git.solus-project.com/packages/systemd/commit/?id=8a707b2)
+-  Ikey Doherty: Attempt to fix comar bork
+-  Ikey Doherty: Fix problem with lib64 paths for sysusers
+-  Ikey Doherty: Enable tmpfile and sysusers handling
+-  Ikey Doherty: Bump for build
+-  Ikey Doherty: Fix segfault in bootchart when sample number is lower than expected
 
 **lightdm-gtk-greeter**
 
--  [Ikey Doherty: Update default branding](https://git.solus-project.com/packages/lightdm-gtk-greeter/commit/?id=4297ad1)
--  [Ikey Doherty: Change default wallpaper](https://git.solus-project.com/packages/lightdm-gtk-greeter/commit/?id=94afb55)
--  [Ikey Doherty: Back to SolusFresh wallpaper](https://git.solus-project.com/packages/lightdm-gtk-greeter/commit/?id=65e7377)
--  [Ikey Doherty: Switch to Faba Mono](https://git.solus-project.com/packages/lightdm-gtk-greeter/commit/?id=19dfb5a)
--  [Ikey Doherty: Switch to Arc-Darker](https://git.solus-project.com/packages/lightdm-gtk-greeter/commit/?id=91d7feb)
--  [Ikey Doherty: Update to 2.0.1](https://git.solus-project.com/packages/lightdm-gtk-greeter/commit/?id=3b2ea75)
+-  Ikey Doherty: Update default branding
+-  Ikey Doherty: Change default wallpaper
+-  Ikey Doherty: Back to SolusFresh wallpaper
+-  Ikey Doherty: Switch to Faba Mono
+-  Ikey Doherty: Switch to Arc-Darker
+-  Ikey Doherty: Update to 2.0.1
 
 **fontconfig**
 
--  [Ikey Doherty: Sync patches](https://git.solus-project.com/packages/fontconfig/commit/?id=0fd2cf3)
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/fontconfig/commit/?id=64d5b50)
--  [Ikey Doherty: Bump and clean rebuild](https://git.solus-project.com/packages/fontconfig/commit/?id=a6c2705)
--  [Ikey Doherty: Split package](https://git.solus-project.com/packages/fontconfig/commit/?id=839f9f7)
--  [Ikey Doherty: Update to 2.11.94](https://git.solus-project.com/packages/fontconfig/commit/?id=24f5525)
+-  Ikey Doherty: Sync patches
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Bump and clean rebuild
+-  Ikey Doherty: Split package
+-  Ikey Doherty: Update to 2.11.94
 
 **gdk-pixbuf**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/gdk-pixbuf/commit/?id=df1f671)
--  [Ikey Doherty: Rebuild for dbginfo](https://git.solus-project.com/packages/gdk-pixbuf/commit/?id=b403915)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Rebuild for dbginfo
 
 **solus-artwork**
 
--  [Ikey Doherty: Update to v6 to trial DeepBlue II artwork](https://git.solus-project.com/packages/solus-artwork/commit/?id=0c7ca8c)
--  [Ikey Doherty: Release v5 of solus-artwork](https://git.solus-project.com/packages/solus-artwork/commit/?id=084d0cc)
--  [Ikey Doherty: Add missing moka-icon-theme dep](https://git.solus-project.com/packages/solus-artwork/commit/?id=f16c00b)
--  [Ikey Doherty: Add dep on Faba Mono icon theme](https://git.solus-project.com/packages/solus-artwork/commit/?id=e9746ee)
--  [Ikey Doherty: Undelete chalk wallpaper (fixes previous mistake)](https://git.solus-project.com/packages/solus-artwork/commit/?id=e16fb0c)
+-  Ikey Doherty: Update to v6 to trial DeepBlue II artwork
+-  Ikey Doherty: Release v5 of solus-artwork
+-  Ikey Doherty: Add missing moka-icon-theme dep
+-  Ikey Doherty: Add dep on Faba Mono icon theme
+-  Ikey Doherty: Undelete chalk wallpaper (fixes previous mistake)
 
 **baselayout**
 
--  [Ikey Doherty: Update for release of 1.0](https://git.solus-project.com/packages/baselayout/commit/?id=9928961)
--  [Ikey Doherty: Fix lib64 paths in ld.so.conf](https://git.solus-project.com/packages/baselayout/commit/?id=0b3b101)
--  [Ikey Doherty: Use new etc/profile location, somewhat anti-stateless right now](https://git.solus-project.com/packages/baselayout/commit/?id=7c45701)
+-  Ikey Doherty: Update for release of 1.0
+-  Ikey Doherty: Fix lib64 paths in ld.so.conf
+-  Ikey Doherty: Use new etc/profile location, somewhat anti-stateless right now
 
 **unzip**
 
--  [Joshua Strobl: Converted to package.yml](https://git.solus-project.com/packages/unzip/commit/?id=0979532)
+-  Joshua Strobl: Converted to package.yml
 
 **python**
 
--  [Ikey Doherty: Rebuild for current gcc](https://git.solus-project.com/packages/python/commit/?id=8c34723)
+-  Ikey Doherty: Rebuild for current gcc
 
 **python-dbus**
 
--  [Joshua Strobl: Bumped python(3) dbus to be compatible with build of python-3.4](https://git.solus-project.com/packages/python-dbus/commit/?id=0b9907f)
+-  Joshua Strobl: Bumped python(3) dbus to be compatible with build of python-3.4
 
 **cpio**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/cpio/commit/?id=d7022a6)
+-  Ikey Doherty: Rebuild for cflags
 
 **bash-completion**
 
--  [Justin: bash-completion: convert to yml](https://git.solus-project.com/packages/bash-completion/commit/?id=bce5674)
+-  Justin: bash-completion: convert to yml
 
 **gtk3**
 
--  [Ikey Doherty: Rebuild against newest CUPS, update to 3.16.7](https://git.solus-project.com/packages/gtk3/commit/?id=eef59fa)
--  [Ikey Doherty: Update to 3.16.6](https://git.solus-project.com/packages/gtk3/commit/?id=0cdf817)
--  [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/gtk3/commit/?id=f143229)
--  [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/gtk3/commit/?id=5ad4720)
--  [Ikey Doherty: Update to 3.16.5](https://git.solus-project.com/packages/gtk3/commit/?id=f1d7cc0)
+-  Ikey Doherty: Rebuild against newest CUPS, update to 3.16.7
+-  Ikey Doherty: Update to 3.16.6
+-  Ikey Doherty: Rebuild with new cflags
+-  Ikey Doherty: Rebuild for debug symbols
+-  Ikey Doherty: Update to 3.16.5
 
 **libimobiledevice**
 
--  [Joshua Strobl: Rebuild libimobiledevice against openssl rev. and eliminate libsplit.](https://git.solus-project.com/packages/libimobiledevice/commit/?id=ef8e417)
+-  Joshua Strobl: Rebuild libimobiledevice against openssl rev. and eliminate libsplit.
 
 **os-installer**
 
--  [Ikey Doherty: Include an override to stick launcher on the panel by default](https://git.solus-project.com/packages/os-installer/commit/?id=7849060)
--  [Ikey Doherty: Fix brand](https://git.solus-project.com/packages/os-installer/commit/?id=01b22e1)
--  [Ikey Doherty: Sync new lightdm (1.15.0) config](https://git.solus-project.com/packages/os-installer/commit/?id=c0bcaf6)
+-  Ikey Doherty: Include an override to stick launcher on the panel by default
+-  Ikey Doherty: Fix brand
+-  Ikey Doherty: Sync new lightdm (1.15.0) config
 
 **libdrm**
 
--  [Ikey Doherty: Update to 2.4.65 for new mesa](https://git.solus-project.com/packages/libdrm/commit/?id=57ead1c)
+-  Ikey Doherty: Update to 2.4.65 for new mesa
 
 **xorg-driver-video-intel**
 
--  [Ikey Doherty: Re-enable DRI3](https://git.solus-project.com/packages/xorg-driver-video-intel/commit/?id=3aeaabf)
--  [Ikey Doherty: Disable full relro -- and update again, unbreaking the driver.](https://git.solus-project.com/packages/xorg-driver-video-intel/commit/?id=aa3dcc8)
--  [Ikey Doherty: Bump for rebuild old version](https://git.solus-project.com/packages/xorg-driver-video-intel/commit/?id=a3f030a)
--  [Ikey Doherty: Revert "Update to 23986f0a31dbdec2e2086ca898bee43842ab73d4 -- solving more SNA issues"](https://git.solus-project.com/packages/xorg-driver-video-intel/commit/?id=017f128)
--  [Ikey Doherty: Update to 23986f0a31dbdec2e2086ca898bee43842ab73d4 -- solving more SNA issues](https://git.solus-project.com/packages/xorg-driver-video-intel/commit/?id=e2b0202)
+-  Ikey Doherty: Re-enable DRI3
+-  Ikey Doherty: Disable full relro -- and update again, unbreaking the driver.
+-  Ikey Doherty: Bump for rebuild old version
+-  Ikey Doherty: Revert "Update to 23986f0a31dbdec2e2086ca898bee43842ab73d4 -- solving more SNA issues"
+-  Ikey Doherty: Update to 23986f0a31dbdec2e2086ca898bee43842ab73d4 -- solving more SNA issues
 
 **util-linux**
 
--  [Ikey Doherty: Ensure package is consistent with pre-conversion state](https://git.solus-project.com/packages/util-linux/commit/?id=f5c5e9d)
--  [Ikey Doherty: Switch to /usr/lib64](https://git.solus-project.com/packages/util-linux/commit/?id=862651e)
+-  Ikey Doherty: Ensure package is consistent with pre-conversion state
+-  Ikey Doherty: Switch to /usr/lib64
 
 **db5**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/db5/commit/?id=e43a719)
+-  Ikey Doherty: Rebuild for cflags
 
 **python3**
 
--  [Ikey Doherty: Enable sqlite3 support, fix license](https://git.solus-project.com/packages/python3/commit/?id=86c7520)
+-  Ikey Doherty: Enable sqlite3 support, fix license
 
 **freetype2**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/freetype2/commit/?id=357940d)
--  [Ikey Doherty: Split devel files into subpackage](https://git.solus-project.com/packages/freetype2/commit/?id=dd22e67)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Split devel files into subpackage
 
 **xorg-server**
 
--  [Ikey Doherty: Unbreak modesetting driver](https://git.solus-project.com/packages/xorg-server/commit/?id=f245e21)
--  [Ikey Doherty: Rebuild against newer components](https://git.solus-project.com/packages/xorg-server/commit/?id=c872742)
--  [Ikey Doherty: Enable systemd integration](https://git.solus-project.com/packages/xorg-server/commit/?id=ffd4e6c)
+-  Ikey Doherty: Unbreak modesetting driver
+-  Ikey Doherty: Rebuild against newer components
+-  Ikey Doherty: Enable systemd integration
 
 **dbus**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/dbus/commit/?id=9206d79)
+-  Ikey Doherty: Rebuild for cflags
 
 **pam**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/pam/commit/?id=a2b55ab)
--  [Ikey Doherty: Convert to ypkg, use /usr/lib64 now (retain /lib/security for compat)](https://git.solus-project.com/packages/pam/commit/?id=1d512ae)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Convert to ypkg, use /usr/lib64 now (retain /lib/security for compat)
 
 **gnome-control-center**
 
--  [Ikey Doherty: Add cups-pk-helper runtime dep to ensure printing works correctly](https://git.solus-project.com/packages/gnome-control-center/commit/?id=6eb59fd)
--  [Ikey Doherty: Rebuild against newer cups, enable cheese webcam support for user panel](https://git.solus-project.com/packages/gnome-control-center/commit/?id=f279b1f)
--  [Justin Zobel: Rebuild with bluetooth support](https://git.solus-project.com/packages/gnome-control-center/commit/?id=f3c661f)
--  [Justin Zobel: Update to 3.16.3](https://git.solus-project.com/packages/gnome-control-center/commit/?id=986279a)
--  [Ikey Doherty: Enable printer panel via smbclient dep](https://git.solus-project.com/packages/gnome-control-center/commit/?id=27e1b3d)
--  [Ikey Doherty: Online accounts require glib-networking for SSL usage](https://git.solus-project.com/packages/gnome-control-center/commit/?id=fabc090)
+-  Ikey Doherty: Add cups-pk-helper runtime dep to ensure printing works correctly
+-  Ikey Doherty: Rebuild against newer cups, enable cheese webcam support for user panel
+-  Justin Zobel: Rebuild with bluetooth support
+-  Justin Zobel: Update to 3.16.3
+-  Ikey Doherty: Enable printer panel via smbclient dep
+-  Ikey Doherty: Online accounts require glib-networking for SSL usage
 
 **cogl**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/cogl/commit/?id=be01438)
+-  Ikey Doherty: Rebuild for cflags
 
 **enchant**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/enchant/commit/?id=ab9d193)
+-  Ikey Doherty: Rebuild for cflags
 
 **acl**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/acl/commit/?id=b7665c1)
--  [Ikey Doherty: Fix license and autodep](https://git.solus-project.com/packages/acl/commit/?id=980513c)
--  [Ikey Doherty: Convert to ypkg, move to /usr/lib64](https://git.solus-project.com/packages/acl/commit/?id=5cc133d)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Fix license and autodep
+-  Ikey Doherty: Convert to ypkg, move to /usr/lib64
 
 **kernel**
 
--  [Ikey Doherty: Update to 4.1.11 kernel, dropping integrated patches](https://git.solus-project.com/packages/kernel/commit/?id=b2203d7)
--  [Ikey Doherty: Address multiple CVEs](https://git.solus-project.com/packages/kernel/commit/?id=88e0b51)
--  [Ikey Doherty: Address CVE-2015-5257](https://git.solus-project.com/packages/kernel/commit/?id=9997c75)
--  [Ikey Doherty: Switch SLAB to SLUB, kill floppy driver with fire](https://git.solus-project.com/packages/kernel/commit/?id=10a8e5b)
--  [Ikey Doherty: Update to latest LTS release, 4.1.10](https://git.solus-project.com/packages/kernel/commit/?id=4262550)
--  [Ikey Doherty: Update to latest LTS, 4.1.8](https://git.solus-project.com/packages/kernel/commit/?id=4e5aac9)
--  [Justin Zobel: Bump relno](https://git.solus-project.com/packages/kernel/commit/?id=4165dc3)
--  [Justin Zobel: Updated actions.py for 4.1.7](https://git.solus-project.com/packages/kernel/commit/?id=76d3849)
--  [Justin Zobel: Bump](https://git.solus-project.com/packages/kernel/commit/?id=1f22818)
--  [Justin Zobel: Removed .config](https://git.solus-project.com/packages/kernel/commit/?id=ce499d1)
--  [Justin Zobel: Update to 4.1.7](https://git.solus-project.com/packages/kernel/commit/?id=f29bf37)
--  [Ikey Doherty: Build-in more disk-related modules so we can begin deprecation of initrd](https://git.solus-project.com/packages/kernel/commit/?id=0ecb481)
--  [Ikey Doherty: Rebuild against newer GCC, enable F2FS](https://git.solus-project.com/packages/kernel/commit/?id=067d4ee)
--  [Ikey Doherty: Update to latest LTS release, 4.1.6](https://git.solus-project.com/packages/kernel/commit/?id=4938c03)
--  [Ikey Doherty: Update to latest stable LTS version (4.1.5)](https://git.solus-project.com/packages/kernel/commit/?id=5c56d80)
--  [Ikey Doherty: Address CVE-2015-5697](https://git.solus-project.com/packages/kernel/commit/?id=7776c84)
--  [Ikey Doherty: Fix booboo with patches](https://git.solus-project.com/packages/kernel/commit/?id=523cb08)
--  [Ikey Doherty: Enable and default to BFQ](https://git.solus-project.com/packages/kernel/commit/?id=f44fd26)
--  [Ikey Doherty: More HID enabling (I2C)](https://git.solus-project.com/packages/kernel/commit/?id=00f95e2)
--  [Ikey Doherty: Further enabling, this time, the touchpad.](https://git.solus-project.com/packages/kernel/commit/?id=71ca515)
--  [Ikey Doherty: Hardware enabling for Acer ASPIRE R13-R7-371T-55Q1](https://git.solus-project.com/packages/kernel/commit/?id=e4c62be)
--  [Ikey Doherty: Enable docker to run correctly](https://git.solus-project.com/packages/kernel/commit/?id=3f21b60)
--  [Ikey Doherty: Update to latest upstream LTS version](https://git.solus-project.com/packages/kernel/commit/?id=7e3668a)
--  [Ikey Doherty: Rebuild to get updated .. downgrade.](https://git.solus-project.com/packages/kernel/commit/?id=50e59a7)
--  [Ikey Doherty: Revert "Build modules needed for rootfs into kernel"](https://git.solus-project.com/packages/kernel/commit/?id=cc7c19a)
--  [Ikey Doherty: Build modules needed for rootfs into kernel](https://git.solus-project.com/packages/kernel/commit/?id=fd16e66)
--  [Ikey Doherty: Address CVE-2015-4692](https://git.solus-project.com/packages/kernel/commit/?id=c32f841)
--  [Ikey Doherty: Update to 4.1.3](https://git.solus-project.com/packages/kernel/commit/?id=b2c1357)
--  [Ikey Doherty: Enable thin provisioning and virtio input for virtualisation use cases](https://git.solus-project.com/packages/kernel/commit/?id=7f91921)
--  [Ikey Doherty: Enable netfilter NAT/masq support](https://git.solus-project.com/packages/kernel/commit/?id=fe47cb0)
--  [Ikey Doherty: Enable CONFIG_ATH9K_HTC (Atheros AR9271), bug 22](https://git.solus-project.com/packages/kernel/commit/?id=9cc7c1c)
--  [Ikey Doherty: Update to 4.1.2, latest LTS release](https://git.solus-project.com/packages/kernel/commit/?id=d63a213)
--  [Ikey Doherty: Enable MMC/memorystick options for newly enabled realtek module](https://git.solus-project.com/packages/kernel/commit/?id=c6683e8)
--  [Ikey Doherty: Enable Realtek PCI-E card reader (specifically rts5209)](https://git.solus-project.com/packages/kernel/commit/?id=3814bfe)
+-  Ikey Doherty: Update to 4.1.11 kernel, dropping integrated patches
+-  Ikey Doherty: Address multiple CVEs
+-  Ikey Doherty: Address CVE-2015-5257
+-  Ikey Doherty: Switch SLAB to SLUB, kill floppy driver with fire
+-  Ikey Doherty: Update to latest LTS release, 4.1.10
+-  Ikey Doherty: Update to latest LTS, 4.1.8
+-  Justin Zobel: Bump relno
+-  Justin Zobel: Updated actions.py for 4.1.7
+-  Justin Zobel: Bump
+-  Justin Zobel: Removed .config
+-  Justin Zobel: Update to 4.1.7
+-  Ikey Doherty: Build-in more disk-related modules so we can begin deprecation of initrd
+-  Ikey Doherty: Rebuild against newer GCC, enable F2FS
+-  Ikey Doherty: Update to latest LTS release, 4.1.6
+-  Ikey Doherty: Update to latest stable LTS version (4.1.5)
+-  Ikey Doherty: Address CVE-2015-5697
+-  Ikey Doherty: Fix booboo with patches
+-  Ikey Doherty: Enable and default to BFQ
+-  Ikey Doherty: More HID enabling (I2C)
+-  Ikey Doherty: Further enabling, this time, the touchpad.
+-  Ikey Doherty: Hardware enabling for Acer ASPIRE R13-R7-371T-55Q1
+-  Ikey Doherty: Enable docker to run correctly
+-  Ikey Doherty: Update to latest upstream LTS version
+-  Ikey Doherty: Rebuild to get updated .. downgrade.
+-  Ikey Doherty: Revert "Build modules needed for rootfs into kernel"
+-  Ikey Doherty: Build modules needed for rootfs into kernel
+-  Ikey Doherty: Address CVE-2015-4692
+-  Ikey Doherty: Update to 4.1.3
+-  Ikey Doherty: Enable thin provisioning and virtio input for virtualisation use cases
+-  Ikey Doherty: Enable netfilter NAT/masq support
+-  Ikey Doherty: Enable CONFIG_ATH9K_HTC (Atheros AR9271), bug 22
+-  Ikey Doherty: Update to 4.1.2, latest LTS release
+-  Ikey Doherty: Enable MMC/memorystick options for newly enabled realtek module
+-  Ikey Doherty: Enable Realtek PCI-E card reader (specifically rts5209)
 
 **cairo**
 
--  [Ikey Doherty: Disable clang](https://git.solus-project.com/packages/cairo/commit/?id=695bba4)
--  [Ikey Doherty: Various fixes to ensure evince does not crash (bug 42)](https://git.solus-project.com/packages/cairo/commit/?id=0857f67)
--  [Ikey Doherty: Minor tweaks](https://git.solus-project.com/packages/cairo/commit/?id=f5a055e)
--  [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/cairo/commit/?id=773bed1)
--  [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/cairo/commit/?id=ac9f9f7)
--  [Ikey Doherty: Fix issue with relno](https://git.solus-project.com/packages/cairo/commit/?id=0d4d122)
--  [Ikey Doherty: Force a runtime dep on -devel for freetype2](https://git.solus-project.com/packages/cairo/commit/?id=19015ae)
+-  Ikey Doherty: Disable clang
+-  Ikey Doherty: Various fixes to ensure evince does not crash (bug 42)
+-  Ikey Doherty: Minor tweaks
+-  Ikey Doherty: Rebuild with new cflags
+-  Ikey Doherty: Rebuild for debug symbols
+-  Ikey Doherty: Fix issue with relno
+-  Ikey Doherty: Force a runtime dep on -devel for freetype2
 
 **xdg-user-dirs-gtk**
 
--  [Ikey Doherty: Add explicit runtime dep on xdg-user-dirs](https://git.solus-project.com/packages/xdg-user-dirs-gtk/commit/?id=22ef5bf)
--  [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/xdg-user-dirs-gtk/commit/?id=2560845)
+-  Ikey Doherty: Add explicit runtime dep on xdg-user-dirs
+-  Ikey Doherty: Convert to stateless configuration
 
 **gst-plugins-ugly**
 
--  [Joshua Strobl: Update ugly to utilize libcdio for CD support.](https://git.solus-project.com/packages/gst-plugins-ugly/commit/?id=c1f3360)
+-  Joshua Strobl: Update ugly to utilize libcdio for CD support.
 
 **faac**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/faac/commit/?id=c6796d2)
+-  Ikey Doherty: Rebuild for cflags
 
 **kmod**
 
--  [Ikey Doherty: Move to /usr/lib64](https://git.solus-project.com/packages/kmod/commit/?id=49d8310)
+-  Ikey Doherty: Move to /usr/lib64
 
 **pisi**
 
--  [Ikey Doherty: Implement proper build-info based dbginfo](https://git.solus-project.com/packages/pisi/commit/?id=ac8bfcf)
--  [Ikey Doherty: Enable -fstack-protecter-strong](https://git.solus-project.com/packages/pisi/commit/?id=f077a77)
--  [Ikey Doherty: Introduce hardened compiler flags and go full relro by default](https://git.solus-project.com/packages/pisi/commit/?id=7a9e09c)
--  [Ikey Doherty: Implement toolchain changes](https://git.solus-project.com/packages/pisi/commit/?id=6fa0ddd)
--  [Ikey Doherty: Enforce LD_AS_NEEDED by default](https://git.solus-project.com/packages/pisi/commit/?id=50e17aa)
--  [Ikey Doherty: Force dbginfo packages to use debug component](https://git.solus-project.com/packages/pisi/commit/?id=0c18310)
+-  Ikey Doherty: Implement proper build-info based dbginfo
+-  Ikey Doherty: Enable -fstack-protecter-strong
+-  Ikey Doherty: Introduce hardened compiler flags and go full relro by default
+-  Ikey Doherty: Implement toolchain changes
+-  Ikey Doherty: Enforce LD_AS_NEEDED by default
+-  Ikey Doherty: Force dbginfo packages to use debug component
 
 **nano**
 
--  [Ikey Doherty: Rebuild for GCC 5.2.0](https://git.solus-project.com/packages/nano/commit/?id=1254b18)
--  [Ikey Doherty: Canary build for glibc-2.22](https://git.solus-project.com/packages/nano/commit/?id=1f60bd4)
--  [Ikey Doherty: Bump for service test](https://git.solus-project.com/packages/nano/commit/?id=c825b48)
--  [Ikey Doherty: Canary #2: Ensure server handles update+build process](https://git.solus-project.com/packages/nano/commit/?id=ed51f5d)
--  [Ikey Doherty: Canary build for server](https://git.solus-project.com/packages/nano/commit/?id=93d8f2d)
--  [Ikey Doherty: Resolve /usr/share/doc conflicts](https://git.solus-project.com/packages/nano/commit/?id=6cf7331)
--  [Ikey Doherty: Canary build for delta changes](https://git.solus-project.com/packages/nano/commit/?id=07f6f28)
--  [Ikey Doherty: Update to 2.4.2](https://git.solus-project.com/packages/nano/commit/?id=99c0609)
--  [Ikey Doherty: Convert to ypkg](https://git.solus-project.com/packages/nano/commit/?id=13f3dbd)
--  [Ikey Doherty: Rebuild now with proper cflags on remote server](https://git.solus-project.com/packages/nano/commit/?id=2a5d108)
--  [Ikey Doherty: Canary test 2](https://git.solus-project.com/packages/nano/commit/?id=53bb667)
--  [Ikey Doherty: Canary build for the server test](https://git.solus-project.com/packages/nano/commit/?id=1483340)
--  [Ikey Doherty: Canary test (glibc changes)](https://git.solus-project.com/packages/nano/commit/?id=57597c4)
+-  Ikey Doherty: Rebuild for GCC 5.2.0
+-  Ikey Doherty: Canary build for glibc-2.22
+-  Ikey Doherty: Bump for service test
+-  Ikey Doherty: Canary #2: Ensure server handles update+build process
+-  Ikey Doherty: Canary build for server
+-  Ikey Doherty: Resolve /usr/share/doc conflicts
+-  Ikey Doherty: Canary build for delta changes
+-  Ikey Doherty: Update to 2.4.2
+-  Ikey Doherty: Convert to ypkg
+-  Ikey Doherty: Rebuild now with proper cflags on remote server
+-  Ikey Doherty: Canary test 2
+-  Ikey Doherty: Canary build for the server test
+-  Ikey Doherty: Canary test (glibc changes)
 
 **librest**
 
--  [Justin Zobel: Update to 0.7.93 and yml](https://git.solus-project.com/packages/librest/commit/?id=dea95ae)
+-  Justin Zobel: Update to 0.7.93 and yml
 
 **elfutils**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/elfutils/commit/?id=4bbb502)
+-  Ikey Doherty: Rebuild for cflags
 
 **bc**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/bc/commit/?id=be55868)
+-  Ikey Doherty: Rebuild for cflags
 
 **gnome-settings-daemon**
 
--  [Ikey Doherty: Switch to 'slight' aliasing (way better)](https://git.solus-project.com/packages/gnome-settings-daemon/commit/?id=ac52dd5)
--  [Ikey Doherty: Ensure patches are actually applied..](https://git.solus-project.com/packages/gnome-settings-daemon/commit/?id=adaa2b9)
--  [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/gnome-settings-daemon/commit/?id=621341d)
--  [Ikey Doherty: Update to 3.16.2, switch to ypkg](https://git.solus-project.com/packages/gnome-settings-daemon/commit/?id=d6c8a23)
+-  Ikey Doherty: Switch to 'slight' aliasing (way better)
+-  Ikey Doherty: Ensure patches are actually applied..
+-  Ikey Doherty: Convert to stateless configuration
+-  Ikey Doherty: Update to 3.16.2, switch to ypkg
 
 **poppler**
 
--  [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/poppler/commit/?id=51ebef7)
--  [Ikey Doherty: Update to 0.34.0](https://git.solus-project.com/packages/poppler/commit/?id=1da2503)
+-  Ikey Doherty: Rebuild for debug symbols
+-  Ikey Doherty: Update to 0.34.0
 
 **libgtop**
 
--  [Justin Zobel: Convert to yml](https://git.solus-project.com/packages/libgtop/commit/?id=87cc98d)
+-  Justin Zobel: Convert to yml
 
 **gnome-terminal**
 
--  [Ikey Doherty: Hide menubar by default, make scrollbar automatic](https://git.solus-project.com/packages/gnome-terminal/commit/?id=2f399ae)
--  [Ikey Doherty: Set defaults (11% transparency, size 10 font)](https://git.solus-project.com/packages/gnome-terminal/commit/?id=a3fcc18)
--  [Ikey Doherty: Disable GConf usage, fix libexecdir](https://git.solus-project.com/packages/gnome-terminal/commit/?id=97d3291)
+-  Ikey Doherty: Hide menubar by default, make scrollbar automatic
+-  Ikey Doherty: Set defaults (11% transparency, size 10 font)
+-  Ikey Doherty: Disable GConf usage, fix libexecdir
 
 **libcap2**
 
--  [Ikey Doherty: Bump for rebuild](https://git.solus-project.com/packages/libcap2/commit/?id=31a73ae)
--  [Ikey Doherty: Split devel files into subpackage](https://git.solus-project.com/packages/libcap2/commit/?id=c749d63)
+-  Ikey Doherty: Bump for rebuild
+-  Ikey Doherty: Split devel files into subpackage
 
 **gawk**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/gawk/commit/?id=bff88eb)
+-  Ikey Doherty: Rebuild for cflags
 
 **font-clear-sans-ttf**
 
--  [Ikey Doherty: Add appdata metainfo](https://git.solus-project.com/packages/font-clear-sans-ttf/commit/?id=2b206a7)
+-  Ikey Doherty: Add appdata metainfo
 
 **dconf-editor**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/dconf-editor/commit/?id=592769c)
+-  Ikey Doherty: Rebuild for cflags
 
 **bash**
 
--  [Ikey Doherty: Update to 4.3.042](https://git.solus-project.com/packages/bash/commit/?id=8f29c56)
--  [Ikey Doherty: Second canary build for delta changes](https://git.solus-project.com/packages/bash/commit/?id=73202ac)
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/bash/commit/?id=eeda529)
--  [Ikey Doherty: Ensure we escape prompt to fix linewrap bug in bash](https://git.solus-project.com/packages/bash/commit/?id=0311b04)
--  [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/bash/commit/?id=d59a8d9)
--  [Ikey Doherty: Enhance bash's default PS1](https://git.solus-project.com/packages/bash/commit/?id=6c2aa24)
+-  Ikey Doherty: Update to 4.3.042
+-  Ikey Doherty: Second canary build for delta changes
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Ensure we escape prompt to fix linewrap bug in bash
+-  Ikey Doherty: Convert to stateless configuration
+-  Ikey Doherty: Enhance bash's default PS1
 
 **seahorse**
 
--  [Joshua Strobl: Convert to yml format. Rev to rebuild against updated gnupg.](https://git.solus-project.com/packages/seahorse/commit/?id=ca8d012)
+-  Joshua Strobl: Convert to yml format. Rev to rebuild against updated gnupg.
 
 **openssh**
 
--  [Ikey Doherty: Address CVE-2015-5600](https://git.solus-project.com/packages/openssh/commit/?id=d17ad78)
+-  Ikey Doherty: Address CVE-2015-5600
 
 **webkitgtk**
 
--  [Justin Zobel: Added hyphen dep](https://git.solus-project.com/packages/webkitgtk/commit/?id=eb2a3c8)
--  [Justin Zobel: Update to 2.10.0](https://git.solus-project.com/packages/webkitgtk/commit/?id=ac29e30)
--  [Ikey Doherty: Update to latest stable upstream version, addressing multiple security issues](https://git.solus-project.com/packages/webkitgtk/commit/?id=4a2c5d3)
+-  Justin Zobel: Added hyphen dep
+-  Justin Zobel: Update to 2.10.0
+-  Ikey Doherty: Update to latest stable upstream version, addressing multiple security issues
 
 **openssl**
 
--  [Ikey Doherty: Update to 1.0.2d, integrate Clear Linux patches to deprecate insecure ciphers](https://git.solus-project.com/packages/openssl/commit/?id=295bd17)
--  [Ikey Doherty: Address CVE-2015-1793](https://git.solus-project.com/packages/openssl/commit/?id=42f7656)
+-  Ikey Doherty: Update to 1.0.2d, integrate Clear Linux patches to deprecate insecure ciphers
+-  Ikey Doherty: Address CVE-2015-1793
 
 **libarchive**
 
--  [Ikey Doherty: Another bump bites the dust](https://git.solus-project.com/packages/libarchive/commit/?id=8199890)
--  [Ikey Doherty: Fine-grained control of libarchive placement](https://git.solus-project.com/packages/libarchive/commit/?id=9801902)
+-  Ikey Doherty: Another bump bites the dust
+-  Ikey Doherty: Fine-grained control of libarchive placement
 
 **accountsservice**
 
--  [Justin Zobel: Bump for addition of lightdom auto login patch](https://git.solus-project.com/packages/accountsservice/commit/?id=fa37b24)
+-  Justin Zobel: Bump for addition of lightdom auto login patch
 
 **glib2**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/glib2/commit/?id=d748241)
--  [Ikey Doherty: Update to 2.44.1](https://git.solus-project.com/packages/glib2/commit/?id=b656132)
--  [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/glib2/commit/?id=966f6fc)
--  [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/glib2/commit/?id=c65e441)
--  [Ikey Doherty: Support stateless XDG config directory](https://git.solus-project.com/packages/glib2/commit/?id=d6900a6)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Update to 2.44.1
+-  Ikey Doherty: Rebuild with new cflags
+-  Ikey Doherty: Rebuild for debug symbols
+-  Ikey Doherty: Support stateless XDG config directory
 
 **libplist**
 
--  [Joshua Strobl: Rebuild libplist against clang.](https://git.solus-project.com/packages/libplist/commit/?id=b3ebe97)
+-  Joshua Strobl: Rebuild libplist against clang.
 
 **mesalib**
 
--  [Ikey Doherty: Update to 11.0.4](https://git.solus-project.com/packages/mesalib/commit/?id=f54aaf2)
--  [Ikey Doherty: Update to 11.0.3](https://git.solus-project.com/packages/mesalib/commit/?id=466e6a0)
--  [Ikey Doherty: Rebuild against latest llvm](https://git.solus-project.com/packages/mesalib/commit/?id=dbc1d2f)
--  [Ikey Doherty: Drop /etc/drirc to a stateless configuration](https://git.solus-project.com/packages/mesalib/commit/?id=c6cece1)
+-  Ikey Doherty: Update to 11.0.4
+-  Ikey Doherty: Update to 11.0.3
+-  Ikey Doherty: Rebuild against latest llvm
+-  Ikey Doherty: Drop /etc/drirc to a stateless configuration
 
 **lvm2**
 
--  [Ikey Doherty: Move to /usr/lib64](https://git.solus-project.com/packages/lvm2/commit/?id=acd7c93)
+-  Ikey Doherty: Move to /usr/lib64
 
 **xz**
 
--  [Ikey Doherty: Fix /usr/share/doc file conflicts (using root namespace)](https://git.solus-project.com/packages/xz/commit/?id=4af9e04)
--  [Ikey Doherty: Remove links from /lib](https://git.solus-project.com/packages/xz/commit/?id=398a566)
+-  Ikey Doherty: Fix /usr/share/doc file conflicts (using root namespace)
+-  Ikey Doherty: Remove links from /lib
 
 **ntfs-3g**
 
--  [Ikey Doherty: Update to 2015.3.14 -- minor fixes too](https://git.solus-project.com/packages/ntfs-3g/commit/?id=1fed889)
--  [Ikey Doherty: Remove conflicting doc files](https://git.solus-project.com/packages/ntfs-3g/commit/?id=48a951e)
--  [Ikey Doherty: Rebump..](https://git.solus-project.com/packages/ntfs-3g/commit/?id=d99291b)
--  [Ikey Doherty: Bump for rebuild](https://git.solus-project.com/packages/ntfs-3g/commit/?id=1604bb3)
--  [Ikey Doherty: Move to /usr/lib64](https://git.solus-project.com/packages/ntfs-3g/commit/?id=d2bdd0d)
+-  Ikey Doherty: Update to 2015.3.14 -- minor fixes too
+-  Ikey Doherty: Remove conflicting doc files
+-  Ikey Doherty: Rebump..
+-  Ikey Doherty: Bump for rebuild
+-  Ikey Doherty: Move to /usr/lib64
 
 **libxcb**
 
--  [Ikey Doherty: Convert to ypkg, update to 1.11.1](https://git.solus-project.com/packages/libxcb/commit/?id=4ab6d3d)
+-  Ikey Doherty: Convert to ypkg, update to 1.11.1
 
 **attr**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/attr/commit/?id=34958b0)
--  [Ikey Doherty: Convert to ypkg, use /usr/lib64](https://git.solus-project.com/packages/attr/commit/?id=366a8b8)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Convert to ypkg, use /usr/lib64
 
 **cups**
 
--  [Ikey Doherty: Fix permission issues](https://git.solus-project.com/packages/cups/commit/?id=3c13b4c)
--  [Ikey Doherty: Enable systemd unit by default](https://git.solus-project.com/packages/cups/commit/?id=d8cda61)
--  [Ikey Doherty: Update to 2.1.0](https://git.solus-project.com/packages/cups/commit/?id=1142c12)
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/cups/commit/?id=3f4ac6a)
--  [Ikey Doherty: Add lpadmin group creation (TODO: Switch to sysusers, go ypkg)](https://git.solus-project.com/packages/cups/commit/?id=b1651fe)
+-  Ikey Doherty: Fix permission issues
+-  Ikey Doherty: Enable systemd unit by default
+-  Ikey Doherty: Update to 2.1.0
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Add lpadmin group creation (TODO: Switch to sysusers, go ypkg)
 
 **lsb-release**
 
--  [Ikey Doherty: Update strings](https://git.solus-project.com/packages/lsb-release/commit/?id=a7bcb26)
+-  Ikey Doherty: Update strings
 
 **libvte**
 
--  [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/libvte/commit/?id=1da26be)
+-  Ikey Doherty: Convert to stateless configuration
 
 **zip**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/zip/commit/?id=2ad854a)
+-  Ikey Doherty: Rebuild for cflags
 
 **python3-gobject**
 
--  [Joshua Strobl: Rebuild against latest python3.](https://git.solus-project.com/packages/python3-gobject/commit/?id=89b1f7c)
+-  Joshua Strobl: Rebuild against latest python3.
 
 **network-manager**
 
--  [Ikey Doherty: Do not automatically set hostnames as this breaks X (bug 19)](https://git.solus-project.com/packages/network-manager/commit/?id=27c52cd)
--  [Ikey Doherty: Switch to dhclient as dhcpcd is all kinds of broken (bug 21)](https://git.solus-project.com/packages/network-manager/commit/?id=2be4fcb)
+-  Ikey Doherty: Do not automatically set hostnames as this breaks X (bug 19)
+-  Ikey Doherty: Switch to dhclient as dhcpcd is all kinds of broken (bug 21)
 
 **gl-driver-switch**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/gl-driver-switch/commit/?id=ef87a07)
+-  Ikey Doherty: Rebuild for cflags
 
 **xdg-user-dirs**
 
--  [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/xdg-user-dirs/commit/?id=88f2aaf)
+-  Ikey Doherty: Convert to stateless configuration
 
 **dracut**
 
--  [Ikey Doherty: Rebuild for LiveISO inclusion](https://git.solus-project.com/packages/dracut/commit/?id=e8c761c)
--  [Ikey Doherty: Revert "Update to 043"](https://git.solus-project.com/packages/dracut/commit/?id=05d0697)
--  [Ikey Doherty: Update to 043](https://git.solus-project.com/packages/dracut/commit/?id=f3ea569)
--  [Ikey Doherty: Disable lz4 temporarily due to boot issues on non-UEFI](https://git.solus-project.com/packages/dracut/commit/?id=3dd29f7)
--  [Ikey Doherty: Use lz4 and not xz to speed up boot times (bug 25)](https://git.solus-project.com/packages/dracut/commit/?id=90c2f77)
+-  Ikey Doherty: Rebuild for LiveISO inclusion
+-  Ikey Doherty: Revert "Update to 043"
+-  Ikey Doherty: Update to 043
+-  Ikey Doherty: Disable lz4 temporarily due to boot issues on non-UEFI
+-  Ikey Doherty: Use lz4 and not xz to speed up boot times (bug 25)
 
 **libvdpau**
 
--  [Ikey Doherty: Convert to ypkg, update to 1.1.1](https://git.solus-project.com/packages/libvdpau/commit/?id=d0a71d1)
+-  Ikey Doherty: Convert to ypkg, update to 1.1.1
 
 **sudo**
 
--  [Ikey Doherty: Update to 1.8.14p3](https://git.solus-project.com/packages/sudo/commit/?id=6c8ed02)
+-  Ikey Doherty: Update to 1.8.14p3
 
 **polkit-gnome**
 
--  [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/polkit-gnome/commit/?id=90a5da2)
+-  Ikey Doherty: Convert to stateless configuration
 
 **ncurses**
 
--  [Ikey Doherty: Fix cyclical dependencies](https://git.solus-project.com/packages/ncurses/commit/?id=9d7477e)
--  [Ikey Doherty: Convert to ypkg, major package cleanup](https://git.solus-project.com/packages/ncurses/commit/?id=92f8fbe)
+-  Ikey Doherty: Fix cyclical dependencies
+-  Ikey Doherty: Convert to ypkg, major package cleanup
 
 **kerberos**
 
--  [Ikey Doherty: Use system com_err now](https://git.solus-project.com/packages/kerberos/commit/?id=9d39e5b)
+-  Ikey Doherty: Use system com_err now
 
 **file-roller**
 
--  [Justin Zobel: Update to 3.16.3](https://git.solus-project.com/packages/file-roller/commit/?id=8fc9dce)
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/file-roller/commit/?id=921894f)
--  [Ikey Doherty: Update to 3.16.3, support unrar by default](https://git.solus-project.com/packages/file-roller/commit/?id=04d60e1)
+-  Justin Zobel: Update to 3.16.3
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Update to 3.16.3, support unrar by default
 
 **mutter**
 
--  [Ikey Doherty: Update to 3.16.3, to fix hover-state issue (thanks horst3180)](https://git.solus-project.com/packages/mutter/commit/?id=e3f04a6)
+-  Ikey Doherty: Update to 3.16.3, to fix hover-state issue (thanks horst3180)
 
 **libevent**
 
--  [Ikey Doherty: Update to 2.0.22, convert to ypkg](https://git.solus-project.com/packages/libevent/commit/?id=9686692)
+-  Ikey Doherty: Update to 2.0.22, convert to ypkg
 
 **gnome-keyring**
 
--  [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/gnome-keyring/commit/?id=962c4e2)
+-  Ikey Doherty: Convert to stateless configuration
 
 **ffmpeg**
 
--  [Ikey Doherty: Address CVE-2015-6761](https://git.solus-project.com/packages/ffmpeg/commit/?id=fed00a8)
--  [Justin Zobel: Removed eopkgs](https://git.solus-project.com/packages/ffmpeg/commit/?id=1b99e8a)
--  [Justin Zobel: Update to 2.8.1](https://git.solus-project.com/packages/ffmpeg/commit/?id=a14efa2)
--  [Justin Zobel: Update to 2.8, enable openssl/gnutls to fix bug 253](https://git.solus-project.com/packages/ffmpeg/commit/?id=4956480)
--  [Ikey Doherty: Update to 2.7.2](https://git.solus-project.com/packages/ffmpeg/commit/?id=483acb7)
--  [Ikey Doherty: Rebuild against GCC 5](https://git.solus-project.com/packages/ffmpeg/commit/?id=33602b0)
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/ffmpeg/commit/?id=9d5591b)
+-  Ikey Doherty: Address CVE-2015-6761
+-  Justin Zobel: Removed eopkgs
+-  Justin Zobel: Update to 2.8.1
+-  Justin Zobel: Update to 2.8, enable openssl/gnutls to fix bug 253
+-  Ikey Doherty: Update to 2.7.2
+-  Ikey Doherty: Rebuild against GCC 5
+-  Ikey Doherty: Rebuild for cflags
 
 **zlib**
 
--  [Ikey Doherty: Migrate to /usr/lib64](https://git.solus-project.com/packages/zlib/commit/?id=ff5f97e)
+-  Ikey Doherty: Migrate to /usr/lib64
 
 **network-manager-applet**
 
--  [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/network-manager-applet/commit/?id=bc7a78b)
--  [Ikey Doherty: Disable GConf usage](https://git.solus-project.com/packages/network-manager-applet/commit/?id=77d1670)
+-  Ikey Doherty: Convert to stateless configuration
+-  Ikey Doherty: Disable GConf usage
 
 **libmodplug**
 
--  [Ikey Doherty: Fix broken includedir](https://git.solus-project.com/packages/libmodplug/commit/?id=76e1fd3)
+-  Ikey Doherty: Fix broken includedir
 
 **faad2**
 
--  [Ikey Doherty: Switch URL because sourceforge likes breaking things](https://git.solus-project.com/packages/faad2/commit/?id=eea4a01)
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/faad2/commit/?id=f62e4b6)
+-  Ikey Doherty: Switch URL because sourceforge likes breaking things
+-  Ikey Doherty: Rebuild for cflags
 
 **vlc**
 
--  [Ikey Doherty: Fix various issues with a rebuild and downgrade](https://git.solus-project.com/packages/vlc/commit/?id=b970527)
--  [Ikey Doherty: Rebuild against Qt](https://git.solus-project.com/packages/vlc/commit/?id=d43fa85)
--  [Ikey Doherty: Update to 3.0.0-git to help resolve some problems we've had](https://git.solus-project.com/packages/vlc/commit/?id=d00c30a)
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/vlc/commit/?id=1a431a1)
+-  Ikey Doherty: Fix various issues with a rebuild and downgrade
+-  Ikey Doherty: Rebuild against Qt
+-  Ikey Doherty: Update to 3.0.0-git to help resolve some problems we've had
+-  Ikey Doherty: Rebuild for cflags
 
 **qt5-everywhere**
 
--  [Ikey Doherty: Add libcap2-devel](https://git.solus-project.com/packages/qt5-everywhere/commit/?id=fb42aac)
--  [Ikey Doherty: Deal with lazy-ass build system](https://git.solus-project.com/packages/qt5-everywhere/commit/?id=5e5d31e)
--  [Ikey Doherty: Rebuild this qt5.4.0](https://git.solus-project.com/packages/qt5-everywhere/commit/?id=da7b9a8)
--  [Ikey Doherty: Revert "qt5: update to 5.5"](https://git.solus-project.com/packages/qt5-everywhere/commit/?id=a5ad362)
--  [Justin Zobel: qt5: update to 5.5](https://git.solus-project.com/packages/qt5-everywhere/commit/?id=a407426)
+-  Ikey Doherty: Add libcap2-devel
+-  Ikey Doherty: Deal with lazy-ass build system
+-  Ikey Doherty: Rebuild this qt5.4.0
+-  Ikey Doherty: Revert "qt5: update to 5.5"
+-  Justin Zobel: qt5: update to 5.5
 
 **gnupg**
 
--  [Joshua Strobl: Ensure pinentry is a rundep otherwise things explode.](https://git.solus-project.com/packages/gnupg/commit/?id=90a49e1)
--  [Joshua Strobl: Remove unnecessary libexecdir, rev build to fix symlink.](https://git.solus-project.com/packages/gnupg/commit/?id=a9abed7)
--  [Joshua Strobl: Converted to yml. Updated to 2.0.28, enabled symcryptrun and gpgtar.](https://git.solus-project.com/packages/gnupg/commit/?id=128527b)
+-  Joshua Strobl: Ensure pinentry is a rundep otherwise things explode.
+-  Joshua Strobl: Remove unnecessary libexecdir, rev build to fix symlink.
+-  Joshua Strobl: Converted to yml. Updated to 2.0.28, enabled symcryptrun and gpgtar.
 
 **cracklib**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/cracklib/commit/?id=58ea159)
+-  Ikey Doherty: Rebuild for cflags
 
 **alsa-utils**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/alsa-utils/commit/?id=b569be7)
+-  Ikey Doherty: Rebuild for cflags
 
 **nautilus**
 
--  [Ikey Doherty: Convert to stateless configuration](https://git.solus-project.com/packages/nautilus/commit/?id=bd6bcda)
+-  Ikey Doherty: Convert to stateless configuration
 
 **libxml2**
 
--  [Ikey Doherty: Address CVE-2015-1819](https://git.solus-project.com/packages/libxml2/commit/?id=b6cc9f6)
+-  Ikey Doherty: Address CVE-2015-1819
 
 **lightdm**
 
--  [Ikey Doherty: Update to 1.15.0](https://git.solus-project.com/packages/lightdm/commit/?id=7afa1f3)
--  [Ikey Doherty: Gracefully handle local hostname changes w/ xauthority](https://git.solus-project.com/packages/lightdm/commit/?id=feb7bf3)
+-  Ikey Doherty: Update to 1.15.0
+-  Ikey Doherty: Gracefully handle local hostname changes w/ xauthority
 
 **expat**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/expat/commit/?id=d9a7de0)
--  [Ikey Doherty: Split devel files into subpackage](https://git.solus-project.com/packages/expat/commit/?id=b8d05c8)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Split devel files into subpackage
 
 **gedit**
 
--  [Ikey Doherty: Update to 3.16.3](https://git.solus-project.com/packages/gedit/commit/?id=06d6304)
--  [Ikey Doherty: Bump](https://git.solus-project.com/packages/gedit/commit/?id=3f54909)
+-  Ikey Doherty: Update to 3.16.3
+-  Ikey Doherty: Bump
 
 **clutter-gtk**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/clutter-gtk/commit/?id=8ab396c)
+-  Ikey Doherty: Rebuild for cflags
 
 **dash**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/dash/commit/?id=14a434a)
+-  Ikey Doherty: Rebuild for cflags
 
 **clutter**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/clutter/commit/?id=84f0d52)
+-  Ikey Doherty: Rebuild for cflags
 
 **file**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/file/commit/?id=9f773d6)
+-  Ikey Doherty: Rebuild for cflags
 
 **gsettings-desktop-schemas**
 
--  [Ikey Doherty: Update default branding](https://git.solus-project.com/packages/gsettings-desktop-schemas/commit/?id=5d4539b)
--  [Ikey Doherty: Bump](https://git.solus-project.com/packages/gsettings-desktop-schemas/commit/?id=9f3ee4d)
--  [Ikey Doherty: Change default wallpaper](https://git.solus-project.com/packages/gsettings-desktop-schemas/commit/?id=c4544c0)
--  [Ikey Doherty: Back to SolusFresh wallpaper.](https://git.solus-project.com/packages/gsettings-desktop-schemas/commit/?id=4811241)
--  [Ikey Doherty: Switch to Faba Mono](https://git.solus-project.com/packages/gsettings-desktop-schemas/commit/?id=00f10d7)
--  [Ikey Doherty: Switch to Arc Darker](https://git.solus-project.com/packages/gsettings-desktop-schemas/commit/?id=34b55ce)
+-  Ikey Doherty: Update default branding
+-  Ikey Doherty: Bump
+-  Ikey Doherty: Change default wallpaper
+-  Ikey Doherty: Back to SolusFresh wallpaper.
+-  Ikey Doherty: Switch to Faba Mono
+-  Ikey Doherty: Switch to Arc Darker
 
 **curl**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/curl/commit/?id=5688cab)
+-  Ikey Doherty: Rebuild for cflags
 
 **dconf**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/dconf/commit/?id=172951f)
+-  Ikey Doherty: Rebuild for cflags
 
 **gcc**
 
--  [Ikey Doherty: Update to GCC 5.2.0](https://git.solus-project.com/packages/gcc/commit/?id=373c6f8)
--  [Ikey Doherty: Last rebuild for this rebootstrap phase](https://git.solus-project.com/packages/gcc/commit/?id=a1cefc9)
--  [Ikey Doherty: Long overdue toolchain name change: x86_64-evolveos-linux -> x86_64-solus-linux](https://git.solus-project.com/packages/gcc/commit/?id=9fe8f58)
--  [Ikey Doherty: Use /usr/lib64/ld-linux-x86-64.so.2 by default](https://git.solus-project.com/packages/gcc/commit/?id=ff68e24)
+-  Ikey Doherty: Update to GCC 5.2.0
+-  Ikey Doherty: Last rebuild for this rebootstrap phase
+-  Ikey Doherty: Long overdue toolchain name change: x86_64-evolveos-linux -> x86_64-solus-linux
+-  Ikey Doherty: Use /usr/lib64/ld-linux-x86-64.so.2 by default
 
 **alsa-lib**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/alsa-lib/commit/?id=773b131)
+-  Ikey Doherty: Rebuild for cflags
 
 **librsvg**
 
--  [Ikey Doherty: Rebuild for dbginfo](https://git.solus-project.com/packages/librsvg/commit/?id=bc4b51b)
+-  Ikey Doherty: Rebuild for dbginfo
 
 **budgie-desktop**
 
--  [Ikey Doherty: Update to v8.3 for maintainence updates](https://git.solus-project.com/packages/budgie-desktop/commit/?id=e3d30fd)
--  [Ikey Doherty: Migrate to a themed panel (no more 100% alpha)](https://git.solus-project.com/packages/budgie-desktop/commit/?id=31437d8)
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/budgie-desktop/commit/?id=2d4ac5f)
--  [Ikey Doherty: Fix menu problems by pretending to be GNOME. Even more.](https://git.solus-project.com/packages/budgie-desktop/commit/?id=3243f71)
--  [Ikey Doherty: Convert to ypkg, that pspec is damned offensive.](https://git.solus-project.com/packages/budgie-desktop/commit/?id=161b033)
--  [Ikey Doherty: Adapt to gnome-settings-daemon (mediakeys) changes in 3.16](https://git.solus-project.com/packages/budgie-desktop/commit/?id=c1eae85)
+-  Ikey Doherty: Update to v8.3 for maintainence updates
+-  Ikey Doherty: Migrate to a themed panel (no more 100% alpha)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Fix menu problems by pretending to be GNOME. Even more.
+-  Ikey Doherty: Convert to ypkg, that pspec is damned offensive.
+-  Ikey Doherty: Adapt to gnome-settings-daemon (mediakeys) changes in 3.16
 
 **gparted**
 
--  [Ikey Doherty: Build with clang](https://git.solus-project.com/packages/gparted/commit/?id=8176e6f)
--  [Ikey Doherty: Autoreconf to ensure pkexec patch is applied](https://git.solus-project.com/packages/gparted/commit/?id=1e050f3)
--  [Ikey Doherty: Add Polkit policy to enable pkexec launch from menu](https://git.solus-project.com/packages/gparted/commit/?id=4acd4d6)
+-  Ikey Doherty: Build with clang
+-  Ikey Doherty: Autoreconf to ensure pkexec patch is applied
+-  Ikey Doherty: Add Polkit policy to enable pkexec launch from menu
 
 **coreutils**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/coreutils/commit/?id=baf59a8)
+-  Ikey Doherty: Rebuild for cflags
 
 **gcr**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/gcr/commit/?id=1918600)
+-  Ikey Doherty: Rebuild for cflags
 
 **gvfs**
 
--  [Ikey Doherty: Enable CDDA and avahi integration](https://git.solus-project.com/packages/gvfs/commit/?id=3e030bc)
--  [Justin Zobel: Added libbluray, gphoto2, samba support](https://git.solus-project.com/packages/gvfs/commit/?id=e633437)
--  [Ikey Doherty: Enable mtp support](https://git.solus-project.com/packages/gvfs/commit/?id=e470c95)
+-  Ikey Doherty: Enable CDDA and avahi integration
+-  Justin Zobel: Added libbluray, gphoto2, samba support
+-  Ikey Doherty: Enable mtp support
 
 **libidn**
 
--  [Ikey Doherty: Update to 1.32, convert to ypkg](https://git.solus-project.com/packages/libidn/commit/?id=c41f832)
+-  Ikey Doherty: Update to 1.32, convert to ypkg
 
 **llvm**
 
--  [Ikey Doherty: Rebuild against GCC 5](https://git.solus-project.com/packages/llvm/commit/?id=a0b5a00)
--  [Ikey Doherty: Fix broken paths](https://git.solus-project.com/packages/llvm/commit/?id=58acb18)
--  [Ikey Doherty: Fix several layers of early-morning derp](https://git.solus-project.com/packages/llvm/commit/?id=c153ba9)
--  [Ikey Doherty: Enable scan-view and scan-build helpers](https://git.solus-project.com/packages/llvm/commit/?id=31ae44c)
--  [Ikey Doherty: Rebuild to sync toolchain name changes](https://git.solus-project.com/packages/llvm/commit/?id=d8f4dc1)
--  [Ikey Doherty: Enforce Solus toolchain defaults (build-id, relro)](https://git.solus-project.com/packages/llvm/commit/?id=75a7147)
--  [Ikey Doherty: Enforce system include directories](https://git.solus-project.com/packages/llvm/commit/?id=fe96dab)
--  [Ikey Doherty: Rebuild as llvm ignores libdir..](https://git.solus-project.com/packages/llvm/commit/?id=3688637)
--  [Ikey Doherty: Update to 3.6.2 (use updated system locations too)](https://git.solus-project.com/packages/llvm/commit/?id=b23df49)
--  [Ikey Doherty: Use /usr/lib64 for dynamic linker](https://git.solus-project.com/packages/llvm/commit/?id=64f7d74)
+-  Ikey Doherty: Rebuild against GCC 5
+-  Ikey Doherty: Fix broken paths
+-  Ikey Doherty: Fix several layers of early-morning derp
+-  Ikey Doherty: Enable scan-view and scan-build helpers
+-  Ikey Doherty: Rebuild to sync toolchain name changes
+-  Ikey Doherty: Enforce Solus toolchain defaults (build-id, relro)
+-  Ikey Doherty: Enforce system include directories
+-  Ikey Doherty: Rebuild as llvm ignores libdir..
+-  Ikey Doherty: Update to 3.6.2 (use updated system locations too)
+-  Ikey Doherty: Use /usr/lib64 for dynamic linker
 
 **bzip2**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/bzip2/commit/?id=564e14f)
--  [Ikey Doherty: No autodep](https://git.solus-project.com/packages/bzip2/commit/?id=6b4dfe8)
--  [Ikey Doherty: Move to /usr/lib64](https://git.solus-project.com/packages/bzip2/commit/?id=e12b18f)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: No autodep
+-  Ikey Doherty: Move to /usr/lib64
 
 **adwaita-icon-theme**
 
--  [Ikey Doherty: Add default symlink to satisfy GTK2 applications](https://git.solus-project.com/packages/adwaita-icon-theme/commit/?id=d23d8d1)
--  [Justin Zobel: Convert to yml](https://git.solus-project.com/packages/adwaita-icon-theme/commit/?id=42a5afb)
+-  Ikey Doherty: Add default symlink to satisfy GTK2 applications
+-  Justin Zobel: Convert to yml
 
 **fuse**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/fuse/commit/?id=64baf12)
--  [Ikey Doherty: Move into system.base for ntfs-3g dep satisfaction](https://git.solus-project.com/packages/fuse/commit/?id=1faa14b)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Move into system.base for ntfs-3g dep satisfaction
 
 **libtool**
 
--  [Ikey Doherty: Get libtool out of system.devel (mostly. it'll still work.)](https://git.solus-project.com/packages/libtool/commit/?id=59b62de)
--  [Ikey Doherty: Fix missing files](https://git.solus-project.com/packages/libtool/commit/?id=1ab1d4e)
--  [Ikey Doherty: Split development files into subpackage](https://git.solus-project.com/packages/libtool/commit/?id=91f4500)
+-  Ikey Doherty: Get libtool out of system.devel (mostly. it'll still work.)
+-  Ikey Doherty: Fix missing files
+-  Ikey Doherty: Split development files into subpackage
 
 **baobab**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/baobab/commit/?id=180c2d2)
+-  Ikey Doherty: Rebuild for cflags
 
 **desktop-file-utils**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/desktop-file-utils/commit/?id=78d2198)
+-  Ikey Doherty: Rebuild for cflags
 
 **readline**
 
--  [Ikey Doherty: Disable clang](https://git.solus-project.com/packages/readline/commit/?id=a433999)
--  [Ikey Doherty: Force link against ncurses](https://git.solus-project.com/packages/readline/commit/?id=c2aee28)
+-  Ikey Doherty: Disable clang
+-  Ikey Doherty: Force link against ncurses
 
 **eog**
 
--  [Justin Zobel: update to 3.16.3](https://git.solus-project.com/packages/eog/commit/?id=e179ddf)
+-  Justin Zobel: update to 3.16.3
 
 **gettext**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/gettext/commit/?id=846f9c2)
+-  Ikey Doherty: Rebuild for cflags
 
 **fribidi**
 
--  [Justin Zobel: Update to 0.19.7 and converted to YML](https://git.solus-project.com/packages/fribidi/commit/?id=5350323)
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/fribidi/commit/?id=27a1a96)
+-  Justin Zobel: Update to 0.19.7 and converted to YML
+-  Ikey Doherty: Rebuild for cflags
 
 **thunderbird**
 
--  [Justin Zobel: Fix up the location of the config](https://git.solus-project.com/packages/thunderbird/commit/?id=7ce5794)
--  [Justin Zobel: Convert to yml](https://git.solus-project.com/packages/thunderbird/commit/?id=3895cca)
--  [Justin Zobel: Update to 38.3.0](https://git.solus-project.com/packages/thunderbird/commit/?id=9cf08be)
--  [Ikey Doherty: Update to 38.2.0](https://git.solus-project.com/packages/thunderbird/commit/?id=5078066)
--  [Ikey Doherty: Update to 38.1.0](https://git.solus-project.com/packages/thunderbird/commit/?id=dec85ea)
+-  Justin Zobel: Fix up the location of the config
+-  Justin Zobel: Convert to yml
+-  Justin Zobel: Update to 38.3.0
+-  Ikey Doherty: Update to 38.2.0
+-  Ikey Doherty: Update to 38.1.0
 
 **pulseaudio**
 
--  [Ikey Doherty: Enable native headsets in BlueZ 5](https://git.solus-project.com/packages/pulseaudio/commit/?id=8579b06)
--  [Ikey Doherty: First bluez enabling round](https://git.solus-project.com/packages/pulseaudio/commit/?id=6687c7e)
+-  Ikey Doherty: Enable native headsets in BlueZ 5
+-  Ikey Doherty: First bluez enabling round
 
 **e2fsprogs**
 
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/e2fsprogs/commit/?id=b031579)
--  [Ikey Doherty: Fix circular dep in system.base](https://git.solus-project.com/packages/e2fsprogs/commit/?id=0267b3e)
--  [Ikey Doherty: Update to 1.42.13, switch to ypkg, split -devel, enable compile_et](https://git.solus-project.com/packages/e2fsprogs/commit/?id=fd84f8e)
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Fix circular dep in system.base
+-  Ikey Doherty: Update to 1.42.13, switch to ypkg, split -devel, enable compile_et
 
 **arc-gtk-theme**
 
--  [Ikey Doherty: Fix for 3.16..](https://git.solus-project.com/packages/arc-gtk-theme/commit/?id=6e861fc)
--  [Ikey Doherty: Fix breakage introduced in last update](https://git.solus-project.com/packages/arc-gtk-theme/commit/?id=41c2f67)
--  [Justin Zobel: Update to 20150922](https://git.solus-project.com/packages/arc-gtk-theme/commit/?id=f5aac32)
--  [Ikey Doherty: Update to 20150729](https://git.solus-project.com/packages/arc-gtk-theme/commit/?id=5f912b8)
--  [Ikey Doherty: Update to 20150711 (dark headers, lightdm changes)](https://git.solus-project.com/packages/arc-gtk-theme/commit/?id=284e6ce)
--  [Ikey Doherty: Integrate upstream fix for Budgie calendar foreground](https://git.solus-project.com/packages/arc-gtk-theme/commit/?id=276d152)
+-  Ikey Doherty: Fix for 3.16..
+-  Ikey Doherty: Fix breakage introduced in last update
+-  Justin Zobel: Update to 20150922
+-  Ikey Doherty: Update to 20150729
+-  Ikey Doherty: Update to 20150711 (dark headers, lightdm changes)
+-  Ikey Doherty: Integrate upstream fix for Budgie calendar foreground
 
 **at-spi2**
 
--  [Ikey Doherty: Convert to stateless configuration (XDG dir only at this point)](https://git.solus-project.com/packages/at-spi2/commit/?id=3f2685a)
+-  Ikey Doherty: Convert to stateless configuration (XDG dir only at this point)
 
 **glibc**
 
--  [Ikey Doherty: Rebuild for valid dbginfo](https://git.solus-project.com/packages/glibc/commit/?id=4b61081)
--  [Ikey Doherty: Rebuild for toolchain sync, re-enable pkgversion](https://git.solus-project.com/packages/glibc/commit/?id=7d50ef1)
--  [Ikey Doherty: Update to 2.22](https://git.solus-project.com/packages/glibc/commit/?id=a6854fa)
--  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/glibc/commit/?id=4790c75)
--  [Ikey Doherty: Rebuild with new toolchain name](https://git.solus-project.com/packages/glibc/commit/?id=8c1d194)
--  [Ikey Doherty: Bump for repo inclusion](https://git.solus-project.com/packages/glibc/commit/?id=eb0fd41)
--  [Ikey Doherty: Fix self dependency situation](https://git.solus-project.com/packages/glibc/commit/?id=82636fd)
--  [Ikey Doherty: Convert legacy packaging to ypkg for easier maintainence](https://git.solus-project.com/packages/glibc/commit/?id=3c44746)
--  [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/glibc/commit/?id=a26407d)
--  [Ikey Doherty: Patch glibc to build with GNU Make 4](https://git.solus-project.com/packages/glibc/commit/?id=0e7fced)
--  [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/glibc/commit/?id=16b85b5)
+-  Ikey Doherty: Rebuild for valid dbginfo
+-  Ikey Doherty: Rebuild for toolchain sync, re-enable pkgversion
+-  Ikey Doherty: Update to 2.22
+-  Ikey Doherty: Rebuild for cflags
+-  Ikey Doherty: Rebuild with new toolchain name
+-  Ikey Doherty: Bump for repo inclusion
+-  Ikey Doherty: Fix self dependency situation
+-  Ikey Doherty: Convert legacy packaging to ypkg for easier maintainence
+-  Ikey Doherty: Rebuild with new cflags
+-  Ikey Doherty: Patch glibc to build with GNU Make 4
+-  Ikey Doherty: Rebuild for debug symbols
 
           

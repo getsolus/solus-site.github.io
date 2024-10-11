@@ -101,46 +101,46 @@ Work has been done this cycle, especially in the last couple weeks, on transitio
 
 Below is a highlight of software that has been updated recently:
 
-- [atom 1.6.0](https://git.solus-project.com/packages/atom/commit/?id=6b5f5b8639a8a8eed01d988b464f760ce46e6ba9)
+- atom 1.6.0
 
-- [codeblocks 16.01](https://git.solus-project.com/packages/codeblocks/commit/?id=2fc9b26fbd4f77e4c44a67d21c2ba2aa665a300b)
+- codeblocks 16.01
 
-- [erlang 18.3](https://git.solus-project.com/packages/erlang/commit/?id=018f6a8be4e092f9ad94a2a0eb4a9bb431c7afe2)
+- erlang 18.3
 
-- [firefox 45.0.1](https://git.solus-project.com/packages/firefox/commit/?id=59b8bc41aeff7a07a8522bf44691c11a751b813d)
+- firefox 45.0.1
 
-- [focuswriter 1.5.5](https://git.solus-project.com/packages/focuswriter/commit/?id=1966cec0658036541a986ddab8e02b21302e638b)
+- focuswriter 1.5.5
 
-- [geany 1.27 and added vte2 as a rundep for integrated terminal](https://git.solus-project.com/packages/geany/commit/?id=64a7ffa03cd44f2f27bc3f96599823f55a043e4a)
+- geany 1.27 and added vte2 as a rundep for integrated terminal
 
-- [git 2.7.3](https://git.solus-project.com/packages/git/commit/?id=c188573835d2204db013a3476ec4cab51e7b1591)
+- git 2.7.3
 
-- [glances 2.6](https://git.solus-project.com/packages/glances/commit/?id=519cd183e12683271ca76837ce43e3f4d499c9a5)
+- glances 2.6
 
-- [hexchat 2.12.0](https://git.solus-project.com/packages/hexchat/commit/?id=3496bcb46b7ee337130ac3f0804e968b5d3656a2)
+- hexchat 2.12.0
 
-- [kernel 4.4.6](https://git.solus-project.com/packages/kernel/commit/?id=84c6bf4b3d1319f40849fdd22a121aac19c50cd5)
+- kernel 4.4.6
 
-- [nautilus -- Backported "Delete Permanently option from upstream](https://git.solus-project.com/packages/nautilus/commit/?id=bee78577663b6cccfc9fea14c3b543566260b947)
+- nautilus -- Backported "Delete Permanently option from upstream
 
-- [nmap 7.10](https://git.solus-project.com/packages/nmap/commit/?id=73c86c240728ac069f3df80559df33ddf351e087)
+- nmap 7.10
 
-- [nodejs 5.9.0](https://git.solus-project.com/packages/nodejs/commit/?id=ded70317bbfd1b27b33e025a0465783fd87cd68a)
+- nodejs 5.9.0
 
-- [pulseaudio now has stateless support](https://git.solus-project.com/packages/pulseaudio/commit/?id=59c93931a4982821a0da5754c08ad61002372a1b)
+- pulseaudio now has stateless support
 
-- [qtox 1.3.0](https://git.solus-project.com/packages/qtox/commit/?id=de6ae897407136457b631e2a365add51089557a1)
+- qtox 1.3.0
 
-- [telegram 0.9.33](https://git.solus-project.com/packages/telegram/commit/?id=26c98a8003b76507c63f22399218eb2b13f5ea61)
+- telegram 0.9.33
 
-- [thunderbird 38.7](https://git.solus-project.com/packages/thunderbird/commit/?id=257715013eb201ab379b5152f453b3f34890f494)
+- thunderbird 38.7
 
-- [toxcore 3747](https://git.solus-project.com/packages/toxcore/commit/?id=3863f1287fd853691df329d9f377abdeeb4e18e2)
+- toxcore 3747
 
-- [transmission 2.92](https://git.solus-project.com/packages/transmission/commit/?id=1a6b02902ebcb58c7a0bc99674297e90b4e4e796)
+- transmission 2.92
 
-- [vlc now has opus support](https://git.solus-project.com/packages/vlc/commit/?id=dfc3dafb57fc6214312b2fab4101cddd5fc19551)
+- vlc now has opus support
 
-- [youtube-dl 2016.03.14](https://git.solus-project.com/packages/youtube-dl/commit/?id=2a607c8fd8b4badd39b8e2a1e5dad6b32951c3d8)
+- youtube-dl 2016.03.14
 
   

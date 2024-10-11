@@ -32,7 +32,7 @@ In the near future, we'll be rolling out an update to introduce "breadcrumb" nav
 
 ## Improving the Contributor Experience
 
-Speaking of contributions, we've [recently been reviewing our process](https://dev.solus-project.com/T2616) for contributing to Solus in the form of packaging and patches. Currently, the process is slightly complicated, with:
+Speaking of contributions, we've recently been reviewing our process for contributing to Solus in the form of packaging and patches. Currently, the process is slightly complicated, with:
 
 - Us currently utilizing gitolite for git repository management, thus adding maintainers with write-access to be slightly cumbersome.
 - Manual patch reviewing and diff checking by downloading patches.

@@ -29,138 +29,138 @@ We request users now use the Solus [Bugzilla](https://bugs.solus-project.com/ent
 
 **kernel**
 
-- [Ikey Doherty: Enable netfilter NAT/masq support](https://git.solus-project.com/packages/kernel/commit/?id=fe47cb0)
+- Ikey Doherty: Enable netfilter NAT/masq support
 
 **lvm2**
 
-- [Ikey Doherty: Move to /usr/lib64](https://git.solus-project.com/packages/lvm2/commit/?id=acd7c93)
+- Ikey Doherty: Move to /usr/lib64
 
 **cairo**
 
-- [Ikey Doherty: Minor tweaks](https://git.solus-project.com/packages/cairo/commit/?id=f5a055e)
-- [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/cairo/commit/?id=773bed1)
-- [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/cairo/commit/?id=ac9f9f7)
+- Ikey Doherty: Minor tweaks
+- Ikey Doherty: Rebuild with new cflags
+- Ikey Doherty: Rebuild for debug symbols
 
 **xz**
 
-- [Ikey Doherty: Remove links from /lib](https://git.solus-project.com/packages/xz/commit/?id=398a566)
+- Ikey Doherty: Remove links from /lib
 
 **ntfs-3g**
 
-- [Ikey Doherty: Remove conflicting doc files](https://git.solus-project.com/packages/ntfs-3g/commit/?id=48a951e)
-- [Ikey Doherty: Rebump..](https://git.solus-project.com/packages/ntfs-3g/commit/?id=d99291b)
-- [Ikey Doherty: Bump for rebuild](https://git.solus-project.com/packages/ntfs-3g/commit/?id=1604bb3)
-- [Ikey Doherty: Move to /usr/lib64](https://git.solus-project.com/packages/ntfs-3g/commit/?id=d2bdd0d)
+- Ikey Doherty: Remove conflicting doc files
+- Ikey Doherty: Rebump..
+- Ikey Doherty: Bump for rebuild
+- Ikey Doherty: Move to /usr/lib64
 
 **evince**
 
-- [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/evince/commit/?id=9f2f5c9)
-- [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/evince/commit/?id=3896eb8)
+- Ikey Doherty: Rebuild with new cflags
+- Ikey Doherty: Rebuild for debug symbols
 
 **poppler**
 
-- [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/poppler/commit/?id=51ebef7)
-- [Ikey Doherty: Update to 0.34.0](https://git.solus-project.com/packages/poppler/commit/?id=1da2503)
+- Ikey Doherty: Rebuild for debug symbols
+- Ikey Doherty: Update to 0.34.0
 
 **kmod**
 
-- [Ikey Doherty: Move to /usr/lib64](https://git.solus-project.com/packages/kmod/commit/?id=49d8310)
+- Ikey Doherty: Move to /usr/lib64
 
 **gcc**
 
-- [Ikey Doherty: Use /usr/lib64/ld-linux-x86-64.so.2 by default](https://git.solus-project.com/packages/gcc/commit/?id=ff68e24)
+- Ikey Doherty: Use /usr/lib64/ld-linux-x86-64.so.2 by default
 
 **pisi**
 
-- [Ikey Doherty: Force dbginfo packages to use debug component](https://git.solus-project.com/packages/pisi/commit/?id=0c18310)
+- Ikey Doherty: Force dbginfo packages to use debug component
 
 **glibc**
 
-- [Ikey Doherty: Bump for repo inclusion](https://git.solus-project.com/packages/glibc/commit/?id=eb0fd41)
-- [Ikey Doherty: Fix self dependency situation](https://git.solus-project.com/packages/glibc/commit/?id=82636fd)
-- [Ikey Doherty: Convert legacy packaging to ypkg for easier maintainence](https://git.solus-project.com/packages/glibc/commit/?id=3c44746)
-- [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/glibc/commit/?id=a26407d)
-- [Ikey Doherty: Patch glibc to build with GNU Make 4](https://git.solus-project.com/packages/glibc/commit/?id=0e7fced)
-- [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/glibc/commit/?id=16b85b5)
+- Ikey Doherty: Bump for repo inclusion
+- Ikey Doherty: Fix self dependency situation
+- Ikey Doherty: Convert legacy packaging to ypkg for easier maintainence
+- Ikey Doherty: Rebuild with new cflags
+- Ikey Doherty: Patch glibc to build with GNU Make 4
+- Ikey Doherty: Rebuild for debug symbols
 
 **librsvg**
 
-- [Ikey Doherty: Rebuild for dbginfo](https://git.solus-project.com/packages/librsvg/commit/?id=bc4b51b)
+- Ikey Doherty: Rebuild for dbginfo
 
 **network-manager**
 
-- [Ikey Doherty: Do not automatically set hostnames as this breaks X (bug 19)](https://git.solus-project.com/packages/network-manager/commit/?id=27c52cd)
+- Ikey Doherty: Do not automatically set hostnames as this breaks X (bug 19)
 
 **gdk-pixbuf**
 
-- [Ikey Doherty: Rebuild for dbginfo](https://git.solus-project.com/packages/gdk-pixbuf/commit/?id=b403915)
+- Ikey Doherty: Rebuild for dbginfo
 
 **solus-artwork**
 
-- [Ikey Doherty: Add missing moka-icon-theme dep](https://git.solus-project.com/packages/solus-artwork/commit/?id=f16c00b)
+- Ikey Doherty: Add missing moka-icon-theme dep
 
 **dracut**
 
-- [Ikey Doherty: Disable lz4 temporarily due to boot issues on non-UEFI](https://git.solus-project.com/packages/dracut/commit/?id=3dd29f7)
+- Ikey Doherty: Disable lz4 temporarily due to boot issues on non-UEFI
 
 **pam**
 
-- [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/pam/commit/?id=a2b55ab)
-- [Ikey Doherty: Convert to ypkg, use /usr/lib64 now (retain /lib/security for compat)](https://git.solus-project.com/packages/pam/commit/?id=1d512ae)
+- Ikey Doherty: Rebuild for cflags
+- Ikey Doherty: Convert to ypkg, use /usr/lib64 now (retain /lib/security for compat)
 
 **baselayout**
 
-- [Ikey Doherty: Fix lib64 paths in ld.so.conf](https://git.solus-project.com/packages/baselayout/commit/?id=0b3b101)
+- Ikey Doherty: Fix lib64 paths in ld.so.conf
 
 **iptables**
 
-- [Ikey Doherty: Move to /usr/lib64](https://git.solus-project.com/packages/iptables/commit/?id=813485e)
+- Ikey Doherty: Move to /usr/lib64
 
 **llvm**
 
-- [Ikey Doherty: Use /usr/lib64 for dynamic linker](https://git.solus-project.com/packages/llvm/commit/?id=64f7d74)
+- Ikey Doherty: Use /usr/lib64 for dynamic linker
 
 **file-roller**
 
-- [Ikey Doherty: Update to 3.16.3, support unrar by default](https://git.solus-project.com/packages/file-roller/commit/?id=04d60e1)
+- Ikey Doherty: Update to 3.16.3, support unrar by default
 
 **bzip2**
 
-- [Ikey Doherty: No autodep](https://git.solus-project.com/packages/bzip2/commit/?id=6b4dfe8)
-- [Ikey Doherty: Move to /usr/lib64](https://git.solus-project.com/packages/bzip2/commit/?id=e12b18f)
+- Ikey Doherty: No autodep
+- Ikey Doherty: Move to /usr/lib64
 
 **gtk3**
 
-- [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/gtk3/commit/?id=f143229)
-- [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/gtk3/commit/?id=5ad4720)
+- Ikey Doherty: Rebuild with new cflags
+- Ikey Doherty: Rebuild for debug symbols
 
 **util-linux**
 
-- [Ikey Doherty: Ensure package is consistent with pre-conversion state](https://git.solus-project.com/packages/util-linux/commit/?id=f5c5e9d)
-- [Ikey Doherty: Switch to /usr/lib64](https://git.solus-project.com/packages/util-linux/commit/?id=862651e)
+- Ikey Doherty: Ensure package is consistent with pre-conversion state
+- Ikey Doherty: Switch to /usr/lib64
 
 **bash**
 
-- [Ikey Doherty: Ensure we escape prompt to fix linewrap bug in bash](https://git.solus-project.com/packages/bash/commit/?id=0311b04)
+- Ikey Doherty: Ensure we escape prompt to fix linewrap bug in bash
 
 **attr**
 
-- [Ikey Doherty: Convert to ypkg, use /usr/lib64](https://git.solus-project.com/packages/attr/commit/?id=366a8b8)
+- Ikey Doherty: Convert to ypkg, use /usr/lib64
 
 **zlib**
 
-- [Ikey Doherty: Migrate to /usr/lib64](https://git.solus-project.com/packages/zlib/commit/?id=ff5f97e)
+- Ikey Doherty: Migrate to /usr/lib64
 
 **acl**
 
-- [Ikey Doherty: Fix license and autodep](https://git.solus-project.com/packages/acl/commit/?id=980513c)
-- [Ikey Doherty: Convert to ypkg, move to /usr/lib64](https://git.solus-project.com/packages/acl/commit/?id=5cc133d)
+- Ikey Doherty: Fix license and autodep
+- Ikey Doherty: Convert to ypkg, move to /usr/lib64
 
 **gnome-settings-daemon**
 
-- [Ikey Doherty: Ensure patches are actually applied..](https://git.solus-project.com/packages/gnome-settings-daemon/commit/?id=adaa2b9)
+- Ikey Doherty: Ensure patches are actually applied..
 
 **glib2**
 
-- [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/glib2/commit/?id=966f6fc)
-- [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/glib2/commit/?id=c65e441)
+- Ikey Doherty: Rebuild with new cflags
+- Ikey Doherty: Rebuild for debug symbols

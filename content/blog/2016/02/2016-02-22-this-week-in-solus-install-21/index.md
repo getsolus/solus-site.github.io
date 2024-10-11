@@ -52,19 +52,19 @@ Below is a highlight of the packages that been updated or new, from this week:
 
 New: 
 
-- [audacity 2.1.2](https://git.solus-project.com/packages/audacity/commit/?id=d38b0e2fe6bfdf7f3d40b39bc882ea586b85a77d)
-- [galculator 2.1.3](https://git.solus-project.com/packages/galculator/commit/?id=af59243c31123a9139945418baac91ac3cdae1f8)
+- audacity 2.1.2
+- galculator 2.1.3
 
 Updated: 
 
-- [atom 1.5.3](https://git.solus-project.com/packages/atom/commit/?id=dfb213ba3bb3c537d15ba1338cbee6cf2ffe3a4f)
-- [epiphany 3.18.4](https://git.solus-project.com/packages/epiphany/commit/?id=de5b8df42c7ee4aa3fbcfe0612307cfc39d82d1a)
-- [filezilla 3.15.0.2](https://git.solus-project.com/packages/filezilla/commit/?id=025d3596cb0c4db5ff4d4a6f766fa75edbbb32a5)
-- [firefox 44.0.2](https://git.solus-project.com/packages/firefox/commit/?id=4720dedd8bcbc9b7f2993d383715d1b8f6ffebf7)
-- [lollypop 0.9.87](https://git.solus-project.com/packages/lollypop/commit/?id=e5fc767d3e0c093f46837b3041234a61d9eac25f)
-- [owncloud-client 2.1.1](https://git.solus-project.com/packages/owncloud-client/commit/?id=5e650f23177b030398ae502623f2507a06ef9b5c)
-- [kernel 4.4.2](https://git.solus-project.com/packages/kernel/commit/?id=c97aa3e76f839c16503233c6ddd0b02e9cdf768f)
-- [postgresql 9.5.1](https://git.solus-project.com/packages/postgresql/commit/?id=5ddd3887f5766422a15d877f45e59ea7dd3ba7fb)
-- [thunderbird 38.6.0](https://git.solus-project.com/packages/thunderbird/commit/?id=58fc24104998ea3cc8ece8d9b93266dc293d3690)
-- [tilda 1.3.2](https://git.solus-project.com/packages/tilda/commit/?id=b73e4ac51b065b9744877c9864f05b2aea307fb4)
-- [youtube-dl 2016.02.13](https://git.solus-project.com/packages/youtube-dl/commit/?id=b928eb78dae628a72177638025099bac5ed5cec7)
+- atom 1.5.3
+- epiphany 3.18.4
+- filezilla 3.15.0.2
+- firefox 44.0.2
+- lollypop 0.9.87
+- owncloud-client 2.1.1
+- kernel 4.4.2
+- postgresql 9.5.1
+- thunderbird 38.6.0
+- tilda 1.3.2
+- youtube-dl 2016.02.13

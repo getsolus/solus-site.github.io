@@ -48,7 +48,7 @@ However, there has been a small subset of packages that we've only recently been
 
 ### But You Said There's Effort?
 
-So Peter a.k.a Sunnyflunk created the [Solus 'Spring' Repo Cleanup task](https://dev.solus-project.com/T5629) to start the steps of finally converting all packages to ypkg (*excluding some that are relied on by eopkg*), cleaning up git repositories by disabling those which do not have a corresponding repo package, enforcing a consistent naming policy for repositories, and making the repositories easier to be scripted against (like for ABI rebuilds).
+So Peter a.k.a Sunnyflunk created the Solus 'Spring' Repo Cleanup task to start the steps of finally converting all packages to ypkg (*excluding some that are relied on by eopkg*), cleaning up git repositories by disabling those which do not have a corresponding repo package, enforcing a consistent naming policy for repositories, and making the repositories easier to be scripted against (like for ABI rebuilds).
 
 To say the cleanup effort has been successful would be an understatement. Over 200 repositories have either been renamed for consistency (like `AccountsService` to `accountsservice`) or removed (for example, `libwnck-1` or `spidermonkey`).
 

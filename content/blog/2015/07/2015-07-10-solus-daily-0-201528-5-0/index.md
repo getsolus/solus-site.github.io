@@ -25,50 +25,50 @@ Note: No password is required to login. Automatic login is disabled, simply hit 
 
 **kernel**
 
-- [Ikey Doherty: Enable MMC/memorystick options for newly enabled realtek module](https://git.solus-project.com/packages/kernel/commit/?id=c6683e8)
-- [Ikey Doherty: Enable Realtek PCI-E card reader (specifically rts5209)](https://git.solus-project.com/packages/kernel/commit/?id=3814bfe)
+- Ikey Doherty: Enable MMC/memorystick options for newly enabled realtek module
+- Ikey Doherty: Enable Realtek PCI-E card reader (specifically rts5209)
 
 **mesalib**
 
-- [Ikey Doherty: Drop /etc/drirc to a stateless configuration](https://git.solus-project.com/packages/mesalib/commit/?id=c6cece1)
+- Ikey Doherty: Drop /etc/drirc to a stateless configuration
 
 **budgie-desktop**
 
-- [Ikey Doherty: Adapt to gnome-settings-daemon (mediakeys) changes in 3.16](https://git.solus-project.com/packages/budgie-desktop/commit/?id=c1eae8)
-- [Ikey Doherty: Use system com_err now](https://git.solus-project.com/packages/kerberos/commit/?id=9d39e5b)
+- Ikey Doherty: Adapt to gnome-settings-daemon (mediakeys) changes in 3.16
+- Ikey Doherty: Use system com_err now
  
 **openssl**
 
-- [Ikey Doherty: Address CVE-2015-1793](https://git.solus-project.com/packages/openssl/commit/?id=42f7656)
+- Ikey Doherty: Address CVE-2015-1793
  
 **e2fsprogs**
 
-- [Ikey Doherty: Update to 1.42.13, switch to ypkg, split -devel, enable compile_et](https://git.solus-project.com/packages/e2fsprogs/commit/?id=fd84f8e)
+- Ikey Doherty: Update to 1.42.13, switch to ypkg, split -devel, enable compile_et
  
 **mutter**
 
-- [Ikey Doherty: Update to 3.16.3, to fix hover-state issue (thanks horst3180)](https://git.solus-project.com/packages/mutter/commit/?id=e3f04a6)
+- Ikey Doherty: Update to 3.16.3, to fix hover-state issue (thanks horst3180)
 
 **arc-gtk-theme**
 
-- [Ikey Doherty: Integrate upstream fix for Budgie calendar foreground](https://git.solus-project.com/packages/arc-gtk-theme/commit/?id=276d152)
+- Ikey Doherty: Integrate upstream fix for Budgie calendar foreground
  
 **gnome-control-center**
 
-- [Ikey Doherty: Online accounts require glib-networking for SSL usage](https://git.solus-project.com/packages/gnome-control-center/commit/?id=fabc090)
+- Ikey Doherty: Online accounts require glib-networking for SSL usage
  
 **gnome-system-monitor**
 
-- [Ikey Doherty: Convert to ypkg to stop use of /usr/libexec](https://git.solus-project.com/packages/gnome-system-monitor/commit/?id=2a456f6)
+- Ikey Doherty: Convert to ypkg to stop use of /usr/libexec
  
 **gnome-settings-daemon**
 
-- [Ikey Doherty: Update to 3.16.2, switch to ypkg](https://git.solus-project.com/packages/gnome-settings-daemon/commit/?id=d6c8a23)
+- Ikey Doherty: Update to 3.16.2, switch to ypkg
  
 **solus-artwork**
 
-- [Ikey Doherty: Undelete chalk wallpaper (fixes previous mistake)](https://git.solus-project.com/packages/solus-artwork/commit/?id=e16fb0c)
+- Ikey Doherty: Undelete chalk wallpaper (fixes previous mistake)
  
 **cups**
 
-- [Ikey Doherty: Add lpadmin group creation (TODO: Switch to sysusers, go ypkg)](https://git.solus-project.com/packages/cups/commit/?id=b1651fe)
+- Ikey Doherty: Add lpadmin group creation (TODO: Switch to sysusers, go ypkg)
