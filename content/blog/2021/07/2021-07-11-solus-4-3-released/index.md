@@ -109,7 +109,6 @@ Budgie 10.5.3 introduces fixes to Budgie panel applets, Raven, and various windo
 
 ### Quality-of-life Improvements
 
-{{< altimg "2021/04/budgie-desktop-settings.jpg" >}}
 
 Here are some quality-of-life improvements shipping in Budgie 10.5.3:
 
@@ -2570,7 +2569,7 @@ If you would like to financially support Solus, enabling us to continue to cover
 
 **linux-current**
 
- - Joshua Strobl: Update to 5.13.1. Changelog available [here](https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.13.1).
+ - Joshua Strobl: Update to 5.13.1.
  - Joshua Strobl: Update to 5.13.0.
  - Joshua Strobl: Add various DRM backports that would prevent some GPUs from entering idle state.
  - Joshua Strobl: Update to 5.12.13. Changelog available [here](https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.12.13).

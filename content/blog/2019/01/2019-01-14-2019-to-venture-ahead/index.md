@@ -24,7 +24,7 @@ As with all things Solus, our roadmap is subject to change over time and may not
 
 Budgie 10.5 is effectively complete aside from translation updates. To enable us to translate a wide variety of Solus projects going into the future, as well as address the immediate issue of Budgie translations and unblock the release of Budgie 10.5, we announced last year that we would be deploying Weblate on our infrastructure. I'm happy to announce that our Weblate instance is now available for use.
 
-If you wish to translate Budgie into your language, click [here](https://translate.getsol.us)! Thank you in advance for your contributions and pardon any early hiccups. Weblate is pretty new to us and we're still working out its usage, resolving some performance issues, and finishing up the GitHub OAuth support. I'll be working with Bryan on addressing load times when we upgrade the server as well.
+If you wish to translate Budgie into your language, click [here](https://docs.buddiesofbudgie.org/organization/getting-involved/#translations)! Thank you in advance for your contributions and pardon any early hiccups. Weblate is pretty new to us and we're still working out its usage, resolving some performance issues, and finishing up the GitHub OAuth support. I'll be working with Bryan on addressing load times when we upgrade the server as well.
 
 I'm hoping that Budgie 10.5 will be ready for release in the next few weeks, which also means **Solus 4 will also be released**, finally moving us away from the Solus 3.x release and subsequent ISO refresh and opening the door to our previously announced change in our [In Full Sail](/2018/10/27/in-full-sail) blog post to how we release new versions of Solus.
 
@@ -53,7 +53,7 @@ Linux Hardware Qualifier, our tool for checking hardware compatibility supported
 
 ### Web Infrastructure
 
-As mentioned in our Budgie section, our [Weblate](https://translate.getsol.us) instance is now available for use, which will enable translations of Budgie and in the future other projects such as the Software Center.
+As mentioned in our Budgie section, our [Weblate](https://docs.buddiesofbudgie.org/organization/getting-involved/#translations) instance is now available for use, which will enable translations of Budgie and in the future other projects such as the Software Center.
 
 Our web infrastructure is always evolving to meeting the needs of us and our users. During our [last hackfest](https://www.youtube.com/watch?v=qqnAUfyjVjU), I implemented the new API endpoints for Closest Mirror, Location, and Search. Effectively, this re-introduced the search in the Help Center as well as the "Closest" mirror download functionality on the Download page.
 
