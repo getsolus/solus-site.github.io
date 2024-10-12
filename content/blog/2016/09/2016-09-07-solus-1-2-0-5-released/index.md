@@ -21,7 +21,7 @@ Today we are providing a minor update to Solus 1.2 in the form of Solus 1.2.0.5.
 - Software: 
   - We delivered an updated GNOME 3.20 Stack, Pulseaudio 9, as well as Mesa 12. Additionally, we shipped with GCC 6.1.0, glibc 2.24, and the latest stable kernel 4.7.2.
 
-You can download 1.2.0.5 via HTTP direct download and torrents from [here](https://solus-project.com/1-2-0-5/).
+You can download 1.2.0.5 via HTTP direct download and torrents from [here](https://getsol.us/download).
 
 ---
 

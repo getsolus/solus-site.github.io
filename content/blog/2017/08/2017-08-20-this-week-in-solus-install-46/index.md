@@ -73,4 +73,4 @@ There is some Solus technology that we'll be replacing or overhauling, such as:
 
 ---
 
-As you can see just from **some** of the items in our tasklist, our work is far from over. If you're interested in getting involved or supporting the project (if you have already, we really appreciate it), feel free to check our [Getting Involved page](/articles/contributing/getting-involved/en/).
+As you can see just from **some** of the items in our tasklist, our work is far from over. If you're interested in getting involved or supporting the project (if you have already, we really appreciate it), feel free to check our [Getting Involved page](https://help.getsol.us/docs/user/contributing/getting-involved).

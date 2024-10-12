@@ -9,7 +9,7 @@ title = "This Week in Solus -- Install #16"
 url = "/2016/01/03/this-week-in-solus-install-16/"
 +++ 
 
-Welcome to the 16th installation of This Week in Solus. This is the first installation since the [great 1.0 release](https://solus-project.com/2015/12/27/solus-1-0-released/), which happened last week, as well as being the first of 2016! I opted to not have three blog posts in the span of two days last week, that'd be a tad excessive. 
+Welcome to the 16th installation of This Week in Solus. This is the first installation since the great 1.0 release, which happened last week, as well as being the first of 2016! I opted to not have three blog posts in the span of two days last week, that'd be a tad excessive.
 
 Fast forward a week and things haven't slowed down at all. We have gotten plenty of new package requests, bug reports, and issued fixes for hiccups users have had along the way.
 
@@ -19,7 +19,7 @@ Fast forward a week and things haven't slowed down at all. We have gotten plenty
 
 There has been **three** **updates** released for the Budgie desktop since the v10/10.1 release (we're currently on 10.2.2). Here are some highlights:
 
-- Budgie is [officially supported](https://plus.google.com/+Solus-Project/posts/fsxB3kHEEWy) via OBS for Fedora 23 and openSUSE.
+- Budgie is officially supported via OBS for Fedora 23 and openSUSE.
 - Fixes: 
   - Partially fixed issues relating to notifications from Mumble.
   - Resolved an issue where Firefox would not appear in panel.
@@ -33,7 +33,7 @@ There has been **three** **updates** released for the Budgie desktop since the v
   - We ship our own nm-applet .desktop launcher until we have our own network settings
   - Replace polkit-gnome dependency with our own new budgie-polkit.
 
-Alongside all these improvements and fixes, we asked our community to assist in translating Budgie into other languages [via Transifex](https://www.transifex.com/solus-project/budgie-desktop/) and we're absolutely blown away by the contributions. 
+Alongside all these improvements and fixes, we asked our community to assist in translating Budgie into other languages via Transifex and we're absolutely blown away by the contributions.
 Budgie is now 100% translated into the following languages (not including English):
 
 - Catalan
@@ -68,8 +68,8 @@ There is also progress being done on languages such as Swedish, Tagalog, Catalan
 
 #### Known Issues and Reminders
 
-- Some users are having issues with booting the ISO. We posted a workaround [here](https://plus.google.com/+Solus-Project/posts/Kf6DHinoMkf). We're hopeful that the issue will be resolved for Solus 1.1.
-- Reminder to read [this thread](https://solus-project.com/forums/viewtopic.php?f=17&t=886&p=5281#p5281) if you're having issues with Steam.
+- Some users are having issues with booting the ISO. We posted a workaround here. We're hopeful that the issue will be resolved for Solus 1.1.
+- Reminder to read this thread if you're having issues with Steam.
 
 #### Package Updates
 

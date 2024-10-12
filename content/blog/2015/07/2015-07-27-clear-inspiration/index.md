@@ -29,7 +29,7 @@ The Clear Linux Project is doing a lot of things *new*, and a lot of things *wel
 Actually, quite a lot! The most fundamental change we took away was *attitude.* The Clear Linux project has a truly impressive release cadence, seeing two builds every day with real world tangible changes. With an international team the 
 benefits are very obvious. We took home the message of *delivering*. And to do that, you're going to need some powerful tooling.
 
-The current Solus infrastructure is largely inspired (but isn't representative of) Clear Linux Project development processes. The [Makefile-based system](https://git.solus-project.com/common/about/) that powers our current workflow with such ease, 
+The current Solus infrastructure is largely inspired (but isn't representative of) Clear Linux Project development processes. The Makefile-based system that powers our current workflow with such ease,
 is inspired directly by what is being used within Clear Linux. Before this, we used a single repository for all of our packages, with manual patch management across all packages within this repository, and a hook to build the repo when it changed. Now, 
 we're able to deploy tangible changes in minutes, with no obstacles.
 

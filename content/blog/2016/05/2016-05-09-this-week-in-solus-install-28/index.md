@@ -32,7 +32,7 @@ ferrying people across safely to a better destination, taking routes that others
 > Note also whilst it's a nice thought to integrate Budgie into the logo, we must remember that Budgie is a part of Solus, not the other way around. We created Budgie for Solus, as opposed to remixing something that already existed to provide a slightly 
 different desktop experience.
 
-If you would like to help contribute to this undertaking, feel free to drop a comment [via IRC](https://wiki.solus-project.com/Getting_Involved#IRC) or let Ikey know [here](https://plus.google.com/u/0/+Solus-Project/posts/QjACFNNdMXo).. 
+If you would like to help contribute to this undertaking, feel free to drop a comment via IRC or let Ikey know here.
 Otherwise we're going to need to go with some design that Ikey has created, and I assure you, you don't want that. He's a coder, not a designer. Example follows:
 
 {{< relimg "Screenshot-from-2016-05-08-19-45-35.png" >}}
@@ -112,7 +112,7 @@ Transparency about package changes is important to us. We want you to be just as
 - The commit message of the release, including: 
 - Clickable links to CVEs.
 
-- We're also currently deciding on an identifier for bugs on [our bug tracker](https://bugs.solus-project.com) and plan on adding clickable links for those too.
+- We're also currently deciding on an identifier for bugs on our bug tracker and plan on adding clickable links for those too.
 
 The details of package updates will be available via the Updates section as well as individual package views, such as via the Installed section.
 
@@ -133,7 +133,7 @@ Updated:
 - adapta-gtk-theme 3.21.1.100
 - conky 1.10.2
 - darktable 2.0.4
-- [erlang 18.3.3](https://git.solus-project.com/packages/erlang/commit/)
+- erlang 18.3.3
 - hexchat 2.12.1
 - keepass 2.33
 - kernel 4.4.9

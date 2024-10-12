@@ -42,7 +42,7 @@ Ref: [This Week in Solus - Install #16](/2016/01/03/this-week-in-solus-install-1
 This was also a time where we quickly discovered the limitations and restrictions brought about by utilizing the GNOME Stack. We worked towards switching away from GDM to LightDM because of the massive overhead for 
 single-user systems, announced our intent to eventually switch away from Gnome Control Center as well as our intent to switch away from Vala.
 
-User documentation improved, [our Patreon launched](https://patreon.com/solus), and we moved the repository over to a beefier server with more disk space.
+User documentation improved, our Patreon launched, and we moved the repository over to a beefier server with more disk space.
 
 Refs: [This Week in Solus - Install #17](/2016/01/10/this-week-in-solus-install-17/) and [This Week in Solus - Install #18](/2016/01/17/this-week-in-solus-install-18/).
 
@@ -72,7 +72,6 @@ introduced to allow the disabling of region theming, Budgie became stateless, an
 
 ### Q2 - New Budgie, New Installer, and Games!
 
-{{< altimg "2016/08/all-the-games.jpg" >}}
 
 For Q2, we started it off with improvements to our packaging, with the elimination of component.xml and adding multilib support (separating out the build environments for 32-bit and our normal 64-bit builds).
 
@@ -118,7 +117,6 @@ and frankly a better user experience.
 
 Ref: [This Week in Solus - Install #32](/2016/07/17/this-week-in-solus-install-32/) and [This Week in Solus - Install #33](/2016/08/07/this-week-in-solus-install-33/)
 
-{{< altimg "2016/08/Screenshot-from-2016-08-04-23-03-03.png" >}}
 
 In August, we introduced a natively compiled Golang, which also meant landing a native Docker that is OCI (Open Container Initiative) compliant. We released Firefox 48, delivered a native compiled Rust with our own LLVM, and 
 Bryan (a.k.a DataDrake) and I did some community events, where he worked on packaging games for 17 HOURS across two sessions, I worked on the Solus Hugo-based site, and there was a short community gaming event where 
@@ -138,7 +136,6 @@ At the end of August, Peter a.k.a Sunnyflunk did the massive packaging of KDE Fr
 
 Ref: [This Week in Solus - Install #34](/2016/08/31/this-week-in-solus-install-34/)
 
-{{< altimg "2016/09/Screenshot-from-2016-09-03-21-27-18.png" >}}
 
 In September, we announced the big addition (or you could say, edition :P) to the Solus family, Solus MATE. We kicked off our Solus Mystery Hackfest with this big announcement and from a single session we went from no MATE packages 
 to a bootable ISO with the MATE experience. Ikey developed a MATE notification theme that complimented our design defaults and introduced some default branding.
@@ -156,7 +153,6 @@ Ref: [This Week in Solus - Install #35](/2016/09/05/this-week-in-solus-install-3
 Not but a couple days later, we released [Solus 1.2.0.5](/2016/09/07/solus-1-2-0-5-released/), which was a minor update to Solus 1.2 that featured some installation fixes for NVIDIA Maxwell cards 
 and Intel Skylake processors, the new stack upgrades, and Budgie fixes. 
 
-{{< altimg "2016/09/osd.png" >}}
 
 On September 10th, [we released Budgie 10.2.7](/2016/09/10/budgie-10-2-7-released/). This release featured lots of improvements to Budgie panel widgets.
 
@@ -175,7 +171,6 @@ Ref: [This Week in Solus - Install #36](/2016/09/26/this-week-in-solus-install-3
 
 ### Q4 - We Found a MATE
 
-{{< altimg "2016/10/Solus-MATE-Edition.png" >}}
 *MATE, obviously.*
 
 In October, [we released Solus 1.2.1](/2016/10/19/solus-1-2-1-shannon-released/), which was a monumental release, and it was also the last of our traditional releases, as we shifted 
@@ -204,7 +199,6 @@ At the beginning of November, we announced our plan on the moving of Budgie to a
 
 Ref: [This Week in Solus - Install #38](/2016/11/01/this-week-in-solus-install-38/)
 
-{{< altimg "2016/11/laptop-solus-sticker.jpg" >}}
 
 On November 15th, we were proud to [announce our partnership with Unixstickers](/2016/11/15/solus-announces-partnership-with-unixstickers/), which provide some really superb Solus stickers for all of our gadgets.
 
@@ -229,7 +223,6 @@ rounded off the year with a pleasant GameFest!
 
 ## 2017
 
-{{< altimg "2017/01/20170101-featured.jpg" >}}
 
 We kicked off the New Year on a high note with the release of our **first** ISO snapshot, [Solus 2017.01.01.0](/2017/01/01/solus-releases-iso-snapshot-20170101-0).
 
@@ -276,5 +269,5 @@ As of this moment, our items for Q2 are primarily dropping eopkg for sol and rew
 
 {{< relimg "rocket-launch.gif" >}}
 
-The Solus' machine is warmed up and firing on all cylinders. We're go for launch. 2016 was a crazy year, 2017 will be an insane one . We welcome you to [get involved](https://wiki.solus-project.com/Getting_Involved), to help build the engine, 
-launch this machine. If you want to help back the project via a donation or becoming a Patron, we welcome you to visit our [Support](/support) page.
+The Solus' machine is warmed up and firing on all cylinders. We're go for launch. 2016 was a crazy year, 2017 will be an insane one . We welcome you to [get involved](https://help.getsol.us/docs/user/contributing/getting-involved), to help build the engine,
+launch this machine. If you want to help back the project via a donation or becoming a Patron, we welcome you to visit our [Help](https://help.getsol.us) page.

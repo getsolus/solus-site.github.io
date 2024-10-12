@@ -81,20 +81,18 @@ Solus 1.0 is UEFI enabled via goofiboot, a distribution-agnostic fork of gummibo
 
 #### Download
 
-Solus 1.0 ISOs can be downloaded across official and community-supported mirrors internationally, as well as via BitTorrent, [here](https://solus-project.com/1-0/). Follow the 
-[Installation Guide](https://wiki.solus-project.com/Installation) and ensure you're using the correct tools to write the downloaded ISO to your DVD or USB.
+Solus 1.0 ISOs can be downloaded across official and community-supported mirrors internationally, as well as via BitTorrent, [here](https://getsol.us/download). Follow the
+[Installation Guide](https://help.getsol.us/docs/user/quick-start/installation/) and ensure you're using the correct tools to write the downloaded ISO to your DVD or USB.
 
 #### Known Issues
 
 Below is a list of known issues associated with Solus 1.0:
 
 1. AMD proprietary drivers do not support Linux kernel versions above 3.19 nor versions of Xorg above 1.17. This is an ongoing issue that we are currently investigating.
-2. The Steam runtime currently requires a workaround for non-NVIDIA systems. We anticipate landing a fix within the next couple weeks and a workaround is published [here](https://solus-project.com/forums/viewtopic.php?f=17&t=886&p=5281#p5281).
+2. The Steam runtime currently requires a workaround for non-NVIDIA systems. We anticipate landing a fix within the next couple weeks and a workaround is published here.
 3. HP Printers currently are non-functional due to python-related issues in the hplip package. We anticipate landing a fix within the next couple weeks. Solus core team members have the necessary hardware on hand to bring HP Printer support to fruition as soon as possible.
 4. Software Center is currently requiring an upgrade to resolve issues, land UX improvements, and greater app integration via appstream. We anticipate landing this upgrade in the next couple weeks.
 
 #### Press
 
-Press media assets (no PDF) available [here](https://solus-project.com/1-0-media/).
-
-Press media package (assets and PDF) available for download as [.zip](https://drive.google.com/file/d/0B5Ymf8oYXx-PVjhxaWYyakxoWGM/view?usp=sharing), [.tar.gz](https://drive.google.com/file/d/0B5Ymf8oYXx-PSmhTTTZnSUNXNVE/view?usp=sharing), [.tar.xz](https://drive.google.com/file/d/0B5Ymf8oYXx-PelhHLTAxYXktcjA/view?usp=sharing)
+Press media assets (no PDF) available [here](https://getsol.us/press/).

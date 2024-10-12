@@ -24,8 +24,6 @@ Skip forward 12 months, and we get this: (using the traditional GNOME2 style)
 
 Or the more well known Budgie style (Chrome OS inspired)
 
-{{< altimg "2014/11/16/courageous-budgie-v8-released/8Prefs.png" >}}
-
 It's been an amazing year so far, and I want to personally thank everyone who has been involved in the project, in whichever capacity, for all of their amazing work.
 
 Now, time to celebrate the Budgie's Birthday! 🙂

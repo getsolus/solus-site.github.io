@@ -11,15 +11,15 @@ url = "/2015/07/16/solus-daily-0-201529-4-0/"
 
 The latest Solus Operating System Daily ISO is now available for testing. Be reminded this is an unstable development ISO
 
-See our first [daily ISO announcement](https://solus-project.com/2015/06/29/first-unstable-daily-iso/) for instructions on writing this 64-bit, Hybrid, UEFI-compatible ISO to USB medium. Remember, **unetbootin is not supported!**
+See our first daily ISO announcement for instructions on writing this 64-bit, Hybrid, UEFI-compatible ISO to USB medium. Remember, **unetbootin is not supported!**
 
-Head over to the [download page](https://solus-project.com/download) now to obtain the latest daily ISO
+Head over to the [download page](https://getsol.us/download) now to obtain the latest daily ISO
 
 Note: No password is required to login. Automatic login is disabled, simply hit the Login button to proceed.
 
 This ISO sees many fixes, and a full toolchain rebootstrap to help modernise our filesystem layout (i.e. deprecating /lib, /lib64 and /usr/lib in favour of a unified /usr/lib64). We're improving our strengths as a distribution, and have begun collecting debug packages so that we may help users debug their issues more easily.
 
-We request users now use the Solus [Bugzilla](https://bugs.solus-project.com/enter_bug.cgi) when reporting issues, defects or requests.
+We request users now use the Solus Bugzilla when reporting issues, defects or requests.
 
 #### Packages added to this release:
 

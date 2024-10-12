@@ -14,14 +14,14 @@ Wait, isn't this supposed to be an unlucky number?
 
 #### Daily Images
 
-Let's kick off TWIS with talk about Daily Images. As you might have known, we released [Daily Image 0.201549.3.0](https://solus-project.com/2015/12/02/daily-iso-0-201549-3-0-released/)last Wednesday, but what you might not have known is we also released 
+Let's kick off TWIS with talk about Daily Images. As you might have known, we released Daily Image 0.201549.3.0 last Wednesday, but what you might not have known is we also released
 0.2015.49.5.0.
 
 That's right, **two** images this week.
 
 {{< altimg "http://i.giphy.com/XMvrleT9jksXm.gif" >}}
 
-Here are some of the highlights of the image, which is available for download from the [Daily ISO](https://solus-project.com/daily-iso/) page.
+Here are some of the highlights of the image, which is available for download from the [Daily ISO](https://getsol.us/download) page.
 
 - Budgie Desktop: Disable mediakeys for now        
 - Kernel: Enable IOMMU, extra hardware support, kill ifiniband, enable huge pages        

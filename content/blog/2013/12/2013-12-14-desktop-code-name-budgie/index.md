@@ -20,6 +20,6 @@ The core components are as follows:
 - **budgie-panel**: A traditional panel that currently sits at the bottom of the screen. Future versions will enable users to use 3rd party plugins to extend their panel experience to suit their needs.
 - **budgie-session**: Simply bootstraps the components of the desktop to get you working straight away. Does nothing more than launch gnome-settings-daemon, the window manager and the panel.
 
-If you're interested in checking out the code (which is written in C), please [check out the GitHub page](https://github.com/solus-project/budgie-desktop)
+If you're interested in checking out the code (which is written in C), please [check out the GitHub page](https://github.com/BuddiesOfBudgie/budgie-desktop)
 
 {{< relimg "Screenshot-from-2013-12-14-131850.png" >}}

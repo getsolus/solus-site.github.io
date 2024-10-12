@@ -9,7 +9,7 @@ title = "1.0 and Beyond"
 url = "/2015/12/28/1-0-and-beyond/"
 +++ 
 
-On the heels of our [first release of Solus](https://solus-project.com/2015/12/27/solus-1-0-released/), I want to take a moment to discuss with the community our plans for beyond 1.0 and up to 2.0. 
+On the heels of our first release of Solus, I want to take a moment to discuss with the community our plans for beyond 1.0 and up to 2.0.
 
 #### How our releases are structured
 
@@ -109,4 +109,4 @@ We will also be making sure that it isn't at Christmas. But it will indeed be in
 
 ---
 
-We're really excited about the future of Solus and we have a lot of fantastic stuff planned. You can learn how to get involved by checking out [this link](https://wiki.solus-project.com/Getting_Involved)!
+We're really excited about the future of Solus and we have a lot of fantastic stuff planned. You can learn how to get involved by checking out [this link](https://help.getsol.us/docs/user/contributing/getting-involved/)!

@@ -12,29 +12,29 @@ url = "/2016/01/25/this-week-in-solus-install-19/"
 
 Welcome to the 19th installation of This Week in Solus. 
 
-Alongside our crunch and focus for 1.1, we've also been continuing our [campaign of bug crushing](https://plus.google.com/+Solus-Project/posts/6FPLh4WJCkf). 
+Alongside our crunch and focus for 1.1, we've also been continuing our campaign of bug crushing.
 We've crushed 22 bugs over the last week, ranging from long sitting bugs that have been resolved since the Budgie rewrite to recent ones that are related to inclusion of git-based patches for new software in the repo.
 
 #### Bug Smash
 
 Here is a highlight of bugs we've smashed. Naturally some have been resolved by actively pushing changes while others are simply outdated, such as pre-"Budgie rewrite" bugs.
 
-- [A static image of the desktop after the computer gets suspended](https://bugs.solus-project.com/show_bug.cgi?id=250)
-- [Close/minimize/maximize buttons are not working for google chrome](https://bugs.solus-project.com/show_bug.cgi?id=117)
-- [Doesn`t see iPad](https://bugs.solus-project.com/show_bug.cgi?id=487)
-- [Keyboard keys not working correctly](https://bugs.solus-project.com/show_bug.cgi?id=157)
-- [New Package: jack-audio-connection-kit](https://bugs.solus-project.com/show_bug.cgi?id=279)
-- [[PATCH] dia](https://bugs.solus-project.com/show_bug.cgi?id=503)
-- [[Patch] Zeal](https://bugs.solus-project.com/show_bug.cgi?id=536)
-- [Problem with emacs font](https://bugs.solus-project.com/show_bug.cgi?id=137)
-- [[Request] LibreCAD](https://bugs.solus-project.com/show_bug.cgi?id=179)
-- [[Request] Mixxx](https://bugs.solus-project.com/show_bug.cgi?id=330)
-- [[Request] mono-complete](https://bugs.solus-project.com/show_bug.cgi?id=400)
-- [[Request] Trelby](https://bugs.solus-project.com/show_bug.cgi?id=14)
-- [Synergy v1.7.5](https://bugs.solus-project.com/show_bug.cgi?id=532)
-- [VLC doesn't seem to quit right away.](https://bugs.solus-project.com/show_bug.cgi?id=413)
-- [VLC fails to play file properly](https://bugs.solus-project.com/show_bug.cgi?id=243)
-- [VLC is missing upnp functionality](https://bugs.solus-project.com/show_bug.cgi?id=529)
+- A static image of the desktop after the computer gets suspended
+- Close/minimize/maximize buttons are not working for google chrome
+- Doesn`t see iPad
+- Keyboard keys not working correctly
+- New Package: jack-audio-connection-kit
+- PATCH dia
+- Patch Zeal
+- Problem with emacs font
+- Request LibreCAD
+- Request Mixxx
+- Request mono-complete
+- Request Trelby
+- Synergy v1.7.5
+- VLC doesn't seem to quit right away.
+- VLC fails to play file properly
+- VLC is missing upnp functionality
 
 {{< altimg "http://i.giphy.com/nryJthsS2EKf6.gif" >}}
 

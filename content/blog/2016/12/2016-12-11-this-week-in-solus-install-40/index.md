@@ -60,7 +60,7 @@ Users can then use the `LSI Steam` option in their menu to launch Steam via the 
 
 {{< relimg "solbuild-building.gif" >}}
 
-Last week [we announced](https://plus.google.com/+Solus-Project/posts/8zKuytw1p1h) the release of solbuild. For those unfamiliar with solbuild, it's our new package build system that replaces our prior evobuild tool from the 
+Last week we announced the release of solbuild. For those unfamiliar with solbuild, it's our new package build system that replaces our prior evobuild tool from the
 Evolve OS days. Throughout the week, we've released multiple new versions of it, currently at **v1.2.0**, and already solbuild introduces a large set of improvements over evobuild, including (*but not limited to*):
 
 - Eliminates previous lock and mount issues that occurred with evobuild.

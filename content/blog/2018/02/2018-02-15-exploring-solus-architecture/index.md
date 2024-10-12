@@ -17,7 +17,7 @@ Importantly, one should remember that Solus 1 looked absolutely nothing like wha
 
 ## To The Repository
 
-Any package in Solus starts life in a git repository hosted at the [dev portal](https://dev.solus-project.com). Once a developer is happy with the changes, the release number is bumped, and they run `make publish` to schedule a build on our [build controller](https://build.solus-project.com). A remote build server will clone the same repository from an immutable git tag, and if the build succeeds, it will be uploaded to our [ferryd](https://github.com/solus-project/ferryd) instance for further processing.
+Any package in Solus starts life in a git repository hosted at the [dev portal](https://dev.getsol.us/). Once a developer is happy with the changes, the release number is bumped, and they run `make publish` to schedule a build on our build controller. A remote build server will clone the same repository from an immutable git tag, and if the build succeeds, it will be uploaded to our [ferryd](https://github.com/solus-project/ferryd) instance for further processing.
 
 Within 15 seconds of a set of packages reaching ferryd, they will be included in the `unstable` repository. These packages are checked against the `transit manifest` to verify the payload, and upon success they'll be generally available in our repository. At the same time, `ferryd` will schedule delta updates in the background so that the update cost will be minimised for future users, whilst also keeping the main processing queue unblocked. This allows us to maintain a high cadence as well as provide convenience for the bandwidth-constricted.
 
@@ -29,7 +29,7 @@ Additionally, `ferryd` will spawn delta operations to produce any missing delta 
 
 ## Rolling Snapshot
 
-If we truthfully evaluate the branches here, then `unstable` is technically the "real" distribution, and Shannon is a rolling, tested snapshot of unstable. Our processes are such that every weekly sync constitutes a new release of Solus Shannon, whilst unstable continuously rolls. This affords the user a safety blanket, and developers have more freedom to make the necessary changes. As such we're able to make sweeping architectural changes, or even perform large stack updates such as the recent updates to MATE 1.20 or Plasma 5.12. As an added layer, developers are free to utilise the [local repository](/articles/packaging/local-repository/en/) functionality of `solbuild` to build massive local changes/additions before staging them for inclusion in unstable.
+If we truthfully evaluate the branches here, then `unstable` is technically the "real" distribution, and Shannon is a rolling, tested snapshot of unstable. Our processes are such that every weekly sync constitutes a new release of Solus Shannon, whilst unstable continuously rolls. This affords the user a safety blanket, and developers have more freedom to make the necessary changes. As such we're able to make sweeping architectural changes, or even perform large stack updates such as the recent updates to MATE 1.20 or Plasma 5.12. As an added layer, developers are free to utilise the local repository functionality of `solbuild` to build massive local changes/additions before staging them for inclusion in unstable.
 
 ## The Package Format
 

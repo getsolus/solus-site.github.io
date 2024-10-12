@@ -16,8 +16,8 @@ Welcome to the 29th installation of This Week in Solus.
 On the 21st and 22nd of this month, Ikey and myself had the first Solus hackfest, "Hackfest 1.2". The main goals of the Hackfest were:
 
 1. Successfully running Steam with our own runtime.
-2. Refining the messaging on the site, including implementing consistent branding and updating content such as the [Support](https://solus-project.com/support/) page and 
- [information on Solus](https://solus-project.com/solus/).
+2. Refining the messaging on the site, including implementing consistent branding and updating content such as the [Help](https://help.getsol.us/) page and
+ [information on Solus](https://getsol.us/solus/about).
 
 The Hackfest went on for roughly 11 hours across both days, with the recordings below! **Note: Not intended for younger audiences. Certainly PG13 at times.**
 
@@ -35,27 +35,27 @@ The implications of a native Steam runtime are pretty serious too. Rather than h
 In addition to the native Steam runtime, some bug squashing happened as well:
 
 - Disk Usage Analyzer (Baobab) no longer handles the inode/directory mime type. Basically this means you'll no longer be opening up Disk Usage Analyzer when you really meant to open Nautilus. This could happen across a wide range of software, such as 
-Google Chrome, Veracrypt, Transmission, etc. [Bug #734](https://bugs.solus-project.com/show_bug.cgi?id=734)
-- Steam Controller support now exists. [Bug #729](https://bugs.solus-project.com/show_bug.cgi?id=729)
+Google Chrome, Veracrypt, Transmission, etc. Bug #734
+- Steam Controller support now exists. Bug #729
 - A multitude of contribute patches have landed: 
-  - [Bug #502 -- [PATCH] lsof ](https://bugs.solus-project.com/show_bug.cgi?id=502)
-  - [Bug #518 -- [Patch] python-virtualenvwrapper -- Landed as virtualenvwrapper](https://bugs.solus-project.com/show_bug.cgi?id=518)
-  - [Bug #645 -- New package: ninja-build -- Landed as ninja](https://bugs.solus-project.com/show_bug.cgi?id=645)
-  - [Bug #658 -- [PATCH] lshw](https://bugs.solus-project.com/show_bug.cgi?id=658)
-  - [Bug #659 -- [Patch] SDL_ttf -- Landed as sdl-ttf](https://bugs.solus-project.com/show_bug.cgi?id=659)
-  - [Bug #661 -- [Patch] sdl2_gfx -- Landed as sdl2-gfx](https://bugs.solus-project.com/show_bug.cgi?id=661)
-  - [Bug #662 -- [Patch] xvidcore -- Landed as xvidcore](https://bugs.solus-project.com/show_bug.cgi?id=662) 
+  - Bug #502 -- PATCH lsof
+  - Bug #518 -- Patch python-virtualenvwrapper -- Landed as virtualenvwrapper
+  - Bug #645 -- New package: ninja-build -- Landed as ninja
+  - Bug #658 -- PATCH lshw
+  - Bug #659 -- Patch SDL_ttf -- Landed as sdl-ttf
+  - Bug #661 -- Patch sdl2_gfx -- Landed as sdl2-gfx
+  - Bug #662 -- Patch xvidcore -- Landed as xvidcore
 - ffmpeg now is enabled with xvid
-- [Bug #669 -- [Patch] sdl2-net](https://bugs.solus-project.com/show_bug.cgi?id=669)
-- [Bug #670 -- [Patch] mcomix](https://bugs.solus-project.com/show_bug.cgi?id=670)
-- [Bug #674 -- [Patch] grisbi](https://bugs.solus-project.com/show_bug.cgi?id=674)
-- [Bug #716 -- New package : paper-icon-theme](https://bugs.solus-project.com/show_bug.cgi?id=716)
-- [Bug #717 -- New package : paper-gtk-theme ](https://bugs.solus-project.com/show_bug.cgi?id=717)
-- [Bug #739 -- [Patch] quazip](https://bugs.solus-project.com/show_bug.cgi?id=739)
-- [Bug #754 -- [pip] update to 8.1.1 and convert to ypkg2 -- Was actually updated to 8.1.2](https://bugs.solus-project.com/show_bug.cgi?id=754)
-- [Bug #786 -- [patch] ghostwriter](https://bugs.solus-project.com/show_bug.cgi?id=786)
-- [Bug #801 -- [Patch] fping3](https://bugs.solus-project.com/show_bug.cgi?id=801)
-- [Bug #819 -- [Request] HomeBank](https://bugs.solus-project.com/show_bug.cgi?id=819)
+- Bug #669 -- Patch sdl2-net
+- Bug #670 -- Patch mcomix
+- Bug #674 -- Patch grisbi
+- Bug #716 -- New package : paper-icon-theme
+- Bug #717 -- New package : paper-gtk-theme
+- Bug #739 -- Patch quazip
+- Bug #754 -- pip update to 8.1.1 and convert to ypkg2 -- Was actually updated to 8.1.2
+- Bug #786 -- patch ghostwriter
+- Bug #801 -- Patch fping3
+- Bug #819 -- Request HomeBank
 
 #### Package Updates
 

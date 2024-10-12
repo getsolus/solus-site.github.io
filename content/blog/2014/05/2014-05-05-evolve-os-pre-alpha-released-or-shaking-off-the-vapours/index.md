@@ -55,7 +55,7 @@ info to find things to play with)
 
 ### **Reporting Issues**
 
-Please leave issues in the [Evolve OS Google+ Community](https://plus.google.com/communities/103032596316713958671) for now, as we currently have nowhere to 
+Please leave issues in the Evolve OS Google+ Community for now, as we currently have nowhere to
 host bug trackers or IRC channels.
 
 ### **Downloading/running Evolve OS**
@@ -72,10 +72,8 @@ more than 2 mirrors the images subdomain will be removed to save the server load
 
 Edit: Thanks to LayerJet you can now download from the following locations:
 
-* [Download from Germany](http://mirror.layerjet.com/evolveos/Evolve-OS-PreAlpha.iso)
-* [Download from France](http://mirror6.layerjet.com/evolveos/Evolve-OS-PreAlpha.iso)
-
-Contact me: ikey DOT doherty AT gmail DOT com (Subject: [EOS])
+* Download from Germany
+* Download from France
 
 IDE Booting isn't working right now, no doubt due to the kernel configuration. To boot using qemu: (all options are actually required, ensure your machine supports KVM)
 

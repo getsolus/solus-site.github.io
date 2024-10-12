@@ -15,9 +15,6 @@ comes with Budgie Desktop v4, GIMP 2.8.10 and GNOME Maps 3.10.0.
 Please note that we currently do not support EFI. Please do not attempt to boot in an EFI setup, and instead boot using legacy BIOS compatibility if you are affected. 
 With Alpha 3 we will actually ship two images, one legacy, and one EFI only. This will save a lot of confusion in the future and actually makes life far easier for me, as 
 opposed to a hybrid ISO configuration.
-<!--more-->
-
-{{< altimg "https://solus-project.com/release_images/a2/rundialog.png" >}}
 
 ## Changes
 
@@ -62,13 +59,3 @@ click and you'll see the updated download locations.
 
 Thank you so much to everyone who has been supporting the project, downloading and testing, it was a truly fantastic reaction to our very first alpha last week. Hopefully 
 you'll stick around here for a while 🙂 If something is needed, and we're missing it, file a bug. It will be dealt with 🙂
-
-## Screenshots
-
-{{< altimg "https://solus-project.com/release_images/a2/gimp.png" >}}
-
-
-{{< altimg "https://solus-project.com/release_images/a2/maps.png" >}}
-
-
-{{< altimg "https://solus-project.com/release_images/a2/nautilus.png" >}}

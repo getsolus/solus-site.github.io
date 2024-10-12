@@ -223,7 +223,7 @@ Full changelog [here](https://kde.org/announcements/changelogs/plasma/5/5.21.3-5
 
 Our Postgresql has been updated to 13.2, which features various changes noted [in the Postgresql release notes](https://www.postgresql.org/docs/13/release-13-2.html). If you use postgresql for local development purposes, as with all major upgrades you will need to perform a dump / restore either prior to upgrading or by re-installing an older version of postgresql, performing the dump, then doing the restore post-upgrade.
 
-To assist with migration, this has been [formally documented](/articles/software/postgresql/en/) on our Help Center!
+To assist with migration, this has been [formally documented](https://help.getsol.us/docs/user/software/development/postgresql) on our Help Center!
 
 ## Qt 5.15.3 Upgrade
 

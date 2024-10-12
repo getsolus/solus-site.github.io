@@ -16,8 +16,7 @@ having no networking. The package has been reverted to an earlier snapshot, howe
 
 ### Sideloading
 
-I have provided permanent copies of the .eopkg's on our server for the purpose of sideloading, you can download the appropriate .eopkg from here: 
-[https://solus-project.com/NM/network-manager-0.9.8.6-9-1-x86_64.eopkg](https://solus-project.com/NM/network-manager-0.9.8.6-9-1-x86_64.eopkg)
+I have provided permanent copies of the .eopkg's on our server for the purpose of sideloading, you can download the appropriate .eopkg from here:
 
 Copy this .eopkg across to your Evolve OS installation using a USB stick or similar, and execute this command in your terminal:
 

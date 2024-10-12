@@ -11,7 +11,7 @@ title = "This Week in Solus -- Install #25"
 url = "/2016/04/03/this-week-in-solus-install-25/"
 +++
 
-Welcome to This Week in Solus, installation#25. If you haven't already read our [big announcement on Budgie 10.2.5](https://solus-project.com/2016/03/27/budgie-10-2-5-released/), stop reading this post and catch up. 
+Welcome to This Week in Solus, installation#25. If you haven't already read our big announcement on Budgie 10.2.5, stop reading this post and catch up.
 
 #### Budgie
 
@@ -41,8 +41,8 @@ New:
 
 - breeze-cursor-theme 5.6.1
 - breeze-snow-cursor-theme 5.6.1
-- [font-ubuntu-ttf](https://git.solus-project.com/packages/font-ubuntu-ttf/)
-- [gnome-music 3.18.2](https://git.solus-project.com/packages/gnome-music/)
+- font-ubuntu-ttf
+- gnome-music 3.18.2
 - gom 0.3.2 -- Used in conjunction with updated grilo-plugins to enable playback in Gnome Music and Totem
 - mypaint 1.2.0
 

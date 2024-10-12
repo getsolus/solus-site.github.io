@@ -14,8 +14,7 @@ url = "/2016/03/07/this-week-in-solus-install-23/"
 
 Welcome to the 23rd installation of This Week in Solus. 
 
-March has been a busy month so far, kicking off with the release of Solus 1.1. If you're been living under a rock since the start of March, the [Solus 1.1 Release Announcement](https://solus-project.com/2016/03/02/solus-1-1-shannon-released/) 
-is a must-read. We proceeded to have our first public Hangout session, named by Ikey to be "Sundays with Solus", talked about below.
+March has been a busy month so far, kicking off with the release of Solus 1.1. If you're been living under a rock since the start of March, the Solus 1.1 Release Announcement is a must-read. We proceeded to have our first public Hangout session, named by Ikey to be "Sundays with Solus", talked about below.
 
 #### Sundays with Solus
 

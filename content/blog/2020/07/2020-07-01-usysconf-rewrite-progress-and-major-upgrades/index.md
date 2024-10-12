@@ -165,4 +165,4 @@ Barring any unexpected hiccups, this work is expected to land this Sunday and Mo
 
 Thanks to everyone in our community that has filed update requests, bug reports, provided patches, and tested against the unstable repository. It's all of you that help make Solus what it is.
 
-If you're interested in getting involved in Solus, check out our [Getting Involved](/articles/contributing/getting-involved/en/) page!
+If you're interested in getting involved in Solus, check out our [Getting Involved](https://help.getsol.us/docs/user/contributing/getting-involved) page!

@@ -10,7 +10,7 @@ url = "/2014/02/22/budgie-desktop-v1-19/"
 
 Hello all, today I've released a fairly small update to budgie-desktop, v1.19
 
-From the [GitHub release page](https://github.com/solus-project/budgie-desktop/releases/tag/v1.19):
+From the [GitHub release page](https://github.com/BuddiesOfBudgie/budgie-desktop):
 
 * glib schemas should be compiled
 * CSS styles built directly into binary
@@ -26,6 +26,6 @@ the last release.
 
 Note the version number is not indicative of stability, and is generated via "git --describe tags"
 
-As usual, you can install for Fedora 20 and openSUSE 13.1 [via the OBS repository](http://software.opensuse.org/download.html?project=home%3Aikeydoherty%3Aevolve&package=budgie-desktop)
+As usual, you can install for Fedora 20 and openSUSE 13.1 via the OBS repository.
 
 {{< relimg "Screenshot-from-2014-02-22-145146.png" >}}

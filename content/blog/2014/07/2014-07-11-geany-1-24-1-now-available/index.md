@@ -17,6 +17,3 @@ Geany is a GTK2 text editor, with some IDE functionality.
 sudo pisi ur && sudo pisi it geany
 ```
 
-<!--more-->
-
-{{< altimg "https://solus-project.com/pkg_screens/geany.png" >}}

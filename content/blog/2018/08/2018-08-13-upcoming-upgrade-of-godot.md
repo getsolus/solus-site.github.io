@@ -51,5 +51,5 @@ There is a multitude of other methods of engaging with the Godot community, all 
 
 If you encounter any issues with our packaged version of Godot 3 software on or after our Friday sync, please reach our via:
 
-- [Our dedicated task for Godot 3 issues](https://dev.solus-project.com/T6778)
+- Our dedicated task for Godot 3 issues
 - IRC: `#Solus-Dev` on irc.freenode.net

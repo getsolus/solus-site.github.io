@@ -213,7 +213,7 @@ To download our latest Editions, you can go to our [Download](/download) page, w
 
 We would like to thank everyone that has supported and contributed to Solus and its endeavors. It is you, our community, that has made this release possible. Whether you have filed bugs, fixed software, contributed code, translated Budgie Desktop, validated testing ISOs, or shared Solus releases with your colleagues, friends, and family: you've helped shape this release and improved the project for everyone.
 
-If you would like to financially support Solus, enabling us to continue to cover infrastructure costs as well as opening the door to future full-time work by the Solus team, you can support us via our [OpenCollective](https://opencollective.com/getsolus). If you are interested in other ways of getting involved, we encourage you to check out our dedicated [documentation](https://getsol.us/articles/contributing/getting-involved/en/) on doing so!
+If you would like to financially support Solus, enabling us to continue to cover infrastructure costs as well as opening the door to future full-time work by the Solus team, you can support us via our [OpenCollective](https://opencollective.com/getsolus). If you are interested in other ways of getting involved, we encourage you to check out our dedicated [documentation](https://help.getsol.us/docs/user/contributing/getting-involved).
 
 ## Changelog of ISO (Budgie)
 

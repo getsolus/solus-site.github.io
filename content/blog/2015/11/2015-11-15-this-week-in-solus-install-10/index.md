@@ -15,9 +15,9 @@ Welcome to This Week in Solus, Installation #10.
 The rewrite of Budgie has seen some considerable progress and development that has been accelerated by the need to resolve issues that arose during the GNOME 3.18 Stack upgrade.
 
 As some of you may be aware, a keyboard issue has arisen since the Stack upgrade where pressing certain numbers on your keyboard will control font scaling instead. This issue specifically affects users of the Budgie desktop environment. 
-For workaround information, click [here](https://solus-project.com/forums/viewtopic.php?f=17&t=804).
+For workaround information, click here.
 
-Ikey has been working hard to improve the rewrite and you can track the git commits [Google+](https://gitlab.com/solus-project/arc-desktop"here</a> as well as through the usual postings on <a href="https://plus.google.com/+Solus-Project/posts/.).
+Ikey has been working hard to improve the rewrite.
 
 Please note in both the repository provided above, the name "Arc Desktop" is being **temporarily** used. This is **not** the new name of Budgie, it is being developed under a different name than Budgie and Budgie Next to facilitate development 
 without the side-effect of library collisions / conflicts. "Arc Desktop" code will be merged back into Budgie when ready.

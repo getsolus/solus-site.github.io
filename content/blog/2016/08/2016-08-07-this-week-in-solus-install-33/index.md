@@ -22,7 +22,7 @@ faster, more agile pace, with:
 -  The concept of projects which can be anything from groups of people with a set of abilities on Phabricator to a tag to file bugs against, like Package Requests or Patch Submissions.
 -  It has the concept of parent v.s sub-tasks, which is similar to Bugzilla “depends” but laid out in a fashion that is more generic and is presented in a clearer fashion.
 
-So if you’d like to join up, file bugs, and enjoy the vastly prettier interface, then you can go to [https://dev.solus-project.com](https://dev.solus-project.com) and create an account or sign in with GitHub.
+So if you’d like to join up, file bugs, and enjoy the vastly prettier interface, then you can go to [https://dev.getsol.us/](https://dev.getsol.us/) and create an account or sign in with GitHub.
 
 #### GNOME 3.20 Stack Upgrade
 

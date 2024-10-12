@@ -62,11 +62,11 @@ There are still a few things we are aiming for the second version of our User Gu
 - We may integrate this into the website.
 3. Continue to improve the Advanced section, offering more advanced topics.
  
-You can download the User Guide pdf [here](https://drive.google.com/file/d/0B5Ymf8oYXx-PWTVJR0pmM3daZUE/view?usp=sharing). It is also linked on website navigation under Solus.
+You can download the User Guide pdf here. It is also linked on website navigation under Solus.
 
 #### Supporters
 
-We have been continuously grateful for all the support from our community. [As announced on our Google+ page](https://plus.google.com/+Solus-Project/posts/M1oJ6zk2kbA), we are in the process of:
+We have been continuously grateful for all the support from our community. As announced on our Google+ page, we are in the process of:
 
 1. Setting up a dedicated support email to enable our supporters (chiefly from Patreon currently) to enable them to have a direct line of communications with us.
 2. We will be providing early access to builds and features in the future to supporters. We **will** continue to release milestone releases in the **usual fashion**, but establishing the relationship with our supporters is a very key thing to do is important to us. 

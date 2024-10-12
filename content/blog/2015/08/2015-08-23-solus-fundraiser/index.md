@@ -45,7 +45,7 @@ questionable.. content, that cannot be controlled, and actually bring in a reall
 
 **How To Support**
 
-We're going to track the progress publicly on the new [fundraiser page](https://solus-project.com/fundraiser-august-2015/). When donating via PayPal, please let us know if you do **not want your*- name listed on the fundraiser page. We ask that you 
+We're going to track the progress publicly on the new fundraiser page. When donating via PayPal, please let us know if you do **not want your*- name listed on the fundraiser page. We ask that you
 use the PayPal option, as Patreon is a monthly pledge that could in theory cause this fundraiser effort to fail.
 
 **Lastly**

@@ -163,4 +163,4 @@ Additionally, he's improved the out-of-the-box experience when using 3G and 4G m
 
 ---
 
-That's it for this roundup. As always, I want to thank everyone who's continued to make Solus what it is today. Whether you're spreading the word about Solus, contributing translations, bug reports, patches, or supporting the project via [Patreon](https://patreon.com/solus), you help make Solus great!
+That's it for this roundup. As always, I want to thank everyone who's continued to make Solus what it is today. Whether you're spreading the word about Solus, contributing translations, bug reports, patches, or supporting the project via Patreon, you help make Solus great!

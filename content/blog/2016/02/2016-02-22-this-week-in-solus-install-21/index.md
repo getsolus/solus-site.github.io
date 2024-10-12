@@ -22,15 +22,15 @@ Due to our benevolent code monkey, Ikey, being ill last week, we don't have news
 Last week we announced that we are going to start having bi-monthly Hangouts sessions. These hangout sessions will occur on the 1st and 3rd Sunday of every month, at 10am UTC, and will go over news from This Week in Solus, discuss plans for the month,  
 open Q&A, etc.
 
-You will be able to watch these Hangouts via our [YouTube channel](https://www.youtube.com/channel/UCafmzeNk3o0g79oz0qbkzNg) and attend if you pledged via Patreon or donated, in the month prior to the Hangout, at $10 or more. 
+You will be able to watch these Hangouts via our [YouTube channel](https://www.youtube.com/@getsolus) and attend if you pledged via Patreon or donated, in the month prior to the Hangout, at $10 or more.
 You will receive an invitation link before we go on-air so you can join the hangout, ask questions, and engage with us directly.
 
 Our first Hangout session will be the 6th of March and invitation links will be sent to those that pledged or donated at the $10 tier in the month of February.
 
 #### Packaging on Solus Series
 
-A [Packaging on Solus video series](https://www.youtube.com/playlist?list=PLhhMWYdkJJbOtQirX-hgqac0xOpMTCb2v) has been started on the Solus Project 
-[YouTube channel](https://www.youtube.com/channel/UCafmzeNk3o0g79oz0qbkzNg). This series is meant to introduce people to the process of creating, building, and submitting packages for Solus. The first video of the series is out 
+A Packaging on Solus video series has been started on the Solus Project
+[YouTube channel](https://www.youtube.com/@getsolus). This series is meant to introduce people to the process of creating, building, and submitting packages for Solus. The first video of the series is out
 (shown below) will the second video being released sometime today.
 
 #### Security Improvements
@@ -38,9 +38,9 @@ A [Packaging on Solus video series](https://www.youtube.com/playlist?list=PLhhMW
 In light of the recent issues with the Linux Mint project, we're adding an additional piece of mind to the distribution of our ISOs and signing of our sha256sums (**which we've always used**) and providing a global Solus GPG key. You can find the 
 related links below:
 
-- [Global Solus gpg key](https://archive.solus-project.com/solus.gpg)         
-- [Inclusive SHA256SUMS](http://ikeydoherty.com/SHA256SUMS)         
-- [Inclusive SHA256SUMS detached signature](http://ikeydoherty.com/SHA256SUMS.sign)
+- Global Solus gpg key
+- Inclusive SHA256SUMS
+- Inclusive SHA256SUMS detached signature
 
 We have already audited our servers, ensured that every official mirror provided by the core team is synced with the SHA256SUMS.sign file, and follow best practices to controlling access as well as updating of mirrors, in addition to secure distribution of ISOs.
 

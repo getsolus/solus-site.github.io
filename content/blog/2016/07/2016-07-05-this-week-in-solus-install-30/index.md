@@ -35,19 +35,19 @@ A lot was accomplished over the course of those two days, such as:
   - Sublime Text 3
   - Opera
 -  Patches have landed for a multiple of new and existing packages, such as: 
-  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=711">font-indic-ttf has landed in the repo for improved international support.</a>
-  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=879">Glade has been updated to 3.19.</a>
-  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=961">Guake has landed in the repo.</a>
-  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=910">Parted is now a runtime dependency of gnome-disks.</a>
-  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=721">pgAdmin3 has landed in the repo, alongside sphinx.</a>
-  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=1001">SFML has landed in the repo.</a>
-  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=883">xprop now using the correct package format.</a>
-  - <a href="https://bugs.solus-project.com/show_bug.cgi?id=868">Zenity now using the correct package format.</a>
+  - font-indic-ttf has landed in the repo for improved international support.
+  - Glade has been updated to 3.19.
+  - Guake has landed in the repo.
+  - Parted is now a runtime dependency of gnome-disks.
+  - pgAdmin3 has landed in the repo, alongside sphinx.
+  - SFML has landed in the repo.</a>
+  - xprop now using the correct package format.
+  - Zenity now using the correct package format.
 
 #### eopkg is dead, long live sol
 
 Immediately following the delivery of Solus 1.2.1, Solus 2.0 will enter active development. The first change in this series of developments will be the removal of eopkg, which will be re-implemented in C as 
-<a href="https://github.com/solus-project/sol">**sol**</a>. The implementation will be specifically tailored to take advantage of modern CPU features, enabling an optimized package manager that will form the core of Solus 2, enabling a far lighter disk 
+**sol**. The implementation will be specifically tailored to take advantage of modern CPU features, enabling an optimized package manager that will form the core of Solus 2, enabling a far lighter disk
 profile for the core of the operating system.
 
 sol will eliminate the need for comar, a remnant from the fork of PiSi to eopkg, and inherit views towards transactional usage and global Solus philosophy such as **being stateless**. We'll add support for post-installs but they'll be used sparingly, and 

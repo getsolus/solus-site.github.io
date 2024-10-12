@@ -28,7 +28,7 @@ If you're a package maintainer, maintain a clone of the repository, etc. you wil
 
 Do note, however, that the names of some repositories has changed. For example, uppercase-named repositories (*such as SDL*) are now lower-case, and repositories with `++` will change to `xx` instead, such as libsigcxx.
 
-Our [Submitting a Package/Patch article](https://solus-project.com/articles/packaging/submitting-a-package/en/) has been updated and I will be having a livestream late this week that will cover submitting a patch with the new system.
+Our [Packaging article](https://help.getsol.us/docs/packaging/) has been updated and I will be having a livestream late this week that will cover submitting a patch with the new system.
 
 ## New Website
 
@@ -51,9 +51,9 @@ Peter spent time before our migration to Diffusion and Differential generating t
 
 {{< relimg "creative-t3250.jpg" >}}
 
-[Thanks to our Patrons](https://patreon.com/solus) and donators on PayPal for their continued support of the project, Ikey was able to sponsor my purchase of some Bluetooth speakers, specifically the [Creative T3250 wireless speakers](https://plus.google.com/+JoshuaStrobl/posts/ftwh36axeuC) and an Asus USB-BT400 Bluetooth USB adapter. This was done as we had received reports of non-functionality Bluetooth A2DP audio on some systems and needed hardware to test and validate solutions in a more rapid fashion than what have may otherwise been possible through conversing and testing via IRC.
+Thanks to our Patrons and donators on PayPal for their continued support of the project, Ikey was able to sponsor my purchase of some Bluetooth speakers, specifically the Creative T3250 wireless speakers and an Asus USB-BT400 Bluetooth USB adapter. This was done as we had received reports of non-functionality Bluetooth A2DP audio on some systems and needed hardware to test and validate solutions in a more rapid fashion than what have may otherwise been possible through conversing and testing via IRC.
 
-The issue was a result of GDM starting its own instance of Pulseaudio, something I addressed in our GDM 3.20.1 rel 22. Furthermore, I did enablement of bluez, namely enabling a stateless config and shipping our vendor-provided configuration with AutoEnable set to true, so Bluetooth controllers are automatically enabled. I also [went through and tested all editions](https://plus.google.com/+JoshuaStrobl/posts/hrGiypVeFob), as well what would be considered a more frankenstein installation of Budgie and GNOME, with GDM as the display manager, which is reflective of almost all usage of GNOME prior to the release of Solus GNOME Edition, to validate A2DP functioning on all them.
+The issue was a result of GDM starting its own instance of Pulseaudio, something I addressed in our GDM 3.20.1 rel 22. Furthermore, I did enablement of bluez, namely enabling a stateless config and shipping our vendor-provided configuration with AutoEnable set to true, so Bluetooth controllers are automatically enabled. I also went through and tested all editions, as well what would be considered a more frankenstein installation of Budgie and GNOME, with GDM as the display manager, which is reflective of almost all usage of GNOME prior to the release of Solus GNOME Edition, to validate A2DP functioning on all them.
 
 ### Google Accounts Integration Fixed
 

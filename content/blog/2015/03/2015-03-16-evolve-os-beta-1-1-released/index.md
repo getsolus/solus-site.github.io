@@ -61,5 +61,5 @@ recommend you write the image to one of these instead. Evolve OS is incompatible
 on Windows, or if you are comfortable using Linux already, dd. Various solutions for Linux exist, please check with your own distribution first for their recommended 
 method that peforms an **image write**, and not a file copy/extract.
  
-Now visit our [Download ](https://solus-project.com/download/) page to grab your copy of Solus. We hope you enjoy, and look forward to your feedback! Use the 
-community links at the top of this webpage to contact us either by [IRC](irc://irc.freenode.net/#evolveos), or through our [forums](https://solus-project.com/forums/).
+Now visit our [Download ](https://getsol.us/download) page to grab your copy of Solus. We hope you enjoy, and look forward to your feedback! Use the
+community links at the top of this webpage to contact us either by IRC, or through our [forums](https://discuss.getsol.us).

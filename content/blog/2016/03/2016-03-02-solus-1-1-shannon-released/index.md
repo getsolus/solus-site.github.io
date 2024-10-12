@@ -29,7 +29,7 @@ following highlighted improvements, alongside updated translations:
 - System locking has been restored in Solus 1.1, as we are now leveraging LightDM. As a result of dropping GDM for LightDM, we are also seeing significant performance improvements with a reduced CPU overhead.
 - We have a new logo. Admit it, it's cute.
 
-For more details on Budgie, see [our dedicated Budgie page](https://solus-project.com/budgie/).
+For more details on Budgie, see [our dedicated Budgie page](https://github.com/BuddiesOfBudgie/budgie-desktop).
 
 ##### Core and Graphics Improvements
 
@@ -89,15 +89,15 @@ Solus 1.1 is UEFI enabled via goofiboot, a distribution-agnostic fork of gummibo
 
 ####  Download
 
-Solus 1.1 ISOs can be downloaded across official and community-supported mirrors internationally, as well as via BitTorrent, via [our Download page](https://solus-project.com/download/).
+Solus 1.1 ISOs can be downloaded across official and community-supported mirrors internationally via [our Download page](https://getsol.us/download).
 
 ####  Resources
 
 SOLUS PROJECT CONTACT: joshua@stroblindustries.com
 
-WEBSITE: [https://solus-project.com](https://solus-project.com/)
+WEBSITE: [https://getsol.us](https://getsol.us/)
 
-MEDIA ASSETS: [https://solus-project.com/1-1-media](https://solus-project.com/1-1-media)
+MEDIA ASSETS: [https://getsol.us/press/](https://getsol.us/press/)
 
 ---
 

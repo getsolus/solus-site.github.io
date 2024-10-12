@@ -25,7 +25,7 @@ upgrades continuously on custom installations, we can keep improving the entire 
 
 ### Sweet. Where do I get it?
 
-Head over to our [download](https://solus-project.com/download) page! Once you've done that, you're going to want to use the appropriate program, be it rufus, or dd, to get 
+Head over to our [download](https://getsol.us/download) page! Once you've done that, you're going to want to use the appropriate program, be it rufus, or dd, to get
 that ISO onto a USB stick. We really do not recommend engaging in this testing process using CDs. Not only are USBs much faster, they're more reusable. You can use CDs if 
 you like, but there are gonna be a lot of ISOs. So unless you really like frisbees, we'd highly recommend the USB option. As always, remember that Solus is 
 **not compatible with unetbootin**! Do **not** attempt to use it, as it just does not work. This is the single-most common boot issue by far.
@@ -44,13 +44,13 @@ qemu-system-x86_64 -enable-kvm -m 4096M -cdrom Solus-Daily.iso
 
 ### Other Awesome Updates
 
-Our [Patreon](https://www.patreon.com/solus?ty=h) campaign is really starting to take shape! We recently hit our first target of $150 a month, which will cover base project running costs. This is a monthly project sponsorship, and helps us to do all the 
+Our Patreon campaign is really starting to take shape! We recently hit our first target of $150 a month, which will cover base project running costs. This is a monthly project sponsorship, and helps us to do all the
 awesome things we need to do with the project. As much as we distribute Solus for free, there is much personal financial and time investment involved. The more we can balance, the quicker we can achieve our goals. Solus is a long-standing passion, and 
 if we realise our goals of establishing a company, it'll be awesome all around. More hardware, testing, and time to dedicate, as well as a project that is liable. We are aiming for OEM images.. so :]
 
 ### Feedback
 
-As usual, leave a comment here, on the [forums](https://solus-project.com/forums/), in our [G+ community](https://plus.google.com/communities/104830131595272878110), or on [IRC](irc://chat.freenode.net/#Solus)!
+As usual, leave a comment here, on the [forums](https://discuss.getsol.us), in our G+ community or on IRC!
 
 ### Obligatory screenshots
 

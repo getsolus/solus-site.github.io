@@ -124,4 +124,4 @@ Some of the items I've mentioned in this blog post are ones which will take time
 
 ### Suggestions
 
-There are always other ways of improving community engagement and reducing barriers to entry. If you have any suggestions, you're always welcome to reach out via to us via the [Forums](/forums), [IRC](/articles/contributing/getting-involved/en/#irc) or [social media](/articles/contributing/getting-involved/en/#social-media).
+There are always other ways of improving community engagement and reducing barriers to entry. If you have any suggestions, you're always welcome to reach out via to us via the [Forums](https://discuss.getsol.us/), IRC or [social media](https://help.getsol.us/docs/user/contributing/getting-involved#social-media).

@@ -26,5 +26,5 @@ So whether you're an artist, a hacker, a writer, a designer, support of open sou
 What's missing? What isn't right? What does a user need? Why do user-friendly distributions keep popping up? Something isn't being done right if that keeps happening. 
 The demand is still there, so isn't being met 100%.
 
-Drop comments below, or email ikey DOT doherty AT gmail DOT com. Use a clear subject (all caps if you must) to ensure I see it. Remember, if you involve yourself for reasons 
+Drop comments below, or email. Use a clear subject (all caps if you must) to ensure I see it. Remember, if you involve yourself for reasons
 other than enjoying yourself, and promoting healthy change, you'll be disappointed. Passion and collaboration drive open source development; if this is you, jump in!

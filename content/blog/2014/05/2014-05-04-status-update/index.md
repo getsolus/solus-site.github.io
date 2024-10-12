@@ -66,4 +66,4 @@ to the project.
 Well, as soon as the ISO goes out, please let me know what I can do to facilitate easier builds of Evolve OS packages from foreign systems, so that it can be built from the 
 outside-in if needed. A lot of the stuff that needs addressing comes down to packaging or the budgie-desktop.
 
-Check out the [GitHub page](https://github.com/solus-project) for details on current repositories
+Check out the [GitHub page](https://github.com/getsolus) for details on current repositories

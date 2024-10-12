@@ -10,7 +10,7 @@ url = "/2015/10/25/this-week-in-solus-install-7/"
 +++ 
 
 Welcome to This Week in Solus, Installation #7. As you may (**or may not**) have noticed, this blog post is in a different location. As of this blog post, these installations are official. If you want to see previous installs, you can read them by 
-going [here](http://joshuastrobl.com/tag/this-week-in-solus/).
+going here.
 
 ### Project Announcements
 
@@ -29,7 +29,7 @@ These roles will accompany the coding and package development that is existing c
 
 Some formal rules and guidelines have been set within the Solus Project. We have also posted the guidelines of the team so the community can understand what our process is for enforcing guidelines.
 
-You may view these community guidelines by going to [this page](https://wiki.solus-project.com/Community_Guidelines).
+You may view these community guidelines by going to [this page](https://help.getsol.us/docs/user/contributing/community-guidelines).
 
 ### Status of Budgie
 

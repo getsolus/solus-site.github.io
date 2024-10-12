@@ -14,7 +14,7 @@ Hello all.
 Today I'm releasing a validation ISO for Evolve OS in order to get the ball rolling for a full release. This is a headless (no-desktop) uninstallable ISO which will enable 
 people to help me in cleaning/validating the base system before we progress any further.
 
-**UPDATE: This ISO is vulnerable due to [CVE-2014-0198](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0198) and its not [possible to update the ISO](https://solus-project.com/project/os/issues/OS-4). Download at your own risk!**
+**UPDATE: This ISO is vulnerable due to [CVE-2014-0198](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0198) and its not possible to update the ISO. Download at your own risk!**
 <!--more-->
 
 **Main changes**
@@ -46,9 +46,9 @@ You'll see automatic exports of pkgconfig names in the output.
 
 **Download URIs: (171MB)**
 
-[Germany (DE)](http://mirror.layerjet.com/evolveos/images/Evolve-OS-Validation.iso)
+Germany (DE)
 
-[France (FR)](http://mirror6.layerjet.com/evolveos/images/Evolve-OS-Validation.iso)
+France (FR)
 
 **MD5SUM:**
 
@@ -70,7 +70,7 @@ overall footprint
 
 Any help you can find to help get these base issues will be enormously appreciated! The sooner we can iron out base level issues the sooner we can put out a full release. 
 Anyone who is interested in joining the packaging effort, please note this should really just be out of personal/professional interest, there is no official "team" structure, 
-and the only form of accepting packaging fixes is via pull requests on our [GitHub repo](https://github.com/solus-project/repository).
+and the only form of accepting packaging fixes is via pull requests on our [GitHub repo](https://github.com/getsolus/packages).
 
 **Building a package**
 
@@ -98,7 +98,7 @@ Login is "live" (with no password, hit enter) or "root:root"
 
 **Feedback/bugs**
 
-For now, please use the comment section to report issues, or drop me an email to ikey DOT doherty AT gmail DOT com
+For now, please use the comment section to report issues.
 
 If a bug tracker or forum are genuinely needed, please tell me and I'll get them set up. Please note we don't have an SSL certificate, so HTTPS is completely 
 disabled on this server and is a potential issue for supporting login-based systems like forums or bug trackers.

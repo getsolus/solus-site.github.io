@@ -13,7 +13,7 @@ Welcome to This Week in Solus, installation #38. Lots have happened since the la
 
 ## Budgie
 
-Last week, Ikey migrated Budgie Desktop to be its own GitHub organization, viewable [here](https://github.com/budgie-desktop). This is a reflection of the direction we want to take Budgie, which is moving from a monolithic 
+Last week, Ikey migrated Budgie Desktop to be its own GitHub organization, viewable [here](https://github.com/BuddiesOfBudgie/budgie-desktop). This is a reflection of the direction we want to take Budgie, which is moving from a monolithic
 architecture to a modular one, breaking up Budgie into individually components, empowering us to independently develop, iterate and release components of Budgie.
 
 Ikey has already began work on creating a `budgie-core`, the component that all other Budgie components will depend on. This core contains gsettings schemas (*stored traditionally in the panel*) and theming used 
@@ -61,7 +61,7 @@ remove or shift elsewhere.
 
 Once I'm happier with the content we do provide, I'll be working on adding more features and functionality, such as providing an integrated Help Center. This will enable a high-quality method for discovering and querying 
 frequently asked questions, guides, and more. The original plans of dropping the User Guide Google Doc and shifting it to Markdown can then be executed upon. In the coming days, the 
-[User Guide](https://github.com/solus-project/user-guide) will be updated to reflect Solus 1.2.1, Installer improvements, and more. This work will then be incorporated into the future Help Center and we'll automatically 
+[User Guide](https://help.getsol.us/docs/user/intro) will be updated to reflect Solus 1.2.1, Installer improvements, and more. This work will then be incorporated into the future Help Center and we'll automatically
 generate PDFs for offline usage.
 
 Theoretically, although yet to be decided, this could enable us to eliminate our MediaWiki installation and enable the broader community to contribute to the Help Center. We haven't enabled contributions to the MediaWiki 

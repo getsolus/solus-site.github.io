@@ -21,8 +21,8 @@ In the mean time, I'll be preparing the Evolve OS repository with some reconfigu
 
 If you're interested in checking out any parts of Evolve OS, you should check the following links of interest:
 
-* [Budgie Desktop git repository](https://github.com/solus-project/budgie-desktop)
-* [Base System git repository](https://github.com/solus-project/base-system)
+* [Budgie Desktop git repository](https://github.com/BuddiesOfBudgie/budgie-desktop)
+* [Base System git repository](https://github.com/getsolus/)
 
 Please do not expect daily updates at this point, remember its the last week before most of us take our vacation, and then Christmas itself. Busy times! If I do not speak to you all again before Christmas itself,  I hope you all enjoy the holiday season, and look forward to talking again once we've all returned, a few pounds heavier, in the new year.
 

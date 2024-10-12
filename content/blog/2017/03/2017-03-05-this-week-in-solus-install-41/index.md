@@ -26,7 +26,7 @@ Now the work is beginning on having LDM configure X.Org, Mesa, and so-forth. Add
 
 ## Help Center
 
-Last week we rolled out our new Help Center, which replaces our old MediaWiki with a centralized, more user-friendly and mobile-friendly venue for documentation. Moving to our own Help Center gives us the added benefit of being able to easily crowdsource documentation via our [help-center-docs](https://github.com/solus-project/help-center-docs). Since rolling out the Help Center, we've gotten a lot of feedback and contributions, and rolled out additional functionality to bring it up to par with our old wiki, such as a Table of Contents.
+Last week we rolled out our new Help Center, which replaces our old MediaWiki with a centralized, more user-friendly and mobile-friendly venue for documentation. Moving to our own Help Center gives us the added benefit of being able to easily crowdsource documentation via our [Help Center](https://help.getsol.us). Since rolling out the Help Center, we've gotten a lot of feedback and contributions, and rolled out additional functionality to bring it up to par with our old wiki, such as a Table of Contents.
 
 In the near future, we'll be rolling out an update to introduce "breadcrumb" navigation, so you can easily find your way back to various categories from the article you're viewing. Expanding on that, with the next major update (and redesign) of the Solus website, enabling a multi-lingual experience will be easier than ever!
 
@@ -49,7 +49,7 @@ Naturally, we want to make the experience easier on everyone and remove some bot
 
 All this being said, we are **on track** for our Q1 goals. After we land Optimus support via LDM, we'll be turning our attention to rounding off Q1 with Budgie 10.3.
 
-This will be followed by an ISO snapshot and starting the development of Budgie 11, our [major rewrite to Qt5 and C++](https://budgie-desktop.org/2017/01/25/kicking-off-budgie-11/).
+This will be followed by an ISO snapshot and starting the development of Budgie 11, our major rewrite to Qt5 and C++.
 
 I'll be working with Ikey on continuing to improve our web infrastructure with Solhub, which will feature our web-based repo search utility and an improved build dashboard, as well as landing our new site redesign. Bryan has been hard at work on Haskell support in Solus, which should see finalizing this month, alongside his start on ypkg-tools. I anticipate Peter will continue his long and tireless campaign on optimizing every bit of Solus, a lot of those optimizations being exposed to new users in our upcoming ISO snapshot.
 

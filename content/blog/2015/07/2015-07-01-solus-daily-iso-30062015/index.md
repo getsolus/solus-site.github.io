@@ -14,12 +14,12 @@ This is our second daily ISO, which features more hardware support, a slight vis
 
 Main changes:
 
-- UEFI dual-boot issues [resolved](https://git.solus-project.com/packages/os-installer/commit/?h=os-installer-2-16)
-- [Issue](https://github.com/solus-project/repository/issues/99) with network hostname change preventing application launches [resolved](https://git.solus-project.com/packages/dhcpcd/commit/?h=dhcpcd-5.6.7-5)
-- Updated [firmware](https://git.solus-project.com/packages/linux-firmware/commit/?h=linux-firmware-20150513-4) package, supporting more devices (Intel WiFi, Radeon GPU, Tegra GPU)
-- 4.1.1 LTS [kernel](https://git.solus-project.com/packages/kernel/commit/?h=kernel-4.1.1-49)
-- Trial-run of [Arc GTK theme](https://github.com/horst3180/Arc-theme)
+- UEFI dual-boot issues resolved.
+- Issue with network hostname change preventing application launches resolved.
+- Updated firmware package, supporting more devices (Intel WiFi, Radeon GPU, Tegra GPU).
+- 4.1.1 LTS kernel.
+- Trial-run of [Arc GTK theme](https://github.com/horst3180/Arc-theme).
 
-See our first [daily ISO announcement](https://solus-project.com/2015/06/29/first-unstable-daily-iso/) for instructions on writing this 64-bit, Hybrid, UEFI-compatible ISO to USB medium. Remember, **unetbootin is not supported!**
+See our first daily ISO announcement for instructions on writing this 64-bit, Hybrid, UEFI-compatible ISO to USB medium. Remember, **unetbootin is not supported!**
 
-Head over to the [download page](https://solus-project.com/download) now to obtain the latest daily ISO
+Head over to the [download page](https://getsol.us/download) now to obtain the latest daily ISO

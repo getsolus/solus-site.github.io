@@ -17,5 +17,3 @@ Simply issue the following command to upgrade to the latest upstream version (pl
 ```
 sudo pisi up
 ```
-
-{{< altimg "https://solus-project.com/release_images/kernup.png" >}}

@@ -40,7 +40,7 @@ We have continued to improve Budgie over the course of the Solus 1.2 development
 -  While not specifically affecting Solus, Budgie has received multiple GTK 3.20 fixes.
 -  You can now click the desktop while Raven is open and have Raven be dismissed.
 
-For more details on Budgie, [click here](https://solus-project.com/budgie/).
+For more details on Budgie, [click here](https://buddiesofbudgie.org).
 
 #### Software Optimizations
 
@@ -150,7 +150,7 @@ We enhance the out-of-the-box desktop and Firefox experiences by defaulting to t
 ##### System
 
 Solus 1.2 ships with gstreamer media libraries, a multitude of system utilized fonts such as Clear Sans and Hack, and the stunning Breeze Snow cursor theme. We leverage the GTK 3.18 stack, in accordance with the policies set forth in our 
-[Release Cycle](https://solus-project.com/release-cycle/) document, and like Solus 1.1, Solus 1.2 is UEFI enabled via goofiboot, a distribution-agnostic fork of gummiboot, to ensure a wider variety of modern hardware is capable of using Solus.
+Release Cycle document, and like Solus 1.1, Solus 1.2 is UEFI enabled via goofiboot, a distribution-agnostic fork of gummiboot, to ensure a wider variety of modern hardware is capable of using Solus.
 
 In addition to the further hardware enablement, Solus ships with the latest LTS version of the Linux kernel, 4.4.13.
 
@@ -167,10 +167,10 @@ We have a long road ahead towards realizing our goals and ideals for the future 
 
 #### Download
 
-Solus 1.2 ISOs can be downloaded across official and community-supported mirrors internationally, as well as BitTorrent, by [clicking here](https://solus-project.com/download).
+Solus 1.2 ISOs can be downloaded across official and community-supported mirrors internationally by [clicking here](https://getsol.us/download).
 
 #### Press
 
-If you are a member of the press, we recommend visiting our [Press Center](https://solus-project.com/press-center/) for more information and branding information.
+If you are a member of the press, we recommend visiting our [Press Center](https://getsol.us/press/) for more information and branding information.
 
   

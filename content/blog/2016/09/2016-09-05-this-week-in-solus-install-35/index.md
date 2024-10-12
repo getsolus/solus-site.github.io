@@ -73,7 +73,7 @@ Bryan a.k.a DataDrake has landed a multitude of software into our 3rd-Party, pri
 - RubyMine
 - WebStorm
 
-You can install all of these now via the more extensive [3rd-Party wiki page](https://wiki.solus-project.com/3rdParty).
+You can install all of these now via the more extensive [3rd-Party Help Center page](https://help.getsol.us/docs/user/software/third-party/).
 
 #### Hackfest and Sundays with Solus Videos
 
@@ -165,8 +165,8 @@ Updated:
 - godot 2.1 -- Enable headless and Linux templates
 - gpicview 0.2.5
 - gtk3 3.20.9
-- [i3 -- Read the i3 section for changes or just read log..](https://git.solus-project.com/packages/i3/log/)
-- [i3status -- Read the i3 section for changes or just read log&#8230;](https://git.solus-project.com/packages/i3status/log/)
+- i3 -- Read the i3 section for changes or just read log.
+- i3status -- Read the i3 section for changes or just read log
 - kicad 4.0.4
 - lollypop 0.9.113
 - mediainfo 0.7.88

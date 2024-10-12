@@ -64,8 +64,7 @@ Our default monospace font has also changed to Hack, falling back to Droid Sans 
 #### Hybrid Graphics
 
 Anyone that has used Hybrid graphics on Linux knows the experience of it leaves a lot to be improved. Ikey is currently looking for assistance in obtaining a laptop with hybrid graphics (**preferably within the Republic of Ireland**), so we can do 
-**proper** enablement and integration of hybrid graphics in Solus. If you have any suggestions, feel free to reach out to [him on Google+](https://plus.google.com/+IkeyDoherty) or in 
-[IRC](https://wiki.solus-project.com/Getting_Involved#IRC).
+**proper** enablement and integration of hybrid graphics in Solus. If you have any suggestions, feel free to reach out to him on Google+ or in IRC.
 
 #### Multilib
 
@@ -74,7 +73,7 @@ fixing acl-32bit and attr-32bit. We still aren't there **yet**, but we are on tr
 
 #### Snappier Desktop
 
-The [Solus Hardware Config](https://github.com/solus-project/solus-hardware-config) project enables us to ship configuration changes that improve the out-of-the-box experience of Solus. As a further continuation of our mission to provide an 
+The Solus Hardware Config project enables us to ship configuration changes that improve the out-of-the-box experience of Solus. As a further continuation of our mission to provide an
 operating system designed and optimized for the desktop, we now ship with a sysctl configuration that changes our default swappiness to 10, compared to the prior 60. Swappiness controls how often the kernel “pages” (or transfers data) out to disk or the 
 swap file / partition.
 

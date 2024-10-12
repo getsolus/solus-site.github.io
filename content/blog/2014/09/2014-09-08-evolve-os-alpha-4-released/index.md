@@ -30,7 +30,7 @@ Please note this is officially the last Alpha ISO, with beta1 expected in the fo
 
 ### User Guide
 
-If you are new to Evolve OS, please take some time to read through the [Condensed User Guide](https://solus-project.com/evo_cug.pdf). It contains useful information 
+If you are new to Evolve OS, please take some time to read through the [User Guide](https://help.getsol.us/docs/user/intro). It contains useful information
 on how to update your system, as well as some common links and how tos.
 
 ### Notes

@@ -10,7 +10,7 @@ url = "/2015/08/10/all-your-drums-are-belong-to-us/"
 +++
 
 It's been a while since we've spoken here, the Solus team have been incredibly busy bringing you all kinds of awesome! But.. nobody told you about it. Well, time for some first hand news then! Remember, you can grab the latest daily ISO 
-over on our [download page](https://solus-project.com/download/).
+over on our [download page](https://getsol.us/download).
 
 ### A release date..
 
@@ -60,7 +60,7 @@ Soon we'll begin to ship [thermald](https://01.org/linux-thermal-daemon/document
 In addition to some of the other cool stuff we recently adopted from the [Clear Linux Project for Intel Architecture](https://solus-project.com/2015/07/27/clear-inspiration/), we recently adopted some more! All of our packages are now being rebuilt to ensure 
 they are built with full RELRO (relocation read-only), and full stack protection, amongst other toolchain hardening changes. Additionally, we've begun to 
 deprecated insecure SSL ciphers. We'll be expanding this across the rest of the project; you can read more about why this is important, and why 
-it should happen, in this [Google+ post by Arjan van de Ven](https://plus.google.com/+ArjanvandeVen/posts/VAK1SRHjTZm). With these continued changes and improvements, we're constantly improving our project.
+it should happen, in this Google+ post by Arjan van de Ven. With these continued changes and improvements, we're constantly improving our project.
 
 ### Sooo, what can we expect?
 

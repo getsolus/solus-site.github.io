@@ -26,7 +26,7 @@ With more time on the project, I can finish up various things like the overhaul 
 the repo at a decent pace. On the Budgie Desktop side of things we can finally begin implementing AppIndicator support, multi-monitor support, better workspaces 
 (dynamic), finish the notification center, etc.
 
-So, if you wanna help us out, just click the "Donate" button [on the home page](https://solus-project.com/). There are no obligations, obviously 🙂 If you don't 
+So, if you wanna help us out, just click the "Donate" button [on the home page](https://getsol.us). There are no obligations, obviously 🙂 If you don't
 want your name published, please say so! If you're ok with it, we'll publish donor names to credit their contribution in a public way. My aim is to put both 
 evenings and weekends into Evolve OS and the Budgie Desktop over the coming weeks to really bring the development pace up!
 

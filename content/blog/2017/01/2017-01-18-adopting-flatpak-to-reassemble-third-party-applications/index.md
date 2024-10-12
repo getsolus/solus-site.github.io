@@ -17,7 +17,7 @@ In certain cases, however, we cannot ship some applications. This is invariably
 due to some kind of licensing restriction, which forbids the redistribution of
 a package.
 
-For a long time, we've _made do_ with the [Solus Third Party system](https://wiki.solus-project.com/3rdParty).
+For a long time, we've _made do_ with the [Solus Third Party system](https://help.getsol.us/docs/user/software/third-party/).
 To alleviate the issue of distribution, the system fetches the application directly from
 the vendor source, and turns it into a native `.eopkg` locally. This allows you to
 install the application and manage it through the native package management system.
@@ -44,7 +44,7 @@ system. Let's first think about our basic requirements here:
   - Simple to integrate into the existing Software Center, to _swap out_ Third Party.
 
 This is a discussion that I've been having back and forth for a long time on social
-networks now, and I decided to put the feelers out [one last time](https://plus.google.com/+IkeyDoherty/posts/huGi7ey6GAp).
+networks now, and I decided to put the feelers out one last time.
 At the time of writing, 66% of 172 voters were in favour of Flatpak.
 
 ### Brand Power
@@ -83,7 +83,7 @@ As the creator of [Linux Steam Integration](https://github.com/solus-project/lin
 
 On the other hand, Flatpak does use full runtimes (though this can be disabled, which may be useful
 for the Chrome problem), and does seek to resolve the ABI problems, not just the relocatable package
-problem. After speaking with [Alexander Larsson](https://plus.google.com/+AlexanderLarsson/posts), I'm
+problem. After speaking with Alexander Larsson, I'm
 confident that we can utilize Flatpak to further **improve** our Steam runtime in future. Essentially,
 Solus would host a `solus-gaming` runtime, built **specifically** for Steam compatibility, without
 risking host mangling or having to compromise. This is an area where we can readily put the
@@ -93,7 +93,7 @@ Solus machinery to work to providing the best possible experience.
 
 As previously stated, I've put this matter to the Internet a number of times over a fair period of
 time. However, the only times I've been engaged on a **technical level** from either camp, have always
-come from Flatpak. I'd like to personally thank [Alexander Larsson](https://plus.google.com/+AlexanderLarsson/posts) of
+come from Flatpak. I'd like to personally thank Alexander Larsson of
 Red Hat, the chief developer of Flatpak, for the enthusiasm, honesty, and technical discussions we've
 had on these issues.
 

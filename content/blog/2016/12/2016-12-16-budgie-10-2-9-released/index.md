@@ -18,7 +18,7 @@ Numerous fixes have been made to our various panel widgets.
 
 ### Icon Tasklist
 
-Thanks to investigative work that occurred during our development of [Brisk Menu](https://solus-project.com/2016/12/11/this-week-in-solus-install-40/), an issue with the spinning wheel 
+Thanks to investigative work that occurred during our development of Brisk Menu, an issue with the spinning wheel
 that would persist for 30 seconds during the launching of an application has been resolved. Some previous hacks have been eliminated and we now use per-button GdkAppLaunchContext and 
 correctly "turn off" the notify via Gdk to stop the spinning wheel.
 
@@ -48,9 +48,7 @@ this option, the entire Budgie Panel configuration will be wiped clean from GSet
 
 ## Run Dialog
 
-We now monitor dbus names to see when an application has actually launched, as opposed to the prior behavior of naively immediately quitting. For "normal" applications, we obey the 
-[Startup Notification Spec](https://specifications.freedesktop.org/startup-notification-spec/startup-notification-0.1.txt) and wait for them to either launch (or fail to do so), then quit the Run Dialog. This 
-resolves an issue with some applications such as Corebird and gedit either failing to launch or inconsistently launching via the Run Dialog.
+We now monitor dbus names to see when an application has actually launched, as opposed to the prior behavior of naively immediately quitting. For "normal" applications, we obey the Startup Notification Spec and wait for them to either launch (or fail to do so), then quit the Run Dialog. This resolves an issue with some applications such as Corebird and gedit either failing to launch or inconsistently launching via the Run Dialog.
 
 ## Other Goodies
 

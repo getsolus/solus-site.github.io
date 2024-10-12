@@ -9,7 +9,7 @@ title = "Peek at a Point Release: Solus 1.2.1"
 url = "/2016/06/23/peek-at-a-point-release-solus-1-2-1/"
 +++
 
-A lot of [incredible work coalesced for Solus 1.2](https://solus-project.com/2016/06/20/solus-1-2-shannon-released/), ranging from improvements to our flagship desktop environment Budgie to significant performance gains in the underlying system. 
+A lot of incredible work coalesced for Solus 1.2, ranging from improvements to our flagship desktop environment Budgie to significant performance gains in the underlying system.
 The Installer and Software Center were built from the ground up to address a wide variety of pain points and make the use of Solus easier for everyone. We also were the first operating system to ship the new 
 [Arc Icon Theme](https://github.com/horst3180/arc-icon-theme), not only as the default for Solus 1.2, but also the first to make it readily available in the repo. 
 
@@ -29,7 +29,7 @@ In Solus 1.2.1, we will be continuing our efforts to improve internationalizatio
 
 {{< relimg "vulkan.png" >}}
 
-We have updated our [linux-firmware](https://git.solus-project.com/projects/linux-firmware/) to introduce more hardware support, such as AMD Polaris UVD firmware and additional Intel Bluetooth devices. Solus 1.2.1 will see Vulkan support for 
+We have updated our linux-firmware to introduce more hardware support, such as AMD Polaris UVD firmware and additional Intel Bluetooth devices. Solus 1.2.1 will see Vulkan support for
 Intel, OpenGL 4.3+ support across a wide range of hardware thanks to Mesa 12.0.0-rc4, and Skylake improvements with the latest 
 syncing of xorg-driver-video-intel.
 

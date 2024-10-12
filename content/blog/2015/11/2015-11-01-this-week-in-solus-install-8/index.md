@@ -12,7 +12,7 @@ Welcome to This Week in Solus, Installation #8.
 
 #### Release Candidate 1
 
-We were happy to [announce](https://solus-project.com/2015/10/29/announcing-1-0-release-candidate-1/) Solus 1.0 Release Candidate 1 last Thursday. We have gotten an immense amount of feedback since then, bug reports to tackle, and lots of 
+We were happy to announce Solus 1.0 Release Candidate 1 last Thursday. We have gotten an immense amount of feedback since then, bug reports to tackle, and lots of
 new package requests! We also can confidently say that we reached over **2000 downloads** of the RC1 ISO, across reported mirrors and BitTorrent, which is fantastic for a Release Candidate!
 
 We've been hard at work fixing bugs and updating software, something that'll be highlighted below.

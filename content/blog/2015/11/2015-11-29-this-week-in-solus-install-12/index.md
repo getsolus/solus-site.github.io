@@ -32,12 +32,11 @@ As you can see from the recent video by Ikey, implementation of the design is co
 #### Goofiboot
 
 The Solus Project has forked gummiboot, which is now considered dead upstream, to ensure we (**as in the entire Linux community, not just the Solus community**) have a separate and independent bootloader that provides the necessary 
-features and distribution support that should be expected from a responsible upstream. [Goofiboot](https://github.com/solus-project/goofiboot), as the fork is named, is [already being used in production](https://plus.google.com/+Solus-Project/posts/WJJESPrv5yi) 
+features and distribution support that should be expected from a responsible upstream. [Goofiboot](https://github.com/solus-project/goofiboot), as the fork is named, is already being used in production
 on our new daily image (as also stated in the New Daily section below) and according to Ikey:
 
 > One of the nasty problems we hit in the past with gummiboot was actually **case sensitivity**. The EFI System Partition is FAT32, which is case insensitive, but sadly, preserves case. We've encountered multiple instances now whereby various standardised directories used the wrong case, which caused installation to fail.
 
-{{< relimg "JPL-Celebration-at-Mars-Landing.gif" >}}
 
 **This issue is now resolved.**
 
@@ -48,7 +47,7 @@ out the latest daily image or installation and seeing where we can continue to i
 
 #### Installer
 
-Work has been progressing on the new installer from [Michael Rutherford](https://plus.google.com/+MichaelRutherford97). He does not anticipate the installer being done before 1.0, however this is a complete rewrite and massive 
+Work has been progressing on the new installer from Michael Rutherford. He does not anticipate the installer being done before 1.0, however this is a complete rewrite and massive
 improvement over the existing one, and here are some of the improvements he has made to it since last week:
 
 - Added password comparison functionality
@@ -61,12 +60,11 @@ improvement over the existing one, and here are some of the improvements he has 
 - Cleaned up and reformatted the code and added re-implemented popup windows in a more pragmatic way.
 - Fixed all run-time GTK errors
 
-He also posted a poll regarding availability of encryption options. If you haven't voted yet, you [here](https://plus.google.com/+MichaelRutherford97/posts/E5Kj8hHfEgJ"should</a>! You can check out the installer 
-[here](https://github.com/michaelrutherford/solus-installer).
+He also posted a poll regarding availability of encryption options. If you haven't voted yet, you should! You can check out the installer here.
 
 #### New Daily
 
-**We're happy to announce a new Daily image, 0.201548.7.0, which is available for download [here](https://solus-project.com/daily-iso/).**
+**We're happy to announce a new Daily image, 0.201548.7.0, which is available for download [here](https://getsol.us/download).**
 
 {{< altimg "https://media1.giphy.com/media/aWpbEcyxa2VSo/200.gif" >}}
 
@@ -88,7 +86,7 @@ We have tripled our I/O throughput in a recent update. According to Ikey:
 
 ##### Linux Kernel 4.1.13
 
-We are using the Linux Kernel 4.1.13, as 4.3 is in our view not yet ready for production, namely for older Nvidia hardware. We are currently tracking [relevant bugs](https://bugzilla.kernel.org/show_bug.cgi?id=106431) and keeping an eye out for issue resolutions.
+We are using the Linux Kernel 4.1.13, as 4.3 is in our view not yet ready for production, namely for older Nvidia hardware. We are currently tracking relevant bugs and keeping an eye out for issue resolutions.
 
 ##### Other Updates
 

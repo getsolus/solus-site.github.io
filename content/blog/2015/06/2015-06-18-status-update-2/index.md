@@ -32,7 +32,7 @@ singular package repository on GitHub to dedicated and owned infrastructure. Eve
 benefit, we're now enabling package owners, for the first time.
 
 This also required a change to how we **build** packages within Solus Project. We switched out our old build systems, and permit package owners to issue a package update 
-directly to the unstable repository, by way of [our new build system](https://build.solus-project.com/). Now a package owner merely needs to issue a `make publish` 
+directly to the unstable repository, by way of our new build system. Now a package owner merely needs to issue a `make publish`
 command, and our public-key based system will queue their package for build and inclusion into the repository by our own trusted build machines.
 
 This has resulted in an enormous acceleration in Solus development times, with 118 currently recorded builds being issued since Monday morning alone 
@@ -67,14 +67,14 @@ count is low, but it will only remain that way if you don't get requesting!
 
 This section will be updated in due course to reflect the *new* bug tracker.
 
-- [Git Repositories](https://git.solus-project.com/?s=idle)
-- [Build System](https://build.solus-project.com)
-- [Working with the new infrastructure](https://git.solus-project.com/common/about/)
-- [Current Bug Tracker](https://dev.solus-project.com)
+- Git Repositories
+- Build System
+- Working with the new infrastructure
+- Current Bug Tracker
 
 #### Lastly..
 
-For those who don't know, we've also launched our own [Patreon](https://www.patreon.com/solus?ty=h) very recently. This enables people to support the project on a 
+For those who don't know, we've also launched our own Patreon very recently. This enables people to support the project on a
 monthly basis and help us attain our goals in a far shorter time -- which is beneficial to all.
 
 If it becomes successful, we'll be able to host our own **user** repositories, and enable more services for users. Most importantly, if we reach $1000 a month, we will 

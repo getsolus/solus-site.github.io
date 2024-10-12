@@ -26,12 +26,12 @@ Server Information:
 
 #### User Guide
 
-As stated in the 17th installation of This Week in Solus, the comprehensive User Guide [has been released](https://drive.google.com/file/d/0B5Ymf8oYXx-PWTVJR0pmM3daZUE/view?usp=sharing). 
-I have since converted the entirety to Markdown, which is all available on [our GitHub repo](https://github.com/solus-project/user-guide).
+As stated in the 17th installation of This Week in Solus, the comprehensive User Guide [has been released](https://help.getsol.us/docs/user/intro).
+I have since converted the entirety to Markdown, which is all available on [our GitHub repo](https://github.com/getsolus/help-center-docs).
 
 This week the User Guide should progress with:
 
-1. Writing the parser that'll be responsible for converting the Markdown to HTML, as well as handling some of our [custom syntax](https://github.com/solus-project/user-guide/blob/master/Custom-Syntax.md). The HTML **may** be used on the 
+1. Writing the parser that'll be responsible for converting the Markdown to HTML, as well as handling some of our custom syntax. The HTML **may** be used on the
 site (to be discussed) in addition to converting the HTML to PDF.
 2. Writing the styling to make the HTML pretty, which will also leverage HighlightJS styling.
 

@@ -46,14 +46,14 @@ Courtesy of Dirk Hohndel -- CC-BY-3.0
 
 ### Getting Evolve OS
 
-Please [just visit this link](https://solus-project.com/download/) to select an appropriate mirror, or torrent. We'd prefer if people opted for torrent, as due to a 
+Please [just visit this link](https://getsol.us/download) to select an appropriate mirror, or torrent. We'd prefer if people opted for torrent, as due to a
 synchronisation issue two of the team members have put their personal resources forward to provide short-notice mirroring, and these locations may have to be 
 changed. If we have a strong torrent, then the impact of a change will be negligible.
 
 Once you've downloaded the ISO, either burn to a CD, or write the ISO file to a USB memory stick. For Linux distributions you should use the `dd` command, whilst 
 for Windows users it may be suitable to use the [SUSE Image Writer](https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows#Write_ISO_to_USB)
 
-Once you have downloaded Evolve OS, you may use "Evo Assist" in the menu to find the various links needed to [report bugs](https://solus-project.com/project/os), etc. 
+Once you have downloaded Evolve OS, you may use "Evo Assist" in the menu to find the various links needed to report bugs, etc.
 Installation of Evolve OS is achieved by using the "Install OS" shortcut in the main menu.
 
 Note: This ISO is NOT UEFI-compatible. As the installer is not yet replaced, we did not want to confuse users by enabling boot, and not supporting installation, on UEFI 

@@ -37,5 +37,5 @@ Additionally, we have offloaded our email needs to Google Apps for Business, whi
 All that being said, this wouldn't have been possible without all the incredible people who've donated, whether it be directly via PayPal or via our Patreon every month, as well as the Ubuntu MATE project for their generous contribution as a result of 
 the Brisk Menu development. I can't express enough how thankful we all are. 
 
-If you aren't already supporting Solus, we [welcome you to visit our Support page](/support). Alongside all the work we're doing, talked about in our [This Year in Solus (2016 Edition)](/2017/01/03/this-year-in-solus-2016-edition), we'll also be investing in a 
+If you aren't already supporting Solus, we [welcome you to visit our Help Center](https://help.getsol.us). Alongside all the work we're doing, talked about in our [This Year in Solus (2016 Edition)](/2017/01/03/this-year-in-solus-2016-edition), we'll also be investing in a
 U.S package repository server, [as mentioned on our blog post "Solus to be Unixstickers' December Beneficiary](/2016/12/01/solus-to-be-unixstickers-december-beneficiary).

@@ -50,6 +50,6 @@ A huge thank you to everyone who has contributed to the project, and to help wit
 whether its buying the developer a cup of tea, sending a patch to add a new feature or to fix a bug, or even reporting bugs so we can improve Budgie, you're helping all of us 
 (dev and users included) to perfect Budgie!
 
-**Edit**: A [fundraiser was launched](https://solus-project.com/2014/11/16/evolve-osbudgie-fund-raiser/) after this post was first published
+**Edit**: A fundraiser was launched after this post was first published.
 
 {{< relimg "8Prefs.png" >}}

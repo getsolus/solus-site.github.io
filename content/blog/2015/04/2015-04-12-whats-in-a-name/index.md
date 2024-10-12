@@ -16,8 +16,7 @@ named "Evolve OS" project. On April 1st (yep, really) we were contacted regardin
 for a trademark in the name of "Evolve OS", which was going through a 2 month period in which those opposing the mark can file their objection.
 
 UK law requires the opposing party to first make contact before filing against a claim, which is what happened here. As our project is based in the UK (primarily due to my 
-presence here, as its sole legal entity) I must of course oblige with UK law (UK trademark application). Our first thought was to shorten the project name, but of course  
-game of the same name exists.
+presence here, as its sole legal entity) I must of course oblige with UK law (UK trademark application). Our first thought was to shorten the project name, but of course game of the same name exists.
 
 #### Solus
 
@@ -31,13 +30,12 @@ the **Budgie Desktop**, and other projects.
 
 As I'm sure most will understand, this has already taken its damage on the project, inflicting significant brand damage (by essentially disappearing). As an early indication, 
 the primary mirror downloads are barely a quarter of the usual monthly downloads. However, applying the concepts of evolution from our prior name, we can but 
-demonstrate **survival of the fittest**. The events of the last few weeks have, if anything, strengthened our determination. As such, we detailed our timeline 
-[recently on Google+](https://plus.google.com/+Solus-Project/posts/Q9Q6Rr55qHe).
+demonstrate **survival of the fittest**. The events of the last few weeks have, if anything, strengthened our determination. As such, we detailed our timeline recently on Google+
 
 Going forward, the next beta release of the Solus Operating System will be on **May the 14th**. Our final release is scheduled for **July the 16th.** We will mirror this soon to 
 this website. Please note that we are still in the process of rebranding, and as such some links will be dead, some permanently so, and other areas are still being corrected. It 
 took quite some time to deal with the rebrand in terms of domain names, SSL certificates, turning into a costly and stressful process. With that said, we're more determined 
 than ever to assert our presence, and hope you're ready for the ride of your life.
 
- It is highly recommended [to read this G+ post](https://plus.google.com/+Solus-Project/posts/Drmi1rp9WNJ) indicating the alteration of attitude, which will help create 
- the full picture for you. Change is coming, be ready.   
+ It is highly recommended to read this G+ post indicating the alteration of attitude, which will help create
+ the full picture for you. Change is coming, be ready.

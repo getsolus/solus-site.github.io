@@ -13,7 +13,7 @@ Welcome to the 27th installation of This Week in Solus and one I'm happy to say 
 
 #### 1.2
 
-Let's be blunt here. We all know 1.2 is coming. We've said it is coming, our [release schedule](https://solus-project.com/release-cycle/) shows it is coming, and we're currently entering what we consider a "stabilization phase" for next month's release.
+Let's be blunt here. We all know 1.2 is coming. We've said it is coming, our release schedule shows it is coming, and we're currently entering what we consider a "stabilization phase" for next month's release.
 We will be seeding our first testing ISO to our Patrons tonight and we want **highly critical** feedback from you folks. We anticipate seeding multiple testing ISOs throughout the week, so if you're a Patron, keep your eyes peeled on your email. 
 **If you're not a Patron, don't mind the "accidental" screenshots on Google+.**
 

@@ -15,11 +15,9 @@ first time in our history, our running costs are covered!
 Our next target is $500 a month. With that, we can invest in hardware to perform more extensive testing and enabling. We can focus our energies on vastly reducing power consumption across the board by buying proper equipment, as well 
 as further AMD GPU enabling, printer enabling, etc. With your help we can get there, and as always, the benefits directly affect you, the users. Together, we make Solus awesome!
 
-Think we can reach our target? Join in [here](https://www.patreon.com/solus?ty=h)!
+Think we can reach our target? Join in here!
 
-As a side-note, we've spun a few ISOs already today, and we'll be doing our daily this evening. We've already updated the Linux [kernel](https://git.solus-project.com/packages/kernel/commit/?h=kernel-4.1.1-49) to 4.1.1, 
-[linux-firmware](https://git.solus-project.com/packages/linux-firmware/commit/?h=linux-firmware-20150513-4) now has further Tegra and Radeon support, as well as newer Intel WiFi chipsets! We'll let you know when its ready for testing. 
-Users who installed yesterdays daily for testing can just upgrade with:
+As a side-note, we've spun a few ISOs already today, and we'll be doing our daily this evening. We've already updated the Linux kernel to 4.1.1, linux-firmware now has further Tegra and Radeon support, as well as newer Intel WiFi chipsets! We'll let you know when its ready for testing. Users who installed yesterdays daily for testing can just upgrade with:
 
 ```
 sudo eopkg up

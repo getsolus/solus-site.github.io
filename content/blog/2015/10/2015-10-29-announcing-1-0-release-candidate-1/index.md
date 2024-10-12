@@ -27,20 +27,20 @@ DoFlicky, the new driver management tool of Solus, is now available for testing 
 This Release Candidate will enable us to receive feedback, thoroughly test the driver installation and help provide a better driver experience for end users. With our driver management software landing, we will integrate 32-bit / multilib support after 
 ensuring there are no further issues with DoFlicky.
 
-Due to the [quality of the proprietary AMD drivers](https://plus.google.com/u/0/+Solus-Project/posts/MJHYa77cQLe) (fglrx), we will not be providing them at this moment in time. We will provide them as an update after RC1.
+Due to the quality of the proprietary AMD drivers (fglrx), we will not be providing them at this moment in time. We will provide them as an update after RC1.
 
 ### Firefox Theming
 
 {{< relimg "Screenshot-from-2015-10-27-01-20-35.png" >}}
 
 The default theme for Firefox has been changed to [Arc Firefox Darker theme](https://github.com/horst3180/arc-firefox-theme) to provide a consistent user experience and design throughout Solus. This is a stunning theme that compliments the 
-usage of the default GTK theme, [Arc Darker](https://github.com/horst3180/Arc-theme. The other Arc Firefox theme variants are available from the Appearance section of Firefox.
+usage of the default GTK theme, [Arc Darker](https://github.com/horst3180/Arc-theme). The other Arc Firefox theme variants are available from the Appearance section of Firefox.
 
 ### Download
 
 #### Obtaining Release Candidate 1
 
-You may download the ISO by going [here](https://solus-project.com/1-0-rc1/).
+You may download the ISO by going [here](https://getsol.us/download).
 
 ##### Note on Virtualization
 

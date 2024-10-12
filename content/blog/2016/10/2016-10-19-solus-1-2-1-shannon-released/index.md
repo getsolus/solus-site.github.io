@@ -13,7 +13,7 @@ url = "/2016/10/19/solus-1-2-1-shannon-released/"
 
 The Solus project is proud to announce the availability of Solus 1.2.1, delivered in the form of our main edition, which provides an unrivaled Budgie experience, as well as a new and welcomed addition to the Solus family, **Solus 1.2.1 MATE edition**.
 <!-- more -->
-While Solus 1.2.1 is the first release to have a new addition, it is also the **last of our traditional releases** as we [shift towards the ISO snapshot model](https://solus-project.com/2016/07/24/replacement-of-release-schedule/), which better reflects 
+While Solus 1.2.1 is the first release to have a new addition, it is also the **last of our traditional releases** as we shift towards the ISO snapshot model, which better reflects
 our agility and iteration speed.
 
 #### Budgie
@@ -100,7 +100,7 @@ change, all third-party applets should be rebuilt against the new Budgie due to 
 {{< relimg "Solus-MATE-Edition.png" >}}
 
 We're really happy to be introducing MATE into the Solus family, providing a stellar out-of-the-box and a dedicated "Solus 1.2.1 MATE" ISO. MATE receives the **same treatment** under Solus as our primary Budgie experience, such as proper integration, 
-statelessness and sane defaults. Our MATE edition delivers a unique yet familiar traditional experience and even ships with **exclusive artwork** provided by [Marius Nestor](http://mariusnestor.ro).
+statelessness and sane defaults. Our MATE edition delivers a unique yet familiar traditional experience and even ships with **exclusive artwork** provided by Marius Nestor.
 
 ##### So why did we choose MATE?
 
@@ -198,4 +198,4 @@ Under the hood, Solus ships with the latest stable kernel, 4.8.2. We have also p
 
 #### Download
 
-We welcome you to download Solus 1.2.1 via our [dedicated Download page](https://solus-project.com/download/) and give it a shot! 
+We welcome you to download Solus 1.2.1 via our [dedicated Download page](https://getsol.us/download) and give it a shot!

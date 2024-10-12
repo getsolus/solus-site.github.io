@@ -223,7 +223,7 @@ A message from Ikey, Solus Project founder
 
 ## Press
 
-Press can obtain our Press Release PDF and Media Pack via our [Press Center](/press-center).
+Press can obtain our Press Release PDF and Media Pack via our [Press Center](https://getsol.us/press).
 
 ---
 

@@ -15,7 +15,6 @@ releases are as polished as possible for our users.
 
 <!--more-->
 
-{{< altimg "https://solus-project.com/release_images/weather.png" >}}
 
 ## What's new in this release?
 
@@ -40,9 +39,9 @@ The image md5sum is:
 25412ac90b87baf3ef5b61778bea9c2f  Evolve-OS-Alpha1.iso
 ```
 
-* Download from [France](http://mirror6.layerjet.com/evolveos/images/Evolve-OS-Alpha1.iso) (LayerJet)
-* Download from [Germany](http://mirror.layerjet.com/evolveos/images/Evolve-OS-Alpha1.iso) (LayerJet)
-* [Torrent](http://linuxtracker.org/download.php?id=2df865bb11dbff33470b707a17dd2243fb55a750&f=Evolve-OS-Alpha1.iso.torrent&key=0) (Linuxtracker)
+* Download from France.
+* Download from Germany.
+* Torrent.
 
 ## Known issues
 
@@ -59,12 +58,12 @@ The image md5sum is:
 
 ## Giving feedback
 
-Reporting a bug? Head over to [our bug tracker](https://solus-project.com/project/os) and tell us what the issue is, lets get it fixed and improve each image 🙂 Want 
-to just talk about the project? Drop us a line over at our [Google+ Community](https://plus.google.com/u/0/communities/103032596316713958671)!
+Reporting a bug? Head over to our bug tracker and tell us what the issue is, lets get it fixed and improve each image 🙂 Want
+to just talk about the project? Drop us a line over at our Google+ Community!
 
 ## Special thanks
 
-An enormous thank you goes to [John McCormack](https://plus.google.com/u/0/+JohnMcCormack/posts), who has provided all of the photography you see in this release, in 
+An enormous thank you goes to John McCormack, who has provided all of the photography you see in this release, in
 glorious HD. Shipping without a brand is a very hard thing to do, but John's artwork is absolutely fantastic and brings the desktop to life.
 
 Second thanks go to the [Numix Project](http://numixproject.org/), who after speaking with them on G+ were absolutely fine (and happy) for us to use their amazing 
@@ -78,13 +77,3 @@ you very much 🙂
 
 And lastly, an enormous thank you to the [GNOME project](http://www.gnome.org/) and Linux developers everywhere. Without the foundation provided, Evolve OS 
 wouldn't exist.
-
-## Moar screenshots
-
-
-{{< altimg "https://solus-project.com/release_images/firefox.png" >}}
-
-{{< altimg "https://solus-project.com/release_images/installer2.png" >}}
-
-
-{{< altimg "https://solus-project.com/release_images/menu.png" >}}

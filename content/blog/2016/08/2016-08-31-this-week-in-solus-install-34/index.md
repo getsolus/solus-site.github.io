@@ -88,7 +88,7 @@ New:
 - dmenu 4.6
 - dosbox 0.74
 - dustrac 1.11.0
-- [electrum 2.6.4](https://github.com/Airblader/i3)
+- electrum 2.6.4
 - endless-sky 0.9.2
 - font-fira-ttf 4.202
 - gaupol 0.92
@@ -101,7 +101,7 @@ New:
 - gnome-pie 0.6.9
 - gnome-sound-recorder 3.20.2
 - hugo 0.16.0
-- [i3 4.12](https://git.solus-project.com/packages/i3/)
+- i3 4.12
 - i3lock 2.8
 - i3status 2.1
 - kdenlive 16.08.0
