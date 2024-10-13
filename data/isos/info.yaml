@@ -1,3 +1,7 @@
+---
+Version: 2024-10-13
+TorrentLocation: https://downloads.getsol.us/torrents/
+
 Budgie:
   description: A feature-rich, luxurious desktop using the most modern technologies.
   mediasize: 2.7GB
@@ -14,5 +18,3 @@ XFCE-Beta:
   description: A lightweight desktop that aims to be fast while still being friendly.
   mediasize: 2.5GB
   shasum: 30c9b80be949e12c6b1982db474d70ba2383f4ed146738e5336df010ca610b91
-Version: "4.5"
-TorrentLocation: https://downloads.getsol.us/torrents/
