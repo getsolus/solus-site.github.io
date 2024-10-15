@@ -34,7 +34,7 @@ For audio and video multimedia playback, we offer software out-of-the-box that c
 
 - Over the summer, the Solus team has been tackling the [Usr-Merge conundrum](https://getsol.us/2024/09/04/usr-merge/); read Evan's excellent blog post for the full story. We have now reached the end of Stage 3 on our rollout plan: All users with an updated system now have a Usr-Merge'd system. Any users that create a fresh installation with today's ISOs will also have a merged system. We expect stage 4 to complete Soon™️.
 
-As a reminder, the Usr-Merge brings Solus in line with the compatibility efforts being spearheaded by Fedora and other distributions. More urgently, *systemd* requires the filesystem be merged for version 255.
+As a reminder, the Usr-Merge brings Solus in line with the compatibility efforts being spearheaded by Fedora and other distributions. More urgently, *systemd* requires the filesystem be merged for version 255. Additionally, the Usr-Merge is a necessary (though not sufficient) condition for Solus to adopt Serpent tooling in the future.
 
 ### Experimental Software Centers
 
