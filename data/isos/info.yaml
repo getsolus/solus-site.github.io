@@ -1,18 +1,20 @@
+---
+Version: 2024-10-14
+TorrentLocation: https://downloads.getsol.us/torrents/
+
 Budgie:
   description: A feature-rich, luxurious desktop using the most modern technologies.
-  mediasize: 2.7GB
-  shasum: 6c8abec78f18b83e3ea7ec9eb04321aee5a75a278f39152095cf3e02c2559b0d
+  mediasize: 2.6GB
+  shasum: e91a49e5ad3bfd3bc7284248ada1f39933f87b19d8834888ec7e70c6b513f73e
 GNOME:
   description: A simple, streamlined desktop for more modern hardware.
-  mediasize: 2.9GB
-  shasum: 5535278c04017189714a3fafb14750c9f338662c65ae57bd7d1e8c1462aa1e1e
+  mediasize: 2.8GB
+  shasum: 6346f894cc32d73c80c99ef712c31c1e43cc12c75f58e6b7ee07a99839fc03c9
 Plasma:
   description: A sophisticated desktop experience for the tinkerers.
-  mediasize: 2.7GB
-  shasum: 42f5c52607b0cd0f9513cc4049af06a6d0fb017d61b38e8b9d7ba0ae3df058d7
+  mediasize: 2.9GB
+  shasum: 83a6aa715be914e3f1436d539361ae2ce66fe557b90713ce1c39e8e631530a30
 XFCE-Beta:
   description: A lightweight desktop that aims to be fast while still being friendly.
-  mediasize: 2.5GB
-  shasum: 30c9b80be949e12c6b1982db474d70ba2383f4ed146738e5336df010ca610b91
-Version: "4.5"
-TorrentLocation: https://downloads.getsol.us/torrents/
+  mediasize: 2.4GB
+  shasum: 7e2b58cf9550605ff46f4f591696519a7877b46035ba36c457289af4d5588b3f

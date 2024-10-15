@@ -2,7 +2,7 @@
 <div class="downloads">
 {{ range $edition := (slice "Budgie" "GNOME" "Plasma" "XFCE-Beta") }}
 	{{ $editionInfo := (index $site.Data.isos.info $edition )}}
-	{{ $release := printf "Solus-%s-%s" $site.Data.isos.info.Version $edition }}
+	{{ $release := printf "Solus-%s-Release-%s" $edition $site.Data.isos.info.Version }}
 	{{ $editionISO := printf "%s.iso" $release }}
 	{{ $isoURL := printf "https://downloads.getsol.us/isos/%s/%s" $site.Data.isos.info.Version $editionISO | safeURL }}
 	<div class="edition">
