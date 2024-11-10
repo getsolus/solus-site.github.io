@@ -79,7 +79,7 @@ Due to past turbulence at Solus, we no longer have full access to the existing [
 
 ### Built new XFCE Edition
 
-The new XFCE edition of Solus was released as part of Solus 4.6. This edition is planned to take the place of the MATE edition. We are currently working on a migration tool to assist users with this task.
+The new XFCE edition of Solus was released as part of Solus 4.5. This edition is planned to take the place of the MATE edition. We are currently working on a migration tool to assist users with this task.
 
 ### Set up new translation platform
 
