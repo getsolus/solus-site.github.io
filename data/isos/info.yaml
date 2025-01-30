@@ -14,6 +14,7 @@ Plasma:
   description: A sophisticated desktop experience for the tinkerers.
   mediasize: 3.2GB
   shasum: 462dcd9d07504414e73b2952b203afe029894ea5cbc1c7262554389ae7b9258c
+# TODO Change to Xfce along with download.html once ISOs and torrents are changed
 XFCE-Beta:
   description: A lightweight desktop that aims to be fast while still being friendly.
   mediasize: 2.8GB

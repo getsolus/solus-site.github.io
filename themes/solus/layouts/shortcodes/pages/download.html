@@ -1,5 +1,6 @@
 {{ $site := .Site }}
 <div class="downloads">
+<!-- TODO Change edition title to Xfce once ISO scripts match-->
 {{ range $edition := (slice "Budgie" "GNOME" "Plasma" "XFCE-Beta") }}
 	{{ $editionInfo := (index $site.Data.isos.info $edition )}}
 	{{ $release := printf "Solus-%s-Release-%s" $edition $site.Data.isos.info.Version }}

@@ -16,8 +16,8 @@ GNU_Project:
 Linux:
   description: The Linux kernel is the absolute heart of the operating system, providing an environment for all user-land programs to operate, hardware support, networking, etc.
   url: https://www.kernel.org/
-XFCE_Desktop_Environment:
-  description: The XFCE Desktop Environment aims to be fast even on systems with lower powered hardware, while staying modern and friendly.
+Xfce_Desktop_Environment:
+  description: The Xfce Desktop Environment aims to be fast even on systems with lower powered hardware, while staying modern and friendly.
   url: https://xfce.org/
 XOrg_project:
   description: The X.Org display server forms the backbone of all desktop experiences on Solus, enabling input device support and the ability to render on screen.
