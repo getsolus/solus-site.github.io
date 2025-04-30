@@ -11,10 +11,12 @@
 				{{ $name := replace $name " Plus" "+" }}
 				{{ $url := index $site.Params.menuurls $menuItem }}
 
-				{{ if and (hasPrefix $url "http") (ne $menuItem "irc") }}
+				{{ if and (hasPrefix $url "http") (ne $menuItem "irc") (ne $menuItem "mastodon") }}
 					<a {{ if eq $submenuName "social"}}itemprop="sameAs"{{end}} href="{{ safeURL $url }}">{{ $name }}</a>
 				{{ else if eq $menuItem "irc" }}
 					<a href="{{ safeURL $url }}">{{ upper $menuItem }}</a>
+				{{ else if eq $menuItem "mastodon" }}
+					<a rel="me" href="{{ safeURL $url }}">{{ $name }}</a>
 				{{ else }}
 					<a href="{{ $url | absLangURL }}">{{ $name }}</a>
 				{{ end }}
