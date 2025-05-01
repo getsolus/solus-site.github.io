@@ -1,0 +1,55 @@
+<!-- Beginning of Solus Site Footer -->
+<div class="hx-mx-auto hx-max-w-screen-xl hx-inline-flex hx-flex-col hx-gap-2 hx-pt-4">
+  {{- range site.Params.footer.menus -}}
+    {{- $name := .name -}}
+    {{- $submenu := .submenu -}}
+
+    <div class="hx-inline-flex hx-flex-row hx-gap-2">
+      <b class="solus-w-4xs">{{ $name }}:</b>
+      <nav class="hx-inline-flex solus-gap-6" {{ if eq $name "Socials" }}itemscope itemtype="http://schema.org/Organization"{{ end }}>
+      {{- range $submenu -}}
+        {{- $submenuName := .name -}}
+        {{- $link := .url -}}
+        {{- $external := strings.HasPrefix $link "http" -}}
+        {{- with .pageRef -}}
+          {{- if hasPrefix . "/" -}}
+            {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
+          {{- end -}}
+        {{- end -}}
+
+        {{- if eq $name "Socials" -}}
+          <link itemprop="url" href="{{ $link }}" />
+        {{- end -}}
+        {{- if and ($external) (ne $submenuName "Mastodon") -}}
+          <a
+            {{ if eq $name "Socials" }}itemprop="sameAs"{{ end }}
+            href="{{ $link }}">
+              {{ $submenuName }}
+          </a>
+        {{- else if eq $submenuName "Mastodon" -}}
+          <a rel="me" href="{{ $link }}">{{ $submenuName }}</a>
+        {{- else -}}
+          <a href="{{ $link }}">{{ $submenuName }}</a>
+        {{- end -}}
+      {{- end -}}
+      </nav>
+    </div>
+  {{- end -}}
+
+  <div class="solus-my-4">
+    <p class="hx-mb-4">
+      Copyright &copy; 2015-{{ site.Params.copyright }} Solus Project. The Solus logo is Copyright &copy; 2015-{{ site.Params.copyright }} Solus Project. All rights reserved.
+    </p>
+    <p class="hx-mb-4">
+      Laptop graphic provided by Clyde Goodall. <br />
+      Application icons provided by the <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme" target="_blank">Papirus Icon Theme</a>. <br />
+      Other icons provided by <a href="https://forkaweso.me">Fork Awesome</a> under the <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a> License.
+    </p>
+    <p>
+      * Other names and brands may be claimed as the property of others
+    </p>
+  </div>
+  <a alt="Donate" href="https://opencollective.com/getsolus/donate" target="_blank">
+    <img alt="Solus OpenCollective" src="https://opencollective.com/getsolus/donate/button@2x.png?color=blue" width=300 />
+  </a>
+</div>

@@ -1,0 +1,94 @@
+baseURL: 'https://demo.getsol.us/'
+languageCode: 'en-us'
+title: 'Solus'
+
+module:
+  imports:
+    - path: "github.com/imfing/hextra"
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: Blog
+      pageRef: /blog
+      weight: 3
+    - name: Download
+      pageRef: /download
+      weight: 4
+    - name: Dev Tracker
+      url: "https://dev.getsol.us"
+      weight: 5
+    - name: Forums
+      url: "https://discuss.getsol.us"
+      weight: 6
+    - name: Funding
+      url: "https://opencollective.com/getsolus"
+      weight: 7
+    - name: Help
+      url: "https://help.getsol.us"
+      weight: 8
+    - name: Matrix
+      url: "https://matrix.to/#/#solus:matrix.org"
+      weight: 9
+    - name: Security
+      url: "https://github.com/getsolus/packages/blob/main/SECURITY.md"
+      weight: 10
+
+params:
+  copyright: 2025
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: imgs/logo.jpg
+      link: /
+      width: 160
+      height: 60
+  footer:
+    menus:
+      - name: Solus
+        submenu:
+          - name: About
+            pageRef: /about
+          - name: Download
+            pageRef: /download
+          - name: Experiences
+            pageRef: /experiences
+          - name: Technologies
+            pageRef: /technologies
+      - name: Socials
+        submenu:
+          - name: Mastodon
+            url: https://floss.social/@getsolus
+          - name: Bluesky
+            url: https://bsky.com
+          - name: Reddit
+            url: https://reddit.com/r/SolusProject
+      - name: Contact
+        submenu:
+          - name: Dev Tracker
+            url: https://dev.getsol.us
+          - name: Forums
+            url: https://discuss.getsol.us
+          - name: Funding
+            url: https://opencollective.com/getsolus
+          - name: Help Center
+            url: https://help.getsol.us
+          - name: Matrix
+            url: "https://matrix.to/#/#solus:matrix.org"
+          - name: Security
+            url: "https://github.com/getsolus/packages/blob/main/SECURITY.md"
+      - name: Press
+        submenu:
+          - name: Branding
+            pageRef: /branding
+          - name: Press
+            pageRef: /press
+  theme:
+    default: system
+    displayToggle: true

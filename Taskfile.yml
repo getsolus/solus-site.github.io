@@ -23,4 +23,4 @@ tasks:
   local:
     desc: Start a webserver to test the website locally
     cmds:
-      - 'hugo server --watch --disableFastRender --ignoreCache'
+      - 'hugo server --watch --buildDrafts --disableFastRender --ignoreCache'

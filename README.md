@@ -2,11 +2,8 @@
 
 Static, [Hugo-based](https://gohugo.io) home of Solus and its projects. This website makes use of:
 
-1. A custom theme, [`solus-hugo-theme`](themes/solus).
+1. A Hugo theme named [Hextra](https://imfing.github.io/hextra/).
 2. Website content itself, including blog posts, in [`content`](content).
-
-> [!Note]
-> SASS styling is provided inside the Hugo themes and is built upon [`solbit`](https://github.com/getsolus/solbit).
 
 ## Creation
 
@@ -108,10 +105,6 @@ Run the task to deploy the website via Github Pages.
 ```bash
 go-task deploy
 ```
-
-### Styling
-
-We use 4-char wide tabs, not spaces, in everything **except** the YAML files, which use 4 spaces. Sorry!
 
 ## Licensing
 
