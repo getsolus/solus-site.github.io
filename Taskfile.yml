@@ -20,3 +20,7 @@ tasks:
       - git merge main
       - git push origin deploy
       - git switch main
+  local:
+    desc: Start a webserver to test the website locally
+    cmds:
+      - 'hugo server --watch --disableFastRender --ignoreCache'
