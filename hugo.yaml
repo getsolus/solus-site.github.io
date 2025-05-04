@@ -1,6 +1,6 @@
-baseURL: 'https://demo.getsol.us/'
-languageCode: 'en-us'
-title: 'Solus'
+baseURL: "https://demo.getsol.us/"
+languageCode: "en-us"
+title: "Solus"
 
 module:
   imports:
@@ -27,22 +27,22 @@ menu:
     - name: Download
       pageRef: /download
       weight: 4
-    - name: Dev Tracker
+    - name: Dev Tracker ↗
       url: "https://dev.getsol.us"
       weight: 5
-    - name: Forums
+    - name: Forums ↗
       url: "https://discuss.getsol.us"
       weight: 6
-    - name: Funding
+    - name: Funding ↗
       url: "https://opencollective.com/getsolus"
       weight: 7
-    - name: Help
+    - name: Help ↗
       url: "https://help.getsol.us"
       weight: 8
-    - name: Matrix
+    - name: Matrix ↗
       url: "https://matrix.to/#/#solus:matrix.org"
       weight: 9
-    - name: Security
+    - name: Security ↗
       url: "https://github.com/getsolus/packages/blob/main/SECURITY.md"
       weight: 10
 
@@ -52,7 +52,7 @@ params:
     displayTitle: false
     displayLogo: true
     logo:
-      path: imgs/logo.jpg
+      path: imgs/logo-with-text.png
       link: /
       width: 160
       height: 60
