@@ -16,7 +16,7 @@
 			</a></h1>
             <div class="meta">
 			    <section itemprop="author" itemscope itemtype="https://schema.org/Person">
-							<span itemprop="name">{{ $author.name }}</span>&nbsp;<span itemprop="jobTitle">({{ $author.role }})</span>
+							<span itemprop="name">{{ $author.name }}</span>&nbsp;<span itemprop="jobTitle">({{ if reflect.IsSlice $author.role }}{{ delimit $author.role ", " " & " }}{{ else }}{{ $author.role }}{{ end }})</span>
 					</section>
 			    <section>
 							<span> {{ dateFormat "January 2, 2006" $blog.Date }} </span>

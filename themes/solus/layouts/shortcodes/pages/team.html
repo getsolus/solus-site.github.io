@@ -18,7 +18,7 @@
         {{ end }}
         </section>
     </div>
-    <h2>{{ $member.role }}</h2>
+    <h2>{{ if reflect.IsSlice $member.role }}{{ delimit $member.role ", " " & " }}{{ else }}{{ $member.role }}{{ end }}</h2>
     <h3>{{ $member.location }}</h3>
     <h4>{{ $member.timezone }}</h4>
 </div>
