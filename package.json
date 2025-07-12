@@ -1,7 +1,6 @@
 {
   "scripts": {
     "dev": "hugo server --disableFastRender -D --port 1313",
-    "build:css": "npx postcss --config postcss.config.js --env production assets/css/custom/input.css -o assets/css/custom.css",
     "build": "hugo --gc --minify"
   },
   "devDependencies": {

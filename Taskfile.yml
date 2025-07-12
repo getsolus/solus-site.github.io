@@ -13,7 +13,6 @@ tasks:
   build:
     desc: Build Solus website, including CSS
     cmds:
-      # - npm run build:css
       - npm run build
 
   dev:

@@ -4,6 +4,7 @@ Static, [Hugo-based](https://gohugo.io) home of Solus and its projects. This web
 
 1. A Hugo theme named [Hextra](https://imfing.github.io/hextra/).
 2. Website content itself, including blog posts, in [`content`](content).
+3. [TailwindCSS](https://tailwindcss.com/) for additional styling.
 
 ## Creation
 
@@ -76,6 +77,7 @@ For instance, Mailgun templates use the desktop collage graphic. Please coordina
 To set up your Solus system for developing the website, you first need to ensure you have the necessary dependencies installed. You'll need:
 
 - `hugo`
+- `nodejs`
 - `sassc`
 - Optionally, install `go-task` to simplify running the website locally, or deploying it to production.
 
@@ -85,15 +87,29 @@ You can install these on Solus by running:
 sudo eopkg install hugo sassc go-task
 ```
 
+#### NVM
+
+To set up `nvm`, the Node Version Manager, follow the instructions listed [here](https://github.com/nvm-sh/nvm#readme). We recommend [setting up their shell integration](https://github.com/nvm-sh/nvm#deeper-shell-integration) as well, so you can automatically switch to the correct Node version when working on this project. Otherwise, ensure you run `nvm use`. This project requires the "current" supported release series of Node.
+
+You can validate you are using the latest by running `node --version`. Your version should be at least 19.x.
+
+### Installing dependencies
+
+To install the required dependencies, run:
+
+```bash
+npm i
+```
+
 ### Local Server
 
 You can start up a local server by running the task:
 
 ```bash
-go-task local
+go-task dev
 ```
 
-Use this to see your changes and make sure things look as you expect before submitting a pull request.
+Use this to see your changes and make sure things look as you expect before submitting a pull request. It will build the website and necessary TailwindCSS styles, and then start a local web server to serve the website.
 
 > [!Note]
 > You will not need to restart the server when doing changes. Hugo does file watching across all the things.
