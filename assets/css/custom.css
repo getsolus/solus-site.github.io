@@ -1,22 +1,3 @@
-.content {
-  font-family: "Roboto", serif;
-}
-
-.hextra-custom-footer {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.solus-gap-6 {
-  row-gap: 1em;
-  column-gap: 2em;
-}
-
-.solus-my-4 {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
 .solus-w-4xs {
   /* Don't ask. This value came from solbit. */
   width: 9.375em;

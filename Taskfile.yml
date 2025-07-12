@@ -10,6 +10,19 @@ tasks:
       - |
         echo "Use 'go-task -l/--list' to list available tasks."
 
+  build:
+    desc: Build Solus website, including CSS
+    cmds:
+      # - npm run build:css
+      - npm run build
+
+  dev:
+    deps:
+      - build
+    desc: Start development server for Solus website
+    cmds:
+      - npm run dev
+
   # Merge "main" into "deploy" branch for GitHub pages deployment
   deploy:
     desc: Merge the "master" branch into "deploy" to start GitHub Pages build
@@ -20,7 +33,3 @@ tasks:
       - git merge main
       - git push origin deploy
       - git switch main
-  local:
-    desc: Start a webserver to test the website locally
-    cmds:
-      - 'hugo server --watch --buildDrafts --disableFastRender --ignoreCache'

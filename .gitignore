@@ -1,6 +1,14 @@
+# npm
+node_modules/
+
+# Hugo output
 .hugo_build.lock
+hugo_stats.json
 public/
 public-deployed/
 resources/
 
+# Editors
+.DS_Store
+.vscode/
 .zed/
