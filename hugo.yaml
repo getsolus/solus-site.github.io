@@ -78,7 +78,7 @@ params:
           - name: About
             pageRef: /about
           - name: Download
-            pageRef: /download
+            pageRef: /editions
           - name: Experiences
             pageRef: /experiences
           - name: Technologies
