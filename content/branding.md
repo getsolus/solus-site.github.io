@@ -1,25 +1,26 @@
 ---
 title: Branding
-date: 2024-01-30
+date: 2025-07-11
 toc: false
 ---
 
+{{< hextra/hero-container
+  image="/imgs/logo.svg"
+  imageTitle="Solus logo"
+  imageWidth="120px"
+>}}
 <div class="hx-mb-6">
-<img src="../imgs/logo.svg" width=120 height=120>
-{{< hextra/hero-button text="Download" link="https://downloads.getsol.us/branding-assets/solus.zip" >}}
+{{< hextra/hero-headline >}}
+  Assets
+{{< /hextra/hero-headline >}}
 </div>
 
-{{< hextra/hero-container >}}
-  image="imgs/laptop-budgie.png"
-  imageClass="hx-block hx-overflow-hidden"
-  imageWidth="500" imageHeight="500"
-  imageTitle="Laptop running Budgie Desktop"
+<div class="hx-mb-6">
+  {{< hextra/hero-button text="Download" link="https://downloads.getsol.us/branding-assets/solus.zip" >}}
+</div>
 {{< /hextra/hero-container >}}
 
 We enforce branding guidelines to ensure consistency of imaging and messaging for Solus and its software. If you have any questions, please consult our [Press Center](/press/).
-
-Assets
-------
 
 The assets available for download above provide the following variants:
 
@@ -43,8 +44,8 @@ Copyrights & Licensing
 
 ### Copyright
 
-*   Solus Logo: Copyright © 2016-2024 Solus Project.
-*   “Solus” Name: Copyright © 2011-2024 Solus Project.
+*   Solus Logo: Copyright © 2016-2025 Solus Project.
+*   “Solus” Name: Copyright © 2011-2025 Solus Project.
 
 ### Licensing
 
