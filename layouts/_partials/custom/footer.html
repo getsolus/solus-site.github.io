@@ -6,7 +6,7 @@
 
     <div class="hx-inline-flex hx-flex-row hx-gap-2">
       <b class="solus-w-4xs">{{ $name }}:</b>
-      <nav class="hx-inline-flex solus-gap-6" {{ if eq $name "Socials" }}itemscope itemtype="http://schema.org/Organization"{{ end }}>
+      <nav class="hx-inline-flex gap-6" {{ if eq $name "Socials" }}itemscope itemtype="http://schema.org/Organization"{{ end }}>
       {{- range $submenu -}}
         {{- $submenuName := .name -}}
         {{- $link := .url -}}
@@ -36,7 +36,7 @@
     </div>
   {{- end -}}
 
-  <div class="solus-my-4">
+  <div class="my-4">
     <p class="hx-mb-4">
       Copyright &copy; 2015-{{ site.Params.copyright }} Solus Project. The Solus logo is Copyright &copy; 2015-{{ site.Params.copyright }} Solus Project. All rights reserved.
     </p>
