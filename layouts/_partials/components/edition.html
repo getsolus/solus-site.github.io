@@ -12,6 +12,7 @@
 
 {{ $linkClass := "hover:hx-border-gray-300 hx-bg-transparent hx-shadow-xs dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900" }}
 
+
 <div>
   <h2>{{- $name -}}</h2>
   <img
@@ -29,18 +30,18 @@
     style="--hextra-cards-grid-cols: 3"
   >
     {{- partial "shortcodes/card" (dict
-        "link" $isoURL
-        "icon" "download"
-        "title" "Download"
-        "tag" $mediaSize
-        )
+      "link" $isoURL
+      "icon" "download"
+      "title" "Download"
+      "tag" $mediaSize
+      )
     -}}
     {{- partial "shortcodes/card" (dict
-        "link" $torrentURL
-        "icon" "lightning-bolt"
-        "title" "Torrent"
-        "tag" "52KB"
-        )
+      "link" $torrentURL
+      "icon" "lightning-bolt"
+      "title" "Torrent"
+      "tag" "52KB"
+      )
     -}}
     <details
       class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-p-2 hx-mt-4 hx-group"

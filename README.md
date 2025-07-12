@@ -67,7 +67,7 @@ url: "/2023/07/08/solus-4-4-released"
 
 ## Use caution before deleting files
 
-Files  in `static/imgs/release-images/` may be used outside of the website.
+Files in `static/imgs/release-images/` may be used outside of the website.
 For instance, Mailgun templates use the desktop collage graphic. Please coordinate with the Solus Team before deleting any files.
 
 ## Development
@@ -113,6 +113,10 @@ Use this to see your changes and make sure things look as you expect before subm
 
 > [!Note]
 > You will not need to restart the server when doing changes. Hugo does file watching across all the things.
+
+### Formatting
+
+All of the website code is formatted with [Prettier](https://prettier.io/), using a plugin to add support for Hugo template files. If you use Visual Studio Code, you can install the [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to automatically format as you work. Consult the extensions and documentation for your editor if you use something different.
 
 ### Deployment
 
