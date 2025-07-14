@@ -12,21 +12,24 @@
 
 {{ $linkClass := "hover:hx-border-gray-300 hx-bg-transparent hx-shadow-xs dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900" }}
 
-<div>
-  <h2>{{- $name -}}</h2>
+<div class="hextra-card bg-gray-50 group flex flex-col justify-start rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200">
   <img
     alt="Solus {{ $name }} Preview"
-    class="hextra-card-image"
+    class="hextra-card-image rounded-t-lg"
     loading="lazy"
     decoding="async"
     src="{{ $imagePath | safeURL }}"
   />
 
-  <p>{{- $description -}}</p>
+  <span class="hextra-card-icon flex justify-center text-lg font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50">
+    {{- $name -}}
+  </span>
+
+  <div class="hextra-card-subtitle items-start gap-2 font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2">{{- $description -}}</div>
 
   <div
-    class="hextra-cards mt-4 gap-4 grid not-prose"
-    style="--hextra-cards-grid-cols: 3"
+    class="hextra-cards mt-4 px-4 gap-4 grid not-prose"
+    style="--hextra-cards-grid-cols: 2;"
   >
     {{- partial "shortcodes/card" (dict
         "link" $isoURL
@@ -42,37 +45,30 @@
         "tag" "52KB"
         )
     -}}
-    <details
-      class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-p-2 hx-mt-4 hx-group"
-    >
-      <summary
-        class="hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-1 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90"
-      >
-        <strong class="hx-text-lg">Checksums</strong>
-      </summary>
-      <div class="hx-p-2 hx-overflow-hidden">
-        <a
-          class="{{ $linkClass }}"
-          href="https://downloads.getsol.us/isos/2024-10-14/{{ $release }}.iso.sha256sum"
-          target="_blank"
-          rel="noopener"
-          >File</a
-        >
-        <a
-          class="{{ $linkClass }}"
-          href="https://downloads.getsol.us/isos/2024-10-14/{{ $release }}.iso.sha256sum.sign"
-          target="_blank"
-          rel="noopener"
-          >Signed File</a
-        >
-        <a
-          class="{{ $linkClass }}"
-          href="https://downloads.getsol.us/gpg/solus-releng-pub.gpg"
-          target="_blank"
-          rel="noopener"
-          >Public Key</a
-        >
-      </div>
-    </details>
   </div>
+  <details class="last-of-type:mb-0 rounded-lg bg-neutral-50 dark:bg-neutral-800 p-4 group">
+    <summary class="flex items-center cursor-pointer select-none list-none p-1 px-4 rounded transition-colors hover:bg-gray-100 dark:hover:bg-neutral-800 before:mr-1 before:inline-block before:transition-transform before:content-[''] dark:before:invert rtl:before:rotate-180 group-open:before:rotate-90">
+      <span class="text-lg font-semibold text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50">Checksums</span>
+    </summary>
+    <div class="flex gap-2 p-2 overflow-hidden">
+      <a
+        class="flex-1 text-center p-2 rounded-lg {{ $linkClass }}"
+        href="https://downloads.getsol.us/isos/2024-10-14/{{ $release }}.iso.sha256sum"
+        target="_blank"
+        rel="noopener"
+        >ISO Hash</a>
+      <a
+        class="flex-1 text-center p-2 rounded-lg {{ $linkClass }}"
+        href="https://downloads.getsol.us/isos/2024-10-14/{{ $release }}.iso.sha256sum.sign"
+        target="_blank"
+        rel="noopener"
+        >Signature</a>
+      <a
+        class="flex-1 text-center p-2 rounded-lg {{ $linkClass }}"
+        href="https://downloads.getsol.us/gpg/solus-releng-pub.gpg"
+        target="_blank"
+        rel="noopener"
+        >Public Key</a>
+    </div>
+  </details>
 </div>

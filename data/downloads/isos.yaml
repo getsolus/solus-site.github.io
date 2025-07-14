@@ -5,9 +5,9 @@ torrentLocation: https://downloads.getsol.us/torrents/
 editions:
   - name: Budgie
     description: |
-      A feature-rich, luxurious desktop using the most modern technologies.
-      Customizing your desktop has never been simpler via the dedicated Budgie Desktop Settings app.
-      Raven enables you to manage notifications, control media playback, control your sound devices, and more!
+      A feature-rich desktop using modern technologies.
+      Customize your desktop with the dedicated Budgie Desktop Settings app.
+      Raven enables you to view notifications, control media playback and sound devices, and more!
     mediaSize: 3.0GB
     shasum: 4e2d664b6821b8d358c67967be1bfd71b222bf0e748f224c794f3f2a7b96c266
   - name: GNOME
@@ -25,6 +25,6 @@ editions:
   - name: Xfce
     description: |
       A lightweight desktop that aims to be fast while still being friendly.
-      We ship the XFCE Desktop to provide a full-featured experience for users running less powerful hardware.
+      We ship the Xfce Desktop to provide a full-featured experience for users running less powerful hardware.
     mediaSize: 2.8GB
     shasum: ee1a2b8abb79956eb6b41e4794e34d2ffc8c6bf7af53ee92ac962dd8e60f9e2b
