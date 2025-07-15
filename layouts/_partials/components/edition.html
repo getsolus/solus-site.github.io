@@ -10,9 +10,10 @@
 {{- $isoURL := printf "https://downloads.getsol.us/isos/%s/%s.iso" $version $release | safeURL -}}
 {{- $torrentURL := printf "https://downloads.getsol.us/torrents/%s.torrent" $release | safeURL -}}
 
-{{ $linkClass := "hover:hx-border-gray-300 hx-bg-transparent hx-shadow-xs dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900" }}
+{{ $cardClass := "hover:border-gray-300 bg-gray-100 shadow dark:border-neutral-700 dark:bg-neutral-800" }}
+{{ $linkClass := "{{ $cardClass }} transition-all duration-200 hover:shadow-lg dark:hover:border-neutral-500 dark:hover:bg-neutral-700" }}
 
-<div class="hextra-card bg-gray-50 group flex flex-col justify-start rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200">
+<div class="hextra-card group flex flex-col justify-start rounded-lg {{ $cardClass }}">
   <img
     alt="Solus {{ $name }} Preview"
     class="hextra-card-image rounded-t-lg"
@@ -21,7 +22,7 @@
     src="{{ $imagePath | safeURL }}"
   />
 
-  <span class="hextra-card-icon flex justify-center text-lg font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50">
+  <span class="hextra-card-icon flex justify-center text-lg font-semibold items-start gap-2 pt-4 px-4 text-gray-600 dark:text-gray-100">
     {{- $name -}}
   </span>
 
@@ -46,9 +47,9 @@
         )
     -}}
   </div>
-  <details class="last-of-type:mb-0 rounded-lg bg-neutral-50 dark:bg-neutral-800 p-4 group">
-    <summary class="flex items-center cursor-pointer select-none list-none p-1 px-4 rounded transition-colors hover:bg-gray-100 dark:hover:bg-neutral-800 before:mr-1 before:inline-block before:transition-transform before:content-[''] dark:before:invert rtl:before:rotate-180 group-open:before:rotate-90">
-      <span class="text-lg font-semibold text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50">Checksums</span>
+  <details class="last-of-type:mb-0 rounded-lg p-4 group hover:border-gray-300 bg-transparent dark:border-neutral-700">
+    <summary class="flex items-center cursor-pointer select-none list-none p-1 px-4 rounded-lg transition-all {{ $linkClass }} before:mr-1 before:inline-block before:transition-transform before:content-[''] dark:before:invert rtl:before:rotate-180 group-open:before:rotate-90">
+      <span class="text-lg font-semibold">Checksums</span>
     </summary>
     <div class="flex gap-2 p-2 overflow-hidden">
       <a
