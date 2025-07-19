@@ -37,7 +37,7 @@ toc: false
 
 {{< feature
   imageLeft=true
-  image="/imgs/built.png"
+  image="/imgs/everyone.png"
   imageTitle="Budgie Desktop on Solus"
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
@@ -45,13 +45,13 @@ toc: false
   {{< /hextra/hero-headline >}}
 
   {{< hextra/hero-subtitle >}}
-  Solus provides a multitude of experiences that enable you to get the most out of your hardware. From our curated Budgie experience for modern devices, to the more traditional Xfce experience for lower-end devices, Solus aims to provide the best experience for your device. 
+  Solus provides a multitude of experiences that enable you to get the most out of your hardware. From our curated Budgie experience for modern devices, to the more traditional Xfce experience for lower-end devices, Solus aims to provide the best experience for your device.
   {{< /hextra/hero-subtitle>}}
 {{< /feature >}}
 
 {{< feature
   imageLeft=false
-  image="/imgs/built.png"
+  image="/imgs/ready.png"
   imageTitle="Budgie Desktop on Solus"
   reducedPadding=true
 >}}
@@ -99,7 +99,7 @@ toc: false
 
 {{< feature
   imageLeft=false
-  image="/imgs/built.png"
+  image="/imgs/develop.png"
   imageTitle="Budgie Desktop on Solus"
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
@@ -113,7 +113,7 @@ toc: false
 
 {{< feature
   imageLeft=true
-  image="/imgs/built.png"
+  image="/imgs/content.png"
   imageTitle="Budgie Desktop on Solus"
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
@@ -127,7 +127,7 @@ toc: false
 
 {{< feature
   imageLeft=false
-  image="/imgs/built.png"
+  image="/imgs/gamer.png"
   imageTitle="Budgie Desktop on Solus"
   reducedPadding=true
 >}}
