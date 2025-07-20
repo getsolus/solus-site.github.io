@@ -15,7 +15,7 @@
 {{- end -}}
 
 <div
-  class="hextra-feature-grid grid sm:max-lg:grid-cols-2 max-sm:grid-cols-1 gap-4 w-full not-prose {{ with $reducedPadding  }} mb-4 {{ else }} mb-24 {{ end }}"
+  class="hextra-feature-grid grid sm:max-lg:grid-cols-2 max-sm:grid-cols-1 place-items-center gap-4 w-full not-prose {{ with $reducedPadding  }} mb-8 {{ else }} mb-28 {{ end }}"
   {{ with $css }}style="{{ . | safeCSS }}"{{ end }}
 >
   {{- if $imageLeft -}}

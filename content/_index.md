@@ -40,6 +40,7 @@ toc: false
   imageLeft=true
   image="/imgs/everyone.png"
   imageTitle="Budgie Desktop on Solus"
+  imageWidth=300
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
   Designed for everyone
@@ -54,6 +55,7 @@ toc: false
   imageLeft=false
   image="/imgs/ready.png"
   imageTitle="Budgie Desktop on Solus"
+  imageWidth=300
   reducedPadding=true
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
@@ -61,7 +63,7 @@ toc: false
   {{< /hextra/hero-headline >}}
 
   {{< hextra/hero-subtitle >}}
-  Solus ships with a variety of software out of the box so you can get going without a lot of setup fuss. See our selection of default applications below!
+  Solus ships with a variety of software out of the box so you can get going without a lot of setup fuss. Less setup means you can get started using Solus quicker. See our selection of default applications below!
   {{< /hextra/hero-subtitle>}}
 {{< /feature >}}
 
@@ -88,6 +90,7 @@ toc: false
   imageLeft=true
   image="/imgs/built.png"
   imageTitle="Budgie Desktop on Solus"
+  imageWidth=300
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
   Built for people like you, by people like you
@@ -102,6 +105,7 @@ toc: false
   imageLeft=false
   image="/imgs/develop.png"
   imageTitle="Budgie Desktop on Solus"
+  imageWidth=300
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
   For developers
@@ -116,6 +120,7 @@ toc: false
   imageLeft=true
   image="/imgs/content.png"
   imageTitle="Budgie Desktop on Solus"
+  imageWidth=300
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
   For content creators
@@ -130,6 +135,7 @@ toc: false
   imageLeft=false
   image="/imgs/gamer.png"
   imageTitle="Budgie Desktop on Solus"
+  imageWidth=300
   reducedPadding=true
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
