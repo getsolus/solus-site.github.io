@@ -1,6 +1,7 @@
 ---
 title: Solus
 layout: hextra-home
+width: wide
 toc: false
 ---
 
@@ -10,13 +11,13 @@ toc: false
   {{< /hextra/hero-headline >}}
 </div>
 
-<div class="flex flex-col mx-auto mt-4 mb-8">
+<div class="flex flex-col mx-auto mt-4">
   {{< hextra/hero-subtitle >}}
   A modern Open Source operating system to power your daily needs. Install today, update forever.
   {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="mx-auto mb-8">
+<div class="mx-auto">
   <img src="/imgs/laptop-budgie.png" alt="Laptop with Budgie Desktop on Solus" />
 </div>
 

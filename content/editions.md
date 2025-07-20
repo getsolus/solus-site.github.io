@@ -1,6 +1,7 @@
 ---
 title: Editions
 layout: hextra-home
+width: wide
 toc: false
 ---
 

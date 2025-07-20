@@ -71,7 +71,9 @@ params:
       link: /
       width: 160
       height: 60
+    width: wide
   footer:
+    width: wide
     menus:
       - name: Solus
         submenu:
