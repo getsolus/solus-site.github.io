@@ -15,26 +15,16 @@
 {{- end -}}
 
 <div
-  class="hextra-feature-grid grid sm:max-lg:grid-cols-2 max-sm:grid-cols-1 place-items-center gap-4 w-full not-prose {{ with $reducedPadding  }} mb-8 {{ else }} mb-28 {{ end }}"
+  class="hextra-feature-grid grid sm:max-lg:grid-cols-2 max-sm:grid-cols-1 gap-4 place-items-center group w-full not-prose {{ with $reducedPadding  }} mb-8 {{ else }} mb-28 {{ end }}"
   {{ with $css }}style="{{ . | safeCSS }}"{{ end }}
 >
-  {{- if $imageLeft -}}
-    {{- with $image -}}
-      <div class="mx-auto">
-        <img src="{{ $image }}" width="{{ $imageWidth }}" height="{{ $imageHeight }}" {{ with $imageTitle }}alt="{{ $imageTitle }}"{{ end }} />
-      </div>
-    {{- end -}}
+  {{- with $image -}}
+    <div class="max-sm:w-[12rem] md:group-even:order-last">
+      <img src="{{ $image }}" width="{{ $imageWidth }}" height="{{ $imageHeight }}" {{ with $imageTitle }}alt="{{ $imageTitle }}"{{ end }} />
+    </div>
   {{- end -}}
 
-  <div class="w-full">
+  <div class="w-full max-sm:text-center">
     {{ .Inner }}
   </div>
-
-  {{- if not $imageLeft -}}
-    {{- with $image -}}
-      <div class="mx-auto">
-        <img src="{{ $image }}" width="{{ $imageWidth }}" height="{{ $imageHeight }}" {{ with $imageTitle }}alt="{{ $imageTitle }}"{{ end }} />
-      </div>
-    {{- end -}}
-  {{- end -}}
 </div>

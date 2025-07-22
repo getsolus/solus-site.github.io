@@ -5,13 +5,13 @@ width: wide
 toc: false
 ---
 
-<div class="flex flex-col mx-auto mt-6 mb-4">
+<div class="text-center mx-auto mt-6 mb-4">
   {{< hextra/hero-headline >}}
   The Personal OS for Personal Computers
   {{< /hextra/hero-headline >}}
 </div>
 
-<div class="flex flex-col mx-auto mt-4">
+<div class="text-center mx-auto mt-4">
   {{< hextra/hero-subtitle >}}
   A modern Open Source operating system to power your daily needs. Install today, update forever.
   {{< /hextra/hero-subtitle >}}
@@ -21,19 +21,17 @@ toc: false
   <img src="/imgs/laptop-budgie.png" alt="Laptop with Budgie Desktop on Solus" />
 </div>
 
-<div class="mx-auto w-1/2 mb-16">
-  {{< cards cols="2" >}}
-    {{< card
+<div class="hextra-cards mt-4 gap-4 grid not-prose justify-center w-full md:w-xl mx-auto mb-16" style="--hextra-cards-grid-cols: 2;">
+  {{< card
     link="https://help.getsol.us"
     title="Help Center"
-    >}}
+  >}}
 
-    {{< card
+  {{< card
     link="/editions"
     title="Download"
     icon="download"
-    >}}
-  {{< /cards >}}
+  >}}
 </div>
 
 {{< feature
@@ -56,35 +54,34 @@ toc: false
   image="/imgs/ready.png"
   imageTitle="Budgie Desktop on Solus"
   imageWidth=300
-  reducedPadding=true
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
   Ready To Go
   {{< /hextra/hero-headline >}}
 
   {{< hextra/hero-subtitle >}}
-  Solus ships with a variety of software out of the box so you can get going without a lot of setup fuss. Less setup means you can get started using Solus quicker. See our selection of default applications below!
+  Solus ships with a variety of software out of the box so you can get going without a lot of setup fuss. Less setup means you can get started using Solus quicker.
   {{< /hextra/hero-subtitle>}}
+
+  <div class="mt-4" >
+    {{< hextra/feature-grid >}}
+      {{< hextra/feature-card
+        title="Web browser"
+        subtitle="We ship with Mozilla Firefox, a fast and secure web browser."
+      >}}
+
+      {{< hextra/feature-card
+        title="Email client"
+        subtitle="Take the hassle out of email by using the simple yet feature-rich Mozilla Thunderbird."
+      >}}
+
+      {{< hextra/feature-card
+        title="Office suite"
+        subtitle="Edit documents and presentations with the LibreOffice software suite."
+      >}}
+    {{< /hextra/feature-grid >}}
+  </div>
 {{< /feature >}}
-
-<div class="mb-24" >
-  {{< hextra/feature-grid >}}
-    {{< hextra/feature-card
-      title="Web browser"
-      subtitle="We ship with Mozilla Firefox, a fast and secure web browser."
-    >}}
-
-    {{< hextra/feature-card
-      title="Email client"
-      subtitle="Take the hassle out of email by using the simple yet feature-rich Mozilla Thunderbird."
-    >}}
-
-    {{< hextra/feature-card
-      title="Office suite"
-      subtitle="Edit documents and presentations with the LibreOffice software suite."
-    >}}
-  {{< /hextra/feature-grid >}}
-</div>
 
 {{< feature
   imageLeft=true
@@ -147,21 +144,19 @@ toc: false
   {{< /hextra/hero-subtitle>}}
 {{< /feature >}}
 
-<div class="mb-24" >
-  {{< hextra/feature-grid >}}
-    {{< hextra/feature-card
-      title="Controllers"
-      subtitle="Gamepad and controller software such as antimicro and sc-controller."
-    >}}
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="Controllers"
+    subtitle="Gamepad and controller software such as antimicro and sc-controller."
+  >}}
 
-    {{< hextra/feature-card
-      title="Platforms"
-      subtitle="Support for gaming platforms like Itch.io, Lutris, and Steam."
-    >}}
+  {{< hextra/feature-card
+    title="Platforms"
+    subtitle="Support for gaming platforms like Itch.io, Lutris, and Steam."
+  >}}
 
-    {{< hextra/feature-card
-      title="Open source"
-      subtitle="Many free and open source titles including: Freeciv, OpenTTD, Red Eclipse, and Warzone 2100."
-    >}}
-  {{< /hextra/feature-grid >}}
-</div>
+  {{< hextra/feature-card
+    title="Open source"
+    subtitle="Many free and open source titles including: Freeciv, OpenTTD, Red Eclipse, and Warzone 2100."
+  >}}
+{{< /hextra/feature-grid >}}
