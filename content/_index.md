@@ -22,15 +22,17 @@ toc: false
 </div>
 
 <div class="hextra-cards mt-4 gap-4 grid not-prose justify-center w-full md:w-xl mx-auto mb-16" style="--hextra-cards-grid-cols: 2;">
-  {{< card
+  {{< button
     link="https://help.getsol.us"
-    title="Help Center"
+    text="Help Center"
+    icon="book-open"
   >}}
 
-  {{< card
+  {{< button
     link="/editions"
-    title="Download"
+    text="Download"
     icon="download"
+    primary=true
   >}}
 </div>
 
