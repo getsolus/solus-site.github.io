@@ -10,8 +10,8 @@
   <div class="items">
     {{ range $item, $description := $bannerInfo.Items }}
     <section>
-      {{ $alt := $item | title }} {{ if eq $item "gnome_mpv" }} {{ $alt :=
-      "GNOME MPV" }} {{ end }}
+      {{ $alt := $item | title }} {{ if eq $item "celluloid" }} {{ $alt :=
+      "Celluloid" }} {{ end }}
       <img
         class="{{ $item }}"
         alt="{{ $alt }}"
