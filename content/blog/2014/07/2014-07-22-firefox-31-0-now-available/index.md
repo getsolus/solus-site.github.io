@@ -15,4 +15,4 @@ Firefox 31.0 is now available in the Evolve OS repositories. Users can update by
 sudo pisi up
 ```
 
-{{< altimg "https://solus-project.com/release_images/firefox31.png" >}}
+![relimg](https://solus-project.com/release_images/firefox31.png)

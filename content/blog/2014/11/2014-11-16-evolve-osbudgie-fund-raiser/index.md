@@ -17,7 +17,7 @@ projects over the last couple of months. This is mostly because I have to utilis
 Ideally I'd like to give all my spare time over to working on what I love (I'm sure we all would, in reality), but with the help of the community I'm sure we could 
 realistically achieve that goal. I'd like to see us have a solid release of Evolve OS and the Budgie Desktop this side of Christmas, at least early-RC stages.
 
-{{< relimg "Budgie-Quirky.png" >}}
+![relimg](Budgie-Quirky.png)
 
 Now, if the "campaign" went well, this frees up the option of being able to invest in a Secure Boot key, for example, on behalf of the project. It will enable me to put all 
 the time into perfecting Evolve OS and Budgie, and solidifying the project as a whole.

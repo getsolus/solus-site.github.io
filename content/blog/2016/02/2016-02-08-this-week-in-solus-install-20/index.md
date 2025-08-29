@@ -41,7 +41,7 @@ largely inspired by [Clear Linux's autospec](https://github.com/clearlinux/autos
 As stated in our [1.0 and Beyond](https://solus-project.com/2015/12/28/1-0-and-beyond/) blog post, printing support has been a target for 1.1. I am happy to report that printing has been resolved and will be made readily available in the stable 
 repository for 1.1.
 
-{{< relimg "2WCcF57H2z6O.png" >}}
+![relimg](2WCcF57H2z6O.png)
 
 ##### Python 3.5 and UCS4 migration
 

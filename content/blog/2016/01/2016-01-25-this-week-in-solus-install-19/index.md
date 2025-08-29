@@ -36,7 +36,7 @@ Here is a highlight of bugs we've smashed. Naturally some have been resolved by 
 - [VLC fails to play file properly](https://bugs.solus-project.com/show_bug.cgi?id=243)
 - [VLC is missing upnp functionality](https://bugs.solus-project.com/show_bug.cgi?id=529)
 
-{{< altimg "http://i.giphy.com/nryJthsS2EKf6.gif" >}}
+![relimg](http://i.giphy.com/nryJthsS2EKf6.gif)
 
 #### Package Updates
 

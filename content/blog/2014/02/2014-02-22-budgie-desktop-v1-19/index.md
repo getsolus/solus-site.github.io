@@ -28,4 +28,4 @@ Note the version number is not indicative of stability, and is generated via "gi
 
 As usual, you can install for Fedora 20 and openSUSE 13.1 [via the OBS repository](http://software.opensuse.org/download.html?project=home%3Aikeydoherty%3Aevolve&package=budgie-desktop)
 
-{{< relimg "Screenshot-from-2014-02-22-145146.png" >}}
+![relimg](Screenshot-from-2014-02-22-145146.png)

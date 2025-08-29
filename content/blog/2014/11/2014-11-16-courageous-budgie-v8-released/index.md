@@ -14,7 +14,7 @@ a much more responsive desktop.
 
 This release represents 78 commits with 36 files changed, 3577 insertions and 351 deletions.
 
-{{< relimg "8Menu.png" >}}
+![relimg](8Menu.png)
 
 ## What's changed?
 
@@ -52,4 +52,4 @@ whether its buying the developer a cup of tea, sending a patch to add a new feat
 
 **Edit**: A [fundraiser was launched](https://solus-project.com/2014/11/16/evolve-osbudgie-fund-raiser/) after this post was first published
 
-{{< relimg "8Prefs.png" >}}
+![relimg](8Prefs.png)

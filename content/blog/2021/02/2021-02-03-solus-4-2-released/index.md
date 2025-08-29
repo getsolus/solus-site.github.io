@@ -93,7 +93,7 @@ Solus 4.2 ships with Pulseaudio 14.1, which features some key improvements such 
 
 ## Budgie
 
-{{< altimg "Budgie.jpg" "/release-images/4.2/" >}}
+![relimg](Budgie.jpg)
 
 Solus ships with the latest release of our flagship desktop environment, [Budgie 10.5.2](/2020/12/02/budgie-10-5-2-released). 
 
@@ -123,7 +123,7 @@ There was so many other improvements and fixes in this new release. Check our [o
 
 ## GNOME
 
-{{< altimg "GNOME.jpg" "/release-images/4.2/" >}}
+![relimg](GNOME.jpg)
 
 Solus 4.2 GNOME Edition ships with the latest release of the GNOME 3.38 Stack, 3.38.3. GNOME 3.38.3 introduces various fixes to the GNOME experience such as:
 
@@ -152,7 +152,7 @@ Solus GNOME Edition continues to ship with our curated out-of-the-box experience
 
 ## MATE
 
-{{< altimg "MATE.jpg" "/release-images/4.2/" >}}
+![relimg](MATE.jpg)
 
 Solus 4.2 MATE Edition ships with MATE 1.24, which contains [numerous bug fixes and under-the-hood improvements](https://mate-desktop.org/blog/2020-02-10-mate-1-24-released/). Some of the highlights include:
 
@@ -180,7 +180,7 @@ Solus 4.2 also ships with Brisk Menu 0.6.2. This release features:
 
 ## Plasma
 
-{{< altimg "Plasma.jpg" "/release-images/4.2/" >}}
+![relimg](Plasma.jpg)
 
 Solus 4.2 Plasma Edition ships with the latest Plasma Desktop 5.20.5, KDE Frameworks 5.78, KDE Applications 20.12.1 and QT 5.15.2, which brings many new features, some highlighted below:
 

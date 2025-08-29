@@ -37,7 +37,7 @@ Multiple fixes have landed for the Places widget.
 
 ## Panel & Raven
 
-{{< relimg "budgie-10-2-9-replace.jpg" >}}
+![relimg](budgie-10-2-9-replace.jpg)
 
 Prior to Budgie 10.2.9, it was easy to accidentally remove a panel. Now, we show a confirmation popover when clicking the removal button, to ensure accidentally panel removal doesn't occur.
 

@@ -20,7 +20,7 @@ list of key versions:
 * Radeon Graphics Driver 7.4.0
 * libevdev 1.2, evdev Input Driver 2.9.0
 
-{{< altimg "https://solus-project.com/release_images/xorg.png" >}}
+![relimg](https://solus-project.com/release_images/xorg.png)
 
 All drivers were updated where possible (newest versions existing) or rebuilt against the new X version. Note that initial vdpau support has been included, 
 though vdpau-gl support is yet to be provided, and will be accompanied in the future by a sister firmware installation package.

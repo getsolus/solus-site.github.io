@@ -13,7 +13,7 @@ url = "/2015/12/13/this-week-in-solus-install-14/"
 
 Welcome to the 14th installation of This Week in Solus. 
 
-{{< altimg "http://i.giphy.com/mxDZecDOOsWCA.gif" >}}
+![relimg](http://i.giphy.com/mxDZecDOOsWCA.gif)
 
 ### Budgie Next
 
@@ -24,7 +24,7 @@ Work has progressed well on the rewrite of Budgie.
 
 Also, work on the panel editor has now begun. A screenshot is available below.
 
-{{< relimg "Screenshot-from-2015-12-09-10-12-19.png" >}}
+![relimg](Screenshot-from-2015-12-09-10-12-19.png)
 
 ### Multilib
 
@@ -37,13 +37,13 @@ Before I get into what that means, let's go over the process of getting there:
 - **Stage 2**: In the second stage, we rebuilt to gain a fully featured toolchain that is used to populate a minimal chroot filesystem to allow barebones functionality in terms of being able to compile simple packages
 - **Stage 3**: In the third and final stage, we produced **native*- gcc, glibc, and binutils.
 
-{{< altimg "http://i.giphy.com/91fEJqgdsnu4E.gif" >}}
+![relimg](http://i.giphy.com/91fEJqgdsnu4E.gif)
 
 I know, I had to get Ikey to explain it to me too. In fact I ended up just opting to copy and paste what he said.
 
 **The basics**: We cross-compiled a temporary toolchain to compile stuff, to rebuild stuff to use in a minimal chroot filesystem, then produced some native multilib gcc, glibc, and binutils.
 
-{{< relimg "vplcm.jpg" >}}
+![relimg](vplcm.jpg)
 
 These multilib (32-bit enabled) utilities and libraries are going to be the basic for enabling a wider set of applications and another major item that has been a 1.0 requirement, **Steam**.
 

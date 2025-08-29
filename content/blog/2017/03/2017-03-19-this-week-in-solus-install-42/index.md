@@ -20,7 +20,7 @@ We updated our kernel to the latest longterm release, 4.9.16.
 
 Justin and Ikey landed MATE 1.18 today, which features our upstreamed patch for action icons in mate-notification-daemon (shown below) and the many [fantastic improvements](https://mate-desktop.org/blog/2017-03-13-mate-1-18-released/) from the MATE Desktop Team.
 
-{{< relimg "mate-1.18-action-icons.jpg" >}}
+![relimg](mate-1.18-action-icons.jpg)
 
 ## Learn Solus Packaging
 

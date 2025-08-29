@@ -49,7 +49,7 @@ This project eliminates the use of legacy bash scripts to manage the lifetime of
 
 With Ikey's local testing and a working ahead-of-time cache, we went from 1.3 seconds with the AppArmor service (`apparmor.service`) to **around 8ms** with the aa-lsm-hook service, as shown in the comparison below.
 
-{{< relimg "aa-lsm-hook-comparison.png" >}}
+![relimg](aa-lsm-hook-comparison.png)
 
 Furthermore, [we've reduced the startup time](https://github.com/linuxmint/slick-greeter/commit/ef83fca41562884cad61059975e4e56a10f5a1a3) of the display manager by ensuring the Pythonic helper to set the keyboard layout is only executed on Debian/Ubuntu systems, as this adds unnecessary startup penalties on Solus. We plan on tackling the remaining Pythonic helper for HiDPI detection.
 

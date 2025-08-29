@@ -18,17 +18,17 @@ The upcoming redesign of the Software Center has seen some significant progress 
 
 In the screenshot below, you can see an example of this new sidepane being utilized for install during the installation of GDM. You'll also notice that, as a result of GDM and LightDM conflicting, we present that information to the user by indicating that LightDM (and the stylish login greeter for it, sleek-greeter) will be removed. Furthermore, this would remove the LDM integration for LightDM.
 
-{{< relimg "software-center-gdm.jpg" >}}
+![relimg](software-center-gdm.jpg)
 
 We're now defaulting the Software Center to our eopkg `autoremove` behavior, which will automatically remove any dependencies of the software that are not used by any other packages on the system. You can see this in the screenshot below when removing Builder, we're also removing packages such as `gnome-code-assistance` which isn't being used by anything else on the system.
 
-{{< relimg "software-center-removal.jpg" >}}
+![relimg](software-center-removal.jpg)
 
 Some fixes have been made to better support HiDPI, we're now ensuring we use cairo surfaces which respect the device scaling factor.
 
 Last but not least, we've been working hard on deprecating our DoFlicky hardware driver tool for an integrated solution in our Software Center. We've done this by creating a LDM (Linux Driver Management) plugin, which will communicate to all available LDM Providers for a device (*such as the NVIDIA GeForce GTX 960 in the screenshot below*) and asks all the plugins (such as our eopkg plugin) if they have something with that name. This enables an agnostic solution that developers can utilize to implement their own plugins and LDM providers for their respective operating systems and package managers (*such as Apt, DNF, etc.*).
 
-{{< relimg "software-center-gpu.jpg" >}}
+![relimg](software-center-gpu.jpg)
 
 This support isn't limited to just GPU drivers though! Thanks for Linux Driver Management, we can extend this to:
 
@@ -67,7 +67,7 @@ Various aspects of interacting with notifications have been improved for the upc
 
 The Sound widget in Raven is also seeing a complete overhaul. Sound Output and Input are being split into two separate widgets. The Sound Output widget will feature the ability to do per-app volume control and Input will now let you control your mic volume without having to open up GNOME Control Center, as seen in the screenshot below. Once complete, you'll also be able to launch your default audio or video player directly from the Sound Output widget if no applications are playing audio.
 
-{{< relimg "budgie-sound-widgets.jpg" >}}
+![relimg](budgie-sound-widgets.jpg)
 
 The new Sound Output widget is also responsive to changes to the `allow-volume-above-100-percent` setting. While still a work-in-progress, the plan is to provide a toggle for this value in a new Raven section of Budgie Desktop Setting, so you can opt to go up to 150% volume. This new section will also have the ability hide the Calendar and Sound Input widgets entirely.
 

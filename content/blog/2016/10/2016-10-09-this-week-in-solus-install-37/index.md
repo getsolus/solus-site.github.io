@@ -13,11 +13,11 @@ url = "/2016/10/09/this-week-in-solus-install-37/"
 
 Welcome to the 37th installation of This Week in Solus. 
 
-{{< altimg "https://media.giphy.com/media/IMXrsmoW5kuxq/giphy.gif" >}}
+![relimg](https://media.giphy.com/media/IMXrsmoW5kuxq/giphy.gif)
 
 #### Linux 4.8.1
 
-{{< relimg "Screenshot-from-2016-10-08-00-23-15.png" >}}
+![relimg](Screenshot-from-2016-10-08-00-23-15.png)
 
 This week Linux 4.8.1 landed in Solus, in addition to numerous changes and improvements, such as:
 
@@ -32,7 +32,7 @@ This week Linux 4.8.1 landed in Solus, in addition to numerous changes and impro
 
 #### Libreoffice 5.2.2.2
 
-{{< relimg "Screenshot-from-2016-10-08-23-19-22-1.png" >}}
+![relimg](Screenshot-from-2016-10-08-23-19-22-1.png)
 
 LibreOffice 5.2.2.2 has landed in the repo. LibreOffice 5.2 brings a lot of fantastic improvements, such as:
 
@@ -138,4 +138,4 @@ Updated:
 - [xz 5.2.2](https://git.solus-project.com/packages/xz/commit/?id=d30cb07e3475dbd2a09ad2646f4585880b787952)
 - [zathura 0.3.6](https://git.solus-project.com/packages/zathura/commit/?id=1034c78cf852ac951692f5eb206086863558a1d5)
 
-{{< altimg "https://media.giphy.com/media/66hrbnBs4PYha/giphy.gif" >}}
+![relimg](https://media.giphy.com/media/66hrbnBs4PYha/giphy.gif)

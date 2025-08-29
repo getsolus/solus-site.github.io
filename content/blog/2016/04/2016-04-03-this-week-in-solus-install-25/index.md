@@ -78,4 +78,4 @@ Updated:
 - [vertex-gtk-theme 20160329](https://git.solus-project.com/packages/vertex-gtk-theme/commit/?id=f85ba1faec5a20a2b305e3c6b4d00d3e30b3823e)
 - [ypkg 7.0](https://git.solus-project.com/packages/ypkg/commit/?id=56702952478524f189ba8233e538dc0628af63b1)
 
-{{< altimg "http://i.giphy.com/Yftg1iN1v6qnC.gif" >}}
+![relimg](http://i.giphy.com/Yftg1iN1v6qnC.gif)

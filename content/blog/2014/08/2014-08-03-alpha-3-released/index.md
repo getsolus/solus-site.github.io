@@ -15,7 +15,7 @@ updates, including X.Org 1.16.0, MesaLib 10.2.4, Linux Kernel 3.15.6, Firefox 31
 This represents the third and final alpha of the Evolve OS images, as we're moving towards daily-builds and then beta stages. Please help to identify issues 
 within the system so that we can make Evolve OS as enjoyable an experience as possible.
 
-{{< altimg "https://solus-project.com/release_images/gnome-cc.png" >}}
+![relimg](https://solus-project.com/release_images/gnome-cc.png)
 
 ## Explaining the missing EFI image
 

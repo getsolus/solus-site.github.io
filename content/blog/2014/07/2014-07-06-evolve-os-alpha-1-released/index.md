@@ -15,7 +15,7 @@ releases are as polished as possible for our users.
 
 <!--more-->
 
-{{< altimg "https://solus-project.com/release_images/weather.png" >}}
+![relimg](https://solus-project.com/release_images/weather.png)
 
 ## What's new in this release?
 
@@ -82,9 +82,9 @@ wouldn't exist.
 ## Moar screenshots
 
 
-{{< altimg "https://solus-project.com/release_images/firefox.png" >}}
+![relimg](https://solus-project.com/release_images/firefox.png)
 
-{{< altimg "https://solus-project.com/release_images/installer2.png" >}}
+![relimg](https://solus-project.com/release_images/installer2.png)
 
 
-{{< altimg "https://solus-project.com/release_images/menu.png" >}}
+![relimg](https://solus-project.com/release_images/menu.png)

@@ -15,7 +15,7 @@ introduction of a brand new Panel Editor, as well as customisable layouts and GN
 This particular release represents 42 individual commits, with 33 files changed, 1979 insertions and 553 deletions. For a more complete changelog, visit our 
 [release page](https://github.com/solus-project/budgie-desktop/releases/tag/v6 "GitHub: Budgie Desktop v6").
 
-{{< altimg "https://solus-project.com/release_images/PanelEditor.png" >}}
+![relimg](https://solus-project.com/release_images/PanelEditor.png)
 
 ### What's new?
 
@@ -40,13 +40,13 @@ Using the panel editor you can enable the GNOME Panel theme integration mode, wh
 styling. Remember this is fully reliant on the theme supporting gnome-panel, and is provided as an alternative option for those preferring this style. Also note it is 
 early days and some issues may exist.
 
-{{< altimg "https://solus-project.com/release_images/NumixAndPanel.png" >}}
+![relimg](https://solus-project.com/release_images/NumixAndPanel.png)
 
 ### Applets
 
 Budgie now supports applets, and as a starter I've included 2 additional applets: Task List, and Workspaces. You can see them in operation in the screenshot below
 
-{{< altimg "https://solus-project.com/release_images/Workspaces.png" >}}
+![relimg](https://solus-project.com/release_images/Workspaces.png)
 
 **Disclaimer**: The panel shadow you see is not present in the v6 release, and is an experimental feature currently being worked on. It just happens to be a 
 lot better looking so I'll tease you with the screenshot instead.
