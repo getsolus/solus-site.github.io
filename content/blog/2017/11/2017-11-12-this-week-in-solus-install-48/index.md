@@ -42,7 +42,8 @@ We're always looking to improve the state of gaming under Linux and part of that
 
 #### Known Working
 
-![relimg](supported-games-examples.jpg)*The above mentioned games are examples of games we've tested and do not indicate official support from their respective publishers or developers.*
+{{< relimg "supported-games-examples.jpg" >}}
+*The above mentioned games are examples of games we've tested and do not indicate official support from their respective publishers or developers.*
 
 This isn't the full, comprehensive list of games that are known to work, but we'll be working to provide a way of submitting your tested games.
 

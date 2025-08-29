@@ -38,7 +38,8 @@ command, and our public-key based system will queue their package for build and 
 This has resulted in an enormous acceleration in Solus development times, with 118 currently recorded builds being issued since Monday morning alone 
 (we reset the counter for final deployment, the real figure is around 150).
 
-![relimg](Screenshot-from-2015-06-18-20-28-35.png)
+{{< relimg "Screenshot-from-2015-06-18-20-28-35.png" >}}
+
 #### Where We're At
 
 We're actually in an awesome position now. Packages are being continously maintained and included with no bottleneck or bus factor, a centralised developer 
@@ -49,7 +50,8 @@ Steam is integrated, we'll add the missing fglrx drivers, and a couple more nvid
 
 We recently included the **broadcom-sta** driver, which is undergoing further integration.
 
-![relimg](Screenshot-from-2015-06-18-06-22-00.png)
+{{< relimg "Screenshot-from-2015-06-18-06-22-00.png" >}}
+
 #### Timeline
 
 We're going to need to tack at least 1 more month delay on releases. With your help, we can realise this much faster! Our documentation run is going to be complete in 

@@ -30,7 +30,8 @@ We will release a minor and/or major release four times a year. Elaborated b
 
 Below is a pretty graph that should help explain it:
 
-![relimg](ReleasesLayout1.png)
+{{< relimg "ReleasesLayout1.png" >}}
+
 ---
 
 #### Plans for 2016 Cycle

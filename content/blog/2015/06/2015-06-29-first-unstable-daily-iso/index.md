@@ -54,5 +54,6 @@ As usual, leave a comment here, on the [forums](https://solus-project.com/forums
 
 ### Obligatory screenshots
 
-![relimg](Screenshot-from-2015-06-29-07-44-32.png)
-![relimg](Screenshot-from-2015-06-29-07-40-07.png)
+{{< relimg "Screenshot-from-2015-06-29-07-44-32.png" >}}
+
+{{< relimg "Screenshot-from-2015-06-29-07-40-07.png" >}}

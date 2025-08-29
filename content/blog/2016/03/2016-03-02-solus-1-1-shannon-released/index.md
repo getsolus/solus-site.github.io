@@ -19,7 +19,8 @@ Solus is a Linux-based operating system built from scratch for the modern deskto
 
 ##### Budgie
 
-![relimg](budgie.png)
+{{< relimg "budgie.png" >}}
+
 Budgie is our flagship desktop environment, developed and designed for the desktop, with inch of it catering to a desktop workflow. We have continued to improve Budgie, with v10.2.4 shipping in Solus 1.1. This release features a multitude of bugfixes, the 
 following highlighted improvements, alongside updated translations:
 
@@ -43,7 +44,8 @@ used throughout our display / graphic stack.
 
 ##### General Improvements
 
-![relimg](2WCcF57H2z6O.png)
+{{< relimg "2WCcF57H2z6O.png" >}}
+
 Let's be honest, printing isn't sexy. Printing isn't even what the cool kids do anymore. Nowadays they send their ol' vintage filtered pictures on the Snapchats and sign documents on their fancy iPotatos. But that doesn't matter. 
 Solus 1.1 ships with printing support out of the box. Now when those cool kids grow up and get jobs, their need for printing on old fashion paper will work. Got an HP printer? Install the hplip package!
 

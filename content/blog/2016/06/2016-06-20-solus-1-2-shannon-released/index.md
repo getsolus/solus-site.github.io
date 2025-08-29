@@ -17,12 +17,14 @@ to laying the framework for providing a performant gaming experience. Solus 1.2 
 
 ##### Solus
 
-![relimg](Budgie1.2.png)
+{{< relimg "Budgie1.2.png" >}}
+
 Solus is an operating system that is designed for modern PCs. Every tweak, configuration, and optimization enables us to deliver a singular, cohesive desktop experience.
 
 ##### Budgie
 
-![relimg](BudgieApplets1.2.png)
+{{< relimg "BudgieApplets1.2.png" >}}
+
 Budgie is the flagship desktop of Solus and is a Solus project. Designed with the modern user in mind, it focuses on simplicity and elegance. Written from scratch with integration in mind, the Budgie desktop tightly integrates with the GNOME stack, employing 
 underlying technologies to offer an alternative desktop experience.
 
@@ -46,20 +48,27 @@ Solus 1.2 delivers a large set of targeted software optimizations that leverage 
 of Solus specifically targeting modern personal computing devices and the x86_64 architecture, we are able to make bolder optimizations on software than other tier-one operating systems. Here are 
 [some results](http://openbenchmarking.org/result/1606039-HA-1606036KH29) from Phoronix Test Suite benchmarks comparing Linux Mint 17.3, Ubuntu 16.04, and Solus 1.2:
 
-![relimg](jpeg_decode_fast_integer.png)
-![relimg](jpeg_decode_float.png)
-![relimg](jpeg_decode_integer.png)
-![relimg](libxml2_parsing.png)
-![relimg](xz_decompression.png)
+{{< relimg "jpeg_decode_fast_integer.png" >}}
+
+{{< relimg "jpeg_decode_float.png" >}}
+
+{{< relimg "jpeg_decode_integer.png" >}}
+
+{{< relimg "libxml2_parsing.png" >}}
+
+{{< relimg "xz_decompression.png" >}}
+
 Although Solus is tested across a wide range of hardware, and enhanced accordingly, we wished to show the scaled improvements in common, base-level components, that comprise the moving parts of the majority of user-facing applications, on even the 
 cheapest entry-level hardware. The benchmarks above are representative of entry-level hardware testing and may vary based on your own hardware.
 
 #### Performant Gaming Experience
 
-![relimg](Screenshot-from-2016-05-25-05-37-19.png)
+{{< relimg "Screenshot-from-2016-05-25-05-37-19.png" >}}
+
 In Solus 1.2, we aimed at getting you the most performant gaming experience. We have landed multilib packages and replaced Steam's old pre-packaged and unoptimized runtime with our own native, optimized runtime.
 
-![relimg](LinuxSteamIntegration.png)
+{{< relimg "LinuxSteamIntegration.png" >}}
+
 In addition to runtime replacement, we've developed an open source tool called [Linux Steam Integration](https://github.com/solus-project/linux-steam-integration) to enable you to easily switch between native and pre-packaged runtime, as well 
 as forcing 32-bit mode for Steam. This will help ensure that you not only get the most performant gaming experience, but ensure that the widest variety of Linux games are available to be enjoyed!
 
@@ -73,7 +82,8 @@ We have also landed support for a multitude of gaming devices, such as the Steam
 
 We're happy to announce that the Software Center in Solus 1.2 has been rewritten to provide a better experience at discovering, obtaining, and managing software.
 
-![relimg](software_center.png)
+{{< relimg "software_center.png" >}}
+
 Additionally, you are now able to install a select set of supported 3rd Party software right from within the Software Center. No longer is it necessary to drop down to a terminal for the installation of applications like Chrome, it's just a few 
 clicks away!
 
@@ -83,12 +93,14 @@ The installation of Solus 1.2 has been made significantly easier with the introd
 
 ##### Keyboard Layout and Language
 
-![relimg](keyboard_layout_language.png)
+{{< relimg "keyboard_layout_language.png" >}}
+
 In the new Installer, you able to select your keyboard layout and language in a more fluid manner.
 
 ##### Simplified Installation
 
-![relimg](InstallerStrategy1.2.png)
+{{< relimg "InstallerStrategy1.2.png" >}}
+
 The new Installer features a vastly simplified experience for configuring how you want to install Solus. We still maintain the capability to manually partition your system, however it is no longer necessary. We implement several "strategies" for the configuring 
 of your system:
 

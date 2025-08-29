@@ -43,7 +43,8 @@ Budgie 10.5.1 introduces a few new goodies to make your Budgie experience, as we
 
 ### Budgie Desktop Settings
 
-![relimg](budgie-desktop-settings-fonts.jpg)
+{{< relimg "budgie-desktop-settings-fonts.jpg" >}}
+
 Budgie 10.5.1 introduces hinting and anti-aliasing settings in our Fonts section of Budgie Desktop Settings, allowing you even more flexibility with how document, interface, monospace, and window title fonts render:
 
 - For [font hinting](https://en.wikipedia.org/wiki/Font_hinting), you can choose between a range of options ranging from no font hinting to full font hinting.
@@ -57,12 +58,14 @@ Thanks to the folks over at Ubuntu Budgie for their patches, it's greatly apprec
 
 ### Icon Tasklist
 
-![relimg](budgie-desktop-icon-tasklist-hover.jpg)
+{{< relimg "budgie-desktop-icon-tasklist-hover.jpg" >}}
+
 If you have a single window open for a given IconButton in the Icon Tasklist, we will now update the tooltip when you hover over.
 
 ### Workspaces
 
-![relimg](budgie-desktop-settings-desktop.jpg)
+{{< relimg "budgie-desktop-settings-desktop.jpg" >}}
+
 Budgie 10.5.1 introduces the ability to have persistent workspaces created at the launch of Budgie, with a configurable amount of default workspaces.
 
 Under the Desktop section of Budgie Desktop Settings, you'll find a new option called "Number of virtual desktops", where you can go from just having one workspace up to eight! A perfect opportunity to hide away all those Electron apps you're ashamed to be running!
@@ -85,7 +88,8 @@ Budgie 10.5.1 introduces a multitude of new CSS classes to ease Budgie Desktop t
 
 ## GNOME 3.34
 
-![relimg](gnome-shell.jpg)
+{{< relimg "gnome-shell.jpg" >}}
+
 We're happy to be bringing the GNOME 3.34 stack to our stable / shannon repo users in this coming Friday sync. This stack upgrade has been rigorously tested by a wide range of users via our unstable repository, all of whom provided valuable feedback and reports over on [our development tracker](https://dev.getsol.us/T8366). This upgrade has also fortunately been smoother compared to previous stack upgrades, with no necessary changes having needed to be made to our branding packages to account for schema changes, and we've been more aggressive with backporting patches for fixes to GNOME Shell and Mutter.
 
 ### Smoother Sailing
@@ -108,12 +112,14 @@ GNOME 3.34 introduces a bunch of new features and bug fixes from the GNOME commu
 
 #### Settings Improvements
 
-![relimg](gnome-settings.jpg)
+{{< relimg "gnome-settings.jpg" >}}
+
 GNOME Control Center / GNOME Settings has seen a redesign of two sections such as the backgrounds panel and picker, as well as moving the Night Mode in the Displays section.
 
 #### Epiphany / GNOME Web
 
-![relimg](epiphany.jpg)
+{{< relimg "epiphany.jpg" >}}
+
 For those of you that use Epiphany / GNOME Web, it's seen some improvements in the GNOME 3.34 release. You can now pin tabs, which is handy for frequently accessed and open pages (like the Solus blog), and they're now using the new WebKit content filters API for adblocking!
 
 #### Evolution
@@ -155,7 +161,8 @@ Our KDE and Plasma integrator and maintainer, Friedrich (a.k.a Girtablulu), has 
   - Add scrollbuttons for tabs when tabbar is full.
   - Restore "Show 'new tab' button" option in Konsole Settings.
 
-![relimg](plasma-solus-dark-theme.jpg)
+{{< relimg "plasma-solus-dark-theme.jpg" >}}
+
 With this update you will receive a darker color-scheme for the Solus Dark theme. We welcome your feedback and bug reports [here](https://discuss.getsol.us/d/1608-plasma-solus-color-scheme/29).
 
 ## MATE Desktop Updates
@@ -254,5 +261,6 @@ solbuild, our chroot-based package build system, has seen a minor release (1.4.5
 
 ### Software Center
 
-![relimg](software-center-teamviewer.jpg)
+{{< relimg "software-center-teamviewer.jpg" >}}
+
 We've added Teamviewer into the Third Party section of the Software Center and have fully deprecated Android Tools from the Third Party section, as it is now maintained and available via our official repositories!

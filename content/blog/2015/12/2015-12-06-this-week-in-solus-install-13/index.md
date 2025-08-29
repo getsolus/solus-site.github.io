@@ -19,7 +19,8 @@ Let's kick off TWIS with talk about Daily Images. As you might have known, we re
 
 That's right, **two** images this week.
 
-![relimg](http://i.giphy.com/XMvrleT9jksXm.gif)
+{{< altimg "http://i.giphy.com/XMvrleT9jksXm.gif" >}}
+
 Here are some of the highlights of the image, which is available for download from the [Daily ISO](https://solus-project.com/daily-iso/) page.
 
 - Budgie Desktop: [Disable mediakeys for now](https://git.solus-project.com/packages/budgie-desktop/commit/?id=a24fee6)        
@@ -30,7 +31,8 @@ Here are some of the highlights of the image, which is available for download fr
 
 #### New Hardware
 
-![relimg](2015-12-03.jpg)
+{{< relimg "2015-12-03.jpg" >}}
+
 Thanks to the continued support from the Solus community, Community Manager Justin was able to obtain an AMD HD 5450 Silent to enable us to better test AMD proprietary driver support when it lands.
 
 #### Package Updates

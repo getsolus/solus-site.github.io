@@ -14,7 +14,8 @@ Hello all!
 Well its now official, I've released v5.1 of the Budgie Desktop. It was slated to be a v5 release but I had to bump due to an autotools issue in the release..<!--more-->
 <!--more-->
 
-![relimg](https://solus-project.com/release_images/menu_51.png)
+{{< altimg "https://solus-project.com/release_images/menu_51.png" >}}
+
 ## What's new?
 
 Almost all of the changes since v4 have been related to the panel. It's been completely rewritten in Vala, lowering the maintenance overhead and significantly reducing 

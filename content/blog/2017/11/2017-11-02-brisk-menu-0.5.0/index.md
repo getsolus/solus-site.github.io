@@ -17,7 +17,8 @@ So, what's new?
 
 ## Favourites support
 
-![relimg](brisk-menu-pin-to-favourites.jpg)
+{{< relimg "brisk-menu-pin-to-favourites.jpg" >}}
+
 Stefan Ric (cybre) added support for a new Favourites backend, that does exactly what it says on the tin. This adds a new Favourites category to the menu, and users can pin and unpin items from anywhere in the menu by right clicking on an item.
 
 ## Actions support

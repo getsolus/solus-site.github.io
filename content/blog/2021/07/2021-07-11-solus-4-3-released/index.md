@@ -83,7 +83,8 @@ Solus 4.3 ships with version 0.9.0 of the dav1d AV1 decoder, which should provid
 
 ## Budgie
 
-![relimg](Budgie.jpg)
+{{< altimg "Budgie.jpg" "/release-images/4.3/" >}}
+
 Solus ships with the latest release of our flagship desktop environment, [Budgie 10.5.3](/2021/04/27/fashionable-gnome-forty). This features GNOME 40 stack support alongside all the fixes and quality-of-life improvements listed below. We welcome you to check out the full release notes listed above.
 
 ### Bug Fixes and Cleanup
@@ -108,7 +109,8 @@ Budgie 10.5.3 introduces fixes to Budgie panel applets, Raven, and various windo
 
 ### Quality-of-life Improvements
 
-![relimg](2021/04/budgie-desktop-settings.jpg)
+{{< altimg "2021/04/budgie-desktop-settings.jpg" >}}
+
 Here are some quality-of-life improvements shipping in Budgie 10.5.3:
 
 - Filter out audacious notifications so they do not clutter up Raven. 
@@ -123,7 +125,8 @@ Here are some quality-of-life improvements shipping in Budgie 10.5.3:
 
 ## GNOME
 
-![relimg](GNOME.jpg)
+{{< altimg "GNOME.jpg" "/release-images/4.3/" >}}
+
 Solus 4.3 GNOME Edition ships with the latest GNOME 40 series release, 40.2.
 
 ### Highlights
@@ -162,7 +165,8 @@ Alongside this defaults change, Solus 4.3 GNOME Edition continues to ship the Im
 
 ## MATE
 
-![relimg](MATE.jpg)
+{{< altimg "MATE.jpg" "/release-images/4.3/" >}}
+
 Solus 4.3 MATE Edition ships with the latest MATE desktop environment and applications. Some highlights since the release of Solus 4.2 include:
 
 - Atril
@@ -185,7 +189,8 @@ Solus 4.3 MATE Edition ships with the latest MATE desktop environment and applic
 
 ## Plasma
 
-![relimg](Plasma.jpg)
+{{< altimg "Plasma.jpg" "/release-images/4.3/" >}}
+
 Solus 4.3 Plasma Edition ships with the latest Plasma Desktop 5.22.2, KDE Frameworks 5.83, Applications 21.04.2 and the backported patches for QT 5.15.2, which brings many new features some highlighted below:
 
 - Adaptive Transparency for Breeze.

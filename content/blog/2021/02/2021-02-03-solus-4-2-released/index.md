@@ -93,7 +93,8 @@ Solus 4.2 ships with Pulseaudio 14.1, which features some key improvements such 
 
 ## Budgie
 
-![relimg](Budgie.jpg)
+{{< altimg "Budgie.jpg" "/release-images/4.2/" >}}
+
 Solus ships with the latest release of our flagship desktop environment, [Budgie 10.5.2](/2020/12/02/budgie-10-5-2-released). 
 
 Budgie 10.5.2 introduced [budgie-desktop-view](https://github.com/getsolus/budgie-desktop-view), our new desktop icons implementation. In releases dating back to the beginning of Budgie 10, we had been using Nautilus' (now legacy) desktop icons implementation to provide such support. When Nautilus removed their desktop icons support, Solus used an older version of Nautilus to retain it, while some other downstream consumers of Budgie used alternative file managers with similar features to that version of Nautilus, such as Nemo.
@@ -122,7 +123,8 @@ There was so many other improvements and fixes in this new release. Check our [o
 
 ## GNOME
 
-![relimg](GNOME.jpg)
+{{< altimg "GNOME.jpg" "/release-images/4.2/" >}}
+
 Solus 4.2 GNOME Edition ships with the latest release of the GNOME 3.38 Stack, 3.38.3. GNOME 3.38.3 introduces various fixes to the GNOME experience such as:
 
 - A brand new major release of Tracker, GNOME's search engine and database for local and remote content.
@@ -150,7 +152,8 @@ Solus GNOME Edition continues to ship with our curated out-of-the-box experience
 
 ## MATE
 
-![relimg](MATE.jpg)
+{{< altimg "MATE.jpg" "/release-images/4.2/" >}}
+
 Solus 4.2 MATE Edition ships with MATE 1.24, which contains [numerous bug fixes and under-the-hood improvements](https://mate-desktop.org/blog/2020-02-10-mate-1-24-released/). Some of the highlights include:
 
 - Caja can now show thumbnails in its list view.
@@ -177,7 +180,8 @@ Solus 4.2 also ships with Brisk Menu 0.6.2. This release features:
 
 ## Plasma
 
-![relimg](Plasma.jpg)
+{{< altimg "Plasma.jpg" "/release-images/4.2/" >}}
+
 Solus 4.2 Plasma Edition ships with the latest Plasma Desktop 5.20.5, KDE Frameworks 5.78, KDE Applications 20.12.1 and QT 5.15.2, which brings many new features, some highlighted below:
 
 - New System Tray layout

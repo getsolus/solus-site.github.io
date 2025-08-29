@@ -18,29 +18,34 @@ our agility and iteration speed.
 
 #### Budgie
 
-![relimg](Solus-Budgie.png)
+{{< relimg "Solus-Budgie.png" >}}
+
 Solus 1.2.1 is the **first place to experience** the latest Budgie 10.2.8, which introduces a multitude of new features and fixes! Budgie 10.2.8 ships on our primary ISO, alongside a fresh set of artwork graciously provided by 
 [Twisted Pixels Photography](http://www.twistedpixelsphotography.com/).
 
 ##### IBUS Support
 
-![relimg](IBUS.png)
+{{< relimg "IBUS.png" >}}
+
 Budgie 10.2.8 delivers IBUS (Intelligent Input Bus) support to enable multi-lingual input, most commonly leveraged by Asian input method editors. This will enable Budgie to be accessible to a broader set of our user base across a broader set of languages.
 
 ##### Places Indicator Applet
 
-![relimg](Panel-Indicator-Applet-1.png)
+{{< relimg "Panel-Indicator-Applet-1.png" >}}
+
 Budgie 10.2.8 introduces a new Budgie applet for use via the Budgie panel, called the Places Indicator Applet. The Places Indicator Applet not only enables quick access to a User's Documents, Downloads, Music, etc. but the ability to open, mount, and 
 unmount removable media and network shares.
 
 ##### OSD Design Improvements
 
-![relimg](OSD-Display-Comparison-1.png)
+{{< relimg "OSD-Display-Comparison-1.png" >}}
+
 The design of our On-Screen Displays for Brightness and Sound have received improvements to design, making them more spacious and increasing the size of the iconography.
 
 ##### Volume Applet Improvements
 
-![relimg](Volume-Applet.png)
+{{< relimg "Volume-Applet.png" >}}
+
 We have introduced a volume popover for the volume applet. While this may initially appear redundant, it is important to remember that Budgie is interacted in several different ways. While mouse users can scroll on the applet to adjust the volume, this 
 isn't always easy, nor is it always intuitive or discoverable, when using a touchpad.
 
@@ -92,7 +97,8 @@ change, all third-party applets should be rebuilt against the new Budgie due to 
 
 #### MATE
 
-![relimg](Solus-MATE-Edition.png)
+{{< relimg "Solus-MATE-Edition.png" >}}
+
 We're really happy to be introducing MATE into the Solus family, providing a stellar out-of-the-box and a dedicated "Solus 1.2.1 MATE" ISO. MATE receives the **same treatment** under Solus as our primary Budgie experience, such as proper integration, 
 statelessness and sane defaults. Our MATE edition delivers a unique yet familiar traditional experience and even ships with **exclusive artwork** provided by [Marius Nestor](http://mariusnestor.ro).
 
@@ -106,10 +112,12 @@ than Mutter.
 
 ##### Integration Into Solus
 
-![relimg](MATE-Control-Center-DoFlicky.png)
+{{< relimg "MATE-Control-Center-DoFlicky.png" >}}
+
 Integration into Solus is key when we're delivering software and MATE is no exception. Out-of-the-box, the MATE Control Center properly integrates with our hardware tool, DoFlicky, as well as our Software Center.
 
-![relimg](MATE-Notification-Theme.png)
+{{< relimg "MATE-Notification-Theme.png" >}}
+
 Our MATE experience ships with a custom, distro-agnostic notification theme, aptly named [mate-notification-theme-solus](https://github.com/solus-project/mate-notification-theme-solus/), that is designed to be clean, modern, familiar to our 
 existing users; identical to the Arc-styled Budgie Desktop notifications.
 
@@ -129,7 +137,8 @@ ensure problem free upgrades and maintainence of Solus systems.
 
 ##### Encryption and LVM
 
-![relimg](Installer-LVM-and-Encryption.png)
+{{< relimg "Installer-LVM-and-Encryption.png" >}}
+
 Logical Volume Manager (LVM) and encryption via LUKS are now a mere couple clicks away in the new Installer. This is a great addition for businesses that enforce an encryption policy, the privacy conscious, or simply those that don't want their large 
 collections of I Can Haz Cheezeburger cat photos to be at risk in the event of theft. After enabling encryption, you will be prompted to provide your passphrase during boot and prior to the login screen, to perform decryption.
 
@@ -143,18 +152,22 @@ Aside from landing encryption and LVM support, we've landed a multitude of other
 
 #### Software Center
 
-![relimg](Solus-SC-Home.png)
+{{< relimg "Solus-SC-Home.png" >}}
+
 The Software Center saw numerous improvements for the Solus 1.2.1. For starters, upon launching the Software Center, you will now automatically receive the latest index of the repository.
 
-![relimg](Solus-SC-Updates-Notification.png)
+{{< relimg "Solus-SC-Updates-Notification.png" >}}
+
 The Software Center has also received an updates checker that notifies you on available updates. The Solus Update Checker runs in the background and will check for updates to your system. We offer granular control over if / when the update checker runs. Alongside the ability to disable the checker, we also provide the following options:
 
 -   Enable / disable checking for updates over a metered connection
 -   The update frequency (every hour, day, or weekly)
 -   The type of updates you wish to be notified about (all, security updates only, or security & core updates).
 
-![relimg](Solus-SC-Settings.png)
-![relimg](Solus-SC-Third-Party.png)
+{{< relimg "Solus-SC-Settings.png" >}}
+
+{{< relimg "Solus-SC-Third-Party.png" >}}
+
 You can now install a wider variety of software from our Third Party repository via the Software Center, namely:
 
 -   Android Studio

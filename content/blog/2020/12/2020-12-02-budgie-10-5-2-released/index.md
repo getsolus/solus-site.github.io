@@ -31,7 +31,8 @@ Budgie Menu has received various refinements for this release:
 
 #### Icon Tasklist
 
-![relimg](budgie-10-5-2-icon-tasklist.jpg)
+{{< relimg "budgie-10-5-2-icon-tasklist.jpg" >}}
+
 The Icon Tasklist applet has seen new features and behaviour refinements in Budgie 10.5.2.
 
 There are now two new options available, disabled by default, to launch a new instance of an application via the respective button for the application: middle click and double click. This expands on our existing option to create a new instance of an application by clicking the `+` button in the popover of each Icon Button.
@@ -53,12 +54,14 @@ We are always listening to feedback on how to improve the behaviour of Icon Task
 
 #### Sound
 
-![relimg](budgie-10-5-2-sound-applet.jpg)
+{{< relimg "budgie-10-5-2-sound-applet.jpg" >}}
+
 The Sound applet has seen a redesign and now features a dedicated button for mute toggling, as well as leveraging iconography for the System Settings button rather than text.
 
 #### System Tray
 
-![relimg](budgie-10-5-2-system-tray.jpg)
+{{< relimg "budgie-10-5-2-system-tray.jpg" >}}
+
 Dating back to the days of Budgie 7 in 2014, Budgie had been using an `na-tray` implementation also seen in desktop environments such as Cinnamon for the creation and management of system tray icons. Thanks to the incredible work by Solus contributor [Campbell Jones](https://github.com/serebit), the System Tray has been completely rewritten from scratch, supporting tray icons leveraging the XEmbed Protocol. This new implementation resolves numerous issues such as:
 
 - Background icons not refreshing, resulting in instances where it may appear that multiple icons are overlapping.
@@ -70,14 +73,16 @@ Additionally, a configuration option has been added for the System Tray that ena
 
 ### Budgie Desktop Settings
 
-![relimg](budgie-10-5-2-budgie-desktop-settings-remove-panel.jpg)
+{{< relimg "budgie-10-5-2-budgie-desktop-settings-remove-panel.jpg" >}}
+
 Budgie Desktop View has been updated to provide a clearer differentiation between removing a Panel and removing an applet from a Panel. A dedicated button for removing a panel has been added below the Panel's applet list, with a description that makes its purpose clearer. This button will not appear when you only have one panel in your Budgie setup. Building on this, we have removed the option to disable the panel removal confirmation dialog. From user reports, the consensus was that this option was too easy to enable, would result in accidental permanent removal of panels more frequently than desired, and lacked a clear user-friendly method to re-enable the prompt.
 
 For those which use Budgie in another language than English, the menu items presented when adding a new Autostart application or command via the Autostart section are now translatable. For any language which has the terms translated, those will be used instead.
 
 ### Budgie Desktop View
 
-![relimg](budgie-10-5-2-desktop-view.jpg)
+{{< relimg "budgie-10-5-2-desktop-view.jpg" >}}
+
 Budgie 10.5.2 is the first release of Budgie to feature our new desktop icons implementation. In releases dating back to the beginning of Budgie 10, we had been using Nautilus' (now legacy) desktop icons implementation to provide such support. When Nautilus removed their desktop icons support, Solus used an older version of Nautilus to retain it, while some other downstream consumers of Budgie used alternative file managers with similar features to that version of Nautilus, such as Nemo. During that time, other desktop environments have strayed away from providing this functionality with some going so far as to remove it entirely, requiring you to install third-party extensions to re-introduce the functionality.
 
 We have always recognized that for many, desktop icons is an important part of their workflow, and so retaining that support in a sustainable manner was paramount for the release of Budgie 10.5.2. We wanted to enable our downstreams to ship Budgie akin to how Solus does without potentially compromising on functionality.
@@ -96,14 +101,16 @@ Budgie has always been about striking a balance in customization and that extend
 
 ### Raven
 
-![relimg](budgie-10-5-2-raven-on-left.jpg)
+{{< relimg "budgie-10-5-2-raven-on-left.jpg" >}}
+
 Thanks to Solus contributor [Evan Maddock](https://github.com/EbonJaegar), Budgie 10.5.2 introduces a new option to choose which side of the screen Raven should be. Prior to Budgie 10.5.2, Raven would always appear on the left side when the main panel and trigger were on the left, and appear on the right when the main panel was anywhere else.
 
 Users will be able to choose between this behaviour, called "Automatic", as well as left and right sides!
 
 ### Translations
 
-![relimg](budgie-10-5-2-translations.jpg)
+{{< relimg "budgie-10-5-2-translations.jpg" >}}
+
 Thanks to [our incredible community members](https://discuss.getsol.us/d/5774-call-to-action-translators-needed) that have stepped up to translate Budgie, Budgie is now more accessible than ever. Budgie 10.5.2 introduces support for three new languages: Afrikaans, Albanian, and Hindi. Budgie now has 40 languages which have 90% or more coverage and we have seen dedicated translators step up for a wide range of languages, many of which are now completely translated, such as:
 
 - Croatian

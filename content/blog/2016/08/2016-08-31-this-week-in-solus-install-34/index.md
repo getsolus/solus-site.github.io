@@ -11,7 +11,8 @@ url = "/2016/08/31/this-week-in-solus-install-34/"
 +++
 Welcome to the 34th installation of This Week in Solus. 
 
-![relimg](https://i.giphy.com/OCu7zWojqFA1W.gif)
+{{< altimg "https://i.giphy.com/OCu7zWojqFA1W.gif" >}}
+
 #### Creativity is getting turned up a notch
 
 Let's start out with the couple applications that have landed as of last week, that have been long-standing requested items within Solus, however due do them requiring varies bits of KDE Frameworks 5, they were frankly set off to the side awaiting 
@@ -19,13 +20,15 @@ someone that enjoys diving down rabbit holes in search of adventure.
 
 That's right folks, we have **Kdenlive and Krita**. Thanks to the hard work of community member Peter a.k.a sunnyflunk, you're now able to unleash more of your creativity or enjoy editing on unarguably one of the best video editors on Linux.
 
-![relimg](Screenshot-from-2016-08-25-17-52-00.png)
+{{< relimg "Screenshot-from-2016-08-25-17-52-00.png" >}}
+
 Kdenlive is currently being put through its paces and I've ensured that we enable H.265 under Solus (**enabling it in both ffmpeg and gstreamer-1.0-plugins-bad**) with 8-bit, 10-bit, and 12-bit color depths. So far some editing and effects have been 
 tested as well as exporting in WebM (VP9), H.264 and H.265. We also ship breeze-icons to ensure iconography is utilized in Kdenlive. Next step is to make these applications look sexier with GTK.
 
 #### GAMES!
 
-![relimg](all-the-games.jpg)
+{{< relimg "all-the-games.jpg" >}}
+
 Alongside our Steam with a native runtime and Lutris, we have a fantastic selection of open source games, and they've only been expanding with the hard work of community member Bryan, a.k.a. DataDrake. After a few Game-Fests, we're now providing a 
 broader range of arcade, adventure / RPG, and racing games!
 
@@ -35,7 +38,8 @@ In terms of arcade games, we now have:
 - Endless Sky -- A sandbox-style space exploration game similar to Elite, Escape Velocity, or Star Control.
 - OpenJazz -- Jazz Jackrabbit reborn on Linux.
 
-![relimg](endless-sky.png)
+{{< relimg "endless-sky.png" >}}
+
 In terms of adventure / RPG games, we now have:
 
 - Angband -- Angband is a free, single-player dungeon exploration game
@@ -44,7 +48,8 @@ In terms of adventure / RPG games, we now have:
 
 #### i3
 
-![relimg](2016-08-31-110305_1366x768_scrot.png)
+{{< relimg "2016-08-31-110305_1366x768_scrot.png" >}}
+
 Traditionally, Solus has followed a single-desktop policy. This has allowed us, over time, to continuously refine our base system and practices, without having to make compromise. We're now at a point where our core system has a very distinct and 
 uncompromising shape. It must be remembered that as a whole, we build a complete Linux-based operating system, and as such our goals encompass much more than **just** the frontend.
 

@@ -15,4 +15,4 @@ Evolve OS users can now install the Transmission BitTorrent client by issuing th
 sudo pisi ur && sudo pisi it transmission
 ```
 
-![relimg](https://solus-project.com/pkg_screens/transmission.png)
+{{< altimg "https://solus-project.com/pkg_screens/transmission.png" >}}

@@ -14,7 +14,8 @@ Well, its that time again. We're pleased to announce v7 of Budgie Desktop, aka B
 
 This release represents 54 commits, with 53 files changed, 4524 insertions and 157 deletions. We call it v7.
 
-![relimg](/release_images/7notification.png)
+{{< altimg "/release_images/7notification.png" >}}
+
 ### So what's new?
 
 Glad you asked. To put it briefly, we added notifications support (Big thanks to Josh Klar for his help!), added an initial X11 tray (notification area) which will eventually be superseded by appindicator support, fixed a fair few bugs with session and widgets, and Budgie Popovers now use "native" GtkPopover styling, even though they're not. In short, it allows the sexiness of your theme to continue with Budgie.
@@ -41,5 +42,6 @@ Budgie is currently known not to start on GDM3.12 on certain distributions. Also
 
 ### Obligatory excess screenshot section
 
-![relimg](/release_images/7sound-menu.png)
-![relimg](/7gnome-panel-mode.png)
+{{< altimg "/release_images/7sound-menu.png" >}}
+
+{{< altimg "/7gnome-panel-mode.png" >}}

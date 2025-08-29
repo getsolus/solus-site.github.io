@@ -27,7 +27,8 @@ In Solus 1.2.1, we will be continuing our efforts to improve internationalizatio
 
 #### Hardware Support
 
-![relimg](vulkan.png)
+{{< relimg "vulkan.png" >}}
+
 We have updated our [linux-firmware](https://git.solus-project.com/projects/linux-firmware/) to introduce more hardware support, such as AMD Polaris UVD firmware and additional Intel Bluetooth devices. Solus 1.2.1 will see Vulkan support for 
 Intel, OpenGL 4.3+ support across a wide range of hardware [thanks to Mesa 12.0.0-rc4](https://git.solus-project.com/packages/mesalib/commit/?id=2762dac94c9a09f1553ea6146d84e553f080e102), and Skylake improvements with the latest 
 syncing of [xorg-driver-video-intel](https://git.solus-project.com/packages/xorg-driver-video-intel/commit/?id=9a7ddaed1fcf713c6efe3aa6e18e405cd90e6476).

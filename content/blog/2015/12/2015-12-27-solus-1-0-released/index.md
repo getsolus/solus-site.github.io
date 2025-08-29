@@ -22,7 +22,8 @@ Solus is a Linux-based operating system built from scratch for the modern deskto
 
 The Solus Project develops a GTK-based desktop environment referred to as Budgie. Budgie ships with a multitude of features, such as the ones below.
 
-![relimg](Default.jpg)
+{{< relimg "Default.jpg" >}}
+
 ##### Accessibility
 
 Budgie has been tested and refined to ensure High Contrast theming works out-of-the-box and enabling usage by individuals with visual impairments.
@@ -33,7 +34,8 @@ This menu enables quick access to your installed programs and offers category an
 
 ##### Raven
 
-![relimg](Default-Raven.jpg)
+{{< relimg "Default-Raven.jpg" >}}
+
 Budgie ships with an applet, notification and customization center referred to as Raven. Raven enables you to:
 
 1. Easily access calendar information, sound volume, media player controls, and more via Applets view.
