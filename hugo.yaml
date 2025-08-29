@@ -1,6 +1,8 @@
-baseURL: "https://demo.getsol.us/"
+baseURL: "https://getsol.us/"
 languageCode: "en-us"
 title: "Solus"
+
+googleanalytics: "UA-Not-Yet"
 
 build:
   buildStats:
