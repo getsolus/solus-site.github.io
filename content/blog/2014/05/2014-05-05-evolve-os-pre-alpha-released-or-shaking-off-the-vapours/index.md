@@ -14,8 +14,7 @@ Hello all,
 As a follow up from yesterday's status update, well, it boots! So today I'm happy to release a **pre-alpha validation ISO**. Note this ISO is only available as a 64-bit system, 
 and is not persistent! The desktop and installer are deliberately absent from this ISO, but you can use it to validate the system base, compiler, etc.<!--more-->
 
-{{< relimg "Screenshot-from-2014-05-05-152458.png" >}}
-
+![relimg](Screenshot-from-2014-05-05-152458.png)
 ### What's in the system?
 
 This is a 64-bit LiveCD ISO, which is also bootable on a USB stick. It features the following software versions:

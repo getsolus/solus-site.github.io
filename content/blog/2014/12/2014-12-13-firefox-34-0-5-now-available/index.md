@@ -16,4 +16,4 @@ emulator (i.e. GNOME Terminal):
 sudo eopkg up
 ```
 
-{{< relimg "Screenshot-from-2014-12-13-163148.png" >}}
+![relimg](Screenshot-from-2014-12-13-163148.png)

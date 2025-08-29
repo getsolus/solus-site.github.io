@@ -30,8 +30,7 @@ I'm happy to say that Ikey's goal for a native Steam runtime were accomplished, 
 The implications of a native Steam runtime are pretty serious too. Rather than having non-optimized Ubuntu libraries from Steam's runtime, we are able to provide optimized libraries for a **more performant** gaming experience than **any** other 
 "tier one" operating system. There is still work to be done on the optimization front, but we're confident in this first step.
 
-{{< relimg "Screenshot-from-2016-05-23-00-46-16.png" >}}
-
+![relimg](Screenshot-from-2016-05-23-00-46-16.png)
 In addition to the native Steam runtime, some bug squashing happened as well:
 
 - Disk Usage Analyzer (Baobab) no longer handles the inode/directory mime type. Basically this means you'll no longer be opening up Disk Usage Analyzer when you really meant to open Nautilus. This could happen across a wide range of software, such as 

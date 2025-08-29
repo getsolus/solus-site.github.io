@@ -97,8 +97,7 @@ wpa_supplicant has been updated to 2.9, which enables support for WPA3-SAE and O
 
 ## Budgie
 
-{{< altimg "Budgie.jpg" "/release-images/4.1/" >}}
-
+![relimg](Budgie.jpg)
 Solus ships with the latest release of our flagship desktop environment, [Budgie 10.5.1](/2019/10/03/budgie-and-its-army-of-gnomes/). Released last October, this release introduced fixes and quality of life improvements such as:
 
 - Budgie Menu
@@ -118,8 +117,7 @@ Solus ships with the latest release of our flagship desktop environment, [Budgie
 
 ## GNOME
 
-{{< altimg "GNOME.jpg" "/release-images/4.1/" >}}
-
+![relimg](GNOME.jpg)
 Solus 4.1 GNOME Edition ships with the latest release of the GNOME 3.34 Stack, 3.34.3. GNOME 3.34.3 introduces various fixes to the GNOME experience such as:
 
 - Ensuring the user is able to create application folders in GNOME Shell (by drag and dropping application icons on top of each other) when no folders existed previously.
@@ -136,8 +134,7 @@ Solus GNOME Edition continues to ship with our curated out-of-the-box experience
 
 ## MATE
 
-{{< altimg "MATE.jpg" "/release-images/4.1/" >}}
-
+![relimg](MATE.jpg)
 Solus 4.1 MATE Edition ships with the latest release of the MATE 1.22 series, which contains numerous bug fixes and under-the-hood improvements. Some of the highlights include:
 
 - MATE Applets improvements
@@ -165,14 +162,12 @@ Solus MATE Edition ships with the latest release of our Brisk Menu implementatio
 
 ### MATE User Manager
 
-{{< relimg "mate-user-admin.jpg" >}}
-
+![relimg](mate-user-admin.jpg)
 Solus MATE Edition now ships with a new utility for user and groups management called [MATE User Manager](https://github.com/zhuyaliang/user-admin/), replacing the previous group and user management functionality in MATE Control Center.
 
 ## Plasma
 
-{{< altimg "Plasma.jpg" "/release-images/4.1/" >}}
-
+![relimg](Plasma.jpg)
 We're proud to announce a new addition to the Solus family: Solus Plasma Edition. Solus Plasma Edition has been a long sought after experience by current and prospective users alike, melding our ability to create a curated out-of-the-box experience with the sophistication of the Plasma Desktop experience.
 
 Solus 4.1 Plasma Edition features Plasma Desktop [5.17.5](https://kde.org/announcements/plasma-5.17.5.php), the latest of 5.17 series, and is complemented by KDE Frameworks [5.66](https://kde.org/announcements/kde-frameworks-5.66.0.php), KDE Applications [19.12.1](https://kde.org/announcements/releases/19.12.1) and QT [5.13.2](https://www.qt.io/blog/qt-5.13.2-released).

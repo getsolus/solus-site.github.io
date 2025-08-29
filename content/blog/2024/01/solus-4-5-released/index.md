@@ -65,8 +65,7 @@ Mesa has been upgraded to 23.3.2. This introduces various improvements:
 
 ## Budgie
 
-{{< altimg "Budgie.jpg" "/release-images/4.5/" >}}
-
+![relimg](Budgie.jpg)
 Solus ships with [Budgie 10.8.2](https://blog.buddiesofbudgie.org/budgie-10-8-2-released/), the latest release of the Budgie Desktop. Since the release of Solus 4.4, our friends over at _Buddies of Budgie_ have been steadily improving the user experience of Budgie and laying the groundwork for Wayland support.
 
 ### Dark style preference support
@@ -90,8 +89,7 @@ Upstream release notes can be found [here](https://blog.buddiesofbudgie.org).
 
 ## GNOME
 
-{{< altimg "GNOME.jpg" "/release-images/4.5/" >}}
-
+![relimg](GNOME.jpg)
 Solus 4.5 GNOME Edition ships with GNOME 45.2
 
 ### Defaults configuration changes
@@ -112,8 +110,7 @@ Upstream release notes can be found [here](https://release.gnome.org/)
 
 ## Plasma
 
-{{< altimg "Plasma.jpg" "/release-images/4.5/" >}}
-
+![relimg](Plasma.jpg)
 Solus 4.5 Plasma Edition ships with the latest Plasma Desktop, KDE Frameworks, KDE Gear, and, the KDE branch for QT, which largely brings bugfixes and translation updates
 
 - [Plasma 5.27.10](https://kde.org/announcements/plasma/5/5.27.10/)
@@ -131,8 +128,7 @@ Plenty of work has also been done for the future of the Plasma edition. We are s
 
 ## XFCE
 
-{{< altimg "XFCE-Beta.jpg" "/release-images/4.5/" >}}
-
+![relimg](XFCE-Beta.jpg)
 In the [Solus 4.4 release post](/2023/07/08/solus-4-4-released) we announced our intention to deprecate the MATE Edition in favor of a new XFCE edition. The XFCE edition aims to fill the same niche as the MATE edition: users who prefer a more lightweight desktop experience.
 
 As this is the first release of the XFCE edition, there may be some rough edges, even with all the time taken to make the experience smooth. We are calling the 4.5 release of XFCE a _beta_ release.

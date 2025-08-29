@@ -14,8 +14,7 @@ url = "/2016/03/20/this-week-in-solus-install-24/"
 
 Welcome to the 24th installation of This Week in Solus. 
 
-{{< relimg "brace-yourselves-knowledge-is-coming_19021.jpeg" >}}
-
+![relimg](brace-yourselves-knowledge-is-coming_19021.jpeg)
 #### Sundays with Solus
 
 This Sunday we had our second Sundays with Solus session, our Hangout session that happens on the first and third Sunday of every month. As well as the video below, there are sections throughout this blog post that highlight and expand upon 
@@ -38,20 +37,17 @@ The upcoming version of Budgie will see the inclusion of functionality to change
 - Toggling of enable / disable desktop icons.
 - Setting fonts for "Window Titles", "Interface", "Documents", "Monospace"
 
-{{< relimg "Screenshot-from-2016-03-20-17-47-29.png" >}}
-
+![relimg](Screenshot-from-2016-03-20-17-47-29.png)
 ##### Bluetooth
 
 Did the improvements of Budgie stop there? **No. Silly question.** Ikey has also landed Bluetooth support into Budgie. You can now toggle Bluetooth Airplane Mode, have quick access to settings, etc.
 
-{{< altimg "2016/03/Screenshot-from-2016-03-20-17-17-48.png" >}}
-
+![relimg](2016/03/Screenshot-from-2016-03-20-17-17-48.png)
 ##### Can you hear me now? Oh, wrong audio input device.
 
 Have multiple audio input or output devices and trouble discerning between them? Wonder no longer, Ikey has resolved [this issue](https://github.com/solus-project/budgie-desktop/issues/337) and will land in the next Budgie release!
 
-{{< relimg "eba34520-eec6-11e5-9d42-b96eddf99da4.png" >}}
-
+![relimg](eba34520-eec6-11e5-9d42-b96eddf99da4.png)
 #### Font Improvements
 
 Sometimes the biggest improvements to a desktop experience are the things we least expect. In my opinion, one of those things is font rendering. Unless you're obsessed with cat videos or staring at pictures of kittens all day, you deal with typography a lot, 

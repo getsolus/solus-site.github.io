@@ -42,15 +42,13 @@ Furthermore, I'll be implementing the MP3 and OGG podcast feeds in preparation f
 
 ### ABI Reports
 
-{{< relimg "abi-reports.jpg" >}}
-*This goes on for several pages.*
+![relimg](abi-reports.jpg)*This goes on for several pages.*
 
 Peter spent time before our migration to Diffusion and Differential generating the ABI reports for over **500** packages. These reports give us a clear picture of all the used libraries of a package as well as what ABI / APIs they expose, which makes it easy to spot changes across upgrades or tweaks to packages and come to a determination as to whether we'll need to rebuild packages that depend on it.
 
 ### Bluetooth
 
-{{< relimg "creative-t3250.jpg" >}}
-
+![relimg](creative-t3250.jpg)
 [Thanks to our Patrons](https://patreon.com/solus) and donators on PayPal for their continued support of the project, Ikey was able to sponsor my purchase of some Bluetooth speakers, specifically the [Creative T3250 wireless speakers](https://plus.google.com/+JoshuaStrobl/posts/ftwh36axeuC) and an Asus USB-BT400 Bluetooth USB adapter. This was done as we had received reports of non-functionality Bluetooth A2DP audio on some systems and needed hardware to test and validate solutions in a more rapid fashion than what have may otherwise been possible through conversing and testing via IRC.
 
 The issue was a result of GDM starting its own instance of Pulseaudio, something I addressed in our [GDM 3.20.1 rel 22](https://dev.solus-project.com/R881:4b64ed1e4ea0d8a1823f2ae4b948f98c988dcdb3). Furthermore, I did enablement of bluez, namely enabling a stateless config and shipping our vendor-provided configuration with AutoEnable set to true, so Bluetooth controllers are automatically enabled. I also [went through and tested all editions](https://plus.google.com/+JoshuaStrobl/posts/hrGiypVeFob), as well what would be considered a more frankenstein installation of Budgie and GNOME, with GDM as the display manager, which is reflective of almost all usage of GNOME prior to the release of Solus GNOME Edition, to validate A2DP functioning on all them.

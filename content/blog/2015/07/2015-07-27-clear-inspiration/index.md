@@ -36,15 +36,13 @@ we're able to deploy tangible changes in minutes, with no obstacles.
 More recently, we embarked on a mission to convert Solus to a stateless configuration. We're a long way from that target right now, but we're directly following the work of what we consider upstream in this regard, the Clear Linux Project. Through the 
 work done there, we can benefit and extend upon this to get to the point shown in the screenshot below, of Clear Linux (2190) running via KVM.
 
-{{< relimg "clear.png" >}}
-
+![relimg](clear.png)
 ### Other areas we've taken interest
 
 Well, for one, boot time. It's no secret lately we've been doing many things to optimize our boot time, and we know we can do better. Granted, we'll never achieve the awesome boot speeds of Clear Linux, but we can definitely look to it for 
 inspiration to do better!
 
-{{< relimg "clear_boot.png" >}}
-
+![relimg](clear_boot.png)
 The major thing for us, is how we put things together. Tooling is a huge thing for us now, and we try to integrate good tooling into our daily practices. We've got [Over the course of the last few months, Solus has undergone some very core 
 changes, and embarked on a few new missions too. But where did this inspiration come from? Well, for the most, from the [Clear Linux Project for Intel Architecture](https://clearlinux.org/).
 

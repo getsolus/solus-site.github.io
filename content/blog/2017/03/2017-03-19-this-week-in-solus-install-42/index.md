@@ -20,8 +20,7 @@ We updated our kernel to the latest longterm release, 4.9.16.
 
 Justin and Ikey landed MATE 1.18 today, which features our upstreamed patch for action icons in mate-notification-daemon (shown below) and the many [fantastic improvements](https://mate-desktop.org/blog/2017-03-13-mate-1-18-released/) from the MATE Desktop Team.
 
-{{< relimg "mate-1.18-action-icons.jpg" >}}
-
+![relimg](mate-1.18-action-icons.jpg)
 ## Learn Solus Packaging
 
 Over the last few weeks, I've been doing livestreams to help people get started with Solus packaging. The benefit of these sessions is that the frequency of them enable the constant improvement and tweaks we do to solbuild and ypkg to be immediately discussed. The format is as follows:

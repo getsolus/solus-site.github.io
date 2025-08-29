@@ -15,8 +15,7 @@ releases are as polished as possible for our users.
 
 <!--more-->
 
-{{< altimg "https://solus-project.com/release_images/weather.png" >}}
-
+![relimg](https://solus-project.com/release_images/weather.png)
 ## What's new in this release?
 
 This release is the first graphical and installable release of Evolve OS, marking the start of our general availability. This image is targeted at the GNOME 3.10 stack, with 
@@ -82,9 +81,7 @@ wouldn't exist.
 ## Moar screenshots
 
 
-{{< altimg "https://solus-project.com/release_images/firefox.png" >}}
+![relimg](https://solus-project.com/release_images/firefox.png)
+![relimg](https://solus-project.com/release_images/installer2.png)
 
-{{< altimg "https://solus-project.com/release_images/installer2.png" >}}
-
-
-{{< altimg "https://solus-project.com/release_images/menu.png" >}}
+![relimg](https://solus-project.com/release_images/menu.png)

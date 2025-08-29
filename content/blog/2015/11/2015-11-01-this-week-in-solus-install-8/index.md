@@ -22,8 +22,7 @@ We've been hard at work fixing bugs and updating software, something that'll be 
 We can fairly confidently state that we've resolved crashes in Firefox. We've opted to enable Firefox to use it's own cairo, as well as libpng and pixman. Alongside these fixes, we've pushed more enabling of HTML5 features, namely MediaSource, including 
 MediaSource WebM specific features. In essense, this means HD, WebM-based video content is now playable under Firefox. This was primarily an issue for content on YouTube.
 
-{{< relimg "Screenshot-from-2015-10-30-19-59-53.png" >}}
-
+![relimg](Screenshot-from-2015-10-30-19-59-53.png)
 #### Package Updates
 
 As per the usual, we'll break down the package changes since last week based on contributor and if the package is new or updated. We'll also have a highlights section, so it is clear what the more major items are!

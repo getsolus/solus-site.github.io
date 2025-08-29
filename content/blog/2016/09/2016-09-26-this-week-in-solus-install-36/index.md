@@ -14,8 +14,7 @@ Welcome to the 36th installation of This Week in Solus.
 
 #### MATE
 
-{{< relimg "Screenshot-at-2016-09-25-19-43-00.png" >}}
-
+![relimg](Screenshot-at-2016-09-25-19-43-00.png)
 We're happy to report the landing of MATE 1.16.0 in the Solus unstable repository. This MATE release improved GTK3 support and improvements to MATE applications such as:
 
 - caja now will always show the right-arrow button, now uses GtkAboutDialog.

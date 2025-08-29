@@ -41,8 +41,7 @@ largely inspired by [Clear Linux's autospec](https://github.com/clearlinux/autos
 As stated in our [1.0 and Beyond](https://solus-project.com/2015/12/28/1-0-and-beyond/) blog post, printing support has been a target for 1.1. I am happy to report that printing has been resolved and will be made readily available in the stable 
 repository for 1.1.
 
-{{< relimg "2WCcF57H2z6O.png" >}}
-
+![relimg](2WCcF57H2z6O.png)
 ##### Python 3.5 and UCS4 migration
 
 Python 3 and Python 3-based packages have been migrated from 3.4 to 3.5. The decision was made to move to 3.5 due to it disabling (by default) of SSLv3. In addition to the work done on Python 3, we have moved from UCS2 to UCS4 in Python 2. This was 

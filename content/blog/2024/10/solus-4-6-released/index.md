@@ -68,8 +68,7 @@ The full upstream release notes are [here](https://docs.mesa3d.org/relnotes/24.2
 
 ## Budgie
 
-{{< altimg "Budgie.jpg" "/release-images/2024-10-14/" >}}
-
+![relimg](Budgie.jpg)
 Solus ships with [Budgie 10.9.2](https://blog.buddiesofbudgie.org/budgie-10-9-2-released/), the latest release of the Budgie Desktop. The mature 10.9.x series brings some small improvements, and builds on Budgie's reputation for stability and polish.
 
 ### Default applications
@@ -84,8 +83,7 @@ Upstream release notes can be found [here](https://blog.buddiesofbudgie.org).
 
 ## GNOME
 
-{{< altimg "GNOME.jpg" "/release-images/2024-10-14/" >}}
-
+![relimg](GNOME.jpg)
 Solus 4.6 GNOME Edition ships with GNOME 46.5.
 
 ### Added Features
@@ -104,8 +102,7 @@ Upstream release notes can be found [here](https://release.gnome.org/46/)
 
 ## Plasma
 
-{{< altimg "Plasma.jpg" "/release-images/2024-10-14/" >}}
-
+![relimg](Plasma.jpg)
 Solus 4.6 Plasma Edition ships with the latest Plasma Desktop, KDE Frameworks, KDE Gear, and the KDE branch for QT. The most notable change is the introduction of Plasma 6. If you're looking for Wayland, Plasma still has you covered.
 
 Upstream release notes:
@@ -118,8 +115,7 @@ Upstream release notes:
 
 ## XFCE
 
-{{< altimg "XFCE-Beta.jpg" "/release-images/2024-10-14/" >}}
-
+![relimg](XFCE-Beta.jpg)
 We continue to call our XFCE Desktop a *beta* experience, though we have been shipping this desktop since the release of Solus 4.5.
 
 The XFCE edition includes:

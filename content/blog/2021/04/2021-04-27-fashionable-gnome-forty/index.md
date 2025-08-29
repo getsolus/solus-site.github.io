@@ -47,8 +47,7 @@ When compiled alongside GNOME Settings Daemon 40.x, Budgie will use the migrated
 
 ### Quality-of-life Improvements
 
-{{< relimg "budgie-desktop-settings.jpg" >}}
-
+![relimg](budgie-desktop-settings.jpg)
 Here are some quality-of-life improvements shipping in Budgie 10.5.3
 
 - Filter out audacious notifications so they do not clutter up Raven. 
@@ -67,8 +66,7 @@ Official distribution tarballs for Budgie 10.5.3 are available [here](https://gi
 
 ## GNOME 40
 
-{{< relimg "gnome-40.jpg" >}}
-
+![relimg](gnome-40.jpg)
 With this Friday's sync to the stable repository, we will be rolling out the GNOME 40 stack. This stack upgrade introduces the latest updates to GNOME Shell, GNOME's desktop environment, as well as its applications, libraries, and window manager.
 
 ### Highlights

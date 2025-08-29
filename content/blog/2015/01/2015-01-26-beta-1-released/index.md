@@ -14,15 +14,13 @@ The Evolve OS team is proud to announce the release of Evolve OS Beta 1. Evolve 
 
 We're cutting the marketing speak and getting right to the point, we want to give you something you can just use, and just works.
 
-{{< relimg "Screenshot-from-2015-01-26-011134.png" >}}
-
+![relimg](Screenshot-from-2015-01-26-011134.png)
 ### Feature Improvements
 
 Evolve OS now features a preliminary version of evolve-sc, the Evolve OS Software Center. It's aim is to simplify the updating and installation of software, providing a 
 simple interface to get the job done. Given its introductory status, we'd appreciate any and all feedback!
 
-{{< relimg "Screenshot-from-2015-01-26-011451.png" >}}
-
+![relimg](Screenshot-from-2015-01-26-011451.png)
 Budgie Desktop is currently in sync with our latest development version, and is now built upon the GNOME 3.14.2 stack. Consequently many existing issues with the 
 desktop have been resolved, and as such provides a far more stable experience than previous.
 
@@ -32,8 +30,7 @@ considerable time optimising towards desktop usage, and consequently this has le
 we will be pushing automatic driver management and 32-bit support via our update mechanism, however for a sneak preview you can see 
 here [Kerbal Space Program](https://kerbalspaceprogram.com/) running perfectly on Evolve OS Beta 1.
 
-{{< relimg "Screenshot-from-2015-01-22-181056.png" >}}
-
+![relimg](Screenshot-from-2015-01-22-181056.png)
 ### Thanks to
 
 There are an extraordinary amount of people we would like to thank. In no particular order we would like to extend our thanks to the [GNOME Project](http://www.gnome.org/),
@@ -41,8 +38,7 @@ There are an extraordinary amount of people we would like to thank. In no partic
  photography within our default art selection, our fantastically supportive (and patient!) community for all the hard work they've put in, and to everyone currently and 
  previously working on open source software, without whom none of this would be possible.
 
-{{< relimg "Screenshot-from-2015-01-25-185027.png" >}}
-Courtesy of Dirk Hohndel -- CC-BY-3.0
+![relimg](Screenshot-from-2015-01-25-185027.png)Courtesy of Dirk Hohndel -- CC-BY-3.0
 
 ### Getting Evolve OS
 

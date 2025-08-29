@@ -15,8 +15,7 @@ Welcome to This Week in Solus, Installation #12.
 
 You know how I've said before "I think this is the biggest TWIS I've done"? Well, just consider that restated, again.
 
-{{< altimg "http://media.giphy.com/media/q540XuK9hMxY4/giphy.gif" >}}
-Deal with it.
+![relimg](http://media.giphy.com/media/q540XuK9hMxY4/giphy.gif)Deal with it.
 
 #### Budgie Next
 
@@ -25,8 +24,7 @@ There has been a lot of user experience work done on Budgie Next this week. Than
 - Separate out Applets and Notifications.
 - Enable Budgie, Theming, and Raven customization
 
-{{< relimg "GUwr5Jh.png" >}}
-
+![relimg](GUwr5Jh.png)
 As you can see from the recent video by Ikey, implementation of the design is coming along and work on its functionality will begin soon.
 
 #### Goofiboot
@@ -37,8 +35,7 @@ on our new daily image (as also stated in the New Daily section below) and accor
 
 > One of the nasty problems we hit in the past with gummiboot was actually **case sensitivity**. The EFI System Partition is FAT32, which is case insensitive, but sadly, preserves case. We've encountered multiple instances now whereby various standardised directories used the wrong case, which caused installation to fail.
 
-{{< relimg "JPL-Celebration-at-Mars-Landing.gif" >}}
-
+![relimg](JPL-Celebration-at-Mars-Landing.gif)
 **This issue is now resolved.**
 
 #### Hardware Support
@@ -68,8 +65,7 @@ He also posted a poll regarding availability of encryption options. If you haven
 
 **We're happy to announce a new Daily image, 0.201548.7.0, which is available for download [here](https://solus-project.com/daily-iso/).**
 
-{{< altimg "https://media1.giphy.com/media/aWpbEcyxa2VSo/200.gif" >}}
-
+![relimg](https://media1.giphy.com/media/aWpbEcyxa2VSo/200.gif)
 This new daily features a lot of changes and improvements since Release Candidate 1 and we'd like to highlight some of them below (full changelog at bottom of article):
 
 ##### Firefox
@@ -351,8 +347,7 @@ Here is a highlight of package updates that have occurred this week:
 - [Ikey Doherty: Bump for kernel rebuild](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=b37ca67)        
 - [Ikey Doherty: Rebuild against 4.1.12 kernel](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=4feab36)
 
-{{< altimg "https://media4.giphy.com/media/12XMGIWtrHBl5e/200.gif" >}}
-
+![relimg](https://media4.giphy.com/media/12XMGIWtrHBl5e/200.gif)
 **upower**
 
 - [Ikey Doherty: Update to 0.99.3](https://git.solus-project.com/packages/upower/commit/?id=d8d6e88)
@@ -618,4 +613,4 @@ Here is a highlight of package updates that have occurred this week:
 
 - [Ikey Doherty: Update to 2.18.1](https://git.solus-project.com/packages/at-spi2/commit/?id=080be1a)
 
-{{< altimg "http://i.imgur.com/7drHiqr.gif" >}}         
+![relimg](http://i.imgur.com/7drHiqr.gif)

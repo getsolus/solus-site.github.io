@@ -14,8 +14,7 @@ Welcome to the 35th installation of This Week in Solus!
 
 #### Have you found your Sol-MATE?
 
-{{< relimg "Screenshot-from-2016-09-03-21-27-18.png" >}}
-
+![relimg](Screenshot-from-2016-09-03-21-27-18.png)
 On Friday we were happy to start our Solus Mystery Hackfest with a big announcement that builds upon the emphasizing we did in the previous This Week in Solus that we don’t believe in one-size-fits-all approaches. This announcement was that 
 **we will be providing MATE** as an option for your desktop experience, as well as **shipping a Solus MATE Edition** alongside our primary, Budgie image, both of which are expected to next be **available for Solus 1.2.1**.
 
@@ -44,8 +43,7 @@ We hope this clarifies our position!
 
 #### i3: I got too much love in all these tiles!
 
-{{< relimg "i3.png" >}}
-
+![relimg](i3.png)
 The improvements and integration of i3 in Solus has continued throughout last week, such as (**but not limited to**):
 
 - A volume change sound is now played when you change the volume via keyboard keys.

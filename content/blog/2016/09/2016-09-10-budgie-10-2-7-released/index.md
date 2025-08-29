@@ -25,8 +25,7 @@ settings via the battery / power applet.
 Our Icon Tasklist now enforces a 1:1.1 aspect ratio, which should help alleviate the feeling of items being overly compressed. We have added automatic icon size scaling as well, thus eliminating the need for the "larger icons" setting we have previously, 
 which breaks consistency in the panel.
 
-{{< relimg "icon-tasklist.png" >}}
-
+![relimg](icon-tasklist.png)
 ##### Keyboard Layout Indicator
 
 Are you a multi-lingual or use multiple keyboard layouts? We now provide a mouse-driven method for switching between them, alongside our existing Super+Space shortcut.
@@ -38,28 +37,24 @@ Are you a multi-lingual or use multiple keyboard layouts? We now provide a mous
 We also now provide a dedicated Raven Sidebar Control that enables quick, mouse-driven access to the Applets View of Raven, which complements our existing offering of keyboard-driven access to Raven, such as Super+A for Applet View and Super+N for 
 Notifications View.
 
-{{< relimg "raven-sidepane-control.png" >}}
-
+![relimg](raven-sidepane-control.png)
 ##### User Indicator
 
 Budgie 10.2.7 introduces our new User Indicator. This indicator gives the user quick access to logout, lock, suspend (**automatically locks the system too**), restart and shutdown their system.
 
-{{< relimg "user-indicator.png" >}}
-
+![relimg](user-indicator.png)
 #### Iconography
 
 Budgie 10.2.7 more broadly tackles issues with inconsistent application iconography. You should now find that a multitude of games and common applications follow your icon theme, such as the ones shown below!
 
-{{< relimg "icon-fixes.png" >}}
-
+![relimg](icon-fixes.png)
 **Ironically the FreeOrion icon here isn't consistent. But you get the idea.**
 
 #### On Screen Displays
 
 On Screen Displays (**typically just called OSDs**) have landed in Budgie 10.2.7, for when you change brightness or volume levels, as shown below!
 
-{{< relimg "osd.png" >}}
-
+![relimg](osd.png)
 <video class="aligncenter" src="/2016/09/10/budgie-10-2-7-released/ods.mp4" autoplay="autoplay" loop="loop" controls="controls" width="600px" height="400px"></video>
 
 #### Raven Improvements

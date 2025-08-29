@@ -13,8 +13,7 @@ Welcome to the 16th installation of This Week in Solus. This is the first instal
 
 Fast forward a week and things haven't slowed down at all. We have gotten plenty of new package requests, bug reports, and issued fixes for hiccups users have had along the way.
 
-{{< altimg "http://i.giphy.com/8EmeieJAGjvUI.gif" >}}
-
+![relimg](http://i.giphy.com/8EmeieJAGjvUI.gif)
 #### Budgie
 
 There has been **three** **updates** released for the Budgie desktop since the v10/10.1 release (we're currently on 10.2.2). Here are some highlights:
@@ -58,8 +57,7 @@ Budgie is now 100% translated into the following languages (not including Englis
 
 There is also progress being done on languages such as Swedish, Tagalog, Catalan, and more! Absolutely massive thanks to everyone that has contributed so far.
 
-{{< altimg "http://i.giphy.com/q9fohf0Erd50A.gif" >}}
-
+![relimg](http://i.giphy.com/q9fohf0Erd50A.gif)
 #### General Improvements
 
 - We have enabled [crypto optimizations](https://git.solus-project.com/packages/kernel/commit/?id=acc188d1e663d51c028123e0bda0e79b720bc350) in the kernel.

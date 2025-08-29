@@ -57,8 +57,7 @@ Mesa has been upgraded to 23.0.3. This introduces various improvements, such as:
 
 ## Budgie
 
-{{< altimg "Budgie.jpg" "/release-images/4.4/" >}}
-
+![relimg](Budgie.jpg)
 Solus ships with the latest 10.7 series release of the Budgie Desktop environment, [10.7.2](https://blog.buddiesofbudgie.org/budgie-10-7-2/). This features GNOME 43 stack support alongside all the fixes and quality-of-life improvements listed below. We welcome you to check out the full release notes from Buddies of Budgie listed above.
 
 The Budgie edition of Solus now ships with the Nemo file manager by default instead of Nautilus. We decided to make this change as, since our last release, Nautilus has been ported to GTK4 and libadwaita. Because of this, it no longer fits in with the look and feel of the rest of the desktop environment. Additionally, a few features that people relied on were removed without replacement, prompting the desire to find a familiar and feature-rich file manager alternative.
@@ -90,8 +89,7 @@ Upstream release notes can be found [here](https://blog.buddiesofbudgie.org).
 
 ## GNOME
 
-{{< altimg "GNOME.jpg" "/release-images/4.4/" >}}
-
+![relimg](GNOME.jpg)
 Solus 4.4 GNOME Edition ships with the latest GNOME 43 series release, 43.5.
 
 ### Defaults Changes
@@ -119,8 +117,7 @@ Upstream release notes can be found [here](https://release.gnome.org/)
 
 ## MATE
 
-{{< altimg "MATE.jpg" "/release-images/4.4/" >}}
-
+![relimg](MATE.jpg)
 Solus 4.4 MATE Edition ships with the latest MATE 1.27 series release, 1.27.1.
 
 ### ⚠️ Planned deprecation of the MATE Edition 😱
@@ -147,8 +144,7 @@ Upstream release notes can be found [here](https://github.com/mate-desktop/mate-
 
 ## Plasma
 
-{{< altimg "Plasma.jpg" "/release-images/4.4/" >}}
-
+![relimg](Plasma.jpg)
 Solus 4.4 Plasma Edition ships with the latest Plasma Desktop 5.27.5, KDE Frameworks 5.106.0, KDE Gear 23.04.2, and, the KDE branch for QT 5.15.9, which brings many new features. Some highlights:
 
 - Many new look and feel customization options to allow you to personalize your Plasma experience.

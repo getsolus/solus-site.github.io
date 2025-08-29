@@ -17,8 +17,7 @@ With Alpha 3 we will actually ship two images, one legacy, and one EFI only. Thi
 opposed to a hybrid ISO configuration.
 <!--more-->
 
-{{< altimg "https://solus-project.com/release_images/a2/rundialog.png" >}}
-
+![relimg](https://solus-project.com/release_images/a2/rundialog.png)
 ## Changes
 
 The image now automatically logs in as the live user, but please remember that the desktop does not yet automatically "start" until you move your cursor. So, 
@@ -65,10 +64,8 @@ you'll stick around here for a while 🙂 If something is needed, and we're miss
 
 ## Screenshots
 
-{{< altimg "https://solus-project.com/release_images/a2/gimp.png" >}}
+![relimg](https://solus-project.com/release_images/a2/gimp.png)
 
+![relimg](https://solus-project.com/release_images/a2/maps.png)
 
-{{< altimg "https://solus-project.com/release_images/a2/maps.png" >}}
-
-
-{{< altimg "https://solus-project.com/release_images/a2/nautilus.png" >}}
+![relimg](https://solus-project.com/release_images/a2/nautilus.png)

@@ -49,8 +49,7 @@ Last week, during the Hackfest, Bryan proudly pushed the first stable release of
 
 For a first stable release, this is a massive set of initial providers. Here's an example of it being in use across two providers (GitHub and GNOME):
 
-{{< relimg "cuppa-example.jpg" >}}
-
+![relimg](cuppa-example.jpg)
 Going forward, he has plans on supporting:
 
 - BitBucket
@@ -71,14 +70,12 @@ In addition to the first stable release of Cuppa, Bryan also introduced the firs
 
 To address the first item, we're now able to easily fetch a list of forward (`fwd`) and reverse (`rev`) dependencies of a specific package (what a package requires and what software requires this package, respectively), as shown in the picture below, as well as getting the worst case scenario for rebuilds, which is useful for packages like glibc (*not shown in the picture because it makes me want to cry*).
 
-{{< altimg "eopkg-deps-example.jpg" >}}
-
+![relimg](eopkg-deps-example.jpg)
 When used in conjunction with the `abi_used_libs` and `abi_symbols`, we're not only able to determine if a package's reverse dependencies need rebuilds, but **what** those packages actually are.
 
 To address the second item, Bryan implemented a ToDo functionality in eopkg-deps in a manner which ensures we correctly perform further updates or rebuilds in the most optimal path possible.
 
-{{< altimg "eopkg-deps-todo.jpg" >}}
-
+![relimg](eopkg-deps-todo.jpg)
 In the example above, which is in fact a real representation of how I've used eopkg-deps (including this specific package), you can see that I started a ToDo list, marking `evolution-data-server`for rebuilds. This is a fairly common scenario for EDS, which typically sees itself, the client, and `evolution-ews` requiring rebuilds and upgrades at the same time.
 
 Upon marking EDS for rebuilds, my ToDo list is immediately marked with an unblocked item, EDS itself. You'll notice that **none** of its reverse dependencies are marked, since EDS itself hasn't been built yet.
@@ -97,8 +94,7 @@ Budgie has seen a considerable amount of improvements, bug fixes, and general po
 
 ### New Sound Widgets
 
-{{< relimg "budgie-sound-control-zoomed.jpg" >}}
-
+![relimg](budgie-sound-control-zoomed.jpg)
 In our [last roundup](/2018/06/26/software-center-progresses), I briefly talked about the new (then upcoming) overhaul to the sound controls within Raven and I'm happy to say that the Sound Output and Input widgets are now in a more finalized, completed state.
 
 In case you haven't read the previous roundup, the new Sound Output widget enables you to do global as well as per-app volume control and output device changing, while the Sound Input widget enables you to do microphone control and input device changing. Since then, I've introduced the ability to mute / unmute applications and contributor yursan9 has implemented a label for indicating where precisely 100% is on the slider when "Allow raising volume above 100%" is enabled.
@@ -107,8 +103,7 @@ No longer do you need to jump into GNOME Control Center or use pavucontrol to ma
 
 ### More Configuration
 
-{{< relimg "new-budgie-settings.jpg" >}}
-
+![relimg](new-budgie-settings.jpg)
 Budgie 10.5 is going to introduce a new Raven section in Budgie Desktop Settings. Under this new section, you're able to show and hide individual widgets as well as enable the ability to raise your volume above 100% in Raven.
 
 Additionally, Budgie 10.5 will introduce the ability to enable window focus change to being on mouse enter / leave via the "Windows" section of Budgie Desktop Settings, as opposed to click-to-focus. The "Fonts" section of Budgie Desktop Settings introduces a new Text Scaling option thanks to a contribution by a community member, feddamis.
@@ -119,8 +114,7 @@ We're always committed to providing a focused yet personalizable desktop experie
 
 #### Notification Groups and Dismissal
 
-{{< relimg "budgie-notification-groups.jpg" >}}
-
+![relimg](budgie-notification-groups.jpg)
 Speaking of more control, I know a lot of our users have been wanting the ability to dismiss individual notifications for some time now, so during our Summertime Solus hackfest I had two goals in mind. The first goal was to provide the ability to dismiss individual notifications and the second was to actually achieve a feature that wasn't originally slated until **Budgie 11**, notification grouping on an application basis. With the upcoming Budgie 10.5, both of those features are available to our users.
 
 Got a load of Discord notifications that you want to dismiss in one click? You can do that. Want to dismiss that email notification that's been sitting there since this morning, but nothing else? You can do that too. Want to ignore the outside world and pretend nothing ever happened, dismissing everything? Done.
@@ -131,8 +125,7 @@ Thanks to work by community member EbonJaeger, notification text is now properly
 
 ### Caffeine-powered Budgie
 
-{{< relimg "budgie-caffeine-applet.jpg" >}}
-
+![relimg](budgie-caffeine-applet.jpg)
 Anyone that has spent time using Budgie and its ecosystem of applets immediately knows of [yursan9's Budgie Caffeine Applet](https://github.com/yursan9/budgie-caffeine-applet), the simple applet that prevents screen dimming and lock screen triggering. Up until Budgie 10.5, this has been a third-party applet written in Python, available in most repositories which make Budgie available to its users.
 
 Now thanks to the hard work by yursan9 in porting their applet to Vala and providing a high quality patch for inclusion, I'm proud to say that Budgie Caffeine Applet will **now be shipping as an included applet for Budgie 10.5**. No additional packages to install after Budgie, you can immediately have a caffeine-powered Budgie out-of-the-box.
