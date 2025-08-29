@@ -48,7 +48,7 @@ Mesa has been upgraded to 24.3.3. See the [24.3.0](https://docs.mesa3d.org/relno
 
 ## Budgie
 
-![relimg](Budgie.jpg)
+![relimg](./Budgie.jpg)
 
 Solus ships with [Budgie 10.9.2](https://blog.buddiesofbudgie.org/budgie-10-9-2-released/), the latest release of the Budgie Desktop. The mature 10.9.x series brings some small improvements, and builds on Budgie's reputation for stability and polish.
 
