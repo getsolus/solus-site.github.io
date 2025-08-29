@@ -34,7 +34,7 @@ We have begun shrinking the size of our system.base component to give us more fl
 
 #### Locales
 
-{{<  relimg "Screenshot-from-2016-04-12-02-31-07.png" >}}
+![relimg](Screenshot-from-2016-04-12-02-31-07.png)
 
 We now ship locales for Firefox and Thunderbird. This makes it easier to switch to the language you desire / need without having to jump through the hoop of installing addons.
 

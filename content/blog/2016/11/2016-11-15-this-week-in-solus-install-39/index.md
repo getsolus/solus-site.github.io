@@ -14,7 +14,7 @@ Welcome to This Week in Solus, install #39.
 
 ## Announcing Partnership with Unixstickers
 
-{{<relimg "laptop-solus-sticker-small.jpg" >}}
+![relimg](laptop-solus-sticker-small.jpg)
 
 We recently announced our partnership with Unixstickers to provide high-quality Solus stickers for our community and fans. If you have yet to read about it, click 
 [here](https://solus-project.com/2016/11/15/solus-announces-partnership-with-unixstickers).
