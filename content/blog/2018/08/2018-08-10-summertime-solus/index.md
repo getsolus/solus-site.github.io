@@ -1,12 +1,15 @@
 ---
-title: "Summertime Solus | The Roundup #7"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - roundup
-date: 2018-08-10T00:27:17+03:00
-featuredimage: "/budgie-sound-control.jpg"
-url: "/2018/08/10/summertime-solus"
+date: "2018-08-10T00:27:17+03:00"
+featuredimage: /budgie-sound-control.jpg
+title: 'Summertime Solus | The Roundup #7'
+url: /2018/08/10/summertime-solus
 ---
 
 Welcome to The Roundup #7, your bytes of Solus news. In this roundup, we're talking about new developer tools, work on the upcoming Budgie 10.5 release, and more!

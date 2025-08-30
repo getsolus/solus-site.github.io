@@ -1,13 +1,15 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Releases"
-]
-date =  "2015-12-02T07:52:13Z"
-title = "Daily ISO 0.201549.3.0 Released"
-url = "/2015/12/02/daily-iso-0-201549-3-0-released/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- News
+- Releases
+date: "2015-12-02T07:52:13Z"
+title: Daily ISO 0.201549.3.0 Released
+url: /2015/12/02/daily-iso-0-201549-3-0-released/
+---
 
 The Solus Project is happy to announce the release of a new Daily ISO, 0.201549.3.0. 
 

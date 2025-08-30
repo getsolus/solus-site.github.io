@@ -1,14 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"News",
-"Security"
-]
-date =  "2014-06-07T19:04:11Z"
-
-title = "Security Status of Validation ISO, Mini Update"
-url = "/2014/06/07/security-status-of-validation-iso-mini-update/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+- Security
+date: "2014-06-07T19:04:11Z"
+title: Security Status of Validation ISO, Mini Update
+url: /2014/06/07/security-status-of-validation-iso-mini-update/
+---
 
 Hello all,
 

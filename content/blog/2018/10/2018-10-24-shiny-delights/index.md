@@ -1,13 +1,16 @@
 ---
-title: "Shiny Delights | The Roundup #11"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - packages
 - roundup
-date: 2018-10-24T01:36:29+03:00
-featuredimage: "/shiny-delights.jpg"
-url: "/2018/10/24/shiny-delights" # Example, /2017/01/18/adopting-flatpak-to-reassemble-third-party-applications
+date: "2018-10-24T01:36:29+03:00"
+featuredimage: /shiny-delights.jpg
+title: 'Shiny Delights | The Roundup #11'
+url: /2018/10/24/shiny-delights
 ---
 
 Welcome to The Roundup #11, your bytes of Solus news. In this roundup, we're talking about all the availability of our public Plasma testing ISO, latest stack upgrades we've performed, and an update on feedback for improving community engagement!

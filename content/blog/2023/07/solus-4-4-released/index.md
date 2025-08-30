@@ -1,12 +1,15 @@
 ---
-title: "Solus 4.4 Released"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
-  - news
-  - releases
-date: 2023-07-08T00:27:44+03:00
-featuredimage: "/solus-4.4-featured.jpg"
-url: "/2023/07/08/solus-4-4-released"
+- news
+- releases
+date: "2023-07-08T00:27:44+03:00"
+featuredimage: /solus-4.4-featured.jpg
+title: Solus 4.4 Released
+url: /2023/07/08/solus-4-4-released
 ---
 
 We are proud to announce the immediate availability of Solus 4.4, a new Solus 4 series release named _Harmony_. This release delivers new desktop environment updates, software stacks, and hardware enablement.

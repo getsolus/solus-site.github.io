@@ -1,12 +1,15 @@
 ---
-title: "Linux Driver Management 1.0 Released | The Roundup #1"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - roundup
-date: 2018-01-26T12:59:24+02:00
-featuredimage: "/lsi-1.0.jpg"
-url: "/2018/01/26/linux-driver-management-1-0-released"
+date: "2018-01-26T12:59:24+02:00"
+featuredimage: /lsi-1.0.jpg
+title: 'Linux Driver Management 1.0 Released | The Roundup #1'
+url: /2018/01/26/linux-driver-management-1-0-released
 ---
 
 We're proud to announce the release of [Linux Driver Management](https://github.com/solus-project/linux-driver-management) 1.0, a reworked implementation with the focus on being an agnostic, GObject-style library for the detection and enumeration of devices, with bindings for popular languages such as C, JS via GJS, Python, and Vala, as well as support for matching devices to driver packages.

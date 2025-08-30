@@ -1,12 +1,15 @@
 ---
-title: "Solus 4.7 Released"
-author: "david"
+authors:
+- image: https://avatars.githubusercontent.com/u/23007135?v=4
+  link: https://github.com/DavidJHarder
+  name: David Harder
 categories:
-  - news
-  - releases
-date: 2025-01-26
-featuredimage: "/solus-4.7-featured.jpg"
-url: "/2025/01/26/solus-4-7-released"
+- news
+- releases
+date: "2025-01-26"
+featuredimage: /solus-4.7-featured.jpg
+title: Solus 4.7 Released
+url: /2025/01/26/solus-4-7-released
 ---
 
 New Year, new ISOs! We are proud to announce our latest release: Solus 4.7 _Endurance_. This release focuses on updating our editions, and refreshing the default kernels. We've called this release _Endurance_ to highlight our promise to users that we will continue to deliver timely updates to keep their systems stable and beautiful.

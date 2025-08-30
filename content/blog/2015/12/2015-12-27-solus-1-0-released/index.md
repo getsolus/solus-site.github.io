@@ -1,14 +1,16 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Releases"
-]
-date =  "2015-12-27T06:24:44Z"
-title = "Solus 1.0 Released"
-url = "/2015/12/27/solus-1-0-released/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- Budgie
+- News
+- Releases
+date: "2015-12-27T06:24:44Z"
+title: Solus 1.0 Released
+url: /2015/12/27/solus-1-0-released/
+---
 
 The Solus Project is proud to announce the release of the first version of its operating system, Solus, on 27th of December, 2015. Solus 1.0 is codenamed Shannon after the longest river in Ireland. 
 

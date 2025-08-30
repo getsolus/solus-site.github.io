@@ -1,14 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Plans",
-"TWIS"
-]
-date =  "2016-07-10T19:46:20Z"
-title = "This Week in Solus -- Install #31"
-url = "/2016/07/10/this-week-in-solus-install-31/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- News
+- Plans
+- TWIS
+date: "2016-07-10T19:46:20Z"
+title: 'This Week in Solus -- Install #31'
+url: /2016/07/10/this-week-in-solus-install-31/
+---
+ 
 Welcome to the 31st installation of This Week in Solus. 
 
 #### Operation Go Moar Faster

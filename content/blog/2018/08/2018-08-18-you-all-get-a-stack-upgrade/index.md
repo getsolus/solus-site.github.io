@@ -1,12 +1,15 @@
 ---
-title: "You All Get A Stack Upgrade | The Roundup #8"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - roundup
-date: 2018-08-18T19:24:56+03:00
-featuredimage: "/linux-4_17_17.jpg"
-url: "/2018/08/18/you-all-get-a-stack-upgrade"
+date: "2018-08-18T19:24:56+03:00"
+featuredimage: /linux-4_17_17.jpg
+title: 'You All Get A Stack Upgrade | The Roundup #8'
+url: /2018/08/18/you-all-get-a-stack-upgrade
 ---
 
 Welcome to The Roundup #8, your bytes of Solus news. In this roundup, we're talking about the multitude of stack upgrades that have been performed in the last week, as well as upcoming upgrades.

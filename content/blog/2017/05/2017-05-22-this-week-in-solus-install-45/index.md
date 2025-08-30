@@ -1,11 +1,16 @@
-+++
-author = "joshua"
-categories = ["news", "twis"]
-date = "2017-05-22T16:37:58+03:00"
-featuredimage = "/mariadb.jpg"
-title = "This Week in Solus - Install #45"
-url = "/2017/05/22/this-week-in-solus-install-45"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- news
+- twis
+date: "2017-05-22T16:37:58+03:00"
+featuredimage: /mariadb.jpg
+title: 'This Week in Solus - Install #45'
+url: /2017/05/22/this-week-in-solus-install-45
+---
 
 Welcome to the 45th install of This Week in Solus.
 

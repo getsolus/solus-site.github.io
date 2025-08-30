@@ -1,14 +1,16 @@
-+++
-featuredimage = "/mate-1.18-in-solus.jpg"
-categories = [
-"news", 
-"twis"
-]
-author = "joshua"
-date = "2017-03-19T16:08:32+02:00"
-title = "This Week in Solus - Install #42"
-url = "/2017/03/19/this-week-in-solus-install-42"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- news
+- twis
+date: "2017-03-19T16:08:32+02:00"
+featuredimage: /mate-1.18-in-solus.jpg
+title: 'This Week in Solus - Install #42'
+url: /2017/03/19/this-week-in-solus-install-42
+---
 
 Welcome to the 42nd installation of This Week in Solus.
 

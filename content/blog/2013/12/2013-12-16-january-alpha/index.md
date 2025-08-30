@@ -1,12 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Uncategorized"
-]
-date =  "2013-12-16T22:36:14Z"
-title = "January alpha"
-url = "/2013/12/16/january-alpha/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- Uncategorized
+date: "2013-12-16T22:36:14Z"
+title: January alpha
+url: /2013/12/16/january-alpha/
+---
 
 Hello all, a quick update to any who may be following the blog.
 

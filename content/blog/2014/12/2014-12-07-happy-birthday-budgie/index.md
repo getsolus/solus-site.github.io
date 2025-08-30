@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Budgie"
-]
-date =  "2014-12-07T14:25:58Z"
-
-title = "Happy Birthday, Budgie!"
-url = "/2014/12/07/happy-birthday-budgie/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- Budgie
+date: "2014-12-07T14:25:58Z"
+title: Happy Birthday, Budgie!
+url: /2014/12/07/happy-birthday-budgie/
+---
 
 As of today, Budgie now one year old! The very first commit was made to the git repository on the 7th of December, 2013. What started out as a simple quest to satisfy 
 my own personal needs for a desktop, has evolved over the last year with the help of our fantastic community and contributors.

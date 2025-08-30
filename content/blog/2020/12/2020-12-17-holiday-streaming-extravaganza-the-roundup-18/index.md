@@ -1,12 +1,15 @@
 ---
-title: "Holiday Streaming Extravaganza | The Roundup #18"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - roundup
-date: 2020-12-17T13:15:16+02:00
-featuredimage: "/hehe-solus-4_2-releases-soon.jpg"
-url: "/2020/12/17/holiday-streaming-extravaganza-the-roundup-18"
+date: "2020-12-17T13:15:16+02:00"
+featuredimage: /hehe-solus-4_2-releases-soon.jpg
+title: 'Holiday Streaming Extravaganza | The Roundup #18'
+url: /2020/12/17/holiday-streaming-extravaganza-the-roundup-18
 ---
 
 Welcome to The Roundup #18, your bytes of Solus news. In this roundup, we are talking about our upcoming two week streaming extravaganza, Linux 5.10, new KDE goodies, and more!

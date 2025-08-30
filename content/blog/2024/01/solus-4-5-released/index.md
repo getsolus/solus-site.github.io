@@ -1,12 +1,15 @@
 ---
-title: "Solus 4.5 Released"
-author: "david"
+authors:
+- image: https://avatars.githubusercontent.com/u/23007135?v=4
+  link: https://github.com/DavidJHarder
+  name: David Harder
 categories:
-  - news
-  - releases
-date: 2024-01-08
-featuredimage: "/solus-4.5-featured.jpg"
-url: "/2024/01/08/solus-4-5-released"
+- news
+- releases
+date: "2024-01-08"
+featuredimage: /solus-4.5-featured.jpg
+title: Solus 4.5 Released
+url: /2024/01/08/solus-4-5-released
 ---
 
 The Solus team is proud to announce the release of Solus 4.5 _Resilience_. This release brings updated applications and kernels, refreshed software stacks, a new installer, and a new ISO edition featuring the XFCE desktop environment.

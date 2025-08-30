@@ -1,15 +1,18 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Packages",
-"Plans",
-"TWIS"
-]
-date =  "2016-09-05T23:18:02Z"
-title = "This Week in Solus-- Install #35"
-url = "/2016/09/05/this-week-in-solus-install-35/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- News
+- Packages
+- Plans
+- TWIS
+date: "2016-09-05T23:18:02Z"
+title: 'This Week in Solus-- Install #35'
+url: /2016/09/05/this-week-in-solus-install-35/
+---
+ 
 Welcome to the 35th installation of This Week in Solus! 
 
 #### Have you found your Sol-MATE?

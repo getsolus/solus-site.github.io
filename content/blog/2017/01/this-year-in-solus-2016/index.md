@@ -1,15 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Plans",
-"TWIS"
-]
-date =  "2017-01-03T20:41:46+02:00"
-featuredimage = "/new-year.jpg"
-title = "This Year in Solus (2016 Edition)"
-url = "/2017/01/03/this-year-in-solus-2016-edition"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- News
+- Plans
+- TWIS
+date: "2017-01-03T20:41:46+02:00"
+featuredimage: /new-year.jpg
+title: This Year in Solus (2016 Edition)
+url: /2017/01/03/this-year-in-solus-2016-edition
+---
 
 2016 was an incredible year for Solus. We went from having our first release in December of 2015, to completely switching to a rolling release model. We had multiple Solus releases, multiple Budgie releases, several rewrites of different 
 components of Solus, ranging from the Installer to the Software Center. We introduced our native Steam runtime and improved both our state of statelessness as well as optimizations.

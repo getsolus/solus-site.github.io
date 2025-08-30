@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2015-07-23T20:15:51Z"
-
-title = "Open Response to LinuxInsider"
-url = "/2015/07/23/open-response-to-linuxinsider/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+date: "2015-07-23T20:15:51Z"
+title: Open Response to LinuxInsider
+url: /2015/07/23/open-response-to-linuxinsider/
+---
 
 Yesterday, we were made aware of a post over at LinuxInsider, entitled [The New Solus: Putting The Pieces Together Again](http://www.linuxinsider.com/story/82295.html?rss=1). 
 

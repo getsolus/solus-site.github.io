@@ -1,12 +1,15 @@
 ---
-title: "A Bigger Toolbox | The Roundup #9"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - roundup
-date: 2018-08-25T15:22:15+03:00
-featuredimage: "/snap.jpg"
-url: "/2018/08/25/a-bigger-toolbox"
+date: "2018-08-25T15:22:15+03:00"
+featuredimage: /snap.jpg
+title: 'A Bigger Toolbox | The Roundup #9'
+url: /2018/08/25/a-bigger-toolbox
 ---
 
 Welcome to The Roundup #9, your bytes of Solus news. In this roundup, we are focusing on the continued modernizing of our software stack, improved resilience, and what is coming up this week!

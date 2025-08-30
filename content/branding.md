@@ -1,6 +1,6 @@
 ---
+date: "2025-07-11"
 title: Branding
-date: 2025-07-11
 toc: false
 ---
 

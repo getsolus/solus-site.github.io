@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Budgie"
-]
-date =  "2014-09-02T00:31:27Z"
-
-title = "Bodacious Budgie (v7) Released!"
-url = "/2014/09/02/bodacious-budgie-v7-released/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- Budgie
+date: "2014-09-02T00:31:27Z"
+title: Bodacious Budgie (v7) Released!
+url: /2014/09/02/bodacious-budgie-v7-released/
+---
 
 Well, its that time again. We're pleased to announce v7 of Budgie Desktop, aka Bodacious Budgie! The name was chosen entirely at random in an even more random <a href="https://plus.google.com/+IkeyDoherty/posts/MdmCnY7dCqs"Google+ post</a>. Long story short we made it more sexy, a bit more stable, whacked in a tray and a notifications applet, as well as a working sound menu.
 <!--more-->

@@ -1,11 +1,14 @@
 ---
-title: "Dropping AppArmor Kernel Patches"
-author: "evan"
+authors:
+- image: https://avatars.githubusercontent.com/u/5157277?v=4
+  link: https://github.com/EbonJaeger
+  name: Evan Maddock
 categories:
-  - news
-date: 2024-07-15
-featuredimage: "/apparmor-banner-image.jpg"
-url: "/2024/07/15/dropping-apparmor-kernel-patches"
+- news
+date: "2024-07-15"
+featuredimage: /apparmor-banner-image.jpg
+title: Dropping AppArmor Kernel Patches
+url: /2024/07/15/dropping-apparmor-kernel-patches
 ---
 
 Heya folks! With the 6.9 update to our Current branch of the Linux kernel, we are dropping the AppArmor patchset from Canonical. This means that snaps will now run with partial confinement if you are using the current kernel. Our LTS kernel will still have the AppArmor patches applied.

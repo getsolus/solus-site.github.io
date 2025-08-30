@@ -1,13 +1,16 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Releases"
-]
-date =  "2015-10-29T19:34:37Z"
-title = "Announcing 1.0 Release Candidate 1"
-url = "/2015/10/29/announcing-1-0-release-candidate-1/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- News
+- Releases
+date: "2015-10-29T19:34:37Z"
+title: Announcing 1.0 Release Candidate 1
+url: /2015/10/29/announcing-1-0-release-candidate-1/
+---
+ 
 The Solus Project is happy to announce the availability of the **first** release candidate of the Solus operating system.
 
 We would like to thank all of our community members for helping make this release possible. Together we have discovered and resolved a plethora of bugs, improved software, and ensured that the user experience under Solus is better 

@@ -1,13 +1,16 @@
 ---
-title: "Solus 3 Released"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - budgie
 - news
 - releases
-date: 2017-08-15T22:02:27+03:00
-featuredimage: "/Solus-3-Editions.jpg"
-url: "/2017/08/15/solus-3-released"
+date: "2017-08-15T22:02:27+03:00"
+featuredimage: /Solus-3-Editions.jpg
+title: Solus 3 Released
+url: /2017/08/15/solus-3-released
 ---
 
 On behalf of the Solus team and community, we're extremely proud to announce the immediate availability of Solus 3. This is the third iteration of Solus since our move to become a rolling release operating system. Unlike the previous iterations, however, this is a release and not a snapshot. We've now moved away from the "regular snapshot" model to accommodate the best hybrid approach possible - feature rich releases with explicit goals and technology enabling, along with the benefits of a curated rolling release operating system.

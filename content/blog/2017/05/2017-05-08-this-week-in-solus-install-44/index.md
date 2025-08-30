@@ -1,16 +1,17 @@
-+++
-author = "joshua"
-categories = [
-	"news",
-	"plans",
-	"twis"
-]
-date = "2017-05-08T22:18:43+03:00"
-featuredimage = "/oh-my-god-it-is-a2dp-everybody.jpg"
-title = "This Week in Solus - Install #44"
-url = "/2017/05/08/this-week-in-solus-install-44"
-
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- news
+- plans
+- twis
+date: "2017-05-08T22:18:43+03:00"
+featuredimage: /oh-my-god-it-is-a2dp-everybody.jpg
+title: 'This Week in Solus - Install #44'
+url: /2017/05/08/this-week-in-solus-install-44
+---
 
 Welcome to the 44th installation of This Week in Solus.
 

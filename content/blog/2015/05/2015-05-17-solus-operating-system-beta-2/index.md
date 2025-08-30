@@ -1,14 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"News",
-"Releases"
-]
-date =  "2015-05-17T21:46:07Z"
-
-title = "Solus Operating System Beta 2"
-url = "/2015/05/17/solus-operating-system-beta-2/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+- Releases
+date: "2015-05-17T21:46:07Z"
+title: Solus Operating System Beta 2
+url: /2015/05/17/solus-operating-system-beta-2/
+---
 
 
 The Solus Project team are pleased to announce the immediate availability of Solus Operating System Beta 2. This release is available for 64-bit systems, and 

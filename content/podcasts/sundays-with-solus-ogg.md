@@ -1,3 +1,3 @@
-+++
-feedtype="ogg"
-+++
+---
+feedtype: ogg
+---

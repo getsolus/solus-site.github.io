@@ -1,12 +1,15 @@
 ---
-title: "MATE, Plasma, and Python 3 | The Roundup #3"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - roundup
-date: 2018-02-07T18:23:25+02:00
-featuredimage: "/mate-1_20.jpg"
-url: "/2018/02/07/mate-plasma-and-python-3"
+date: "2018-02-07T18:23:25+02:00"
+featuredimage: /mate-1_20.jpg
+title: 'MATE, Plasma, and Python 3 | The Roundup #3'
+url: /2018/02/07/mate-plasma-and-python-3
 ---
 
 Welcome to The Roundup #3, your bytes of Solus news. In this roundup, we're talking MATE Desktop 1.20 upgrade, Plasma updates, Python 3 upgrade, and an update on boot optimizations.

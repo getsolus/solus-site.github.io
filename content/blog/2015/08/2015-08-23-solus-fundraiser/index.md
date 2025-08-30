@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2015-08-23T03:34:34Z"
-
-title = "Solus Fundraiser!"
-url = "/2015/08/23/solus-fundraiser/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+date: "2015-08-23T03:34:34Z"
+title: Solus Fundraiser!
+url: /2015/08/23/solus-fundraiser/
+---
 
 Hello all! We're pleased to announce this experiment, a fund raiser leading up to the launch of Solus Operating System v1, October 1st. We'd like to see if we can raise $1,000 (US) in the next couple of weeks.
 

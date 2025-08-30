@@ -1,15 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Releases"
-]
-date = "2017-04-18T19:41:53+03:00"
-featuredimage = "/Snapshot_Featured_Image.jpg"
-title = "Solus Releases ISO Snapshot 2017.04.18.0"
-url = "/2017/04/18/solus-releases-iso-snapshot-20170418-0"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- Budgie
+- News
+- Releases
+date: "2017-04-18T19:41:53+03:00"
+featuredimage: /Snapshot_Featured_Image.jpg
+title: Solus Releases ISO Snapshot 2017.04.18.0
+url: /2017/04/18/solus-releases-iso-snapshot-20170418-0
+---
 
 We're proud to announce our second ISO snapshot, 2017.04.18.0, across our Budgie and MATE editions, as well as our new GNOME edition!
 

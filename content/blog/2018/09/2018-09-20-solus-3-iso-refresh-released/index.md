@@ -1,12 +1,15 @@
 ---
-title: "Solus 3 ISO Refresh Released"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - releases
-date: 2018-09-20T08:20:39+03:00
-featuredimage: "/solus-refresh-editions.jpg"
-url: "/2018/09/20/solus-3-iso-refresh-released"
+date: "2018-09-20T08:20:39+03:00"
+featuredimage: /solus-refresh-editions.jpg
+title: Solus 3 ISO Refresh Released
+url: /2018/09/20/solus-3-iso-refresh-released
 ---
 
 We are proud to announce the availability of Solus 3.9999, our ISO refresh of Solus 3. This refresh enables support for a variety of new hardware released since Solus 3, introduces an updated set of default applications and theming, as well as enables users to immediately take advantage of new Solus infrastructure.

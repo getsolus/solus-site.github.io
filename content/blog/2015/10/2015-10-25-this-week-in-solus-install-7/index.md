@@ -1,13 +1,16 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"TWIS"
-]
-date =  "2015-10-25T18:23:15Z"
-title = "This Week in Solus -- Install #7"
-url = "/2015/10/25/this-week-in-solus-install-7/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- News
+- TWIS
+date: "2015-10-25T18:23:15Z"
+title: 'This Week in Solus -- Install #7'
+url: /2015/10/25/this-week-in-solus-install-7/
+---
+ 
 
 Welcome to This Week in Solus, Installation #7. As you may (**or may not**) have noticed, this blog post is in a different location. As of this blog post, these installations are official. If you want to see previous installs, you can read them by 
 going [here](http://joshuastrobl.com/tag/this-week-in-solus/).

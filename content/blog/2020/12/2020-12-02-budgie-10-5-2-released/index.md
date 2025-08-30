@@ -1,13 +1,16 @@
 ---
-title: "Budgie 10.5.2 Released"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - budgie
 - packages
 - news
-date: 2020-12-02T18:30:42+02:00
-featuredimage: "/budgie-10-5-2.jpg"
-url: "/2020/12/02/budgie-10-5-2-released"
+date: "2020-12-02T18:30:42+02:00"
+featuredimage: /budgie-10-5-2.jpg
+title: Budgie 10.5.2 Released
+url: /2020/12/02/budgie-10-5-2-released
 ---
 
 Solus is proud to announce our newest iteration on our flagship desktop environment, Budgie 10.5.2, with a diverse range of new features and bug fixes!

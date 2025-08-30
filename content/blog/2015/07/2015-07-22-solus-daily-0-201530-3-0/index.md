@@ -1,13 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"News",
-"Releases"
-]
-date =  "2015-07-22T20:03:29Z"
-title = "Solus Daily: 0.201530.3.0"
-url = "/2015/07/22/solus-daily-0-201530-3-0/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+- Releases
+date: "2015-07-22T20:03:29Z"
+title: 'Solus Daily: 0.201530.3.0'
+url: /2015/07/22/solus-daily-0-201530-3-0/
+---
 
 The latest Solus Operating System Daily ISO is now available for testing. Be reminded this is an unstable development ISO
 

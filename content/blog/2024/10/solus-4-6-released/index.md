@@ -1,12 +1,15 @@
 ---
-title: "Solus 4.6 Released"
-author: "david"
+authors:
+- image: https://avatars.githubusercontent.com/u/23007135?v=4
+  link: https://github.com/DavidJHarder
+  name: David Harder
 categories:
-  - news
-  - releases
-date: 2024-10-14
-featuredimage: "/solus-4.6-featured.jpg"
-url: "/2024/10/14/solus-4-6-released"
+- news
+- releases
+date: "2024-10-14"
+featuredimage: /solus-4.6-featured.jpg
+title: Solus 4.6 Released
+url: /2024/10/14/solus-4-6-released
 ---
 
 The Solus team is proud to announce the release of Solus 4.6 _Convergence_. This refresh brings the usual collection of Desktop Environment updates, kernel enhancements, and increased hardware support.

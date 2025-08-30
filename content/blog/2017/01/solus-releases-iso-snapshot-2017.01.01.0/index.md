@@ -1,14 +1,16 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Releases"
-]
-date =  "2017-01-01T21:47:26+02:00"
-featuredimage = "/20170101-featured.jpg"
-title = "Solus Releases ISO Snapshot 2017.01.01.0"
-url = "/2017/01/01/solus-releases-iso-snapshot-20170101-0"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- News
+- Releases
+date: "2017-01-01T21:47:26+02:00"
+featuredimage: /20170101-featured.jpg
+title: Solus Releases ISO Snapshot 2017.01.01.0
+url: /2017/01/01/solus-releases-iso-snapshot-20170101-0
+---
 
 We're happy to be kicking off the new year with the release of our **first ISO snapshot**, 2017.01.01.0, across our Budgie and MATE editions.
 

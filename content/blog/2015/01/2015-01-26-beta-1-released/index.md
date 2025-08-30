@@ -1,14 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"News",
-"Releases"
-]
-date =  "2015-01-26T01:40:07Z"
-
-title = "Beta 1 Released"
-url = "/2015/01/26/beta-1-released/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+- Releases
+date: "2015-01-26T01:40:07Z"
+title: Beta 1 Released
+url: /2015/01/26/beta-1-released/
+---
 
 The Evolve OS team is proud to announce the release of Evolve OS Beta 1. Evolve OS is an independent Linux distribution featuring the Budgie Desktop, aimed at desktop users.
 

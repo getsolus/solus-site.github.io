@@ -1,13 +1,16 @@
 ---
-title: "Usysconf Rewrite and Major Upgrades | The Roundup #16"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - packages
 - news
 - roundup
-date: 2020-07-01T12:14:19+03:00
-featuredimage: "/usysconf-list.jpg"
-url: "/2020/07/01/usysconf-rewrite-and-major-upgrades-roundup-16"
+date: "2020-07-01T12:14:19+03:00"
+featuredimage: /usysconf-list.jpg
+title: 'Usysconf Rewrite and Major Upgrades | The Roundup #16'
+url: /2020/07/01/usysconf-rewrite-and-major-upgrades-roundup-16
 ---
 
 Welcome to The Roundup #16, your bytes of Solus news. In this roundup, we talk about our progress on the rewrite of our universal system configuration tool, usysconf, as well as multiple major upgrades which are landing or right around the corner.

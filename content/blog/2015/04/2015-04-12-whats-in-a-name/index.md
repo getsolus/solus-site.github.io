@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2015-04-12T17:35:33Z"
-
-title = "What's in a name?"
-url = "/2015/04/12/whats-in-a-name/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+date: "2015-04-12T17:35:33Z"
+title: What's in a name?
+url: /2015/04/12/whats-in-a-name/
+---
 
 Hello all, from the first post on our new domain! 
 

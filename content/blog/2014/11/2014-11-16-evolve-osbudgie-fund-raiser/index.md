@@ -1,14 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"Budgie",
-"News"
-]
-date =  "2014-11-16T23:09:47Z"
-
-title = "Evolve OS/Budgie Fund Raiser"
-url = "/2014/11/16/evolve-osbudgie-fund-raiser/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- Budgie
+- News
+date: "2014-11-16T23:09:47Z"
+title: Evolve OS/Budgie Fund Raiser
+url: /2014/11/16/evolve-osbudgie-fund-raiser/
+---
 
 Hello all! I hope you're all enjoying the new release of Courageous Budgie! I wanted to take a few minutes to announce a new fundraiser/donations drive initiative 
 for the Evolve OS Projects (Distro/Desktop/etc). To cut a short story long, I haven't been able to put as much time as I would have liked into developing Evolve OS and its 

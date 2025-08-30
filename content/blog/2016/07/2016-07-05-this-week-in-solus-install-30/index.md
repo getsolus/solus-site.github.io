@@ -1,15 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Plans",
-"TWIS"
-]
-date =  "2016-07-05T23:03:56Z"
-title = "This Week in Solus -- Install #30"
-url = "/2016/07/05/this-week-in-solus-install-30/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- Budgie
+- News
+- Plans
+- TWIS
+date: "2016-07-05T23:03:56Z"
+title: 'This Week in Solus -- Install #30'
+url: /2016/07/05/this-week-in-solus-install-30/
+---
 Welcome to the 30th installation of This Week in Solus, or as I prefer to call this one, the Hackfest 1.2.1 roundup. 
 
 #### Hackfest 1.2.1

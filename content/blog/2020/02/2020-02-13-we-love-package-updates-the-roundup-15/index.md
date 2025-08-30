@@ -1,13 +1,16 @@
 ---
-title: "We ❤️ Package Updates | The Roundup #15"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - packages
 - news
 - roundup
-date: 2020-02-13T07:55:05+02:00
-featuredimage: "/new-fancy-things.jpg"
-url: "/2020/02/13/we-love-package-updates-the-roundup-15"
+date: "2020-02-13T07:55:05+02:00"
+featuredimage: /new-fancy-things.jpg
+title: 'We ❤️ Package Updates | The Roundup #15'
+url: /2020/02/13/we-love-package-updates-the-roundup-15
 ---
 
 Welcome to The Roundup #15, your bytes of Solus news. For this Valentine's Day we're giving you what you love the most on Linux, lots of package updates.

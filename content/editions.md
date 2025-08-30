@@ -1,8 +1,8 @@
 ---
-title: Editions
 layout: hextra-home
-width: wide
+title: Editions
 toc: false
+width: wide
 ---
 
 <div class="mx-auto mt-6 mb-4">

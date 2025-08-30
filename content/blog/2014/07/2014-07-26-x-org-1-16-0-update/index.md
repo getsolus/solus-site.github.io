@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Packages"
-]
-date =  "2014-07-26T17:44:54Z"
-
-title = "X.Org 1.16.0 Update"
-url = "/2014/07/26/x-org-1-16-0-update/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- Packages
+date: "2014-07-26T17:44:54Z"
+title: X.Org 1.16.0 Update
+url: /2014/07/26/x-org-1-16-0-update/
+---
 
 Users will now receive the X update when updating their installed version of Evolve OS. Several packages were updated and/or introduced, and the following is a 
 list of key versions:

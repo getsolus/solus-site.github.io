@@ -1,12 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2015-07-27T20:57:38Z"
-title = "Clear Inspiration"
-url = "/2015/07/27/clear-inspiration/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+date: "2015-07-27T20:57:38Z"
+title: Clear Inspiration
+url: /2015/07/27/clear-inspiration/
+---
 
 Over the course of the last few months, Solus has undergone some very core changes, and embarked on a few new missions too. But where did this inspiration come from? Well, for the most, from the 
 [Clear Linux Project for Intel Architecture](https://clearlinux.org/).

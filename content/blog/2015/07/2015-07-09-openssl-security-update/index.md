@@ -1,12 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Security"
-]
-date =  "2015-07-09T15:10:40Z"
-title = "openssl: Security update"
-url = "/2015/07/09/openssl-security-update/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- Security
+date: "2015-07-09T15:10:40Z"
+title: 'openssl: Security update'
+url: /2015/07/09/openssl-security-update/
+---
 
 openssl 1.0.1p is [now available](https://git.solus-project.com/packages/openssl/commit/?h=openssl-1.0.1p-13) in the Solus Software Repositories. Users should immediately apply all updates and reboot. 
 This addresses **CVE-2015-1793**. For more details, please see the [OpenSSL advisory](https://www.openssl.org/news/secadv_20150709.txt).

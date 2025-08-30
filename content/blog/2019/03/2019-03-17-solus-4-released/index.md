@@ -1,13 +1,16 @@
 ---
-title: "Solus 4 Fortitude Released"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - budgie
 - news
 - releases
-date: 2019-03-17T23:06:48+02:00
-featuredimage: "/solus-4-featured.jpg"
-url: "/2019/03/17/solus-4-released"
+date: "2019-03-17T23:06:48+02:00"
+featuredimage: /solus-4-featured.jpg
+title: Solus 4 Fortitude Released
+url: /2019/03/17/solus-4-released
 ---
 
 We are proud to announce the immediate availability of Solus 4 Fortitude, a new major release of the Solus operating system. This release delivers a brand new Budgie experience, updated sets of default applications and theming, and hardware enablement.

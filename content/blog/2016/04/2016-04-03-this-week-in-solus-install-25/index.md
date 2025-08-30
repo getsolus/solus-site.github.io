@@ -1,15 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Packages",
-"TWIS"
-]
-date =  "2016-04-03T23:15:02Z"
-title = "This Week in Solus -- Install #25"
-url = "/2016/04/03/this-week-in-solus-install-25/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- Budgie
+- News
+- Packages
+- TWIS
+date: "2016-04-03T23:15:02Z"
+title: 'This Week in Solus -- Install #25'
+url: /2016/04/03/this-week-in-solus-install-25/
+---
 
 Welcome to This Week in Solus, installation#25. If you haven't already read our [big announcement on Budgie 10.2.5](https://solus-project.com/2016/03/27/budgie-10-2-5-released/), stop reading this post and catch up. 
 

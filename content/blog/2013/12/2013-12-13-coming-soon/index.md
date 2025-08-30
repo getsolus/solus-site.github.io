@@ -1,13 +1,15 @@
-    +++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2013-12-13T19:02:40Z"
-title = "Coming soon"
-featuredimage = "/dediserve.gif"
-url = "/2013/12/13/coming-soon"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+date: "2013-12-13T19:02:40Z"
+featuredimage: /dediserve.gif
+title: Coming soon
+url: /2013/12/13/coming-soon
+---
 
 Please note that this website is currently under construction, and as such only limited information is available right now. Also note that there is no downloadable media right now.
 

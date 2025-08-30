@@ -1,13 +1,16 @@
 ---
-title: "This Year in Solus: 2018 Edition"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - infrastructure
 - news
 - roundup
-date: 2018-12-31T18:25:10+02:00
-featuredimage: "/this-year-in-solus-2018.jpg"
-url: "/2018/12/31/this-year-in-solus-2018-edition"
+date: "2018-12-31T18:25:10+02:00"
+featuredimage: /this-year-in-solus-2018.jpg
+title: 'This Year in Solus: 2018 Edition'
+url: /2018/12/31/this-year-in-solus-2018-edition
 ---
 
 2018 has been an amazing year for Solus. It brought us new and improved tooling that will pave the way for development for years to come, and fresh experiences in Budgie. 2018 also brought to the community new faces with fresh ideas, as well as the departure of a veteran in the Solus world.

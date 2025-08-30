@@ -1,8 +1,8 @@
 ---
-title: Solus
 layout: hextra-home
-width: wide
+title: Solus
 toc: false
+width: wide
 ---
 
 <div class="text-center mx-auto mt-6 mb-4">

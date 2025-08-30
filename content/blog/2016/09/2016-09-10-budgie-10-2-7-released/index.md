@@ -1,13 +1,15 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News"
-]
-date =  "2016-09-10T14:07:01Z"
-title = "Budgie 10.2.7 Released"
-url = "/2016/09/10/budgie-10-2-7-released/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- Budgie
+- News
+date: "2016-09-10T14:07:01Z"
+title: Budgie 10.2.7 Released
+url: /2016/09/10/budgie-10-2-7-released/
+---
 
 We're thrilled to announce the release of Budgie 10.2.7, the last release in our 10.2 series that aims to resolve a multitude of issues as well as land some user experience improvements. 
 

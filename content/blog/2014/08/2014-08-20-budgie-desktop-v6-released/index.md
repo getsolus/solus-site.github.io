@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Budgie"
-]
-date =  "2014-08-20T19:29:14Z"
-
-title = "Budgie Desktop v6 Released"
-url = "/2014/08/20/budgie-desktop-v6-released/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- Budgie
+date: "2014-08-20T19:29:14Z"
+title: Budgie Desktop v6 Released
+url: /2014/08/20/budgie-desktop-v6-released/
+---
 
 I am pleased to announce the release of Budgie Desktop version 6. This release sees several fixes in the panel and menu components, as well as the 
 introduction of a brand new Panel Editor, as well as customisable layouts and GNOME Panel theme integration.

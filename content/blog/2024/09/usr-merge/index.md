@@ -1,11 +1,14 @@
 ---
-title: "Usr-Merge"
-author: "evan"
+authors:
+- image: https://avatars.githubusercontent.com/u/5157277?v=4
+  link: https://github.com/EbonJaeger
+  name: Evan Maddock
 categories:
-  - news
-date: 2024-09-04
-featuredimage: "/usr-merge-banner-image.jpg"
-url: "/2024/09/04/usr-merge"
+- news
+date: "2024-09-04"
+featuredimage: /usr-merge-banner-image.jpg
+title: Usr-Merge
+url: /2024/09/04/usr-merge
 ---
 
 Back in May, 2024, we made our initial attempt at doing what we're calling "Usr-Merge". While initially hopeful, it quickly became clear that there were significant problems with our approach, and that a new one would be needed. This post will go into what happened in May, and outline what we plan to do next time.

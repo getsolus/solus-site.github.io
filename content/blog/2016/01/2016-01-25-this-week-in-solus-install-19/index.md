@@ -1,14 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Packages",
-"TWIS"
-]
-date =  "2016-01-25T07:35:20Z"
-title = "This Week in Solus -- Install #19"
-url = "/2016/01/25/this-week-in-solus-install-19/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- News
+- Packages
+- TWIS
+date: "2016-01-25T07:35:20Z"
+title: 'This Week in Solus -- Install #19'
+url: /2016/01/25/this-week-in-solus-install-19/
+---
+ 
 
 Welcome to the 19th installation of This Week in Solus. 
 

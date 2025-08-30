@@ -1,13 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"News",
-"Releases"
-]
-date =  "2015-07-10T19:05:12Z"
-title = "Solus Daily: 0.201528.5.0"
-url = "/2015/07/10/solus-daily-0-201528-5-0/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+- Releases
+date: "2015-07-10T19:05:12Z"
+title: 'Solus Daily: 0.201528.5.0'
+url: /2015/07/10/solus-daily-0-201528-5-0/
+---
 
 The latest Solus Operating System Daily ISO is now available for testing. Be reminded this is an unstable development ISO. See our first [daily ISO announcement](https://solus-project.com/2015/06/29/first-unstable-daily-iso/) for instructions 
 on writing this 64-bit, Hybrid, UEFI-compatible ISO to USB medium. Remember, **unetbootin is not supported!**

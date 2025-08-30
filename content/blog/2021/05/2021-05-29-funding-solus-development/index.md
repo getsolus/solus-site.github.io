@@ -1,12 +1,15 @@
 ---
-title: "Funding Solus Development"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - infrastructure
-date: 2021-05-29T21:58:55+03:00
-featuredimage: "/funding-solus-development.jpg"
-url: "/2021/05/29/funding-solus-development"
+date: "2021-05-29T21:58:55+03:00"
+featuredimage: /funding-solus-development.jpg
+title: Funding Solus Development
+url: /2021/05/29/funding-solus-development
 ---
 
 After much anticipation, in this blog post we announce the availability of community funding opportunities.

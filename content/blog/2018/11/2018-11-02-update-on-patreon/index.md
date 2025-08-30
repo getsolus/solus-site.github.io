@@ -1,12 +1,15 @@
 ---
-title: "Update on Patreon"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - infrastructure
 - news
-date: 2018-11-02T00:25:25+02:00
-featuredimage: "/update-on-patreon.jpg"
-url: "/2018/11/02/update-on-patreon"
+date: "2018-11-02T00:25:25+02:00"
+featuredimage: /update-on-patreon.jpg
+title: Update on Patreon
+url: /2018/11/02/update-on-patreon
 ---
 In this blog post, we provide an update on our Patreon account, current available funds, and insights on previous finances.
 <!--more-->

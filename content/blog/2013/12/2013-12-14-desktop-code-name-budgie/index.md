@@ -1,12 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2013-12-14T13:23:03Z"
-title = "Desktop: Code-name Budgie"
-url = "/2013/12/14/desktop-code-name-budgie"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+date: "2013-12-14T13:23:03Z"
+title: 'Desktop: Code-name Budgie'
+url: /2013/12/14/desktop-code-name-budgie
+---
 
 Some people may now be wondering what we intend to use as the desktop environment in Evolve OS. If you've followed my recent Google+ posts, you may already know about the Budgie Desktop.
 

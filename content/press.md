@@ -1,6 +1,6 @@
 ---
+date: "2025-08-29"
 title: Press
-date: 2025-08-29
 toc: false
 ---
 

@@ -1,12 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2014-05-04T17:25:51Z"
-title = "Status Update"
-url = "/2014/05/04/status-update/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+date: "2014-05-04T17:25:51Z"
+title: Status Update
+url: /2014/05/04/status-update/
+---
 
 Hello all!
 

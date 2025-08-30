@@ -1,12 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Uncategorized"
-]
-date =  "2014-01-17T08:51:10Z"
-title = "Call for people!"
-url = "/2014/01/17/call-for-people/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- Uncategorized
+date: "2014-01-17T08:51:10Z"
+title: Call for people!
+url: /2014/01/17/call-for-people/
+---
 
 Hello all, I hope you all had a fantastic Christmas and New Year!
 

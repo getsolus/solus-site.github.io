@@ -1,12 +1,15 @@
 ---
-title: "Software Center Progresses | The Roundup #6"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - roundup
-date: 2018-06-26T19:41:10+03:00
-featuredimage: "/software-center-featured.jpg"
-url: "/2018/06/26/software-center-progresses"
+date: "2018-06-26T19:41:10+03:00"
+featuredimage: /software-center-featured.jpg
+title: 'Software Center Progresses | The Roundup #6'
+url: /2018/06/26/software-center-progresses
 ---
 
 Welcome to The Roundup #6, your bytes of Solus news. In this roundup, we're talking about the progress being made on the Software Center as well as a peek at upcoming improvements to Budgie.

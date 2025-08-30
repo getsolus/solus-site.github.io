@@ -1,14 +1,17 @@
 ---
-title: "Accelerated Cadence and Faster Infrastructure"
-author: "ikey"
+authors:
+- image: https://avatars.githubusercontent.com/u/53261402?v=4
+  link: https://github.com/ikeycode
+  name: Ikey Doherty
 categories:
 - infrastructure
 - news
 - packages
 - partners
-date: 2017-10-06T01:49:59+03:00
-featuredimage: "/download-speeds.jpg"
-url: "/2017/10/06/accelerated-cadence-and-faster-infrastructure"
+date: "2017-10-06T01:49:59+03:00"
+featuredimage: /download-speeds.jpg
+title: Accelerated Cadence and Faster Infrastructure
+url: /2017/10/06/accelerated-cadence-and-faster-infrastructure
 ---
 
 Over the last month we've been pushing Solus hard in order to scale properly to meet the growing daily demands of the project. In a nutshell - it's not enough to be faster, we must be fast. We're delighted to report that we've achieved that aim, and in this post we'll share the details of how we got there.

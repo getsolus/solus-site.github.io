@@ -1,15 +1,18 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Packages",
-"TWIS"
-]
-date =  "2016-02-29T08:32:50Z"
-title = "This Week in Solus -- Install #22"
-url = "/2016/02/29/this-week-in-solus-install-22/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- Budgie
+- News
+- Packages
+- TWIS
+date: "2016-02-29T08:32:50Z"
+title: 'This Week in Solus -- Install #22'
+url: /2016/02/29/this-week-in-solus-install-22/
+---
+ 
 Welcome to the 22nd installation of This Week in Solus 
 
 #### Marching to 1.1

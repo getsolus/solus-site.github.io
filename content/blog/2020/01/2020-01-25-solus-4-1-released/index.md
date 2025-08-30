@@ -1,12 +1,15 @@
 ---
-title: "Solus 4.1 Released"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - releases
-date: 2020-01-25T15:51:24+02:00
-featuredimage: "/solus-4.1-featured.jpg"
-url: "/2020/01/25/solus-4-1-released"
+date: "2020-01-25T15:51:24+02:00"
+featuredimage: /solus-4.1-featured.jpg
+title: Solus 4.1 Released
+url: /2020/01/25/solus-4-1-released
 ---
 
 We are proud to announce the immediate availability of Solus 4.1, a new Solus 4 "Fortitude" series release. This release delivers a brand new desktop experience, updated software stacks, and hardware enablement.

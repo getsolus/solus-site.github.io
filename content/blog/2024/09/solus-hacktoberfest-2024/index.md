@@ -1,11 +1,14 @@
 ---
-title: "Solus Hacktoberfest 2024"
-author: "tracey"
+authors:
+- image: https://avatars.githubusercontent.com/u/10402612?v=4
+  link: https://github.com/TraceyC77
+  name: Tracey Clark
 categories:
 - news
-date: 2024-09-30T20:29:55-05:00
-featuredimage: "/horizontal_black.png"
-url: "/2024/09/30/solus-hacktoberfest-2024"
+date: "2024-09-30T20:29:55-05:00"
+featuredimage: /horizontal_black.png
+title: Solus Hacktoberfest 2024
+url: /2024/09/30/solus-hacktoberfest-2024
 ---
 
 Hey folks! It's spooky season, so you know what that means. It's time for [Hacktoberfest 2024](https://hacktoberfest.com/)! This is the annual event that "encourages people to contribute to open source throughout October", in exchange for rewards.

@@ -1,13 +1,16 @@
 ---
-title: "This Week in Solus - Install #46"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - plans
 - twis
-date: 2017-08-20T19:48:16+03:00
-featuredimage: "/preston-firefox.jpg"
-url: "/2017/08/20/this-week-in-solus-install-46"
+date: "2017-08-20T19:48:16+03:00"
+featuredimage: /preston-firefox.jpg
+title: 'This Week in Solus - Install #46'
+url: /2017/08/20/this-week-in-solus-install-46
 ---
 
 Welcome to the 46th installation of This Week in Solus, or as I'm opting to call this one, "TODO all the things!"

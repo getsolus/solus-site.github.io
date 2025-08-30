@@ -1,14 +1,17 @@
 ---
-title: "Fashionable GNOME Forty | The Roundup #19"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - budgie
 - packages
 - news
 - roundup
-date: 2021-04-27T14:58:33+03:00
-featuredimage: "/gnome-40.jpg"
-url: "/2021/04/27/fashionable-gnome-forty"
+date: "2021-04-27T14:58:33+03:00"
+featuredimage: /gnome-40.jpg
+title: 'Fashionable GNOME Forty | The Roundup #19'
+url: /2021/04/27/fashionable-gnome-forty
 ---
 
 Welcome to The Roundup #19, your bytes of Solus news. In this roundup, we talk about our Budgie 10.5.3 bug fix release, GNOME 40, move to KDE's Qt5 patch collection, and more!

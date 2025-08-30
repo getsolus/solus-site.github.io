@@ -1,13 +1,15 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Plans"
-]
-date =  "2016-06-23T17:44:22Z"
-title = "Peek at a Point Release: Solus 1.2.1"
-url = "/2016/06/23/peek-at-a-point-release-solus-1-2-1/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- News
+- Plans
+date: "2016-06-23T17:44:22Z"
+title: 'Peek at a Point Release: Solus 1.2.1'
+url: /2016/06/23/peek-at-a-point-release-solus-1-2-1/
+---
 
 A lot of [incredible work coalesced for Solus 1.2](https://solus-project.com/2016/06/20/solus-1-2-shannon-released/), ranging from improvements to our flagship desktop environment Budgie to significant performance gains in the underlying system. 
 The Installer and Software Center were built from the ground up to address a wide variety of pain points and make the use of Solus easier for everyone. We also were the first operating system to ship the new 

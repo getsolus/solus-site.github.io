@@ -1,14 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"Packages"
-]
-date =  "2014-09-02T18:12:41Z"
-
-title = "Geary 0.7.0 Now Available"
-featuredimage = "/geary.png"
-url = "/2014/09/02/geary-0-7-0-now-available/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- Packages
+date: "2014-09-02T18:12:41Z"
+featuredimage: /geary.png
+title: Geary 0.7.0 Now Available
+url: /2014/09/02/geary-0-7-0-now-available/
+---
 
 Geary, a GTK+ email client, is now available for Evolve OS. To install, please run the following command:<!--more-->
 

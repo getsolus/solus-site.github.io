@@ -1,11 +1,15 @@
-+++
-author = "ikey"
-categories = ["news"]
-date = "2017-05-23T15:12:34+01:00"
-featuredimage = "/kde-in-sc.png"
-title = "Waiter, There's A Plasma Desktop In My Soup"
-url = "/2017/05/23/waiter-theres-a-plasma-desktop-in-my-soup"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- news
+date: "2017-05-23T15:12:34+01:00"
+featuredimage: /kde-in-sc.png
+title: Waiter, There's A Plasma Desktop In My Soup
+url: /2017/05/23/waiter-theres-a-plasma-desktop-in-my-soup
+---
 
 If you've been keeping your Solus installation up to date recently, well, you saw that already, right? If not, you should be aware that there are new KDE categories within the Solus Software Center.
 

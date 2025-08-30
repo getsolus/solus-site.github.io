@@ -1,13 +1,16 @@
 ---
-title: "New Updates For A New Decade | The Roundup #14"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - packages
 - news
 - roundup
-date: 2020-01-17T13:04:27+02:00
-featuredimage: "/hmm.jpg"
-url: "/2020/01/17/new-updates-for-a-new-decade"
+date: "2020-01-17T13:04:27+02:00"
+featuredimage: /hmm.jpg
+title: 'New Updates For A New Decade | The Roundup #14'
+url: /2020/01/17/new-updates-for-a-new-decade
 ---
 
 Welcome to The Roundup #14, your bytes of Solus news. In this roundup, we're talking about some brand new updates to really kick off 2020!

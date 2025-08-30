@@ -1,11 +1,14 @@
 ---
-title: "State of Solus - April 2024"
-author: "david"
+authors:
+- image: https://avatars.githubusercontent.com/u/23007135?v=4
+  link: https://github.com/DavidJHarder
+  name: David Harder
 categories:
-  - news
-date: 2024-04-20
-featuredimage: "/StateOfSolusApril2024.jpg"
-url: "/2024/04/20/state-of-solus-april-2024"
+- news
+date: "2024-04-20"
+featuredimage: /StateOfSolusApril2024.jpg
+title: State of Solus - April 2024
+url: /2024/04/20/state-of-solus-april-2024
 ---
 
 April 18, 2024 marks exactly one year since Josh published the "New Voyage" post announcing the return of Solus in its current form. A good chunk of that post was dedicated to explaining the work we wanted to do in the future, having just completed the technical task of migrating critical Solus infrastructure off the previous hosting environment. In this post, I will outline what we've accomplished in this busy year.

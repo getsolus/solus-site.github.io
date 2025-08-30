@@ -1,14 +1,17 @@
 ---
-title: "2019: To Venture Ahead"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - budgie
 - infrastructure
 - news
 - plans
-date: 2019-01-14T11:56:14+02:00
-featuredimage: "/to-venture-ahead.jpg"
-url: "/2019/01/14/2019-to-venture-ahead"
+date: "2019-01-14T11:56:14+02:00"
+featuredimage: /to-venture-ahead.jpg
+title: '2019: To Venture Ahead'
+url: /2019/01/14/2019-to-venture-ahead
 ---
 
 Solus is a project which does not shy away from continuously improving and rethinking entire aspects of our architecture and experiences on our quest for technical excellence, whether that is introducing new tooling and experiences or changing existing ones. 2019 is going to be a transformative year for Solus.

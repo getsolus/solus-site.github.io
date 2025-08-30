@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2015-06-18T19:45:40Z"
-
-title = "Status Update"
-url = "/2015/06/18/status-update-2/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- News
+date: "2015-06-18T19:45:40Z"
+title: Status Update
+url: /2015/06/18/status-update-2/
+---
 
 Hello all. It's high time for a status update and I'd like to let you all know where we're at, why there is a delay on releases, and how long things are going to take. 
 TL;DR: Don't panic, s'all good. 

@@ -1,11 +1,14 @@
 ---
-title: "Exploring Solus Architecture"
-author: "ikey"
+authors:
+- image: https://avatars.githubusercontent.com/u/53261402?v=4
+  link: https://github.com/ikeycode
+  name: Ikey Doherty
 categories:
 - news
-date: 2018-02-15T11:33:21Z
-featuredimage: "/architecture.jpg"
-url: "/2018/02/15/exploring-solus-architecture"
+date: "2018-02-15T11:33:21Z"
+featuredimage: /architecture.jpg
+title: Exploring Solus Architecture
+url: /2018/02/15/exploring-solus-architecture
 ---
 
 In this post we'll be exploring the Solus architecture, going over some of the key differences separating it from other projects. Do note this is a technical article, and doesn't encompass **every** area of Solus for the sake of brevity.

@@ -1,13 +1,16 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"TWIS"
-]
-date =  "2016-01-03T20:12:28Z"
-title = "This Week in Solus -- Install #16"
-url = "/2016/01/03/this-week-in-solus-install-16/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- News
+- TWIS
+date: "2016-01-03T20:12:28Z"
+title: 'This Week in Solus -- Install #16'
+url: /2016/01/03/this-week-in-solus-install-16/
+---
+ 
 
 Welcome to the 16th installation of This Week in Solus. This is the first installation since the [great 1.0 release](https://solus-project.com/2015/12/27/solus-1-0-released/), which happened last week, as well as being the first of 2016! I opted to not have three blog posts in the span of two days last week, that'd be a tad excessive. 
 

@@ -1,12 +1,15 @@
 ---
-title: "This Week In Solus - Install #48"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - plans
-date: 2017-11-12T14:18:32+02:00
-featuredimage: "/civ_vi.jpg"
-url: "/2017/11/12/this-week-in-solus-install-48"
+date: "2017-11-12T14:18:32+02:00"
+featuredimage: /civ_vi.jpg
+title: 'This Week In Solus - Install #48'
+url: /2017/11/12/this-week-in-solus-install-48
 ---
 
 Welcome to This Week in Solus, install #48.

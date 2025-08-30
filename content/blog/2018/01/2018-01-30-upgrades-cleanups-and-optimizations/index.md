@@ -1,12 +1,15 @@
 ---
-title: "Upgrades, Cleanups, and Optimizations | The Roundup #2"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - roundup
-date: 2018-01-30T00:30:19+02:00
-featuredimage: "/conversions.png"
-url: "/2018/01/30/upgrades-cleanups-and-optimizations"
+date: "2018-01-30T00:30:19+02:00"
+featuredimage: /conversions.png
+title: 'Upgrades, Cleanups, and Optimizations | The Roundup #2'
+url: /2018/01/30/upgrades-cleanups-and-optimizations
 ---
 
 Welcome to The Roundup #2, your bytes of Solus news. In this roundup, we're talking stack upgrades, repo cleanup efforts, LDM updates, Plasma Early Access ISO, and planned boot optimizations!

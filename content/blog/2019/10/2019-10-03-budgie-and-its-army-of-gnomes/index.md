@@ -1,13 +1,16 @@
 ---
-title: "Budgie and Its Army of GNOMES | The Roundup #13"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - budgie
 - infrastructure
 - news
-date: 2019-10-03T16:55:23+03:00
-featuredimage: "/budgie-desktop.jpg"
-url: "/2019/10/03/budgie-and-its-army-of-gnomes"
+date: "2019-10-03T16:55:23+03:00"
+featuredimage: /budgie-desktop.jpg
+title: 'Budgie and Its Army of GNOMES | The Roundup #13'
+url: /2019/10/03/budgie-and-its-army-of-gnomes
 ---
 
 Welcome to The Roundup #13, your bytes of Solus news. In this roundup, we're talking about our new minor release of the Budgie 10.5 series, Budgie 10.5.1, the latest upgrade of our GNOME Stack, new KDE goodies, and more!

@@ -1,11 +1,14 @@
 ---
-title: "Brisk Menu 0.5.0 Released"
-author: "ikey"
+authors:
+- image: https://avatars.githubusercontent.com/u/53261402?v=4
+  link: https://github.com/ikeycode
+  name: Ikey Doherty
 categories:
 - news
-date: 2017-11-02T20:55:31+02:00
-featuredimage: "/brisk-menu-0-5-0.jpg"
-url: "/2017/11/02/brisk-menu-0-5-0-released"
+date: "2017-11-02T20:55:31+02:00"
+featuredimage: /brisk-menu-0-5-0.jpg
+title: Brisk Menu 0.5.0 Released
+url: /2017/11/02/brisk-menu-0-5-0-released
 ---
 
 [Brisk Menu 0.5.0 is here](https://github.com/solus-project/brisk-menu/releases/tag/v0.5.0)! This is the first of 2 planned releases for the course of the next few weeks.

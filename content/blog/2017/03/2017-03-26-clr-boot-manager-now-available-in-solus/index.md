@@ -1,12 +1,16 @@
-+++
-categories = ["news"]
-author = "joshua"
-date = "2017-03-26T19:52:23+03:00"
-title = "clr-boot-manager now available in Solus"
-url = "/2017/03/26/clr-boot-manager-now-available-in-solus"
-featuredimage = "/clr-boot-manager.jpg"
-notitle = true
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- news
+date: "2017-03-26T19:52:23+03:00"
+featuredimage: /clr-boot-manager.jpg
+notitle: true
+title: clr-boot-manager now available in Solus
+url: /2017/03/26/clr-boot-manager-now-available-in-solus
+---
 
 We're happy to announce the rollout of [clr-boot-manager](https://github.com/ikeydoherty/clr-boot-manager) in our stable repository. clr-boot-manager, from the [Clear Linux Project For Intel Architecture](https://clearlinux.org/), enables a **more bulletproof update experience** by handling the maintenance and garbage collection of kernels, as well as configuration of the bootloader itself (i.e. GRUB2 for Legacy Boot, `goofiboot` for UEFI boot on Solus). Furthermore, it enables us to retain older, known-working kernels, so in the event a kernel upgrade results in the inability to boot, you'll still be able to roll back to the last good kernel.
 

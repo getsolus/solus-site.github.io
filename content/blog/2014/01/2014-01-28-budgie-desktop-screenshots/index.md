@@ -1,12 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Uncategorized"
-]
-date =  "2014-01-28T22:49:17Z"
-title = "Budgie Desktop Screenshots"
-url = "/2014/01/28/budgie-desktop-screenshots/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+categories:
+- Uncategorized
+date: "2014-01-28T22:49:17Z"
+title: Budgie Desktop Screenshots
+url: /2014/01/28/budgie-desktop-screenshots/
+---
 
 Very short post, because I'm very busy working on the code for this 🙂
 

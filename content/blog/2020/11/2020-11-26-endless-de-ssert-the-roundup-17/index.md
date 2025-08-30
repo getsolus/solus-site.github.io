@@ -1,15 +1,18 @@
 ---
-title: "Endless DE-ssert | The Roundup #17"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - budgie
 - packages
 - news
 - roundup
-date: 2020-11-26T17:08:12+02:00
+date: "2020-11-26T17:08:12+02:00"
 disabletitlemodification: "yes"
-featuredimage: "/the-roundup-17-featured.jpg"
-url: "/2020/11/26/endless-de-ssert-the-roundup-17"
+featuredimage: /the-roundup-17-featured.jpg
+title: 'Endless DE-ssert | The Roundup #17'
+url: /2020/11/26/endless-de-ssert-the-roundup-17
 ---
 
 Welcome to The Roundup #17, your bytes of Solus news. In this roundup, we're talk about our new desktop icons implementation for Budgie, GNOME 3.38, KDE and Plasma updates, and more!

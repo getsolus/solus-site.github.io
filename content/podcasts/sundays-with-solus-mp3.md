@@ -1,3 +1,3 @@
-+++
-feedtype="mp3"
-+++
+---
+feedtype: mp3
+---

@@ -1,13 +1,16 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Plans",
-]
-date =  "2015-12-28T08:34:07Z"
-title = "1.0 and Beyond"
-url = "/2015/12/28/1-0-and-beyond/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+categories:
+- News
+- Plans
+date: "2015-12-28T08:34:07Z"
+title: 1.0 and Beyond
+url: /2015/12/28/1-0-and-beyond/
+---
+ 
 
 On the heels of our [first release of Solus](https://solus-project.com/2015/12/27/solus-1-0-released/), I want to take a moment to discuss with the community our plans for beyond 1.0 and up to 2.0. 
 

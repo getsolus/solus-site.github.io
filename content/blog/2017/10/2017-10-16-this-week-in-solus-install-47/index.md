@@ -1,12 +1,15 @@
 ---
-title: "This Week in Solus - Install #47"
-author: "joshua"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
 categories:
 - news
 - twis
-date: 2017-10-16T05:24:54+03:00
-featuredimage: "/gnome-shell-3_26_1.jpg"
-url: "/2017/10/16/this-week-in-solus-install-47"
+date: "2017-10-16T05:24:54+03:00"
+featuredimage: /gnome-shell-3_26_1.jpg
+title: 'This Week in Solus - Install #47'
+url: /2017/10/16/this-week-in-solus-install-47
 ---
 
 Welcome to This Week in Solus, Install #47. It's been a real extraordinary week for us, rolling out updated GNOME and gstreamer stacks, LLVM and systemd upgrades, improvements to linux-steam-integration, and more! So let's get started.

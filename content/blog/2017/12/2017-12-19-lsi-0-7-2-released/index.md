@@ -1,11 +1,14 @@
 ---
-title: "Linux Steam Integration 0.7.2 Released"
-author: "ikey"
+authors:
+- image: https://avatars.githubusercontent.com/u/53261402?v=4
+  link: https://github.com/ikeycode
+  name: Ikey Doherty
 categories:
 - news
-date: 2017-12-19T16:10:34Z
-featuredimage: "/lsi-072-fullscreen-but-not-actually.jpg"
-url: "/2017/12/19/lsi-0-7-2-released"
+date: "2017-12-19T16:10:34Z"
+featuredimage: /lsi-072-fullscreen-but-not-actually.jpg
+title: Linux Steam Integration 0.7.2 Released
+url: /2017/12/19/lsi-0-7-2-released
 ---
 
 [Linux Steam Integration 0.7.2](https://github.com/solus-project/linux-steam-integration/releases/tag/v0.7.2) is now here.
