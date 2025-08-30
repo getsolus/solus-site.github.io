@@ -1,3 +1,0 @@
----
-feedtype: ogg
----
