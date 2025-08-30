@@ -1,12 +1,12 @@
 <!-- Beginning of Solus Site Footer -->
-<div class="hx-mx-auto hx-max-w-screen-xl hx-inline-flex hx-flex-col hx-gap-2 hx-pt-4">
+<div class="mx-auto max-w-screen-xl inline-flex flex-col gap-2 pt-4">
   {{- range site.Params.footer.menus -}}
     {{- $name := .name -}}
     {{- $submenu := .submenu -}}
 
-    <div class="hx-inline-flex hx-flex-row hx-gap-2">
+    <div class="inline-flex flex-row gap-2">
       <b class="solus-w-4xs">{{ $name }}:</b>
-      <nav class="hx-inline-flex gap-6" {{ if eq $name "Socials" }}itemscope itemtype="http://schema.org/Organization"{{ end }}>
+      <nav class="inline-flex gap-6" {{ if eq $name "Socials" }}itemscope itemtype="http://schema.org/Organization"{{ end }}>
       {{- range $submenu -}}
         {{- $submenuName := .name -}}
         {{- $link := .url -}}
@@ -37,11 +37,10 @@
   {{- end -}}
 
   <div class="my-4">
-    <p class="hx-mb-4">
+    <p class="mb-4">
       Copyright &copy; 2015-{{ site.Params.copyright }} Solus Project. The Solus logo is Copyright &copy; 2015-{{ site.Params.copyright }} Solus Project. All rights reserved.
     </p>
-    <p class="hx-mb-4">
-      Laptop graphic provided by Clyde Goodall. <br />
+    <p class="mb-4">
       Application icons provided by the <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme" target="_blank">Papirus Icon Theme</a>. <br />
       Other icons provided by <a href="https://forkaweso.me">Fork Awesome</a> under the <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a> License.
     </p>
