@@ -17,7 +17,7 @@ Install today. Updates forever.
   {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="mb-4">
+<div class="mb-16">
   {{< editions-list >}}
 </div>
 
@@ -39,5 +39,6 @@ Install today. Updates forever.
 
   <div class="mt-4">
     {{< hextra/hero-button text="Learn more" link="https://help.getsol.us/docs/user/quick-start/installation/#verifying-the-iso" >}}
+    {{< hextra/hero-button text="Public key" link="https://downloads.getsol.us/gpg/solus-releng-pub.gpg" >}}
   </div>
 {{< /hextra/hero-container >}}

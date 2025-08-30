@@ -8,6 +8,8 @@
 {{- $release := printf "Solus-%s-Release-%s" $name $version -}}
 {{- $imagePath := printf "/imgs/release-images/%s/%s.jpg" $version $name -}}
 {{- $isoURL := printf "https://downloads.getsol.us/isos/%s/%s.iso" $version $release | safeURL -}}
+{{- $shasumURL := printf "https://downloads.getsol.us/isos/%s/%s.iso.sha256sum" $version $release | safeURL -}}
+{{- $signatureURL := printf "https://downloads.getsol.us/isos/%s/%s.iso.sha256sum.sign" $version $release | safeURL -}}
 {{- $torrentURL := printf "https://downloads.getsol.us/torrents/%s.torrent" $release | safeURL -}}
 
 {{ $cardClass := "hover:border-gray-300 bg-gray-100 shadow dark:border-neutral-700 dark:bg-neutral-800" }}
@@ -29,7 +31,7 @@
   <div class="hextra-card-subtitle items-start gap-2 font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2">{{- $description -}}</div>
 
   <div
-    class="hextra-cards mt-4 px-4 gap-4 grid not-prose"
+    class="hextra-cards mt-4 mb-4 px-4 gap-4 grid not-prose"
     style="--hextra-cards-grid-cols: 2;"
   >
     {{- partial "shortcodes/card" (dict
@@ -46,30 +48,17 @@
         "tag" "52KB"
         )
     -}}
+    {{- partial "shortcodes/card" (dict
+        "link" $shasumURL
+        "icon" "key"
+        "title" "Hash"
+        )
+    -}}
+    {{- partial "shortcodes/card" (dict
+        "link" $signatureURL
+        "icon" "pencil"
+        "title" "Signature"
+        )
+    -}}
   </div>
-  <details class="last-of-type:mb-0 rounded-lg p-4 group hover:border-gray-300 bg-transparent dark:border-neutral-700">
-    <summary class="flex items-center cursor-pointer select-none list-none p-1 px-4 rounded-lg transition-all {{ $linkClass }} before:mr-1 before:inline-block before:transition-transform before:content-[''] dark:before:invert rtl:before:rotate-180 group-open:before:rotate-90">
-      <span class="text-lg font-semibold">Checksums</span>
-    </summary>
-    <div class="flex gap-2 p-2 overflow-hidden">
-      <a
-        class="flex-1 text-center p-2 rounded-lg {{ $linkClass }}"
-        href="https://downloads.getsol.us/isos/2024-10-14/{{ $release }}.iso.sha256sum"
-        target="_blank"
-        rel="noopener"
-        >ISO Hash</a>
-      <a
-        class="flex-1 text-center p-2 rounded-lg {{ $linkClass }}"
-        href="https://downloads.getsol.us/isos/2024-10-14/{{ $release }}.iso.sha256sum.sign"
-        target="_blank"
-        rel="noopener"
-        >Signature</a>
-      <a
-        class="flex-1 text-center p-2 rounded-lg {{ $linkClass }}"
-        href="https://downloads.getsol.us/gpg/solus-releng-pub.gpg"
-        target="_blank"
-        rel="noopener"
-        >Public Key</a>
-    </div>
-  </details>
 </div>
