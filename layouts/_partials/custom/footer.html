@@ -1,54 +1,31 @@
 <!-- Beginning of Solus Site Footer -->
-<div class="mx-auto max-w-screen-xl inline-flex flex-col gap-2 pt-4">
-  {{- range site.Params.footer.menus -}}
-    {{- $name := .name -}}
-    {{- $submenu := .submenu -}}
-
-    <div class="inline-flex flex-row gap-2">
-      <b class="solus-w-4xs">{{ $name }}:</b>
-      <nav class="inline-flex gap-6" {{ if eq $name "Socials" }}itemscope itemtype="http://schema.org/Organization"{{ end }}>
-      {{- range $submenu -}}
-        {{- $submenuName := .name -}}
-        {{- $link := .url -}}
-        {{- $external := strings.HasPrefix $link "http" -}}
-        {{- with .pageRef -}}
-          {{- if hasPrefix . "/" -}}
-            {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
-          {{- end -}}
-        {{- end -}}
-
-        {{- if eq $name "Socials" -}}
-          <link itemprop="url" href="{{ $link }}" />
-        {{- end -}}
-        {{- if and ($external) (ne $submenuName "Mastodon") -}}
-          <a
-            {{ if eq $name "Socials" }}itemprop="sameAs"{{ end }}
-            href="{{ $link }}">
-              {{ $submenuName }}
-          </a>
-        {{- else if eq $submenuName "Mastodon" -}}
-          <a rel="me" href="{{ $link }}">{{ $submenuName }}</a>
-        {{- else -}}
-          <a href="{{ $link }}">{{ $submenuName }}</a>
-        {{- end -}}
-      {{- end -}}
-      </nav>
-    </div>
-  {{- end -}}
-
-  <div class="my-4">
-    <p class="mb-4">
-      Copyright &copy; 2015-{{ site.Params.copyright }} Solus Project. The Solus logo is Copyright &copy; 2015-{{ site.Params.copyright }} Solus Project. All rights reserved.
-    </p>
-    <p class="mb-4">
-      Application icons provided by the <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme" target="_blank">Papirus Icon Theme</a>. <br />
-      Other icons provided by <a href="https://forkaweso.me">Fork Awesome</a> under the <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a> License.
-    </p>
+<div class="flex flex-col md:flex-row md:justify-between py-4 text-sm">
+  <div class="flex flex-col md:flex-row md:gap-4 items-center pb-4 md:pb-0">
     <p>
-      * Other names and brands may be claimed as the property of others
+      Copyright &copy; {{ site.Params.copyright }} Solus Project.
     </p>
+    <div>{{ template "theme-credit" "Powered by Hextra" }}</div>
   </div>
-  <a alt="Donate" href="https://opencollective.com/getsolus/donate" target="_blank">
-    <img alt="Solus OpenCollective" src="https://opencollective.com/getsolus/donate/button@2x.png?color=blue" width=300 />
-  </a>
+
+  <ul class="flex justify-between md:justify-normal md:gap-4 items-center">
+    {{- range site.Params.footer.menu -}}
+    {{- $identifier := .identifier -}}
+    {{- $name := .name -}}
+    {{- $link := .url -}}
+    {{- $external := strings.HasPrefix $link "http" -}}
+    {{- with .pageRef -}}
+      {{- if hasPrefix . "/" -}}
+        {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
+      {{- end -}}
+    {{- end -}}
+
+    <li class="text-center">
+      {{ if $external }}
+        <a href="{{ $link }}" target="_blank" rel="noopener">{{ $name }}</a>
+      {{ else }}
+        <a href="{{ $link }}">{{ $name }}</a>
+      {{ end}}
+    </li>
+    {{- end -}}
+  </ul>
 </div>

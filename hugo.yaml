@@ -35,33 +35,45 @@ menu:
     - name: Home
       pageRef: /
       weight: 1
-    - name: About
-      pageRef: /about
+    - name: Get Solus
+      pageRef: /editions
       weight: 2
     - name: Blog
       pageRef: /blog
       weight: 3
-    - name: Get Solus
-      pageRef: /editions
-      weight: 4
     - name: Dev Tracker ↗
       url: "https://dev.getsol.us"
-      weight: 5
-    - name: Forums ↗
-      url: "https://discuss.getsol.us"
-      weight: 6
+      weight: 4
     - name: Funding ↗
       url: "https://opencollective.com/getsolus"
-      weight: 7
+      weight: 5
     - name: Help ↗
       url: "https://help.getsol.us"
-      weight: 8
-    - name: Matrix ↗
+      weight: 6
+    - name: Forums
+      url: "https://discuss.getsol.us"
+      weight: 7
+      params:
+        icon: chat-alt
+    - name: Matrix
       url: "https://matrix.to/#/#solus:matrix.org"
+      weight: 8
+      params:
+        icon: chat-alt-2
+    - name: Mastodon
+      url: https://floss.social/@getsolus
       weight: 9
-    - name: Security ↗
-      url: "https://github.com/getsolus/packages/blob/main/SECURITY.md"
-      weight: 10
+      params:
+        icon: mastodon
+    # - name: Reddit
+    #   url: https://reddit.com/r/SolusProject
+    #   weight: 10
+    #   params:
+    #     icon: reddit
+    - name: Theme Toggle
+      weight: 11
+      params:
+        type: theme-toggle
 
 params:
   copyright: 2025
@@ -76,45 +88,20 @@ params:
     width: wide
   footer:
     width: wide
-    menus:
-      - name: Solus
-        submenu:
-          - name: About
-            pageRef: /about
-          - name: Download
-            pageRef: /editions
-          - name: Experiences
-            pageRef: /experiences
-          - name: Technologies
-            pageRef: /technologies
-      - name: Socials
-        submenu:
-          - name: Mastodon
-            url: https://floss.social/@getsolus
-          - name: Bluesky
-            url: https://bsky.com
-          - name: Reddit
-            url: https://reddit.com/r/SolusProject
-      - name: Contact
-        submenu:
-          - name: Dev Tracker
-            url: https://dev.getsol.us
-          - name: Forums
-            url: https://discuss.getsol.us
-          - name: Funding
-            url: https://opencollective.com/getsolus
-          - name: Help Center
-            url: https://help.getsol.us
-          - name: Matrix
-            url: "https://matrix.to/#/#solus:matrix.org"
-          - name: Security
-            url: "https://github.com/getsolus/packages/blob/main/SECURITY.md"
-      - name: Press
-        submenu:
-          - name: Branding
-            pageRef: /branding
-          - name: Press
-            pageRef: /press
+    displayPoweredBy: false # We do this ourselves
+    menu:
+      - identifier: press
+        name: Press
+        pageRef: /press
+      - identifier: branding
+        name: Branding
+        pageRef: /branding
+      - identifier: team
+        name: Team
+        url: "https://help.getsol.us/docs/organization/teams"
+      - identifier: security
+        name: Security
+        url: "https://github.com/getsolus/packages/blob/main/SECURITY.md"
   theme:
     default: system
-    displayToggle: true
+    displayToggle: false # We do this ourselves
