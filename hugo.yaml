@@ -77,6 +77,7 @@ menu:
 
 params:
   copyright: 2025
+  externalLinkDecoration: true
   navbar:
     displayTitle: false
     displayLogo: true
