@@ -103,6 +103,9 @@ params:
       - identifier: security
         name: Security
         pageRef: /security
+      - identifier: technology
+        name: Technology
+        pageRef: /technology
   theme:
     default: system
     displayToggle: false # We do this ourselves
