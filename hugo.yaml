@@ -102,7 +102,7 @@ params:
         url: "https://help.getsol.us/docs/organization/teams"
       - identifier: security
         name: Security
-        url: "https://github.com/getsolus/packages/blob/main/SECURITY.md"
+        pageRef: /security
   theme:
     default: system
     displayToggle: false # We do this ourselves
