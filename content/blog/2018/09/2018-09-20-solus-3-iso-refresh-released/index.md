@@ -830,7 +830,7 @@ Our ISO refresh of Solus MATE Edition introduces some changes to our default bra
 
 **perl**
 
-  - [Peter O'Connor: Addresss CVE-2018-12015](https://dev.getsol.us/source/perl/browse/master/;38f0538)
+  - [Peter O'Connor: Address CVE-2018-12015](https://dev.getsol.us/source/perl/browse/master/;38f0538)
   - [Peter O'Connor: Rebuild perl with updated toolchain](https://dev.getsol.us/source/perl/browse/master/;dccf614)
   - [Peter O'Connor: Update to 5.26.2, resolves the following CVEs:](https://dev.getsol.us/source/perl/browse/master/;ebfd2b1)
   - [Pierre-Yves: Rebuild for glibc 2.26](https://dev.getsol.us/source/perl/browse/master/;e23094e)
@@ -1121,7 +1121,7 @@ Our ISO refresh of Solus MATE Edition introduces some changes to our default bra
   - [Ikey Doherty: Update GCC to 7.3.0](https://dev.getsol.us/source/gcc/browse/master/;3f8bc6a)
   - [Ikey Doherty: Sync GCC with the latest Retpoline patches](https://dev.getsol.us/source/gcc/browse/master/;0464dc2)
   - [Ikey Doherty: Apply retpoline security patch for GCC](https://dev.getsol.us/source/gcc/browse/master/;82a9fd7)
-  - [Peter O'Connor: Revert to original build envirnoment](https://dev.getsol.us/source/gcc/browse/master/;dfa751f)
+  - [Peter O'Connor: Revert to original build environment](https://dev.getsol.us/source/gcc/browse/master/;dfa751f)
   - [Peter O'Connor: Convert to ypkg](https://dev.getsol.us/source/gcc/browse/master/;c6c6a61)
   - [Ikey Doherty: Attempt resolution of G++ segfaults and invalid instructions](https://dev.getsol.us/source/gcc/browse/master/;ae69bed)
   - [Ikey Doherty: Complete rebootstrap of GCC 7.2.0](https://dev.getsol.us/source/gcc/browse/master/;82892ee)
@@ -1262,7 +1262,7 @@ Our ISO refresh of Solus MATE Edition introduces some changes to our default bra
   - [Ikey Doherty: Let's try this again with a fresh brain!](https://dev.getsol.us/source/snapd/browse/master/;6da3708)
   - [Ikey Doherty: Just try reading private NVIDIA dir first](https://dev.getsol.us/source/snapd/browse/master/;fdd44bf)
   - [Ikey Doherty: Second times the charm](https://dev.getsol.us/source/snapd/browse/master/;bb0576f)
-  - [Ikey Doherty: Try desparately to fix snapd so that @blaz accepts me into his life](https://dev.getsol.us/source/snapd/browse/master/;ff90d9e)
+  - [Ikey Doherty: Try desperately to fix snapd so that @blaz accepts me into his life](https://dev.getsol.us/source/snapd/browse/master/;ff90d9e)
   - [Ikey Doherty: Refresh snapd steam-support](https://dev.getsol.us/source/snapd/browse/master/;55d35ae)
   - [Ikey Doherty: Make glvnd work properly with AppArmor confinement](https://dev.getsol.us/source/snapd/browse/master/;35c955c)
   - [Ikey Doherty: Sync snapd `steam-support` patch](https://dev.getsol.us/source/snapd/browse/master/;fed6aaa)
@@ -1389,7 +1389,7 @@ Our ISO refresh of Solus MATE Edition introduces some changes to our default bra
   - [Peter O'Connor: Rebuild against Qt 5.11](https://dev.getsol.us/source/qtstyleplugins/browse/master/;f2240b3)
   - [Peter O'Connor: Rebuild for Qt 5.10](https://dev.getsol.us/source/qtstyleplugins/browse/master/;81d0d2b)
   - [Peter O'Connor: Ban this from Plasma sessions](https://dev.getsol.us/source/qtstyleplugins/browse/master/;1e5556e)
-  - [Peter O'Connor: Rebuild agaist Qt5 stack](https://dev.getsol.us/source/qtstyleplugins/browse/master/;588928e)
+  - [Peter O'Connor: Rebuild against Qt5 stack](https://dev.getsol.us/source/qtstyleplugins/browse/master/;588928e)
 
 
 **lz4**
@@ -2029,7 +2029,7 @@ Our ISO refresh of Solus MATE Edition introduces some changes to our default bra
   - [Ikey Doherty: Rebuild for kernels](https://dev.getsol.us/source/nvidia-glx-driver/browse/master/;92f9f68)
   - [Ikey Doherty: Rebuild for new kernels](https://dev.getsol.us/source/nvidia-glx-driver/browse/master/;2868a95)
   - [Ikey Doherty: Rebuild for kernels](https://dev.getsol.us/source/nvidia-glx-driver/browse/master/;5d1f5e5)
-  - [Ikey Doherty: Rebuild for linux-curent](https://dev.getsol.us/source/nvidia-glx-driver/browse/master/;a5f2af8)
+  - [Ikey Doherty: Rebuild for linux-current](https://dev.getsol.us/source/nvidia-glx-driver/browse/master/;a5f2af8)
   - [Ikey Doherty: Fix missing internal CUDA support (re: T354)](https://dev.getsol.us/source/nvidia-glx-driver/browse/master/;cadcd12)
   - [Ikey Doherty: Correctly configure nvidia-glx-driver Vulkan ICD files](https://dev.getsol.us/source/nvidia-glx-driver/browse/master/;3956016)
   - [Ikey Doherty: Rebuild for new kernels](https://dev.getsol.us/source/nvidia-glx-driver/browse/master/;5fe8f05)
@@ -2666,7 +2666,7 @@ Our ISO refresh of Solus MATE Edition introduces some changes to our default bra
   - [Ikey Doherty: Remove eopkg integration with COMAR configuration (T5010)](https://dev.getsol.us/source/pisi/browse/master/;5a882f2)
   - [Ikey Doherty: Sync with git for automatic build job count](https://dev.getsol.us/source/pisi/browse/master/;0c5b6ed)
   - [Ikey Doherty: Actually like, bump the package, dimwit.](https://dev.getsol.us/source/pisi/browse/master/;4a63270)
-  - [Ikey Doherty: These are not hte droids you are looking for..](https://dev.getsol.us/source/pisi/browse/master/;e02b6f0)
+  - [Ikey Doherty: These are not the droids you are looking for..](https://dev.getsol.us/source/pisi/browse/master/;e02b6f0)
   - [Ikey Doherty: Update to 3.6](https://dev.getsol.us/source/pisi/browse/master/;6980fbf)
 
 
@@ -2978,7 +2978,7 @@ Our ISO refresh of Solus MATE Edition introduces some changes to our default bra
 **zlib**
 
   - [Joey Riches: Add missing component for subpackage minizip](https://dev.getsol.us/source/zlib/browse/master/;96cef66)
-  - [Ikey Doherty: Explictly enable static archives again to help with OpenWRT building](https://dev.getsol.us/source/zlib/browse/master/;a278f8d)
+  - [Ikey Doherty: Explicitly enable static archives again to help with OpenWRT building](https://dev.getsol.us/source/zlib/browse/master/;a278f8d)
   - [Ikey Doherty: Rebuild with new CFLAGS](https://dev.getsol.us/source/zlib/browse/master/;3aa93d9)
   - [Joey Riches: minizip: don't build 32bit and disable static libraries](https://dev.getsol.us/source/zlib/browse/master/;5df84e9)
   - [Matthias Eliasson: build and add minizip from contrib](https://dev.getsol.us/source/zlib/browse/master/;899f881)

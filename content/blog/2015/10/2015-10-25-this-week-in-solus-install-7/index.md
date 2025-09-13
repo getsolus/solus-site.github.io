@@ -23,7 +23,7 @@ We have some project announcements to make this week. Roles and titles have been
 
 - Ikey Doherty has been provided the obvious role of Project Manager. He will do what he currently does, which is develop and oversee the Solus Project and the work being done on the Solus operating system.
 - Justin Zobel has been provided the role of Community & Social Media Manager. He will oversee social media accounts and community issues that are not under the scope of the Communications Manager.
-- I, Joshua Strobl, have been provided the role of Communications Manager. I will help faciliate the communication between the media and the Solus Project, inform our community on information pertaining to the Solus Project, and work 
+- I, Joshua Strobl, have been provided the role of Communications Manager. I will help facilitate the communication between the media and the Solus Project, inform our community on information pertaining to the Solus Project, and work 
 with Justin on ensuring issues brought up by the community are addressed.
 
 These roles will accompany the coding and package development that is existing currently.
@@ -65,7 +65,7 @@ The following package updates are broken down based on contributor and within ea
 
 ##### Updated
 
-- [budgie-desktop: Updated to 8.3 for maintenence updates](https://git.solus-project.com/packages/budgie-desktop/commit/?id=e3d30fd6f970cb83fa964b3b83f3fa5d13ae992b)
+- [budgie-desktop: Updated to 8.3 for maintenance updates](https://git.solus-project.com/packages/budgie-desktop/commit/?id=e3d30fd6f970cb83fa964b3b83f3fa5d13ae992b)
 - [gvfs: Enabled CDDA and Avahi integration](https://git.solus-project.com/packages/gvfs/commit/?id=3e030bc8c36e713530713f1a9ffe6edb1d233742)
 - [kernel: Linux kernel has been updated to 4.1.11](https://git.solus-project.com/packages/kernel/commit/?id=b2203d7ba01e1ee1b865da1cad73ef4773c1a20c)
 - [pisi: Implemented proper build-info based dbginfo](https://git.solus-project.com/packages/pisi/commit/?id=ac8bfcfd454db21e93965010bcaaa8332d08e5b9)

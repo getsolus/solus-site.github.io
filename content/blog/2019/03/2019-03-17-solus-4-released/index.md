@@ -262,7 +262,7 @@ To download our latest Editions, you can go to our [Download](/download) page, w
 
 **libao**
 
-  - [Bryan T. Meyers: Update to 1.2.2 and siwtch to github source](https://dev.getsol.us/source/libao/browse/master/;91addfb)
+  - [Bryan T. Meyers: Update to 1.2.2 and switch to github source](https://dev.getsol.us/source/libao/browse/master/;91addfb)
 
 
 **ldb**
@@ -1173,7 +1173,7 @@ To download our latest Editions, you can go to our [Download](/download) page, w
   - [Pierre-Yves: Update libnss to 3.42.1 for CVE-2018-18508](https://dev.getsol.us/source/libnss/browse/master/;ea0c1b4)
   - [Pierre-Yves: Update libnss to 3.42](https://dev.getsol.us/source/libnss/browse/master/;f4db4af)
   - [Pierre-Yves: Update libnss to 3.41.1](https://dev.getsol.us/source/libnss/browse/master/;1d14582)
-  - [Pierre-Yves: Udate libnss to 3.41](https://dev.getsol.us/source/libnss/browse/master/;d932423)
+  - [Pierre-Yves: Update libnss to 3.41](https://dev.getsol.us/source/libnss/browse/master/;d932423)
   - [Pierre-Yves: Update libnss to 3.40.1 to address CVE-2018-12404](https://dev.getsol.us/source/libnss/browse/master/;ceed9f5)
   - [Pierre-Yves: Update libnss to 3.39 for CVE-2018-12384](https://dev.getsol.us/source/libnss/browse/master/;16ab8e8)
 
@@ -1480,7 +1480,7 @@ To download our latest Editions, you can go to our [Download](/download) page, w
 **tar**
 
   - [Pierre-Yves: Update tar to 1.32](https://dev.getsol.us/source/tar/browse/master/;8ac736f)
-  - [Pierre-Yves: Prevent tar to abord during normal operations](https://dev.getsol.us/source/tar/browse/master/;0644dce)
+  - [Pierre-Yves: Prevent tar to abort during normal operations](https://dev.getsol.us/source/tar/browse/master/;0644dce)
   - [Pierre-Yves: Update tar to 1.31 to address CVE-2018-20482](https://dev.getsol.us/source/tar/browse/master/;f043155)
 
 

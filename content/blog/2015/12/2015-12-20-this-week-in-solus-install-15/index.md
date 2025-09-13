@@ -36,7 +36,7 @@ nvidia 304 will be also declared sufficiently flaky at this point.
 Budgie Next has undergone a lot of work this week. We now require our own theme to completely override many elements, which enables a consistent Budgie experience. This will be expanded on in the future, as we will enable users to choose their own custom themes for use with Budgie.
 
 There has also been continued improvements made for accessibility, which we consider to be important and in dire need of improvement through the entire Linux ecosystem. Thanks to the work done by [Horst3180](https://plus.google.com/113168459677947885445),
-we now have native support for HighConstrast. Below is a video that highlights some of the improvements so far to Budgie Next as well as highlighting HighContrast support.
+we now have native support for HighContrast. Below is a video that highlights some of the improvements so far to Budgie Next as well as highlighting HighContrast support.
 
 There has also been improvements to customization. As Ikey put it: "**Now your setup can be as impossibly weird as you want 😛**".
 

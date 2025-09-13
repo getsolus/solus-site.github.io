@@ -656,7 +656,7 @@ Solus repositories, v4 of Slate is also available via [its GitHub Page](https://
 
 **xkeyboard-config**
 
-  - [Ikey Doherty: Update to 2.19, add compatibilty symlink for MATE](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=5ae9ea6)
+  - [Ikey Doherty: Update to 2.19, add compatibility symlink for MATE](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=5ae9ea6)
   - [Joshua Strobl: Convert to yaml.](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=15e102e)
 
 
@@ -1417,7 +1417,7 @@ Solus repositories, v4 of Slate is also available via [its GitHub Page](https://
 
 **xkeyboard-config**
 
-  - [Ikey Doherty: Update to 2.19, add compatibilty symlink for MATE](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=5ae9ea6)
+  - [Ikey Doherty: Update to 2.19, add compatibility symlink for MATE](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=5ae9ea6)
   - [Joshua Strobl: Convert to yaml.](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=15e102e)
 
 

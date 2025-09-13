@@ -12,7 +12,7 @@ url: /2015/01/16/important-repo-changes/
 
 Hello all!
 
-Please note that to accomodate a more stable development path in the future, we have had to alter the layout and position of our package repository.
+Please note that to accommodate a more stable development path in the future, we have had to alter the layout and position of our package repository.
 
 This means that if you download a current ISO, you will need to change the repositories post-install to ensure you continue to receive updates.
 

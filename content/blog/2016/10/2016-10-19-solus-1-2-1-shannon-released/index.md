@@ -69,7 +69,7 @@ Alongside all the goodies above, a plethora of bug fixes and other improvements 
 -   Daemon 
   -  Addressed shadow on EndSessionDialog in composite race-condition.
   -  Ensure we always hide the User Indicator window and focus on the daemon window.
-  -  Fix issues with OSD placement. Basically, the window allocation inexplicablly changes between shows of the window, resulting in a larger offset the second time around, moving the whole OSD one full unit east.
+  -  Fix issues with OSD placement. Basically, the window allocation inexplicably changes between shows of the window, resulting in a larger offset the second time around, moving the whole OSD one full unit east.
 -   Data 
   -  We now provide fallback icons for pane-{hide,show}-symbolic icons created by horst3180, which are used in the Raven Sidebar Control. These are used in absence of the named icons within the theme itself, such as when using Adwaita.
 -   Iconography 
@@ -81,7 +81,7 @@ Alongside all the goodies above, a plethora of bug fixes and other improvements 
 -   Plugin 
   -  All applets now extend GtkEventBox and not GtkBin. 
 -   As seen in issue [#574](https://github.com/solus-project/budgie-desktop/issues/574), we have various problems with certain applet types due to extending from the primitive GtkBin. In this particular instance we have no child GdkWindow, 
-which is why the drawing system becomes bizarely bugged and results in rendering in random locations.All applets should have at least one top level GdkWindow that is not part of the GtkWindow's GdkWindow, to ensure separate context. As a part of this 
+which is why the drawing system becomes bizarrely bugged and results in rendering in random locations.All applets should have at least one top level GdkWindow that is not part of the GtkWindow's GdkWindow, to ensure separate context. As a part of this 
 change, all third-party applets should be rebuilt against the new Budgie due to the ABI break introduced here.
 -   Raven 
   -  Ensure all cursor themes are loaded. Previously, we made an assumption that icons and cursors were somehow mutually exclusive. The idea of the index.theme parsing was simply to test that it was a valid icon theme. However, we then only tested for the 
@@ -134,7 +134,7 @@ the greeter, to operate without any files in /etc/, using our sane defaults. Thu
 because there is no conflicting configuration files to deal with, merge with or mend.
 
 A side effect of a fully stateless system, is that the user can simply purge all of their own administrative configuration changes to perform a factory reset. Not all packages are stateless yet in Solus, but it's an ongoing goal that we're committed to delivering to 
-ensure problem free upgrades and maintainence of Solus systems.
+ensure problem free upgrades and maintenance of Solus systems.
 
 #### Installer
 
@@ -143,7 +143,7 @@ ensure problem free upgrades and maintainence of Solus systems.
 ![relimg](Installer-LVM-and-Encryption.png)
 
 Logical Volume Manager (LVM) and encryption via LUKS are now a mere couple clicks away in the new Installer. This is a great addition for businesses that enforce an encryption policy, the privacy conscious, or simply those that don't want their large 
-collections of I Can Haz Cheezeburger cat photos to be at risk in the event of theft. After enabling encryption, you will be prompted to provide your passphrase during boot and prior to the login screen, to perform decryption.
+collections of I Can Haz Cheeseburger cat photos to be at risk in the event of theft. After enabling encryption, you will be prompted to provide your passphrase during boot and prior to the login screen, to perform decryption.
 
 ##### Other Improvements
 

@@ -43,7 +43,7 @@ and configuration of drivers. This work will enable Optimus support as well as o
 Once we are confident in the quality and initial functionality of Linux Driver Management, we will set our sights on Budgie 11 development and enhancing its architecture. 
 [We have already expressed interest in numerous new features, functionality, and changes for Budgie 11](https://github.com/budgie-desktop/info), such as (*but not limited to*):
 
-- Improving accessiblity and ensure all components are reusable, ATK registered, and don't break a11y.
+- Improving accessibility and ensure all components are reusable, ATK registered, and don't break a11y.
 - Budgie Panel and Raven will use separate, versioned trees, and individual plugins will be appropriately namespaced.
 - Settings will be moved to a new Budgie Settings application, which we intend to be a replacement for Gnome Control Center. 
 - Budgie will see the introduction of multi-monitor panel support, which the ability to drag reorder widgets, lock the panel, permit the panel on any edge, intellihide, and more.

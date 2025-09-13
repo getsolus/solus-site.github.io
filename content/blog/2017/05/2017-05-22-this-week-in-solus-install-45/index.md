@@ -50,7 +50,7 @@ We'll be expanding on this by validating MariaDB / MySQL support in PHP and impr
 
 ![relimg](solus-sc-multi.jpg)
 
-v18 of our Software Center was released last week. This release featured a bunch of UX improvements, starting with improved AppStream integration that enables us to express more information about an application and its developer(s). This is most noticable when paired with our new package view page.
+v18 of our Software Center was released last week. This release featured a bunch of UX improvements, starting with improved AppStream integration that enables us to express more information about an application and its developer(s). This is most noticeable when paired with our new package view page.
 
 The new package view page features screenshot support, as well as exposing more in-depth app descriptions, installed package size, version information, and various buttons to the developer's website and donation links that they may provide.
 

@@ -52,7 +52,7 @@ At the time of writing, 66% of 172 voters were in favour of Flatpak.
 ### Brand Power
 
 Clearly, in terms of "brand power", Snap has the upper hand currently. It's well known, well publicised,
-and receives constant coverage in the news. Flatpak, on the other hand, is often _percieved_
+and receives constant coverage in the news. Flatpak, on the other hand, is often _perceived_
 as having a slower rate of development, etc. In truth, Flatpak is actually just as quick
 in terms of development and enjoys very frequent updates. So, let us dismiss the power
 of the brand, and look at the technical aspects.

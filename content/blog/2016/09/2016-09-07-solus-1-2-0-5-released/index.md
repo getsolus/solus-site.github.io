@@ -988,7 +988,7 @@ You can download 1.2.0.5 via HTTP direct download and torrents from [here](https
 
 **bash**
 
--  [Ikey Doherty: Ensure to propogate flags into user environment](https://git.solus-project.com/packages/bash/commit/?id=1e0bf51)
+-  [Ikey Doherty: Ensure to propagate flags into user environment](https://git.solus-project.com/packages/bash/commit/?id=1e0bf51)
 -  [Ikey Doherty: Rebuild](https://git.solus-project.com/packages/bash/commit/?id=ffb82e6)
 -  [Ikey Doherty: Rebuild for cflags, optimize for size](https://git.solus-project.com/packages/bash/commit/?id=ef3922e)
 
@@ -1326,7 +1326,7 @@ You can download 1.2.0.5 via HTTP direct download and torrents from [here](https
 -  [Ikey Doherty: Rebuild for new kernel](https://git.solus-project.com/packages/nvidia-glx-driver/commit/?id=ab77d1d)
 -  [Ikey Doherty: Rebuild against latest kernel](https://git.solus-project.com/packages/nvidia-glx-driver/commit/?id=0eb2c6a)
 -  [Justin Zobel: Rebuild for 4.4.10](https://git.solus-project.com/packages/nvidia-glx-driver/commit/?id=d1aa202)
--  [Justin Zobel: Rebulid for 4.4.9](https://git.solus-project.com/packages/nvidia-glx-driver/commit/?id=d1d2abe)
+-  [Justin Zobel: Rebuild for 4.4.9](https://git.solus-project.com/packages/nvidia-glx-driver/commit/?id=d1d2abe)
 -  [Ikey Doherty: Rebuild for new kernel](https://git.solus-project.com/packages/nvidia-glx-driver/commit/?id=00c9589)
 -  [Ikey Doherty: Rebuild against kernel](https://git.solus-project.com/packages/nvidia-glx-driver/commit/?id=2e9bcb7)
 -  [Ikey Doherty: Rebuild against 4.4.8 kernel](https://git.solus-project.com/packages/nvidia-glx-driver/commit/?id=213a57e)
@@ -2020,7 +2020,7 @@ You can download 1.2.0.5 via HTTP direct download and torrents from [here](https
 **glibc**
 
 -  [Ikey Doherty: Update to glibc 2.24, latest upstream version](https://git.solus-project.com/packages/glibc/commit/?id=fb334e2)
--  [Ikey Doherty: Fix the broken GCC6 patches and condense for maintainence purposes](https://git.solus-project.com/packages/glibc/commit/?id=e852824)
+-  [Ikey Doherty: Fix the broken GCC6 patches and condense for maintenance purposes](https://git.solus-project.com/packages/glibc/commit/?id=e852824)
 -  [Ikey Doherty: Fix GCC6 build issues, also address issues whereby Python segfaults (hplip)](https://git.solus-project.com/packages/glibc/commit/?id=b3b49bd)
 -  [Ikey Doherty: Address CVE-2016-4429](https://git.solus-project.com/packages/glibc/commit/?id=2624b88)
 -  [Ikey Doherty: Address CVE-2016-3075](https://git.solus-project.com/packages/glibc/commit/?id=d0a2637)

@@ -753,7 +753,7 @@ Solus will co-exist with other operating systems using UEFI, and will not add th
 
 **budgie-desktop**
 
--  [Ikey Doherty: Update to v8.3 for maintainence updates](https://git.solus-project.com/packages/budgie-desktop/commit/?id=e3d30fd)
+-  [Ikey Doherty: Update to v8.3 for maintenance updates](https://git.solus-project.com/packages/budgie-desktop/commit/?id=e3d30fd)
 -  [Ikey Doherty: Migrate to a themed panel (no more 100% alpha)](https://git.solus-project.com/packages/budgie-desktop/commit/?id=31437d8)
 -  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/budgie-desktop/commit/?id=2d4ac5f)
 -  [Ikey Doherty: Fix menu problems by pretending to be GNOME. Even more.](https://git.solus-project.com/packages/budgie-desktop/commit/?id=3243f71)
@@ -886,7 +886,7 @@ Solus will co-exist with other operating systems using UEFI, and will not add th
 -  [Ikey Doherty: Rebuild with new toolchain name](https://git.solus-project.com/packages/glibc/commit/?id=8c1d194)
 -  [Ikey Doherty: Bump for repo inclusion](https://git.solus-project.com/packages/glibc/commit/?id=eb0fd41)
 -  [Ikey Doherty: Fix self dependency situation](https://git.solus-project.com/packages/glibc/commit/?id=82636fd)
--  [Ikey Doherty: Convert legacy packaging to ypkg for easier maintainence](https://git.solus-project.com/packages/glibc/commit/?id=3c44746)
+-  [Ikey Doherty: Convert legacy packaging to ypkg for easier maintenance](https://git.solus-project.com/packages/glibc/commit/?id=3c44746)
 -  [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/glibc/commit/?id=a26407d)
 -  [Ikey Doherty: Patch glibc to build with GNU Make 4](https://git.solus-project.com/packages/glibc/commit/?id=0e7fced)
 -  [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/glibc/commit/?id=16b85b5)

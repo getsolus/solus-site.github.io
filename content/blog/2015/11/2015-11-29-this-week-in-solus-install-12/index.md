@@ -349,7 +349,7 @@ Here is a highlight of package updates that have occurred this week:
 - [Ikey Doherty: Rebuild against 4.1.13 kernel](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=be454fa)        
 - [Ikey Doherty: Update to 304.131 to address a number of CVEs](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=ae3b095)        
 - [Rebuild against 4.3 kernel"](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=69da1c8">Ikey Doherty: Revert )        
-- [Ikey Doherty: Rebuild against modfified DRM](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=ef31056)        
+- [Ikey Doherty: Rebuild against modified DRM](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=ef31056)        
 - [Ikey Doherty: Rebuild against 4.3 kernel](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=43a96c2)        
 - [Ikey Doherty: Bump for kernel rebuild](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=b37ca67)        
 - [Ikey Doherty: Rebuild against 4.1.12 kernel](https://git.solus-project.com/packages/nvidia-304-glx-driver/commit/?id=4feab36)

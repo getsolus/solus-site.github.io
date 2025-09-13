@@ -13,7 +13,7 @@ url: /2015/07/02/solus-daily-iso-01072015/
 The most recent daily ISO was uploaded last night, and features some small, but noticeable, improvements. 
 
 - Broadwell support validated       
-- SNA (Intel driver acceleration method, the fastest one) now workin fully on Broadwell and Haswell, due to [syncing](https://git.solus-project.com/packages/xorg-driver-video-intel/commit/?h=xorg-driver-video-intel-2.99.917-10) 
+- SNA (Intel driver acceleration method, the fastest one) now working fully on Broadwell and Haswell, due to [syncing](https://git.solus-project.com/packages/xorg-driver-video-intel/commit/?h=xorg-driver-video-intel-2.99.917-10) 
 with xf86-video-intel git       
 - Support [added](https://git.solus-project.com/packages/kernel/commit/?h=kernel-4.1.1-50) for NVME block devices (NVM Express, SSD over PCIe)       
 - Auditing [disabled](https://git.solus-project.com/packages/kernel/commit/?h=kernel-4.1.1-51) in the kernel -- ensuring less console spam and less SSD writes       

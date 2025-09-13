@@ -61,7 +61,7 @@ Note that networking is available in this image though firmware isn't available,
 
 * Ensure package management behaves as expected
 * Ensure there are no service failures or strange log entries
-* Ensure no excess files are installed (Identify packages installing files to /usr/include for example, pacakges that must be split. I'm aware of this issue but having a list to 
+* Ensure no excess files are installed (Identify packages installing files to /usr/include for example, packages that must be split. I'm aware of this issue but having a list to 
 work with is nice) -- consult `pisi search-file <PATH>`
 * Ensure networking, SSL, etc, work as expected.
 * Ensure PAM/auth/security is working (using the live account, root, sudo)

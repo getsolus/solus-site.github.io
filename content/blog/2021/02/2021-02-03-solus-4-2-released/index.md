@@ -922,7 +922,7 @@ To download our latest Editions, you can go to our [Download](/download) page, w
  - [Alexander Vorobyev: samba: patch missing include in libsmbclient.h & update documentation](https://dev.getsol.us/source/samba/browse/master/;afbf175)
  - [Rune Morling: Samba: Update to 4.12.10](https://dev.getsol.us/source/samba/browse/master/;0808ecd)
  - [Rune Morling: Remove MAINTAINERS.md](https://dev.getsol.us/source/samba/browse/master/;76bd7a0)
- - [Rune Morling: Soften the langage around samba maintence.](https://dev.getsol.us/source/samba/browse/master/;8b325e4)
+ - [Rune Morling: Soften the language around samba maintenance.](https://dev.getsol.us/source/samba/browse/master/;8b325e4)
 
 **libgnome-menus**
 

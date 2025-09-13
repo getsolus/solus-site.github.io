@@ -16,7 +16,7 @@ Every time you purchase merchandise from Unixstickers, including [merchandise fo
 a portion of the proceeds goes to the respective project.
 
 Additionally, each month Unixstickers chooses a different project to which they donate an **additional portion** of their total revenue towards. We're grateful that Unixstickers has **chosen Solus** to be December's beneficiary. 
-We intend on utilitizing the donations provided by [Unixstickers](https://unixstickers.com)' donation program towards the cost of a **new package server in the United States**, meaning the opportunity for faster 
+We intend on utilizing the donations provided by [Unixstickers](https://unixstickers.com)' donation program towards the cost of a **new package server in the United States**, meaning the opportunity for faster 
 update speeds and software downloading!
 
 For more details, we'd recommend subscribing to Unixstickers' newsletter!

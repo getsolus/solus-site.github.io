@@ -199,7 +199,7 @@ Solus 4.3 Plasma Edition ships with the latest Plasma Desktop 5.22.2, KDE Framew
 - Adaptive Transparency for Breeze.
 - System Settings introduces a new Speed Dial page, giving you direct access to commonly used features such as light / dark theme changing, wallpaper changing, and access to common settings.
 - System Tray got a rework with a redesigned Digital Clock.
-- If you are sharing or recording your screen the Notifications widget will automatically enter "Do not Distrub" mode.
+- If you are sharing or recording your screen the Notifications widget will automatically enter "Do not Disturb" mode.
 - Krunner can now be used as a mini command-line launcher.
 
 Solus-specific Plasma integration has received various refinements, specifically:
@@ -1308,7 +1308,7 @@ If you would like to financially support Solus, enabling us to continue to cover
 
 **net-snmp**
 
- - F. von Gellhorn: Rebuild agaisnt tooling update
+ - F. von Gellhorn: Rebuild against tooling update
  - Joey Riches: Update abireport for glibc
 
 **libgtkmm-3**
@@ -1511,7 +1511,7 @@ If you would like to financially support Solus, enabling us to continue to cover
 
 **qtstyleplugins**
 
- - F. von Gellhorn: Saftey rebuild
+ - F. von Gellhorn: Safety rebuild
 
 **cpio**
 
@@ -1648,7 +1648,7 @@ If you would like to financially support Solus, enabling us to continue to cover
 **modem-manager**
 
  - Joshua Strobl: Safety rebuild
- - Joshua Strobl: Update to 1.16.2. Changelog avaialble [here](https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/blob/mm-1-16/NEWS).
+ - Joshua Strobl: Update to 1.16.2. Changelog available [here](https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/blob/mm-1-16/NEWS).
  - Joshua Strobl: Add updated ABI files
 
 **mjpegtools**

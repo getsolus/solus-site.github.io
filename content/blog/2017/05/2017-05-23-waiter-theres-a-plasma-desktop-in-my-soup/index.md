@@ -50,7 +50,7 @@ The rest of the stack is shared between the team and the community.
 
 ## Success of Phabricator
 
-As an aside, I'd like to talk about the success of our migration to Phabricator. We went live with the migration of our legacy infrastructure on May the 6th 2017, and in the period of 17 days we've already hav *179 patches* contributed via the new system! This number excludes the dedicated maintainers who already have push permissions to their own repositories.
+As an aside, I'd like to talk about the success of our migration to Phabricator. We went live with the migration of our legacy infrastructure on May the 6th 2017, and in the period of 17 days we've already had *179 patches* contributed via the new system! This number excludes the dedicated maintainers who already have push permissions to their own repositories.
 
 ## A Personal Thank You
 

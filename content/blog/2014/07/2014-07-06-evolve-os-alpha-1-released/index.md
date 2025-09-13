@@ -10,7 +10,7 @@ title: Evolve OS Alpha 1 Released
 url: /2014/07/06/evolve-os-alpha-1-released/
 ---
 
-I am pleased to announce the release of Evolve OS Alpha 1. This version marks the beginning of our public availablity as a desktop Linux distribution. 
+I am pleased to announce the release of Evolve OS Alpha 1. This version marks the beginning of our public availability as a desktop Linux distribution. 
 This image is a 64-bit ISO, and comes with the Budgie Desktop as standard. Please help by download and testing the image so we can ensure our future 
 releases are as polished as possible for our users.
 

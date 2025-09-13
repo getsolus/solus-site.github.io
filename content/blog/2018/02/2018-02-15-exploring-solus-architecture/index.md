@@ -14,7 +14,7 @@ url: /2018/02/15/exploring-solus-architecture
 In this post we'll be exploring the Solus architecture, going over some of the key differences separating it from other projects. Do note this is a technical article, and doesn't encompass **every** area of Solus for the sake of brevity.
 <!--more-->
 
-One of the driving aims of Solus is to provide a stable rolling release Linux distribution with a focus on the desktop. On the surface this may sound trivial, but how do we sustain that over time? In a nut shell, our tools and processes are extensions of our philosophy, and enable us to continously deliver.
+One of the driving aims of Solus is to provide a stable rolling release Linux distribution with a focus on the desktop. On the surface this may sound trivial, but how do we sustain that over time? In a nut shell, our tools and processes are extensions of our philosophy, and enable us to continuously deliver.
 
 Importantly, one should remember that Solus 1 looked absolutely nothing like what we describe below. In fact, Solus 1.0 was intended to be a statically versioned, classic distribution, which has since significantly evolved over time into a fully fledged rolling distribution. This article will help you understand exactly how we got to this point, and highlights the invisible parts that make Solus what it is. Lastly, we're not claiming to be perfect! There are other areas to attack, and we continue to evolve, and hope that our approach in tackling these issues may be useful to projects outside of Solus, be it code or just philosophy.
 
@@ -68,7 +68,7 @@ The most basic trigger would be `ldconfig`, which simply re-runs `ldconfig` when
 
 We consider it invalid to ship any files in `/boot` in any Solus package. Instead, our kernels live in `/usr/lib/kernel`, and managed by [clr-boot-manager](https://github.com/clearlinux/clr-boot-manager) to promote/demote kernels from the boot partition/directory/ESP. This allows a level of granularity not possible before, such as controlling per-kernel command lines, as well as always having an "old" kernel to fallback to if there are problems with the newly updated kernel. This gives us an almost bulletproof boot when it comes to kernel management. `usysconf` will automatically call out to `clr-boot-manager` during any transaction that alters the kernel paths, such as `/usr/lib/kernel` or `/usr/share/kernel/cmdline.d`. During the early conception of `clr-boot-manager`, it was decided that the tool should be agnostic and provide a sane approach to boot management, as well as some level of standardisation of dual booting on the EFI System Partition. As such, all boot assets are fully namespaced to avoid conflicts.
 
-Another noticeable difference here is in how we handle the `initramfs` (initial RAM filesystem). In the majority of Linux distributions, this is produced on the end users system during some postinstall operation/transaction, which can be susceptible to local failures (such as invalid local configurations breaking the target image). Conversely, we produce the `initramfs` image during the kernel compilation, shipping these prebuilt images directly to the users along with the kernel package. It is then the job of `clr-boot-manager`to promote these alongside the kernel to the boot partition/ESP. This change alone has solved a whole host of issues for us, and enabled a level of reproducability and testing previously impossible with target-specific images.
+Another noticeable difference here is in how we handle the `initramfs` (initial RAM filesystem). In the majority of Linux distributions, this is produced on the end users system during some postinstall operation/transaction, which can be susceptible to local failures (such as invalid local configurations breaking the target image). Conversely, we produce the `initramfs` image during the kernel compilation, shipping these prebuilt images directly to the users along with the kernel package. It is then the job of `clr-boot-manager`to promote these alongside the kernel to the boot partition/ESP. This change alone has solved a whole host of issues for us, and enabled a level of reproducibility and testing previously impossible with target-specific images.
 
 
 ### Driver Management
@@ -104,7 +104,7 @@ Additionally with our `clr-boot-manager` integration, these are pushed into the 
 ### Avoiding "three-way-merge" Config Hell
 
 Many parts of Solus have been slowly changing to a stateless configuration by default. At the most basic level, we split the configuration domains into OS, Data, Admin. The basic premise is that stuff that doesn't actually require configuration to run, shouldn't have any, and all software should function in the absence of user provided configuration. In many places, we
-use a default configuration that is "owned" by the OS, but can be overriden by users/administrations. This ensures their configuration is separate from the OS, permitting rollbacks and resets, as well as avoiding the dreaded interactive configuration merges on update. Or "who really owns /etc?". This isn't perfect in Solus yet, and we're aiming to improve this over
+use a default configuration that is "owned" by the OS, but can be overridden by users/administrations. This ensures their configuration is separate from the OS, permitting rollbacks and resets, as well as avoiding the dreaded interactive configuration merges on update. Or "who really owns /etc?". This isn't perfect in Solus yet, and we're aiming to improve this over
 time with the introduction of configuration management tooling as well as concise documentation/policies.
 
 ### Avoiding Conflicts
@@ -127,7 +127,7 @@ alone cannot be viewed as the singular solution or selling feature of a well int
 
 ### Fixing the "stupid"
 
-It should be noted that we're not spending every minute contemplating how to rework our architecture, typically it evolves out of real world issues. However a long standing theme has been to "fix the stupid", i.e. attack low hanging fruit and drop legacy cruft from the system. With that said, it would be unwise to blindly run into these projects, so we only use this approach in combination with a very important piece of Solus philosphy:
+It should be noted that we're not spending every minute contemplating how to rework our architecture, typically it evolves out of real world issues. However a long standing theme has been to "fix the stupid", i.e. attack low hanging fruit and drop legacy cruft from the system. With that said, it would be unwise to blindly run into these projects, so we only use this approach in combination with a very important piece of Solus philosophy:
 
 > *Let's fix this for the last time.*
 

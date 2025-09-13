@@ -49,7 +49,7 @@ used throughout our display / graphic stack.
 
 ![relimg](2WCcF57H2z6O.png)
 
-Let's be honest, printing isn't sexy. Printing isn't even what the cool kids do anymore. Nowadays they send their ol' vintage filtered pictures on the Snapchats and sign documents on their fancy iPotatos. But that doesn't matter. 
+Let's be honest, printing isn't sexy. Printing isn't even what the cool kids do anymore. Nowadays they send their ol' vintage filtered pictures on the Snapchats and sign documents on their fancy iPotatoes. But that doesn't matter. 
 Solus 1.1 ships with printing support out of the box. Now when those cool kids grow up and get jobs, their need for printing on old fashion paper will work. Got an HP printer? Install the hplip package!
 
 We've refined our selection of beautiful wallpapers, generously provided by [Twisted Pixels](http://www.twistedpixelsphotography.com/).

@@ -71,7 +71,7 @@ The process goes like this:
 
    The switch will be activated when the phased rollout is complete.
 
-Once the migration has rolled out to everyone (more on this later), we can fork our package repository and do an Epoch bump, which is jumping from one binary repository version to another. That way, we can safely release package updates, knowing that they'll only be going out to Usr-Merged systems. While an Epoch bump isn't strictly necessary for the merging process itself, it *is* necessary to safely remove our pre-Usr-Merge compatability symlinks from various packages. Removing the symlinks on a system that has not been merged will likely break the system, as we saw last time, because update order is non-deterministic.
+Once the migration has rolled out to everyone (more on this later), we can fork our package repository and do an Epoch bump, which is jumping from one binary repository version to another. That way, we can safely release package updates, knowing that they'll only be going out to Usr-Merged systems. While an Epoch bump isn't strictly necessary for the merging process itself, it *is* necessary to safely remove our pre-Usr-Merge compatibility symlinks from various packages. Removing the symlinks on a system that has not been merged will likely break the system, as we saw last time, because update order is non-deterministic.
 
 Migration to a new package repository has actually been done before on Solus. Most recently, it was done when the repositories were put behind a CDN during the re-launch of our infrastructure.
 

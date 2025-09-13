@@ -43,7 +43,7 @@ This has resulted in an enormous acceleration in Solus development times, with 1
 
 #### Where We're At
 
-We're actually in an awesome position now. Packages are being continously maintained and included with no bottleneck or bus factor, a centralised developer 
+We're actually in an awesome position now. Packages are being continuously maintained and included with no bottleneck or bus factor, a centralised developer 
 workflow exists, and we're screaming through our workload with impressive velocity.
 
 An enormous plus for many users: Steam is coming to Solus very soon! **Most of the emul32 work is done**, ready to start syncing into our repositories. Once 

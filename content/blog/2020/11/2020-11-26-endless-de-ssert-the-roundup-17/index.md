@@ -27,7 +27,7 @@ Since the early days of Budgie, we have been using Nautilus' (now legacy) deskto
 
 Of course, we recognized that keeping Solus on an old version of Nautilus was not going to be sustainable. Not only did we want a newer version of GNOME's file manager with all the fancy bells and whistles that come with it, but we wanted to enable our downstreams to ship Budgie akin to how Solus does without potentially compromising on functionality.
 
-To facilitate this, our goal from the start for Budgie 10.5.2 was to introduce a new, separate project that could be iterated on independently from Budgie Desktop itelf. This project needed to be rigorously focused and developed with an understanding of the scope and intent of the project, not trying to be a file manager but rather a method of quickly accessing the content and applications you consider most important.
+To facilitate this, our goal from the start for Budgie 10.5.2 was to introduce a new, separate project that could be iterated on independently from Budgie Desktop itself. This project needed to be rigorously focused and developed with an understanding of the scope and intent of the project, not trying to be a file manager but rather a method of quickly accessing the content and applications you consider most important.
 
 Today we are thrilled to announce the [first generally public development release of Budgie Desktop View](https://github.com/getsolus/budgie-desktop-view)! This release focuses on providing the essentials to a desktop icons experience:
 

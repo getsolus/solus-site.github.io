@@ -143,7 +143,7 @@ Solus users can expect goodies such as:
 
 As a result of various changes to GNOME Shell, the current changes are being applied to various branding packages we ship or have shipped for Solus GNOME Edition:
 
-- Plata-noir has been swapped out for Materia-dark. Plata Theme has not seen development since the GNOME 3.38 stack release, which has meant considerable breakages under 40, alongside GTK4. Materia GTK Theme provides a very similiar look and feel, so we are comfortable with applying this switch. If you changed your GTK or Shell theme to a non-default value, run the command:
+- Plata-noir has been swapped out for Materia-dark. Plata Theme has not seen development since the GNOME 3.38 stack release, which has meant considerable breakages under 40, alongside GTK4. Materia GTK Theme provides a very similar look and feel, so we are comfortable with applying this switch. If you changed your GTK or Shell theme to a non-default value, run the command:
 
   `gsettings reset org.gnome.desktop.interface 'gtk-theme'`
 - Dash to Dock is **temporarily** deprecated from the Solus repositories and is no longer enabled by default via our desktop branding. We will reintroduce Dash-to-Dock support when the [current merge request for GNOME 40 support](https://github.com/micheleg/dash-to-dock/pull/1402), which introduces some instability and is "very much WIP" (exact quote), is merged in and a release is tagged around it.
