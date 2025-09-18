@@ -30,50 +30,43 @@ markup:
 
 enableInlineShortcodes: true
 
-menu:
+menus:
   main:
-    - name: Home
-      pageRef: /
-      weight: 1
-    - name: Get Solus
-      pageRef: /editions
-      weight: 2
-    - name: Blog
-      pageRef: /blog
-      weight: 3
-    - name: Dev Tracker ↗
-      url: "https://dev.getsol.us"
-      weight: 4
-    - name: Funding ↗
-      url: "https://opencollective.com/getsolus"
-      weight: 5
-    - name: Help ↗
-      url: "https://help.getsol.us"
-      weight: 6
-    - name: Forums
-      url: "https://discuss.getsol.us"
-      weight: 7
-      params:
-        icon: chat-alt
-    - name: Matrix
-      url: "https://matrix.to/#/#solus:matrix.org"
-      weight: 8
-      params:
-        icon: chat-alt-2
-    - name: Mastodon
-      url: https://floss.social/@getsolus
-      weight: 9
-      params:
-        icon: mastodon
-    # - name: Reddit
-    #   url: https://reddit.com/r/SolusProject
-    #   weight: 10
-    #   params:
-    #     icon: reddit
-    - name: Theme Toggle
-      weight: 11
-      params:
-        type: theme-toggle
+  - name: Home
+    pageRef: /
+    weight: 1
+  - name: Get Solus
+    pageRef: /editions
+    weight: 2
+  - name: Blog
+    pageRef: /blog
+    weight: 3
+  - name: Forums
+    url: "https://discuss.getsol.us"
+    weight: 4
+  - name: Funding ↗
+    url: "https://opencollective.com/getsolus"
+    weight: 5
+  - name: Help ↗
+    url: "https://help.getsol.us"
+    weight: 6
+  - name: Matrix ↗
+    url: "https://matrix.to/#/#solus:matrix.org"
+    weight: 7
+  - name: Dev Tracker
+    url: "https://dev.getsol.us"
+    weight: 8
+    params:
+      icon: github
+  - name: Mastodon
+    url: https://floss.social/@getsolus
+    weight: 9
+    params:
+      icon: mastodon
+  - name: Theme Toggle
+    weight: 10
+    params:
+      type: theme-toggle
 
 params:
   copyright: 2025
