@@ -45,7 +45,7 @@ When using the textual logo, keep these things in mind:
 
 We use the following colors for our branding:
 
-<div class="grid grid-cols-3 gap-8 mt-8 mb-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 mb-12">
   <div class="flex flex-col gap-2 p-4 text-center rounded" style="background: #5294e2; color: #ffffff;">
     <span class="text-2xl">Light Blue</span>
     <span class="text-sm">#5294e2</span>
