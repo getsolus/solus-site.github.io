@@ -12,7 +12,11 @@ toc: false
   {{< hextra/hero-subtitle >}}We are always grateful for press coverage. It is our hope that our story inspires others to engage in Open Source Software.{{< /hextra/hero-subtitle >}}
 </div>
 
-{{< centered-hero title="Latest Release" class="my-24" link="/2025/01/26/solus-4-7-released" linkText="Read Announcement" >}}
+{{< centered-hero title="Basic Information" class="my-18" >}}
+  Solus is an operating system that is designed for modern home computing. Our distribution is built from scratch to ensure every tweak, configuration, and optimization enables the delivery of a singular, cohesive desktop experience.
+{{< /centered-hero >}}
+
+{{< centered-hero title="Latest Release" class="mt-6 mb-24" link="/2025/01/26/solus-4-7-released" linkText="Read Announcement" >}}
   Solus 4.7 Endurance is our current release. This release focuses on updating our editions, and refreshing the default kernels. We've called this release _Endurance_ to highlight our promise to users that we will continue to deliver timely updates to keep their systems stable and beautiful.
 {{< /centered-hero >}}
 
