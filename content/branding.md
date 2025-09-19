@@ -1,52 +1,80 @@
 ---
-date: "2025-07-11"
 title: Branding
 toc: false
 ---
 
-{{< hextra/hero-container
-  image="/imgs/logo.svg"
-  imageTitle="Solus logo"
-  imageWidth="120px"
+## Names
+
+**Solus Project** is the organization that develops and distributes the operating system, as well as associated programs and tooling.
+
+The word **Solus** refers to the Linux operating system distribution developed by the Solus Project. This name should not be used in conjunction with other acronyms or terminology, such as, but not limited to, "Solus OS", "Solus Operating System", and "Solus Linux".
+
+## Markings
+
+The Solus Project has two marks: a circular icon, and a circular icon with the Solus name next to it. Both represent Solus and the Solus Project.
+
+When using these logos, try to keep the following in mind:
+
+- Do not stretch, skew, rotate, flip, or otherwise alter the marks.
+- Try not to use the marks with a busy background.
+
+{{< figure
+  src="/imgs/Solus.svg"
+  alt="Solus logo"
+  caption="Default logo"
+  width=125
+  class="my-8"
 >}}
-<div class="hx-mb-6">
-{{< hextra/hero-headline >}}
-  Assets
-{{< /hextra/hero-headline >}}
+
+The logo with text can be used when space allows to refer to the Solus Project, or the Solus distribution.
+
+When using the textual logo, keep these things in mind:
+
+- Don't try to recreate the logo using a specific font; just use the provided logo.
+- Don't use the logo at small sizes; use the logo without text if the text becomes hard to read.
+
+{{< figure
+  src="/imgs/Solus_With_Text.svg"
+  alt="Solus logo with text"
+  caption="Solus logo with text"
+  width=250
+  class="my-8"
+>}}
+
+## Color
+
+We use the following colors for our branding:
+
+<div class="grid grid-cols-3 gap-8 mt-8 mb-12">
+  <div class="flex flex-col gap-2 p-4 text-center rounded" style="background: #5294e2; color: #ffffff;">
+    <span class="text-2xl">Light Blue</span>
+    <span class="text-sm">#5294e2</span>
+  </div>
+
+  <div class="flex flex-col gap-2 p-4 text-center rounded" style="background: #4c5263; color: #ffffff;">
+    <span class="text-2xl">Slate</span>
+    <span class="text-sm">#4c5263</span>
+  </div>
+
+  <div class="flex flex-col gap-2 p-4 text-center rounded" style="background: #f5f5f5; color: #000000;">
+    <span class="text-2xl">Gray</span>
+    <span class="text-sm">#f5f5f5</span>
+  </div>
 </div>
 
-<div class="hx-mb-6">
-  {{< hextra/hero-button text="Download" link="https://downloads.getsol.us/branding-assets/solus.zip" >}}
+## Merchandise
+
+We do not authorize our branding (including our name or brand marks) to be used on third-party merchandise without explicit written approval.
+
+## Assets and More Info
+
+<div class="grid grid-cols-1 mx-auto my-24 w-1/2">
+  {{< button
+    text="Download"
+    icon="download"
+    link="https://downloads.getsol.us/branding-assets/solus.zip"
+    primary=true
+  >}}
 </div>
-{{< /hextra/hero-container >}}
 
-We enforce branding guidelines to ensure consistency of imaging and messaging for Solus and its software. If you have any questions, please consult our [Press Center](/press/).
-
-The assets available for download above provide the following variants:
-
-**Solus**: Colored versions of the Solus logo as well as the Solus logo next to the "Solus" name.
-
-Basic Info & Terminology
-------------------------
-
-### Solus
-
-Solus is an operating system that is designed for modern home computing. Solus is built from scratch to ensure every tweak, configuration, and optimization enables the delivery of a singular, cohesive desktop experience.
-
-"Solus": The name of the operating system. Solus shall not be used in conjunction with other acronyms or terminology, such as (but not limited to):
-
-*   "Solus OS"
-*   "Solus Operating System"
-*   "Solus Linux"
-
-Copyrights & Licensing
-----------------------
-
-### Copyright
-
-*   Solus Logo: Copyright © 2016-2025 Solus Project.
-*   “Solus” Name: Copyright © 2011-2025 Solus Project.
-
-### Licensing
-
-Solus Project permits the usage of our brand assets, specifically the usage of the term “Solus”, and the associated Solus image(s) and/or logo(s) **for non-commercial use only**. The distribution of modified Solus ISOs, for commercial or non-commercial purposes, is not permitted. If you require access to a modified Solus ISO for a specific reason, e.g. distribution via magazine, then contact us for further discussion. Usage of our term(s) and/or associated image(s) / logo(s) does not and should not suggest endorsement or sponsorship by Solus Project. Solus Project reserves the right to cancel, modify, or change the permission in our policies at any time at its sole discretion.
+For more information, or if you have any questions about Solus Project branding, please email [comms@getsol.us](comms@getsol.us).
