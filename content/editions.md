@@ -42,3 +42,5 @@ Install today. Updates forever.
     {{< hextra/hero-button text="Public key" link="https://downloads.getsol.us/gpg/solus-releng-pub.gpg" >}}
   </div>
 {{< /hextra/hero-container >}}
+
+<div class="mt-16 pb-8"></div>

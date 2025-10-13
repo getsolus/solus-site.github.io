@@ -25,3 +25,5 @@ toc: false
   {{< hextra/feature-card title="Branding" subtitle="Visit our branding page for guidelines and licensing information. You can also download our logo and graphics." link="/branding" >}}
   {{< hextra/feature-card title="Contact" subtitle="Get in touch with us by emailing our communications team. We are more than happy to respond to press inquiries." link="mailto:comms@getsol.us" >}}
 {{< /hextra/feature-grid >}}
+
+<div class="mt-16 pb-8"></div>

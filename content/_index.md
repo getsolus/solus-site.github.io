@@ -162,3 +162,5 @@ width: wide
     subtitle="Many free and open source titles including: Freeciv, OpenTTD, Red Eclipse, and Warzone 2100."
   >}}
 {{< /hextra/feature-grid >}}
+
+<div class="mt-16 pb-8"></div>
