@@ -50,4 +50,4 @@ Once you do that, the script will run during the next boot.
 
 Once the epoch bump is complete, we will be updating GNOME to 49. This release uses API only present in a newer `systemd`, so we can't really update it before then. After that, we will be going into feature freeze so we can start creating and testing new ISOs for a Solus release so new users can begin using Solus straightaway without having to go through the epoch transition process. Once that is out the door, we can go back to business as usual, making this Linux distribution the best that it can be.
 
-*A previous version of this post used the incorrect name of Aeryn to refer to the organziation. It has been corrected to AerynOS.*
+*A previous version of this post used the incorrect name of Aeryn to refer to the organization. It has been corrected to AerynOS.*
