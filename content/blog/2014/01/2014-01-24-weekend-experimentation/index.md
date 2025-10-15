@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Uncategorized
+- uncategorized
 date: "2014-01-24T08:18:31Z"
 title: Weekend Experimentation
 url: /2014/01/24/weekend-experimentation/

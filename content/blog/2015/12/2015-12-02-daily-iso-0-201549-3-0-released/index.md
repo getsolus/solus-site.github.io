@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- Releases
+- news
+- releases
 date: "2015-12-02T07:52:13Z"
 title: Daily ISO 0.201549.3.0 Released
 url: /2015/12/02/daily-iso-0-201549-3-0-released/

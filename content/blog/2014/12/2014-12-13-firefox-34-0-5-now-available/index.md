@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Packages
+- packages
 date: "2014-12-13T16:37:01Z"
 title: Firefox 34.0.5 Now Available
 url: /2014/12/13/firefox-34-0-5-now-available/

@@ -4,7 +4,7 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- Releases
+- releases
 date: "2016-03-02T08:16:22Z"
 title: Solus 1.1 Shannon Released
 url: /2016/03/02/solus-1-1-shannon-released/

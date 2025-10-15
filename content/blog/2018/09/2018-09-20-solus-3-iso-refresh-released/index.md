@@ -74,7 +74,7 @@ Our ISO refresh of Solus MATE Edition introduces some changes to our default bra
   - audit
   - brotli
   - bubblewrap
-  - budgie-screenshot-applet
+  - Budgie-screenshot-applet
   - dnsmasq
   - freeglut
   - gexiv2

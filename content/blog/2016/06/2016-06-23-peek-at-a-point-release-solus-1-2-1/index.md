@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- Plans
+- news
+- plans
 date: "2016-06-23T17:44:22Z"
 title: 'Peek at a Point Release: Solus 1.2.1'
 url: /2016/06/23/peek-at-a-point-release-solus-1-2-1/

@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2014-02-17T22:35:59Z"
 title: Budgie Desktop Available For Testing
 url: /2014/02/17/budgie-desktop-available-for-testing/

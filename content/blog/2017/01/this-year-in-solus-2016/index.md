@@ -4,9 +4,9 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- Plans
-- TWIS
+- news
+- plans
+- twis
 date: "2017-01-03T20:41:46+02:00"
 featuredimage: /new-year.jpg
 title: This Year in Solus (2016 Edition)

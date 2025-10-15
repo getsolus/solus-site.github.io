@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Packages
+- packages
 date: "2014-09-27T21:51:19Z"
 title: Firefox 32.0.3 Now Available
 url: /2014/09/27/firefox-32-0-3-now-available/

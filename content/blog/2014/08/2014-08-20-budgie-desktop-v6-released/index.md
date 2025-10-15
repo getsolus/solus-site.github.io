@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Budgie
+- budgie
 date: "2014-08-20T19:29:14Z"
 title: Budgie Desktop v6 Released
 url: /2014/08/20/budgie-desktop-v6-released/

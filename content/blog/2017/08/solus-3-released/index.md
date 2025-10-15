@@ -238,7 +238,7 @@ Press can obtain our Press Release PDF and Media Pack via our [Press Center](/pr
   - apparmor
   - bind-utils
   - binutils-libs
-  - budgie-desktop-branding-material
+  - Budgie-desktop-branding-material
   - canon-ufriilt-common
   - dmidecode
   - font-roboto-ttf

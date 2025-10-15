@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Packages
+- packages
 date: "2014-07-26T18:52:36Z"
 title: Linux kernel 3.15.6 now available
 url: /2014/07/26/linux-kernel-3-15-6-now-available/

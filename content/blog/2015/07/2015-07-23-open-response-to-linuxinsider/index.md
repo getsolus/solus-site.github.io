@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2015-07-23T20:15:51Z"
 title: Open Response to LinuxInsider
 url: /2015/07/23/open-response-to-linuxinsider/

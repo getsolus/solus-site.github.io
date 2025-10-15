@@ -4,7 +4,7 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
+- news
 date: "2016-12-30T21:08:58+02:00"
 featuredimage: /Brisk_Menu_0.1.0.jpg
 title: Solus Announces First Release of Brisk Menu

@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2015-06-30T08:50:47Z"
 title: Patreon now at $165 a month!
 url: /2015/06/30/patreon-now-at-165-a-month/

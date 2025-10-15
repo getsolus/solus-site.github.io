@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2015-08-23T03:34:34Z"
 title: Solus Fundraiser!
 url: /2015/08/23/solus-fundraiser/

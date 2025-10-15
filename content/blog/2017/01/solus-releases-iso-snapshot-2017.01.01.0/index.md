@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- Releases
+- news
+- releases
 date: "2017-01-01T21:47:26+02:00"
 featuredimage: /20170101-featured.jpg
 title: Solus Releases ISO Snapshot 2017.01.01.0

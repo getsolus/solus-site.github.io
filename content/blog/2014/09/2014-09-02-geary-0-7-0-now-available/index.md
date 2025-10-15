@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Packages
+- packages
 date: "2014-09-02T18:12:41Z"
 featuredimage: /geary.png
 title: Geary 0.7.0 Now Available

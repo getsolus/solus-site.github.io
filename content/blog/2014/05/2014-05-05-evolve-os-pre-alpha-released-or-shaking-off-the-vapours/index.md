@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2014-05-05T14:48:52Z"
 title: Evolve OS Pre-Alpha Released (Or shaking off the vapours)
 url: /2014/05/05/evolve-os-pre-alpha-released-or-shaking-off-the-vapours/

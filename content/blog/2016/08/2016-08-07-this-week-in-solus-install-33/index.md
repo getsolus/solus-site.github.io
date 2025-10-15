@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- TWIS
+- news
+- twis
 date: "2016-08-07T22:01:38Z"
 title: 'This Week in Solus -- Install #33'
 url: /2016/08/07/this-week-in-solus-install-33/

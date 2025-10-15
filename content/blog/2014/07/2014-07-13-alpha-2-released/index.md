@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2014-07-13T20:15:55Z"
 title: Alpha 2 Released
 url: /2014/07/13/alpha-2-released/

@@ -4,10 +4,10 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- Packages
-- Plans
-- TWIS
+- news
+- packages
+- plans
+- twis
 date: "2016-07-17T19:17:00Z"
 title: 'This Week in Solus -- Install #32'
 url: /2016/07/17/this-week-in-solus-install-32/

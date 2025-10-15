@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Security
+- security
 date: "2015-07-09T15:10:40Z"
 title: 'openssl: Security update'
 url: /2015/07/09/openssl-security-update/

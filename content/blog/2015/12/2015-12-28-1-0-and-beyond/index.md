@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- Plans
+- news
+- plans
 date: "2015-12-28T08:34:07Z"
 title: 1.0 and Beyond
 url: /2015/12/28/1-0-and-beyond/
@@ -49,7 +49,7 @@ Our immediate focus is to resolve known issues during the 1.0 release as well as
 - Full fglrx support
 - Software center update: UX improvements, bug fixes, appstream integration
 - Improved input support via ibus/budgie-wm
-- Budgie / Raven / Budgie WM: 
+- Budgie / Raven / Budgie WM:
 - Hotcorner support
 - Resolve Raven offset positioning issues.
 - Resolve issues relating to using a bottom Budgie panel
@@ -66,7 +66,7 @@ After the resolution of high priority items during the 1.1 cycle, we will move o
 - Land all translation updates       
 - Binaries: 
   - Profile guided optimisation of our binaries and libraries in accordance with modern-day desktop usage.
-- Budgie / Raven / Budgie WM: 
+- Budgie / Raven / Budgie WM:
   - Weather applet in Raven
 - Full-disk encryption support
 - Web infrastructure: 

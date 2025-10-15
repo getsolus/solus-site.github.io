@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- Releases
+- news
+- releases
 date: "2016-09-07T01:51:05Z"
 title: Solus 1.2.0.5 Released
 url: /2016/09/07/solus-1-2-0-5-released/

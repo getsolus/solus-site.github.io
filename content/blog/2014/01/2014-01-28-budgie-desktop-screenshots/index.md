@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Uncategorized
+- uncategorized
 date: "2014-01-28T22:49:17Z"
 title: Budgie Desktop Screenshots
 url: /2014/01/28/budgie-desktop-screenshots/

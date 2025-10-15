@@ -209,8 +209,8 @@ To download our latest Editions, you can go to our [Download](/download) page, w
 
 ### Packages Added
 
- - budgie-desktop-branding-fortitude-plus
- - budgie-desktop-view
+ - Budgie-desktop-branding-fortitude-plus
+ - Budgie-desktop-view
  - exfatprogs
  - graphviz
  - gts

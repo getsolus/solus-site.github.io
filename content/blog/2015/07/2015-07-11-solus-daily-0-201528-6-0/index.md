@@ -4,8 +4,8 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
-- Releases
+- news
+- releases
 date: "2015-07-11T14:26:56Z"
 title: 'Solus Daily: 0.201528.6.0'
 url: /2015/07/11/solus-daily-0-201528-6-0/

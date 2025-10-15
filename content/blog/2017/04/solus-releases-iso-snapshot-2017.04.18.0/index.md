@@ -4,9 +4,9 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- Budgie
-- News
-- Releases
+- budgie
+- news
+- releases
 date: "2017-04-18T19:41:53+03:00"
 featuredimage: /Snapshot_Featured_Image.jpg
 title: Solus Releases ISO Snapshot 2017.04.18.0

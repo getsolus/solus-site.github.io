@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Security
+- security
 date: "2014-10-01T21:45:16Z"
 title: 'Security: linux, bash, multiple issues'
 url: /2014/10/01/security-linux-bash-multiple-issues/

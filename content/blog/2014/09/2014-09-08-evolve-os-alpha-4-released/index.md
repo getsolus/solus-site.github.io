@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2014-09-08T17:37:19Z"
 featuredimage: /newlogo_white.png
 title: Evolve OS Alpha 4 Released

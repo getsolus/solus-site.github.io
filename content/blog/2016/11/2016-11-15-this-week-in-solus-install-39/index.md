@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- TWIS
+- news
+- twis
 date: "2016-11-15T20:41:02+02:00"
 featuredimage: /firefox-50.jpg
 title: 'This Week in Solus - Install #39'

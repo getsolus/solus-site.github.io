@@ -4,8 +4,8 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
-- Security
+- news
+- security
 date: "2014-10-18T18:43:26Z"
 title: Repo Changes/Potential Breakage
 url: /2014/10/18/repo-changespotential-breakage/

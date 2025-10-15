@@ -4,11 +4,11 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- Budgie
-- News
-- Packages
-- Releases
-- TWIS
+- budgie
+- news
+- packages
+- releases
+- twis
 date: "2015-11-29T23:18:50Z"
 title: 'This Week in Solus -- Install #12'
 url: /2015/11/29/this-week-in-solus-install-12/

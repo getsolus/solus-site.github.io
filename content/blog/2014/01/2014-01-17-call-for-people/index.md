@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Uncategorized
+- uncategorized
 date: "2014-01-17T08:51:10Z"
 title: Call for people!
 url: /2014/01/17/call-for-people/

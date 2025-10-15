@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- Budgie
-- News
+- budgie
+- news
 date: "2016-09-10T14:07:01Z"
 title: Budgie 10.2.7 Released
 url: /2016/09/10/budgie-10-2-7-released/

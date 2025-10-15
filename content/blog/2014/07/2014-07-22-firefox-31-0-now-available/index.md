@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Packages
+- packages
 date: "2014-07-22T23:51:27Z"
 title: Firefox 31.0 now available
 url: /2014/07/22/firefox-31-0-now-available/

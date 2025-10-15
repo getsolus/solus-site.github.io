@@ -4,8 +4,8 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
-- Releases
+- news
+- releases
 date: "2015-01-26T01:40:07Z"
 title: Beta 1 Released
 url: /2015/01/26/beta-1-released/

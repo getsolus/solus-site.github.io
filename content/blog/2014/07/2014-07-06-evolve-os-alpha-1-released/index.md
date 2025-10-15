@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2014-07-06T19:10:45Z"
 title: Evolve OS Alpha 1 Released
 url: /2014/07/06/evolve-os-alpha-1-released/

@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2013-12-14T13:23:03Z"
 title: 'Desktop: Code-name Budgie'
 url: /2013/12/14/desktop-code-name-budgie

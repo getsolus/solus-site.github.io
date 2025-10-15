@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- Releases
+- news
+- releases
 date: "2015-10-29T19:34:37Z"
 title: Announcing 1.0 Release Candidate 1
 url: /2015/10/29/announcing-1-0-release-candidate-1/

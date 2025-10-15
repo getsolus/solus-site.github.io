@@ -5,8 +5,8 @@ authors:
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
 - Infrastructure
-- News
-- Plans
+- news
+- plans
 date: "2017-01-05T06:20:27+02:00"
 featuredimage: /what-do-we-need.jpg
 title: Early 2017 Infrastructure Upgrades!

@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- TWIS
+- news
+- twis
 date: "2016-12-11T19:42:10+02:00"
 featuredimage: /brisk-development.jpg
 title: 'This Week in Solus - Install #40'

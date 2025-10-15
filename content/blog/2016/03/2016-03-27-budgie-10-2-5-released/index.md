@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- Budgie
-- News
+- budgie
+- news
 date: "2016-03-27T20:53:21Z"
 title: Budgie 10.2.5 Released
 url: /2016/03/27/budgie-10-2-5-released/

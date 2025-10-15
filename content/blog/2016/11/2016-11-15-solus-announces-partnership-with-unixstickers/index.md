@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- Partners
+- news
+- partners
 date: "2016-11-15T05:06:40+02:00"
 featuredimage: /laptop-solus-sticker.jpg
 title: Solus Announces Partnership with Unixstickers

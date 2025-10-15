@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Budgie
+- budgie
 date: "2014-11-16T22:03:43Z"
 title: Courageous Budgie (v8) Released!
 url: /2014/11/16/courageous-budgie-v8-released/

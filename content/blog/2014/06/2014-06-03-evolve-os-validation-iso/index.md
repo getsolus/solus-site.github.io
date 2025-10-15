@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2014-06-03T19:19:48Z"
 title: Evolve OS Validation ISO
 url: /2014/06/03/evolve-os-validation-iso/

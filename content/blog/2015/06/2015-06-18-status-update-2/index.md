@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2015-06-18T19:45:40Z"
 title: Status Update
 url: /2015/06/18/status-update-2/

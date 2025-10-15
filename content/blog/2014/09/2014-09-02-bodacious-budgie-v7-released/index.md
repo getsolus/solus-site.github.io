@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Budgie
+- budgie
 date: "2014-09-02T00:31:27Z"
 title: Bodacious Budgie (v7) Released!
 url: /2014/09/02/bodacious-budgie-v7-released/

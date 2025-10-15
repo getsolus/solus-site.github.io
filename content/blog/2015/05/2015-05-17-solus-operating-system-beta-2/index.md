@@ -4,8 +4,8 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
-- Releases
+- news
+- releases
 date: "2015-05-17T21:46:07Z"
 title: Solus Operating System Beta 2
 url: /2015/05/17/solus-operating-system-beta-2/

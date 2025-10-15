@@ -4,8 +4,8 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
-- Plans
+- news
+- plans
 date: "2016-07-24T22:52:52Z"
 title: Replacement of Release Schedule
 url: /2016/07/24/replacement-of-release-schedule/

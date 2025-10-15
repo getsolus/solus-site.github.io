@@ -223,7 +223,7 @@ If you would like to financially support Solus, enabling us to continue to cover
 
 #### Packages added to this release:
 
- - budgie-screensaver
+ - Budgie-screensaver
  - fuse-common
  - fuse2
  - libgtksourceview4

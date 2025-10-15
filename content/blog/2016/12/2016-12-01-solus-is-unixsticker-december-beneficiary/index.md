@@ -4,8 +4,8 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- News
-- Partners
+- news
+- partners
 date: "2016-12-01T07:47:55+02:00"
 featuredimage: /unixsticker-beneficiary.png
 title: Solus To Be Unixstickers' December Beneficiary

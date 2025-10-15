@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Packages
+- packages
 date: "2014-07-26T17:44:54Z"
 title: X.Org 1.16.0 Update
 url: /2014/07/26/x-org-1-16-0-update/

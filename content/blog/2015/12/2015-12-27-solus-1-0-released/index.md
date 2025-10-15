@@ -4,9 +4,9 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- Budgie
-- News
-- Releases
+- budgie
+- news
+- releases
 date: "2015-12-27T06:24:44Z"
 title: Solus 1.0 Released
 url: /2015/12/27/solus-1-0-released/

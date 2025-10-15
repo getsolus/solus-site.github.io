@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2014-08-03T18:55:28Z"
 title: Alpha 3 Released
 url: /2014/08/03/alpha-3-released/

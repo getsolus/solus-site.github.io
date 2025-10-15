@@ -4,8 +4,8 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Budgie
-- News
+- budgie
+- news
 date: "2014-03-12T21:52:00Z"
 title: Budgie Desktop 2 Released
 url: /2014/03/12/budgie-desktop-2-released/

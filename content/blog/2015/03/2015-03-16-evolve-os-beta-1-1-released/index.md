@@ -4,8 +4,8 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
-- Releases
+- news
+- releases
 date: "2015-03-16T02:56:51Z"
 title: Solus Beta 1.1 Released
 url: /2015/03/16/evolve-os-beta-1-1-released/

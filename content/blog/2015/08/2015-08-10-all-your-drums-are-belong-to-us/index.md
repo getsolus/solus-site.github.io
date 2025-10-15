@@ -4,8 +4,8 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
-- Releases
+- news
+- releases
 date: "2015-08-10T20:57:38Z"
 title: All your drums are belong to us
 url: /2015/08/10/all-your-drums-are-belong-to-us/

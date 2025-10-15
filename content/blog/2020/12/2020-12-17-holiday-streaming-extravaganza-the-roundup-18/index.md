@@ -23,7 +23,7 @@ While most years we would all run off to spend time with our families for the ho
 So from next Monday, December 21st to Sunday, January 3rd, we will be having daily live streams! These live streams will range in subjects and projects, such as:
 
 - A massive Haskell upgrade and rebuilds
-- budgie-desktop-view
+- Budgie-desktop-view
 - ferryd
 - libeopkg
 - usysconf

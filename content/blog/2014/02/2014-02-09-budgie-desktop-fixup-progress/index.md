@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2014-02-09T15:59:30Z"
 title: Budgie Desktop "Fixup" Progress
 url: /2014/02/09/budgie-desktop-fixup-progress/

@@ -4,9 +4,9 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- Budgie
-- News
-- TWIS
+- budgie
+- news
+- twis
 date: "2015-11-22T16:30:26Z"
 title: 'This Week in Solus #11'
 url: /2015/11/22/this-week-in-solus-11/

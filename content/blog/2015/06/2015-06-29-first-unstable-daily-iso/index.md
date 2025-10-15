@@ -4,8 +4,8 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
-- Releases
+- news
+- releases
 date: "2015-06-29T07:48:19Z"
 title: First Unstable Daily ISO
 url: /2015/06/29/first-unstable-daily-iso/

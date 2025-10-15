@@ -4,9 +4,9 @@ authors:
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
 tags:
-- Budgie
-- News
-- Releases
+- budgie
+- news
+- releases
 date: "2016-06-20T02:53:43Z"
 title: Solus 1.2 Shannon Released
 url: /2016/06/20/solus-1-2-shannon-released/

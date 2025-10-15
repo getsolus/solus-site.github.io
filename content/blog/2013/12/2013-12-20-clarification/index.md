@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Uncategorized
+- uncategorized
 date: "2013-12-20T11:57:31Z"
 title: Clarification
 url: /2013/12/20/clarification/

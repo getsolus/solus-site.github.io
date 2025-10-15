@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
+- news
 date: "2013-12-13T19:02:40Z"
 featuredimage: /dediserve.gif
 title: Coming soon

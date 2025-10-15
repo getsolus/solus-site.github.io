@@ -4,7 +4,7 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- Packages
+- packages
 date: "2014-12-13T17:09:40Z"
 title: Thunderbird 31.3.0 Now Available
 url: /2014/12/13/thunderbird-31-3-0-now-available/

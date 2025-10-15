@@ -4,8 +4,8 @@ authors:
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
 tags:
-- News
-- Security
+- news
+- security
 date: "2014-10-08T15:57:14Z"
 title: 'Important: Please do not use current images/installations'
 url: /2014/10/08/important-please-do-not-use-current-imagesinstallations/
