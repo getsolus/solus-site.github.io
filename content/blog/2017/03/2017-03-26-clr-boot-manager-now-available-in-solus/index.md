@@ -3,7 +3,7 @@ authors:
   - name: Joshua Strobl
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
-categories:
+tags:
 - news
 date: "2017-03-26T19:52:23+03:00"
 featuredimage: /clr-boot-manager.jpg

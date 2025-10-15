@@ -3,7 +3,7 @@ authors:
   - name: Ikey Doherty
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
-categories:
+tags:
 - News
 date: "2013-12-13T19:02:40Z"
 featuredimage: /dediserve.gif

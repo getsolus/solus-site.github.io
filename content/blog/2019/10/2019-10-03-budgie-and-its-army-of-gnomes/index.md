@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/156574?v=4
   link: https://github.com/JoshStrobl
   name: Joshua Strobl
-categories:
+tags:
 - budgie
 - infrastructure
 - news
@@ -221,7 +221,7 @@ This work benefited greatly from the use of the excellent [DB Browser for Sqlite
 
 ##### Repo Manager API
 
-In previous versions of `ferryd` the Repo Manager provided many operations which were either not frequently used or not used at all. Further, some of these actions were confusingly named and needed to be changed. For the new Repo Manager API we simplified these actions to a few different categories:
+In previous versions of `ferryd` the Repo Manager provided many operations which were either not frequently used or not used at all. Further, some of these actions were confusingly named and needed to be changed. For the new Repo Manager API we simplified these actions to a few different tags:
 
 - Repo Manager Only Operations
 - Single Repo Operations

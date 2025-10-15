@@ -3,7 +3,7 @@ authors:
   - name: Joshua Strobl
     link: https://github.com/JoshStrobl
     image: https://avatars.githubusercontent.com/u/156574?v=4
-categories:
+tags:
 - News
 - TWIS
 date: "2015-11-08T17:49:17Z"

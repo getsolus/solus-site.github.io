@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/5157277?v=4
   link: https://github.com/EbonJaeger
   name: Evan Maddock
-categories:
+tags:
 - news
 date: 2025-10-11
 title: "A New Epoch Begins"

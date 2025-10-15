@@ -3,7 +3,7 @@ authors:
   - name: Ikey Doherty
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
-categories:
+tags:
 - Budgie
 date: "2014-09-02T00:31:27Z"
 title: Bodacious Budgie (v7) Released!

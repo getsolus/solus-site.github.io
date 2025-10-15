@@ -3,7 +3,7 @@ authors:
   - name: Ikey Doherty
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
-categories:
+tags:
 - News
 date: "2017-01-18T21:59:12+02:00"
 featuredimage: /flatpak-gnome-books.png

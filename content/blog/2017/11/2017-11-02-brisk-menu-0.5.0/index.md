@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/53261402?v=4
   link: https://github.com/ikeycode
   name: Ikey Doherty
-categories:
+tags:
 - news
 date: "2017-11-02T20:55:31+02:00"
 featuredimage: /brisk-menu-0-5-0.jpg

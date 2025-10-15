@@ -3,7 +3,7 @@ authors:
   - name: Ikey Doherty
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
-categories:
+tags:
 - News
 date: "2015-07-23T20:15:51Z"
 title: Open Response to LinuxInsider

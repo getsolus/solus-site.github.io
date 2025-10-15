@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/156574?v=4
   link: https://github.com/JoshStrobl
   name: Joshua Strobl
-categories:
+tags:
 - news
 - roundup
 date: "2018-01-30T00:30:19+02:00"

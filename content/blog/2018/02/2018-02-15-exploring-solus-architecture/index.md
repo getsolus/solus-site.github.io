@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/53261402?v=4
   link: https://github.com/ikeycode
   name: Ikey Doherty
-categories:
+tags:
 - news
 date: "2018-02-15T11:33:21Z"
 featuredimage: /architecture.jpg

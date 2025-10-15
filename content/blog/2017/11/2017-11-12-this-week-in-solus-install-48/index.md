@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/156574?v=4
   link: https://github.com/JoshStrobl
   name: Joshua Strobl
-categories:
+tags:
 - news
 - plans
 date: "2017-11-12T14:18:32+02:00"

@@ -3,7 +3,7 @@ authors:
   - name: Ikey Doherty
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
-categories:
+tags:
 - News
 date: "2015-04-12T17:35:33Z"
 title: What's in a name?

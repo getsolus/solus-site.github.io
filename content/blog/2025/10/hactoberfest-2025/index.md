@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/5157277?v=4
   link: https://github.com/EbonJaeger
   name: Evan Maddock
-categories:
+tags:
 - news
 date: 2025-10-01T12:40:32-04:00
 title: "Hacktoberfest 2025"

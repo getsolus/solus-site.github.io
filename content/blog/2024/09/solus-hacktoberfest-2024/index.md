@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/10402612?v=4
   link: https://github.com/TraceyC77
   name: Tracey Clark
-categories:
+tags:
 - news
 date: "2024-09-30T20:29:55-05:00"
 featuredimage: /horizontal_black.png

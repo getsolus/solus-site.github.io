@@ -3,7 +3,7 @@ authors:
   - name: Ikey Doherty
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
-categories:
+tags:
 - Packages
 date: "2014-09-27T21:51:19Z"
 title: Firefox 32.0.3 Now Available

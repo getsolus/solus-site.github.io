@@ -1,6 +1,6 @@
 ---
 author: joshua
-categories:
+tags:
 - news
 - packages
 - plans

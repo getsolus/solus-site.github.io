@@ -71,6 +71,11 @@ menus:
 params:
   copyright: 2025
   externalLinkDecoration: true
+  blog:
+    list:
+      displayTags: true
+  toc:
+    displayTags: true
   navbar:
     displayTitle: true
     displayLogo: true

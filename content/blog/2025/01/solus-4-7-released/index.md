@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/23007135?v=4
   link: https://github.com/DavidJHarder
   name: David Harder
-categories:
+tags:
 - news
 - releases
 date: "2025-01-26"

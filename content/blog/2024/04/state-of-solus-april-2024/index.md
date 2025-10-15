@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/23007135?v=4
   link: https://github.com/DavidJHarder
   name: David Harder
-categories:
+tags:
 - news
 date: "2024-04-20"
 featuredimage: /StateOfSolusApril2024.jpg
@@ -40,7 +40,7 @@ In addition, we have put in place policies to ensure we have reviews of all expe
 
 We are eternally grateful to those of you who support us financially on [Open Collective](https://opencollective.com/getsolus). Part of the responsibility that comes with accepting donations is the implicit promise that we will _spend the money_. Solus is here to build and maintain an operating system, not accumulate cash. To that end, we updated the wording on the Open Collective page to explain more precisely what we will spend money on.
 
-Our expenses fall into two categories: Fixed costs, (examples: server hosting, email), and discretionary spending (example: direct payment of contributors for work). Our fixed costs increased immediately in April 2023 when we moved infrastructure off the server co-located at Rochester Institute of Technology and onto more typical paid hosting.
+Our expenses fall into two tags: Fixed costs, (examples: server hosting, email), and discretionary spending (example: direct payment of contributors for work). Our fixed costs increased immediately in April 2023 when we moved infrastructure off the server co-located at Rochester Institute of Technology and onto more typical paid hosting.
 
 We have also increased our discretionary spending, recognizing that these payments were rare in the past, and that we have a healthy reserve to draw on, even with the increase in fixed costs. In a way, we are recognizing contributor work that we would have liked to pay for in the past. All discretionary spending is put to a Staff vote before we commit to it.
 

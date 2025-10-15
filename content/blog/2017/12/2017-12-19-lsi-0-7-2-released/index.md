@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/53261402?v=4
   link: https://github.com/ikeycode
   name: Ikey Doherty
-categories:
+tags:
 - news
 date: "2017-12-19T16:10:34Z"
 featuredimage: /lsi-072-fullscreen-but-not-actually.jpg

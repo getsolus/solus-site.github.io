@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/23007135?v=4
   link: https://github.com/DavidJHarder
   name: David Harder
-categories:
+tags:
 - news
 date: "2023-08-07T00:27:44+03:00"
 featuredimage: /StateOfSolusAugust2023.jpg

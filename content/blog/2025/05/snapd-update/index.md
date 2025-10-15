@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/5798032?v=4
   link: https://github.com/silkeh
   name: Silke Hofstra
-categories:
+tags:
 - news
 date: "2025-05-05"
 featuredimage: /snap-banner-image.jpg

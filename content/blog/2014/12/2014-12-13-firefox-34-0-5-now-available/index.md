@@ -3,7 +3,7 @@ authors:
   - name: Ikey Doherty
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
-categories:
+tags:
 - Packages
 date: "2014-12-13T16:37:01Z"
 title: Firefox 34.0.5 Now Available

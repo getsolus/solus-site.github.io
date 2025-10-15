@@ -3,7 +3,7 @@ authors:
   - name: Ikey Doherty
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
-categories:
+tags:
 - Uncategorized
 date: "2015-07-03T06:48:54Z"
 title: 'Solus Daily ISO: 02/07/2015'

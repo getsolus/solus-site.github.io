@@ -3,7 +3,7 @@ authors:
   - name: Ikey Doherty
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
-categories:
+tags:
 - Uncategorized
 date: "2014-01-24T08:18:31Z"
 title: Weekend Experimentation

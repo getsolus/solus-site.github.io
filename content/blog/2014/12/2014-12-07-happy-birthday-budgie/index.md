@@ -3,7 +3,7 @@ authors:
   - name: Ikey Doherty
     link: https://github.com/ikeycode
     image: https://avatars.githubusercontent.com/u/53261402?v=4
-categories:
+tags:
 - Budgie
 date: "2014-12-07T14:25:58Z"
 title: Happy Birthday, Budgie!

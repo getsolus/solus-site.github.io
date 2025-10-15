@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/u/10402612?v=4
   link: https://github.com/TraceyC77
   name: Tracey Clark
-categories:
+tags:
 - news
 date: "2023-10-01T17:50:07-05:00"
 featuredimage: /hf10_horz_fcd_rgb.png
