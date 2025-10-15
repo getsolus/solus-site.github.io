@@ -72,13 +72,13 @@ params:
   copyright: 2025
   externalLinkDecoration: true
   navbar:
-    displayTitle: false
+    displayTitle: true
     displayLogo: true
     logo:
-      path: imgs/logo-with-text.png
+      path: imgs/Solus.svg
       link: /
-      width: 160
-      height: 60
+      width: 50
+      height: 50
     width: wide
   footer:
     width: wide

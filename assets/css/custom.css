@@ -93,3 +93,23 @@
   /* Don't ask. This value came from solbit. */
   width: 9.375em;
 }
+
+@media (width < 48rem) {
+  .hextra-nav-container a:not(:first-child) {
+    display: none;
+  }
+
+  .hextra-nav-container button.hextra-theme-toggle {
+    display: none;
+  }
+}
+
+.hextra-nav-container a:first-child span {
+  color: #4c5263;
+  font-size: 24pt;
+  font-weight: normal;
+}
+
+.hextra-nav-container a:first-child span:where(.dark, .dark *) {
+  color: #f5f5f5;
+}
