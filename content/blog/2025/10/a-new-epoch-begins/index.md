@@ -8,7 +8,7 @@ featuredimage: "/new-epoch-banner.jpg"
 url: "/2025/10/11/a-new-epoch-begins"
 ---
 
-Heya, folks! We have some exciting news to share with you today. Last year, we began the process of moving the remaining executable files from `/bin` and `/sbin` to directories inside of `/usr`, and creating compatibility symlinks from `/usr/bin` to `/bin` and `/usr/sbin` to `/sbin`. We call this ["Usr-Merge"](https://getsol.us/2024/09/04/usr-merge/). The rollout of our Usr-Merge process was a success, and it is now time to perform the next steps. There are compatibility symlinks in some packages to make sure they work on both merged and unmerged systems, and we cannot remove those without potentially breaking systems. That is, we can't, unless we do an "epoch bump", and start using a new package repository. This is also an important step on the road to using Aeryn tooling.
+Heya, folks! We have some exciting news to share with you today. Last year, we began the process of moving the remaining executable files from `/bin` and `/sbin` to directories inside of `/usr`, and creating compatibility symlinks from `/usr/bin` to `/bin` and `/usr/sbin` to `/sbin`. We call this ["Usr-Merge"](https://getsol.us/2024/09/04/usr-merge/). The rollout of our Usr-Merge process was a success, and it is now time to perform the next steps. There are compatibility symlinks in some packages to make sure they work on both merged and unmerged systems, and we cannot remove those without potentially breaking systems. That is, we can't, unless we do an "epoch bump", and start using a new package repository. This is also an important step on the road to using AerynOS tooling.
 
 # What's an epoch?
 
@@ -49,3 +49,5 @@ Once you do that, the script will run during the next boot.
 # Next steps
 
 Once the epoch bump is complete, we will be updating GNOME to 49. This release uses API only present in a newer `systemd`, so we can't really update it before then. After that, we will be going into feature freeze so we can start creating and testing new ISOs for a Solus release so new users can begin using Solus straightaway without having to go through the epoch transition process. Once that is out the door, we can go back to business as usual, making this Linux distribution the best that it can be.
+
+*A previous version of this post used the incorrect name of Aeryn to refer to the organziation. It has been corrected to AerynOS.*
