@@ -1,13 +1,16 @@
-+++
-author = "ikey"
-categories = [
-"News",
-"Plans"
-]
-date =  "2016-07-24T22:52:52Z"
-title = "Replacement of Release Schedule"
-url = "/2016/07/24/replacement-of-release-schedule/"
-+++ 
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+- plans
+date: "2016-07-24T22:52:52Z"
+title: Replacement of Release Schedule
+url: /2016/07/24/replacement-of-release-schedule/
+---
+ 
 
 In the not so distant past, Solus followed a static point release model. Our most current release at this time is 1.2, with a 1.2.1 planned to drop in the near future. However, we also recently 
 [announced](https://solus-project.com/2016/07/10/this-week-in-solus-install-31/) our move to a rolling release model. As such, these two schools of thought are in contradiction of one another. 

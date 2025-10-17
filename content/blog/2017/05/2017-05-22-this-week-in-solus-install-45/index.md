@@ -1,17 +1,22 @@
-+++
-author = "joshua"
-categories = ["news", "twis"]
-date = "2017-05-22T16:37:58+03:00"
-featuredimage = "/mariadb.jpg"
-title = "This Week in Solus - Install #45"
-url = "/2017/05/22/this-week-in-solus-install-45"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- twis
+date: "2017-05-22T16:37:58+03:00"
+featuredimage: /mariadb.jpg
+title: 'This Week in Solus - Install #45'
+url: /2017/05/22/this-week-in-solus-install-45
+---
 
 Welcome to the 45th install of This Week in Solus.
 
 ## Brisk Menu
 
-{{< relimg "brisk-menu-0_4.jpg" >}}
+![relimg](brisk-menu-0_4.jpg)
 
 We recently released Brisk Menu 0.4, which has since landed in the stable repository for all of our MATE users. Brisk Menu, our modern MATE menu implementation, features new improvements such as:
 
@@ -43,9 +48,9 @@ We'll be expanding on this by validating MariaDB / MySQL support in PHP and impr
 
 ## Software Center
 
-{{< relimg "solus-sc-multi.jpg" >}}
+![relimg](solus-sc-multi.jpg)
 
-v18 of our Software Center was released last week. This release featured a bunch of UX improvements, starting with improved AppStream integration that enables us to express more information about an application and its developer(s). This is most noticable when paired with our new package view page.
+v18 of our Software Center was released last week. This release featured a bunch of UX improvements, starting with improved AppStream integration that enables us to express more information about an application and its developer(s). This is most noticeable when paired with our new package view page.
 
 The new package view page features screenshot support, as well as exposing more in-depth app descriptions, installed package size, version information, and various buttons to the developer's website and donation links that they may provide.
 

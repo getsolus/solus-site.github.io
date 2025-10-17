@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2014-08-03T18:55:28Z"
-
-title = "Alpha 3 Released"
-url = "/2014/08/03/alpha-3-released/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+date: "2014-08-03T18:55:28Z"
+title: Alpha 3 Released
+url: /2014/08/03/alpha-3-released/
+---
 
 I am pleased to announce the release of Evolve OS Alpha 3. This image is only suitable for 64-bit machines, and is not yet EFI capable. This release incorporates all recent 
 updates, including X.Org 1.16.0, MesaLib 10.2.4, Linux Kernel 3.15.6, Firefox 31.0 and the GNOME 3.12 stack.
@@ -15,7 +16,7 @@ updates, including X.Org 1.16.0, MesaLib 10.2.4, Linux Kernel 3.15.6, Firefox 31
 This represents the third and final alpha of the Evolve OS images, as we're moving towards daily-builds and then beta stages. Please help to identify issues 
 within the system so that we can make Evolve OS as enjoyable an experience as possible.
 
-{{< altimg "https://solus-project.com/release_images/gnome-cc.png" >}}
+![relimg](https://solus-project.com/release_images/gnome-cc.png)
 
 ## Explaining the missing EFI image
 

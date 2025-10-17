@@ -1,20 +1,22 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"TWIS"
-]
-date =  "2016-11-15T20:41:02+02:00"
-featuredimage = "/firefox-50.jpg"
-title = "This Week in Solus - Install #39"
-url = "/2016/11/15/this-week-in-solus-install-39/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- twis
+date: "2016-11-15T20:41:02+02:00"
+featuredimage: /firefox-50.jpg
+title: 'This Week in Solus - Install #39'
+url: /2016/11/15/this-week-in-solus-install-39/
+---
 
 Welcome to This Week in Solus, install #39.
 
 ## Announcing Partnership with Unixstickers
 
-{{<relimg "laptop-solus-sticker-small.jpg" >}}
+![relimg](laptop-solus-sticker-small.jpg)
 
 We recently announced our partnership with Unixstickers to provide high-quality Solus stickers for our community and fans. If you have yet to read about it, click 
 [here](https://solus-project.com/2016/11/15/solus-announces-partnership-with-unixstickers).
@@ -41,7 +43,7 @@ and configuration of drivers. This work will enable Optimus support as well as o
 Once we are confident in the quality and initial functionality of Linux Driver Management, we will set our sights on Budgie 11 development and enhancing its architecture. 
 [We have already expressed interest in numerous new features, functionality, and changes for Budgie 11](https://github.com/budgie-desktop/info), such as (*but not limited to*):
 
-- Improving accessiblity and ensure all components are reusable, ATK registered, and don't break a11y.
+- Improving accessibility and ensure all components are reusable, ATK registered, and don't break a11y.
 - Budgie Panel and Raven will use separate, versioned trees, and individual plugins will be appropriately namespaced.
 - Settings will be moved to a new Budgie Settings application, which we intend to be a replacement for Gnome Control Center. 
 - Budgie will see the introduction of multi-monitor panel support, which the ability to drag reorder widgets, lock the panel, permit the panel on any edge, intellihide, and more.

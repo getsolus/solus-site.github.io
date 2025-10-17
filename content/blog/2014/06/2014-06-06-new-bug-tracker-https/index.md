@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2014-06-06T17:10:55Z"
-
-title = "New Bug Tracker + HTTPS"
-url = "/2014/06/06/new-bug-tracker-https/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+date: "2014-06-06T17:10:55Z"
+title: New Bug Tracker + HTTPS
+url: /2014/06/06/new-bug-tracker-https/
+---
 
 Hello all!
 
@@ -15,7 +16,7 @@ In order to make it easier to get involved with the project and report bugs, I'v
 [The Bug Genie](http://www.thebuggenie.com/) for our bug needs. This is open source software under the 
 [Mozilla Public License](http://www.mozilla.org/MPL/1.1/) version 1.1 (MPL-1.1). A demo screenshot is provided below.<!--more-->
 
-{{< relimg "bts.png" >}}
+![relimg](bts.png)
 
 You can get signed up by visiting [https://solus-project.com/project/](https://solus-project.com/project/) -- we'll also have some bits of documentation 
 there on the built-in wiki soon enough. Note that this facilitates proper project management and releases, and this is exactly how we'll use it.

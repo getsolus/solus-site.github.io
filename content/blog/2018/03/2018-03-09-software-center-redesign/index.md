@@ -1,12 +1,15 @@
 ---
-title: "Software Center Redesign | The Roundup #5"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - news
 - roundup
-date: 2018-03-09T12:21:00+02:00
-featuredimage: "/solus-sc-redesign.jpg"
-url: "/2018/03/09/software-center-redesign"
+date: "2018-03-09T12:21:00+02:00"
+featuredimage: /solus-sc-redesign.jpg
+title: 'Software Center Redesign | The Roundup #5'
+url: /2018/03/09/software-center-redesign
 ---
 
 Welcome to The Roundup #5, your bytes of Solus news. In this roundup, we're talking about our in-progress redesign of the Software Center!

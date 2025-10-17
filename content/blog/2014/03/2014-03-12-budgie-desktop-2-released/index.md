@@ -1,13 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"Budgie",
-"News"
-]
-date =  "2014-03-12T21:52:00Z"
-title = "Budgie Desktop 2 Released"
-url = "/2014/03/12/budgie-desktop-2-released/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- budgie
+- news
+date: "2014-03-12T21:52:00Z"
+title: Budgie Desktop 2 Released
+url: /2014/03/12/budgie-desktop-2-released/
+---
 
 Hi all,
 
@@ -23,6 +25,6 @@ been updated and v2 is on its way, so please enjoy! 🙂
 
 [http://software.opensuse.org/download.html?project=home%3Aikeydoherty%3Aevolve&package=budgie-desktop](http://software.opensuse.org/download.html?project=home%3Aikeydoherty%3Aevolve&package=budgie-desktop)
 
-{{< relimg "Screenshot-from-2014-03-12-212937.png" >}}
+![relimg](Screenshot-from-2014-03-12-212937.png)
 
-{{< relimg "Screenshot-from-2014-03-12-200211.png" >}}
+![relimg](Screenshot-from-2014-03-12-200211.png)

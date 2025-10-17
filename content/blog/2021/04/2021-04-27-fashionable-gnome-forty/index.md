@@ -1,14 +1,17 @@
 ---
-title: "Fashionable GNOME Forty | The Roundup #19"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - budgie
 - packages
 - news
 - roundup
-date: 2021-04-27T14:58:33+03:00
-featuredimage: "/gnome-40.jpg"
-url: "/2021/04/27/fashionable-gnome-forty"
+date: "2021-04-27T14:58:33+03:00"
+featuredimage: /gnome-40.jpg
+title: 'Fashionable GNOME Forty | The Roundup #19'
+url: /2021/04/27/fashionable-gnome-forty
 ---
 
 Welcome to The Roundup #19, your bytes of Solus news. In this roundup, we talk about our Budgie 10.5.3 bug fix release, GNOME 40, move to KDE's Qt5 patch collection, and more!
@@ -47,7 +50,7 @@ When compiled alongside GNOME Settings Daemon 40.x, Budgie will use the migrated
 
 ### Quality-of-life Improvements
 
-{{< relimg "budgie-desktop-settings.jpg" >}}
+![relimg](budgie-desktop-settings.jpg)
 
 Here are some quality-of-life improvements shipping in Budgie 10.5.3
 
@@ -67,7 +70,7 @@ Official distribution tarballs for Budgie 10.5.3 are available [here](https://gi
 
 ## GNOME 40
 
-{{< relimg "gnome-40.jpg" >}}
+![relimg](gnome-40.jpg)
 
 With this Friday's sync to the stable repository, we will be rolling out the GNOME 40 stack. This stack upgrade introduces the latest updates to GNOME Shell, GNOME's desktop environment, as well as its applications, libraries, and window manager.
 
@@ -140,7 +143,7 @@ Solus users can expect goodies such as:
 
 As a result of various changes to GNOME Shell, the current changes are being applied to various branding packages we ship or have shipped for Solus GNOME Edition:
 
-- Plata-noir has been swapped out for Materia-dark. Plata Theme has not seen development since the GNOME 3.38 stack release, which has meant considerable breakages under 40, alongside GTK4. Materia GTK Theme provides a very similiar look and feel, so we are comfortable with applying this switch. If you changed your GTK or Shell theme to a non-default value, run the command:
+- Plata-noir has been swapped out for Materia-dark. Plata Theme has not seen development since the GNOME 3.38 stack release, which has meant considerable breakages under 40, alongside GTK4. Materia GTK Theme provides a very similar look and feel, so we are comfortable with applying this switch. If you changed your GTK or Shell theme to a non-default value, run the command:
 
   `gsettings reset org.gnome.desktop.interface 'gtk-theme'`
 - Dash to Dock is **temporarily** deprecated from the Solus repositories and is no longer enabled by default via our desktop branding. We will reintroduce Dash-to-Dock support when the [current merge request for GNOME 40 support](https://github.com/micheleg/dash-to-dock/pull/1402), which introduces some instability and is "very much WIP" (exact quote), is merged in and a release is tagged around it.

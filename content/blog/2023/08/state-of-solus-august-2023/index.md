@@ -1,11 +1,14 @@
 ---
-title: "State of Solus - August 2023"
-author: "david"
-categories:
-  - news
-date: 2023-08-07T00:27:44+03:00
-featuredimage: "/StateOfSolusAugust2023.jpg"
-url: "/2023/08/07/state-of-solus-august-2023"
+authors:
+- image: https://avatars.githubusercontent.com/u/23007135?v=4
+  link: https://github.com/DavidJHarder
+  name: David Harder
+tags:
+- news
+date: "2023-08-07T00:27:44+03:00"
+featuredimage: /StateOfSolusAugust2023.jpg
+title: State of Solus - August 2023
+url: /2023/08/07/state-of-solus-august-2023
 ---
 
 This blog post is meant as a follow-up to [A New Voyage](/2023/04/18/a-new-voyage/). We want to discuss what we have accomplished, and what we have planned for the future.

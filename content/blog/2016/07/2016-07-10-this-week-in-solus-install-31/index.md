@@ -1,14 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Plans",
-"TWIS"
-]
-date =  "2016-07-10T19:46:20Z"
-title = "This Week in Solus -- Install #31"
-url = "/2016/07/10/this-week-in-solus-install-31/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- plans
+- twis
+date: "2016-07-10T19:46:20Z"
+title: 'This Week in Solus -- Install #31'
+url: /2016/07/10/this-week-in-solus-install-31/
+---
+ 
 Welcome to the 31st installation of This Week in Solus. 
 
 #### Operation Go Moar Faster
@@ -31,7 +34,7 @@ What does this mean for you? We're taking it up a notch from just updated apps.
 2. Next week after Solus 1.2.1, we're rolling out **GNOME 3.20**. Thanks to work done by horst3180, Budgie is already compatible with GNOME 3.20, so that will not be a blocker for updating the GNOME stack.
 3. So long as you keep your system updated, your Solus 1.x installation will be supported **indefinitely**. Releases are primarily for us to focus on milestones and provide a snapshot for installation.
 
-{{< altimg "http://i.imgur.com/YsbKHg1.gif" >}}
+![relimg](http://i.imgur.com/YsbKHg1.gif)
 
 #### ypkg Improvements
 

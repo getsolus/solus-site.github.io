@@ -1,13 +1,16 @@
 ---
-title: "Announcing Upcoming Hackfest - The Eleventh Budgie"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - budgie
 - news
 - plans
-date: 2017-09-14T16:51:34+03:00
-featuredimage: "/budgie-eleven-hackfest.jpg"
-url: "/2017/09/14/announcing-eleventh-budgie-hackfest"
+date: "2017-09-14T16:51:34+03:00"
+featuredimage: /budgie-eleven-hackfest.jpg
+title: Announcing Upcoming Hackfest - The Eleventh Budgie
+url: /2017/09/14/announcing-eleventh-budgie-hackfest
 ---
 
 The time is nigh to start development of Budgie 11 and you can tune in on Saturday, September 16th at 1700 GMT to watch Ikey work on it live!

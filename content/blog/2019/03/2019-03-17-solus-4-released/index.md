@@ -1,13 +1,16 @@
 ---
-title: "Solus 4 Fortitude Released"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - budgie
 - news
 - releases
-date: 2019-03-17T23:06:48+02:00
-featuredimage: "/solus-4-featured.jpg"
-url: "/2019/03/17/solus-4-released"
+date: "2019-03-17T23:06:48+02:00"
+featuredimage: /solus-4-featured.jpg
+title: Solus 4 Fortitude Released
+url: /2019/03/17/solus-4-released
 ---
 
 We are proud to announce the immediate availability of Solus 4 Fortitude, a new major release of the Solus operating system. This release delivers a brand new Budgie experience, updated sets of default applications and theming, and hardware enablement.
@@ -48,7 +51,7 @@ Additionally WPS Office has been removed from Third Party due to the introductio
 
 ## Budgie
 
-{{< relimg "budgie-10/Budgie.jpg" >}}
+![relimg](budgie-10/Budgie.jpg)
 
 Solus ships with our brand new release of the Budgie 10.x series, Budgie 10.5, as well as complimenting this release by shipping Solus 4 out-of-the-box with the Plata (Noir) GTK Theme.
 
@@ -60,7 +63,7 @@ This Budgie release introduces a few refinements to Budgie Menu. We no longer sh
 
 #### Caffeine Mode
 
-{{< relimg "budgie-10/CaffeineMode.jpg" >}}
+![relimg](budgie-10/CaffeineMode.jpg)
 
 Budgie 10.5 introduces a new applet called Caffeine Mode. Caffeine Mode is designed to ensure your system does not automatically suspend, lock, or dim when you're hard at work.
 
@@ -74,7 +77,7 @@ We'd like to thank [yursan9](https://github.com/yursan9) for their amazing work 
 
 #### Icon Tasklist
 
-{{< relimg "budgie-10/IconTasklistPopover.jpg" >}}
+![relimg](budgie-10/IconTasklistPopover.jpg)
 
 Budgie 10.5 provides a massive upgrade to the IconTasklist applet. Our new IconTasklist applet has improved application detection to more consistently group applications and introduces a brand new IconTasklist popover experience.
 
@@ -95,13 +98,13 @@ Raven, our widget and notification center, has seen improvements in Budgie 10.5.
 
 #### Calendar
 
-{{< relimg "budgie-10/CalendarWeekNumbers.jpg" >}}
+![relimg](budgie-10/CalendarWeekNumbers.jpg)
 
 You can now enable week numbers for the Calendar widget in Raven. This can be done easily by going to the Raven section of Budgie Desktop Settings and toggling on "Enable display of week numbers in Calendar".
 
 #### Notifications
 
-{{< relimg "budgie-10/Notifications.jpg" >}}
+![relimg](budgie-10/Notifications.jpg)
 
 Budgie 10.5 introduces improved notification management. With this release, notification management is no longer a "clear all or nothing" scenario. Notifications are grouped on a per-app basis and you're in control of whether or not you want to:
 
@@ -116,7 +119,7 @@ Building on this, notification summaries and descriptions are now properly summa
 
 #### Sound
 
-{{< relimg "budgie-10/SoundApps.jpg" >}}
+![relimg](budgie-10/SoundApps.jpg)
 
 Our Sound widgets have been completely rewritten and redesigned! We've broken up the widgets into Sound Output and Sound Input, fixed some long-standing bugs, and introduced long sought after features.
 
@@ -136,7 +139,7 @@ Budgie 10.5 introduces a wider array of personalization options via our Budgie D
 
 #### Style
 
-{{< relimg "budgie-10/BudgieDesktopSettingsStyle.jpg" >}}
+![relimg](budgie-10/BudgieDesktopSettingsStyle.jpg)
 
 Budgie 10.5 builds on our existing support for selecting various cursor, icon, and widget (GTK) themes by ensuring that the options we present to users for icons and widgets are more likely to work well with Budgie.
 
@@ -148,7 +151,7 @@ For vendors, we now provide the gschema key to hide the "Built-in theme" option.
 
 #### Raven
 
-{{< relimg "budgie-10/BudgieDesktopSettingsRaven.jpg" >}}
+![relimg](budgie-10/BudgieDesktopSettingsRaven.jpg)
 
 Budgie 10.5 introduces a new section to Budgie Desktop Settings for personalizing Raven. This is where you would go to allow raising volume above 100% as well as toggle various widgets. We provide options for:
 
@@ -163,7 +166,7 @@ Budgie 10.5 introduces a new section to Budgie Desktop Settings for personalizin
 
 #### Windows
 
-{{< relimg "budgie-10/BudgieDesktopSettingsWindows.jpg" >}}
+![relimg](budgie-10/BudgieDesktopSettingsWindows.jpg)
 
 The Windows section of Budgie Desktop Settings introduces options for:
 
@@ -180,7 +183,7 @@ Some other changes / fixes of note:
 
 ## GNOME
 
-{{< relimg "gnome.jpg" >}}
+![relimg](gnome.jpg)
 
 Our GNOME experience has seen some refinements to our out-of-the-box default experience.
 
@@ -189,7 +192,7 @@ Our GNOME experience has seen some refinements to our out-of-the-box default exp
 
 ## MATE
 
-{{< relimg "mate.jpg" >}}
+![relimg](mate.jpg)
 
 Our MATE experience has seen some refinements to our out-of-the-box default experience.
 
@@ -207,7 +210,7 @@ Our MATE ISO ships with latest of the MATE 1.20 series, which has numerous impro
 
 ## Plasma
 
-{{< relimg "plasma.jpg" >}}
+![relimg](plasma.jpg)
 
 Thanks to the hard work by Friedrich von Gellhorn (Girtablulu) and the groundwork laid by Peter O'Connor (sunnyflunk), we're happy to introduce the availability of a new Plasma Testing ISO. This new Plasma Testing ISO features the latest of the Plasma Desktop [5.15](https://kde.org/announcements/plasma-5.15.0.php) series, [5.15.2](https://kde.org/announcements/plasma-5.15.2.php), and is complemented by KDE Frameworks 5.56, KDE Applications 18.12.2, and Qt 5.12.1.
 
@@ -259,7 +262,7 @@ To download our latest Editions, you can go to our [Download](/download) page, w
 
 **libao**
 
-  - [Bryan T. Meyers: Update to 1.2.2 and siwtch to github source](https://dev.getsol.us/source/libao/browse/master/;91addfb)
+  - [Bryan T. Meyers: Update to 1.2.2 and switch to github source](https://dev.getsol.us/source/libao/browse/master/;91addfb)
 
 
 **ldb**
@@ -1170,7 +1173,7 @@ To download our latest Editions, you can go to our [Download](/download) page, w
   - [Pierre-Yves: Update libnss to 3.42.1 for CVE-2018-18508](https://dev.getsol.us/source/libnss/browse/master/;ea0c1b4)
   - [Pierre-Yves: Update libnss to 3.42](https://dev.getsol.us/source/libnss/browse/master/;f4db4af)
   - [Pierre-Yves: Update libnss to 3.41.1](https://dev.getsol.us/source/libnss/browse/master/;1d14582)
-  - [Pierre-Yves: Udate libnss to 3.41](https://dev.getsol.us/source/libnss/browse/master/;d932423)
+  - [Pierre-Yves: Update libnss to 3.41](https://dev.getsol.us/source/libnss/browse/master/;d932423)
   - [Pierre-Yves: Update libnss to 3.40.1 to address CVE-2018-12404](https://dev.getsol.us/source/libnss/browse/master/;ceed9f5)
   - [Pierre-Yves: Update libnss to 3.39 for CVE-2018-12384](https://dev.getsol.us/source/libnss/browse/master/;16ab8e8)
 
@@ -1477,7 +1480,7 @@ To download our latest Editions, you can go to our [Download](/download) page, w
 **tar**
 
   - [Pierre-Yves: Update tar to 1.32](https://dev.getsol.us/source/tar/browse/master/;8ac736f)
-  - [Pierre-Yves: Prevent tar to abord during normal operations](https://dev.getsol.us/source/tar/browse/master/;0644dce)
+  - [Pierre-Yves: Prevent tar to abort during normal operations](https://dev.getsol.us/source/tar/browse/master/;0644dce)
   - [Pierre-Yves: Update tar to 1.31 to address CVE-2018-20482](https://dev.getsol.us/source/tar/browse/master/;f043155)
 
 

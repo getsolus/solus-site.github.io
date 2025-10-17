@@ -1,14 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"Budgie",
-"News"
-]
-date =  "2014-11-16T23:09:47Z"
-
-title = "Evolve OS/Budgie Fund Raiser"
-url = "/2014/11/16/evolve-osbudgie-fund-raiser/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- budgie
+- news
+date: "2014-11-16T23:09:47Z"
+title: Evolve OS/Budgie Fund Raiser
+url: /2014/11/16/evolve-osbudgie-fund-raiser/
+---
 
 Hello all! I hope you're all enjoying the new release of Courageous Budgie! I wanted to take a few minutes to announce a new fundraiser/donations drive initiative 
 for the Evolve OS Projects (Distro/Desktop/etc). To cut a short story long, I haven't been able to put as much time as I would have liked into developing Evolve OS and its 
@@ -17,7 +18,7 @@ projects over the last couple of months. This is mostly because I have to utilis
 Ideally I'd like to give all my spare time over to working on what I love (I'm sure we all would, in reality), but with the help of the community I'm sure we could 
 realistically achieve that goal. I'd like to see us have a solid release of Evolve OS and the Budgie Desktop this side of Christmas, at least early-RC stages.
 
-{{< relimg "Budgie-Quirky.png" >}}
+![relimg](Budgie-Quirky.png)
 
 Now, if the "campaign" went well, this frees up the option of being able to invest in a Secure Boot key, for example, on behalf of the project. It will enable me to put all 
 the time into perfecting Evolve OS and Budgie, and solidifying the project as a whole.

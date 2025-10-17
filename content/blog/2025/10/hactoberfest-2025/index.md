@@ -1,12 +1,16 @@
 ---
-title: "Hacktoberfest 2025"
-author: "evan"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/5157277?v=4
+  link: https://github.com/EbonJaeger
+  name: Evan Maddock
+tags:
 - news
 date: 2025-10-01T12:40:32-04:00
-featuredimage: "/horizontal_black.png"
+title: "Hacktoberfest 2025"
 url: "/2025/10/01/hacktoberfest-2025"
 ---
+
+![](horizontal_black.png)
 
 Heya folks! It's now October, and that means [Hacktoberfest](https://hacktoberfest.com)! It is an annual event that "encourages people to contribute to open source throughout October", while earning rewards. Hacktoberfest is an excellent way to start getting involved in Open Source, and many projects participate in the event. You can make contacts in different projects, get mentoring, and practice your skills. On top of that, you can get [cool badges](https://hacktoberfest.com/about/#rewards)!
 

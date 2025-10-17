@@ -1,13 +1,16 @@
 ---
-title: "Improving Community Engagement | The Roundup #10"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - infrastructure
 - news
 - roundup
-date: 2018-10-11T01:50:12+03:00
-featuredimage: "/improving-community-engagement.jpg"
-url: "/2018/10/11/improving-community-engagement"
+date: "2018-10-11T01:50:12+03:00"
+featuredimage: /improving-community-engagement.jpg
+title: 'Improving Community Engagement | The Roundup #10'
+url: /2018/10/11/improving-community-engagement
 ---
 
 Welcome to The Roundup #10, your bytes of Solus news. In this roundup we are focusing on improving community engagement, reducing barriers to entry, and improving the delivery of Solus news.

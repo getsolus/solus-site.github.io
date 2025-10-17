@@ -1,12 +1,15 @@
 ---
-title: "This Week In Solus - Install #48"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - news
 - plans
-date: 2017-11-12T14:18:32+02:00
-featuredimage: "/civ_vi.jpg"
-url: "/2017/11/12/this-week-in-solus-install-48"
+date: "2017-11-12T14:18:32+02:00"
+featuredimage: /civ_vi.jpg
+title: 'This Week In Solus - Install #48'
+url: /2017/11/12/this-week-in-solus-install-48
 ---
 
 Welcome to This Week in Solus, install #48.
@@ -42,7 +45,7 @@ We're always looking to improve the state of gaming under Linux and part of that
 
 #### Known Working
 
-{{< relimg "supported-games-examples.jpg" >}}
+![relimg](supported-games-examples.jpg)
 *The above mentioned games are examples of games we've tested and do not indicate official support from their respective publishers or developers.*
 
 This isn't the full, comprehensive list of games that are known to work, but we'll be working to provide a way of submitting your tested games.
@@ -190,7 +193,7 @@ Right now qol-assist is responsible for applying versioned migrations to the sys
 
 ### Next steps
 
-As part of solidifying the core experience, we're going to expand upon our tooling to provide not only solid upgrade systems, but tooling that can be used for recovery purposes. Currently we have a disconnected set of "post-install" scripts in various packages in the repositories, just like any other distribution. However, this significantly complicates the upgrade process as we cannot gaurantee execution order, nor are these action scripts available for recovery or diagnosis purposes.
+As part of solidifying the core experience, we're going to expand upon our tooling to provide not only solid upgrade systems, but tooling that can be used for recovery purposes. Currently we have a disconnected set of "post-install" scripts in various packages in the repositories, just like any other distribution. However, this significantly complicates the upgrade process as we cannot guarantee execution order, nor are these action scripts available for recovery or diagnosis purposes.
 
 Our next steps are to consolidate all of the OS triggers into a new project, which will provide a static binary designed to be entirely immune to potential upgrade issues. Much like `qol-assist` it will employ intelligent state tracking to determine exactly which system operations need to be applied, and ensure a sane order of execution. This will be used for everything from simple `ldconfig` style updates up to the management of system users.
 

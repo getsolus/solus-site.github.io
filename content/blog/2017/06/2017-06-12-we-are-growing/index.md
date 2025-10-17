@@ -1,11 +1,15 @@
-+++
-author = "joshua"
-categories = ["news"]
-date = "2017-06-13T16:41:09+03:00"
-featuredimage = "/growing.jpg"
-title = "We Are Growing!"
-url = "/2017/06/13/we-are-growing"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+date: "2017-06-13T16:41:09+03:00"
+featuredimage: /growing.jpg
+title: We Are Growing!
+url: /2017/06/13/we-are-growing
+---
 
 ## Welcoming Stefan Ric to the Team!
 

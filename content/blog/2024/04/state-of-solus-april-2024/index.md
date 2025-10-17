@@ -1,11 +1,14 @@
 ---
-title: "State of Solus - April 2024"
-author: "david"
-categories:
-  - news
-date: 2024-04-20
-featuredimage: "/StateOfSolusApril2024.jpg"
-url: "/2024/04/20/state-of-solus-april-2024"
+authors:
+- image: https://avatars.githubusercontent.com/u/23007135?v=4
+  link: https://github.com/DavidJHarder
+  name: David Harder
+tags:
+- news
+date: "2024-04-20"
+featuredimage: /StateOfSolusApril2024.jpg
+title: State of Solus - April 2024
+url: /2024/04/20/state-of-solus-april-2024
 ---
 
 April 18, 2024 marks exactly one year since Josh published the "New Voyage" post announcing the return of Solus in its current form. A good chunk of that post was dedicated to explaining the work we wanted to do in the future, having just completed the technical task of migrating critical Solus infrastructure off the previous hosting environment. In this post, I will outline what we've accomplished in this busy year.
@@ -197,7 +200,7 @@ A big thank you to Evan and Tracey who usually handle the actual generation of t
 
 #### Wrote automated ISO boot and install testing scripts
 
-The vast majority of the time spent on creating official ISO releases for Solus is spent on manually testing ISO images for each edition for basic funtionality. To take some of the tedium out of this, Silke has taken point in authoring a test harness for our official release ISOs. This tool runs automated tests on the many boot and partition permutations our installer targets, then creates a collage of desktop screenshots showing the result for each boot + install permutation.
+The vast majority of the time spent on creating official ISO releases for Solus is spent on manually testing ISO images for each edition for basic functionality. To take some of the tedium out of this, Silke has taken point in authoring a test harness for our official release ISOs. This tool runs automated tests on the many boot and partition permutations our installer targets, then creates a collage of desktop screenshots showing the result for each boot + install permutation.
 
 As a result, we can now spend more time fettling the ISO install experience, and less time setting up tests just to see if an ISO will boot.
 

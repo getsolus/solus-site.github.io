@@ -1,19 +1,21 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2014-05-04T17:25:51Z"
-title = "Status Update"
-url = "/2014/05/04/status-update/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+date: "2014-05-04T17:25:51Z"
+title: Status Update
+url: /2014/05/04/status-update/
+---
 
 Hello all!
 
 It's been a while since the last bit of news, so I thought I'd update you with where I currently am with Evolve OS building. Today, the last of the "mass-rebuilds" is 
 taking place, ensuring that the underlying toolchain is fully functional and correct. <!--more-->
 
-{{< relimg "Screenshot-from-2014-05-04-180645.png" >}}
+![relimg](Screenshot-from-2014-05-04-180645.png)
 
 At the time of writing, I have 157 binary packages built and verified. I am now preparing a local build system to finish the building of the remaining packages. This is 
 roughly 10% of all possible binary packages right now, though its a much higher source percentage.

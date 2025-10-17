@@ -1,20 +1,21 @@
-+++
-author = "ikey"
-categories = [
-"Budgie"
-]
-date =  "2014-11-16T22:03:43Z"
-
-title = "Courageous Budgie (v8) Released!"
-url = "/2014/11/16/courageous-budgie-v8-released/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- budgie
+date: "2014-11-16T22:03:43Z"
+title: Courageous Budgie (v8) Released!
+url: /2014/11/16/courageous-budgie-v8-released/
+---
 
 Hello all! I am pleased to announce version 8 of the Budgie Desktop! We've changed many things, with a vastly simplified main menu, cleaner animations and on the whole 
 a much more responsive desktop.
 
 This release represents 78 commits with 36 files changed, 3577 insertions and 351 deletions.
 
-{{< relimg "8Menu.png" >}}
+![relimg](8Menu.png)
 
 ## What's changed?
 
@@ -52,4 +53,4 @@ whether its buying the developer a cup of tea, sending a patch to add a new feat
 
 **Edit**: A [fundraiser was launched](https://solus-project.com/2014/11/16/evolve-osbudgie-fund-raiser/) after this post was first published
 
-{{< relimg "8Prefs.png" >}}
+![relimg](8Prefs.png)

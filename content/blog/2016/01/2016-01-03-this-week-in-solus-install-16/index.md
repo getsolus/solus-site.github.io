@@ -1,19 +1,22 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"TWIS"
-]
-date =  "2016-01-03T20:12:28Z"
-title = "This Week in Solus -- Install #16"
-url = "/2016/01/03/this-week-in-solus-install-16/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- twis
+date: "2016-01-03T20:12:28Z"
+title: 'This Week in Solus -- Install #16'
+url: /2016/01/03/this-week-in-solus-install-16/
+---
+ 
 
 Welcome to the 16th installation of This Week in Solus. This is the first installation since the [great 1.0 release](https://solus-project.com/2015/12/27/solus-1-0-released/), which happened last week, as well as being the first of 2016! I opted to not have three blog posts in the span of two days last week, that'd be a tad excessive. 
 
 Fast forward a week and things haven't slowed down at all. We have gotten plenty of new package requests, bug reports, and issued fixes for hiccups users have had along the way.
 
-{{< altimg "http://i.giphy.com/8EmeieJAGjvUI.gif" >}}
+![relimg](http://i.giphy.com/8EmeieJAGjvUI.gif)
 
 #### Budgie
 
@@ -58,7 +61,7 @@ Budgie is now 100% translated into the following languages (not including Englis
 
 There is also progress being done on languages such as Swedish, Tagalog, Catalan, and more! Absolutely massive thanks to everyone that has contributed so far.
 
-{{< altimg "http://i.giphy.com/q9fohf0Erd50A.gif" >}}
+![relimg](http://i.giphy.com/q9fohf0Erd50A.gif)
 
 #### General Improvements
 

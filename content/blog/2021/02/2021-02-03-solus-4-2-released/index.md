@@ -1,12 +1,15 @@
 ---
-title: "Solus 4.2 Released"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - news
 - releases
-date: 2021-02-03T10:28:52+02:00
-featuredimage: "/solus-4.2-featured.jpg"
-url: "/2021/02/03/solus-4-2-released"
+date: "2021-02-03T10:28:52+02:00"
+featuredimage: /solus-4.2-featured.jpg
+title: Solus 4.2 Released
+url: /2021/02/03/solus-4-2-released
 ---
 
 We are proud to announce the immediate availability of Solus 4.2, a new Solus 4 "Fortitude" series release. This release delivers new desktop environment updates, software stacks, and hardware enablement.
@@ -93,7 +96,7 @@ Solus 4.2 ships with Pulseaudio 14.1, which features some key improvements such 
 
 ## Budgie
 
-{{< altimg "Budgie.jpg" "/release-images/4.2/" >}}
+![relimg](Budgie.jpg)
 
 Solus ships with the latest release of our flagship desktop environment, [Budgie 10.5.2](/2020/12/02/budgie-10-5-2-released). 
 
@@ -123,7 +126,7 @@ There was so many other improvements and fixes in this new release. Check our [o
 
 ## GNOME
 
-{{< altimg "GNOME.jpg" "/release-images/4.2/" >}}
+![relimg](GNOME.jpg)
 
 Solus 4.2 GNOME Edition ships with the latest release of the GNOME 3.38 Stack, 3.38.3. GNOME 3.38.3 introduces various fixes to the GNOME experience such as:
 
@@ -152,7 +155,7 @@ Solus GNOME Edition continues to ship with our curated out-of-the-box experience
 
 ## MATE
 
-{{< altimg "MATE.jpg" "/release-images/4.2/" >}}
+![relimg](MATE.jpg)
 
 Solus 4.2 MATE Edition ships with MATE 1.24, which contains [numerous bug fixes and under-the-hood improvements](https://mate-desktop.org/blog/2020-02-10-mate-1-24-released/). Some of the highlights include:
 
@@ -180,7 +183,7 @@ Solus 4.2 also ships with Brisk Menu 0.6.2. This release features:
 
 ## Plasma
 
-{{< altimg "Plasma.jpg" "/release-images/4.2/" >}}
+![relimg](Plasma.jpg)
 
 Solus 4.2 Plasma Edition ships with the latest Plasma Desktop 5.20.5, KDE Frameworks 5.78, KDE Applications 20.12.1 and QT 5.15.2, which brings many new features, some highlighted below:
 
@@ -206,8 +209,8 @@ To download our latest Editions, you can go to our [Download](/download) page, w
 
 ### Packages Added
 
- - budgie-desktop-branding-fortitude-plus
- - budgie-desktop-view
+ - Budgie-desktop-branding-fortitude-plus
+ - Budgie-desktop-view
  - exfatprogs
  - graphviz
  - gts
@@ -919,7 +922,7 @@ To download our latest Editions, you can go to our [Download](/download) page, w
  - [Alexander Vorobyev: samba: patch missing include in libsmbclient.h & update documentation](https://dev.getsol.us/source/samba/browse/master/;afbf175)
  - [Rune Morling: Samba: Update to 4.12.10](https://dev.getsol.us/source/samba/browse/master/;0808ecd)
  - [Rune Morling: Remove MAINTAINERS.md](https://dev.getsol.us/source/samba/browse/master/;76bd7a0)
- - [Rune Morling: Soften the langage around samba maintence.](https://dev.getsol.us/source/samba/browse/master/;8b325e4)
+ - [Rune Morling: Soften the language around samba maintenance.](https://dev.getsol.us/source/samba/browse/master/;8b325e4)
 
 **libgnome-menus**
 
