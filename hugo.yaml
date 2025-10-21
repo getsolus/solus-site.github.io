@@ -97,7 +97,7 @@ params:
         pageRef: /branding
       - identifier: team
         name: Team
-        url: "https://help.getsol.us/docs/organization/teams"
+        url: /team
       - identifier: security
         name: Security
         pageRef: /security

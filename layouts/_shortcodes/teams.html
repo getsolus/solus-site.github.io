@@ -1,0 +1,8 @@
+{{- range .Site.Data.organization.teams -}}
+    {{- partial "components/team" (dict
+        "description" .description
+        "members" .members
+        "name" .name
+        )
+    -}}
+{{- end -}}

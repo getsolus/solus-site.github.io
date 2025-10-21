@@ -1,0 +1,85 @@
+{{- $description := .description -}}
+{{- $members := .members -}}
+{{- $name := .name -}}
+
+<div class="mt-16 pb-8">
+    <h2 class="mb-4">{{ $name }}</h2>
+    <p class="mb-8">{{ $description | markdownify }}</p>
+
+    <div class="hextra-cards mt-4 gap-8 grid not-prose" style="--hextra-cards-grid-cols: 2;">
+        {{- range $key, $value := $members -}}
+            {{- $member := index site.Data.organization.people $key -}}
+            {{- with $member -}}
+
+                {{- template "team-member" (dict
+                    "description" $value
+                    "matrix" $member.matrix
+                    "names" $member.names
+                    "websites" $member.websites
+                    )
+                -}}
+            {{- end -}}
+        {{- end -}}
+    </div>
+</div>
+
+{{- define "team-member" -}}
+    {{- $description := .description -}}
+    {{- $matrix := .matrix -}}
+    {{- $names := .names -}}
+    {{- $websites := .websites -}}
+
+    {{- $key := printf "%s%s" $names.first $names.last -}}
+    {{- $avatar := printf "/imgs/avatars/%s.jpg" $key -}}
+
+    <div class="hextra-card group flex justify-start overflow-hidden rounded-lg border border-gray-300 dark:border-neutral-500 bg-gray-100 dark:bg-neutral-700 dark:text-gray-50 shadow-lg dark:border-gray-400 text-current no-underline" key="{{- $key -}}">
+        <img alt={{ $key }} loading="lazy" decoding="async" src={{ $avatar }} width="125px" />
+
+        <div class="flex flex-col">
+            <div class="flex-1 text-gray-500 dark:text-gray-400 px-4 mb-2 mt-2">
+                <div class="font-bold">
+                    <span>{{ $names.first }} {{ with $names.middle }}{{ $names.middle }}{{ end }} {{ $names.last }}<span>
+                </div>
+
+                <div class="text-sm">
+                    {{ $description }}
+                </div>
+            </div>
+
+            <div class="text-xs not-prose px-4 mb-2 mt-2">Matrix: {{ $matrix }}</div>
+
+            <div class="flex gap-4 px-4 mb-4">
+                {{- range $websites -}}
+                    {{- $href := .href | safeURL -}}
+                    {{- $type := .type -}}
+
+                    <a href={{ $href }} target="_blank" rel="noreferrer">
+                        {{- if eq $type "github" -}}
+                            {{ template "link-icon" dict "name" "github" }}
+                        {{- else if eq $type "mastodon" -}}
+                            {{ template "link-icon" dict "name" "mastodon" }}
+                        {{- else if eq $type "other" -}}
+                            {{ template "link-icon" dict "name" "link" }}
+                        {{- end -}}
+                    </a>
+                {{- end -}}
+            </div>
+        </div>
+    </div>
+{{- end -}}
+
+{{- define "link-icon" -}}
+    {{- $name := .name -}}
+    {{- $icon := index site.Data.icons $name -}}
+    {{- $attributes := .attributes | default "height=1em"}}
+
+    {{- if not $icon -}}
+        {{ errorf "icon %q not found" $name }}
+    {{- end -}}
+
+    {{- $icon = replaceRE "<svg" (printf "<svg %s" $attributes) $icon -}}
+
+    <span class="inline-block align-text-bottom hextra-icon">
+        {{- $icon | safeHTML -}}
+    </span>
+{{- end -}}

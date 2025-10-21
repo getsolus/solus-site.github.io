@@ -1,0 +1,102 @@
+---
+algent:
+  matrix: "@algent:matrix.org"
+  names:
+    first: Algent
+    last: Albrahimi
+  websites:
+    - href: https://github.com/algent-al
+      type: github
+    - href: https://fosstodon.org/@algent
+      type: mastodon
+davidharder:
+  matrix: "@davidjharder:matrix.org"
+  names:
+    first: David
+    last: Harder
+  websites:
+    - href: https://github.com/davidjharder
+      type: github
+evanmaddock:
+  matrix: "@ebonjaeger:matrix.org"
+  names:
+    first: Evan
+    last: Maddock
+  websites:
+    - href: https://github.com/EbonJaeger
+      type: github
+    - href: https://floss.social/@EbonJaeger
+      type: mastodon
+gavinzhao:
+  matrix: "@gzgavinzhao:matrix.org"
+  names:
+    first: Gavin
+    last: Zhao
+  websites:
+    - href: https://github.com/GZGavinZhao
+      type: github
+hanskelson:
+  matrix: "@sheepman:m.stupid.frickin.website"
+  names:
+    first: Hans
+    last: Kelson
+  websites:
+    - href: https://github.com/sheepman4267
+      type: github
+joeyriches:
+  matrix: "@joebonrichie:matrix.org"
+  names:
+    first: Joey
+    last: Riches
+  websites:
+    - href: https://github.com/joebonrichie
+      type: github
+reillybrogan:
+  matrix: "@reillybrogan:matrix.org"
+  names:
+    first: Reilly
+    last: Brogan
+  websites:
+    - href: https://github.com/ReillyBrogan
+      type: github
+silkehofstra:
+  matrix: "@silex:slxh.eu"
+  names:
+    first: Silke
+    last: Hofstra
+  websites:
+    - href: https://github.com/silkeh
+      type: github
+    - href: https://slxh.nl
+      type: other
+traceyclark:
+  matrix: "@traceyc:matrix.org"
+  names:
+    first: Tracey
+    last: Clark
+  websites:
+    - href: https://github.com/TraceyC77
+      type: github
+    - href: https://floss.social/@TraceyC
+      type: mastodon
+    - href: https://www.tlcnet.info
+      type: other
+troyharvey:
+  matrix: "@harveydevel:matrix.org"
+  names:
+    first: Troy
+    last: Harvey
+  websites:
+    - href: https://github.com/HarveyDevel
+      type: github
+malfisya:
+  matrix: "@malfisya:envs.net"
+  names:
+    first: Muhammad
+    middle: Alfi
+    last: Syahrin
+  websites:
+    - href: https://github.com/malfisya
+      type: github
+    - href: https://masto.ai/@alfisya
+      type: mastodon
