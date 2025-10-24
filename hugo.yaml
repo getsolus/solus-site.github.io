@@ -8,10 +8,10 @@ build:
   buildStats:
     enable: true
   cachebusters:
-  - source: assets/notwatching/hugo_stats\.json
-    target: css
-  - source: (postcss|tailwind)\.config\.js
-    target: css
+    - source: assets/notwatching/hugo_stats\.json
+      target: css
+    - source: (postcss|tailwind)\.config\.js
+      target: css
 
 module:
   imports:
@@ -32,41 +32,43 @@ enableInlineShortcodes: true
 
 menus:
   main:
-  - name: Home
-    pageRef: /
-    weight: 1
-  - name: Get Solus
-    pageRef: /editions
-    weight: 2
-  - name: Blog
-    pageRef: /blog
-    weight: 3
-  - name: Forums
-    url: "https://discuss.getsol.us"
-    weight: 4
-  - name: Funding ↗
-    url: "https://opencollective.com/getsolus"
-    weight: 5
-  - name: Help ↗
-    url: "https://help.getsol.us"
-    weight: 6
-  - name: Matrix ↗
-    url: "https://matrix.to/#/#solus:matrix.org"
-    weight: 7
-  - name: Dev Tracker
-    url: "https://dev.getsol.us"
-    weight: 8
-    params:
-      icon: github
-  - name: Mastodon
-    url: https://floss.social/@getsolus
-    weight: 9
-    params:
-      icon: mastodon
-  - name: Theme Toggle
-    weight: 10
-    params:
-      type: theme-toggle
+    - name: Home
+      pageRef: /
+      weight: 1
+    - name: Download
+      pageRef: /download
+      weight: 2
+    - name: Blog
+      pageRef: /blog
+      weight: 3
+    - name: Forums ↗
+      url: "https://discuss.getsol.us"
+      weight: 4
+    - name: Help ↗
+      url: "https://help.getsol.us"
+      weight: 5
+    - name: Donate ↗
+      url: "https://opencollective.com/getsolus"
+      weight: 6
+    - name: Matrix ↗
+      url: "https://matrix.to/#/#solus:matrix.org"
+      params:
+        icon: chat
+      weight: 7
+    - name: Github ↗
+      url: "https://github.com/getsolus/"
+      weight: 8
+      params:
+        icon: github
+    - name: Mastodon ↗
+      url: https://floss.social/@getsolus
+      weight: 9
+      params:
+        icon: mastodon
+    - name: Theme Toggle
+      weight: 10
+      params:
+        type: theme-toggle
 
 params:
   copyright: 2025

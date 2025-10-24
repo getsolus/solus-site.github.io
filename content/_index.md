@@ -29,7 +29,7 @@ width: wide
   >}}
 
   {{< button
-    link="/editions"
+    link="/download"
     text="Download"
     icon="download"
     primary=true
