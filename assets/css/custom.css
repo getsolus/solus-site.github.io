@@ -26,6 +26,25 @@
 }
 
 /******************************************************************
+ *
+ * ROBOTO FONT START
+ *
+ *******************************************************************/
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/fonts/Roboto[ital,wdth,wght].ttf) format('truetype');
+}
+
+/******************************************************************
+ *
+ * ROBOTO FONT END
+ *
+ *******************************************************************/
+
+/******************************************************************
 *
 * SOLUS BUTTON START
 *
@@ -106,6 +125,7 @@
 
 .hextra-nav-container a:first-child span {
   color: #4c5263;
+  font-family: Roboto;
   font-size: 24pt;
   font-weight: normal;
 }
