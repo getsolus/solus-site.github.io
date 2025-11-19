@@ -142,7 +142,7 @@ width: wide
   {{< /hextra/hero-headline >}}
 
   {{< hextra/hero-subtitle >}}
-  Many fantastic open source games are available natively for Solus, along with support for many gamepads and controllers. Within minutes you can be playing all your own Steam* titles for Linux, with a modern, optimised gaming runtime and no setup hassles.
+  Many fantastic open source games are available natively for Solus, along with support for many gamepads and controllers. Within minutes you can be playing all your own Steam titles for Linux, with a modern, optimised gaming runtime and no setup hassles.
   {{< /hextra/hero-subtitle>}}
 {{< /feature >}}
 
