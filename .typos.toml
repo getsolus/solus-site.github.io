@@ -11,5 +11,6 @@ default.extend-ignore-re = [
     "evolveos",
     "gir",
     "halp",
-    "tilda"
+    "tilda",
+    "Roboto\\[ital,wdth,wght\\]\\.ttf"
 ]
