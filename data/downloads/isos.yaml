@@ -22,7 +22,7 @@ editions:
       We ship Plasma with a curated experience with sensible defaults, enabling you to more quickly get to tinkering with the parts you love most.
     mediaSize: 3.2GB
     shasum: 462dcd9d07504414e73b2952b203afe029894ea5cbc1c7262554389ae7b9258c
-  - name: Xfce
+  - name: Xfce Beta
     description: |
       A lightweight desktop that aims to be fast while still being friendly.
       We ship the Xfce Desktop to provide a full-featured experience for users running less powerful hardware.
