@@ -1,13 +1,16 @@
 ---
-title: "Package Repo Migration Now Available"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - infrastructure
 - packages
 - news
-date: 2018-09-11T19:11:30+03:00
-featuredimage: "/laptop.jpg"
-url: "/2018/09/11/package-repo-migration-now-available" # Example, /2017/01/18/adopting-flatpak-to-reassemble-third-party-applications
+date: "2018-09-11T19:11:30+03:00"
+featuredimage: /laptop.jpg
+title: Package Repo Migration Now Available
+url: /2018/09/11/package-repo-migration-now-available
 ---
 
 As previously announced on our [Supercharging Solus Infrastructure](/2018/09/08/supercharging-solus-infrastructure) blog post, we have been migrating infrastructure to a new domain and new hardware. As part of this migration, we are changing the repository away from `packages.solus-project.com`.

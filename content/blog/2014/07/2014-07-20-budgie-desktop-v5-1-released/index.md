@@ -1,20 +1,21 @@
-+++
-author = "ikey"
-categories = [
-"Budgie"
-]
-date =  "2014-07-20T11:20:34Z"
-
-title = "Budgie Desktop v5.1 Released"
-url = "/2014/07/20/budgie-desktop-v5-1-released/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- budgie
+date: "2014-07-20T11:20:34Z"
+title: Budgie Desktop v5.1 Released
+url: /2014/07/20/budgie-desktop-v5-1-released/
+---
 
 Hello all!
 
 Well its now official, I've released v5.1 of the Budgie Desktop. It was slated to be a v5 release but I had to bump due to an autotools issue in the release..<!--more-->
 <!--more-->
 
-{{< altimg "https://solus-project.com/release_images/menu_51.png" >}}
+![relimg](https://solus-project.com/release_images/menu_51.png)
 
 ## What's new?
 

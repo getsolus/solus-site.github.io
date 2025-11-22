@@ -1,0 +1,12 @@
+{{- $text := .Get "text" -}}
+{{- $icon := .Get "icon" -}}
+{{- $link := .Get "link" -}}
+{{- $primary := .Get "primary" | default false -}}
+
+{{- partial "components/button" (dict
+    "text" $text
+    "icon" $icon
+    "link" $link
+    "primary" $primary
+  )
+-}}

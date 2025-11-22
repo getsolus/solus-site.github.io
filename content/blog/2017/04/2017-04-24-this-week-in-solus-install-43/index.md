@@ -1,12 +1,17 @@
-+++
-author = "joshua"
-categories = ["news", "plans", "twis"]
-date = "2017-04-24T01:33:12+03:00"
-featuredimage = "/twis-43-featured-image.jpg"
-title = "This Week in Solus - Install #43"
-url = "/2017/04/24/this-week-in-solus-install-43"
-
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- plans
+- twis
+date: "2017-04-24T01:33:12+03:00"
+featuredimage: /twis-43-featured-image.jpg
+title: 'This Week in Solus - Install #43'
+url: /2017/04/24/this-week-in-solus-install-43
+---
 
 Welcome to the 43rd installation of This Week in Solus.
 
@@ -59,8 +64,6 @@ Looking forward, some immediate plans for the future ISO is an upgrade of our ff
 Sundays with Solus is back and this time, in audio format! This was a decision made back in January to shift from using Hangouts to locally recorded audio, enabling better audio quality. It also seemed logical, as our Sundays with Solus were audio-focused anyways.
 
 I'm currently working out the infrastructure bits for doing a live stream of Sundays with Solus, simultaneously to Facebook Live, our site, and our Youtube channel, as well as working on podcast-specific RSS feeds for MP3 and OGG. I'll have a future announcement when all of those bits are ready, however I didn't want to hold back on getting everyone the latest news in an edited format, so below are the MP3 and OGG!
-
-{{< sundays-with-solus episode="10" >}}
 
 ---
 

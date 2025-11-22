@@ -1,13 +1,16 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Releases"
-]
-date =  "2015-10-29T19:34:37Z"
-title = "Announcing 1.0 Release Candidate 1"
-url = "/2015/10/29/announcing-1-0-release-candidate-1/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- releases
+date: "2015-10-29T19:34:37Z"
+title: Announcing 1.0 Release Candidate 1
+url: /2015/10/29/announcing-1-0-release-candidate-1/
+---
+ 
 The Solus Project is happy to announce the availability of the **first** release candidate of the Solus operating system.
 
 We would like to thank all of our community members for helping make this release possible. Together we have discovered and resolved a plethora of bugs, improved software, and ensured that the user experience under Solus is better 
@@ -31,7 +34,7 @@ Due to the [quality of the proprietary AMD drivers](https://plus.google.com/u/0/
 
 ### Firefox Theming
 
-{{< relimg "Screenshot-from-2015-10-27-01-20-35.png" >}}
+![relimg](Screenshot-from-2015-10-27-01-20-35.png)
 
 The default theme for Firefox has been changed to [Arc Firefox Darker theme](https://github.com/horst3180/arc-firefox-theme) to provide a consistent user experience and design throughout Solus. This is a stunning theme that compliments the 
 usage of the default GTK theme, [Arc Darker](https://github.com/horst3180/Arc-theme. The other Arc Firefox theme variants are available from the Appearance section of Firefox.
@@ -750,7 +753,7 @@ Solus will co-exist with other operating systems using UEFI, and will not add th
 
 **budgie-desktop**
 
--  [Ikey Doherty: Update to v8.3 for maintainence updates](https://git.solus-project.com/packages/budgie-desktop/commit/?id=e3d30fd)
+-  [Ikey Doherty: Update to v8.3 for maintenance updates](https://git.solus-project.com/packages/budgie-desktop/commit/?id=e3d30fd)
 -  [Ikey Doherty: Migrate to a themed panel (no more 100% alpha)](https://git.solus-project.com/packages/budgie-desktop/commit/?id=31437d8)
 -  [Ikey Doherty: Rebuild for cflags](https://git.solus-project.com/packages/budgie-desktop/commit/?id=2d4ac5f)
 -  [Ikey Doherty: Fix menu problems by pretending to be GNOME. Even more.](https://git.solus-project.com/packages/budgie-desktop/commit/?id=3243f71)
@@ -883,7 +886,7 @@ Solus will co-exist with other operating systems using UEFI, and will not add th
 -  [Ikey Doherty: Rebuild with new toolchain name](https://git.solus-project.com/packages/glibc/commit/?id=8c1d194)
 -  [Ikey Doherty: Bump for repo inclusion](https://git.solus-project.com/packages/glibc/commit/?id=eb0fd41)
 -  [Ikey Doherty: Fix self dependency situation](https://git.solus-project.com/packages/glibc/commit/?id=82636fd)
--  [Ikey Doherty: Convert legacy packaging to ypkg for easier maintainence](https://git.solus-project.com/packages/glibc/commit/?id=3c44746)
+-  [Ikey Doherty: Convert legacy packaging to ypkg for easier maintenance](https://git.solus-project.com/packages/glibc/commit/?id=3c44746)
 -  [Ikey Doherty: Rebuild with new cflags](https://git.solus-project.com/packages/glibc/commit/?id=a26407d)
 -  [Ikey Doherty: Patch glibc to build with GNU Make 4](https://git.solus-project.com/packages/glibc/commit/?id=0e7fced)
 -  [Ikey Doherty: Rebuild for debug symbols](https://git.solus-project.com/packages/glibc/commit/?id=16b85b5)

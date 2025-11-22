@@ -1,13 +1,16 @@
 ---
-title: "GNOME Of Thrones | The Roundup #12"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - news
 - packages
 - roundup
-date: 2019-04-25T16:14:28+03:00
-featuredimage: "/budgie-on-gnome-332.jpg"
-url: "/2019/04/25/gnome-of-thrones"
+date: "2019-04-25T16:14:28+03:00"
+featuredimage: /budgie-on-gnome-332.jpg
+title: 'GNOME Of Thrones | The Roundup #12'
+url: /2019/04/25/gnome-of-thrones
 ---
 
 Welcome to The Roundup #12, your bytes of Solus news. In this roundup, we're talking about our latest GNOME Stack upgrade and the new KDE Applications 19.04 updates!

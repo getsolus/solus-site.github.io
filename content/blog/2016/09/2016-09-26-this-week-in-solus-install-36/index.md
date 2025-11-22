@@ -1,20 +1,23 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Packages",
-"TWIS"
-]
-date =  "2016-09-26T22:13:25Z"
-title = "This Week in Solus -- Install #36"
-url = "/2016/09/26/this-week-in-solus-install-36/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- packages
+- twis
+date: "2016-09-26T22:13:25Z"
+title: 'This Week in Solus -- Install #36'
+url: /2016/09/26/this-week-in-solus-install-36/
+---
+ 
 
 Welcome to the 36th installation of This Week in Solus. 
 
 #### MATE
 
-{{< relimg "Screenshot-at-2016-09-25-19-43-00.png" >}}
+![relimg](Screenshot-at-2016-09-25-19-43-00.png)
 
 We're happy to report the landing of MATE 1.16.0 in the Solus unstable repository. This MATE release improved GTK3 support and improvements to MATE applications such as:
 

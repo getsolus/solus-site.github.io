@@ -1,14 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"News",
-"Releases"
-]
-date =  "2015-05-17T21:46:07Z"
-
-title = "Solus Operating System Beta 2"
-url = "/2015/05/17/solus-operating-system-beta-2/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+- releases
+date: "2015-05-17T21:46:07Z"
+title: Solus Operating System Beta 2
+url: /2015/05/17/solus-operating-system-beta-2/
+---
 
 
 The Solus Project team are pleased to announce the immediate availability of Solus Operating System Beta 2. This release is available for 64-bit systems, and 
@@ -54,7 +55,7 @@ future expansion. Please adjust as appropriate to your needs.
 ##### Note on Virtualization:
  
 Please note that whilst virtualisation solutions such as VirtualBox or Qemu can indeed be useful for preliminary testing of Solus, they will suffer greatly degraded performance 
-in comparison to a hardware install. This is because Solus is optimised for real hardware usage, and doesn't cut corners or accomadate for virtual scenarios. As such the 
+in comparison to a hardware install. This is because Solus is optimised for real hardware usage, and doesn't cut corners or accommodate for virtual scenarios. As such the 
 desktop itself requires 3D acceleration, which has been commonplace for a long time. Whilst running Solus in a virtual environment it will rely on software (CPU) rendering, 
 as such you will see high CPU usage and degraded performance. This is in no way an indicator of performance on real hardware.
 
@@ -79,7 +80,7 @@ Solus will co-exist with other operating systems using UEFI, and will not add th
 Solus Operating System is distributed as an “ISO” file. This is a raw disc image that can either be burned to a CD or DVD, and then booted like any other system. It is also 
 installable, but we caution you that this is a beta system, thus not best suited for production environments. Optical media is much slower than USB drives, as such we 
 recommend you write the image to one of these instead. Solus Operating System is incompatible with unetbootin, so we would advise you to use Rufus on Windows, or 
-if you are comfortable using Linux already, dd. Various solutions for Linux exist, please check with your own distribution first for their recommended method that peforms 
+if you are comfortable using Linux already, dd. Various solutions for Linux exist, please check with your own distribution first for their recommended method that performs 
 an image write, and not a file copy/extract.
 
 Now visit our Download page to grab your copy of Solus. We hope you enjoy, and look forward to your feedback! Use the 

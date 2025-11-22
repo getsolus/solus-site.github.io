@@ -1,12 +1,15 @@
 ---
-title: "A Bigger Toolbox | The Roundup #9"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - news
 - roundup
-date: 2018-08-25T15:22:15+03:00
-featuredimage: "/snap.jpg"
-url: "/2018/08/25/a-bigger-toolbox"
+date: "2018-08-25T15:22:15+03:00"
+featuredimage: /snap.jpg
+title: 'A Bigger Toolbox | The Roundup #9'
+url: /2018/08/25/a-bigger-toolbox
 ---
 
 Welcome to The Roundup #9, your bytes of Solus news. In this roundup, we are focusing on the continued modernizing of our software stack, improved resilience, and what is coming up this week!
@@ -54,7 +57,7 @@ This new tooling is aptly called [ypkg-update-checker](https://github.com/DataDr
 2. What packages are up-to-date
 3. What packages are newer than what upstream reports (in the case we are using a git commit or RC)
 
-{{< relimg "ypkg-update-checker.png" >}}
+![relimg](ypkg-update-checker.png)
 
 Additionally, it provides an indication of unmatched packages (whether that's failing to find a tag, missing provider support, etc.) and those which have failed (may not be converted to package.yml yet).
 

@@ -1,20 +1,23 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Packages",
-"Plans",
-"TWIS"
-]
-date =  "2016-03-20T23:57:09Z"
-title = "This Week in Solus -- Install #24"
-url = "/2016/03/20/this-week-in-solus-install-24/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- budgie
+- news
+- packages
+- plans
+- twis
+date: "2016-03-20T23:57:09Z"
+title: 'This Week in Solus -- Install #24'
+url: /2016/03/20/this-week-in-solus-install-24/
+---
+ 
 
 Welcome to the 24th installation of This Week in Solus. 
 
-{{< relimg "brace-yourselves-knowledge-is-coming_19021.jpeg" >}}
+![relimg](brace-yourselves-knowledge-is-coming_19021.jpeg)
 
 #### Sundays with Solus
 
@@ -38,19 +41,19 @@ The upcoming version of Budgie will see the inclusion of functionality to change
 - Toggling of enable / disable desktop icons.
 - Setting fonts for "Window Titles", "Interface", "Documents", "Monospace"
 
-{{< relimg "Screenshot-from-2016-03-20-17-47-29.png" >}}
+![relimg](Screenshot-from-2016-03-20-17-47-29.png)
 
 ##### Bluetooth
 
 Did the improvements of Budgie stop there? **No. Silly question.** Ikey has also landed Bluetooth support into Budgie. You can now toggle Bluetooth Airplane Mode, have quick access to settings, etc.
 
-{{< altimg "2016/03/Screenshot-from-2016-03-20-17-17-48.png" >}}
+![relimg](2016/03/Screenshot-from-2016-03-20-17-17-48.png)
 
 ##### Can you hear me now? Oh, wrong audio input device.
 
 Have multiple audio input or output devices and trouble discerning between them? Wonder no longer, Ikey has resolved [this issue](https://github.com/solus-project/budgie-desktop/issues/337) and will land in the next Budgie release!
 
-{{< relimg "eba34520-eec6-11e5-9d42-b96eddf99da4.png" >}}
+![relimg](eba34520-eec6-11e5-9d42-b96eddf99da4.png)
 
 #### Font Improvements
 

@@ -1,14 +1,16 @@
-+++
-featuredimage = "/mate-1.18-in-solus.jpg"
-categories = [
-"news", 
-"twis"
-]
-author = "joshua"
-date = "2017-03-19T16:08:32+02:00"
-title = "This Week in Solus - Install #42"
-url = "/2017/03/19/this-week-in-solus-install-42"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- twis
+date: "2017-03-19T16:08:32+02:00"
+featuredimage: /mate-1.18-in-solus.jpg
+title: 'This Week in Solus - Install #42'
+url: /2017/03/19/this-week-in-solus-install-42
+---
 
 Welcome to the 42nd installation of This Week in Solus.
 
@@ -20,7 +22,7 @@ We updated our kernel to the latest longterm release, 4.9.16.
 
 Justin and Ikey landed MATE 1.18 today, which features our upstreamed patch for action icons in mate-notification-daemon (shown below) and the many [fantastic improvements](https://mate-desktop.org/blog/2017-03-13-mate-1-18-released/) from the MATE Desktop Team.
 
-{{< relimg "mate-1.18-action-icons.jpg" >}}
+![relimg](mate-1.18-action-icons.jpg)
 
 ## Learn Solus Packaging
 

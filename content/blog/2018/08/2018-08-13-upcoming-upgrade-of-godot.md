@@ -1,13 +1,13 @@
 ---
-title: "Upcoming Upgrade of Godot"
-author: "joshua"
-categories:
+author: joshua
+tags:
 - news
 - packages
 - plans
-date: 2018-08-13T15:11:52+03:00
+date: "2018-08-13T15:11:52+03:00"
 featuredimage: ""
-url: "/2018/08/13/upcoming-upgrade-of-godot"
+title: Upcoming Upgrade of Godot
+url: /2018/08/13/upcoming-upgrade-of-godot
 ---
 
 Solus has an evergrowing community of game developers that leverage open source technologies to design, build, and ship their games. To provide the most reliable experience for a segment of these developers, we had [intentionally deferred](https://dev.solus-project.com/T5668) upgrading of [Godot](https://godotengine.org/), the widely known open source 2D and 3D cross-platform game engine, to the latest in their 3.x series. This was done to ensure more time for issues related to converting of exporting 2.x projects to 3.x to be ironed out, providing our end users the most reliable process for upgrading to the latest game engine as possible.

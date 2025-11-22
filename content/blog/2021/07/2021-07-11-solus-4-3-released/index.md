@@ -1,12 +1,15 @@
 ---
-title: "Solus 4.3 Released"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - news
 - releases
-date: 2021-07-11T16:20:19+03:00
-featuredimage: "/solus-4.3-featured.jpg"
-url: "/2021/07/11/solus-4-3-released"
+date: "2021-07-11T16:20:19+03:00"
+featuredimage: /solus-4.3-featured.jpg
+title: Solus 4.3 Released
+url: /2021/07/11/solus-4-3-released
 ---
 
 We are proud to announce the immediate availability of Solus 4.3, a new Solus 4 "Fortitude" series release. This release delivers new desktop environment updates, software stacks, and hardware enablement.
@@ -83,7 +86,7 @@ Solus 4.3 ships with version 0.9.0 of the dav1d AV1 decoder, which should provid
 
 ## Budgie
 
-{{< altimg "Budgie.jpg" "/release-images/4.3/" >}}
+![relimg](Budgie.jpg)
 
 Solus ships with the latest release of our flagship desktop environment, [Budgie 10.5.3](/2021/04/27/fashionable-gnome-forty). This features GNOME 40 stack support alongside all the fixes and quality-of-life improvements listed below. We welcome you to check out the full release notes listed above.
 
@@ -109,7 +112,7 @@ Budgie 10.5.3 introduces fixes to Budgie panel applets, Raven, and various windo
 
 ### Quality-of-life Improvements
 
-{{< altimg "2021/04/budgie-desktop-settings.jpg" >}}
+![relimg](2021/04/budgie-desktop-settings.jpg)
 
 Here are some quality-of-life improvements shipping in Budgie 10.5.3:
 
@@ -125,7 +128,7 @@ Here are some quality-of-life improvements shipping in Budgie 10.5.3:
 
 ## GNOME
 
-{{< altimg "GNOME.jpg" "/release-images/4.3/" >}}
+![relimg](GNOME.jpg)
 
 Solus 4.3 GNOME Edition ships with the latest GNOME 40 series release, 40.2.
 
@@ -165,7 +168,7 @@ Alongside this defaults change, Solus 4.3 GNOME Edition continues to ship the Im
 
 ## MATE
 
-{{< altimg "MATE.jpg" "/release-images/4.3/" >}}
+![relimg](MATE.jpg)
 
 Solus 4.3 MATE Edition ships with the latest MATE desktop environment and applications. Some highlights since the release of Solus 4.2 include:
 
@@ -189,14 +192,14 @@ Solus 4.3 MATE Edition ships with the latest MATE desktop environment and applic
 
 ## Plasma
 
-{{< altimg "Plasma.jpg" "/release-images/4.3/" >}}
+![relimg](Plasma.jpg)
 
 Solus 4.3 Plasma Edition ships with the latest Plasma Desktop 5.22.2, KDE Frameworks 5.83, Applications 21.04.2 and the backported patches for QT 5.15.2, which brings many new features some highlighted below:
 
 - Adaptive Transparency for Breeze.
 - System Settings introduces a new Speed Dial page, giving you direct access to commonly used features such as light / dark theme changing, wallpaper changing, and access to common settings.
 - System Tray got a rework with a redesigned Digital Clock.
-- If you are sharing or recording your screen the Notifications widget will automatically enter "Do not Distrub" mode.
+- If you are sharing or recording your screen the Notifications widget will automatically enter "Do not Disturb" mode.
 - Krunner can now be used as a mini command-line launcher.
 
 Solus-specific Plasma integration has received various refinements, specifically:
@@ -220,7 +223,7 @@ If you would like to financially support Solus, enabling us to continue to cover
 
 #### Packages added to this release:
 
- - budgie-screensaver
+ - Budgie-screensaver
  - fuse-common
  - fuse2
  - libgtksourceview4
@@ -1305,7 +1308,7 @@ If you would like to financially support Solus, enabling us to continue to cover
 
 **net-snmp**
 
- - F. von Gellhorn: Rebuild agaisnt tooling update
+ - F. von Gellhorn: Rebuild against tooling update
  - Joey Riches: Update abireport for glibc
 
 **libgtkmm-3**
@@ -1508,7 +1511,7 @@ If you would like to financially support Solus, enabling us to continue to cover
 
 **qtstyleplugins**
 
- - F. von Gellhorn: Saftey rebuild
+ - F. von Gellhorn: Safety rebuild
 
 **cpio**
 
@@ -1645,7 +1648,7 @@ If you would like to financially support Solus, enabling us to continue to cover
 **modem-manager**
 
  - Joshua Strobl: Safety rebuild
- - Joshua Strobl: Update to 1.16.2. Changelog avaialble [here](https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/blob/mm-1-16/NEWS).
+ - Joshua Strobl: Update to 1.16.2. Changelog available [here](https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/blob/mm-1-16/NEWS).
  - Joshua Strobl: Add updated ABI files
 
 **mjpegtools**

@@ -1,13 +1,16 @@
 ---
-title: "This Year in Solus: 2018 Edition"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - infrastructure
 - news
 - roundup
-date: 2018-12-31T18:25:10+02:00
-featuredimage: "/this-year-in-solus-2018.jpg"
-url: "/2018/12/31/this-year-in-solus-2018-edition"
+date: "2018-12-31T18:25:10+02:00"
+featuredimage: /this-year-in-solus-2018.jpg
+title: 'This Year in Solus: 2018 Edition'
+url: /2018/12/31/this-year-in-solus-2018-edition
 ---
 
 2018 has been an amazing year for Solus. It brought us new and improved tooling that will pave the way for development for years to come, and fresh experiences in Budgie. 2018 also brought to the community new faces with fresh ideas, as well as the departure of a veteran in the Solus world.
@@ -120,7 +123,7 @@ Peter released ypkg v29. For those unfamiliar with ypkg, simply put it is our de
 - Used llvm-objcopy to strip ar archives with clang
 - Used SSE2 for 32-bit builds resulting in a significant performance boost in some tests
 
-Bryan unveiled and began his work on a new project, Linux Hardware Qualifier, in the [Cornucopia of Compability](https://www.youtube.com/watch?v=wjuamlW6Zxw) Hackfest. One of the biggest problems we have when it comes to hardware is knowing exactly what our users need us to support. Up until now, we had relied entirely on bug reports and social media messages to let us know when there's something we need to enable in the kernel or if there is some out-of-tree driver that we should be providing. It became perfectly clear that a new piece of software was needed to help us do this automatically, in an efficient and timely manner.
+Bryan unveiled and began his work on a new project, Linux Hardware Qualifier, in the [Cornucopia of Compatibility](https://www.youtube.com/watch?v=wjuamlW6Zxw) Hackfest. One of the biggest problems we have when it comes to hardware is knowing exactly what our users need us to support. Up until now, we had relied entirely on bug reports and social media messages to let us know when there's something we need to enable in the kernel or if there is some out-of-tree driver that we should be providing. It became perfectly clear that a new piece of software was needed to help us do this automatically, in an efficient and timely manner.
 
 So Bryan set out to accomplish the following goals with [Linux Hardware Qualifier](https://github.com/getsolus/linux-hardware-qualifier):
 

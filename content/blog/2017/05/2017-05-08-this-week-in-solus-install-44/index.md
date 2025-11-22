@@ -1,16 +1,17 @@
-+++
-author = "joshua"
-categories = [
-	"news",
-	"plans",
-	"twis"
-]
-date = "2017-05-08T22:18:43+03:00"
-featuredimage = "/oh-my-god-it-is-a2dp-everybody.jpg"
-title = "This Week in Solus - Install #44"
-url = "/2017/05/08/this-week-in-solus-install-44"
-
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- plans
+- twis
+date: "2017-05-08T22:18:43+03:00"
+featuredimage: /oh-my-god-it-is-a2dp-everybody.jpg
+title: 'This Week in Solus - Install #44'
+url: /2017/05/08/this-week-in-solus-install-44
+---
 
 Welcome to the 44th installation of This Week in Solus.
 
@@ -42,14 +43,14 @@ Furthermore, I'll be implementing the MP3 and OGG podcast feeds in preparation f
 
 ### ABI Reports
 
-{{< relimg "abi-reports.jpg" >}}
+![relimg](abi-reports.jpg)
 *This goes on for several pages.*
 
 Peter spent time before our migration to Diffusion and Differential generating the ABI reports for over **500** packages. These reports give us a clear picture of all the used libraries of a package as well as what ABI / APIs they expose, which makes it easy to spot changes across upgrades or tweaks to packages and come to a determination as to whether we'll need to rebuild packages that depend on it.
 
 ### Bluetooth
 
-{{< relimg "creative-t3250.jpg" >}}
+![relimg](creative-t3250.jpg)
 
 [Thanks to our Patrons](https://patreon.com/solus) and donators on PayPal for their continued support of the project, Ikey was able to sponsor my purchase of some Bluetooth speakers, specifically the [Creative T3250 wireless speakers](https://plus.google.com/+JoshuaStrobl/posts/ftwh36axeuC) and an Asus USB-BT400 Bluetooth USB adapter. This was done as we had received reports of non-functionality Bluetooth A2DP audio on some systems and needed hardware to test and validate solutions in a more rapid fashion than what have may otherwise been possible through conversing and testing via IRC.
 

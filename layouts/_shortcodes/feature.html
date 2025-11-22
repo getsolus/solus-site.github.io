@@ -1,0 +1,30 @@
+<!-- Beginning of feature card -->
+
+{{- $cols := .Get "cols" | default 2 -}}
+{{- $image := .Get "image" -}}
+{{- $imageLeft := .Get "imageLeft" | default false -}}
+{{- $imageTitle := .Get "imageTitle" -}}
+{{- $imageWidth := .Get "imageWidth" | default 350 -}}
+{{- $imageHeight := .Get "imageHeight" | default 350 -}}
+{{- $reducedPadding := .Get "reducedPadding" | default false -}}
+{{- $style := .Get "style" -}}
+
+{{- $css := printf "--hextra-feature-grid-cols: %v; %s" $cols $style -}}
+{{- if hasPrefix $image "/" -}}
+  {{- $image = relURL (strings.TrimPrefix "/" $image) -}}
+{{- end -}}
+
+<div
+  class="hextra-feature-grid grid sm:max-lg:grid-cols-2 max-sm:grid-cols-1 gap-4 place-items-center group w-full not-prose {{ with $reducedPadding  }} mb-8 {{ else }} mb-28 {{ end }}"
+  {{ with $css }}style="{{ . | safeCSS }}"{{ end }}
+>
+  {{- with $image -}}
+    <div class="max-sm:w-[12rem] md:group-even:order-last">
+      <img src="{{ $image }}" width="{{ $imageWidth }}" height="{{ $imageHeight }}" {{ with $imageTitle }}alt="{{ $imageTitle }}"{{ end }} />
+    </div>
+  {{- end -}}
+
+  <div class="w-full max-sm:text-center">
+    {{ .Inner }}
+  </div>
+</div>

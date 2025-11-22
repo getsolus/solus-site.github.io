@@ -1,14 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"TWIS"
-]
-date =  "2015-11-22T16:30:26Z"
-title = "This Week in Solus #11"
-url = "/2015/11/22/this-week-in-solus-11/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- budgie
+- news
+- twis
+date: "2015-11-22T16:30:26Z"
+title: 'This Week in Solus #11'
+url: /2015/11/22/this-week-in-solus-11/
+---
+ 
 Welcome to This Week in Solus, Installation #11. 
 
 ### Budgie Next
@@ -35,13 +38,13 @@ Alongside Drag-and-Drop support, the following will be worked on this week:
 
 We are also planning on rolling out Budgie Next **this week**.
 
-{{< altimg "http://i.giphy.com/GCLlQnV7wzKLu.gif" >}}
+![relimg](http://i.giphy.com/GCLlQnV7wzKLu.gif)
 
 ### Christmas
 
 Many of you have been curious when Solus 1.0 will be out. It was [announced by Ikey](https://plus.google.com/u/0/+Solus-Project/posts/H5U2u4hzaKd) that, assuming Murphy doesn't interfere again, we will have Solus 1.0 out before Christmas!
 
-{{< altimg "http://i.giphy.com/WWBtctfyG5ykE.gif" >}}
+![relimg](http://i.giphy.com/WWBtctfyG5ykE.gif)
 
 ### Package Updates
 

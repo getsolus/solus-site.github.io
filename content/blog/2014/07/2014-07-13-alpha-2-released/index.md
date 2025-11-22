@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2014-07-13T20:15:55Z"
-
-title = "Alpha 2 Released"
-url = "/2014/07/13/alpha-2-released/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+date: "2014-07-13T20:15:55Z"
+title: Alpha 2 Released
+url: /2014/07/13/alpha-2-released/
+---
 
 That's right, one week has passed and you have a new alpha to play with. This is the second alpha of Evolve OS, and comes as a 64-bit ISO. This image now also 
 comes with Budgie Desktop v4, GIMP 2.8.10 and GNOME Maps 3.10.0.
@@ -17,7 +18,7 @@ With Alpha 3 we will actually ship two images, one legacy, and one EFI only. Thi
 opposed to a hybrid ISO configuration.
 <!--more-->
 
-{{< altimg "https://solus-project.com/release_images/a2/rundialog.png" >}}
+![relimg](https://solus-project.com/release_images/a2/rundialog.png)
 
 ## Changes
 
@@ -65,10 +66,10 @@ you'll stick around here for a while 🙂 If something is needed, and we're miss
 
 ## Screenshots
 
-{{< altimg "https://solus-project.com/release_images/a2/gimp.png" >}}
+![relimg](https://solus-project.com/release_images/a2/gimp.png)
 
 
-{{< altimg "https://solus-project.com/release_images/a2/maps.png" >}}
+![relimg](https://solus-project.com/release_images/a2/maps.png)
 
 
-{{< altimg "https://solus-project.com/release_images/a2/nautilus.png" >}}
+![relimg](https://solus-project.com/release_images/a2/nautilus.png)

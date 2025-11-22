@@ -1,0 +1,19 @@
+<!-- Beginning of editions list -->
+{{- $version := .Site.Data.downloads.isos.version -}}
+
+<div
+  class="hextra-cards mt-4 mb-4 gap-4 grid not-prose"
+  style="--hextra-cards-grid-cols: 2"
+>
+  {{- range .Site.Data.downloads.isos.editions -}}
+  
+    {{- partial "components/edition" (dict
+      "name" .name
+      "description" .description
+      "mediaSize" .mediaSize
+      "shasum" .shasum
+      "version" $version
+      )
+    -}}
+  {{- end -}}
+</div>

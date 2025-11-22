@@ -1,10 +1,13 @@
 ---
-title: Update on Snaps
-author: silke
-categories:
-  - news
-date: 2025-05-05
+authors:
+- image: https://avatars.githubusercontent.com/u/5798032?v=4
+  link: https://github.com/silkeh
+  name: Silke Hofstra
+tags:
+- news
+date: "2025-05-05"
 featuredimage: /snap-banner-image.jpg
+title: Update on Snaps
 url: /2025/05/05/snapd-update
 ---
 

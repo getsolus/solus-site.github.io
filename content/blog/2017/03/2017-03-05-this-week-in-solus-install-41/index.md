@@ -1,14 +1,16 @@
-+++
-categories = [
-"news",
-"twis"
-]
-author = "joshua"
-date = "2017-03-05T18:27:27+02:00"
-title = "This Week in Solus - Install #41"
-url = "/2017/03/05/this-week-in-solus-install-41"
-featuredimage = "/ldm-detection.jpg"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- twis
+date: "2017-03-05T18:27:27+02:00"
+featuredimage: /ldm-detection.jpg
+title: 'This Week in Solus - Install #41'
+url: /2017/03/05/this-week-in-solus-install-41
+---
 
 Welcome to This Week in Solus, install #41.
 

@@ -1,14 +1,16 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News"
-]
-date =  "2016-12-16T17:18:07+02:00"
-featuredimage = "/budgie-10-2-9.jpg"
-title = "Budgie 10.2.9 Released"
-url = "/2016/12/16/budgie-10-2-9-released"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- budgie
+- news
+date: "2016-12-16T17:18:07+02:00"
+featuredimage: /budgie-10-2-9.jpg
+title: Budgie 10.2.9 Released
+url: /2016/12/16/budgie-10-2-9-released
+---
 
 We're happy to announce the release of Budgie 10.2.9. This is solely a bug fix release, tackling some niggling issues before our focus shifts to development of Budgie 11.
 
@@ -37,7 +39,7 @@ Multiple fixes have landed for the Places widget.
 
 ## Panel & Raven
 
-{{< relimg "budgie-10-2-9-replace.jpg" >}}
+![relimg](budgie-10-2-9-replace.jpg)
 
 Prior to Budgie 10.2.9, it was easy to accidentally remove a panel. Now, we show a confirmation popover when clicking the removal button, to ensure accidentally panel removal doesn't occur.
 

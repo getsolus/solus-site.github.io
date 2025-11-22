@@ -1,0 +1,20 @@
+{{- $text := .text -}}
+{{- $icon := .icon -}}
+{{- $link := .link -}}
+{{- $primary := .primary -}}
+
+{{- $external := strings.HasPrefix $link "http" -}}
+{{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
+
+<a
+  class="solus-button {{ with $primary }}primary{{ end }} rounded-lg no-underline transition-all ease-in duration-200"
+  href="{{ $href }}"
+  {{ with $external }}target="_blank" rel="noreferrer"{{ end }}
+>
+  <span class="flex justify-center font-semibold gap-2 p-4">
+    {{- with $icon -}}
+      {{- partial "utils/icon.html" (dict "name" $icon) -}}
+    {{- end -}}
+    {{ $text }}
+  </span>
+</a>

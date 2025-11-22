@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2014-06-03T19:19:48Z"
-
-title = "Evolve OS Validation ISO"
-url = "/2014/06/03/evolve-os-validation-iso/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+date: "2014-06-03T19:19:48Z"
+title: Evolve OS Validation ISO
+url: /2014/06/03/evolve-os-validation-iso/
+---
 
 Hello all.
 
@@ -21,7 +22,7 @@ people to help me in cleaning/validating the base system before we progress any 
 
 Networking has been introduced in this ISO and is enabled by default, enabling further testing. Many developer friendly changes have been made to PiSi, such as supporting pkgconfig style dependencies and automatically expanding binary and devel dependencies for packaging. Also note it's now possible to easily boot via Qemu using the '-cdrom' option as the legacy IDE subsystem was disabled in the kernel.
 
-{{< relimg "Screenshot-from-2014-06-03-200805.png" >}}
+![relimg](Screenshot-from-2014-06-03-200805.png)
 
 Every package has been rebuilt and is synced with the Evolve OS package repository (enabled by default in the ISO) and packages have far superior dependencies 
 to before, making packaging much simpler and ensuring users do not have broken packages.
@@ -32,7 +33,7 @@ You'll see how much they've improved by issuing:
 pisi info glibc
 ```
 
-{{< relimg "Screenshot-from-2014-06-03-200423.png" >}}
+![relimg](Screenshot-from-2014-06-03-200423.png)
 
 And you'll be able to clearly see the reverse dependencies of glibc (automatic). For developers, try:
 
@@ -40,7 +41,7 @@ And you'll be able to clearly see the reverse dependencies of glibc (automatic).
 pisi info systemd-devel
 ```
 
-{{< relimg "Screenshot-from-2014-06-03-200613.png" >}}
+![relimg](Screenshot-from-2014-06-03-200613.png)
 
 You'll see automatic exports of pkgconfig names in the output.
 
@@ -60,7 +61,7 @@ Note that networking is available in this image though firmware isn't available,
 
 * Ensure package management behaves as expected
 * Ensure there are no service failures or strange log entries
-* Ensure no excess files are installed (Identify packages installing files to /usr/include for example, pacakges that must be split. I'm aware of this issue but having a list to 
+* Ensure no excess files are installed (Identify packages installing files to /usr/include for example, packages that must be split. I'm aware of this issue but having a list to 
 work with is nice) -- consult `pisi search-file <PATH>`
 * Ensure networking, SSL, etc, work as expected.
 * Ensure PAM/auth/security is working (using the live account, root, sudo)

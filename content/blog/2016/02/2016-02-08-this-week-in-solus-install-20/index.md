@@ -1,14 +1,16 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Plans",
-"TWIS"
-]
-date =  "2016-02-08T01:50:23Z"
-title = "This Week in Solus -- Install #20"
-url = "/2016/02/08/this-week-in-solus-install-20/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- plans
+- twis
+date: "2016-02-08T01:50:23Z"
+title: 'This Week in Solus -- Install #20'
+url: /2016/02/08/this-week-in-solus-install-20/
+---
 
 Welcome to the 20th installation of This Week in Solus. 
 
@@ -41,7 +43,7 @@ largely inspired by [Clear Linux's autospec](https://github.com/clearlinux/autos
 As stated in our [1.0 and Beyond](https://solus-project.com/2015/12/28/1-0-and-beyond/) blog post, printing support has been a target for 1.1. I am happy to report that printing has been resolved and will be made readily available in the stable 
 repository for 1.1.
 
-{{< relimg "2WCcF57H2z6O.png" >}}
+![relimg](2WCcF57H2z6O.png)
 
 ##### Python 3.5 and UCS4 migration
 

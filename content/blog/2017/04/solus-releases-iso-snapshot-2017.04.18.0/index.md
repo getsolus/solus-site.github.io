@@ -1,15 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Releases"
-]
-date = "2017-04-18T19:41:53+03:00"
-featuredimage = "/Snapshot_Featured_Image.jpg"
-title = "Solus Releases ISO Snapshot 2017.04.18.0"
-url = "/2017/04/18/solus-releases-iso-snapshot-20170418-0"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- budgie
+- news
+- releases
+date: "2017-04-18T19:41:53+03:00"
+featuredimage: /Snapshot_Featured_Image.jpg
+title: Solus Releases ISO Snapshot 2017.04.18.0
+url: /2017/04/18/solus-releases-iso-snapshot-20170418-0
+---
 
 We're proud to announce our second ISO snapshot, 2017.04.18.0, across our Budgie and MATE editions, as well as our new GNOME edition!
 
@@ -101,23 +103,23 @@ Our MATE edition will maintain the use of VLC, preserving a more traditional use
 
 ## Budgie
 
-{{< relimg "Budgie.jpg" >}}
+![relimg](Budgie.jpg)
 
 This snapshot features the brand new Budgie 10.3.1 release. Budgie 10.3 is the last incarnation of the 10.x series, with only minor updates to the 10.3 releases being planned, and opening the door for development of the Qt 5-based Budgie 11.
 
 ### Alt+Tab
 
-{{< relimg "Budgie_AltTab.jpg" >}}
+![relimg](Budgie_AltTab.jpg)
 
 Budgie 10.3 features our new Alt+Tab implementation, eliminating previous issues with our alt+tab and enabling a faster, prettier, and more reliable window switching experience. This implementation is thanks to a significant community contribution, done during our first implementation competition that provided a monetary award of 500 EUR, and further improvements done to the user interface of it.
 
 ### Customization
 
-{{< relimg "Budgie_ClockApplet.jpg" >}}
+![relimg](Budgie_ClockApplet.jpg)
 
 Clock Applet received customization options in this release, enabling the ability to show the date, seconds, as well as the option for 24 hour time.
 
-{{< relimg "Budgie_Button_Layout.jpg" >}}
+![relimg](Budgie_Button_Layout.jpg)
 
 We have also added the ability to choose between left and right window button layouts via Budgie Settings.
 
@@ -125,13 +127,13 @@ We have also added the ability to choose between left and right window button la
 
 Budgie 10.3 features numerous fixes for GTK 3.22. For starters, Budgie Menu and other popovers will no longer appear to move from the top to the bottom of your screen when the Budgie panel is located on the bottom. We have also resolved an animation issue from GTK 3.22 where popovers would animate twice.
 
-{{< relimg "Budgie_RunDialog.jpg" >}}
+![relimg](Budgie_RunDialog.jpg)
 
 Lastly, the Run Dialog will no longer appear "stumpy" on GTK 3.22.
 
 ### MPRIS Artwork
 
-{{< relimg "Budgie_Spotify.jpg" >}}
+![relimg](Budgie_Spotify.jpg)
 
 In Budgie 10.3, we now support the downloading of artwork for our MprisClient and adding code to prevent such artwork from being loaded twice. This can be noticed the most when playing content via Spotify!
 
@@ -152,7 +154,7 @@ For `budgie-wm`, a crash has been fixed that would occur when the current locale
 
 ## GNOME
 
-{{< relimg "GNOME.jpg" >}}
+![relimg](GNOME.jpg)
 
 We're proud to formally announce the release of our Solus GNOME edition. This edition fulfills our desire to make GNOME a first class experience, instead of a hybrid Budgie / GNOME setup, and introduces a near-stock GNOME experience with sane defaults and some shipped extensions. 
 
@@ -169,7 +171,7 @@ Our GNOME edition ships with GNOME 3.24 and features the GNOME theme provided by
 
 ## MATE
 
-{{< relimg "MATE.jpg" >}}
+![relimg](MATE.jpg)
 
 Solus MATE edition delivers the latest 1.18 release from the MATE project as well as shipping with a new [Brisk menu](https://github.com/solus-project/brisk-menu).
 

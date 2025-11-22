@@ -1,12 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Uncategorized"
-]
-date =  "2014-01-28T22:49:17Z"
-title = "Budgie Desktop Screenshots"
-url = "/2014/01/28/budgie-desktop-screenshots/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- uncategorized
+date: "2014-01-28T22:49:17Z"
+title: Budgie Desktop Screenshots
+url: /2014/01/28/budgie-desktop-screenshots/
+---
 
 Very short post, because I'm very busy working on the code for this 🙂
 
@@ -19,7 +21,7 @@ This will be used within the first ISO's that I release, and after feedback is r
 Note that the second screenshot was from conceptual stage, and you can see GNOME's context menu on the background. The most likely approach for the Evolve OS desktop 
 will be to go the full mile with a Flat UI theme.
 
-{{< relimg "Screenshot-from-2014-01-28-224135.png" >}}
-{{< relimg "Screenshot-from-2014-01-28-112441.png" >}}
+![relimg](Screenshot-from-2014-01-28-224135.png)
+![relimg](Screenshot-from-2014-01-28-112441.png)
 
 Version 1

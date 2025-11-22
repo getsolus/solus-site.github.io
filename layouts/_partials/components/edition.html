@@ -1,0 +1,74 @@
+<!-- Start of edition component -->
+{{- $name := .name -}}
+{{- $description := .description -}}
+{{- $mediaSize :=.mediaSize -}}
+{{- $shasum := .shasum -}}
+{{- $version := .version -}}
+
+{{- $release := printf "Solus-%s-Release-%s" $name $version -}}
+{{- $imagePath := printf "/imgs/release-images/%s/%s.jpg" $version $name -}}
+{{- $isoURL := printf "https://downloads.getsol.us/isos/%s/%s.iso" $version $release | safeURL -}}
+{{- $shasumURL := printf "https://downloads.getsol.us/isos/%s/%s.iso.sha256sum" $version $release | safeURL -}}
+{{- $signatureURL := printf "https://downloads.getsol.us/isos/%s/%s.iso.sha256sum.sign" $version $release | safeURL -}}
+{{- $torrentURL := printf "https://downloads.getsol.us/torrents/%s.torrent" $release | safeURL -}}
+
+{{/* TODO: Remove for 4.8 release. */}}
+{{- if eq $name "Xfce Beta" -}}
+  {{- $release = printf "Solus-XFCE-Beta-Release-%s" $version -}}
+  {{- $imagePath = printf "/imgs/release-images/%s/XFCE-Beta.jpg" $version -}}
+  {{- $isoURL = printf "https://downloads.getsol.us/isos/%s/%s.iso" $version $release | safeURL -}}
+  {{- $shasumURL = printf "https://downloads.getsol.us/isos/%s/%s.iso.sha256sum" $version $release | safeURL -}}
+  {{- $signatureURL = printf "https://downloads.getsol.us/isos/%s/%s.iso.sha256sum.sign" $version $release | safeURL -}}
+  {{- $torrentURL = printf "https://downloads.getsol.us/torrents/%s.torrent" $release | safeURL -}}
+{{- end -}}
+
+{{ $cardClass := "hover:border-gray-300 bg-gray-100 shadow dark:border-neutral-700 dark:bg-neutral-800" }}
+{{ $linkClass := "{{ $cardClass }} transition-all duration-200 hover:shadow-lg dark:hover:border-neutral-500 dark:hover:bg-neutral-700" }}
+
+<div class="hextra-card group flex flex-col justify-start rounded-lg {{ $cardClass }}">
+  <img
+    alt="Solus {{ $name }} Preview"
+    class="hextra-card-image rounded-t-lg"
+    loading="lazy"
+    decoding="async"
+    src="{{ $imagePath | safeURL }}"
+  />
+
+  <span class="hextra-card-icon flex justify-center text-lg font-semibold items-start gap-2 pt-4 px-4 text-gray-600 dark:text-gray-100">
+    {{- $name -}}
+  </span>
+
+  <div class="hextra-card-subtitle items-start gap-2 font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2">{{- $description -}}</div>
+
+  <div
+    class="hextra-cards mt-4 mb-4 px-4 gap-4 grid not-prose"
+    style="--hextra-cards-grid-cols: 2;"
+  >
+    {{- partial "shortcodes/card" (dict
+        "link" $isoURL
+        "icon" "download"
+        "title" "Download"
+        "tag" $mediaSize
+        )
+    -}}
+    {{- partial "shortcodes/card" (dict
+        "link" $torrentURL
+        "icon" "lightning-bolt"
+        "title" "Torrent"
+        "tag" "52KB"
+        )
+    -}}
+    {{- partial "shortcodes/card" (dict
+        "link" $shasumURL
+        "icon" "key"
+        "title" "Hash"
+        )
+    -}}
+    {{- partial "shortcodes/card" (dict
+        "link" $signatureURL
+        "icon" "pencil"
+        "title" "Signature"
+        )
+    -}}
+  </div>
+</div>

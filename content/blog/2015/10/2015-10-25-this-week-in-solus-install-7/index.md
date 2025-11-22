@@ -1,13 +1,16 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"TWIS"
-]
-date =  "2015-10-25T18:23:15Z"
-title = "This Week in Solus -- Install #7"
-url = "/2015/10/25/this-week-in-solus-install-7/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- twis
+date: "2015-10-25T18:23:15Z"
+title: 'This Week in Solus -- Install #7'
+url: /2015/10/25/this-week-in-solus-install-7/
+---
+ 
 
 Welcome to This Week in Solus, Installation #7. As you may (**or may not**) have noticed, this blog post is in a different location. As of this blog post, these installations are official. If you want to see previous installs, you can read them by 
 going [here](http://joshuastrobl.com/tag/this-week-in-solus/).
@@ -20,7 +23,7 @@ We have some project announcements to make this week. Roles and titles have been
 
 - Ikey Doherty has been provided the obvious role of Project Manager. He will do what he currently does, which is develop and oversee the Solus Project and the work being done on the Solus operating system.
 - Justin Zobel has been provided the role of Community & Social Media Manager. He will oversee social media accounts and community issues that are not under the scope of the Communications Manager.
-- I, Joshua Strobl, have been provided the role of Communications Manager. I will help faciliate the communication between the media and the Solus Project, inform our community on information pertaining to the Solus Project, and work 
+- I, Joshua Strobl, have been provided the role of Communications Manager. I will help facilitate the communication between the media and the Solus Project, inform our community on information pertaining to the Solus Project, and work 
 with Justin on ensuring issues brought up by the community are addressed.
 
 These roles will accompany the coding and package development that is existing currently.
@@ -62,7 +65,7 @@ The following package updates are broken down based on contributor and within ea
 
 ##### Updated
 
-- [budgie-desktop: Updated to 8.3 for maintenence updates](https://git.solus-project.com/packages/budgie-desktop/commit/?id=e3d30fd6f970cb83fa964b3b83f3fa5d13ae992b)
+- [budgie-desktop: Updated to 8.3 for maintenance updates](https://git.solus-project.com/packages/budgie-desktop/commit/?id=e3d30fd6f970cb83fa964b3b83f3fa5d13ae992b)
 - [gvfs: Enabled CDDA and Avahi integration](https://git.solus-project.com/packages/gvfs/commit/?id=3e030bc8c36e713530713f1a9ffe6edb1d233742)
 - [kernel: Linux kernel has been updated to 4.1.11](https://git.solus-project.com/packages/kernel/commit/?id=b2203d7ba01e1ee1b865da1cad73ef4773c1a20c)
 - [pisi: Implemented proper build-info based dbginfo](https://git.solus-project.com/packages/pisi/commit/?id=ac8bfcfd454db21e93965010bcaaa8332d08e5b9)

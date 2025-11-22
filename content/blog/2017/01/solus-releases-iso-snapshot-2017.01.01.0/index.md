@@ -1,14 +1,16 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Releases"
-]
-date =  "2017-01-01T21:47:26+02:00"
-featuredimage = "/20170101-featured.jpg"
-title = "Solus Releases ISO Snapshot 2017.01.01.0"
-url = "/2017/01/01/solus-releases-iso-snapshot-20170101-0"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- releases
+date: "2017-01-01T21:47:26+02:00"
+featuredimage: /20170101-featured.jpg
+title: Solus Releases ISO Snapshot 2017.01.01.0
+url: /2017/01/01/solus-releases-iso-snapshot-20170101-0
+---
 
 We're happy to be kicking off the new year with the release of our **first ISO snapshot**, 2017.01.01.0, across our Budgie and MATE editions.
 
@@ -47,7 +49,7 @@ This release of Solus ships with the latest version of our Software Center, v15,
 
 ### Expanded Categories
 
-{{< relimg "solus-sc-v15-new-categories.jpg" >}}
+![relimg](solus-sc-v15-new-categories.jpg)
 
 We have expanded our list of dedicated software categories to include:
 
@@ -60,7 +62,7 @@ We have expanded our list of dedicated software categories to include:
 
 ### Third Party
 
-{{< relimg "solus-sc-v15-third-party.jpg" >}}
+![relimg](solus-sc-v15-third-party.jpg)
 
 We also have an expanded list of 3rd-Party applications that can be installed via the Software Center, such as:
 
@@ -75,7 +77,7 @@ We also have an expanded list of 3rd-Party applications that can be installed vi
 
 ### Software Viewing
 
-{{< relimg "solus-sc-v15-software-view.jpg" >}}
+![relimg](solus-sc-v15-software-view.jpg)
 
 When looking at software information, we now show software licenses.
 
@@ -115,7 +117,7 @@ translators, we're always amazed by your hard work and dedication towards making
 
 ## Budgie
 
-{{< relimg "20170101-Budgie.jpg" >}}
+![relimg](20170101-Budgie.jpg)
 
 Solus 2017.01.01.0 ships with the latest of our Budgie releases, 10.2.9. This release features a large set of bug fixes and improvements before our 
 focus on Budgie 11 development, such as:
@@ -127,7 +129,7 @@ for the libpinyin IBUS engine, i.e. "(null) (libpinyin)". Now, when we fail to g
 - Chinese is now a supported language, both in Chinese (Traditional) as well as Chinese (Taiwan).
 - Multiple languages have received translation improvements.
 
-{{< relimg "budgie-replace-small.jpg" >}}
+![relimg](budgie-replace-small.jpg)
 
 Prior to Budgie 10.2.9, it was easy to accidentally remove a panel. Now, we show a confirmation popover when clicking the removal button, to ensure accidentally panel removal doesn't occur.
 
@@ -135,7 +137,7 @@ Prior to Budgie 10.2.9, it was easy to accidentally remove a panel. Now, we show
 
 ## MATE
 
-{{< relimg "20170101-MATE.jpg" >}}
+![relimg](20170101-MATE.jpg)
 
 Solus 2017.01.01.0 MATE Edition is a continuation of the goal we established with Solus 1.2.1, to deliver a Solus edition that has more traditional desktop experience and optimized for older hardware. 
 
@@ -143,7 +145,7 @@ This release ships with the MATE 1.16 series and is the first operating system t
 implementation of a clean, efficient, and modern menu for the MATE Desktop. Brisk Menu enables quick access to installed applications, the Control Center, Software Center, as well as session controls 
 for logging out, locking your system, etc.
 
-{{< relimg "20170101-MATE-Brisk-Open-Closeup.jpg" >}}
+![relimg](20170101-MATE-Brisk-Open-Closeup.jpg)
 
 We have also renamed our MATE Notification theme from Solus to Slate to reflect our mission of distro agnostic software and such name is used in the Solus MATE Edition. Alongside being available in the 
 Solus repositories, v4 of Slate is also available via [its GitHub Page](https://github.com/solus-project/mate-notification-theme-slate/releases/tag/v4).
@@ -654,7 +656,7 @@ Solus repositories, v4 of Slate is also available via [its GitHub Page](https://
 
 **xkeyboard-config**
 
-  - [Ikey Doherty: Update to 2.19, add compatibilty symlink for MATE](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=5ae9ea6)
+  - [Ikey Doherty: Update to 2.19, add compatibility symlink for MATE](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=5ae9ea6)
   - [Joshua Strobl: Convert to yaml.](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=15e102e)
 
 
@@ -1415,7 +1417,7 @@ Solus repositories, v4 of Slate is also available via [its GitHub Page](https://
 
 **xkeyboard-config**
 
-  - [Ikey Doherty: Update to 2.19, add compatibilty symlink for MATE](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=5ae9ea6)
+  - [Ikey Doherty: Update to 2.19, add compatibility symlink for MATE](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=5ae9ea6)
   - [Joshua Strobl: Convert to yaml.](https://git.solus-project.com/packages/xkeyboard-config/commit/?id=15e102e)
 
 

@@ -1,13 +1,16 @@
 ---
-title: "In Full Sail"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - infrastructure
 - news
 - plans
-date: 2018-10-27T03:00:00+03:00
-featuredimage: "/in-full-sail.jpg"
-url: "/2018/10/27/in-full-sail" # Example, /2017/01/18/adopting-flatpak-to-reassemble-third-party-applications
+date: "2018-10-27T03:00:00+03:00"
+featuredimage: /in-full-sail.jpg
+title: In Full Sail
+url: /2018/10/27/in-full-sail
 ---
 In Full Sail is our update on the state of Solus, our project founder, services which we use, as well as our plans for the project and future Solus releases.
 <!--more-->
@@ -87,7 +90,7 @@ To date, that was the last communication we or anyone in contact with us have re
 
 Joshua: By September 9th, our development tracker was online. With Bryan’s attention focused on bringing up the builder, I focused on implementing changes to eopkg / pisi to gracefully move our users over to the RIT Solus package repository (hosted on mirrors.rit.edu). On September 10th, the builder was officially up, receiving builds and passing them to our new repository. I finalized the eopkg update and subsequently released it on September 11th to the old stable repository and announced via the “[Package Repo Migration Now Available](/2018/09/11/package-repo-migration-now-available)” blog post. 
 
-Joshua: It was also around this time where, unbeknownst to me, I was contacted by various individuals for comment on an upcoming podcast. With a lack of concrete information about Ikey, an understanding of his personal situation, as well as being preoccupied with ensuring a seamless upgrade experience for our users, we simply did not have the full opportunity to comment until after the podcast took place. As a result of our (unintended) lack of response prior to the podcast, several individuals grossly mis-characterized the situation both for the project and Ikey, which lead to a more official response from me on Reddit about the situation at that time, with respect for Ikey’s privacy. Looking back, it is easy to see why people were frustrated by our lack of a definitive response. However, we believed (and still believe) that the best course of action was not to respond until either receiving more information about the situation or until such a time as we could no longer justify waiting.
+Joshua: It was also around this time where, unbeknownst to me, I was contacted by various individuals for comment on an upcoming podcast. With a lack of concrete information about Ikey, an understanding of his personal situation, as well as being preoccupied with ensuring a seamless upgrade experience for our users, we simply did not have the full opportunity to comment until after the podcast took place. As a result of our (unintended) lack of response prior to the podcast, several individuals grossly mischaracterized the situation both for the project and Ikey, which lead to a more official response from me on Reddit about the situation at that time, with respect for Ikey’s privacy. Looking back, it is easy to see why people were frustrated by our lack of a definitive response. However, we believed (and still believe) that the best course of action was not to respond until either receiving more information about the situation or until such a time as we could no longer justify waiting.
 
 Joshua: The infrastructure migration officially was completed with the release of the Solus 3 ISO Refresh (also referred to as Solus 3.9999). After this point, our focus moved to improving community engagement, first-party services, and delivering users exciting new features and stack upgrades (such as the new Plasma Testing ISO as of our [Shiny Delights](/2018/10/24/shiny-delights) roundup). To put this all into context, in the span of only 6 days we had entirely re-bootstrapped the Solus infrastructure, including a new Solus release.
 
@@ -129,7 +132,7 @@ At work, I was spending my volunteer hours helping to support researchers by bui
  
 Joshua: I first got started with the project shortly after the release of EvolveOS Beta 1. I was originally attracted to the project for several reasons, some I’ll admit are more superficial than others. Budgie 8 looking similar to Chrome OS, which was a design I was fairly attracted to at the time. Some more technical reasons like its focus on a single architecture (at the time with no support for emul32 packages even, so no Steam or WINE) and being built from scratch with home computing devices in mind. It was also (and still is) the only operating system my old laptop was able to properly suspend with, which was remarkable on its own. Of course, that didn’t make up for its hilariously few packages at that time. It had no Atom, so I didn’t really have a comfortable IDE to edit with. It had no mono, which meant no Keepass so I couldn’t even open up my password database. But it had Ikey, his vision, and his willingness to dedicate countless hours to teaching me ypkg and the brand new package.yml packaging format, so I could email him patches so that he could include them in our then single monolithic git repository. EvolveOS (and later Solus) was the first real Linux project where I felt truly empowered to make a difference and help serve others. I was there when we formalized the first proper team for EvolveOS (Ikey, Justin, and myself). I remember the conversations with Ikey where I was absolutely adamant that we have some form of notification and widget center for the new Budgie release. I was the one that announced the first release (and release candidate) of Solus and stepped into the shoes of communications manager. I remember sitting there, reviewing and landing Bryan’s packages in his game-fests before he became a Core Team member. I remember having the discussion with Ikey on bringing Bryan, Peter, Stefan into Core Team. I’ve been there, I’ve had those discussions, and we pushed forward together because what we have as a diverse team is a shared vision and common goals.
 
-
+ 
 Joshua: The shared vision of what Solus fundamentally is has remained unchanged throughout the years and has acted as our true north, our north star to guide us. What Solus can be has been our catalyst for change as our community, our needs, and our team have evolved.
 
 **Solus is selfish.**

@@ -1,11 +1,14 @@
 ---
-title: "Brisk Menu 0.5.0 Released"
-author: "ikey"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/53261402?v=4
+  link: https://github.com/ikeycode
+  name: Ikey Doherty
+tags:
 - news
-date: 2017-11-02T20:55:31+02:00
-featuredimage: "/brisk-menu-0-5-0.jpg"
-url: "/2017/11/02/brisk-menu-0-5-0-released"
+date: "2017-11-02T20:55:31+02:00"
+featuredimage: /brisk-menu-0-5-0.jpg
+title: Brisk Menu 0.5.0 Released
+url: /2017/11/02/brisk-menu-0-5-0-released
 ---
 
 [Brisk Menu 0.5.0 is here](https://github.com/solus-project/brisk-menu/releases/tag/v0.5.0)! This is the first of 2 planned releases for the course of the next few weeks.
@@ -17,7 +20,7 @@ So, what's new?
 
 ## Favourites support
 
-{{< relimg "brisk-menu-pin-to-favourites.jpg" >}}
+![relimg](brisk-menu-pin-to-favourites.jpg)
 
 Stefan Ric (cybre) added support for a new Favourites backend, that does exactly what it says on the tin. This adds a new Favourites category to the menu, and users can pin and unpin items from anywhere in the menu by right clicking on an item.
 

@@ -1,16 +1,19 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Packages",
-"Plans",
-"TWIS"
-]
-date =  "2016-01-10T22:31:33Z"
-title = "This Week in Solus -- Install #17"
-url = "/2016/01/10/this-week-in-solus-install-17/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- budgie
+- news
+- packages
+- plans
+- twis
+date: "2016-01-10T22:31:33Z"
+title: 'This Week in Solus -- Install #17'
+url: /2016/01/10/this-week-in-solus-install-17/
+---
+ 
 Welcome to the 17th installation of This Week in Solus. 
 
 #### Further Separation from GNOME Stack

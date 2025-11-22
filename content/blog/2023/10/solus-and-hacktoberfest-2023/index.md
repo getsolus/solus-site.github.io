@@ -1,11 +1,14 @@
 ---
-title: "Solus and Hacktoberfest 2023"
-author: "tracey"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/10402612?v=4
+  link: https://github.com/TraceyC77
+  name: Tracey Clark
+tags:
 - news
-date: 2023-10-01T17:50:07-05:00
-featuredimage: "/hf10_horz_fcd_rgb.png"
-url: "/2023/10/01/solus-and-hacktoberfest-2023"
+date: "2023-10-01T17:50:07-05:00"
+featuredimage: /hf10_horz_fcd_rgb.png
+title: Solus and Hacktoberfest 2023
+url: /2023/10/01/solus-and-hacktoberfest-2023
 ---
 
 We are happy to announce that Solus is participating in this year’s [Hacktoberfest](https://hacktoberfest.com)!

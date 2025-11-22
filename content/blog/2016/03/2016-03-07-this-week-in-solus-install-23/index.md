@@ -1,16 +1,19 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Plans",
-"Security",
-"TWIS"
-]
-date =  "2016-03-07T10:08:34Z"
-title = "This Week in Solus -- Install #23"
-url = "/2016/03/07/this-week-in-solus-install-23/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- budgie
+- news
+- plans
+- security
+- twis
+date: "2016-03-07T10:08:34Z"
+title: 'This Week in Solus -- Install #23'
+url: /2016/03/07/this-week-in-solus-install-23/
+---
+ 
 
 Welcome to the 23rd installation of This Week in Solus. 
 
@@ -43,4 +46,4 @@ We had our first Sundays with Solus yesterday (March 6th, 2016) and it went surp
 -  There was some questions. Please, don't make me write them all down here too ;_; Good questions, just watch the video.
 -  Ikey has single-handedly caused the fleeing of countless citizens and hamsters from their respective countries after turning his webcam on at the end of the video. In all fairness, he warned.
 
-{{< altimg "http://i.giphy.com/itDBteCsTFSVO.gif" >}}
+![relimg](http://i.giphy.com/itDBteCsTFSVO.gif)

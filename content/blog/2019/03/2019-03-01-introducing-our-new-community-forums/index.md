@@ -1,12 +1,15 @@
 ---
-title: "Introducing Our New Community Forums"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - infrastructure
 - news
-date: 2019-03-01T16:59:25+02:00
-featuredimage: "/flarum.jpg"
-url: "/2019/03/01/introducing-our-new-community-forums"
+date: "2019-03-01T16:59:25+02:00"
+featuredimage: /flarum.jpg
+title: Introducing Our New Community Forums
+url: /2019/03/01/introducing-our-new-community-forums
 ---
 
 We are really excited to be introducing our new community forums. With the introduction of our Flarum-based community forums, we will have a new centerpiece to community engagement that provides us with the user experience and flexibility we've long desired.

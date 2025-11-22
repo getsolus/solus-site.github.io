@@ -1,19 +1,21 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"TWIS"
-]
-date =  "2016-08-07T22:01:38Z"
-title = "This Week in Solus -- Install #33"
-url = "/2016/08/07/this-week-in-solus-install-33/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- twis
+date: "2016-08-07T22:01:38Z"
+title: 'This Week in Solus -- Install #33'
+url: /2016/08/07/this-week-in-solus-install-33/
+---
 
 Welcome to the 33rd installation of This Week in Solus. 
 
 #### Infrastructure Change
 
-{{< relimg "Screenshot-from-2016-08-07-23-43-39.png" >}}
+![relimg](Screenshot-from-2016-08-07-23-43-39.png)
 
 Our development and bug tracking oriented infrastructure moved from Bugzilla to Phabricator a few days ago. Bugzilla simply didn’t offer us the flexibility we needed and has long been a bit of a sore tooth for us. Phabricator empowers us to work at a 
 faster, more agile pace, with:
@@ -49,21 +51,21 @@ We're currently in the process of enabling further hardware support by way of Li
 
 #### Solus Platform Enhancements
 
-{{< relimg "Screenshot-from-2016-08-04-23-03-03.png" >}}
+![relimg](Screenshot-from-2016-08-04-23-03-03.png)
 
 This week there were numerous enhancements to the Solus platform. The first example of a long-standing issue resolved was around our packaged Golang. Due to an issue with Golang having special static libraries and the method in which we strip them, 
 it would cause our Golang to not work as intended. With this now being resolved, we now have a **natively compiled Go 1.6.3**.
 
-{{< relimg "Screenshot-from-2016-08-05-00-08-55-1.png" >}}
+![relimg](Screenshot-from-2016-08-05-00-08-55-1.png)
 
 With an optimized, natively compiled Go, we have also been enabled to **deliver Docker in our repository**. This is now available for developers and we're happy to say that our Docker is compliant with OCI (Open Container Initiative). In 
 the immediate screenshot above, you can see [Clear Linux* Project for Intel Architecture](https://clearlinux.org) running via Docker 1.12.0.
 
-{{< relimg "Screenshot-from-2016-08-05-01-51-29-1.png" >}}
+![relimg](Screenshot-from-2016-08-05-01-51-29-1.png)
 
 But we didn't stop there. On the heels of the release of Firefox 48, we are now delivering a **natively compiled Rust 1.10.0 using our own LLVM 3.8.1**. Our Firefox is compiled against this native Rust for better performance and MP4 decoding.
 
-{{< relimg "Screenshot-from-2016-08-04-11-37-19-1.png" >}}
+![relimg](Screenshot-from-2016-08-04-11-37-19-1.png)
 
 We also have Libreoffice 5.2.0.4 available for use!
 

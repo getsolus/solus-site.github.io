@@ -1,20 +1,21 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2014-05-05T14:48:52Z"
-
-title = "Evolve OS Pre-Alpha Released (Or shaking off the vapours)"
-url = "/2014/05/05/evolve-os-pre-alpha-released-or-shaking-off-the-vapours/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+date: "2014-05-05T14:48:52Z"
+title: Evolve OS Pre-Alpha Released (Or shaking off the vapours)
+url: /2014/05/05/evolve-os-pre-alpha-released-or-shaking-off-the-vapours/
+---
 
 Hello all,
 
 As a follow up from yesterday's status update, well, it boots! So today I'm happy to release a **pre-alpha validation ISO**. Note this ISO is only available as a 64-bit system, 
 and is not persistent! The desktop and installer are deliberately absent from this ISO, but you can use it to validate the system base, compiler, etc.<!--more-->
 
-{{< relimg "Screenshot-from-2014-05-05-152458.png" >}}
+![relimg](Screenshot-from-2014-05-05-152458.png)
 
 ### What's in the system?
 

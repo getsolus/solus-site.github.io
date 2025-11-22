@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Uncategorized"
-]
-date =  "2015-07-03T06:48:54Z"
-
-title = "Solus Daily ISO: 02/07/2015"
-url = "/2015/07/03/solus-daily-iso-02072015/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- uncategorized
+date: "2015-07-03T06:48:54Z"
+title: 'Solus Daily ISO: 02/07/2015'
+url: /2015/07/03/solus-daily-iso-02072015/
+---
 
 The most recent daily is now available for download. In this snapshot we've concentrated on **enabling**. As such we're now actively collecting powertop reports and optimising power consumption of Solus systems.
 

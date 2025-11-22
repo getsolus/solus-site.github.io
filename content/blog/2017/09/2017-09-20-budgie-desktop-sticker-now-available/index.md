@@ -1,13 +1,16 @@
 ---
-title: "Budgie Desktop Sticker Now Available"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - budgie
 - news
 - partners
-date: 2017-09-20T00:29:22+03:00
-featuredimage: "/budgie-sticker.jpg"
-url: "/2017/09/20/budgie-desktop-sticker-now-available"
+date: "2017-09-20T00:29:22+03:00"
+featuredimage: /budgie-sticker.jpg
+title: Budgie Desktop Sticker Now Available
+url: /2017/09/20/budgie-desktop-sticker-now-available
 ---
 
 In partnership with Unixstickers, we're happy to announce the availability of the Budgie Desktop sticker! By purchasing the Budgie Desktop sticker, not only are you getting some cute budgie swag for your machine, but a portion of the money goes to helping fund Budgie development!

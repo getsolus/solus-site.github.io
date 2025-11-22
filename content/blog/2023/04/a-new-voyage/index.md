@@ -1,14 +1,17 @@
 ---
-title: "A New Voyage"
-author: "joshua"
-categories:
-  - infrastructure
-  - news
-  - partners
-  - plans
-date: 2023-04-18T13:00:00+03:00
-featuredimage: "/featured-image.jpg"
-url: "/2023/04/18/a-new-voyage"
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
+- infrastructure
+- news
+- partners
+- plans
+date: "2023-04-18T13:00:00+03:00"
+featuredimage: /featured-image.jpg
+title: A New Voyage
+url: /2023/04/18/a-new-voyage
 ---
 
 As a community and a team, we have been through some choppy waters the last few months. After extensive internal discussions involving consultation with contributors past and present, we have charted a new course for long term success which will yield immediate results for users and contributors. As of today, we are deploying a new, more resilient infrastructure and a new governance structure for Solus.

@@ -1,21 +1,22 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2014-07-06T19:10:45Z"
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+date: "2014-07-06T19:10:45Z"
+title: Evolve OS Alpha 1 Released
+url: /2014/07/06/evolve-os-alpha-1-released/
+---
 
-title = "Evolve OS Alpha 1 Released"
-url = "/2014/07/06/evolve-os-alpha-1-released/"
-+++
-
-I am pleased to announce the release of Evolve OS Alpha 1. This version marks the beginning of our public availablity as a desktop Linux distribution. 
+I am pleased to announce the release of Evolve OS Alpha 1. This version marks the beginning of our public availability as a desktop Linux distribution. 
 This image is a 64-bit ISO, and comes with the Budgie Desktop as standard. Please help by download and testing the image so we can ensure our future 
 releases are as polished as possible for our users.
 
 <!--more-->
 
-{{< altimg "https://solus-project.com/release_images/weather.png" >}}
+![relimg](https://solus-project.com/release_images/weather.png)
 
 ## What's new in this release?
 
@@ -82,9 +83,9 @@ wouldn't exist.
 ## Moar screenshots
 
 
-{{< altimg "https://solus-project.com/release_images/firefox.png" >}}
+![relimg](https://solus-project.com/release_images/firefox.png)
 
-{{< altimg "https://solus-project.com/release_images/installer2.png" >}}
+![relimg](https://solus-project.com/release_images/installer2.png)
 
 
-{{< altimg "https://solus-project.com/release_images/menu.png" >}}
+![relimg](https://solus-project.com/release_images/menu.png)

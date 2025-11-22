@@ -1,14 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"News",
-"Releases"
-]
-date =  "2015-03-16T02:56:51Z"
-
-title = "Solus Beta 1.1 Released"
-url = "/2015/03/16/evolve-os-beta-1-1-released/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+- releases
+date: "2015-03-16T02:56:51Z"
+title: Solus Beta 1.1 Released
+url: /2015/03/16/evolve-os-beta-1-1-released/
+---
 
 The Solus Project team is pleased to announce the immediate availability of Solus Operating System Beta 1.1. This release focused on stability and bringing the core 
 systems up to scratch. Please note that as this is an update to Solus Operating System Beta 1 (Quality Cycle), changes that are intended for beta2 will not be present 
@@ -59,7 +60,7 @@ Solus Operating System is distribute as an "ISO" file. This is a raw disc image
 installable, but we caution you that this is a beta system, thus not best suited for production environments. Optical media is much slower than USB drives, as such we 
 recommend you write the image to one of these instead. Evolve OS is incompatible with unetbootin, so we would advise you to use [Rufus](https://rufus.akeo.ie/) 
 on Windows, or if you are comfortable using Linux already, dd. Various solutions for Linux exist, please check with your own distribution first for their recommended 
-method that peforms an **image write**, and not a file copy/extract.
+method that performs an **image write**, and not a file copy/extract.
  
 Now visit our [Download ](https://solus-project.com/download/) page to grab your copy of Solus. We hope you enjoy, and look forward to your feedback! Use the 
 community links at the top of this webpage to contact us either by [IRC](irc://irc.freenode.net/#evolveos), or through our [forums](https://solus-project.com/forums/).

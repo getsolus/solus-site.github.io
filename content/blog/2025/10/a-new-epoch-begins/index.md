@@ -1,12 +1,16 @@
 ---
-title: "A New Epoch Begins"
-author: "evan"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/5157277?v=4
+  link: https://github.com/EbonJaeger
+  name: Evan Maddock
+tags:
 - news
 date: 2025-10-11
-featuredimage: "/new-epoch-banner.jpg"
+title: "A New Epoch Begins"
 url: "/2025/10/11/a-new-epoch-begins"
 ---
+
+![Night sky timelapse](new-epoch-banner.jpg)
 
 Heya, folks! We have some exciting news to share with you today. Last year, we began the process of moving the remaining executable files from `/bin` and `/sbin` to directories inside of `/usr`, and creating compatibility symlinks from `/usr/bin` to `/bin` and `/usr/sbin` to `/sbin`. We call this ["Usr-Merge"](https://getsol.us/2024/09/04/usr-merge/). The rollout of our Usr-Merge process was a success, and it is now time to perform the next steps. There are compatibility symlinks in some packages to make sure they work on both merged and unmerged systems, and we cannot remove those without potentially breaking systems. That is, we can't, unless we do an "epoch bump", and start using a new package repository. This is also an important step on the road to using AerynOS tooling.
 
@@ -42,7 +46,9 @@ The update script is already in the Unstable repository for opt-in testing. Afte
 
 Opting in to undergo the transition is really easy. All you have to do is run this command in your favorite terminal:
 
-`echo EPOCH_ENABLE=yes | sudo tee /etc/sysconfig/epoch`
+```bash
+echo EPOCH_ENABLE=yes | sudo tee /etc/sysconfig/epoch
+```
 
 Once you do that, the script will run during the next boot.
 
