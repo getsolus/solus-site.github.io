@@ -111,7 +111,7 @@ width: wide
   {{< /hextra/hero-headline >}}
 
   {{< hextra/hero-subtitle >}}
-  With Solus, you can spend less time setting up tooling, and more time coding. We support a wide variety of editors, programming languages, compilers, and version control systems, as well as containerization / virtualization technology such as Docker and Vagrant. Whether you're writing drivers in C, or writing backend web services in Go, we have software that will fit your needs.
+  With Solus, you can spend less time setting up tooling, and more time coding. We support a wide variety of editors, programming languages, compilers, and version control systems, as well as containerization / virtualization technology such as Docker and Podman. Whether you're writing drivers in C, or writing backend web services in Go, we have software that will fit your needs.
   {{< /hextra/hero-subtitle>}}
 {{< /feature >}}
 
@@ -149,12 +149,12 @@ width: wide
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="Controllers"
-    subtitle="Gamepad and controller software such as antimicro and sc-controller."
+    subtitle="Many gamepads will work right away, and support customization software like AntiMicroX."
   >}}
 
   {{< hextra/feature-card
-    title="Platforms"
-    subtitle="Support for gaming platforms like Itch.io, Lutris, and Steam."
+    title="Launchers"
+    subtitle="Support for game launchers like Steam, Lutris, and Heroic Games Launcher."
   >}}
 
   {{< hextra/feature-card
