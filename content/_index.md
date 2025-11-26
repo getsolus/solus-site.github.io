@@ -39,7 +39,7 @@ width: wide
 {{< feature
   imageLeft=true
   image="/imgs/everyone.png"
-  imageTitle="Budgie Desktop on Solus"
+  imageTitle="Everyone"
   imageWidth=300
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
@@ -53,8 +53,8 @@ width: wide
 
 {{< feature
   imageLeft=false
-  image="/imgs/ready.png"
-  imageTitle="Budgie Desktop on Solus"
+  image="/imgs/open-box.png"
+  imageTitle="Ready"
   imageWidth=300
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
@@ -88,7 +88,7 @@ width: wide
 {{< feature
   imageLeft=true
   image="/imgs/built.png"
-  imageTitle="Budgie Desktop on Solus"
+  imageTitle="Built"
   imageWidth=300
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
@@ -103,7 +103,7 @@ width: wide
 {{< feature
   imageLeft=false
   image="/imgs/develop.png"
-  imageTitle="Budgie Desktop on Solus"
+  imageTitle="Developers"
   imageWidth=300
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
@@ -118,7 +118,7 @@ width: wide
 {{< feature
   imageLeft=true
   image="/imgs/content.png"
-  imageTitle="Budgie Desktop on Solus"
+  imageTitle="Content creation"
   imageWidth=300
 >}}
   {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
@@ -133,7 +133,7 @@ width: wide
 {{< feature
   imageLeft=false
   image="/imgs/gamer.png"
-  imageTitle="Budgie Desktop on Solus"
+  imageTitle="Gamer"
   imageWidth=300
   reducedPadding=true
 >}}
