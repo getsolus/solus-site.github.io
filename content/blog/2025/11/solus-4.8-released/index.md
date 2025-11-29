@@ -106,7 +106,7 @@ The upstream release notes can be found [here](https://release.gnome.org/49/).
 Solus 4.8 Plasma Edition ships with KDE Frameworks 6.19.0, KDE Plasma 6.5.3, and KDE Gear 25.08.3. In conjunction with the GNOME Edition, we no longer ship an X11 session on Plasma by default. Users that still wish to use the X11 session must install the `plasma-x11` package.
 
 {{< callout type="important" >}}
-  With KDE Plasma 6.8, scheduled for release in early 2027, Plasma will no longer support X11 at all, and will be *Wayland only*! Users should try the Wayland session, and file issues so that it can be improved.
+  With KDE Plasma 6.8, scheduled for release in October 2026, Plasma will no longer support X11 at all, and will be *Wayland only*! Users should try the Wayland session, and file issues so that it can be improved.
 {{< /callout >}}
 
 ### Features added in KDE Plasma 6.5
@@ -137,3 +137,5 @@ Head on over to our [Download](/download) page to download the edition you wish 
 We want to give a shout-out to all of our supporters on [OpenCollective](https://opencollective.com/getsolus). We are grateful to all of our backers who fund our work, and help us bring this Linux distribution to everyone. Solus could not operate without your help. Your donations pay for our server infrastructure, services like email, and our contributors for long-term and complex package and development work. You can [become a backer](https://opencollective.com/getsolus#category-CONTRIBUTE) today for as little as $1 a month. Thank you.
 
 *A previous version of this post listed an incorrect version of LibreOffice. It has been corrected to 25.2.6.*
+
+*A previous version of this post stated that Plasma 6.8 would release in early 2027. It has been corrected to say October 2026.*
