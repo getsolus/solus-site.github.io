@@ -13,7 +13,7 @@ url: /2025/11/29/solus-4-8-released
 
 ![Collage](collage.jpg)
 
-We're nearing the holiday season, and what better way to kick it off than by releasing new Solus ISOs? This release is called *Endurance*, in recognition of the continuing work the team is putting in to keep the distribution moving forward. A lot has happened since we released Solus 4.7 at the beginning of this year, so let's go over the changes.
+We're nearing the holiday season, and what better way to kick it off than by releasing new Solus ISOs? This release is called *Opportunity*, for all the new opportunities that are open to us. A lot has happened since we released Solus 4.7 at the beginning of this year, so let's go over the changes.
 
 ## General
 
