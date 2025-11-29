@@ -16,8 +16,8 @@ toc: false
   Solus is an operating system that is designed for modern home computing. Our distribution is built from scratch to ensure every tweak, configuration, and optimization enables the delivery of a singular, cohesive desktop experience.
 {{< /centered-hero >}}
 
-{{< centered-hero title="Latest Release" class="mt-6 mb-24" link="/2025/01/26/solus-4-7-released" linkText="Read Announcement" >}}
-  Solus 4.7 Endurance is our current release. This release focuses on updating our editions, and refreshing the default kernels. We've called this release _Endurance_ to highlight our promise to users that we will continue to deliver timely updates to keep their systems stable and beautiful.
+{{< centered-hero title="Latest Release" class="mt-6 mb-24" link="/2025/11/29/solus-4-8-released" linkText="Read Announcement" >}}
+  Solus 4.8 Opportunity is our current release. This release focuses on updating our editions, and refreshing the default kernels. We've called this release _Opportunity_ for all the new opportunities that are open to us.
 {{< /centered-hero >}}
 
 {{< hextra/feature-grid >}}
