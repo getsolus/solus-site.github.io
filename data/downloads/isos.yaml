@@ -1,5 +1,5 @@
 ---
-version: 2025-01-26
+version: 2025-11-29
 torrentLocation: https://downloads.getsol.us/torrents/
 
 editions:
@@ -8,23 +8,27 @@ editions:
       A feature-rich desktop using modern technologies.
       Customize your desktop with the dedicated Budgie Desktop Settings app.
       Raven enables you to view notifications, control media playback and sound devices, and more!
-    mediaSize: 3.0GB
+    mediaSize: 3.8GB
+    torrentSize: 76KB
     shasum: 4e2d664b6821b8d358c67967be1bfd71b222bf0e748f224c794f3f2a7b96c266
   - name: GNOME
     description: |
       A simple, streamlined desktop for more modern hardware.
       We ship GNOME with a variety of extensions, including Speedinator and Appindicatorsupport. It's ready to go from the moment you start using it.
-    mediaSize: 3.1GB
+    mediaSize: 3.7GB
+    torrentSize: 73KB
     shasum: e7f067cec3bee1e54c8117c0a6bc6058a442ac8554a3abbcc7f09bb12863d0ed
   - name: Plasma
     description: |
       A sophisticated desktop experience for the tinkerers.
       We ship Plasma with a curated experience with sensible defaults, enabling you to more quickly get to tinkering with the parts you love most.
-    mediaSize: 3.2GB
+    mediaSize: 3.5GB
+    torrentSize: 71KB
     shasum: 462dcd9d07504414e73b2952b203afe029894ea5cbc1c7262554389ae7b9258c
-  - name: Xfce Beta
+  - name: Xfce
     description: |
       A lightweight desktop that aims to be fast while still being friendly.
       We ship the Xfce Desktop to provide a full-featured experience for users running less powerful hardware.
-    mediaSize: 2.8GB
+    mediaSize: 3.3GB
+    torrentSize: 66KB
     shasum: ee1a2b8abb79956eb6b41e4794e34d2ffc8c6bf7af53ee92ac962dd8e60f9e2b
