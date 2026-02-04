@@ -71,7 +71,7 @@ menus:
         type: theme-toggle
 
 params:
-  copyright: 2025
+  copyright: 2026
   externalLinkDecoration: true
   blog:
     list:
