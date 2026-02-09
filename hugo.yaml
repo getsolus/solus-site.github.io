@@ -38,35 +38,46 @@ menus:
     - name: Download
       pageRef: /download
       weight: 2
+    - identifier: about
+      name: About
+      weight: 3
+    - name: Solus
+      pageRef: /about/solus
+      parent: about
+      weight: 1
+    - name: Organization
+      pageRef: /about/organization
+      parent: about
+      weight: 2
     - name: Blog
       pageRef: /blog
-      weight: 3
+      weight: 4
     - name: Forums ↗
       url: "https://discuss.getsol.us"
-      weight: 4
+      weight: 5
     - name: Help ↗
       url: "https://help.getsol.us"
-      weight: 5
+      weight: 6
     - name: Donate ↗
       url: "https://opencollective.com/getsolus"
-      weight: 6
+      weight: 7
     - name: Matrix ↗
       url: "https://matrix.to/#/#solus:matrix.org"
       params:
         icon: chat
-      weight: 7
+      weight: 8
     - name: Github ↗
       url: "https://github.com/getsolus/"
-      weight: 8
+      weight: 9
       params:
         icon: github
     - name: Mastodon ↗
       url: https://floss.social/@getsolus
-      weight: 9
+      weight: 10
       params:
         icon: mastodon
     - name: Theme Toggle
-      weight: 10
+      weight: 11
       params:
         type: theme-toggle
 
