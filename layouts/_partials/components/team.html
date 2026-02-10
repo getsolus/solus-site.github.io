@@ -1,27 +1,53 @@
 {{- $description := .description -}}
 {{- $members := .members -}}
 {{- $name := .name -}}
+{{- $alt := .alt -}}
 
-<div class="mt-16 pb-8">
-    <h2 class="mb-4">{{ $name }}</h2>
-    <p class="mb-8">{{ $description | markdownify }}</p>
+{{- if eq $alt true -}}
+<section class="not-dark:bg-gray-100 bg-neutral-900 w-full py-10 md:py-12 lg:py-14 border-t border-b border-neutral-300/75 dark:border-neutral-200/75">
+    <div class="max-w-[90rem] mx-auto px-4 md:px-0">
+        <h2 class="text-4xl md:text-3xl font-semibold mb-10 text-(--color-primary-500)">{{ $name }}</h2>
+        <p class="mb-5">{{ $description | markdownify }}</p>
+        <div class="hextra-cards mt-4 gap-8 grid not-prose" style="--hextra-cards-grid-cols: 2;">
+            {{- range $key, $value := $members -}}
+                {{- $member := index site.Data.organization.people $key -}}
+                {{- with $member -}}
 
-    <div class="hextra-cards mt-4 gap-8 grid not-prose" style="--hextra-cards-grid-cols: 2;">
-        {{- range $key, $value := $members -}}
-            {{- $member := index site.Data.organization.people $key -}}
-            {{- with $member -}}
-
-                {{- template "team-member" (dict
-                    "description" $value
-                    "matrix" $member.matrix
-                    "names" $member.names
-                    "websites" $member.websites
-                    )
-                -}}
+                    {{- template "team-member" (dict
+                        "description" $value
+                        "matrix" $member.matrix
+                        "names" $member.names
+                        "websites" $member.websites
+                        )
+                    -}}
+                {{- end -}}
             {{- end -}}
-        {{- end -}}
+        </div>
     </div>
+</section>
+{{- else -}}
+<div class="w-full max-w-[90rem] mx-auto px-4 md:px-0">
+    <section class="w-full py-10 md:py-12 lg:py-14">
+        <h2 class="text-4xl md:text-3xl font-semibold mb-10 text-(--color-primary-500)">{{ $name }}</h2>
+        <p class="mb-5">{{ $description | markdownify }}</p>
+        <div class="hextra-cards mt-4 gap-8 grid not-prose" style="--hextra-cards-grid-cols: 2;">
+            {{- range $key, $value := $members -}}
+                {{- $member := index site.Data.organization.people $key -}}
+                {{- with $member -}}
+
+                    {{- template "team-member" (dict
+                        "description" $value
+                        "matrix" $member.matrix
+                        "names" $member.names
+                        "websites" $member.websites
+                        )
+                    -}}
+                {{- end -}}
+            {{- end -}}
+        </div>
+    </section>
 </div>
+{{- end -}}
 
 {{- define "team-member" -}}
     {{- $description := .description -}}
@@ -32,11 +58,11 @@
     {{- $key := printf "%s%s" $names.first $names.last -}}
     {{- $avatar := printf "/imgs/avatars/%s.jpg" $key -}}
 
-    <div class="hextra-card group flex justify-start overflow-hidden rounded-lg border border-gray-300 dark:border-neutral-500 bg-gray-100 dark:bg-neutral-700 dark:text-gray-50 shadow-lg dark:border-gray-400 text-current no-underline" key="{{- $key -}}">
-        <img alt={{ $key }} loading="lazy" decoding="async" src={{ $avatar }} width="125px" />
+    <div class="hextra-card group flex gap-5 justify-start overflow-hidden rounded-lg border border-neutral-300/75 dark:border-neutral-200/75 bg-(--color-primary-200)/50 p-5 shadow-lg dark:border-gray-400 text-current no-underline" key="{{- $key -}}">
+        <img alt={{ $key }} loading="lazy" decoding="async" src={{ $avatar }} width="125px" class="rounded-lg" />
 
         <div class="flex flex-col">
-            <div class="flex-1 text-gray-500 dark:text-gray-400 px-4 mb-2 mt-2">
+            <div class="flex-1 mb-2 mt-2">
                 <div class="font-bold">
                     <span>{{ $names.first }} {{ with $names.middle }}{{ $names.middle }}{{ end }} {{ $names.last }}<span>
                 </div>
@@ -46,14 +72,14 @@
                 </div>
             </div>
 
-            <div class="text-xs not-prose px-4 mb-2 mt-2">Matrix: {{ $matrix }}</div>
+            <div class="text-xs not-prose mb-2 mt-2">Matrix: {{ $matrix }}</div>
 
-            <div class="flex gap-4 px-4 mb-4">
+            <div class="flex gap-2 mt-auto">
                 {{- range $websites -}}
                     {{- $href := .href | safeURL -}}
                     {{- $type := .type -}}
 
-                    <a href={{ $href }} target="_blank" rel="noreferrer">
+                    <a href={{ $href }} target="_blank" rel="noreferrer" class="inline-flex items-center justify-center w-8 h-8 rounded-md bg-white/50 hover:bg-white dark:bg-gray-700/50 dark:hover:bg-gray-700 transition-colors">
                         {{- if eq $type "github" -}}
                             {{ template "link-icon" dict "name" "github" }}
                         {{- else if eq $type "mastodon" -}}
