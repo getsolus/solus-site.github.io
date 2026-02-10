@@ -41,18 +41,16 @@ menus:
     - identifier: about
       name: About
       weight: 3
-    - name: Solus
-      pageRef: /about/solus
-      parent: about
-      weight: 1
+      params:
+        type: section
     - name: Organization
       pageRef: /about/organization
       parent: about
-      weight: 2
+      weight: 1
     - name: Team
       pageRef: /about/team
       parent: about
-      weight: 3
+      weight: 2
     - name: Blog
       pageRef: /blog
       weight: 4
