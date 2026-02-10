@@ -49,6 +49,10 @@ menus:
       pageRef: /about/organization
       parent: about
       weight: 2
+    - name: Team
+      pageRef: /about/team
+      parent: about
+      weight: 3
     - name: Blog
       pageRef: /blog
       weight: 4
@@ -108,9 +112,6 @@ params:
       - identifier: branding
         name: Branding
         pageRef: /branding
-      - identifier: team
-        name: Team
-        url: /team
       - identifier: security
         name: Security
         pageRef: /security

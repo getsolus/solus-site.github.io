@@ -1,8 +1,11 @@
-{{- range .Site.Data.organization.teams -}}
+{{- range $k, $_ := .Site.Data.organization.teams -}}
+    {{- $alt := modBool $k 2 -}}
+
     {{- partial "components/team" (dict
         "description" .description
         "members" .members
         "name" .name
+        "alt" $alt
         )
     -}}
 {{- end -}}
