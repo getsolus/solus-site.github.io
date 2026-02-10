@@ -51,6 +51,20 @@
       {{- range site.Menus.main -}}
         {{- if eq .Params.type "theme-toggle" -}}
           {{/* Doing it this way because I couldn't get it to work another way. */}}
+        {{- else if eq .Params.type "section" -}}
+          {{- range .Children -}}
+            {{- $link := .URL -}}
+            {{- with .PageRef -}}
+              {{- if hasPrefix . "/" -}}
+                {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
+              {{- end -}}
+            {{- end -}}
+
+            {{- $active := eq (relLangURL (strings.TrimSuffix "/" $pageURL)) $link -}}
+            <li>
+              {{- template "sidebar-item-link" dict "active" $active "title" .Name "link" $link -}}
+            </li>
+          {{- end -}}
         {{- else -}}
           {{- $link := .URL -}}
           {{- with .PageRef -}}
