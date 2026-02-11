@@ -1,20 +1,14 @@
 ---
-layout: hextra-home
+layout: solus
 title: Solus
 toc: false
-width: wide
 ---
 
-<div class="text-center mx-auto mt-6 mb-4">
-  {{< hextra/hero-headline >}}
-  The Personal OS for Personal Computers
-  {{< /hextra/hero-headline >}}
-</div>
-
-<div class="text-center mx-auto mt-4">
-  {{< hextra/hero-subtitle >}}
-  A modern Open Source operating system to power your daily needs. Install today, update forever.
-  {{< /hextra/hero-subtitle >}}
+<div class="max-w-[90rem] mx-auto px-4 md:px-0">
+  <section class="w-full py-10 md:py-12 lg:py-14 text-center">
+    <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-5">The personal OS for Personal Computers</h1>
+    <p class="text-lg md:text-xl italic text-neutral-500 leading-relaxed max-w-2xl mx-auto">A modern Open Source operating system to power your daily needs. Install today, update forever.</p>
+  </section>
 </div>
 
 <div class="mx-auto">
@@ -36,131 +30,90 @@ width: wide
   >}}
 </div>
 
-{{< feature
-  imageLeft=true
-  image="/imgs/everyone.png"
-  imageTitle="Everyone"
-  imageWidth=300
->}}
-  {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
-  Designed for everyone
-  {{< /hextra/hero-headline >}}
+{{< section heading="Features" alt=true borderTop=true >}}
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+{{< bulletpoint title="Rolling Release" description="Access the latest software updates without system reinstalls." borderBottom=false reducedPadding=true >}}
+{{< bulletpoint title="Curated" description="Our package repository is curated to provide a stable experience." borderBottom=false reducedPadding=true >}}
+{{< bulletpoint title="Stable" description="Package updates are tested before being pushed out to users." borderBottom=false reducedPadding=true >}}
+{{< bulletpoint title="Sane Defaults" description="Software works out-of-the-box, so you spend less time configuring." borderBottom=false reducedPadding=true >}}
+</div>
+{{</ section >}}
 
-  {{< hextra/hero-subtitle >}}
-  Solus provides a multitude of experiences that enable you to get the most out of your hardware. From our curated Budgie experience for modern devices, to the more traditional Xfce experience for lower-end devices, Solus aims to provide the best experience for your device.
-  {{< /hextra/hero-subtitle>}}
-{{< /feature >}}
-
-{{< feature
-  imageLeft=false
-  image="/imgs/open-box.png"
-  imageTitle="Ready"
-  imageWidth=300
->}}
-  {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
-  Ready To Go
-  {{< /hextra/hero-headline >}}
-
-  {{< hextra/hero-subtitle >}}
-  Solus ships with a variety of software out of the box so you can get going without a lot of setup fuss. Less setup means you can get started using Solus quicker.
-  {{< /hextra/hero-subtitle>}}
-
-  <div class="mt-4" >
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card
-        title="Web browser"
-        subtitle="We ship with Mozilla Firefox, a fast and secure web browser."
-      >}}
-
-      {{< hextra/feature-card
-        title="Email client"
-        subtitle="Take the hassle out of email by using the simple yet feature-rich Mozilla Thunderbird."
-      >}}
-
-      {{< hextra/feature-card
-        title="Office suite"
-        subtitle="Edit documents and presentations with the LibreOffice software suite."
-      >}}
-    {{< /hextra/feature-grid >}}
+{{< section heading="Designed for Everyone" borderTop=true >}}
+<div class="max-w-screen-2xl">
+  <div class="flex flex-col gap-5 text-lg leading-relaxed mb-6">
+    <p>Solus provides a multitude of experiences that enable you to get the most out of your hardware. From our curated Budgie experience for modern devices, to the more traditional Xfce experience for lower-end devices, Solus aims to provide the best experience for your device.</p>
+    <p>Our distribution ships with a variety of software out of the box so you can get going without a lot of setup fuss. Less setup means you can get started using your computer quicker.</p>
   </div>
-{{< /feature >}}
+</div>
 
-{{< feature
-  imageLeft=true
-  image="/imgs/built.png"
-  imageTitle="Built"
-  imageWidth=300
->}}
-  {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
-  Built for people like you, by people like you
-  {{< /hextra/hero-headline >}}
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 max-w-screen-2xl">
+  <img src="/imgs/solus-screenshot-kate.webp" alt="For developers" class="col-span-1 flex items-center justify-center" />
+  <div class="grid-cols-1 flex flex-col leading-[1.8]">
+    <h3 class="text-lg font-semibold mt-7 mb-3">For Developers</h3>
+    <div class="flex flex-col gap-5 text-lg leading-relaxed mb-6">
+      <p>With Solus, you can spend less time setting up tooling, and more time coding. We support a wide variety of editors, programming languages, compilers, and version control systems, as well as containerization / virtualization technology such as <b>Docker</b> and <b>Podman</b>. Whether you're writing drivers in <b>C</b>, or writing backend web services in <b>Go</b>, Solus is a great option for developers.</p>
+      <p>We support several different options for software development environments. Full-featured graphical editors such as <b>Kate</b>, <b>VS Code</b>, <b>Zed</b>, and <b>Builder</b>, and <b>KDevelop</b> are all available from the Solus package repository. If terminal editors are more your thing, Solus has that, too, with packages for <b>Vim</b>, <b>Neovim</b>, and <b>Helix</b>.</p>
+    </div>
+  </div>
+</div>
 
-  {{< hextra/hero-subtitle >}}
-  Solus is empowered by the shared vision of a strong community working for a common goal. All developments and improvements to Solus are by people who want to use their computers just like you do. Solus stands strong on an open platform, powered by industry-proven technologies, including GNU/Linux.
-  {{< /hextra/hero-subtitle>}}
-{{< /feature >}}
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 max-w-screen-2xl">
+  <div class="grid-cols-1 flex flex-col leading-[1.8]">
+    <h3 class="text-lg font-semibold mt-7 mb-3">For Gamers</h3>
+    <div class="flex flex-col gap-5 text-lg leading-relaxed mb-6">
+      <p>Many fantastic open source games are available natively for Solus, with many more available through <b>Steam</b>, <b>Proton</b>, and <b>Heroic Games Launcher</b>. Many gamepads will work right away, and support customization software like <b>AntiMicroX</b>. Within minutes, you can be playing all your own Steam titles for Linux, with a modern and optimized gaming runtime, and no setup hassles. Many open source games can be found in the Solus repository, including <b>Freeciv</b>, <b>OpenTTD</b>, <b>Red Eclipse</b>, and <b>Warzone 2100</b>.</p>
+      <p>Solus is lightweight and snappy, meaning that when it's game time, you can be confident that your system resources are available and ready to go. You won't be let down by other processes making your system feel sluggish.</p>
+    </div>
+  </div>
+  <img src="/imgs/solus-screenshot-game.webp" alt="For gamers" class="col-span-1 flex items-center justify-center" />
+</div>
 
-{{< feature
-  imageLeft=false
-  image="/imgs/develop.png"
-  imageTitle="Developers"
-  imageWidth=300
->}}
-  {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
-  For developers
-  {{< /hextra/hero-headline >}}
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 max-w-screen-2xl">
+  <div class="col-span-1 flex items-center justify-center not-prose">
+    <figure>
+      <img src="/imgs/solus-screenshot-inkscape.webp" alt="For content creators" />
+      <figcaption class="text-gray-500 dark:text-gray-400 text-center text-sm">
+        <p>Osmussaar Lighthouse by Aleksandr Abrosimov CC-SA-3.0</p>
+      </figcaption>
+    </figure>
+  </div>
+  <div class="grid-cols-1 flex flex-col leading-[1.8]">
+    <h3 class="text-lg font-semibold mt-7 mb-3">For Content Creators</h3>
+    <div class="flex flex-col gap-5 text-lg leading-relaxed mb-6">
+      <p>Whether animating in <b>Synfig Studio</b>, producing music with <b>Musescore</b> or <b>Mixxx</b>, graphic design with <b>GIMP</b> or <b>Inkscape</b>, or editing video with <b>Avidemux</b>, <b>Kdenlive</b>, or <b>Shotcut</b>, Solus provides software to help express your creativity. We maintain first-class <b>ROCm</b> (Radeon Open Compute) support, enabling AMD users to utilize GPU acceleration in <b>Blender</b> and various Machine Learning content tools.</p>
+    </div>
+  </div>
+</div>
+{{</ section >}}
 
-  {{< hextra/hero-subtitle >}}
-  With Solus, you can spend less time setting up tooling, and more time coding. We support a wide variety of editors, programming languages, compilers, and version control systems, as well as containerization / virtualization technology such as Docker and Podman. Whether you're writing drivers in C, or writing backend web services in Go, we have software that will fit your needs.
-  {{< /hextra/hero-subtitle>}}
-{{< /feature >}}
+{{< section heading="Default Software" alt=true borderTop=true >}}
+<div class="text-lg leading-relaxed">
+  <p class="mb-10">Solus ships with a variety of software out of the box so you can get going without a lot of setup fuss. Less setup means you can get started using your computer quicker.</p>
 
-{{< feature
-  imageLeft=true
-  image="/imgs/content.png"
-  imageTitle="Content creation"
-  imageWidth=300
->}}
-  {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
-  For content creators
-  {{< /hextra/hero-headline >}}
-
-  {{< hextra/hero-subtitle >}}
-  Whether animating in Synfig Studio, producing music with Musescore or Mixxx, graphic design with GIMP or Inkscape, or editing video with Avidemux, Kdenlive, or Shotcut, Solus provides software to help express your creativity.
-  {{< /hextra/hero-subtitle>}}
-{{< /feature >}}
-
-{{< feature
-  imageLeft=false
-  image="/imgs/gamer.png"
-  imageTitle="Gamer"
-  imageWidth=300
-  reducedPadding=true
->}}
-  {{< hextra/hero-headline style="margin-bottom: calc(var(--spacing) * 8);" >}}
-  For gamers
-  {{< /hextra/hero-headline >}}
-
-  {{< hextra/hero-subtitle >}}
-  Many fantastic open source games are available natively for Solus, with many more available through Steam and Proton, along with support for many gamepads and controllers. Within minutes, you can be playing all your own Steam titles for Linux, with a modern and optimized gaming runtime, and no setup hassles.
-  {{< /hextra/hero-subtitle>}}
-{{< /feature >}}
-
-{{< hextra/feature-grid >}}
+  {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Controllers"
-    subtitle="Many gamepads will work right away, and support customization software like AntiMicroX."
+    title="Web browser"
+    subtitle="We ship with Mozilla Firefox, a fast and secure web browser."
   >}}
 
   {{< hextra/feature-card
-    title="Launchers"
-    subtitle="Support for game launchers like Steam, Lutris, and Heroic Games Launcher."
+    title="Email client"
+    subtitle="Take the hassle out of email by using the simple yet feature-rich Mozilla Thunderbird."
   >}}
 
   {{< hextra/feature-card
-    title="Open source"
-    subtitle="Many free and open source titles including: Freeciv, OpenTTD, Red Eclipse, and Warzone 2100."
+    title="Office suite"
+    subtitle="Edit documents and presentations with the LibreOffice software suite."
   >}}
-{{< /hextra/feature-grid >}}
+  {{< /hextra/feature-grid >}}
+</div>
+{{</ section >}}
 
-<div class="mt-16 pb-8"></div>
+{{< section heading="Built By You" borderTop=true >}}
+  <div class="text-lg leading-relaxed">
+   <p class="mb-5">Solus is empowered by the shared vision of a strong community working for a common goal. All developments and improvements to Solus are by people who want to use their computers just like you do. Solus stands strong on an open platform, powered by industry-proven technologies, including GNU/Linux.</p>
+   <p class="mb-5">This is a volunteer-run project, and we rely on donations from the community to keep the lights on. We understand that donating money can be tough, especially in these challenging times. As such, we are very grateful to everyone who contributes financially to the project. If you would like to support our work, please consider donating to our OpenCollective.</p>
+   <a class="solus-button inline-flex items-center px-6 py-3 border border-(--color-primary-500) rounded-lg font-semibold text-(--color-primary-500) hover:text-(--color-primary-600) hover:border-(--color-primary-600) transition-colors" href="https://opencollective.com/getsolus" target="_blank" rel="noreferrer"><span class="flex justify-center font-semibold gap-2 p-4">Support us on OpenCollective</span></a>
+  </div>
+{{</ section >}}

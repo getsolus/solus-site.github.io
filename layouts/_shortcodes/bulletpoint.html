@@ -1,7 +1,14 @@
 {{- $title := .Get "title" -}}
 {{- $description := .Get "description" -}}
+{{- $borderBottom := .Get "borderBottom" | default true -}}
+{{- $reducedPadding := .Get "reducedPadding" | default false -}}
 
-<div class="grid grid-cols-[60px_1fr] gap-6 pb-10 not-last:mb-10 not-last:border-b not-last:border-neutral-300/75 not-last:dark:border-neutral-200/75">
+{{- $padding := 10 -}}
+{{- if eq $reducedPadding true -}}
+    {{- $padding = 5 -}}
+{{- end -}}
+
+<div class="grid grid-cols-[60px_1fr] gap-6 pb-{{ $padding }} not-last:mb-{{ $padding }} {{ with $borderBottom}} not-last:border-b not-last:border-neutral-300/75 not-last:dark:border-neutral-200/75 {{ end }}">
     <span class="text-5xl font-bold text-(--color-primary-500) opacity-30 leading-none">❖</span>
     <div>
         <h3 class="text-xl font-semibold mb-4">{{ $title }}</h3>
