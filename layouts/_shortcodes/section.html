@@ -4,13 +4,13 @@
 
 {{- if eq $alt true -}}
     <section class="not-dark:bg-gray-100 bg-neutral-900 w-full py-10 md:py-12 lg:py-14 {{ with $borderTop}} border-t border-neutral-300/75 dark:border-neutral-200/75{{ end }}">
-        <div class="max-w-[90rem] mx-auto px-4 md:px-0">
+        <div class="max-w-[90rem] pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-left),1.5rem)] mx-auto">
             <h2 class="text-4xl md:text-3xl font-semibold mb-10 text-(--color-primary-500)">{{ $heading }}</h2>
             {{ .Inner }}
         </div>
     </section>
 {{- else -}}
-    <div class="w-full max-w-[90rem] mx-auto px-4 md:px-0 {{ with $borderTop}} border-t border-neutral-300/75 dark:border-neutral-200/75{{ end }}">
+    <div class="w-full max-w-[90rem] pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-left),1.5rem)] mx-auto {{ with $borderTop}} border-t border-neutral-300/75 dark:border-neutral-200/75{{ end }}">
         <section class="w-full py-10 md:py-12 lg:py-14">
             <h2 class="text-4xl md:text-3xl font-semibold mb-10 text-(--color-primary-500)">{{ $heading }}</h2>
             {{ .Inner }}

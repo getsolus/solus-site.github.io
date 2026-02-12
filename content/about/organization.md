@@ -12,7 +12,7 @@ toc: false
 </div>
 
 <section class="not-dark:bg-gray-100 bg-neutral-900 w-full py-10 md:py-12 lg:py-14 border-t border-b border-neutral-300/75 dark:border-neutral-200/75">
-    <div class="max-w-[90rem] mx-auto px-4 md:px-0">
+    <div class="max-w-[90rem] pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-left),1.5rem)] mx-auto">
         <h2 class="text-(--color-primary-500) uppercase font-semibold mb-4">Mission Statement</h2>
         <blockquote class="text-xl md:text-2xl leading-relaxed pl-6 border-l-4 border-l-(--color-primary-500)">Our aim is to deliver an operating system experience that is robust and easy to use. We believe that users should be able to install Solus, and immediately get to work without having to jump through hoops. People should also be free to customize their system to work how they want, and be able to tinker without having to completely reinstall their operating system.</blockquote>
     </div>
