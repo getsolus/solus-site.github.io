@@ -6,15 +6,21 @@
 {{- $external := strings.HasPrefix $link "http" -}}
 {{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
 
+{{- $classes := "bg-transparent border-2 border-(--color-primary-500)/80 text-(--color-primary-500)/80 hover:text-(--color-primary-500) hover:border-(--color-primary-500)" -}}
+
+{{- with $primary -}}
+  {{- $classes = "bg-(--color-primary-500)/80 dark:bg-(--color-primary-600)/80 hover:bg-(--color-primary-500) dark:hover:bg-(--color-primary-600) text-white" -}}
+{{- end -}}
+
 <a
-  class="solus-button {{ with $primary }}primary{{ end }} rounded-lg no-underline transition-all ease-in duration-200"
+  class="max-w-fit flex flex-row cursor-pointer rounded-lg py-2 px-4 lg:py-3 lg:px-6 font-medium duration-200 ease-in-out hover:ease-in-out transition-all items-center justify-center text-center shadow-sm hover:shadow-lg {{ $classes }}"
   href="{{ $href }}"
   {{ with $external }}target="_blank" rel="noreferrer"{{ end }}
 >
-  <span class="flex justify-center font-semibold gap-2 p-4">
-    {{- with $icon -}}
-      {{- partial "utils/icon.html" (dict "name" $icon) -}}
-    {{- end -}}
-    {{ $text }}
-  </span>
+  {{- with $icon -}}
+    <span class="mr-2">
+      {{- partial "utils/icon.html" (dict "name" $icon "attributes" "width=1.5rem height=1.5rem") -}}
+    </span>
+  {{- end -}}
+  {{ $text }}
 </a>
