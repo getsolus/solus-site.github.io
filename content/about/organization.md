@@ -55,5 +55,8 @@ When filing an issue, please be as detailed as possible. The more details there 
 
 {{< section heading="Funding & Support" >}}
 <p class="mb-6">Another way to contribute to Solus without needing any technical skills or time is financially. Solus is a volunteer-run project, and we rely on donations from the community to keep the lights on. We understand that donating money can be tough, especially in these challenging times. As such, we are very grateful to everyone who contributes financially to the project.</p>
-<a class="inline-flex items-center px-6 py-3 border border-(--color-primary-500) rounded-lg font-semibold text-(--color-primary-500) hover:text-(--color-primary-600) hover:border-(--color-primary-600) transition-colors" href="https://opencollective.com/getsolus" target="_blank" rel="noreferrer"><span class="flex justify-center font-semibold gap-2 p-4">Support us on OpenCollective</span></a>
+{{< button
+    text="Support us on OpenCollective"
+    link="https://opencollective.com/getsolus"
+>}}
 {{</ section >}}
