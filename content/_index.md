@@ -11,23 +11,24 @@ toc: false
   </section>
 </div>
 
-<div class="mx-auto">
-  <img src="/imgs/laptop-budgie.png" alt="Laptop with Budgie Desktop on Solus" />
-</div>
+<div class="pb-30 w-screen max-w-full pt-6 relative z-0 pb-8">
+  <div class="mt-5 flex justify-center">
+    <img src="/imgs/laptop-budgie.png" alt="Laptop with Budgie Desktop on Solus" />
+  </div>
 
-<div class="hextra-cards mt-4 gap-4 grid not-prose justify-center w-full md:w-xl mx-auto mb-16" style="--hextra-cards-grid-cols: 2;">
-  {{< button
-    link="https://help.getsol.us"
-    text="Help Center"
-    icon="book-open"
-  >}}
-
-  {{< button
-    link="/download"
-    text="Download"
-    icon="download"
-    primary=true
-  >}}
+  <div class="spacing-1 mt-5 flex flex-row flex-wrap justify-center gap-4">
+    {{< button
+      link="https://help.getsol.us"
+      text="Help Center"
+      icon="book-open"
+    >}}
+    {{< button
+      link="/download"
+      text="Download"
+      icon="download"
+      primary=true
+    >}}
+  </div>
 </div>
 
 {{< section heading="Features" alt=true borderTop=true >}}
@@ -114,6 +115,9 @@ toc: false
   <div class="text-lg leading-relaxed">
    <p class="mb-5">Solus is empowered by the shared vision of a strong community working for a common goal. All developments and improvements to Solus are by people who want to use their computers just like you do. Solus stands strong on an open platform, powered by industry-proven technologies, including GNU/Linux.</p>
    <p class="mb-5">This is a volunteer-run project, and we rely on donations from the community to keep the lights on. We understand that donating money can be tough, especially in these challenging times. As such, we are very grateful to everyone who contributes financially to the project. If you would like to support our work, please consider donating to our OpenCollective.</p>
-   <a class="solus-button inline-flex items-center px-6 py-3 border border-(--color-primary-500) rounded-lg font-semibold text-(--color-primary-500) hover:text-(--color-primary-600) hover:border-(--color-primary-600) transition-colors" href="https://opencollective.com/getsolus" target="_blank" rel="noreferrer"><span class="flex justify-center font-semibold gap-2 p-4">Support us on OpenCollective</span></a>
+   {{< button 
+    text="Support us on OpenCollective"
+    link="https://opencollective.com/getsolus"
+   >}}
   </div>
 {{</ section >}}
