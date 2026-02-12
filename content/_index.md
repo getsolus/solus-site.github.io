@@ -11,9 +11,18 @@ toc: false
   </section>
 </div>
 
-<div class="pb-30 w-screen max-w-full pt-6 relative z-0 pb-8">
-  <div class="mt-5 flex justify-center">
-    <img src="/imgs/laptop-budgie.png" alt="Laptop with Budgie Desktop on Solus" />
+<div class="pb-10 md:pb-12 lg:pb-14 w-screen max-w-full pt-6 relative z-0 pb-8">
+  <div class="my-5 flex justify-center">
+    <div class="w-full max-w-5xl mx-auto">
+      <div class="relative block mt-5 mb-3 mx-auto">
+        <img class="relative" src="/imgs/laptop-frame.webp" alt="Laptop frame without a screen picture" width="2000" height="1220" />
+        <div class="absolute top-[4%] left-1/2 w-[82%] -translate-x-1/2">
+          <picture>
+            <img class="w-full rounded" src="/imgs/laptop-image.webp" alt="Budgie Desktop with no applications open" width="750" height="422" />
+          <picture>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="spacing-1 mt-5 flex flex-row flex-wrap justify-center gap-4">
