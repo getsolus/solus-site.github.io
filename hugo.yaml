@@ -54,14 +54,14 @@ menus:
     - name: Blog
       pageRef: /blog
       weight: 4
+    - name: Donate
+      url: /donate
+      weight: 5
     - name: Forums ↗
       url: "https://discuss.getsol.us"
-      weight: 5
+      weight: 6
     - name: Help ↗
       url: "https://help.getsol.us"
-      weight: 6
-    - name: Donate ↗
-      url: "https://opencollective.com/getsolus"
       weight: 7
     - name: Matrix ↗
       url: "https://matrix.to/#/#solus:matrix.org"

@@ -51,7 +51,7 @@ When filing an issue, please be as detailed as possible. The more details there 
 {{< section heading="Funding & Support" >}}
 <p class="my-6">Another way to contribute to Solus without needing any technical skills or time is financially. Solus is a volunteer-run project, and we rely on donations from the community to keep the lights on. We understand that donating money can be tough, especially in these challenging times. As such, we are very grateful to everyone who contributes financially to the project.</p>
 {{< button
-    text="Support us on OpenCollective"
-    link="https://opencollective.com/getsolus"
+    text="Support Us"
+    link="/donate"
 >}}
 {{</ section >}}
