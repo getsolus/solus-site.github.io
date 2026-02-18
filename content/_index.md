@@ -4,12 +4,7 @@ title: Solus
 toc: false
 ---
 
-<div class="max-w-[90rem] mx-auto px-4 md:px-0">
-  <section class="w-full py-10 md:py-12 lg:py-14 text-center">
-    <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-5">The personal OS for Personal Computers</h1>
-    <p class="text-lg md:text-xl italic text-neutral-500 dark:text-neutral-400 leading-relaxed max-w-2xl mx-auto">A modern Open Source operating system to power your daily needs. Install today, update forever.</p>
-  </section>
-</div>
+{{< page-header title="The Personal OS for Personal Computers" subtitle="A modern Open Source operating system to power your daily needs. Install today, update forever." >}}
 
 <div class="pb-10 md:pb-12 lg:pb-14 w-screen max-w-full pt-6 relative z-0 pb-8">
   <div class="my-5 flex justify-center">
