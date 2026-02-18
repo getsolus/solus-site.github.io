@@ -1,0 +1,12 @@
+{{- $heading := .Get "heading" -}}
+
+<div class="bg-gradient-to-b md:bg-gradient-to-r from-(--color-primary-100) dark:from-slate-600 from-25% to-(--color-primary-400) dark:to-slate-900 to-100%  dark:bg-neutral-900 w-full">
+  <section class="w-full py-0 md:py-12 lg:py-14 border-t border-b border-neutral-300/75 dark:border-neutral-200/75">
+    <div class="bg-gradient-to-b md:bg-gradient-to-r from-white to-white/0 dark:from-gray-800 dark:to-gray-800/0 backdrop-blur-md shadow-lg shadow-(--color-primary-800)/80 md:ring ring-white/50 dark:ring-black/50 md:inset-shadow-sm inset-shadow-white/50 dark:inset-shadow-black/50 md:rounded-xl pt-5 max-w-[90rem] pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-left),1.5rem)] mx-auto">
+      <h2 class="text-4xl md:text-3xl font-semibold mb-10 text-(--color-primary-500)">{{ $heading }}</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        {{ .Inner }}
+      </div>
+    </div>
+  </section>
+</div>
