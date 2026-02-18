@@ -15,14 +15,14 @@ toc: false
 {{< editions-list >}}
 {{</ section >}}
 
-{{< section heading="System Requirements" alt=true >}}
+{{< section heading="System Requirements" alt=true borderTop=true >}}
   <div class="text-lg leading-relaxed">
     <p>The minimum and recommended system requirements to run Solus can be found on our
       <a class="text-[color:hsl(var(--primary-hue),100%,50%)] underline underline-offset-2 decoration-from-font" href="https://help.getsol.us/docs/user/quick-start/installation/system-requirements/" target="_blank" rel="noopener">Help Center <svg class="inline rtl:rotate-270 align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>.</p>
   </div>
 {{</ section >}}
 
-{{< section heading="Verification" >}}
+{{< section heading="Verification" borderTop=true >}}
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-screen-2xl">
     <div class="grid-cols-1 flex flex-col text-lg leading-relaxed">
       <p>It is important to verify the ISO image file you downloaded. Ensuring that the image hash matches, and that the signature can be decoded with our public key, lets you know that the file is not corrupted or tampered with in transit. Performing the verification is quick and easy, and gives you some extra assurance about your download. It also helps those giving support for installation issues by ruling out a failed or corrupted download.</p>
