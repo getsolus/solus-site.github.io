@@ -68,7 +68,7 @@ We do not authorize our branding (including our name or brand marks) to be used 
 
 ## Assets and More Info
 
-<div class="grid grid-cols-1 not-prose mx-auto my-24 w-1/2">
+<div class="spacing-1 my-24 flex flex-row flex-wrap justify-center not-prose">
   {{< button
     text="Download"
     icon="download"
