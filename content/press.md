@@ -4,12 +4,7 @@ title: Press Resources
 toc: false
 ---
 
-<div class="max-w-[90rem] mx-auto px-4 md:px-0">
-  <section class="w-full py-10 md:py-12 lg:py-14 text-center">
-    <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-5">Press Resources</h1>
-    <p class="text-lg md:text-xl italic text-neutral-500 dark:text-neutral-400 leading-relaxed max-w-2xl">We are always grateful for press coverage. It is our hope that our story inspires others to engage in Open Source Software.</p>
-  </section>
-</div>
+{{< page-header title="Press Resources" subtitle="We are always grateful for press coverage. It is our hope that our story inspires others to engage in Open Source Software." >}}
 
 {{< section heading="Basic Information" >}}
   <p class="mb-6">Solus is an operating system that is designed for modern home computing. Our distribution is built from scratch to ensure every tweak, configuration, and optimization enables the delivery of a singular, cohesive desktop experience.</p>
