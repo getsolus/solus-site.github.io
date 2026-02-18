@@ -74,7 +74,7 @@ Written in Go, [`solbuild`](https://github.com/getsol/solbuild) is a `chroot`-ba
 
 ## abi-wizard
 
-A tool for generating ABI reports for libraries and binaries. As a package maintainer, it's a challenging task to keep track of binary dependencies and ABI changes. [`abi-wizard`](https://github.com/getsol/abi-wizard) generates reports that can be used to inform maintainers of ABI and dependency changes.
+A tool for generating ABI reports for libraries and binaries. As a package maintainer, it's a challenging task to keep track of binary dependencies and ABI changes. [`abi-wizard`](https://github.com/getsolus/abi-wizard) generates reports that can be used to inform maintainers of ABI and dependency changes.
 
 ## ferryd
 
