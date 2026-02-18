@@ -7,7 +7,7 @@ toc: false
 <div class="max-w-[90rem] mx-auto px-4 md:px-0">
     <section class="w-full py-10 md:py-12 lg:py-14 text-center">
         <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-5">Solus Organization</h1>
-        <p class="text-lg md:text-xl italic text-neutral-500 leading-relaxed max-w-2xl">An independent organization dedicated to the creation and maintenance of Solus, a Linux-based operating system.</p>
+        <p class="text-lg md:text-xl italic text-neutral-500 dark:text-neutral-400 leading-relaxed max-w-2xl">An independent organization dedicated to the creation and maintenance of Solus, a Linux-based operating system.</p>
     </section>
 </div>
 

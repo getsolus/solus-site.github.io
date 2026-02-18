@@ -7,7 +7,7 @@ toc: false
 <div class="max-w-[90rem] mx-auto px-4 md:px-0">
   <section class="w-full py-10 md:py-12 lg:py-14 text-center">
     <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-5">The personal OS for Personal Computers</h1>
-    <p class="text-lg md:text-xl italic text-neutral-500 leading-relaxed max-w-2xl mx-auto">A modern Open Source operating system to power your daily needs. Install today, update forever.</p>
+    <p class="text-lg md:text-xl italic text-neutral-500 dark:text-neutral-400 leading-relaxed max-w-2xl mx-auto">A modern Open Source operating system to power your daily needs. Install today, update forever.</p>
   </section>
 </div>
 
@@ -40,16 +40,14 @@ toc: false
   </div>
 </div>
 
-{{< section heading="Features" alt=true borderTop=true >}}
-<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+{{< glass-section heading="Core Features" >}}
 {{< bulletpoint title="Rolling Release" description="Access the latest software updates without system reinstalls." borderBottom=false reducedPadding=true >}}
 {{< bulletpoint title="Curated" description="Our package repository is curated to provide a stable experience." borderBottom=false reducedPadding=true >}}
 {{< bulletpoint title="Stable" description="Package updates are tested before being pushed out to users." borderBottom=false reducedPadding=true >}}
 {{< bulletpoint title="Sane Defaults" description="Software works out-of-the-box, so you spend less time configuring." borderBottom=false reducedPadding=true >}}
-</div>
-{{</ section >}}
+{{</ glass-section >}}
 
-{{< section heading="Designed for Everyone" borderTop=true >}}
+{{< section heading="Designed for Everyone" >}}
 <div class="max-w-screen-2xl">
   <div class="flex flex-col gap-5 text-lg leading-relaxed mb-6">
     <p>Solus provides a multitude of experiences that enable you to get the most out of your hardware. From our curated Budgie experience for modern devices, to the more traditional Xfce experience for lower-end devices, Solus aims to provide the best experience for your device.</p>
