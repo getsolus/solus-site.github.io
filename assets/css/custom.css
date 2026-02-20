@@ -44,11 +44,6 @@
  *
  *******************************************************************/
 
-.solus-w-4xs {
-  /* Don't ask. This value came from solbit. */
-  width: 9.375em;
-}
-
 @media (width < 48rem) {
   .hextra-nav-container a:not(:first-child) {
     display: none;
@@ -68,4 +63,25 @@
 
 .hextra-nav-container a:first-child span:where(.dark, .dark *) {
   color: #f5f5f5;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  color: var(--color-primary-500);
+}
+
+main > h1 {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: calc(var(--spacing) * 5);
+}
+
+@media (width >= 48rem) {
+  main > h1 {
+    font-size: var(--text-5xl);
+  }
 }
