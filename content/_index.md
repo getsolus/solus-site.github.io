@@ -97,17 +97,17 @@ toc: false
   {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="Web browser"
-    subtitle="We ship with Mozilla Firefox, a fast and secure web browser."
+    subtitle="We ship with **Mozilla Firefox**, a fast and secure web browser."
   >}}
 
   {{< hextra/feature-card
     title="Email client"
-    subtitle="Take the hassle out of email by using the simple yet feature-rich Mozilla Thunderbird."
+    subtitle="Take the hassle out of email by using the simple, yet feature-rich, **Mozilla Thunderbird**."
   >}}
 
   {{< hextra/feature-card
     title="Office suite"
-    subtitle="Edit documents and presentations with the LibreOffice software suite."
+    subtitle="Edit documents and presentations with the **LibreOffice** software suite."
   >}}
   {{< /hextra/feature-grid >}}
 </div>
