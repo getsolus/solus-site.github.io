@@ -25,7 +25,7 @@ toc: false
     <img src="/imgs/verified.svg" alt="Verified" class="col-span-1 flex items-center justify-center mx-auto" />
   </div>
 
-  <div class="spacing-1 mt-5 flex flex-row flex-wrap justify-start gap-4">
+  <div class="spacing-1 mt-6 flex flex-row flex-wrap justify-start gap-4">
     {{< button
       link="https://help.getsol.us/docs/user/quick-start/installation/#verifying-the-iso"
       text="Learn More"
