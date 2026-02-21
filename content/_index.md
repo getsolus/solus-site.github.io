@@ -115,11 +115,11 @@ toc: false
 
 {{< section heading="Built By You" borderTop=true >}}
   <div class="text-lg leading-relaxed">
-   <p class="mt-6">Solus is empowered by the shared vision of a strong community working for a common goal. All developments and improvements to Solus are by people who want to use their computers just like you do. Solus stands strong on an open platform, powered by industry-proven technologies, including GNU/Linux.</p>
-   <p class="my-6">This is a volunteer-run project, and we rely on donations from the community to keep the lights on. We understand that donating money can be tough, especially in these challenging times. As such, we are very grateful to everyone who contributes financially to the project. If you would like to support our work, please consider donating to our OpenCollective.</p>
-   {{< button
+    <p class="mt-6">Solus is empowered by the shared vision of a strong community working for a common goal. All developments and improvements to Solus are by people who want to use their computers just like you do. Solus stands strong on an open platform, powered by industry-proven technologies, including GNU/Linux.</p>
+    <p class="my-6">This is a volunteer-run project, and we rely on donations from the community to keep the lights on. We understand that donating money can be tough, especially in these challenging times. As such, we are very grateful to everyone who contributes financially to the project. If you would like to support our work, please consider donating to our OpenCollective.</p>
+    {{< button
     text="Support us on OpenCollective"
     link="https://opencollective.com/getsolus"
-   >}}
+    >}}
   </div>
 {{</ section >}}
