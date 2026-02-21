@@ -70,14 +70,14 @@
   color: var(--color-primary-500);
 }
 
-.solus-main > h1 {
+main > h1 {
   font-size: var(--font-size-4xl);
   font-weight: var(--font-weight-semibold);
   margin-bottom: calc(var(--spacing) * 5);
 }
 
 @media (width >= 48rem) {
-  .solus-main > h1 {
+  main > h1 {
     font-size: var(--text-5xl);
   }
 }
