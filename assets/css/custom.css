@@ -66,22 +66,18 @@
 }
 
 .content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
+.content h2 {
   color: var(--color-primary-500);
 }
 
-main > h1 {
+.solus-main > h1 {
   font-size: var(--font-size-4xl);
   font-weight: var(--font-weight-semibold);
   margin-bottom: calc(var(--spacing) * 5);
 }
 
 @media (width >= 48rem) {
-  main > h1 {
+  .solus-main > h1 {
     font-size: var(--text-5xl);
   }
 }
