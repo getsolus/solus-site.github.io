@@ -38,7 +38,7 @@ toc: false
 {{< glass-section heading="Core Features" >}}
 {{< bulletpoint title="Rolling Release" description="Access the latest software updates without system reinstalls." borderBottom=false reducedPadding=true >}}
 {{< bulletpoint title="Curated" description="Our package repository is curated to provide a stable experience." borderBottom=false reducedPadding=true >}}
-{{< bulletpoint title="Stable" description="Package updates are tested before being pushed out to users." borderBottom=false reducedPadding=true >}}
+{{< bulletpoint title="Stable" description="Updates are pushed to users weekly after undergoing testing." borderBottom=false reducedPadding=true >}}
 {{< bulletpoint title="Sane Defaults" description="Software works out-of-the-box, so you spend less time configuring." borderBottom=false reducedPadding=true >}}
 {{</ glass-section >}}
 
