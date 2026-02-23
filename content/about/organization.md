@@ -22,7 +22,7 @@ toc: false
 {{< section heading="Getting Involved" alt=true borderTop=true >}}
 <div class="leading-7">
     <p class="mt-6">There are many ways you can get involved with the Solus project. Contributing package updates is only one way to help out the project. Some of them don't even involve any packaging or software knowledge.</p>
-    <p class="my-6">No matter how you wish to contribute, the best place to start is joining our <a class="text-[color:hsl(var(--primary-hue),100%,50%)] underline underline-offset-2 decoration-from-font" href="https://matrix.to/#/#solus:matrix.org" target="_blank" rel="noopener">Matrix Space <svg class="inline rtl:rotate-270 align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>. There you'll find a helpful community willing to answer any questions you may have.</p>
+    <p class="my-6">No matter how you wish to contribute, the best place to start is joining our {{< link to="https://matrix.to/#/#solus:matrix.org" text="Matrix space" >}}. There you'll find a helpful community willing to answer any questions you may have.</p>
 </div>
 
 {{< callout type="info" >}}
@@ -33,10 +33,10 @@ You can access Matrix spaces with dedicated clients. Solus has packaged [Element
 
 <h3 class="text-2xl font-semibold mt-8">Packaging Contributions</h3>
 <p class="mt-6 leading-7">One of the most visible ways of helping the project is by updating and maintaining packages. The Solus repository contains thousands of packages, which is a lot for a small team to handle. We are always welcoming and appreciative of assistance in maintaining software in the repository.</p>
-<p class="mt-6 leading-7">Getting started with packaging is generally pretty easy. If you are looking to help with packaging, check out our <a class="text-[color:hsl(var(--primary-hue),100%,50%)] underline underline-offset-2 decoration-from-font" href="https://help.getsol.us/docs/packaging" target="_blank" rel="noopener">packaging documentation <svg class="inline rtl:rotate-270 align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>.</p>
+<p class="mt-6 leading-7">Getting started with packaging is generally pretty easy. If you are looking to help with packaging, check out our {{< link to="https://help.getsol.us/docs/packaging" text="packaging documentation" >}}.</p>
 
 <h3 class="text-2xl font-semibold mt-8">Filing Issues</h3>
-<p class="my-6 leading-7">A great way to help out the project is by filing issues for problems that you are experiencing. This makes it much easier to track problems that people are having. They help ensure that nothing gets forgotten, and lets both you and us know when they've been resolved. Issues should be opened against our <a class="text-[color:hsl(var(--primary-hue),100%,50%)] underline underline-offset-2 decoration-from-font" href="https://github.com/getsolus/packages/issues" target="_blank" rel="noopener">packages repository <svg class="inline rtl:rotate-270 align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>.</p>
+<p class="my-6 leading-7">A great way to help out the project is by filing issues for problems that you are experiencing. This makes it much easier to track problems that people are having. They help ensure that nothing gets forgotten, and lets both you and us know when they've been resolved. Issues should be opened against our {{< link to="https://github.com/getsolus/packages/issues" text="packages repository" >}}.</p>
 
 {{< callout type="important" >}}
 When filing an issue, please be as detailed as possible. The more details there are, the easier it is to understand the problem.
@@ -45,7 +45,7 @@ When filing an issue, please be as detailed as possible. The more details there 
 <p class="mt-6 leading-7">Issues are also a great way to let us know that a piece of software in the repository is out-of-date. These help the team know and track what packages need to be updated, how out-of-date they are, and how to prioritize those updates. They also let us know there is demand for particular software.</p>
 
 <h3 class="text-lg font-semibold mt-8">Documentation</h3>
-<p class="mt-6 leading-7">Good and up-to-date documentation is a very valuable resource. Contributing to our Help Center documentation not only helps us, it helps the entire community. It's also easier than packaging. If writing help articles is something you are interested in, head on over to our <a class="text-[color:hsl(var(--primary-hue),100%,50%)] underline underline-offset-2 decoration-from-font" href="https://github.com/getsolus/help-center-docs" target="_blank" rel="noopener">Help Center repository <svg class="inline rtl:rotate-270 align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"></path></svg></a> on GitHub. The project README has all the information you need to get started.</p>
+<p class="mt-6 leading-7">Good and up-to-date documentation is a very valuable resource. Contributing to our Help Center documentation not only helps us, it helps the entire community. It's also easier than packaging. If writing help articles is something you are interested in, head on over to our {{< link to="https://github.com/getsolus/help-center-docs" text="Help Center repository" >}} on GitHub. The project README has all the information you need to get started.</p>
 {{</ section >}}
 
 {{< section heading="Funding & Support" >}}
