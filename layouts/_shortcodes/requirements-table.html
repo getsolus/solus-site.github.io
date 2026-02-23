@@ -1,0 +1,39 @@
+{{- with .Site.Data.downloads.requirements -}}
+    {{- $minimum := .minimum -}}
+    {{- $recommended := .recommended -}}
+
+    <table class="text-base not-prose">
+        <tr class="text-sm font-normal text-neutral-500 dark:text-neutral-400 border-b border-neutral-300/75 dark:border-neutral-200/75">
+            <th class="font-semibold pr-4 py-2 text-start not-prose"></th>
+            <th class="font-semibold px-4 py-2 text-start not-prose">Minimum</th>
+            <th class="font-semibold pl-4 py-2 text-start not-prose">Recommended</th>
+        </tr>
+        <tr>
+            <th class="font-semibold pr-4 py-4 text-start not-prose">Disk space free</th>
+            <th class="font-normal px-4 py-4 text-start not-prose">{{ $minimum.freeDiskSpace | markdownify }}</th>
+            <th class="font-normal pl-4 py-4 text-start not-prose">{{ $recommended.freeDiskSpace | markdownify }}</th>
+        </tr>
+        <tr>
+            <th class="font-semibold pr-4 py-4 text-start not-prose">Memory (RAM)</th>
+            <th class="font-normal px-4 py-4 text-start not-prose">{{ $minimum.ram | markdownify }}</th>
+            <th class="font-normal pl-4 py-4 text-start not-prose">{{ $recommended.ram | markdownify }}</th>
+        </tr>
+        <tr>
+            <th class="font-semibold pr-4 py-4 text-start not-prose">Processor (CPU)</th>
+            <th class="font-normal px-4 py-4 text-start not-prose">{{ $minimum.cpu | markdownify }}</th>
+            <th class="font-normal pl-4 py-4 text-start not-prose">{{ $recommended.cpu | markdownify }}</th>
+        </tr>
+        <tr>
+            <th class="font-semibold pr-4 py-4 text-start not-prose">Graphics (GPU)</th>
+            <th class="font-normal px-4 py-4 text-start not-prose">{{ $minimum.gpu | markdownify }}</th>
+            <th class="font-normal pl-4 py-4 text-start not-prose">{{ $recommended.gpu | markdownify }}</th>
+        </tr>
+        <tr>
+            <th class="font-semibold pr-4 py-4 text-start not-prose">System firmware</th>
+            <th class="font-normal px-4 py-4 text-start not-prose">{{ $minimum.firmware | markdownify }}</th>
+            <th class="font-normal pl-4 py-4 text-start not-prose">{{ $recommended.firmware | markdownify }}</th>
+        </tr>
+    </table>
+{{- else -}}
+    {{ errorf "Unable to load system requirements." }}
+{{- end -}}
