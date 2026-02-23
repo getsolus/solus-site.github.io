@@ -6,7 +6,7 @@ toc: false
 
 {{< page-header title="Solus Organization" subtitle="An independent organization dedicated to the creation and maintenance of Solus, a Linux-based operating system." >}}
 
-<section class="not-dark:bg-gray-100 bg-neutral-900 w-full py-10 md:py-12 lg:py-14 border-t border-b border-neutral-300/75 dark:border-neutral-200/75">
+<section class="not-dark:bg-gray-100 bg-neutral-900 w-full py-10 md:py-12 lg:py-14 border-t border-b border-neutral-300/75 dark:border-neutral-700/75">
     <div class="max-w-[90rem] pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-left),1.5rem)] mx-auto">
         <h2 class="text-(--color-primary-500) uppercase font-semibold mb-4">Mission Statement</h2>
         <blockquote class="text-xl md:text-2xl leading-relaxed pl-6 border-l-4 border-l-(--color-primary-500)">Our aim is to deliver an operating system experience that is robust and easy to use. We believe that users should be able to install Solus, and immediately get to work without having to jump through hoops. People should also be free to customize their system to work how they want, and be able to tinker without having to completely reinstall their operating system.</blockquote>
@@ -19,7 +19,7 @@ toc: false
 {{<  bulletpoint title="Community" description="The Solus project views its community as its heartbeat. A diverse and active community provides the essential feedback loop required for a small, independent team like ours to thrive." >}}
 {{</ section >}}
 
-{{< section heading="Getting Involved" alt=true borderTop=true >}}
+{{< section heading="Getting Involved" alt=true >}}
 <div class="leading-7">
     <p class="mt-6">There are many ways you can get involved with the Solus project. Contributing package updates is only one way to help out the project. Some of them don't even involve any packaging or software knowledge.</p>
     <p class="my-6">No matter how you wish to contribute, the best place to start is joining our {{< link to="https://matrix.to/#/#solus:matrix.org" text="Matrix space" >}}. There you'll find a helpful community willing to answer any questions you may have.</p>
