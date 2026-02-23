@@ -1,0 +1,14 @@
+---
+minimum:
+    freeDiskSpace: 10 GB / 9.3 GiB
+    ram: 4 GB
+    cpu: 64-bit (x86-64) processor
+    firmware: BIOS / UEFI
+    gpu: Any onboard or dedicated adapter
+
+recommended:
+    freeDiskSpace: 25 GB / 23.3 GiB
+    ram: 8 GB
+    cpu: "[x86-64-v2](https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels) 2 GHz quad core"
+    firmware: UEFI
+    gpu: Any onboard or dedicated adapter
