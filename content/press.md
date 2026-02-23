@@ -10,7 +10,7 @@ toc: false
   <p class="mt-6">Solus is an operating system that is designed for modern home computing. Our distribution is built from scratch to ensure every tweak, configuration, and optimization enables the delivery of a singular, cohesive desktop experience.</p>
 {{</ section >}}
 
-{{< section heading="Latest Release" alt=true borderTop=true >}}
+{{< section heading="Latest Release" alt=true >}}
   <p class="mt-6">Solus 4.8 Opportunity is our current release. This release focuses on updating our editions, and refreshing the default kernels. We've called this release <i>Opportunity</i> for all the new opportunities that are open to us.</p>
 
   <div class="spacing-1 mt-6 flex flex-row flex-wrap justify-start gap-4">
@@ -21,7 +21,7 @@ toc: false
   </div>
 {{</ section >}}
 
-{{< section borderTop=true >}}
+{{< section >}}
   {{< hextra/feature-grid >}}
     {{< hextra/feature-card title="Announcements" subtitle="Find all of our latest news and announcements on our blog. We post about our releases, events that are happening, and more." link="/blog" >}}
     {{< hextra/feature-card title="Branding" subtitle="Visit our branding page for guidelines and licensing information. You can also download our logo and graphics." link="/branding" >}}

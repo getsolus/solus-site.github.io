@@ -90,7 +90,7 @@ toc: false
 </div>
 {{</ section >}}
 
-{{< section heading="Default Software" alt=true borderTop=true >}}
+{{< section heading="Default Software" alt=true >}}
 <div class="leading-7">
   <p class="mb-10">Solus ships with a variety of software out of the box so you can get going without a lot of setup fuss. Less setup means you can get started using your computer quicker.</p>
 
@@ -113,7 +113,7 @@ toc: false
 </div>
 {{</ section >}}
 
-{{< section heading="Built By You" borderTop=true >}}
+{{< section heading="Built By You" >}}
   <div class="leading-7">
     <p class="mt-6">Solus is empowered by the shared vision of a strong community working for a common goal. All developments and improvements to Solus are by people who want to use their computers just like you do. Solus stands strong on an open platform, powered by industry-proven technologies, including GNU/Linux.</p>
     <p class="my-6">This is a volunteer-run project, and we rely on donations from the community to keep the lights on. We understand that donating money can be tough, especially in these challenging times. As such, we are very grateful to everyone who contributes financially to the project. If you would like to support our work, please consider donating to our OpenCollective.</p>
