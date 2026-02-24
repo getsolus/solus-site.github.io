@@ -50,8 +50,10 @@ toc: false
   </div>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 max-w-screen-2xl">
-  <img src="/imgs/solus-screenshot-kate.webp" alt="For developers" class="col-span-1 flex items-center justify-center mt-8" />
+<div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-6 lg:gap-10 mt-8 max-w-screen-2xl">
+  <div class="col-span-1 flex items-center justify-center mt-8">
+    <img src="/imgs/solus-screenshot-kate.webp" alt="For developers" />
+  </div>
   <div class="grid-cols-1 flex flex-col leading-[1.8]">
     <h3 class="text-lg font-semibold mt-8">For Developers</h3>
     <div class="flex flex-col gap-5 leading-7">
@@ -62,14 +64,16 @@ toc: false
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 max-w-screen-2xl">
-  <div class="grid-cols-1 flex flex-col">
+  <div class="col-span-1 flex items-center justify-center mt-8">
+    <img src="/imgs/solus-screenshot-game.webp" alt="For gamers" />
+  </div>
+  <div class="grid-cols-1 flex flex-col lg:order-first">
     <h3 class="text-lg font-semibold mt-8">For Gamers</h3>
     <div class="flex flex-col gap-5 leading-7">
       <p class="mt-6">Many fantastic open source games are available natively for Solus, with many more available through <b>Steam</b>, <b>Proton</b>, and <b>Heroic Games Launcher</b>. Many gamepads will work right away, and support customization software like <b>AntiMicroX</b>. Within minutes, you can be playing all your own Steam titles for Linux, with a modern and optimized gaming runtime, and no setup hassles. Many open source games can be found in the Solus repository, including <b>Freeciv</b>, <b>OpenTTD</b>, <b>Red Eclipse</b>, and <b>Warzone 2100</b>.</p>
       <p class="mt-6">Solus is lightweight and snappy, meaning that when it's game time, you can be confident that your system resources are available and ready to go. You won't be let down by other processes making your system feel sluggish.</p>
     </div>
   </div>
-  <img src="/imgs/solus-screenshot-game.webp" alt="For gamers" class="col-span-1 flex items-center justify-center mt-8" />
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 max-w-screen-2xl">
