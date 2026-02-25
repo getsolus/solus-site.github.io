@@ -90,7 +90,7 @@ troyharvey:
     - href: https://github.com/HarveyDevel
       type: github
 malfisya:
-  matrix: "@malfisya:envs.net"
+  matrix: "@alfisya:matrix.org"
   names:
     first: Muhammad
     middle: Alfi
