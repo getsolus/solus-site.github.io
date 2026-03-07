@@ -78,8 +78,13 @@ menus:
       weight: 10
       params:
         icon: mastodon
-    - name: Theme Toggle
+    - name: Bluesky ↗
+      url: https://bsky.app/profile/getsolus.bsky.social
       weight: 11
+      params:
+        icon: bluesky
+    - name: Theme Toggle
+      weight: 12
       params:
         type: theme-toggle
 
