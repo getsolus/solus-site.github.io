@@ -14,7 +14,7 @@ toc: false
         <div class="absolute top-[4%] left-1/2 w-[82%] -translate-x-1/2">
           <picture>
             <img class="w-full rounded" src="/imgs/laptop-image.webp" alt="Budgie Desktop with no applications open" width="750" height="422" />
-          <picture>
+          </picture>
         </div>
       </div>
     </div>
