@@ -45,10 +45,6 @@
  *******************************************************************/
 
 @media (width < 48rem) {
-  .hextra-nav-container a:not(:first-child) {
-    display: none;
-  }
-
   .hextra-nav-container button.hextra-theme-toggle {
     display: none;
   }
@@ -63,6 +59,14 @@
 
 .hextra-nav-container a:first-child span:where(.dark, .dark *) {
   color: #f5f5f5;
+}
+
+/**
+ * Hide the first div of the footer, where the theme switch
+ * usually goes. We already have it in the navbar.
+ */
+.hextra-footer > div:first-child {
+  display: none;
 }
 
 .content h1,
