@@ -108,13 +108,14 @@ params:
   toc:
     displayTags: true
   navbar:
-    displayTitle: true
+    displayTitle: false
     displayLogo: true
     logo:
-      path: imgs/Solus.svg
+      path: imgs/Solus_With_Text.svg
+      dark: imgs/Solus_With_Text_Dark.svg
       link: /
-      width: 50
       height: 50
+      width: 145
     width: wide
   footer:
     width: wide
