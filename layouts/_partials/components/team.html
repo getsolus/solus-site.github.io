@@ -5,7 +5,7 @@
 
 {{- if eq $alt true -}}
 <section class="not-dark:bg-gray-100 bg-neutral-900 w-full py-10 md:py-12 lg:py-14 border-t border-b border-neutral-300/75 dark:border-neutral-700/75">
-    <div class="max-w-[90rem] mx-auto px-4 md:px-0">
+    <div class="max-w-[90rem] pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-left),1.5rem)] mx-auto">
         <h2 class="text-4xl md:text-3xl font-semibold mb-10 text-(--color-primary-500)">{{ $name }}</h2>
         <p class="mb-5">{{ $description | markdownify }}</p>
         <div class="hextra-cards mt-4 gap-8 grid not-prose" style="--hextra-cards-grid-cols: 2;">
@@ -26,7 +26,7 @@
     </div>
 </section>
 {{- else -}}
-<div class="w-full max-w-[90rem] mx-auto px-4 md:px-0">
+<div class="max-w-[90rem] pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-left),1.5rem)] mx-auto">
     <section class="w-full py-10 md:py-12 lg:py-14">
         <h2 class="text-4xl md:text-3xl font-semibold mb-10 text-(--color-primary-500)">{{ $name }}</h2>
         <p class="mb-5">{{ $description | markdownify }}</p>
