@@ -1,15 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Plans",
-"TWIS"
-]
-date =  "2016-07-05T23:03:56Z"
-title = "This Week in Solus -- Install #30"
-url = "/2016/07/05/this-week-in-solus-install-30/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- budgie
+- news
+- plans
+- twis
+date: "2016-07-05T23:03:56Z"
+title: 'This Week in Solus -- Install #30'
+url: /2016/07/05/this-week-in-solus-install-30/
+---
 Welcome to the 30th installation of This Week in Solus, or as I prefer to call this one, the Hackfest 1.2.1 roundup. 
 
 #### Hackfest 1.2.1
@@ -55,7 +57,7 @@ where possible sol will pick up the bits it needs to.
 
 #### C No Evil
 
-{{< relimg "Screenshot-from-2016-07-05-23-51-45.png" >}}
+![relimg](Screenshot-from-2016-07-05-23-51-45.png)
 
 Budgie at its core has long been written in Vala, with parts of the environment (**such as the Applet plugin API**) being written in C. But as we look towards improving performance, ensuring a firmer control on memory management and security, 
 and better defining an ABI, we have come to one, simple conclusion: **In order to address our concerns and fit our needs, we need to (re-)write the core in C**.

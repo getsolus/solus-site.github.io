@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+<div class="inline-flex flex-col items-center justify-center m-auto w-full min-h-[calc(100vh-var(--navbar-height))]">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" false) }}
+    <main class="solus-main w-full pb-8">
+        {{ .Content }}
+    </main>
+</div>
+
+{{ end }}

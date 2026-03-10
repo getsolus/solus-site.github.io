@@ -1,12 +1,15 @@
 ---
-title: "This Week in Solus - Install #47"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - news
 - twis
-date: 2017-10-16T05:24:54+03:00
-featuredimage: "/gnome-shell-3_26_1.jpg"
-url: "/2017/10/16/this-week-in-solus-install-47"
+date: "2017-10-16T05:24:54+03:00"
+featuredimage: /gnome-shell-3_26_1.jpg
+title: 'This Week in Solus - Install #47'
+url: /2017/10/16/this-week-in-solus-install-47
 ---
 
 Welcome to This Week in Solus, Install #47. It's been a real extraordinary week for us, rolling out updated GNOME and gstreamer stacks, LLVM and systemd upgrades, improvements to linux-steam-integration, and more! So let's get started.
@@ -18,7 +21,7 @@ Welcome to This Week in Solus, Install #47. It's been a real extraordinary week 
 
 With the release of the GNOME 3.26.1 stack last week, Bryan and I planned out our [OMG Weekendtoberfest](https://dev.solus-project.com/T4672), deciding to upgrade both our GNOME stack as well as gstreamer. The idea behind this was to reduce the amount of rebuilds that would need to occur, since most applications would need to be rebuilt as a result of glib2, libsoup, GTK3, etc. upgrades anyways.
 
-{{< relimg "spreadsheet-simulator-2017.jpg">}}
+![relimg](spreadsheet-simulator-2017.jpg)
 *Spreadsheet Simulator 2017*
 
 In total, roughly 400 packages were either upgraded or rebuilt across those two stack upgrades. Part of the GNOME stack upgrade also enabled us the opportunity to patch GNOME Control Center to integrate well into Solus, such as ensuring "Check for update" functionality that is exposed will open up the Solus Software Center. Mutter was patched to resolve an issue  that would cause desktops using it (Budgie Desktop and GNOME Shell in our case) to crash if a maximized window was closed. Furthermore, we're [testing a patch for Mutter](https://dev.solus-project.com/R2123:073872457254a8416dd9000f339f612722629947) to hopefully reduce CPU usage when we're using NVIDIA drivers.
@@ -64,7 +67,7 @@ Our GNOME desktop branding was [updated](https://dev.solus-project.com/R957:39e5
 
 ### Improvements to Linux Steam Integration
 
-{{< relimg "liblsi-intercept.jpg" >}}
+![relimg](liblsi-intercept.jpg)
 
 Linux Steam Integration has seen 3 releases this week and features a new "liblsi-intercept", which controls the dynamic linking for Steam binaries, resolving some long-standing issues such as crashes on start, broken fullscreen views, and ensures that the Steam client uses OS-provided libraries. liblsi-intercept also provides a whitelist to allow Steam to continue to load its own private libraries and our intercept behavior is controlled on a process-name basis.
 
@@ -72,7 +75,7 @@ What does this mean? Well it means the Steam client is now using more system lib
 
 Our liblsi-intercept also includes a fallback "vendor offendor" mode, ensuring certain vendored libraries are **blacklisted**, which ensures many games, including Black Mesa, will work correctly on the open source drivers. This matters for distributions using the new C++ ABI and games shipping the old C++ ABI as a vendored lib.
 
-{{< relimg "liblsi-intercept-blackmesa.jpg" >}}
+![relimg](liblsi-intercept-blackmesa.jpg)
 
 It resolves the typical issue seen in Steam on open source drivers:
 
@@ -95,7 +98,7 @@ Lastly, liblsi-intercept now has rewrite rules for ABI-stable SDL2 components (S
 
 ### Driverless Printing
 
-{{< relimg "driverless-printing.jpg" >}}
+![relimg](driverless-printing.jpg)
 
 Driverless printing is now supported under Solus, meaning if you have a driverless printer (AirPrint, IPP Everywhere, etc.), it'll just show up in the printer list (assuming you've rebooted since upgrading on stable). No need to add or configure it!
 

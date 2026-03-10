@@ -1,12 +1,15 @@
 ---
-title: "Supercharging Solus Infrastructure"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - infrastructure
 - news
-date: 2018-09-08T08:20:20+03:00
-featuredimage: "/supermicro.jpg"
-url: "/2018/09/08/supercharging-solus-infrastructure" # Example, /2017/01/18/adopting-flatpak-to-reassemble-third-party-applications
+date: "2018-09-08T08:20:20+03:00"
+featuredimage: /supermicro.jpg
+title: Supercharging Solus Infrastructure
+url: /2018/09/08/supercharging-solus-infrastructure
 ---
 The time is nigh for another significant shift in the infrastructure and development of Solus. As many of you know, we have been utilizing multiple dedicated OVH servers to provide a multitude of services: the website, forums, development tracker, package repo, and build server. Migrating to OVH was a significant upgrade from our previous hosting provider and this allowed us to retire the build server that once sat (literally) within arm’s length of Ikey. Just as that previous hosting providing and build server worked well for us at the time, the OVH servers we have been using of late have contributed significantly to the progress of Solus. With our current infrastructure, we have been able to achieve well over 25000 package builds, countless stack upgrades, many ISO releases, and a several fold increase in the size of our community.
 

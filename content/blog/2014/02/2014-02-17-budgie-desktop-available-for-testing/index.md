@@ -1,12 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2014-02-17T22:35:59Z"
-title = "Budgie Desktop Available For Testing"
-url = "/2014/02/17/budgie-desktop-available-for-testing/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+date: "2014-02-17T22:35:59Z"
+title: Budgie Desktop Available For Testing
+url: /2014/02/17/budgie-desktop-available-for-testing/
+---
 
 To further facilitate the development of Evolve OS, I reach out across the interwebz and ask you, the curious, to give Budgie Desktop a spin.
 
@@ -24,4 +26,4 @@ To get involved with development, jump over to the [GitHub repository!](https://
 
 Feel free to leave comments below, or on G+ as usual.
 
-{{< relimg "Screenshot-from-2014-02-17-220242.png" >}}
+![relimg](Screenshot-from-2014-02-17-220242.png)

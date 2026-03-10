@@ -1,26 +1,29 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Packages",
-"TWIS"
-]
-date =  "2016-02-29T08:32:50Z"
-title = "This Week in Solus -- Install #22"
-url = "/2016/02/29/this-week-in-solus-install-22/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- budgie
+- news
+- packages
+- twis
+date: "2016-02-29T08:32:50Z"
+title: 'This Week in Solus -- Install #22'
+url: /2016/02/29/this-week-in-solus-install-22/
+---
+ 
 Welcome to the 22nd installation of This Week in Solus 
 
 #### Marching to 1.1
 
 We have a bunch to report on regarding our march towards 1.1, which is undoubtedly going to be the most exciting Linux distro point release anyone has every had. I think after the nice read, you'll agree.
 
-{{< altimg "https://media.giphy.com/media/3oEdv7vedu6iAZoqTS/giphy.gif" >}}
+![relimg](https://media.giphy.com/media/3oEdv7vedu6iAZoqTS/giphy.gif)
 
 ##### Budgie Improvements
 
-{{< relimg "Screenshot-from-2016-02-29-03-51-45.png" >}}
+![relimg](Screenshot-from-2016-02-29-03-51-45.png)
 
 This week the Solus Project released Budgie 10.2.4. Alongside updated translations, this Budgie release resolves:
 
@@ -28,12 +31,12 @@ This week the Solus Project released Budgie 10.2.4. Alongside updated translatio
 - Resolved issues with volume icon size.
 - We have also [restored lightdm locking functionality via Raven](https://github.com/solus-project/budgie-desktop/commit/9392146c07b93d8b90681dafbd74d03e15590f12), now what we have rid ourselves of GDM again.
 
-{{< relimg "budgie.png" >}}
+![relimg](budgie.png)
 
 We have a new, pretty cute logo for Budgie now, thanks to the fantastic contribution was made by [Yuri Henrique](https://plus.google.com/+YuriHenriq). With this new logo, we are continuing to establish consistent branding, starting with the 
 replacing of the GNOME logo and information in the Details section of GNOME Control Center with branding and information pertaining to Solus.
 
-{{< relimg "Screenshot-from-2016-02-27-23-27-13.png" >}}
+![relimg](Screenshot-from-2016-02-27-23-27-13.png)
 
 ##### Core and Graphics Improvements
 
@@ -57,11 +60,11 @@ The long-standing issue of USB and UEFI booting has been resolved in internal te
 
 This is all categorized as "bandaids", since we will be completely replacing the installer in 1.2.
 
-{{< relimg "2Xu9NcsxjPHz.png" >}}
+![relimg](2Xu9NcsxjPHz.png)
 
 ##### The Bird is the Word
 
-{{< altimg "http://i.giphy.com/8bUYuWPi8fPDW.gif" >}}
+![relimg](http://i.giphy.com/8bUYuWPi8fPDW.gif)
 
 We have resolved mime association for Thunderbird in GNOME Control Center.
 

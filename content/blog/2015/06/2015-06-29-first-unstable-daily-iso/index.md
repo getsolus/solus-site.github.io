@@ -1,13 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"News",
-"Releases"
-]
-date =  "2015-06-29T07:48:19Z"
-title = "First Unstable Daily ISO"
-url = "/2015/06/29/first-unstable-daily-iso/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+- releases
+date: "2015-06-29T07:48:19Z"
+title: First Unstable Daily ISO
+url: /2015/06/29/first-unstable-daily-iso/
+---
 
 We're enormously happy to be shipping our very first daily ISO today! In a nut-shell, its built directly from our latest unstable development material, meaning its brand 
 spanking new, and all yours for the humble price of $0.00! This ISO is configured to continue using our unstable software sources, and as such is not meant for production 
@@ -54,6 +56,6 @@ As usual, leave a comment here, on the [forums](https://solus-project.com/forums
 
 ### Obligatory screenshots
 
-{{< relimg "Screenshot-from-2015-06-29-07-44-32.png" >}}
+![relimg](Screenshot-from-2015-06-29-07-44-32.png)
 
-{{< relimg "Screenshot-from-2015-06-29-07-40-07.png" >}}
+![relimg](Screenshot-from-2015-06-29-07-40-07.png)

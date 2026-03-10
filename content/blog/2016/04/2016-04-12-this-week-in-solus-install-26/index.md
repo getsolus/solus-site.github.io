@@ -1,15 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Packages",
-"Plans",
-"TWIS"
-]
-date =  "2016-04-12T17:52:22Z"
-title = "This Week in Solus -- Install #26"
-url = "/2016/04/12/this-week-in-solus-install-26/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- packages
+- plans
+- twis
+date: "2016-04-12T17:52:22Z"
+title: 'This Week in Solus -- Install #26'
+url: /2016/04/12/this-week-in-solus-install-26/
+---
 Welcome to the 26th installation of This Week in Solus. **Out a bit later than usual but hey, better late than never, right?** 
 
 #### All about that system.base
@@ -34,7 +36,7 @@ We have begun shrinking the size of our system.base component to give us more fl
 
 #### Locales
 
-{{<  relimg "Screenshot-from-2016-04-12-02-31-07.png" >}}
+![relimg](Screenshot-from-2016-04-12-02-31-07.png)
 
 We now ship locales for Firefox and Thunderbird. This makes it easier to switch to the language you desire / need without having to jump through the hoop of installing addons.
 
@@ -46,7 +48,7 @@ Honestly, the list shown below is merely the tip of the iceberg, and if you have
 
 ##### All I want for Christmas, is direct dependencies
 
-{{< relimg "Screenshot-from-2016-04-07-04-16-28.png" >}}
+![relimg](Screenshot-from-2016-04-07-04-16-28.png)
 
 Massive optimizations took place to ensure we only provide direct binary dependencies. As Ikey put it, frankly better than I can:
 
@@ -63,7 +65,7 @@ ypkg2 now automatically creates -dbginfo packages (**including for 32-bit**) aut
 
 ##### Git outta here!
 
-{{< relimg "Screenshot-from-2016-04-09-04-19-54.png" >}}
+![relimg](Screenshot-from-2016-04-09-04-19-54.png)
 
 We now export the git log for tagged releases into built packages, meaning you see the actual history exactly as it is in git.
 
@@ -72,11 +74,11 @@ We now export the git log for tagged releases into built packages, meaning you s
 It isn't a mystery that sometimes it takes multiple tries to get a package built (**seriously guys, I'm still working on monodevelop, halp!**). Having our build tool give you the necessary information to assess the issues you're dealing with and help you 
 address them quickly is obviously pretty important.
 
-{{< relimg "Screenshot-from-2016-04-05-18-59-11.png" >}}
+![relimg](Screenshot-from-2016-04-05-18-59-11.png)
 
 Error reporting has been greatly improved in ypkg2. If we failed to parse your package.yml file, we let you know why and what keys have the issues.
 
-{{< altimg "http://i.giphy.com/oCODw2sr3WZt6.gif" >}}
+![relimg](http://i.giphy.com/oCODw2sr3WZt6.gif)
 
 KRC and I also banded together to protect the warning string when your filename isn't package.yml. It was a noble sacrifice, I know.
 
@@ -90,7 +92,7 @@ Here are some performance metrics / benchmarks for libxml2:
 -  First set of changes hit libxml2: [http://openbenchmarking.org/result/1604106-GA-1604100GA01](http://openbenchmarking.org/result/1604106-GA-1604100GA01)
 -  Gains in xz decompression: [http://openbenchmarking.org/result/1604107-GA-1604102GA92](http://openbenchmarking.org/result/1604107-GA-1604102GA92)
 
-{{< relimg "Screenshot-from-2016-04-10-23-17-42.png" >}}
+![relimg](Screenshot-from-2016-04-10-23-17-42.png)
 
 
 #### Package Updates

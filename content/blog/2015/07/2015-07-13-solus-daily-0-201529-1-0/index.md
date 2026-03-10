@@ -1,13 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"News",
-"Releases"
-]
-date =  "2015-07-13T21:39:07Z"
-title = "Solus Daily: 0.201529.1.0"
-url = "/2015/07/13/solus-daily-0-201529-1-0/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+- releases
+date: "2015-07-13T21:39:07Z"
+title: 'Solus Daily: 0.201529.1.0'
+url: /2015/07/13/solus-daily-0-201529-1-0/
+---
 
 The latest Solus Operating System Daily ISO is now available for testing. Be reminded this is an unstable development ISO
 
@@ -19,7 +21,7 @@ Note: No password is required to login. Automatic login is disabled, simply hit 
 
 This release also sees the introduction of the Arc-Darker theme as a new default.
 
-{{< relimg "Screenshot-from-2015-07-13-22-34-36.png" >}}
+![relimg](Screenshot-from-2015-07-13-22-34-36.png)
 
 #### Changes in this release:
 

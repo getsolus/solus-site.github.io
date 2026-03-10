@@ -1,0 +1,76 @@
+:root {
+  /* Set the primary color to the light color of the Solus logo */
+  --primary-hue: 213deg;
+  --primary-saturation: 71%;
+  --primary-lightness: 60%;
+
+  --color-primary-50: hsl(var(--primary-hue) var(--primary-saturation) calc(var(--primary-lightness) + calc(calc(100% - var(--primary-lightness)) / 50) * 47));
+  --color-primary-100: hsl(var(--primary-hue) var(--primary-saturation) calc(var(--primary-lightness) + calc(calc(100% - var(--primary-lightness)) / 50) * 44));
+  --color-primary-200: hsl(var(--primary-hue) var(--primary-saturation) calc(var(--primary-lightness) + calc(calc(100% - var(--primary-lightness)) / 50) * 36));
+  --color-primary-300: hsl(var(--primary-hue) var(--primary-saturation) calc(var(--primary-lightness) + calc(calc(100% - var(--primary-lightness)) / 50) * 27));
+  --color-primary-400: hsl(var(--primary-hue) var(--primary-saturation) calc(var(--primary-lightness) + calc(calc(100% - var(--primary-lightness)) / 50) * 16));
+  --color-primary-500: hsl(var(--primary-hue) var(--primary-saturation) var(--primary-lightness));
+  --color-primary-600: hsl(var(--primary-hue) var(--primary-saturation) calc(calc(var(--primary-lightness) / 50) * 45));
+  --color-primary-700: hsl(var(--primary-hue) var(--primary-saturation) calc(calc(var(--primary-lightness) / 50) * 39));
+  --color-primary-800: hsl(var(--primary-hue) var(--primary-saturation) calc(calc(var(--primary-lightness) / 50) * 32));
+  --color-primary-900: hsl(var(--primary-hue) var(--primary-saturation) calc(calc(var(--primary-lightness) / 50) * 24));
+
+  --box-shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --box-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --box-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.hextra-custom-footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/******************************************************************
+ *
+ * ROBOTO FONT START
+ *
+ *******************************************************************/
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/fonts/Roboto[ital,wdth,wght].ttf) format('truetype');
+}
+
+/******************************************************************
+ *
+ * ROBOTO FONT END
+ *
+ *******************************************************************/
+
+@media (width < 48rem) {
+  .hextra-nav-container button.hextra-theme-toggle {
+    display: none;
+  }
+}
+
+/**
+ * Hide the first div of the footer, where the theme switch
+ * usually goes. We already have it in the navbar.
+ */
+.hextra-footer > div:first-child {
+  display: none;
+}
+
+.content h1,
+.content h2 {
+  color: var(--color-primary-500);
+}
+
+main > h1 {
+  font-size: var(--text-4xl);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: calc(var(--spacing) * 5);
+}
+
+@media (width >= 48rem) {
+  main > h1 {
+    font-size: var(--text-5xl);
+  }
+}

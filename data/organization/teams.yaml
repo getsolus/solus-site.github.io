@@ -1,0 +1,58 @@
+---
+- description: These members support and enable everyone else to be able to do what needs to be done. This includes managing our finances, and the accounts and services we need to run a distribution. They are also responsible for the high level decisions that chart the overall course of the project.
+  members:
+    davidharder: ""
+    joeyriches: ""
+    reillybrogan: ""
+    traceyclark: ""
+    troyharvey: ""
+  name: Admin Team
+- description: This team has push access to all Solus repositories, and makes general decisions about the project.
+  members:
+    algent: ""
+    davidharder: ""
+    evanmaddock: ""
+    gavinzhao: ""
+    hanskelson: ""
+    joeyriches: ""
+    malfisya: ""
+    reillybrogan: ""
+    silkehofstra: ""
+    traceyclark: ""
+    troyharvey: ""
+  name: Solus Staff
+- description: This team handles the building and management of packages in the Solus repository. They handle package inclusion requests, package deprecations, and triage update requests and package issues. On top of all that, they generally maintain packages in the repository. Some team members help maintain one or more of our included desktop environments to ensure they remain up-to-date, and integrate well.
+  members:
+    algent: ""
+    davidharder: ""
+    evanmaddock: Budgie & Xfce Maintainer
+    gavinzhao: ""
+    hanskelson: ""
+    joeyriches: GNOME Maintainer
+    malfisya: GNOME Maintainer
+    reillybrogan: Plasma Maintainer
+    silkehofstra: ""
+    traceyclark: ""
+    troyharvey: Plasma Maintainer
+  name: Packaging Team
+- description: These members write and maintain software for Solus, such as `eopkg`, `ypkg`, and `solbuild`. This also includes developing our website and [Help Center](https://help.getsol.us).
+  members:
+    evanmaddock: ""
+    hanskelson: ""
+    joeyriches: ""
+    reillybrogan: ""
+    silkehofstra: ""
+  name: Development Team
+- description: This team is responsible for ensuring that the Solus infrastructure and services are kept up to date and running smoothly.
+  members:
+    reillybrogan: ""
+    silkehofstra: ""
+    troyharvey: ""
+  name: Infrastructure Team
+- description: This team is responsible for interacting with the community. That means writing and maintaining documentation on our Help Center, and writing blog posts and forum news posts. They also keep our community safe and friendly by moderating our online spaces like our [forum](https://discuss.getsol.us), [Matrix space](https://matrix.to/#/#solus:matrix.org), and [subreddit](https://reddit.com/r/SolusProject).
+  members:
+    davidharder: ""
+    evanmaddock: ""
+    traceyclark: ""
+    troyharvey: ""
+  name: Community & Moderation Team

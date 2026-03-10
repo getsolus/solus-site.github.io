@@ -1,13 +1,15 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2017-01-18T21:59:12+02:00"
-featuredimage = "/flatpak-gnome-books.png"
-title = "Adopting Flatpak to Reassemble Third Party Applications"
-url = "/2017/01/18/adopting-flatpak-to-reassemble-third-party-applications"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+date: "2017-01-18T21:59:12+02:00"
+featuredimage: /flatpak-gnome-books.png
+title: Adopting Flatpak to Reassemble Third Party Applications
+url: /2017/01/18/adopting-flatpak-to-reassemble-third-party-applications
+---
 
 Solus, like most other Linux based systems, distributes the bulk of its software through
 binary repositories. To ignore most of the technical details, this is effectively a set
@@ -50,7 +52,7 @@ At the time of writing, 66% of 172 voters were in favour of Flatpak.
 ### Brand Power
 
 Clearly, in terms of "brand power", Snap has the upper hand currently. It's well known, well publicised,
-and receives constant coverage in the news. Flatpak, on the other hand, is often _percieved_
+and receives constant coverage in the news. Flatpak, on the other hand, is often _perceived_
 as having a slower rate of development, etc. In truth, Flatpak is actually just as quick
 in terms of development and enjoys very frequent updates. So, let us dismiss the power
 of the brand, and look at the technical aspects.

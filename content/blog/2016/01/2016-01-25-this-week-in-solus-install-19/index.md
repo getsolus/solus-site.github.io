@@ -1,14 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"News",
-"Packages",
-"TWIS"
-]
-date =  "2016-01-25T07:35:20Z"
-title = "This Week in Solus -- Install #19"
-url = "/2016/01/25/this-week-in-solus-install-19/"
-+++ 
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- news
+- packages
+- twis
+date: "2016-01-25T07:35:20Z"
+title: 'This Week in Solus -- Install #19'
+url: /2016/01/25/this-week-in-solus-install-19/
+---
+ 
 
 Welcome to the 19th installation of This Week in Solus. 
 
@@ -36,7 +39,7 @@ Here is a highlight of bugs we've smashed. Naturally some have been resolved by 
 - [VLC fails to play file properly](https://bugs.solus-project.com/show_bug.cgi?id=243)
 - [VLC is missing upnp functionality](https://bugs.solus-project.com/show_bug.cgi?id=529)
 
-{{< altimg "http://i.giphy.com/nryJthsS2EKf6.gif" >}}
+![relimg](http://i.giphy.com/nryJthsS2EKf6.gif)
 
 #### Package Updates
 

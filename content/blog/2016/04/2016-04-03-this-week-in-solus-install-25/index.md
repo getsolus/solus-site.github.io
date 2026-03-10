@@ -1,15 +1,17 @@
-+++
-author = "joshua"
-categories = [
-"Budgie",
-"News",
-"Packages",
-"TWIS"
-]
-date =  "2016-04-03T23:15:02Z"
-title = "This Week in Solus -- Install #25"
-url = "/2016/04/03/this-week-in-solus-install-25/"
-+++
+---
+authors:
+  - name: Joshua Strobl
+    link: https://github.com/JoshStrobl
+    image: https://avatars.githubusercontent.com/u/156574?v=4
+tags:
+- budgie
+- news
+- packages
+- twis
+date: "2016-04-03T23:15:02Z"
+title: 'This Week in Solus -- Install #25'
+url: /2016/04/03/this-week-in-solus-install-25/
+---
 
 Welcome to This Week in Solus, installation#25. If you haven't already read our [big announcement on Budgie 10.2.5](https://solus-project.com/2016/03/27/budgie-10-2-5-released/), stop reading this post and catch up. 
 
@@ -78,4 +80,4 @@ Updated:
 - [vertex-gtk-theme 20160329](https://git.solus-project.com/packages/vertex-gtk-theme/commit/?id=f85ba1faec5a20a2b305e3c6b4d00d3e30b3823e)
 - [ypkg 7.0](https://git.solus-project.com/packages/ypkg/commit/?id=56702952478524f189ba8233e538dc0628af63b1)
 
-{{< altimg "http://i.giphy.com/Yftg1iN1v6qnC.gif" >}}
+![relimg](http://i.giphy.com/Yftg1iN1v6qnC.gif)

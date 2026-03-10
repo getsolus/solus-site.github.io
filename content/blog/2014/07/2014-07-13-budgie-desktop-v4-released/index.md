@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Budgie"
-]
-date =  "2014-07-13T01:27:04Z"
-
-title = "Budgie Desktop v4 Released"
-url = "/2014/07/13/budgie-desktop-v4-released/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- budgie
+date: "2014-07-13T01:27:04Z"
+title: Budgie Desktop v4 Released
+url: /2014/07/13/budgie-desktop-v4-released/
+---
 
 Hello all,
 
@@ -31,7 +32,7 @@ Notable differences include:
 - Implement suspend support in the session dialog
 - Introduce a new run dialog (preview, linked to panel-run-dialog keybinding) -- written in Vala.
 
-{{< altimg "https://solus-project.com/pkg_screens/budgie-run-dialog.png" >}}
+![relimg](https://solus-project.com/pkg_screens/budgie-run-dialog.png)
 
 Note that I have made the decision to rewrite Budgie in Vala. Given the evolving complex relationship between the components, now seems a very sensible time to 
 rewrite in a truly object orientated language. Once this is complete, a proper applet API will be introduced. The main benefit of the change will be lowering the entry 

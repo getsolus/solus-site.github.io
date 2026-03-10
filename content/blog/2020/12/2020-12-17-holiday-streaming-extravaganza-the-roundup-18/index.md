@@ -1,12 +1,15 @@
 ---
-title: "Holiday Streaming Extravaganza | The Roundup #18"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - news
 - roundup
-date: 2020-12-17T13:15:16+02:00
-featuredimage: "/hehe-solus-4_2-releases-soon.jpg"
-url: "/2020/12/17/holiday-streaming-extravaganza-the-roundup-18"
+date: "2020-12-17T13:15:16+02:00"
+featuredimage: /hehe-solus-4_2-releases-soon.jpg
+title: 'Holiday Streaming Extravaganza | The Roundup #18'
+url: /2020/12/17/holiday-streaming-extravaganza-the-roundup-18
 ---
 
 Welcome to The Roundup #18, your bytes of Solus news. In this roundup, we are talking about our upcoming two week streaming extravaganza, Linux 5.10, new KDE goodies, and more!
@@ -20,7 +23,7 @@ While most years we would all run off to spend time with our families for the ho
 So from next Monday, December 21st to Sunday, January 3rd, we will be having daily live streams! These live streams will range in subjects and projects, such as:
 
 - A massive Haskell upgrade and rebuilds
-- budgie-desktop-view
+- Budgie-desktop-view
 - ferryd
 - libeopkg
 - usysconf
@@ -39,13 +42,13 @@ If you want to watch these streams, there are a few ways you can do it:
 
 Be sure to follow and enable notifications to know when we go live!
 
-{{< relimg "holiday-stream-week-1.jpg" >}}
+![relimg](holiday-stream-week-1.jpg)
 
-{{< relimg "holiday-stream-week-2.jpg" >}}
+![relimg](holiday-stream-week-2.jpg)
 
 ## KDE Applications 20.12.0, KDE Frameworks 5.77.0, Plasma 5.20.4
 
-{{< relimg "dolphin.jpg" >}}
+![relimg](dolphin.jpg)
 
 Global Maintainer Friedrich von Gellhorn (a.k.a Girtablulu) has landed the latest improvements to KDE's beloved applications, frameworks, and Plasma desktop environment for Solus users to enjoy this Friday. While we encourage you to read the respective changelogs, we have highlighted some things below!
 
@@ -78,7 +81,7 @@ Global Maintainer Friedrich von Gellhorn (a.k.a Girtablulu) has landed the lates
 
 ## Linux 5.10
 
-{{< relimg "linux-5_10.jpg" >}}
+![relimg](linux-5_10.jpg)
 
 As some of you know, we held back linux-current from some of the newer kernel releases due to regressions introduced in 5.7 that prevented some Samsung NVMe devices and controllers from functioning correctly, which would result in failures to boot the OS. These issues were fortunately resolved in 5.10-rc1 and we have been validating every 5.10 release candidate since. With the formal release of 5.10, we are excited to deliver it to our users, with it coming to the stable repositories this Friday with Linux 5.10.1.  Linux 5.10 has a ton of [fantastic changes](https://kernelnewbies.org/Linux_5.10) and we have highlighted some of them below:
 

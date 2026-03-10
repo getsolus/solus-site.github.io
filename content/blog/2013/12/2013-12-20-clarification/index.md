@@ -1,12 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"Uncategorized"
-]
-date =  "2013-12-20T11:57:31Z"
-title = "Clarification"
-url = "/2013/12/20/clarification/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- uncategorized
+date: "2013-12-20T11:57:31Z"
+title: Clarification
+url: /2013/12/20/clarification/
+---
 
 It has come to my attention that there is a lot of confusion surrounding EvolveOS right now. I noticed this today after reading a post on Reddit.
 

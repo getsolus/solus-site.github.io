@@ -1,0 +1,16 @@
+default.extend-ignore-re = [
+    "BYT",
+    "DOTA",
+    "GIR",
+    "ND",
+    "CheezeBurger",
+    "[Ss]hotcut",
+    "[Zz]ink",
+    "[Kk]onversation",
+    "astroid",
+    "evolveos",
+    "gir",
+    "halp",
+    "tilda",
+    "Roboto\\[ital,wdth,wght\\]\\.ttf"
+]

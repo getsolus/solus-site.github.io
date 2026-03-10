@@ -1,13 +1,14 @@
-+++
-author = "ikey"
-categories = [
-"News"
-]
-date =  "2015-06-18T19:45:40Z"
-
-title = "Status Update"
-url = "/2015/06/18/status-update-2/"
-+++
+---
+authors:
+  - name: Ikey Doherty
+    link: https://github.com/ikeycode
+    image: https://avatars.githubusercontent.com/u/53261402?v=4
+tags:
+- news
+date: "2015-06-18T19:45:40Z"
+title: Status Update
+url: /2015/06/18/status-update-2/
+---
 
 Hello all. It's high time for a status update and I'd like to let you all know where we're at, why there is a delay on releases, and how long things are going to take. 
 TL;DR: Don't panic, s'all good. 
@@ -38,11 +39,11 @@ command, and our public-key based system will queue their package for build and 
 This has resulted in an enormous acceleration in Solus development times, with 118 currently recorded builds being issued since Monday morning alone 
 (we reset the counter for final deployment, the real figure is around 150).
 
-{{< relimg "Screenshot-from-2015-06-18-20-28-35.png" >}}
+![relimg](Screenshot-from-2015-06-18-20-28-35.png)
 
 #### Where We're At
 
-We're actually in an awesome position now. Packages are being continously maintained and included with no bottleneck or bus factor, a centralised developer 
+We're actually in an awesome position now. Packages are being continuously maintained and included with no bottleneck or bus factor, a centralised developer 
 workflow exists, and we're screaming through our workload with impressive velocity.
 
 An enormous plus for many users: Steam is coming to Solus very soon! **Most of the emul32 work is done**, ready to start syncing into our repositories. Once 
@@ -50,7 +51,7 @@ Steam is integrated, we'll add the missing fglrx drivers, and a couple more nvid
 
 We recently included the **broadcom-sta** driver, which is undergoing further integration.
 
-{{< relimg "Screenshot-from-2015-06-18-06-22-00.png" >}}
+![relimg](Screenshot-from-2015-06-18-06-22-00.png)
 
 #### Timeline
 

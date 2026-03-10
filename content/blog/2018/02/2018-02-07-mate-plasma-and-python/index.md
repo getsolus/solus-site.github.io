@@ -1,12 +1,15 @@
 ---
-title: "MATE, Plasma, and Python 3 | The Roundup #3"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - news
 - roundup
-date: 2018-02-07T18:23:25+02:00
-featuredimage: "/mate-1_20.jpg"
-url: "/2018/02/07/mate-plasma-and-python-3"
+date: "2018-02-07T18:23:25+02:00"
+featuredimage: /mate-1_20.jpg
+title: 'MATE, Plasma, and Python 3 | The Roundup #3'
+url: /2018/02/07/mate-plasma-and-python-3
 ---
 
 Welcome to The Roundup #3, your bytes of Solus news. In this roundup, we're talking MATE Desktop 1.20 upgrade, Plasma updates, Python 3 upgrade, and an update on boot optimizations.
@@ -49,7 +52,7 @@ This project eliminates the use of legacy bash scripts to manage the lifetime of
 
 With Ikey's local testing and a working ahead-of-time cache, we went from 1.3 seconds with the AppArmor service (`apparmor.service`) to **around 8ms** with the aa-lsm-hook service, as shown in the comparison below.
 
-{{< relimg "aa-lsm-hook-comparison.png" >}}
+![relimg](aa-lsm-hook-comparison.png)
 
 Furthermore, [we've reduced the startup time](https://github.com/linuxmint/slick-greeter/commit/ef83fca41562884cad61059975e4e56a10f5a1a3) of the display manager by ensuring the Pythonic helper to set the keyboard layout is only executed on Debian/Ubuntu systems, as this adds unnecessary startup penalties on Solus. We plan on tackling the remaining Pythonic helper for HiDPI detection.
 

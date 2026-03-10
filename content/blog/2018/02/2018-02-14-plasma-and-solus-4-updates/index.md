@@ -1,12 +1,15 @@
 ---
-title: "Plasma and Solus 4 Updates | The Roundup #4"
-author: "joshua"
-categories:
+authors:
+- image: https://avatars.githubusercontent.com/u/156574?v=4
+  link: https://github.com/JoshStrobl
+  name: Joshua Strobl
+tags:
 - news
 - roundup
-date: 2018-02-14T18:34:49+02:00
-featuredimage: "/kernel_4_15_3.jpg"
-url: "/2018/02/14/plasma-and-solus-4-updates"
+date: "2018-02-14T18:34:49+02:00"
+featuredimage: /kernel_4_15_3.jpg
+title: 'Plasma and Solus 4 Updates | The Roundup #4'
+url: /2018/02/14/plasma-and-solus-4-updates
 ---
 
 Welcome to The Roundup #4, your bytes of Solus news. In this roundup, we're talking updates to Kernels, Plasma, various items for Solus 4, and more!

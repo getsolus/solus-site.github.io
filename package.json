@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "hugo server --disableFastRender -D --port 1313",
+    "build": "hugo --gc --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/typography": "^0.5.19",
+    "tailwindcss": "^4.1.18"
+  }
+}
