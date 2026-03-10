@@ -3,3 +3,19 @@
 @source "hugo_stats.json";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+.solus-section:not(.alt) {
+    @apply w-full max-w-[90rem] pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-left),1.5rem)] mx-auto;
+}
+
+.solus-section.alt {
+    @apply not-dark:bg-gray-100 bg-neutral-900 w-full py-10 md:py-12 lg:py-14 border-t border-b border-neutral-300/75 dark:border-neutral-700/75;
+}
+
+.solus-section:not(.alt) > .solus-section-inner {
+    @apply w-full py-10 md:py-12 lg:py-14;
+}
+
+.solus-section.alt > .solus-section-inner {
+    @apply max-w-[90rem] pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-left),1.5rem)] mx-auto;
+}
