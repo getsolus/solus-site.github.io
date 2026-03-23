@@ -6,9 +6,21 @@ algent:
     last: Albrahimi
   websites:
     - href: https://github.com/algent-al
-      type: github
+      icon: github
     - href: https://fosstodon.org/@algent
-      type: mastodon
+      icon: mastodon
+clintre:
+  matrix: "@clintre:matrix.org"
+  names:
+    first: Clint
+    last: Eschberger
+  websites:
+    - href: https://github.com/clintre
+      icon: github
+    - href: https://bsky.app/profile/original-syn.com
+      icon: bluesky
+    - href: https://www.reddit.com/user/0riginal-Syn/
+      icon: link
 davidharder:
   matrix: "@davidjharder:matrix.org"
   names:
@@ -16,7 +28,7 @@ davidharder:
     last: Harder
   websites:
     - href: https://github.com/davidjharder
-      type: github
+      icon: github
 evanmaddock:
   matrix: "@ebonjaeger:matrix.org"
   names:
@@ -24,9 +36,9 @@ evanmaddock:
     last: Maddock
   websites:
     - href: https://github.com/EbonJaeger
-      type: github
+      icon: github
     - href: https://floss.social/@EbonJaeger
-      type: mastodon
+      icon: mastodon
 gavinzhao:
   matrix: "@gzgavinzhao:matrix.org"
   names:
@@ -34,7 +46,7 @@ gavinzhao:
     last: Zhao
   websites:
     - href: https://github.com/GZGavinZhao
-      type: github
+      icon: github
 hanskelson:
   matrix: "@sheepman:m.stupid.frickin.website"
   names:
@@ -42,7 +54,7 @@ hanskelson:
     last: Kelson
   websites:
     - href: https://github.com/sheepman4267
-      type: github
+      icon: github
 joeyriches:
   matrix: "@joebonrichie:matrix.org"
   names:
@@ -50,7 +62,7 @@ joeyriches:
     last: Riches
   websites:
     - href: https://github.com/joebonrichie
-      type: github
+      icon: github
 reillybrogan:
   matrix: "@reillybrogan:matrix.org"
   names:
@@ -58,7 +70,7 @@ reillybrogan:
     last: Brogan
   websites:
     - href: https://github.com/ReillyBrogan
-      type: github
+      icon: github
 silkehofstra:
   matrix: "@silex:slxh.eu"
   names:
@@ -66,9 +78,9 @@ silkehofstra:
     last: Hofstra
   websites:
     - href: https://github.com/silkeh
-      type: github
+      icon: github
     - href: https://slxh.nl
-      type: other
+      icon: link
 traceyclark:
   matrix: "@traceyc:matrix.org"
   names:
@@ -76,11 +88,11 @@ traceyclark:
     last: Clark
   websites:
     - href: https://github.com/TraceyC77
-      type: github
+      icon: github
     - href: https://floss.social/@TraceyC
-      type: mastodon
+      icon: mastodon
     - href: https://www.tlcnet.info
-      type: other
+      icon: link
 troyharvey:
   matrix: "@harveydevel:matrix.org"
   names:
@@ -88,7 +100,7 @@ troyharvey:
     last: Harvey
   websites:
     - href: https://github.com/HarveyDevel
-      type: github
+      icon: github
 malfisya:
   matrix: "@alfisya:matrix.org"
   names:
@@ -97,6 +109,6 @@ malfisya:
     last: Syahrin
   websites:
     - href: https://github.com/malfisya
-      type: github
+      icon: github
     - href: https://masto.ai/@alfisya
-      type: mastodon
+      icon: mastodon

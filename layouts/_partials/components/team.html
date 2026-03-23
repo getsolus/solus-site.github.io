@@ -77,16 +77,10 @@
             <div class="flex gap-2 mt-auto">
                 {{- range $websites -}}
                     {{- $href := .href | safeURL -}}
-                    {{- $type := .type -}}
+                    {{- $icon := .icon -}}
 
                     <a href={{ $href }} target="_blank" rel="noreferrer" class="inline-flex items-center justify-center w-8 h-8 rounded-md bg-white/50 hover:bg-white dark:bg-gray-700/50 dark:hover:bg-gray-700 transition-colors">
-                        {{- if eq $type "github" -}}
-                            {{ template "link-icon" dict "name" "github" }}
-                        {{- else if eq $type "mastodon" -}}
-                            {{ template "link-icon" dict "name" "mastodon" }}
-                        {{- else if eq $type "other" -}}
-                            {{ template "link-icon" dict "name" "link" }}
-                        {{- end -}}
+                        {{ template "link-icon" dict "name" $icon }}
                     </a>
                 {{- end -}}
             </div>
