@@ -10,6 +10,7 @@
 - description: This team has push access to all Solus repositories, and makes general decisions about the project.
   members:
     algent: ""
+    clintre: ""
     davidharder: ""
     evanmaddock: ""
     gavinzhao: ""
@@ -51,6 +52,7 @@
   name: Infrastructure Team
 - description: This team is responsible for interacting with the community. That means writing and maintaining documentation on our Help Center, and writing blog posts and forum news posts. They also keep our community safe and friendly by moderating our online spaces like our [forum](https://discuss.getsol.us), [Matrix space](https://matrix.to/#/#solus:matrix.org), and [subreddit](https://reddit.com/r/SolusProject).
   members:
+    clintre: ""
     davidharder: ""
     evanmaddock: ""
     traceyclark: ""
