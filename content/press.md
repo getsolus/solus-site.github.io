@@ -15,7 +15,7 @@ toc: false
 
   <div class="spacing-1 mt-6 flex flex-row flex-wrap justify-start gap-4">
     {{< button
-      link="/2026/04/solus-4.9-released"
+      link="/2026/04/solus-4-9-released"
       text="Read Announcement"
     >}}
   </div>
