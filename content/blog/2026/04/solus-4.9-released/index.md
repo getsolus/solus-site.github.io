@@ -65,6 +65,10 @@ Solus now ships with Linux kernel 6.18.21. While we also provide an LTS kernel, 
 
 Solus 4.9 Budgie Edition ships with [Budgie 10.9.4](https://github.com/BuddiesOfBudgie/budgie-desktop/releases/tag/v10.9.4). Not much has changed since the release of Solus 4.8, but expect big updates Soon™.
 
+{{< callout type="important" >}}
+  With Budgie 10.10, coming to Solus **very soon**, Budgie will no longer support X11 at all, and will be *Wayland only*!
+{{< /callout >}}
+
 ### New defaults
 
 - Default terminal changed to [`ptyxis`](https://devsuite.app/ptyxis/).
@@ -115,3 +119,5 @@ Head on over to our [Download](/download) page to download the edition you wish 
 ## Thank you
 
 We want to give a shout-out to all of our supporters on [OpenCollective](https://opencollective.com/getsolus). We are grateful to all of our backers who fund our work, and help us bring this Linux distribution to everyone. Solus could not operate without your help. Your donations pay for our server infrastructure and services like email. They also help reimburse contributors for long-term and complex package and development work. You can [become a backer](https://opencollective.com/getsolus#category-CONTRIBUTE) today for as little as $1 a month. Thank you.
+
+*A previous version of this post was missing a warning about Budgie and X11. A warning has been added.*
