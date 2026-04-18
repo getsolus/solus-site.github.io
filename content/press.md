@@ -11,11 +11,11 @@ toc: false
 {{</ section >}}
 
 {{< section heading="Latest Release" alt=true >}}
-  <p class="mt-6">Solus 4.8 Opportunity is our current release. This release focuses on updating our editions, and refreshing the default kernels. We've called this release <i>Opportunity</i> for all the new opportunities that are open to us.</p>
+  <p class="mt-6">Solus 4.9 Serenity is our current release. This release focuses on under-the-hood changes, and improving the installation process. We've called this release <i>Serenity</i>, because in a world filled with turbulence, we aim to provide a calm harbor.</p>
 
   <div class="spacing-1 mt-6 flex flex-row flex-wrap justify-start gap-4">
     {{< button
-      link="/2025/11/29/solus-4-8-released"
+      link="/2026/04/solus-4.9-released"
       text="Read Announcement"
     >}}
   </div>
