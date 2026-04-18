@@ -11,7 +11,7 @@
 {{- $isoURL := printf "https://downloads.getsol.us/isos/%s/%s.iso" $version $release | safeURL -}}
 {{- $shasumURL := printf "https://downloads.getsol.us/isos/%s/%s.iso.sha256sum" $version $release | safeURL -}}
 {{- $signatureURL := printf "https://downloads.getsol.us/isos/%s/%s.iso.sha256sum.sign" $version $release | safeURL -}}
-{{- $torrentURL := printf "https://downloads.getsol.us/torrents/%s.torrent" $release | safeURL -}}
+{{- $torrentURL := printf "https://downloads.getsol.us/torrents/%s.iso.torrent" $release | safeURL -}}
 
 {{ $cardClass := "hover:border-gray-300 bg-gray-100 shadow dark:border-neutral-700 dark:bg-neutral-800" }}
 {{ $linkClass := "{{ $cardClass }} transition-all duration-200 hover:shadow-lg dark:hover:border-neutral-500 dark:hover:bg-neutral-700" }}
