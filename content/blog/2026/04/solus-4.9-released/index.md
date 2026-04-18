@@ -8,7 +8,7 @@ tags:
 - releases
 date: '2026-04-18T10:00:00-04:00'
 title: 'Solus 4.9 Released'
-url: '/2026/04/solus-4.9-released'
+url: /2026/04/solus-4-9-released
 ---
 
 ![Collage](collage.jpg "Solus 4.9 featured image")
