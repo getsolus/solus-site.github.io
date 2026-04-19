@@ -78,6 +78,11 @@ menus:
       pageRef: /about/team
       parent: about
       weight: 2
+    - identifier: technology
+      name: Technology
+      pageRef: /about/technology
+      parent: about
+      weight: 3
     - identifier: forums
       name: Forums ↗
       url: "https://discuss.getsol.us"
@@ -130,9 +135,9 @@ params:
       - identifier: security
         name: Security
         pageRef: /security
-      - identifier: technology
-        name: Technology
-        pageRef: /technology
+      - identifier: privacy
+        name: Privacy
+        pageRef: /privacy
   search:
     enable: true
     type: flexsearch
