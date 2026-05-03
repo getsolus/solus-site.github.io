@@ -11,7 +11,7 @@ tags:
 date: '2026-05-03T05:54:04+07:00'
 title: 'Clearing up the Fog'
 url: /2026/05/clearing-up-the-fog
-summary: 'Hello everyone! We want to talk about our licensing situation and our plan regarding it. Lets get to it!'
+summary: 'Hello everyone! We want to talk about our licensing situation and our plan regarding it. Let's dive in!'
 ---
 ![](clearing-up-the-fog-banner.jpg "Morning fog at some trees by Keravanjoki river in Vantaa, Finland")
 
