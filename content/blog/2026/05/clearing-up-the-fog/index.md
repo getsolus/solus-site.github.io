@@ -37,7 +37,7 @@ The ambiguity came from whether or not our packages recipes are actually open-so
 
 One of the beauties of open-source is allowing people to explore, modify, and contribute back to the code. As such, we are always grateful and encouraged that people contribute to Solus. However, our current situation introduces uncertainty about whether contributed code has been properly licensed.
 
-In most open-source projects, contributors impicitly agree to license their contributions under the same license as the rest of the project. For example, if people contributed lines of code to a project licensed under GPL-2.0-or-later, they implictly agree to the license stipulated. Some projects go further by enforcing a [Contributor License Agreement (CLA)](https://en.wikipedia.org/wiki/Contributor_license_agreement) to explicitly define contributors’ rights and obligations.
+In most open-source projects, contributors implicitly agree to license their contributions under the same license as the rest of the project. For example, if people contributed lines of code to a project licensed under GPL-2.0-or-later, they implicitly agree to the license stipulated. Some projects go further by enforcing a [Contributor License Agreement (CLA)](https://en.wikipedia.org/wiki/Contributor_license_agreement) to explicitly define contributors’ rights and obligations.
 
 Since we never enforce a CLA, and our packages repository lacked a license during a certain period, contributions in that timeframe fall into a legal grey area.
 
