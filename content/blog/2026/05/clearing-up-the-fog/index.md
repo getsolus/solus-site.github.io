@@ -23,13 +23,13 @@ If you don't know, Solus started its life as [Evolve OS](/2013/12/13/coming-soon
 
 During its life, the development of Solus and its related projects has happened in various places. They have included IRC, Matrix, Github, and Phabricator, to name a few. One of the most vital parts that make Solus the distribution you love is our package recipes, `package.yml`. The location of its development have moved around several places. 
 
-First, it lived at GitHub under the Evolve OS organization, and then under Solus Project. Then, we moved our development to a self-hosted instance of Phabricator (`dev.getsol.us`). [When the development restarted](/2023/04/18/a-new-voyage/), it was decided to move back to GitHub again under a new GetSolus organization. During these migrations, there were some pieces that got left behind unintentionally. Most notably, the license files for our package recipes. 
+First, it lived at GitHub under the Evolve OS organization, and then under Solus Project. Then, we moved our development to a self-hosted instance of Phabricator (`dev.getsol.us`). [When the development restarted in 2023](/2023/04/18/a-new-voyage/), it was decided to move back to GitHub again under a new GetSolus organization. During these migrations, there were some pieces that got left behind unintentionally. Most notably, the license files for our package recipes. 
 
-In the Evolve OS and Solus Project days, all those `package.yml` files lived in one repository (monorepo) which included its license file. At that time, the packages repository was licensed under [GNU GENERAL PUBLIC LICENSE Version 2 (GPL-2.0-or-later)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html#SEC1). When the migration to Phabricator took place, each package recipe was split into its own repository. However, the license file wasn’t carried over with those recipes. Now that we are back on GitHub and using monorepo again, our [getsolus/packages](https://github.com/getsolus/packages) repository no longer includes a license. That is a problem.
+In the Evolve OS and Solus Project days, all those `package.yml` files lived in one repository (monorepo) which included its license file. At that time, the packages repository was licensed under [GNU General Public License Version 2 (GPL-2.0-or-later)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html#SEC1). When the migration to Phabricator took place, each package recipe was split into its own repository. However, the license file wasn’t carried over with those recipes. Now that we are back on GitHub and using monorepo again, our [getsolus/packages](https://github.com/getsolus/packages) repository no longer includes a license. That is a problem.
 
 ## What kind of problem ?
 
-### It creates an ambiguity
+### It creates ambiguity
 
 The ambiguity came from whether or not our packages recipes are actually open-source. A software license is what distinguishes open-source from closed-source software. Typically, an open-source project will use one (or more) [OSI Approved Licenses](https://opensource.org/licenses). While our package repository is publicly accessible, it doesn't include a license file, which brings confusion as to whether the code is free to use or not.
 
@@ -39,7 +39,7 @@ One of the beauties of open-source is allowing people to explore, modify, and co
 
 In most open-source projects, contributors implicitly agree to license their contributions under the same license as the rest of the project. For example, if people contributed lines of code to a project licensed under GPL-2.0-or-later, they implicitly agree to the license stipulated. Some projects go further by enforcing a [Contributor License Agreement (CLA)](https://en.wikipedia.org/wiki/Contributor_license_agreement) to explicitly define contributors’ rights and obligations.
 
-Since we never enforce a CLA, and our packages repository lacked a license during a certain period, contributions in that timeframe fall into a legal grey area.
+Since we don't enforce a CLA, and our packages repository lacked a license during a certain period, contributions in that timeframe fall into a legal grey area.
 
 ### It hinders knowledge sharing
 
