@@ -65,7 +65,7 @@ That doesn't mean we can just apply the license to the package repository: we ne
 - By consenting to the change in the next contribution to the packages repository.
 - By replying to an email that we will send in the future.
 
-In short, this oversight that came up through our migrations needs to be cleaned up so everything is clear going forward. Relicensing under MPL-2.0 gives us that clarity. It ensures that our work remains open, contributions are properly defined, and collaboration can happen with confidence.
+In short, we want to clear up the “fog” around the licensing situation that surfaced through our migrations so everything is unambiguous going forward. Relicensing under MPL-2.0 gives us that clarity. It ensures that our work remains open, contributions are properly defined, and collaboration can happen with confidence.
 
 If you have contributed in the past, we appreciate your work and your patience as we resolve this. And if you are considering contributing, we hope this change makes it easier to do so with certainty. With new license in place, we’ve got a clear path forward for contributions and collaboration. 
 
