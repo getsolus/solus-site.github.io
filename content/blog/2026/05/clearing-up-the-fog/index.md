@@ -67,7 +67,7 @@ That doesn't mean we can just apply the license to the package repository: we ne
   
 ## Should I do anything?
 
-- For contributors: You can consent to the license change by the methods mentioned above. We need your consent for this change to happens.
+- For contributors: You can consent to the license change by the methods mentioned above. We need your consent for this change to happen.
 - For regular users and non-contributors: You **don't** have to do anything. This project doesn't affect your daily use of Solus.
 
 ## Conclusion
