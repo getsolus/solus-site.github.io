@@ -8,21 +8,55 @@ Static, [Hugo-based](https://gohugo.io) home of Solus and its projects. This web
 
 ## Creation
 
-### New Post
+To make page creation easier, we have some page archetypes that can be used to get started quickly.
 
-To create a new post, change to the main directory of this repo (solus-site.github.io).
-From there, call `hugo new PATH`. The `PATH` format is `blog/year/month/post-title/index.md`.
+### New content page
 
-For instance, to create a blog post for Feb. 2023 with the name "Welcome To The New Site", you would use: `hugo new blog/2023/02/welcome-to-the-new-site/index.md`.
-This would create `content/blog/2023/02/welcome-to-the-new-site/index.md`.
+Regular page content, e.g. non-blog posts, can be written in two different formats: Markdown, and HTML. Markdown pages are quicker and easier to create, but lack the flexibility that comes with writing HTML. Think about how you want the page to look, and choose which format to use based on the page's design.
 
-The markdown file will be created with our default configuration, which you can update as necessary. For metadata, most fields are self-explanatory.
+#### Markdown page
 
-- "name" - should match the name for your data file under `data/team/name.yml` (required)
-- "featuredimage" - a relative link to an image such as "/image.png" (optional)
-- "categories" is set to "news" by default. You can optionally add others.
+1. Change to the main directory of this repository.
+2. Run `hugo new` to create the basic page structure.
+   ```bash
+   hugo new --kind markdownpage content/pagename.md
+   ```
+3. Write the page content as Markdown.
 
-Any featured image file must be in the same directory as the blog post.
+#### HTML page
+
+1. Change to the main directory of this repository.
+2. Run `hugo new` to create the basic page structure.
+   ```bash
+   hugo new --kind htmlpage content/pagename.md
+   ```
+3. Write the page content using HTML.
+
+We have several component shortcodes you can use to achieve a design that fits with the rest of the website. Some of these include:
+
+- `section`
+- `link`
+- `button`
+- `bulletpoint`
+
+### New blog post
+
+1. Change to the main directory of this repository.
+2. Run `hugo new` to create the basic page structure. Replace the year, month, and title with real values in the example command below.
+   ```bash
+   hugo new --kind blog content/blog/2026/01/my-blog-post/index.md
+   ```
+3. Edit the post's frontmatter as necessary. Most fields are self-explanitory.
+   - `authors` - A list of people who authored the post.
+     ```yaml
+     authors:
+     - image: https://avatars.githubusercontent.com/u/5157277?v=4
+       link: https://github.com/EbonJaeger
+       name: Evan Maddock
+     ```
+   - `tags` - A tags a post should have, e.g. `news`, `devlog`, `release`. Tags are free; use as many as you like!
+   - `url` - The final URL of the blog post. `:year` and `:day` are placeholders that will automatically be filled in by Hugo during page generation, and should not need to be edited.
+4. Write the post content as Markdown.
 
 ### File and directory standards
 
@@ -48,21 +82,6 @@ As an example, as of October, the directory for 2023 looks like:
     └── solus-and-hacktoberfest-2023
         ├── hf10_horz_fcd_rgb.png
         └── index.md
-```
-
-Example of blog post metadata
-
-```
----
-title: "Solus 4.4 Released"
-author: "joshua"
-categories:
-  - news
-  - releases
-date: 2023-07-08T00:27:44+03:00
-featuredimage: "/solus-4.4-featured.jpg"
-url: "/2023/07/08/solus-4-4-released"
----
 ```
 
 ## Use caution before deleting files
