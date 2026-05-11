@@ -8,7 +8,7 @@ authors:
     name: Silke Hoftra
 tags:
 - news
-date: '2026-05-11T15:00:00+07:00'
+date: '2026-05-11T10:00:00+07:00'
 title: 'Clearing up the Fog'
 url: /2026/05/clearing-up-the-fog
 summary: 'Hello everyone! We want to talk about our licensing situation and our plan regarding it. Let's dive in!'
