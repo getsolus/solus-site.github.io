@@ -5,7 +5,7 @@ authors:
     name: Muhammad Alfi Syahrin
   - image: https://avatars.githubusercontent.com/u/5798032?v=4
     link: https://github.com/Silkeh
-    name: Silke Hoftra
+    name: Silke Hofstra
 tags:
 - news
 date: '2026-05-11T10:00:00+07:00'
