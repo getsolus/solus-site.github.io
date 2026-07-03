@@ -120,4 +120,6 @@ Head on over to our [Download](/download) page to download the edition you wish 
 
 We want to give a shout-out to all of our supporters on [OpenCollective](https://opencollective.com/getsolus). We are grateful to all of our backers who fund our work, and help us bring this Linux distribution to everyone. Solus could not operate without your help. Your donations pay for our server infrastructure and services like email. They also help reimburse contributors for long-term and complex package and development work. You can [become a backer](https://opencollective.com/getsolus#category-CONTRIBUTE) today for as little as $1 a month. Thank you.
 
-*A previous version of this post was missing a warning about Budgie and X11. A warning has been added.*
+{{< correction date="18 Apr 2026" >}}
+  A previous version of this post was missing a warning about Budgie and X11. A warning has been added.
+{{< /correction >}}
