@@ -1,0 +1,10 @@
+{{- $content := .InnerDeindent | markdownify -}}
+{{- $date := .Get "date" | default "" -}}
+
+{{- $parsedDate := time.AsTime $date -}}
+
+{{- partial "components/correction.html" (dict
+  "date" $parsedDate
+  "content" $content
+  )
+-}}

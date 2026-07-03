@@ -1,0 +1,11 @@
+{{- $content := .content -}}
+{{- $date := .date | default .Lastmod -}}
+
+{{ $datetime := (time.Format "2006-01-02T15:04:05.000Z" $date) }}
+
+<div class="bg-neutral-100 dark:bg-neutral-800 font-[400] text-sm text-neutral-600 dark:text-neutral-400">
+  <h5 class="pl-4 pr-4 pt-4 pb-1">Correction
+    <time class="block mt-6 text-base/4" datetime={{ $datetime }}>{{ partial "utils/format-date" $date }}</span>
+  </h5>
+  <p class="not-prose mt-2 pl-4 pr-4 pb-4">{{ $content }}</p>
+</div>
