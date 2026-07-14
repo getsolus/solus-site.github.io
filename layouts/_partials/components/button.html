@@ -1,6 +1,7 @@
 {{- $text := .text -}}
 {{- $icon := .icon -}}
 {{- $link := .link -}}
+{{- $extraClasses := .classes -}}
 {{- $primary := .primary -}}
 
 {{- $external := strings.HasPrefix $link "http" -}}
@@ -13,7 +14,7 @@
 {{- end -}}
 
 <a
-  class="max-w-fit flex flex-row cursor-pointer rounded-lg py-2 px-4 lg:py-3 lg:px-6 font-medium duration-200 ease-in-out hover:ease-in-out transition-all items-center justify-center text-center shadow-sm hover:shadow-lg {{ $classes }}"
+  class="flex flex-row cursor-pointer rounded-lg py-2 px-4 lg:py-3 lg:px-6 font-medium duration-200 ease-in-out hover:ease-in-out transition-all items-center justify-center text-center shadow-sm hover:shadow-lg {{ $classes }} {{ $extraClasses }}"
   href="{{ $href }}"
   {{ with $external }}target="_blank" rel="noreferrer"{{ end }}
 >

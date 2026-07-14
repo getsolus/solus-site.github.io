@@ -9,11 +9,13 @@
   
     {{- partial "components/edition" (dict
       "name" .name
+      "logo" .logo
+      "projectURL" .projectURL
       "description" .description
       "mediaSize" .mediaSize
       "torrentSize" .torrentSize
-      "shasum" .shasum
       "version" $version
+      "magnetURL" .magnetURL
       )
     -}}
   {{- end -}}
