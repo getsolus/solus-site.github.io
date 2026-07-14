@@ -4,31 +4,35 @@ torrentLocation: https://downloads.getsol.us/torrents/
 
 editions:
   - name: Budgie
+    logo: budgie-logo.svg
+    projectURL: https://buddiesofbudgie.org
     description: |
       A feature-rich desktop using modern technologies.
       Customize your desktop with the dedicated Budgie Desktop Settings app.
       Raven enables you to view notifications, control media playback and sound devices, and more!
     mediaSize: 4.1GB
-    torrentSize: 83KB
-    shasum: b99324e51d20d029f35932770a7d0f43dad64dc9bca11ec34a6b83cea603b579
+    magnetURL: magnet:?xt=urn:btih:0a52ad3e1cb28b6df2ac70e8e8f52e8aa39f0cfc&dn=Solus-Budgie-Release-2026-04-18.iso&xl=4338690048&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969&ws=https://downloads.getsol.us/isos/2026-04-18/Solus-Budgie-Release-2026-04-18.iso
   - name: GNOME
+    logo: gnome-logo.svg
+    projectURL: https://gnome.org
     description: |
       A simple, streamlined desktop for more modern hardware.
       We ship GNOME with a variety of extensions, including Speedinator and Appindicatorsupport. It's ready to go from the moment you start using it.
     mediaSize: 3.9GB
-    torrentSize: 80KB
-    shasum: 059c6718b461775efb67e21d19d3dc13fcead0b43691e9787e704fbfbe61841c
+    magnetURL: magnet:?xt=urn:btih:4135ddcf2ec7abb4aff8d00480d71b37e87e9099&dn=Solus-GNOME-Release-2026-04-18.iso&xl=4173447168&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969&ws=https://downloads.getsol.us/isos/2026-04-18/Solus-GNOME-Release-2026-04-18.iso
   - name: Plasma
+    logo: plasma-logo-colorful.svg
+    projectURL: https://kde.org/plasma-desktop/
     description: |
       A sophisticated desktop experience for the tinkerers.
-      We ship Plasma with a curated experience with sensible defaults, enabling you to more quickly get to tinkering with the parts you love most.
+      We ship Plasma with a curated experience and sensible defaults, enabling you to more quickly get to tinkering with the parts you love most.
     mediaSize: 3.8GB
-    torrentSize: 78KB
-    shasum: 446975fead7202c3e6d748b1833a62b79fedef26c7a96ca76a848bcc5551ed63
+    magnetURL: magnet:?xt=urn:btih:d90c9b007b19ea585cfc4df0e24de212a8261e13&dn=Solus-Plasma-Release-2026-04-18.iso&xl=4056121344&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969&ws=https://downloads.getsol.us/isos/2026-04-18/Solus-Plasma-Release-2026-04-18.iso
   - name: Xfce
+    logo: xfce4-logo.svg
+    projectURL: https://xfce.org
     description: |
       A lightweight desktop that aims to be fast while still being friendly.
       We ship the Xfce Desktop to provide a full-featured experience for users running less powerful hardware.
     mediaSize: 3.6GB
-    torrentSize: 73KB
-    shasum: a3085fa5c0171420e46e1554191fffe66e50dbea70c37e9d6cc4ec79fb557895
+    magnetURL: magnet:?xt=urn:btih:5fc4d3fa3fc070e5e3ebaa6a45265965fac9139c&dn=Solus-Xfce-Release-2026-04-18.iso&xl=3804708864&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969&ws=https://downloads.getsol.us/isos/2026-04-18/Solus-Xfce-Release-2026-04-18.iso

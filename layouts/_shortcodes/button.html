@@ -1,12 +1,14 @@
 {{- $text := .Get "text" -}}
 {{- $icon := .Get "icon" -}}
 {{- $link := .Get "link" -}}
+{{- $classes := .Get "classes" -}}
 {{- $primary := .Get "primary" | default false -}}
 
 {{- partial "components/button" (dict
     "text" $text
     "icon" $icon
     "link" $link
+    "classes" $classes
     "primary" $primary
   )
 -}}
