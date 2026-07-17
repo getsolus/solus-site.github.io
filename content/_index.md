@@ -124,6 +124,7 @@ toc: false
     {{< button
     text="Support us on OpenCollective"
     link="https://opencollective.com/getsolus"
+    classes="max-w-fit"
     >}}
   </div>
 {{</ section >}}

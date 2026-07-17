@@ -9,7 +9,6 @@
   name: Admin Team
 - description: This team has push access to all Solus repositories, and makes general decisions about the project.
   members:
-    algent: ""
     clintre: ""
     davidharder: ""
     evanmaddock: ""
@@ -24,7 +23,6 @@
   name: Solus Staff
 - description: This team handles the building and management of packages in the Solus repository. They handle package inclusion requests, package deprecations, and triage update requests and package issues. On top of all that, they generally maintain packages in the repository. Some team members help maintain one or more of our included desktop environments to ensure they remain up-to-date, and integrate well.
   members:
-    algent: ""
     davidharder: ""
     evanmaddock: Budgie & Xfce Maintainer
     gavinzhao: ""

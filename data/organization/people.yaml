@@ -1,14 +1,4 @@
 ---
-algent:
-  matrix: "@algent:matrix.org"
-  names:
-    first: Algent
-    last: Albrahimi
-  websites:
-    - href: https://github.com/algent-al
-      icon: github
-    - href: https://fosstodon.org/@algent
-      icon: mastodon
 clintre:
   matrix: "@clintre:matrix.org"
   names:

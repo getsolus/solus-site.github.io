@@ -1,10 +1,14 @@
 <!-- Start of edition component -->
 {{- $name := .name -}}
+{{- $logo := .logo -}}
+{{- $projectURL := .projectURL -}}
 {{- $description := .description -}}
 {{- $mediaSize :=.mediaSize -}}
 {{- $torrentSize := .torrentSize -}}
-{{- $shasum := .shasum -}}
 {{- $version := .version -}}
+{{- $magnetURL := .magnetURL -}}
+
+{{- $logoSrc := printf "/imgs/%s" $logo -}}
 
 {{- $release := printf "Solus-%s-Release-%s" $name $version -}}
 {{- $imagePath := printf "/imgs/release-images/%s/%s.jpg" $version $name -}}
@@ -13,53 +17,63 @@
 {{- $signatureURL := printf "https://downloads.getsol.us/isos/%s/%s.iso.sha256sum.sign" $version $release | safeURL -}}
 {{- $torrentURL := printf "https://downloads.getsol.us/torrents/%s.iso.torrent" $release | safeURL -}}
 
-{{ $cardClass := "hover:border-gray-300 bg-gray-100 shadow dark:border-neutral-700 dark:bg-neutral-800" }}
-{{ $linkClass := "{{ $cardClass }} transition-all duration-200 hover:shadow-lg dark:hover:border-neutral-500 dark:hover:bg-neutral-700" }}
-
-<div class="hextra-card group flex flex-col justify-start rounded-lg {{ $cardClass }}">
-  <img
-    alt="Solus {{ $name }} Preview"
-    class="hextra-card-image rounded-t-lg"
-    loading="lazy"
-    decoding="async"
-    src="{{ $imagePath | safeURL }}"
-  />
-
-  <span class="hextra-card-icon flex justify-center text-lg font-semibold items-start gap-2 pt-4 px-4 text-gray-600 dark:text-gray-100">
-    {{- $name -}}
-  </span>
-
-  <div class="hextra-card-subtitle items-start gap-2 font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2">{{- $description -}}</div>
-
-  <div
-    class="hextra-cards mt-4 mb-4 px-4 gap-4 grid not-prose"
-    style="--hextra-cards-grid-cols: 2;"
-  >
-    {{- partial "shortcodes/card" (dict
-        "link" $isoURL
-        "icon" "download"
-        "title" "Download"
-        "tag" $mediaSize
+<div class="flex flex-col border border-neutral-300/75 dark:border-neutral-700/75 rounded-2xl overflow-hidden">
+  <div class="w-full aspect-video border-b border-neutral-300/75 dark:border-neutral-700/75 relative overflow-hidden">
+    <img
+      alt="Solus {{ $name }} Preview"
+      class="object-cover"
+      loading="lazy"
+      decoding="async"
+      src="{{ $imagePath | safeURL }}"
+    />
+  </div>
+  <div class="p-6 flex flex-col flex-1">
+    <div class="flex items-center gap-3.5">
+      <div class="w-12 h-12 not-dark:bg-gray-100 bg-neutral-900 rounded-lg border border-neutral-300/75 dark:border-neutral-700/75 flex items-center justify-center shrink-0 p-2">
+        <img
+          class="w-full h-full object-contain rounded-lg"
+          loading="lazy"
+          width="48"
+          height="48"
+          src="{{ $logoSrc | safeURL }}"
+        />
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">{{ $name }}</h3>
+        <span class="text-xs text-(--color-primary-500) hover:text-(--color-primary-400) font-medium"><a href="{{ $projectURL | safeURL }}" target="_blank" rel="noreferrer">{{ $projectURL }}</a></span>
+      </div>
+    </div>
+    <div class="font-normal leading-relaxed text-gray-500 dark:text-gray-400 mt-6 flex-1">
+      {{ $description }}
+    </div>
+    <div class="flex flex-col gap-2 mt-6 text-gray-500 dark:text-gray-400 text-xs">
+      <p>Media size: {{ $mediaSize }}</p>
+      <div class="inline-flex">
+        <a href="{{ $shasumURL }}" download target="_blank" class="text-(--color-primary-500) hover:text-(--color-primary-400)">SHA checksum file</a>
+      </div>
+      <div class="inline-flex">
+        <a href="{{ $signatureURL }}" download target="_blank" class="text-(--color-primary-500) hover:text-(--color-primary-400)">Checksum signature file</a>
+      </div>
+      <div class="inline-flex">
+        <a href="{{ $magnetURL | safeURL }}" class="text-(--color-primary-500) hover:text-(--color-primary-400)">Magnet link</a>
+      </div>
+    </div>
+    <div class="flex flex-col md:flex-row gap-4 mt-6">
+      {{- partial "components/button" (dict
+          "link" $isoURL
+          "icon" "download"
+          "text" "Download"
+          "classes" "w-full md:w-1/2"
+          "primary" true
         )
-    -}}
-    {{- partial "shortcodes/card" (dict
-        "link" $torrentURL
-        "icon" "lightning-bolt"
-        "title" "Torrent"
-        "tag" $torrentSize
+      -}}
+      {{- partial "components/button" (dict
+          "link" $torrentURL
+          "icon" "lightning-bolt"
+          "text" "Torrent"
+          "classes" "w-full md:w-1/2"
         )
-    -}}
-    {{- partial "shortcodes/card" (dict
-        "link" $shasumURL
-        "icon" "key"
-        "title" "Hash"
-        )
-    -}}
-    {{- partial "shortcodes/card" (dict
-        "link" $signatureURL
-        "icon" "pencil"
-        "title" "Signature"
-        )
-    -}}
+      -}}
+    </div>
   </div>
 </div>
