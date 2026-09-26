@@ -93,6 +93,11 @@ menus:
       pageRef: /about/technology
       parent: about
       weight: 3
+    - identifier: llmpolicy
+      name: AI Policy
+      url: "https://help.getsol.us/docs/packaging/ai-policy"
+      parent: about
+      weight: 4
     - identifier: forums
       name: Forums ↗
       url: "https://discuss.getsol.us"
