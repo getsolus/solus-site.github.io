@@ -141,6 +141,8 @@ Run the task to deploy the website via Github Pages.
 go-task deploy
 ```
 
+Or, create a release from the web UI. To trigger a deployment, the tag should have the form `v5` where the number goes up by one with each deploy
+
 ## Licensing
 
 Apache 2.0
