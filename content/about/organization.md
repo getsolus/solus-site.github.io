@@ -28,7 +28,7 @@ toc: false
 {{< callout type="info" >}}
 Matrix is an open protocol for decentralized, secure communication.
 
-You can access Matrix spaces with dedicated clients. Solus has packaged [Element](https://element.io/), [Neochat](https://apps.kde.org/neochat/), and [Nheko](https://nheko-reborn.github.io/). Other clients are available as Flatpaks. See here for more information on Matrix clients.
+You can access Matrix spaces with dedicated clients. Solus has packaged [Element](https://element.io/), [Neochat](https://apps.kde.org/neochat/), and [Nheko](https://nheko-reborn.github.io/). Other clients are available as Flatpaks. See [here](https://matrix.org/ecosystem/clients/) for more information on Matrix clients.
 {{</ callout >}}
 
 <h3 class="text-2xl font-semibold mt-8">Packaging Contributions</h3>
@@ -53,5 +53,6 @@ When filing an issue, please be as detailed as possible. The more details there 
 {{< button
     text="Support us on OpenCollective"
     link="https://opencollective.com/getsolus"
+    classes="max-w-fit"
 >}}
 {{</ section >}}
