@@ -13,7 +13,7 @@ url: '/:year/:month/new-ai-llm-policy'
 summary: "The use of AI/LLM tools in software development has become an increasingly debated topic, and people have pretty strong opinions, one way, or the other. A question that people have been asking us lately is, “does the Solus Project have a policy about AI/LLM contributions?” Today, we are here to give you an answer."
 ---
 
-![](Mt._Fishtail_view.jpg "View of Mt. Fishtail and ranges, opposite to Mt. Annapurna early in the morning")
+![](Mt._Fishtail_view.jpg "View of Mt. Fishtail and ranges, opposite to Mt. Annapurna early in the morning, by Shedeur Ghale, CC BY-SA 4.0")
 
 The use of AI/LLM tools in software development has become an increasingly debated topic, and people have pretty strong opinions, one way, or the other. A question that people have been asking us lately is, "does the Solus Project have a policy about AI/LLM contributions?" Today, we are here to give you an answer.
 
