@@ -1,4 +1,4 @@
-{{- range $k, $_ := .Site.Data.organization.teams -}}
+{{- range $k, $_ := hugo.Data.organization.teams -}}
     {{- $alt := modBool $k 2 -}}
 
     {{- partial "components/team" (dict
