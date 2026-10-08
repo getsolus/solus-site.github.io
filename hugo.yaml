@@ -1,5 +1,5 @@
 baseURL: "https://getsol.us/"
-languageCode: "en-us"
+locale: "en-us"
 title: "Solus"
 
 build:

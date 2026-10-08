@@ -10,7 +10,7 @@
         <p class="mb-5">{{ $description | markdownify }}</p>
         <div class="hextra-cards mt-4 gap-8 grid not-prose" style="--hextra-cards-grid-cols: 2;">
             {{- range $key, $value := $members -}}
-                {{- $member := index site.Data.organization.people $key -}}
+                {{- $member := index hugo.Data.organization.people $key -}}
                 {{- with $member -}}
 
                     {{- template "team-member" (dict
@@ -32,7 +32,7 @@
         <p class="mb-5">{{ $description | markdownify }}</p>
         <div class="hextra-cards mt-4 gap-8 grid not-prose" style="--hextra-cards-grid-cols: 2;">
             {{- range $key, $value := $members -}}
-                {{- $member := index site.Data.organization.people $key -}}
+                {{- $member := index hugo.Data.organization.people $key -}}
                 {{- with $member -}}
 
                     {{- template "team-member" (dict
@@ -90,7 +90,7 @@
 
 {{- define "link-icon" -}}
     {{- $name := .name -}}
-    {{- $icon := index site.Data.icons $name -}}
+    {{- $icon := index hugo.Data.icons $name -}}
     {{- $attributes := .attributes | default "height=1em"}}
 
     {{- if not $icon -}}
