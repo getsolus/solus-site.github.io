@@ -77,4 +77,4 @@ We do not authorize our branding (including our name or brand marks) to be used 
   >}}
 </div>
 
-For more information, or if you have any questions about Solus Project branding, please email [comms@getsol.us](comms@getsol.us).
+For more information, or if you have any questions about Solus Project branding, please email [comms@getsol.us](mailto:comms@getsol.us).
