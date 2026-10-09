@@ -9,24 +9,24 @@ tags:
 date: '2026-10-10'
 title: 'An Update to Licensing Change Project'
 url: '/:year/:month/an-update-to-relicensing-project'
-summary: "Hello everyone! An update to the relicensing project progress. We just sent the first email to the contributors that have not yet provided their consent. If you have contributed to Solus packages repository, please check your inboxes (and your spam folder) for the email !"
+summary: "Hello everyone! An update to the relicensing project progress. We just sent the first email to the contributors that have not yet provided their consent. If you have contributed to Solus packages repository, please check your inboxes (and your spam folder) for the email!"
 ---
 ![](Solus-license-header.jpg "Modified Solus logo with license iconography on blue gradient background")
 
-Hello everyone! We have an update to the relicensing project progress. We just sent the first email to the contributors that have not yet provided their consent. If you have contributed to Solus packages repository, please check your inboxes (and your spam folder) for the email !
+Hello everyone! We have an update to the relicensing project progress. We just sent the first email to the contributors that have not yet provided their consent. If you have contributed to Solus packages repository, please check your inboxes (and your spam folder) for the email!
 
 This email ([see below](#email-content)) is a reminder for contributors to provide their consent to the license change. We will re-send this email in 30 days in case this one is lost or forgotten, unless you unsubscribe from our emails. This email will also not be sent again if we receive a reply from you.
 
 We hope all contributors are willing to provide their consent. Please reply to the email or leave a comment on the GitHub issue to confirm your consent.
 
-That is all for today. Thank you and cheers!
+That is all for today. Thank you, and cheers!
 
 ## Email Content
 
 > # Solus needs your help for licensing changes
 > Hello _YourName_!
 > 
-> *You are receiving this message because you have contributed to the Solus packages repository. You will be receiving this email every 30 days until you have replied or unsubscribe.*
+> *You are receiving this message because you have contributed to the Solus packages repository. This email will be sent again in 30 days in case this one is lost or forgotten, unless you unsubscribe from our emails. This email will also not be sent again if we receive a reply from you.*
 > 
 > We (Solus) are in the process of clarifying the license for our packages repository and we need your help. You can read our reasoning in full on [the blogpost](https://getsol.us/2026/05/clearing-up-the-fog/) but the TL;DR :
 > - **The problem**: Solus packages repository (which now lives at [getsolus/packages](https://github.com/getsolus/packages)) does not have clear licensing terms.
