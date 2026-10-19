@@ -8,7 +8,7 @@ tags:
 - news
 - roundup
 date: "2020-02-13T07:55:05+02:00"
-featuredimage: /new-fancy-things.jpg
+featuredimage: /new-fancy-things.webp
 title: 'We ❤️ Package Updates | The Roundup #15'
 url: /2020/02/13/we-love-package-updates-the-roundup-15
 ---

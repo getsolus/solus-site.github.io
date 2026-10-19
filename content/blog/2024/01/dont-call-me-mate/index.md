@@ -31,11 +31,11 @@ These screenshots are current as of the publishing of this post, we may change t
 
 1. Users will get a notification on every start-up informing them that they need to transition away from MATE.
 
-   ![Notification: Solus Transition Service](notification.png)
+   ![Notification: Solus Transition Service](notification.webp)
 
 2. Clicking on that notification will launch the Solus MATE Transition Tool.
 
-   ![MATE Transition Tool Launch](MTT-launch.png)
+   ![MATE Transition Tool Launch](MTT-launch.webp)
 
 3. Users select either Solus Budgie or Solus Xfce. The tool installs the selected edition, removes MATE, and prompts for a reboot
 4. The tool removes itself after a successful transition.

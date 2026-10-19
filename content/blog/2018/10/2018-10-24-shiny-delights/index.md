@@ -8,7 +8,7 @@ tags:
 - packages
 - roundup
 date: "2018-10-24T01:36:29+03:00"
-featuredimage: /shiny-delights.jpg
+featuredimage: /shiny-delights.webp
 title: 'Shiny Delights | The Roundup #11'
 url: /2018/10/24/shiny-delights
 ---

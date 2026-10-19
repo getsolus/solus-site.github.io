@@ -11,7 +11,7 @@ title: 'Solus 4.9 Released'
 url: /2026/04/solus-4-9-released
 ---
 
-![Collage](collage.jpg "Solus 4.9 featured image")
+![Collage](collage.webp "Solus 4.9 featured image")
 
 It's time for the first Solus release of 2026! We've made some under-the-hood changes aimed at making it easier and more intuitive for users to manage their systems, and we've addressed some parts of the installation process. 
 
@@ -61,7 +61,7 @@ Solus now ships with Linux kernel 6.18.21. While we also provide an LTS kernel, 
 
 ## Budgie
 
-![Solus 4.9 Budgie](Budgie.jpg "Solus 4.9 Budgie")
+![Solus 4.9 Budgie](Budgie.webp "Solus 4.9 Budgie")
 
 Solus 4.9 Budgie Edition ships with [Budgie 10.9.4](https://github.com/BuddiesOfBudgie/budgie-desktop/releases/tag/v10.9.4). Not much has changed since the release of Solus 4.8, but expect big updates Soon™.
 
@@ -75,7 +75,7 @@ Solus 4.9 Budgie Edition ships with [Budgie 10.9.4](https://github.com/BuddiesOf
 
 ## GNOME
 
-![Solus 4.9 GNOME](GNOME.jpg "Solus 4.9 GNOME")
+![Solus 4.9 GNOME](GNOME.webp "Solus 4.9 GNOME")
 
 Solus 4.9 GNOME Edition ships with GNOME 49.5, an update to the GNOME 49 Brescia series. This release comes with many bugfixes that will make your experience smoother. The full changelog can read be read [here](https://download.gnome.org/teams/releng/49.5/NEWS).
 
@@ -85,7 +85,7 @@ Solus 4.9 GNOME Edition ships with GNOME 49.5, an update to the GNOME 49 Brescia
 
 ## Plasma
 
-![Solus 4.9 Plasma](Plasma.jpg "Solus 4.9 Plasma")
+![Solus 4.9 Plasma](Plasma.webp "Solus 4.9 Plasma")
 
 Solus 4.9 Plasma Edition ships with KDE Frameworks 6.24.0, KDE Plasma 6.6.4, and KDE Gear 25.12.3.
 
@@ -108,7 +108,7 @@ Here are the upstream release notes:
 
 ## Xfce
 
-![Solus 4.9 Xfce](Xfce.jpg "Solus 4.9 Xfce")
+![Solus 4.9 Xfce](Xfce.webp "Solus 4.9 Xfce")
 
 Solus 4.9 ships with all the latest Xfce 4.20 series software. Being a desktop environment that aims for a high degree of stability, there are not a lot of big changes since Solus 4.8.
 

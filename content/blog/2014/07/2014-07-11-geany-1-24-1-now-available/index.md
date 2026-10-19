@@ -20,4 +20,4 @@ sudo pisi ur && sudo pisi it geany
 
 <!--more-->
 
-![relimg](https://solus-project.com/pkg_screens/geany.png)
+![relimg](https://solus-project.com/pkg_screens/geany.webp)

@@ -8,7 +8,7 @@ tags:
 - plans
 - twis
 date: "2017-04-24T01:33:12+03:00"
-featuredimage: /twis-43-featured-image.jpg
+featuredimage: /twis-43-featured-image.webp
 title: 'This Week in Solus - Install #43'
 url: /2017/04/24/this-week-in-solus-install-43
 ---

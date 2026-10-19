@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2024-09-04"
-featuredimage: /usr-merge-banner-image.jpg
+featuredimage: /usr-merge-banner-image.webp
 title: Usr-Merge
 url: /2024/09/04/usr-merge
 ---

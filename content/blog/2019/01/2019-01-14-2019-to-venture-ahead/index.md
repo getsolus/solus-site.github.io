@@ -9,7 +9,7 @@ tags:
 - news
 - plans
 date: "2019-01-14T11:56:14+02:00"
-featuredimage: /to-venture-ahead.jpg
+featuredimage: /to-venture-ahead.webp
 title: '2019: To Venture Ahead'
 url: /2019/01/14/2019-to-venture-ahead
 ---

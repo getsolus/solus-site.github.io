@@ -6,7 +6,7 @@ authors:
 tags:
 - packages
 date: "2014-09-02T22:17:25Z"
-featuredimage: /kernel.png
+featuredimage: /kernel.webp
 title: Linux 3.16.1 Now Available
 url: /2014/09/02/linux-3-16-1-now-available/
 ---

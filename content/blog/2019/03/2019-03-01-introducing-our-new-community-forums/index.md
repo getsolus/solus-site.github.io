@@ -7,7 +7,7 @@ tags:
 - infrastructure
 - news
 date: "2019-03-01T16:59:25+02:00"
-featuredimage: /flarum.jpg
+featuredimage: /flarum.webp
 title: Introducing Our New Community Forums
 url: /2019/03/01/introducing-our-new-community-forums
 ---

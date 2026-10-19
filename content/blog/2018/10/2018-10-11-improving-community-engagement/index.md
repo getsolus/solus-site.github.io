@@ -8,7 +8,7 @@ tags:
 - news
 - roundup
 date: "2018-10-11T01:50:12+03:00"
-featuredimage: /improving-community-engagement.jpg
+featuredimage: /improving-community-engagement.webp
 title: 'Improving Community Engagement | The Roundup #10'
 url: /2018/10/11/improving-community-engagement
 ---

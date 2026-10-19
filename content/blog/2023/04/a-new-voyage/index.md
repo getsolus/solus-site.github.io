@@ -9,7 +9,7 @@ tags:
 - partners
 - plans
 date: "2023-04-18T13:00:00+03:00"
-featuredimage: /featured-image.jpg
+featuredimage: /featured-image.webp
 title: A New Voyage
 url: /2023/04/18/a-new-voyage
 ---

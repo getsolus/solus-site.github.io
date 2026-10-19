@@ -8,7 +8,7 @@ tags:
 - news
 - roundup
 date: "2020-07-01T12:14:19+03:00"
-featuredimage: /usysconf-list.jpg
+featuredimage: /usysconf-list.webp
 title: 'Usysconf Rewrite and Major Upgrades | The Roundup #16'
 url: /2020/07/01/usysconf-rewrite-and-major-upgrades-roundup-16
 ---

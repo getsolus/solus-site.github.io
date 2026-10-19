@@ -7,7 +7,7 @@ tags:
 - news
 - releases
 date: "2018-09-20T08:20:39+03:00"
-featuredimage: /solus-refresh-editions.jpg
+featuredimage: /solus-refresh-editions.webp
 title: Solus 3 ISO Refresh Released
 url: /2018/09/20/solus-3-iso-refresh-released
 ---

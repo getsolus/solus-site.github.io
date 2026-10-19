@@ -9,7 +9,7 @@ tags:
 - news
 - roundup
 date: "2021-04-27T14:58:33+03:00"
-featuredimage: /gnome-40.jpg
+featuredimage: /gnome-40.webp
 title: 'Fashionable GNOME Forty | The Roundup #19'
 url: /2021/04/27/fashionable-gnome-forty
 ---
@@ -50,7 +50,7 @@ When compiled alongside GNOME Settings Daemon 40.x, Budgie will use the migrated
 
 ### Quality-of-life Improvements
 
-![relimg](budgie-desktop-settings.jpg)
+![relimg](budgie-desktop-settings.webp)
 
 Here are some quality-of-life improvements shipping in Budgie 10.5.3
 
@@ -70,7 +70,7 @@ Official distribution tarballs for Budgie 10.5.3 are available [here](https://gi
 
 ## GNOME 40
 
-![relimg](gnome-40.jpg)
+![relimg](gnome-40.webp)
 
 With this Friday's sync to the stable repository, we will be rolling out the GNOME 40 stack. This stack upgrade introduces the latest updates to GNOME Shell, GNOME's desktop environment, as well as its applications, libraries, and window manager.
 

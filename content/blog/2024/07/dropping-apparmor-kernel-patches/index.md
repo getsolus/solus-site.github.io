@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2024-07-15"
-featuredimage: /apparmor-banner-image.jpg
+featuredimage: /apparmor-banner-image.webp
 title: Dropping AppArmor Kernel Patches
 url: /2024/07/15/dropping-apparmor-kernel-patches
 ---

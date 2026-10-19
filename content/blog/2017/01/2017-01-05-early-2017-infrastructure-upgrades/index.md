@@ -8,7 +8,7 @@ tags:
 - news
 - plans
 date: "2017-01-05T06:20:27+02:00"
-featuredimage: /what-do-we-need.jpg
+featuredimage: /what-do-we-need.webp
 title: Early 2017 Infrastructure Upgrades!
 url: /2017/01/05/early-2017-infrastructure-upgrades
 ---

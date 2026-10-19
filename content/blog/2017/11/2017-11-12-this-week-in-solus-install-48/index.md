@@ -7,7 +7,7 @@ tags:
 - news
 - plans
 date: "2017-11-12T14:18:32+02:00"
-featuredimage: /civ_vi.jpg
+featuredimage: /civ_vi.webp
 title: 'This Week In Solus - Install #48'
 url: /2017/11/12/this-week-in-solus-install-48
 ---
@@ -45,7 +45,7 @@ We're always looking to improve the state of gaming under Linux and part of that
 
 #### Known Working
 
-![relimg](supported-games-examples.jpg)
+![relimg](supported-games-examples.webp)
 *The above mentioned games are examples of games we've tested and do not indicate official support from their respective publishers or developers.*
 
 This isn't the full, comprehensive list of games that are known to work, but we'll be working to provide a way of submitting your tested games.

@@ -8,7 +8,7 @@ tags:
 - packages
 - news
 date: "2018-09-11T19:11:30+03:00"
-featuredimage: /laptop.jpg
+featuredimage: /laptop.webp
 title: Package Repo Migration Now Available
 url: /2018/09/11/package-repo-migration-now-available
 ---

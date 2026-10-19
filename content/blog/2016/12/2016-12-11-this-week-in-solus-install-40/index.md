@@ -7,7 +7,7 @@ tags:
 - news
 - twis
 date: "2016-12-11T19:42:10+02:00"
-featuredimage: /brisk-development.jpg
+featuredimage: /brisk-development.webp
 title: 'This Week in Solus - Install #40'
 url: /2016/12/11/this-week-in-solus-install-40/
 ---
@@ -24,7 +24,7 @@ said drivers over time. Deprecation of the drivers would not only unblock Xorg 1
 
 ## Brisk Menu
 
-![relimg](brisk-menu-twis.jpg)
+![relimg](brisk-menu-twis.webp)
 *Screenshot is under Budgie, for development purposes. Plan is to make it a MATE applet.*
 
 Meet Brisk! This is a new menu we're developing for the MATE desktop, to provide a slightly traditional, but very fast and usable menu system. It started out inspired by the Budgie Menu but has drifted towards honouring Cardapio. And with it being written in C, 

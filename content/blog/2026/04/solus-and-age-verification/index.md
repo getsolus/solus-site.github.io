@@ -13,7 +13,7 @@ title: 'Solus and Age Verification'
 url: /2026/04/solus-and-age-verification
 ---
 
-![Hero Image](age-privacy-lock.jpg)
+![Hero Image](age-privacy-lock.webp)
 
 We are aware of the ongoing discussions surrounding age verification laws. Privacy and user experience remain our priorities. **We have no plans to implement age verification and will continue to monitor the situation.**
 

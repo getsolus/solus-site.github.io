@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2024-09-30T20:29:55-05:00"
-featuredimage: /horizontal_black.png
+featuredimage: /horizontal_black.webp
 title: Solus Hacktoberfest 2024
 url: /2024/09/30/solus-hacktoberfest-2024
 ---

@@ -8,7 +8,7 @@ tags:
 - news
 - partners
 date: "2017-09-20T00:29:22+03:00"
-featuredimage: /budgie-sticker.jpg
+featuredimage: /budgie-sticker.webp
 title: Budgie Desktop Sticker Now Available
 url: /2017/09/20/budgie-desktop-sticker-now-available
 ---

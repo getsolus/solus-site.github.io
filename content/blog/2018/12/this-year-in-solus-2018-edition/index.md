@@ -8,7 +8,7 @@ tags:
 - news
 - roundup
 date: "2018-12-31T18:25:10+02:00"
-featuredimage: /this-year-in-solus-2018.jpg
+featuredimage: /this-year-in-solus-2018.webp
 title: 'This Year in Solus: 2018 Edition'
 url: /2018/12/31/this-year-in-solus-2018-edition
 ---

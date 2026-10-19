@@ -7,7 +7,7 @@ tags:
 - news
 - roundup
 date: "2018-01-30T00:30:19+02:00"
-featuredimage: /conversions.png
+featuredimage: /conversions.webp
 title: 'Upgrades, Cleanups, and Optimizations | The Roundup #2'
 url: /2018/01/30/upgrades-cleanups-and-optimizations
 ---

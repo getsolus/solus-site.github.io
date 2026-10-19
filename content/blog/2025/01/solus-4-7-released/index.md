@@ -7,7 +7,7 @@ tags:
 - news
 - releases
 date: "2025-01-26"
-featuredimage: /solus-4.7-featured.jpg
+featuredimage: /solus-4.7-featured.webp
 title: Solus 4.7 Released
 url: /2025/01/26/solus-4-7-released
 ---
@@ -51,7 +51,7 @@ Mesa has been upgraded to 24.3.3. See the [24.3.0](https://docs.mesa3d.org/relno
 
 ## Budgie
 
-![relimg](./Budgie.jpg)
+![relimg](./Budgie.webp)
 
 Solus ships with [Budgie 10.9.2](https://blog.buddiesofbudgie.org/budgie-10-9-2-released/), the latest release of the Budgie Desktop. The mature 10.9.x series brings some small improvements, and builds on Budgie's reputation for stability and polish.
 
@@ -59,7 +59,7 @@ Upstream release notes can be found [here](https://blog.buddiesofbudgie.org).
 
 ## GNOME
 
-![relimg](GNOME.jpg)
+![relimg](GNOME.webp)
 
 Solus GNOME Edition ships with GNOME 47.3, an update to the GNOME 47 _Denver_ series.
 
@@ -75,7 +75,7 @@ Upstream release notes can be found [here](https://release.gnome.org/47/).
 
 ## Plasma
 
-![relimg](Plasma.jpg)
+![relimg](Plasma.webp)
 
 Solus 4.7 Plasma Edition ships with the latest Plasma Desktop, KDE Frameworks, KDE Gear, and the KDE branch for QT.
 
@@ -89,7 +89,7 @@ Upstream release notes:
 
 ## Xfce
 
-![relimg](XFCE-Beta.jpg)
+![relimg](XFCE-Beta.webp)
 
 Our Xfce experience has been updated to version 4.20. This is a big milestone for the Xfce project: It brings _very_ experimental support for Wayland. You can take the tour of the latest release [here](https://xfce.org/about/tour420).
 

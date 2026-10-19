@@ -7,7 +7,7 @@ tags:
 - news
 - twis
 date: "2016-11-15T20:41:02+02:00"
-featuredimage: /firefox-50.jpg
+featuredimage: /firefox-50.webp
 title: 'This Week in Solus - Install #39'
 url: /2016/11/15/this-week-in-solus-install-39/
 ---
@@ -16,7 +16,7 @@ Welcome to This Week in Solus, install #39.
 
 ## Announcing Partnership with Unixstickers
 
-![relimg](laptop-solus-sticker-small.jpg)
+![relimg](laptop-solus-sticker-small.webp)
 
 We recently announced our partnership with Unixstickers to provide high-quality Solus stickers for our community and fans. If you have yet to read about it, click 
 [here](https://solus-project.com/2016/11/15/solus-announces-partnership-with-unixstickers).

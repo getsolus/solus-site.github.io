@@ -40,13 +40,13 @@ we now have native support for HighContrast. Below is a video that highlights so
 
 There has also been improvements to customization. As Ikey put it: "**Now your setup can be as impossibly weird as you want 😛**".
 
-![relimg](Screenshot-from-2015-12-17-18-01-03.png)
+![relimg](Screenshot-from-2015-12-17-18-01-03.webp)
 
 #### Games
 
 On the 15th of December, we landed Steam in unstable, as promised before our big 1.0 release. We have thoroughly "validated" that gaming works under Solus and surprisingly have managed to still get work done after landing Steam.
 
-![relimg](Screenshot-from-2015-12-15-06-01-34.png)
+![relimg](Screenshot-from-2015-12-15-06-01-34.webp)
 
 There is still some work we want to do before landing it in stable, namely ensuring Steam uses system libraries instead of its own, and replacing the Steam runtime. This work will be done before the 1.0 release.
 
@@ -56,7 +56,7 @@ There is still some work we want to do before landing it in stable, namely ensur
 
 Printing support is almost finished, which is great for the five (**drastic underestimation**) people left in the world that still use printers.  Printer support will be done before 1.0.
 
-![relimg](Screenshot-from-2015-12-15-14-31-12.png)
+![relimg](Screenshot-from-2015-12-15-14-31-12.webp)
 
 Spoiler: It fails to add the printer.
 
@@ -64,11 +64,11 @@ Spoiler: It fails to add the printer.
 
 We were informed that CD ripping was non-functionality in Solus. Below is photo taken with a potato of the purchased external drive.
 
-![relimg](IMAG0091.jpg)
+![relimg](IMAG0091.webp)
 
 We are happy to report that for the six (**once again, underestimate**) people that still use CDs, CD ripping is now supported.
 
-![relimg](Screenshot-from-2015-12-18-16-12-05.png)
+![relimg](Screenshot-from-2015-12-18-16-12-05.webp)
 
 #### Packaging Updates
 

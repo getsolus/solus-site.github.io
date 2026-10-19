@@ -6,7 +6,7 @@ authors:
 tags:
 - packages
 date: "2014-09-02T19:16:54Z"
-featuredimage: /thunderbird.png
+featuredimage: /thunderbird.webp
 title: Thunderbird 31.1.0 Now Available
 url: /2014/09/02/thunderbird-31-1-0-now-available/
 ---

@@ -7,7 +7,7 @@ tags:
 - infrastructure
 - news
 date: "2018-11-02T00:25:25+02:00"
-featuredimage: /update-on-patreon.jpg
+featuredimage: /update-on-patreon.webp
 title: Update on Patreon
 url: /2018/11/02/update-on-patreon
 ---

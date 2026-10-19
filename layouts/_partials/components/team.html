@@ -56,7 +56,7 @@
     {{- $websites := .websites -}}
 
     {{- $key := printf "%s%s" $names.first $names.last -}}
-    {{- $avatar := printf "/imgs/avatars/%s.jpg" $key -}}
+    {{- $avatar := printf "/imgs/avatars/%s.webp" $key -}}
 
     <div class="hextra-card group flex gap-5 justify-start overflow-hidden rounded-lg border border-neutral-300/75 dark:border-neutral-200/75 bg-(--color-primary-200)/50 p-5 shadow-lg dark:border-gray-400 text-current no-underline" key="{{- $key -}}">
         <img alt={{ $key }} loading="lazy" decoding="async" src={{ $avatar }} width="125px" class="rounded-lg" />
