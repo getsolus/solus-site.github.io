@@ -7,7 +7,7 @@ tags:
 - news
 - roundup
 date: "2018-08-18T19:24:56+03:00"
-featuredimage: /linux-4_17_17.jpg
+featuredimage: /linux-4_17_17.webp
 title: 'You All Get A Stack Upgrade | The Roundup #8'
 url: /2018/08/18/you-all-get-a-stack-upgrade
 ---

@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2018-02-15T11:33:21Z"
-featuredimage: /architecture.jpg
+featuredimage: /architecture.webp
 title: Exploring Solus Architecture
 url: /2018/02/15/exploring-solus-architecture
 ---

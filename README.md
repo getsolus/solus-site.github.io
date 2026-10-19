@@ -68,19 +68,19 @@ As an example, as of October, the directory for 2023 looks like:
 2023
 ├── 04
 │   └── a-new-voyage
-│       ├── featured-image.jpg
+│       ├── featured-image.webp
 │       └── index.md
 ├── 07
 │   └── solus-4-4-released
 │       ├── index.md
-│       └── solus-4.4-featured.jpg
+│       └── solus-4.4-featured.webp
 ├── 08
 │   └── state-of-solus-august-2023
 │       ├── index.md
-│       └── StateOfSolusAugust2023.jpg
+│       └── StateOfSolusAugust2023.webp
 └── 10
     └── solus-and-hacktoberfest-2023
-        ├── hf10_horz_fcd_rgb.png
+        ├── hf10_horz_fcd_rgb.webp
         └── index.md
 ```
 

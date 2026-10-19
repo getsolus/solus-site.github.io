@@ -7,7 +7,7 @@ tags:
 - news
 - partners
 date: "2016-12-01T07:47:55+02:00"
-featuredimage: /unixsticker-beneficiary.png
+featuredimage: /unixsticker-beneficiary.webp
 title: Solus To Be Unixstickers' December Beneficiary
 url: /2016/12/01/solus-to-be-unixstickers-december-beneficiary
 ---

@@ -34,6 +34,6 @@ We have also resolved WebKit related issues that affected Epiphany and Online Ac
 
 #### Download
 
-![relimg](Hey-You-Guys.jpg)
+![relimg](Hey-You-Guys.webp)
 
 You can download the latest Daily ISO by going [here](https://solus-project.com/daily-iso/).

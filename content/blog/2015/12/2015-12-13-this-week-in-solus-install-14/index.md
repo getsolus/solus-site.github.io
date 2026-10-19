@@ -26,7 +26,7 @@ Work has progressed well on the rewrite of Budgie.
 
 Also, work on the panel editor has now begun. A screenshot is available below.
 
-![relimg](Screenshot-from-2015-12-09-10-12-19.png)
+![relimg](Screenshot-from-2015-12-09-10-12-19.webp)
 
 ### Multilib
 
@@ -45,7 +45,7 @@ I know, I had to get Ikey to explain it to me too. In fact I ended up just optin
 
 **The basics**: We cross-compiled a temporary toolchain to compile stuff, to rebuild stuff to use in a minimal chroot filesystem, then produced some native multilib gcc, glibc, and binutils.
 
-![relimg](vplcm.jpg)
+![relimg](vplcm.webp)
 
 These multilib (32-bit enabled) utilities and libraries are going to be the basic for enabling a wider set of applications and another major item that has been a 1.0 requirement, **Steam**.
 

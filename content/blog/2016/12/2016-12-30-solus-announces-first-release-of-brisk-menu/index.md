@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2016-12-30T21:08:58+02:00"
-featuredimage: /Brisk_Menu_0.1.0.jpg
+featuredimage: /Brisk_Menu_0.1.0.webp
 title: Solus Announces First Release of Brisk Menu
 url: /2016/12/30/solus-announces-first-release-of-brisk-menu
 ---

@@ -8,7 +8,7 @@ tags:
 - news
 - releases
 date: "2017-08-15T22:02:27+03:00"
-featuredimage: /Solus-3-Editions.jpg
+featuredimage: /Solus-3-Editions.webp
 title: Solus 3 Released
 url: /2017/08/15/solus-3-released
 ---
@@ -46,7 +46,7 @@ This release delivers ffmpeg 3.3.3, the latest in the 3.3 series, offering impro
 
 ### Support for Snaps
 
-![relimg](snaps.jpg)
+![relimg](snaps.webp)
 
 This release features out-of-the-box support for [snaps](https://snapcraft.io), universal software packages for Linux. Support for snaps relieves pressure from software vendors to target a specific platform by sharing a unified target across all Linux distributions. For our users, they gain access to a wide variety of software that may not meet our package inclusion criteria, such as server software, as well as enabling an improved distribution method for Third Party software.
 
@@ -54,7 +54,7 @@ Support for Snaps was made possible due to fantastic cross-platform collaboratio
 
 ## Budgie
 
-![relimg](Budgie.jpg)
+![relimg](Budgie.webp)
 
 Solus ships with our brand new release of the Budgie 10.x series, Budgie 10.4, as well as introducing our new branding defaults, adopting the stunning Adapta GTK Theme and Papirus Icon Theme, as well as complementing those design changes by adopting the Noto Sans font. We've also moved the primary panel from the top of the display to the bottom and tweaked panel widget spacing to make Budgie feel more spacious.
 
@@ -68,7 +68,7 @@ Budgie 10.4 now has maximize and unmaximize animations for applications.
 
 ### Alt+Tab
 
-![relimg](budgie-10/AltTab.jpg)
+![relimg](budgie-10/AltTab.webp)
 
 In this release of Budgie, the alt+tab switcher will now prefer the theme icon instead of the X11 icon where possible. Shift+Alt+Tab support has also been implemented, enabling you to go backwards in the Alt+Tab dialog.
 
@@ -76,7 +76,7 @@ In this release of Budgie, the alt+tab switcher will now prefer the theme icon i
 
 #### Night Light
 
-![relimg](budgie-10/NightLight.jpg)
+![relimg](budgie-10/NightLight.webp)
 
 This release introduces a new applet, Night Light, which can help reduce eye strain by reducing your display's blue light by making your screen "warmer". This applet integrates into the Night Light functionality provided in Mutter 3.24.x and provides quick access to toggling Night Light on/off, as well as:
 
@@ -86,7 +86,7 @@ This release introduces a new applet, Night Light, which can help reduce eye str
 
 #### Places
 
-![relimg](budgie-10/Places.jpg)
+![relimg](budgie-10/Places.webp)
 
 The Places Indicator applet also received some love this release, with a new option to always expand the places section when the applet is shown. The whole Places section header is now a clickable button, making toggling the section easier. The Places Applet icon has also been changed to a more apt folder icon, better representing "places" rather than "disks" as previously presented.
 
@@ -98,7 +98,7 @@ The Places Indicator applet also received some love this release, with a new opt
 
 ### Budgie Menu
 
-![relimg](budgie-10/Budgie_Menu.jpg)
+![relimg](budgie-10/Budgie_Menu.webp)
 
 Building upon the lessons learned when (*and inspiration from*) implementing the Brisk Menu for MATE, searching has been completely overhauled. We now support the use of categories for searching and provide a predictable, sane search mechanism. Items that previously would not show up as expected, such as searching for "Displays", are now resolved.
 
@@ -110,7 +110,7 @@ We now dynamically compute scores for a given entry during search in relation to
 
 #### Vertical Panels
 
-![relimg](budgie-10/LeftAndRightPanels.jpg)
+![relimg](budgie-10/LeftAndRightPanels.webp)
 
 In Budgie 10.4, you can now set vertical panels on the left and right sides of your display. Popovers will correctly indicate (with its "tail") the point of origin, we've done extensive work to ensure all of our animations and applets will display and adjust depending on if they are on (or originating from) a horizontal or vertical panel, and Raven will account for right-side panels and slide out from underneath the panel, as well as anchor to left panels when no horizontal or right panel exists.
 
@@ -124,7 +124,7 @@ With these new panels, you will now also be able to control the panel transparen
 
 #### Docks
 
-![relimg](budgie-10/Budgie_Panel_Dockmode.jpg)
+![relimg](budgie-10/Budgie_Panel_Dockmode.webp)
 
 As if Budgie panels couldn't improve more, we've also introduced a Dock mode for panels, enabling you to put a dock on any side of your display!
 
@@ -138,17 +138,17 @@ Furthermore, this Popover widget enables more granular positioning regardless of
 
 ### Settings
 
-![relimg](budgie-10/Budgie_Settings.jpg)
+![relimg](budgie-10/Budgie_Settings.webp)
 
 Budgie 10.4 moves Settings out of Raven and into a dedicated application. This new Budgie Settings application enables us to improve the user experience of managing panels, applets, and their respective settings, as well as providing us the opportunity to describe what particular settings may do, with the classic example being "Disable unredirection of windows". To open Budgie Settings, the behavior of the Settings button at the bottom of Raven has been changed to open Budgie Settings instead of GNOME Control Center. You can also pin our Settings application to your panel, like you would any application, and launch it via Budgie Menu.
 
-![relimg](budgie-10/Budgie_Panel_Applets.jpg)
+![relimg](budgie-10/Budgie_Panel_Applets.webp)
 
 In the image above, you can see the management of the Bottom Panel. We have split panel management into two sections, with Applets being the primary section (as we anticipate users primarily making changes to applets) and Settings. Similar to the behavior of prior Budgie releases, you can move applets around using the up or down arrow buttons, or delete them. These buttons are positioned at the top of the list to make them more easily accessible for lower-resolution displays.
 
 To the right of the applet list, you have a dedicated "Add applet" button and settings for the selected applet below.
 
-![relimg](budgie-10/Budgie_Panel_Settings.jpg)
+![relimg](budgie-10/Budgie_Panel_Settings.webp)
 
 In the Settings section of a panel, a multitude of options are exposed, such as:
 
@@ -160,7 +160,7 @@ In the Settings section of a panel, a multitude of options are exposed, such as:
 - Stylize region
 - Dock mode
 
-![relimg](budgie-10/Budgie_Settings_Autostart.jpg)
+![relimg](budgie-10/Budgie_Settings_Autostart.webp)
 
 Budgie Settings also enables you to manage  the autostarting of applications, eliminating the need for a secondary tool such as GNOME Tweak Tool.
 
@@ -174,7 +174,7 @@ In addition to the above mentioned goodies, some other fixes include:
 
 ## GNOME
 
-![relimg](GNOME.jpg)
+![relimg](GNOME.webp)
 
 Solus GNOME Edition has received numerous improvements to its curated, out-of-the-box GNOME experience, as well as featuring our new default GTK and Icon Themes, Adapta and Papirus respectively.
 
@@ -208,7 +208,7 @@ Among the above mentioned items, we've also resolved the following issues:
 
 ## MATE
 
-![relimg](MATE.jpg)
+![relimg](MATE.webp)
 
 ### General Fixes and Improvements
 

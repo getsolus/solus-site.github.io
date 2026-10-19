@@ -7,7 +7,7 @@ tags:
 - news
 - releases
 date: "2023-07-08T00:27:44+03:00"
-featuredimage: /solus-4.4-featured.jpg
+featuredimage: /solus-4.4-featured.webp
 title: Solus 4.4 Released
 url: /2023/07/08/solus-4-4-released
 ---
@@ -60,7 +60,7 @@ Mesa has been upgraded to 23.0.3. This introduces various improvements, such as:
 
 ## Budgie
 
-![relimg](Budgie.jpg)
+![relimg](Budgie.webp)
 
 Solus ships with the latest 10.7 series release of the Budgie Desktop environment, [10.7.2](https://blog.buddiesofbudgie.org/budgie-10-7-2/). This features GNOME 43 stack support alongside all the fixes and quality-of-life improvements listed below. We welcome you to check out the full release notes from Buddies of Budgie listed above.
 
@@ -93,7 +93,7 @@ Upstream release notes can be found [here](https://blog.buddiesofbudgie.org).
 
 ## GNOME
 
-![relimg](GNOME.jpg)
+![relimg](GNOME.webp)
 
 Solus 4.4 GNOME Edition ships with the latest GNOME 43 series release, 43.5.
 
@@ -122,7 +122,7 @@ Upstream release notes can be found [here](https://release.gnome.org/)
 
 ## MATE
 
-![relimg](MATE.jpg)
+![relimg](MATE.webp)
 
 Solus 4.4 MATE Edition ships with the latest MATE 1.27 series release, 1.27.1.
 
@@ -150,7 +150,7 @@ Upstream release notes can be found [here](https://github.com/mate-desktop/mate-
 
 ## Plasma
 
-![relimg](Plasma.jpg)
+![relimg](Plasma.webp)
 
 Solus 4.4 Plasma Edition ships with the latest Plasma Desktop 5.27.5, KDE Frameworks 5.106.0, KDE Gear 23.04.2, and, the KDE branch for QT 5.15.9, which brings many new features. Some highlights:
 

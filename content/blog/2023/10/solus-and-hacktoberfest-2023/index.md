@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2023-10-01T17:50:07-05:00"
-featuredimage: /hf10_horz_fcd_rgb.png
+featuredimage: /hf10_horz_fcd_rgb.webp
 title: Solus and Hacktoberfest 2023
 url: /2023/10/01/solus-and-hacktoberfest-2023
 ---

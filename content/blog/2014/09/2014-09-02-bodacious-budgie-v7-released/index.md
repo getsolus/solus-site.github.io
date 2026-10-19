@@ -15,7 +15,7 @@ Well, its that time again. We're pleased to announce v7 of Budgie Desktop, aka B
 
 This release represents 54 commits, with 53 files changed, 4524 insertions and 157 deletions. We call it v7.
 
-![relimg](/release_images/7notification.png)
+![relimg](/release_images/7notification.webp)
 
 ### So what's new?
 
@@ -43,6 +43,6 @@ Budgie is currently known not to start on GDM3.12 on certain distributions. Also
 
 ### Obligatory excess screenshot section
 
-![relimg](/release_images/7sound-menu.png)
+![relimg](/release_images/7sound-menu.webp)
 
-![relimg](/7gnome-panel-mode.png)
+![relimg](/7gnome-panel-mode.webp)

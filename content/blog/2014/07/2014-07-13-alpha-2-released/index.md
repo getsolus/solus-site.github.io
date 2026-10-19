@@ -18,7 +18,7 @@ With Alpha 3 we will actually ship two images, one legacy, and one EFI only. Thi
 opposed to a hybrid ISO configuration.
 <!--more-->
 
-![relimg](https://solus-project.com/release_images/a2/rundialog.png)
+![relimg](https://solus-project.com/release_images/a2/rundialog.webp)
 
 ## Changes
 
@@ -66,10 +66,10 @@ you'll stick around here for a while 🙂 If something is needed, and we're miss
 
 ## Screenshots
 
-![relimg](https://solus-project.com/release_images/a2/gimp.png)
+![relimg](https://solus-project.com/release_images/a2/gimp.webp)
 
 
-![relimg](https://solus-project.com/release_images/a2/maps.png)
+![relimg](https://solus-project.com/release_images/a2/maps.webp)
 
 
-![relimg](https://solus-project.com/release_images/a2/nautilus.png)
+![relimg](https://solus-project.com/release_images/a2/nautilus.webp)

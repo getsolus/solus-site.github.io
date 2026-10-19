@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2017-12-19T16:10:34Z"
-featuredimage: /lsi-072-fullscreen-but-not-actually.jpg
+featuredimage: /lsi-072-fullscreen-but-not-actually.webp
 title: Linux Steam Integration 0.7.2 Released
 url: /2017/12/19/lsi-0-7-2-released
 ---

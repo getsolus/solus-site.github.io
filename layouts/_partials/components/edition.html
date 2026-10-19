@@ -11,7 +11,7 @@
 {{- $logoSrc := printf "/imgs/%s" $logo -}}
 
 {{- $release := printf "Solus-%s-Release-%s" $name $version -}}
-{{- $imagePath := printf "/imgs/release-images/%s/%s.jpg" $version $name -}}
+{{- $imagePath := printf "/imgs/release-images/%s/%s.webp" $version $name -}}
 {{- $isoURL := printf "https://downloads.getsol.us/isos/%s/%s.iso" $version $release | safeURL -}}
 {{- $shasumURL := printf "https://downloads.getsol.us/isos/%s/%s.iso.sha256sum" $version $release | safeURL -}}
 {{- $signatureURL := printf "https://downloads.getsol.us/isos/%s/%s.iso.sha256sum.sign" $version $release | safeURL -}}

@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2017-03-26T19:52:23+03:00"
-featuredimage: /clr-boot-manager.jpg
+featuredimage: /clr-boot-manager.webp
 notitle: true
 title: clr-boot-manager now available in Solus
 url: /2017/03/26/clr-boot-manager-now-available-in-solus

@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2024-04-20"
-featuredimage: /StateOfSolusApril2024.jpg
+featuredimage: /StateOfSolusApril2024.webp
 title: State of Solus - April 2024
 url: /2024/04/20/state-of-solus-april-2024
 ---

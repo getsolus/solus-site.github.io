@@ -34,7 +34,7 @@ Here are some of the highlights of the image, which is available for download fr
 
 #### New Hardware
 
-![relimg](2015-12-03.jpg)
+![relimg](2015-12-03.webp)
 
 Thanks to the continued support from the Solus community, Community Manager Justin was able to obtain an AMD HD 5450 Silent to enable us to better test AMD proprietary driver support when it lands.
 

@@ -9,7 +9,7 @@ tags:
 - packages
 - partners
 date: "2017-10-06T01:49:59+03:00"
-featuredimage: /download-speeds.jpg
+featuredimage: /download-speeds.webp
 title: Accelerated Cadence and Faster Infrastructure
 url: /2017/10/06/accelerated-cadence-and-faster-infrastructure
 ---

@@ -8,7 +8,7 @@ tags:
 - plans
 - twis
 date: "2017-08-20T19:48:16+03:00"
-featuredimage: /preston-firefox.jpg
+featuredimage: /preston-firefox.webp
 title: 'This Week in Solus - Install #46'
 url: /2017/08/20/this-week-in-solus-install-46
 ---

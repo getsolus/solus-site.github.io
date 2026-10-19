@@ -7,7 +7,7 @@ tags:
 - news
 - roundup
 date: "2018-02-14T18:34:49+02:00"
-featuredimage: /kernel_4_15_3.jpg
+featuredimage: /kernel_4_15_3.webp
 title: 'Plasma and Solus 4 Updates | The Roundup #4'
 url: /2018/02/14/plasma-and-solus-4-updates
 ---

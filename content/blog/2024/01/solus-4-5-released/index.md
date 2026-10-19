@@ -7,7 +7,7 @@ tags:
 - news
 - releases
 date: "2024-01-08"
-featuredimage: /solus-4.5-featured.jpg
+featuredimage: /solus-4.5-featured.webp
 title: Solus 4.5 Released
 url: /2024/01/08/solus-4-5-released
 ---
@@ -68,7 +68,7 @@ Mesa has been upgraded to 23.3.2. This introduces various improvements:
 
 ## Budgie
 
-![relimg](Budgie.jpg)
+![relimg](Budgie.webp)
 
 Solus ships with [Budgie 10.8.2](https://blog.buddiesofbudgie.org/budgie-10-8-2-released/), the latest release of the Budgie Desktop. Since the release of Solus 4.4, our friends over at _Buddies of Budgie_ have been steadily improving the user experience of Budgie and laying the groundwork for Wayland support.
 
@@ -93,7 +93,7 @@ Upstream release notes can be found [here](https://blog.buddiesofbudgie.org).
 
 ## GNOME
 
-![relimg](GNOME.jpg)
+![relimg](GNOME.webp)
 
 Solus 4.5 GNOME Edition ships with GNOME 45.2
 
@@ -115,7 +115,7 @@ Upstream release notes can be found [here](https://release.gnome.org/)
 
 ## Plasma
 
-![relimg](Plasma.jpg)
+![relimg](Plasma.webp)
 
 Solus 4.5 Plasma Edition ships with the latest Plasma Desktop, KDE Frameworks, KDE Gear, and, the KDE branch for QT, which largely brings bugfixes and translation updates
 
@@ -134,7 +134,7 @@ Plenty of work has also been done for the future of the Plasma edition. We are s
 
 ## XFCE
 
-![relimg](XFCE-Beta.jpg)
+![relimg](XFCE-Beta.webp)
 
 In the [Solus 4.4 release post](/2023/07/08/solus-4-4-released) we announced our intention to deprecate the MATE Edition in favor of a new XFCE edition. The XFCE edition aims to fill the same niche as the MATE edition: users who prefer a more lightweight desktop experience.
 

@@ -10,7 +10,7 @@ title: "Unveiling Our New Website"
 url: "/2025/11/22/unveiling-our-new-website"
 ---
 
-![Website Homepage Preview](website-preview-split.jpg)
+![Website Homepage Preview](website-preview-split.webp)
 
 Heya folks, we have some exciting news to share! Today, after many months of work, Solus has a new website! A *lot* of work has gone into this project, and we are all very excited to finally deploy it for everyone to use.
 

@@ -7,7 +7,7 @@ tags:
 - news
 - partners
 date: "2016-11-15T05:06:40+02:00"
-featuredimage: /laptop-solus-sticker.jpg
+featuredimage: /laptop-solus-sticker.webp
 title: Solus Announces Partnership with Unixstickers
 url: /2016/11/15/solus-announces-partnership-with-unixstickers
 ---

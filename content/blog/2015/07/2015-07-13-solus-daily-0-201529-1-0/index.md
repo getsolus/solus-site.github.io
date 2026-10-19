@@ -21,7 +21,7 @@ Note: No password is required to login. Automatic login is disabled, simply hit 
 
 This release also sees the introduction of the Arc-Darker theme as a new default.
 
-![relimg](Screenshot-from-2015-07-13-22-34-36.png)
+![relimg](Screenshot-from-2015-07-13-22-34-36.webp)
 
 #### Changes in this release:
 

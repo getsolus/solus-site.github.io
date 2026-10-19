@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2017-05-23T15:12:34+01:00"
-featuredimage: /kde-in-sc.png
+featuredimage: /kde-in-sc.webp
 title: Waiter, There's A Plasma Desktop In My Soup
 url: /2017/05/23/waiter-theres-a-plasma-desktop-in-my-soup
 ---

@@ -7,7 +7,7 @@ tags:
 - news
 - roundup
 date: "2018-03-09T12:21:00+02:00"
-featuredimage: /solus-sc-redesign.jpg
+featuredimage: /solus-sc-redesign.webp
 title: 'Software Center Redesign | The Roundup #5'
 url: /2018/03/09/software-center-redesign
 ---

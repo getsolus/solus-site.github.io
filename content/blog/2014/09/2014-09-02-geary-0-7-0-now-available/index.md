@@ -6,7 +6,7 @@ authors:
 tags:
 - packages
 date: "2014-09-02T18:12:41Z"
-featuredimage: /geary.png
+featuredimage: /geary.webp
 title: Geary 0.7.0 Now Available
 url: /2014/09/02/geary-0-7-0-now-available/
 ---

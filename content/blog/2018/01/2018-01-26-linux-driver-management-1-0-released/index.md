@@ -7,7 +7,7 @@ tags:
 - news
 - roundup
 date: "2018-01-26T12:59:24+02:00"
-featuredimage: /lsi-1.0.jpg
+featuredimage: /lsi-1.0.webp
 title: 'Linux Driver Management 1.0 Released | The Roundup #1'
 url: /2018/01/26/linux-driver-management-1-0-released
 ---

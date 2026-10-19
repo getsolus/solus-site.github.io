@@ -11,7 +11,7 @@ title: 'More Website Improvements'
 url: /2026/03/10/more-website-improvements
 ---
 
-![Hero Image](website-Glassmorphic-preview.jpg)
+![Hero Image](website-Glassmorphic-preview.webp)
 
 If you haven't visited our website in a while, you may notice some changes. We've recently made some tweaks to the website, as well as some larger improvements. All of this work is building on the [website rewrite](/2025/11/22/unveiling-our-new-website) that we did over the course of 2025. In this Devlog post, we'll be going over the recent work, and a couple of ideas we have for what we want to do with the site next.
 

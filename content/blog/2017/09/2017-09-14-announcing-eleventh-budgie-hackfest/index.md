@@ -8,7 +8,7 @@ tags:
 - news
 - plans
 date: "2017-09-14T16:51:34+03:00"
-featuredimage: /budgie-eleven-hackfest.jpg
+featuredimage: /budgie-eleven-hackfest.webp
 title: Announcing Upcoming Hackfest - The Eleventh Budgie
 url: /2017/09/14/announcing-eleventh-budgie-hackfest
 ---

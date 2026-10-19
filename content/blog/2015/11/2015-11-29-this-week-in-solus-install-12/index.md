@@ -28,7 +28,7 @@ There has been a lot of user experience work done on Budgie Next this week. Than
 - Separate out Applets and Notifications.
 - Enable Budgie, Theming, and Raven customization
 
-![relimg](GUwr5Jh.png)
+![relimg](GUwr5Jh.webp)
 
 As you can see from the recent video by Ikey, implementation of the design is coming along and work on its functionality will begin soon.
 

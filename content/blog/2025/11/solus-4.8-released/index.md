@@ -11,7 +11,7 @@ title: 'Solus 4.8 Released'
 url: /2025/11/29/solus-4-8-released
 ---
 
-![Collage](collage.jpg)
+![Collage](collage.webp)
 
 We're nearing the holiday season, and what better way to kick it off than by releasing new Solus ISOs? This release is called *Opportunity*, for all the new opportunities that are open to us. A lot has happened since we released Solus 4.7 at the beginning of this year, so let's go over the changes.
 
@@ -63,7 +63,7 @@ Since we are no longer blocked on updating `systemd`, we have updated our packag
 
 ## Budgie
 
-![Solus 4.8 Budgie](Budgie.jpg "Solus 4.8 Budgie")
+![Solus 4.8 Budgie](Budgie.webp "Solus 4.8 Budgie")
 
 Solus 4.8 Budgie Edition ships with [Budgie 10.9.4](https://github.com/BuddiesOfBudgie/budgie-desktop/releases/tag/v10.9.4). This version, along with [10.9.3](https://github.com/BuddiesOfBudgie/budgie-desktop/releases/tag/v10.9.3), are aimed at making Budgie compatible with GNOME 49. Budgie Desktop and all applets have also been built to use `libpeas-2` and `girepository-2.0`, retaining support for Python applets.
 
@@ -73,7 +73,7 @@ Solus 4.8 Budgie Edition ships with [Budgie 10.9.4](https://github.com/BuddiesOf
 
 ## GNOME
 
-![Solus 4.8 GNOME](GNOME.jpg "Solus 4.8 GNOME")
+![Solus 4.8 GNOME](GNOME.webp "Solus 4.8 GNOME")
 
 Solus 4.8 GNOME Edition ships with GNOME 49.1, an update to the GNOME 49 Brescia series. GNOME on Solus no longer ships with an X11 session by default. Users that still wish to use X11 must install the `gnome-session-shell-x11` package.
 
@@ -101,7 +101,7 @@ The upstream release notes can be found [here](https://release.gnome.org/49/).
 
 ## Plasma
 
-![Solus 4.8 Plasma](Plasma.jpg "Solus 4.8 Plasma")
+![Solus 4.8 Plasma](Plasma.webp "Solus 4.8 Plasma")
 
 Solus 4.8 Plasma Edition ships with KDE Frameworks 6.19.0, KDE Plasma 6.5.3, and KDE Gear 25.08.3. In conjunction with the GNOME Edition, we no longer ship an X11 session on Plasma by default. Users that still wish to use the X11 session must install the `plasma-x11` package.
 
@@ -124,7 +124,7 @@ Here are the upstream release notes:
 
 ## Xfce
 
-![Solus 4.8 Xfce](Xfce.jpg "Solus 4.8 Xfce")
+![Solus 4.8 Xfce](Xfce.webp "Solus 4.8 Xfce")
 
 Solus 4.8 Xfce Edition is now out of beta! We feel that it is finally time to promote the Xfce edition as a full edition alongside Budgie, Plasma, and GNOME. It is stable and lightweight, making it a good choice for users that care about performance and stability. For 4.8, we are shipping with [Xfce 4.20](https://www.xfce.org/about/tour420).
 

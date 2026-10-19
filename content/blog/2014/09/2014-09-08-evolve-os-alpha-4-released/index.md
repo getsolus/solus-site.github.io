@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2014-09-08T17:37:19Z"
-featuredimage: /newlogo_white.png
+featuredimage: /newlogo_white.webp
 title: Evolve OS Alpha 4 Released
 url: /2014/09/08/evolve-os-alpha-4-released/
 ---

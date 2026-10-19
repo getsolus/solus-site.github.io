@@ -8,7 +8,7 @@ tags:
 - packages
 - roundup
 date: "2019-04-25T16:14:28+03:00"
-featuredimage: /budgie-on-gnome-332.jpg
+featuredimage: /budgie-on-gnome-332.webp
 title: 'GNOME Of Thrones | The Roundup #12'
 url: /2019/04/25/gnome-of-thrones
 ---

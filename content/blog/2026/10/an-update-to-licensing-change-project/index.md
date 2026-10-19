@@ -11,7 +11,7 @@ title: 'An Update to Licensing Change Project'
 url: '/:year/:month/an-update-to-relicensing-project'
 summary: "Hello everyone! An update to the relicensing project progress. We just sent the first email to the contributors that have not yet provided their consent. If you have contributed to Solus packages repository, please check your inboxes (and your spam folder) for the email!"
 ---
-![](Solus-license-header.jpg "Modified Solus logo with license iconography on blue gradient background")
+![](Solus-license-header.webp "Modified Solus logo with license iconography on blue gradient background")
 
 Hello everyone! We have an update to the relicensing project progress. We just sent the first email to the contributors that have not yet provided their consent. If you have contributed to Solus packages repository, please check your inboxes (and your spam folder) for the email!
 

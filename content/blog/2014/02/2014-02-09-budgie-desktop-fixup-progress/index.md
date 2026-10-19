@@ -23,7 +23,7 @@ Just a quick status update on the fixes to Budgie Desktop. Currently I'm rewriti
 
 And some screenshots of current progress:
 
-![relimg](Screenshot-from-2014-02-08-150632.png)
-![relimg](Screenshot-from-2014-02-09-153742.png)
+![relimg](Screenshot-from-2014-02-08-150632.webp)
+![relimg](Screenshot-from-2014-02-09-153742.webp)
 
 That's all for now, as and when the desktop is fully usable again I'll post an update!

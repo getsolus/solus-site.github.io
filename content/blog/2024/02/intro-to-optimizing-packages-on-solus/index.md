@@ -197,7 +197,7 @@ Luckily, as part of the package.yml format all you have to do is provide a profi
 <!-- prettier-ignore -->
 ```yaml
 profile    : |
-    ./examples/dwebp webp_js/test_webp_js.webp -o test_png.png
+    ./examples/dwebp webp_js/test_webp_js.webp -o test_png.webp
     ./examples/cwebp test_png.png -o /dev/null
 ```
 

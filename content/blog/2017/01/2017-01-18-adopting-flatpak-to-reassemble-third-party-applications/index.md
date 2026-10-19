@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2017-01-18T21:59:12+02:00"
-featuredimage: /flatpak-gnome-books.png
+featuredimage: /flatpak-gnome-books.webp
 title: Adopting Flatpak to Reassemble Third Party Applications
 url: /2017/01/18/adopting-flatpak-to-reassemble-third-party-applications
 ---

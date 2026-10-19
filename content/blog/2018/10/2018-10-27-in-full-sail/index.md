@@ -8,7 +8,7 @@ tags:
 - news
 - plans
 date: "2018-10-27T03:00:00+03:00"
-featuredimage: /in-full-sail.jpg
+featuredimage: /in-full-sail.webp
 title: In Full Sail
 url: /2018/10/27/in-full-sail
 ---

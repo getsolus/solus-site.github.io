@@ -7,7 +7,7 @@ tags:
 - news
 - twis
 date: "2017-03-05T18:27:27+02:00"
-featuredimage: /ldm-detection.jpg
+featuredimage: /ldm-detection.webp
 title: 'This Week in Solus - Install #41'
 url: /2017/03/05/this-week-in-solus-install-41
 ---

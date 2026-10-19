@@ -7,7 +7,7 @@ tags:
 - infrastructure
 - news
 date: "2018-09-08T08:20:20+03:00"
-featuredimage: /supermicro.jpg
+featuredimage: /supermicro.webp
 title: Supercharging Solus Infrastructure
 url: /2018/09/08/supercharging-solus-infrastructure
 ---

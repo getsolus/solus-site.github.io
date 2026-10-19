@@ -10,7 +10,7 @@ tags:
 - roundup
 date: "2020-11-26T17:08:12+02:00"
 disabletitlemodification: "yes"
-featuredimage: /the-roundup-17-featured.jpg
+featuredimage: /the-roundup-17-featured.webp
 title: 'Endless DE-ssert | The Roundup #17'
 url: /2020/11/26/endless-de-ssert-the-roundup-17
 ---
@@ -21,7 +21,7 @@ Welcome to The Roundup #17, your bytes of Solus news. In this roundup, we're tal
 
 ## Budgie
 
-![relimg](budgie-desktop-settings-with-view.jpg)
+![relimg](budgie-desktop-settings-with-view.webp)
 
 Since the early days of Budgie, we have been using Nautilus' (now legacy) desktop icons implementation to provide desktop icon support. While some other desktop environments have strayed away from providing this functionality over the years, some going so far as to remove it entirely and require you to jump through hoops to enable it, we have always recognized that for many it is a cornerstone of their desktop experience, and as such it has remained a priority for us to retain that aspect of the Budgie experience.
 
@@ -49,7 +49,7 @@ We look forward to introducing it as a "stable" release next week alongside Budg
 
 ## GNOME 3.38
 
-![relimg](gnome-3-38.jpg)
+![relimg](gnome-3-38.webp)
 
 This week we are also rolling out the GNOME 3.38 stack upgrade to the stable repository! This stack upgrade provides the latest and greatest in GNOME Shell, GNOME's desktop environment, as well as many of their applications.
 
@@ -243,7 +243,7 @@ KDE Frameworks are "addon libraries to Qt which provide a wide variety of common
 
 ## Plasma 5.20.3
 
-![relimg](plasma-with-system-settings.jpg)
+![relimg](plasma-with-system-settings.webp)
 
 If Budgie or GNOME Shell aren't your cups of coffee (or tea), this week's updates also include the latest Plasma 5.20.3! Here's a highlight of some improvements and fixes:
 

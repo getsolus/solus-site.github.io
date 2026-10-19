@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2025-05-05"
-featuredimage: /snap-banner-image.jpg
+featuredimage: /snap-banner-image.webp
 title: Update on Snaps
 url: /2025/05/05/snapd-update
 ---

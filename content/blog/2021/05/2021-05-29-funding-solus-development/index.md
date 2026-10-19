@@ -7,7 +7,7 @@ tags:
 - news
 - infrastructure
 date: "2021-05-29T21:58:55+03:00"
-featuredimage: /funding-solus-development.jpg
+featuredimage: /funding-solus-development.webp
 title: Funding Solus Development
 url: /2021/05/29/funding-solus-development
 ---

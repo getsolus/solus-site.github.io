@@ -7,7 +7,7 @@ tags:
 - budgie
 - news
 date: "2016-12-16T17:18:07+02:00"
-featuredimage: /budgie-10-2-9.jpg
+featuredimage: /budgie-10-2-9.webp
 title: Budgie 10.2.9 Released
 url: /2016/12/16/budgie-10-2-9-released
 ---
@@ -39,7 +39,7 @@ Multiple fixes have landed for the Places widget.
 
 ## Panel & Raven
 
-![relimg](budgie-10-2-9-replace.jpg)
+![relimg](budgie-10-2-9-replace.webp)
 
 Prior to Budgie 10.2.9, it was easy to accidentally remove a panel. Now, we show a confirmation popover when clicking the removal button, to ensure accidentally panel removal doesn't occur.
 

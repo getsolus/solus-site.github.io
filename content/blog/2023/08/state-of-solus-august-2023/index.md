@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2023-08-07T00:27:44+03:00"
-featuredimage: /StateOfSolusAugust2023.jpg
+featuredimage: /StateOfSolusAugust2023.webp
 title: State of Solus - August 2023
 url: /2023/08/07/state-of-solus-august-2023
 ---

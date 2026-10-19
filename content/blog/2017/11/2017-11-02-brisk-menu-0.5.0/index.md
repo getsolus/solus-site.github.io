@@ -6,7 +6,7 @@ authors:
 tags:
 - news
 date: "2017-11-02T20:55:31+02:00"
-featuredimage: /brisk-menu-0-5-0.jpg
+featuredimage: /brisk-menu-0-5-0.webp
 title: Brisk Menu 0.5.0 Released
 url: /2017/11/02/brisk-menu-0-5-0-released
 ---
@@ -20,7 +20,7 @@ So, what's new?
 
 ## Favourites support
 
-![relimg](brisk-menu-pin-to-favourites.jpg)
+![relimg](brisk-menu-pin-to-favourites.webp)
 
 Stefan Ric (cybre) added support for a new Favourites backend, that does exactly what it says on the tin. This adds a new Favourites category to the menu, and users can pin and unpin items from anywhere in the menu by right clicking on an item.
 
