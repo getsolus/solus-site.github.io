@@ -1,0 +1,40 @@
+{{- $src := .Destination -}}
+{{- $alt := .Text -}}
+{{- $img := .Page.Resources.GetMatch $src -}}
+{{- if not $img -}}
+  {{- $img = resources.Get $src -}}
+{{- end -}}
+{{- if $img -}}
+  {{- $widths := slice 480 768 1024 1366 1920 -}}
+  {{- $origWidth := $img.Width -}}
+  {{- $origHeight := $img.Height -}}
+  {{- $srcsetEntries := slice -}}
+  {{- range $w := $widths -}}
+    {{- if le $w $origWidth -}}
+      {{- $resized := $img.Process (printf "resize %dx webp q85" $w) -}}
+      {{- $srcsetEntries = $srcsetEntries | append (printf "%s %dw" $resized.RelPermalink $w) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $fallbackWidth := 1024 -}}
+  {{- if lt $origWidth 1024 -}}
+    {{- $fallbackWidth = $origWidth -}}
+  {{- end -}}
+  {{- $fallback := $img.Process (printf "resize %dx jpg q85" $fallbackWidth) -}}
+  <img
+    src="{{ $fallback.RelPermalink }}"
+    {{- if $srcsetEntries }}
+    srcset="{{ delimit $srcsetEntries ", " }}"
+    sizes="(max-width: 768px) 100vw, 720px"
+    {{- end }}
+    alt="{{ $alt }}"
+    width="{{ $origWidth }}"
+    height="{{ $origHeight }}"
+    {{- if eq .Ordinal 0 }}
+    fetchpriority="high"
+    {{- else }}
+    loading="lazy"
+    decoding="async"
+    {{- end }}>
+{{- else -}}
+  <img src="{{ $src }}" alt="{{ $alt }}">
+{{- end -}}
