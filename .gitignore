@@ -12,3 +12,8 @@ resources/
 .DS_Store
 .vscode/
 .zed/
+
+# Use webp, force exceptions manually where required
+*.jpg
+*.jpeg
+*.png
